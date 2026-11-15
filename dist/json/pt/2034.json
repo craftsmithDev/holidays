@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "country": "PT",
+  "year": 2034,
+  "holidays": [
+    {
+      "date": "2034-01-01",
+      "id": "pt.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "pt": "Ano Novo"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-02-21",
+      "id": "pt.shrove-tuesday",
+      "name": {
+        "en": "Carnival",
+        "pt": "Carnaval"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-04-02",
+      "id": "pt.madeira-autonomy-day",
+      "name": {
+        "en": "Autonomy Day",
+        "pt": "Dia da Autonomia"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "PT-30"
+      ],
+      "sources": [
+        "madeira-dlr-17-2024-m"
+      ]
+    },
+    {
+      "date": "2034-04-07",
+      "id": "pt.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "pt": "Sexta-Feira Santa"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-04-25",
+      "id": "pt.freedom-day",
+      "name": {
+        "en": "Freedom Day",
+        "pt": "Dia da Liberdade"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-05-01",
+      "id": "pt.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "pt": "Dia do Trabalhador"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-05-29",
+      "id": "pt.azores-day",
+      "name": {
+        "en": "Azores Day",
+        "pt": "Dia da Região Autónoma dos Açores"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "PT-20"
+      ],
+      "sources": [
+        "acores-dr-13-80-a"
+      ]
+    },
+    {
+      "date": "2034-06-08",
+      "id": "pt.corpus-christi",
+      "name": {
+        "en": "Corpus Christi",
+        "pt": "Corpo de Deus"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "lei-8-2016"
+      ]
+    },
+    {
+      "date": "2034-06-10",
+      "id": "pt.national-day",
+      "name": {
+        "en": "Portugal Day",
+        "pt": "Dia de Portugal, de Camões e das Comunidades Portuguesas"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-07-01",
+      "id": "pt.madeira-day",
+      "name": {
+        "en": "Madeira Day",
+        "pt": "Dia da Região e das Comunidades Madeirenses"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "PT-30"
+      ],
+      "sources": [
+        "madeira-dlr-18-2002-m",
+        "madeira-dlr-3-2004-m",
+        "madeira-dlr-39-2012-m"
+      ]
+    },
+    {
+      "date": "2034-08-15",
+      "id": "pt.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "pt": "Assunção de Nossa Senhora"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-10-05",
+      "id": "pt.republic-day",
+      "name": {
+        "en": "Republic Day",
+        "pt": "Implantação da República"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "lei-8-2016"
+      ]
+    },
+    {
+      "date": "2034-11-01",
+      "id": "pt.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "pt": "Dia de Todos-os-Santos"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "lei-8-2016"
+      ]
+    },
+    {
+      "date": "2034-12-01",
+      "id": "pt.restoration-of-independence",
+      "name": {
+        "en": "Restoration of Independence",
+        "pt": "Restauração da Independência"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "lei-8-2016"
+      ]
+    },
+    {
+      "date": "2034-12-08",
+      "id": "pt.immaculate-conception",
+      "name": {
+        "en": "Immaculate Conception",
+        "pt": "Imaculada Conceição"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-12-25",
+      "id": "pt.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "pt": "Natal"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-2003",
+        "ct-2009"
+      ]
+    },
+    {
+      "date": "2034-12-26",
+      "id": "pt.saint-stephen",
+      "name": {
+        "en": "First Octave of Christmas",
+        "pt": "Primeira Oitava"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "PT-30"
+      ],
+      "sources": [
+        "madeira-dlr-18-2002-m",
+        "madeira-dlr-3-2004-m",
+        "madeira-dlr-39-2012-m"
+      ]
+    }
+  ],
+  "sources": {
+    "ct-2003": {
+      "title": "Lei n.º 99/2003, de 27 de Agosto, aprova o Código do Trabalho",
+      "publisher": "Diário da República, I Série-A, n.º 197, 27.08.2003",
+      "law": "Código do Trabalho (2003), Art. 208 (feriados obrigatórios), Art. 209 (feriados facultativos)",
+      "url": "https://files.dre.pt/1s/2003/08/197a00/55585656.pdf",
+      "accessed": "2026-11-15"
+    },
+    "ct-2009": {
+      "title": "Lei n.º 7/2009, de 12 de Fevereiro, aprova a revisão do Código do Trabalho",
+      "publisher": "Diário da República, 1.ª série, n.º 30, 12.02.2009",
+      "law": "Código do Trabalho, Art. 234 (feriados obrigatórios), Art. 235 (feriados facultativos)",
+      "url": "https://files.dre.pt/1s/2009/02/03000/0092601029.pdf",
+      "accessed": "2026-11-15"
+    },
+    "lei-8-2016": {
+      "title": "Lei n.º 8/2016, de 1 de abril, procede à décima alteração ao Código do Trabalho, restabelecendo feriados nacionais",
+      "publisher": "Diário da República, 1.ª série, n.º 64, 01.04.2016",
+      "law": "Lei n.º 8/2016, Art. 2 (Código do Trabalho Art. 234 n.º 1)",
+      "url": "https://files.dre.pt/1s/2016/04/06400/0111201112.pdf",
+      "accessed": "2026-11-15"
+    },
+    "acores-dr-13-80-a": {
+      "title": "Decreto Regional n.º 13/80/A, de 21 de Agosto (Dia da Região Autónoma dos Açores)",
+      "publisher": "Diário da República, I Série, n.º 192, 21.08.1980, p. 2305",
+      "law": "Decreto Regional n.º 13/80/A, artigo único",
+      "url": "https://files.diariodarepublica.pt/1s/1980/08/19200/23052305.pdf",
+      "accessed": "2026-11-15"
+    },
+    "madeira-dlr-18-2002-m": {
+      "title": "Decreto Legislativo Regional n.º 18/2002/M, de 8 de Novembro, institui o dia 26 de Dezembro como feriado regional",
+      "publisher": "Jornal Oficial da Região Autónoma da Madeira, I Série, n.º 138, 19.11.2002",
+      "law": "Decreto Legislativo Regional n.º 18/2002/M, Art. 1",
+      "url": "https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202002/ISerie-138-2002-11-19.pdf",
+      "accessed": "2026-11-15"
+    },
+    "madeira-dlr-3-2004-m": {
+      "title": "Decreto Legislativo Regional n.º 3/2004/M, de 18 de Março, adapta à Região Autónoma da Madeira o Código do Trabalho",
+      "publisher": "Diário da República, I Série-A, n.º 66, 18.03.2004",
+      "law": "Decreto Legislativo Regional n.º 3/2004/M, Art. 7",
+      "url": "https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/DLR_3_2004_M.pdf",
+      "accessed": "2026-11-15"
+    },
+    "madeira-dlr-39-2012-m": {
+      "title": "Decreto Legislativo Regional n.º 39/2012/M, adaptação à Região Autónoma da Madeira das alterações ao Código do Trabalho",
+      "publisher": "Diário da República, 1.ª série, n.º 247, 21.12.2012",
+      "law": "Decreto Legislativo Regional n.º 39/2012/M, Art. 4",
+      "url": "https://files.diariodarepublica.pt/1s/2012/12/24700/0723807239.pdf",
+      "accessed": "2026-11-15"
+    },
+    "madeira-dlr-17-2024-m": {
+      "title": "Decreto Legislativo Regional n.º 17/2024/M, institui o feriado do Dia da Autonomia",
+      "publisher": "Diário da República, 1.ª série, n.º 243, 16.12.2024",
+      "law": "Decreto Legislativo Regional n.º 17/2024/M, Art. 1",
+      "url": "https://madeira.gov.pt//Portals/25/Documentos/Legislacao/DLR_17_2024_M.pdf",
+      "accessed": "2026-11-15"
+    }
+  }
+}

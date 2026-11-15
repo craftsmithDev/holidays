@@ -1,0 +1,94 @@
+# Maltese holidays: the five National Holidays (Cap. 252 Art. 2) and the nine
+# public holidays of the Schedule (Art. 5(1)). The list has been unchanged
+# since Act VIII of 1989. Sundays are public holidays by Art. 5(1) as well
+# and are not listed (decision D7).
+#
+# Holidays on a weekend are not moved and have no substitute date; see the
+# note in country.yaml and docs/verification/mt.md. The Prime Minister may
+# add or cancel a day by notice in the Gazette (Art. 5(2)); no such notice is
+# modelled.
+
+holidays:
+  - id: mt.new-year
+    names: {en: New Year’s Day, mt: L-Ewwel tas-Sena}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.saint-pauls-shipwreck
+    names: {en: Feast of St. Paul’s Shipwreck, mt: Il-Festa tan-Nawfraġju ta’ San Pawl}
+    date: {type: fixed, month: 2, day: 10}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.saint-joseph
+    names: {en: Feast of St. Joseph, mt: Il-Festa ta’ San Ġużepp}
+    date: {type: fixed, month: 3, day: 19}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.freedom-day
+    names: {en: Freedom Day, mt: Jum il-Ħelsien}
+    date: {type: fixed, month: 3, day: 31}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.good-friday
+    names: {en: Good Friday, mt: Il-Ġimgħa l-Kbira}
+    date: {type: easter, offset: -2}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.labour-day
+    names: {en: Workers’ Day, mt: Jum il-Ħaddiem}
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.sette-giugno
+    names: {en: Sette Giugno, mt: Sette Giugno}
+    date: {type: fixed, month: 6, day: 7}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.saints-peter-and-paul
+    names: {en: Feast of St. Peter and St. Paul, mt: Il-Festa ta’ San Pietru u San Pawl}
+    date: {type: fixed, month: 6, day: 29}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.assumption
+    names: {en: Feast of the Assumption, mt: Il-Festa ta’ Santa Marija}
+    date: {type: fixed, month: 8, day: 15}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.victory-day
+    names: {en: Victory Day, mt: Jum il-Vittorja}
+    date: {type: fixed, month: 9, day: 8}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.independence-day
+    names: {en: Independence Day, mt: Jum l-Indipendenza}
+    date: {type: fixed, month: 9, day: 21}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.immaculate-conception
+    names: {en: Feast of the Immaculate Conception, mt: Il-Festa tal-Immakulata Kunċizzjoni}
+    date: {type: fixed, month: 12, day: 8}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.republic-day
+    names: {en: Republic Day, mt: Jum ir-Repubblika}
+    date: {type: fixed, month: 12, day: 13}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}
+
+  - id: mt.christmas
+    names: {en: Christmas Day, mt: Il-Milied}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - {regions: all, type: public, sources: [cap-252-en, cap-252-mt]}

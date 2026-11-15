@@ -14,6 +14,8 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 |---|---|---|
 | Switzerland (CH) | 26 cantons | `public` = equal to Sunday under the Labour Act (ArG Art. 20a); see [verification](docs/verification/ch.md) |
 | Liechtenstein (LI) | 11 municipalities | `public` = Labour Act Art. 18; see [verification](docs/verification/li.md) |
+| Malta (MT) | none | `public` = National Holidays and public holidays of Cap. 252; no substitute days; see [verification](docs/verification/mt.md) |
+| Portugal (PT) | 18 districts, Azores, Madeira | `public` = Labour Code Art. 234 and regional decrees; Carnival is an `observance`; see [verification](docs/verification/pt.md) |
 
 More Western European countries follow in the same format.
 

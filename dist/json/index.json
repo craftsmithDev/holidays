@@ -343,6 +343,170 @@
           }
         }
       ]
+    },
+    {
+      "code": "MT",
+      "names": {
+        "mt": "Malta",
+        "en": "Malta"
+      },
+      "languages": [
+        "mt",
+        "en"
+      ],
+      "regions": []
+    },
+    {
+      "code": "PT",
+      "names": {
+        "pt": "Portugal",
+        "en": "Portugal"
+      },
+      "languages": [
+        "pt"
+      ],
+      "regions": [
+        {
+          "code": "PT-01",
+          "names": {
+            "pt": "Aveiro",
+            "en": "Aveiro"
+          }
+        },
+        {
+          "code": "PT-02",
+          "names": {
+            "pt": "Beja",
+            "en": "Beja"
+          }
+        },
+        {
+          "code": "PT-03",
+          "names": {
+            "pt": "Braga",
+            "en": "Braga"
+          }
+        },
+        {
+          "code": "PT-04",
+          "names": {
+            "pt": "Bragança",
+            "en": "Bragança"
+          }
+        },
+        {
+          "code": "PT-05",
+          "names": {
+            "pt": "Castelo Branco",
+            "en": "Castelo Branco"
+          }
+        },
+        {
+          "code": "PT-06",
+          "names": {
+            "pt": "Coimbra",
+            "en": "Coimbra"
+          }
+        },
+        {
+          "code": "PT-07",
+          "names": {
+            "pt": "Évora",
+            "en": "Évora"
+          }
+        },
+        {
+          "code": "PT-08",
+          "names": {
+            "pt": "Faro",
+            "en": "Faro"
+          }
+        },
+        {
+          "code": "PT-09",
+          "names": {
+            "pt": "Guarda",
+            "en": "Guarda"
+          }
+        },
+        {
+          "code": "PT-10",
+          "names": {
+            "pt": "Leiria",
+            "en": "Leiria"
+          }
+        },
+        {
+          "code": "PT-11",
+          "names": {
+            "pt": "Lisboa",
+            "en": "Lisbon"
+          }
+        },
+        {
+          "code": "PT-12",
+          "names": {
+            "pt": "Portalegre",
+            "en": "Portalegre"
+          }
+        },
+        {
+          "code": "PT-13",
+          "names": {
+            "pt": "Porto",
+            "en": "Porto"
+          }
+        },
+        {
+          "code": "PT-14",
+          "names": {
+            "pt": "Santarém",
+            "en": "Santarém"
+          }
+        },
+        {
+          "code": "PT-15",
+          "names": {
+            "pt": "Setúbal",
+            "en": "Setúbal"
+          }
+        },
+        {
+          "code": "PT-16",
+          "names": {
+            "pt": "Viana do Castelo",
+            "en": "Viana do Castelo"
+          }
+        },
+        {
+          "code": "PT-17",
+          "names": {
+            "pt": "Vila Real",
+            "en": "Vila Real"
+          }
+        },
+        {
+          "code": "PT-18",
+          "names": {
+            "pt": "Viseu",
+            "en": "Viseu"
+          }
+        },
+        {
+          "code": "PT-20",
+          "names": {
+            "pt": "Região Autónoma dos Açores",
+            "en": "Azores"
+          }
+        },
+        {
+          "code": "PT-30",
+          "names": {
+            "pt": "Região Autónoma da Madeira",
+            "en": "Madeira"
+          }
+        }
+      ]
     }
   ]
 }

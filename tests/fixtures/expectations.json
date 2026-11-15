@@ -642,6 +642,140 @@
         ]
       ],
       "expect": true
+    },
+    {
+      "name": "PT 2014: Corpus Christi, 5 October, 1 November and 1 December suspended (Lei 23/2012)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "PT",
+        2014,
+        null,
+        null
+      ],
+      "expect": [
+        "2014-01-01 pt.new-year public",
+        "2014-04-18 pt.good-friday public",
+        "2014-04-25 pt.freedom-day public",
+        "2014-05-01 pt.labour-day public",
+        "2014-06-10 pt.national-day public",
+        "2014-08-15 pt.assumption public",
+        "2014-12-08 pt.immaculate-conception public",
+        "2014-12-25 pt.christmas public"
+      ]
+    },
+    {
+      "name": "PT 1 December restored from 2016 (Lei 8/2016)",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2016-12-01",
+        "PT",
+        null,
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "PT 1 December not a holiday in 2015",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2015-12-01",
+        "PT",
+        null,
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "PT Madeira 2025: Autonomy Day from 2025, Madeira Day, 26 December; Carnival is an observance",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "PT",
+        2025,
+        "30",
+        "all"
+      ],
+      "expect": [
+        "2025-01-01 pt.new-year public",
+        "2025-03-04 pt.shrove-tuesday observance",
+        "2025-04-02 pt.madeira-autonomy-day public",
+        "2025-04-18 pt.good-friday public",
+        "2025-04-25 pt.freedom-day public",
+        "2025-05-01 pt.labour-day public",
+        "2025-06-10 pt.national-day public",
+        "2025-06-19 pt.corpus-christi public",
+        "2025-07-01 pt.madeira-day public",
+        "2025-08-15 pt.assumption public",
+        "2025-10-05 pt.republic-day public",
+        "2025-11-01 pt.all-saints public",
+        "2025-12-01 pt.restoration-of-independence public",
+        "2025-12-08 pt.immaculate-conception public",
+        "2025-12-25 pt.christmas public",
+        "2025-12-26 pt.saint-stephen public"
+      ]
+    },
+    {
+      "name": "PT Madeira Autonomy Day not before 2025",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2024-04-02",
+        "PT",
+        "PT-30",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "PT Azores Day is Whit Monday, Azores only",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2026-05-01",
+        "PT",
+        "PT-20",
+        null
+      ],
+      "expect": "2026-05-25 pt.azores-day public"
+    },
+    {
+      "name": "PT Azores Day not in Lisbon",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-05-25",
+        "PT",
+        "PT-11",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "MT Sette Giugno 2026 on a Sunday: no substitute day",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2026-06-07",
+        "MT",
+        null,
+        null
+      ],
+      "expect": "2026-06-29 mt.saints-peter-and-paul public"
+    },
+    {
+      "name": "MT Good Friday 2027",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2027-03-26",
+        "MT",
+        null,
+        null
+      ],
+      "expect": true
     }
   ]
 }

@@ -1,0 +1,92 @@
+# Portugal. Regions: the 18 districts and the 2 autonomous regions
+# (ISO 3166-2:PT). The districts share the national holidays; only the
+# autonomous regions (Açores PT-20, Madeira PT-30) add their own. Municipal
+# holidays (feriado municipal) are not modelled (country and region only).
+#
+# Types in this file:
+# - public: a mandatory holiday (feriado obrigatório) under the Labour Code
+#   (Código do Trabalho of 2009, Art. 234; before it Art. 208 of the
+#   2003 code), or a regional holiday set by a regional legislative decree of
+#   the Azores or Madeira.
+# - observance: an optional holiday (feriado facultativo, Labour Code
+#   Art. 235): a day off only where a collective agreement or the employment
+#   contract grants it.
+code: PT
+names: {pt: Portugal, en: Portugal}
+languages: [pt]
+regions:
+  - {code: PT-01, names: {pt: Aveiro, en: Aveiro}}
+  - {code: PT-02, names: {pt: Beja, en: Beja}}
+  - {code: PT-03, names: {pt: Braga, en: Braga}}
+  - {code: PT-04, names: {pt: Bragança, en: Bragança}}
+  - {code: PT-05, names: {pt: Castelo Branco, en: Castelo Branco}}
+  - {code: PT-06, names: {pt: Coimbra, en: Coimbra}}
+  - {code: PT-07, names: {pt: Évora, en: Évora}}
+  - {code: PT-08, names: {pt: Faro, en: Faro}}
+  - {code: PT-09, names: {pt: Guarda, en: Guarda}}
+  - {code: PT-10, names: {pt: Leiria, en: Leiria}}
+  - {code: PT-11, names: {pt: Lisboa, en: Lisbon}}
+  - {code: PT-12, names: {pt: Portalegre, en: Portalegre}}
+  - {code: PT-13, names: {pt: Porto, en: Porto}}
+  - {code: PT-14, names: {pt: Santarém, en: Santarém}}
+  - {code: PT-15, names: {pt: Setúbal, en: Setúbal}}
+  - {code: PT-16, names: {pt: Viana do Castelo, en: Viana do Castelo}}
+  - {code: PT-17, names: {pt: Vila Real, en: Vila Real}}
+  - {code: PT-18, names: {pt: Viseu, en: Viseu}}
+  - {code: PT-20, names: {pt: Região Autónoma dos Açores, en: Azores}}
+  - {code: PT-30, names: {pt: Região Autónoma da Madeira, en: Madeira}}
+sources:
+  ct-2003:
+    title: Lei n.º 99/2003, de 27 de Agosto, aprova o Código do Trabalho
+    publisher: Diário da República, I Série-A, n.º 197, 27.08.2003
+    law: Código do Trabalho (2003), Art. 208 (feriados obrigatórios), Art. 209 (feriados facultativos)
+    url: https://files.dre.pt/1s/2003/08/197a00/55585656.pdf
+    accessed: "2026-11-15"
+  ct-2009:
+    title: Lei n.º 7/2009, de 12 de Fevereiro, aprova a revisão do Código do Trabalho
+    publisher: Diário da República, 1.ª série, n.º 30, 12.02.2009
+    law: Código do Trabalho, Art. 234 (feriados obrigatórios), Art. 235 (feriados facultativos)
+    url: https://files.dre.pt/1s/2009/02/03000/0092601029.pdf
+    accessed: "2026-11-15"
+  lei-23-2012:
+    title: Lei n.º 23/2012, de 25 de junho, procede à terceira alteração ao Código do Trabalho
+    publisher: Diário da República, 1.ª série, n.º 121, 25.06.2012
+    law: Lei n.º 23/2012, Art. 2 (Código do Trabalho Art. 234 n.º 1) and Art. 10 n.º 1
+    url: https://files.dre.pt/1s/2012/06/12100/0315803169.pdf
+    accessed: "2026-11-15"
+  lei-8-2016:
+    title: Lei n.º 8/2016, de 1 de abril, procede à décima alteração ao Código do Trabalho, restabelecendo feriados nacionais
+    publisher: Diário da República, 1.ª série, n.º 64, 01.04.2016
+    law: Lei n.º 8/2016, Art. 2 (Código do Trabalho Art. 234 n.º 1)
+    url: https://files.dre.pt/1s/2016/04/06400/0111201112.pdf
+    accessed: "2026-11-15"
+  acores-dr-13-80-a:
+    title: Decreto Regional n.º 13/80/A, de 21 de Agosto (Dia da Região Autónoma dos Açores)
+    publisher: Diário da República, I Série, n.º 192, 21.08.1980, p. 2305
+    law: Decreto Regional n.º 13/80/A, artigo único
+    url: https://files.diariodarepublica.pt/1s/1980/08/19200/23052305.pdf
+    accessed: "2026-11-15"
+  madeira-dlr-18-2002-m:
+    title: Decreto Legislativo Regional n.º 18/2002/M, de 8 de Novembro, institui o dia 26 de Dezembro como feriado regional
+    publisher: Jornal Oficial da Região Autónoma da Madeira, I Série, n.º 138, 19.11.2002
+    law: Decreto Legislativo Regional n.º 18/2002/M, Art. 1
+    url: https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202002/ISerie-138-2002-11-19.pdf
+    accessed: "2026-11-15"
+  madeira-dlr-3-2004-m:
+    title: Decreto Legislativo Regional n.º 3/2004/M, de 18 de Março, adapta à Região Autónoma da Madeira o Código do Trabalho
+    publisher: Diário da República, I Série-A, n.º 66, 18.03.2004
+    law: Decreto Legislativo Regional n.º 3/2004/M, Art. 7
+    url: https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/DLR_3_2004_M.pdf
+    accessed: "2026-11-15"
+  madeira-dlr-39-2012-m:
+    title: Decreto Legislativo Regional n.º 39/2012/M, adaptação à Região Autónoma da Madeira das alterações ao Código do Trabalho
+    publisher: Diário da República, 1.ª série, n.º 247, 21.12.2012
+    law: Decreto Legislativo Regional n.º 39/2012/M, Art. 4
+    url: https://files.diariodarepublica.pt/1s/2012/12/24700/0723807239.pdf
+    accessed: "2026-11-15"
+  madeira-dlr-17-2024-m:
+    title: Decreto Legislativo Regional n.º 17/2024/M, institui o feriado do Dia da Autonomia
+    publisher: Diário da República, 1.ª série, n.º 243, 16.12.2024
+    law: Decreto Legislativo Regional n.º 17/2024/M, Art. 1
+    url: https://madeira.gov.pt//Portals/25/Documentos/Legislacao/DLR_17_2024_M.pdf
+    accessed: "2026-11-15"
