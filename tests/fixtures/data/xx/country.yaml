@@ -1,0 +1,21 @@
+# Test fixture: an invented country with two regions. It exercises every
+# rule type and the hard cases of docs/format.md. Not real data.
+code: XX
+names: {en: Testland, de: Testland}
+languages: [de]
+regions:
+  - code: XX-AA
+    names: {en: Alpha, de: Alpha}
+  - code: XX-BB
+    names: {en: Beta, de: Beta}
+sources:
+  fixture:
+    title: Test fixture
+    url: https://example.org/fixture
+    accessed: "2026-11-15"
+  fixture-law:
+    title: Test fixture law
+    publisher: Nobody
+    law: Fixture Act, s. 1
+    url: https://example.org/law
+    accessed: "2026-11-15"

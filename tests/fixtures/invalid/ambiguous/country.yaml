@@ -1,0 +1,8 @@
+# Invalid on purpose: two observances of the same rank match XX-AA.
+code: XX
+names: {en: Ambiguous}
+languages: [en]
+regions:
+  - {code: XX-AA, names: {en: Alpha}}
+sources:
+  s: {title: Test, url: "https://example.org", accessed: "2026-11-15"}

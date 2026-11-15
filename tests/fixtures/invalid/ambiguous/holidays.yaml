@@ -1,0 +1,7 @@
+holidays:
+  - id: xx.day
+    names: {en: Day}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: [XX-AA], type: public, sources: [s]}
+      - {regions: [XX-AA], type: observance, sources: [s]}

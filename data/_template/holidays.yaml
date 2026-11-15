@@ -1,0 +1,32 @@
+# Holiday template. One entry per holiday; the order of entries is the order
+# of same-day holidays in the output. Field reference: docs/format.md.
+
+holidays:
+  # A nationwide public holiday on a fixed date.
+  - id: xx.new-year                      # <cc>.<slug>, never change once published
+    names: {en: New Year’s Day, de: Neujahr}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - regions: all
+        type: public                     # public | bank | observance
+        sources: [holiday-act]
+
+  # An Easter-based holiday that one region does not observe.
+  - id: xx.good-friday
+    names: {en: Good Friday, de: Karfreitag}
+    date: {type: easter, offset: -2}
+    observances:
+      - regions: all
+        except: [XX-BB]
+        type: public
+        sources: [holiday-act]
+
+  # A regional half day.
+  - id: xx.christmas-eve
+    names: {en: Christmas Eve, de: Heiligabend}
+    date: {type: fixed, month: 12, day: 24}
+    observances:
+      - regions: [XX-AA]
+        type: public
+        startTime: "12:00"
+        sources: [holiday-act]

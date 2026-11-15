@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/craftsmithDev/holidays@main/schema/index.schema.json",
+  "title": "Index file (dist/json/index.json)",
+  "description": "Countries and regions covered, and the range of precomputed year files.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "years", "countries"],
+  "properties": {
+    "format": { "const": 1 },
+    "years": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to"],
+      "properties": { "from": { "type": "integer" }, "to": { "type": "integer" } }
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "names", "languages", "regions"],
+        "properties": {
+          "code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "names": { "type": "object", "required": ["en"], "additionalProperties": { "type": "string" } },
+          "languages": { "type": "array", "items": { "type": "string" } },
+          "regions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["code", "names"],
+              "properties": {
+                "code": { "type": "string" },
+                "names": { "type": "object", "required": ["en"], "additionalProperties": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

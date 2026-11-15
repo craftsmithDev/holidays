@@ -1,0 +1,149 @@
+holidays:
+  # UK-style substitute with chaining: Christmas and Boxing Day.
+  - id: xx.christmas
+    names: {en: Christmas Day, de: Weihnachten}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - regions: all
+        type: public
+        substitute: {when: {weekday: [sat, sun]}, avoidWeekdays: [sat, sun]}
+        sources: [fixture]
+  - id: xx.boxing-day
+    names: {en: Boxing Day, de: Stephanstag}
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - regions: all
+        type: public
+        substitute: {when: {weekday: [sat, sun]}, avoidWeekdays: [sat, sun]}
+        sources: [fixture]
+  # Substitute that crosses into the next year.
+  - id: xx.new-years-eve
+    names: {en: New Year's Eve, de: Silvester}
+    date: {type: fixed, month: 12, day: 31}
+    observances:
+      - regions: [XX-BB]
+        type: public
+        substitute: {when: {weekday: [sat, sun]}, avoidWeekdays: [sat, sun]}
+        sources: [fixture]
+  - id: xx.new-year
+    names: {en: New Year's Day, de: Neujahr}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - regions: all
+        type: public
+        sources: [fixture-law]
+  # Last Monday of May; regional opt-out with except.
+  - id: xx.spring-bank
+    names: {en: Spring Bank Holiday, de: Frühlingsfeiertag}
+    date: {type: nthWeekday, month: 5, weekday: mon, nth: -1}
+    observances:
+      - regions: all
+        except: [XX-BB]
+        type: bank
+        sources: [fixture]
+  # Weekday on or after a date (Midsummer Eve style) with a half day.
+  - id: xx.midsummer-eve
+    names: {en: Midsummer Eve, de: Mittsommerabend}
+    date: {type: relativeWeekday, weekday: fri, direction: onOrAfter, base: {type: fixed, month: 6, day: 19}}
+    observances:
+      - regions: all
+        type: public
+        startTime: "12:00"
+        sources: [fixture]
+  # Conditional shift: first Thursday of April, a week later in Holy Week.
+  - id: xx.pilgrimage
+    names: {en: Pilgrimage, de: Fahrt}
+    date:
+      type: nthWeekday
+      month: 4
+      weekday: thu
+      nth: 1
+      adjust:
+        - when: {between: {from: {type: easter, offset: -7}, to: {type: easter, offset: -1}}}
+          offset: 7
+    observances:
+      - regions: [XX-AA]
+        type: public
+        sources: [fixture]
+  # Region-specific override of a national observance (type and adjust).
+  - id: xx.saint-day
+    names: {en: Saint's Day, de: Heiligentag}
+    date: {type: fixed, month: 12, day: 27}
+    observances:
+      - regions: all
+        type: observance
+        sources: [fixture]
+      - regions: [XX-AA]
+        type: public
+        adjust:
+          - when: {weekday: [tue, sat]}
+            skip: true
+        sources: [fixture-law]
+  # moveTo: a Sunday date moves to the next Monday.
+  - id: xx.moved-day
+    names: {en: Moved Day, de: Verschobener Tag}
+    date:
+      type: fixed
+      month: 3
+      day: 17
+      adjust:
+        - when: {weekday: [sun]}
+          moveTo: {weekday: mon, direction: after}
+    observances:
+      - regions: all
+        type: public
+        sources: [fixture]
+  # Orthodox Easter Monday, only from 2020.
+  - id: xx.orthodox-easter-monday
+    names: {en: Orthodox Easter Monday, de: Orthodoxer Ostermontag}
+    date: {type: easter, calendar: orthodox, offset: 1}
+    from: 2020
+    observances:
+      - regions: [XX-BB]
+        type: observance
+        sources: [fixture]
+  # Date changed by law in 2010; observance only until 2030.
+  - id: xx.law-day
+    names: {en: Law Day, de: Gesetzestag}
+    date:
+      - {type: fixed, month: 5, day: 5, to: 2009}
+      - {type: nthWeekday, month: 5, weekday: mon, nth: 1, from: 2010}
+    observances:
+      - regions: all
+        type: public
+        to: 2030
+        sources: [fixture-law]
+  # One-off dates and yearly decree tables.
+  - id: xx.royal-wedding
+    names: {en: Royal Wedding, de: Königliche Hochzeit}
+    date: {type: list, dates: ["2026-06-12"]}
+    observances:
+      - regions: all
+        type: public
+        sources: [fixture]
+  - id: xx.decree-day
+    names: {en: Decree Day, de: Erlasstag}
+    date: {type: list, dates: ["2026-03-19", "2027-03-22"]}
+    observances:
+      - regions: [XX-AA]
+        type: public
+        years: [2026]
+        sources: [fixture]
+      - regions: [XX-BB]
+        type: public
+        sources: [fixture]
+        note: XX-AA had the day only in 2026; XX-BB in every listed year.
+  # Same-date condition: skip the day when it coincides with Easter Monday.
+  - id: xx.clash-day
+    names: {en: Clash Day, de: Kollisionstag}
+    date:
+      type: fixed
+      month: 4
+      day: 5
+      adjust:
+        - when: {sameDateAs: {type: easter, offset: 1}}
+          skip: true
+    observances:
+      - regions: all
+        type: observance
+        sources: [fixture]
