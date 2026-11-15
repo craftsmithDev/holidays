@@ -14,6 +14,8 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 |---|---|---|
 | Switzerland (CH) | 26 cantons | `public` = equal to Sunday under the Labour Act (ArG Art. 20a); see [verification](docs/verification/ch.md) |
 | Liechtenstein (LI) | 11 municipalities | `public` = Labour Act Art. 18; see [verification](docs/verification/li.md) |
+| United Kingdom (GB) | England, Northern Ireland, Scotland, Wales | `public` = bank holiday (1971 Act, Royal Proclamations), with substitute days; see [verification](docs/verification/gb.md) |
+| Ireland (IE) | none | `public` = Organisation of Working Time Act 1997, Sch. 2; no substitute days; see [verification](docs/verification/ie.md) |
 
 More Western European countries follow in the same format.
 

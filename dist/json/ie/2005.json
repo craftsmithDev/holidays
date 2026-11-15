@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "country": "IE",
+  "year": 2005,
+  "holidays": [
+    {
+      "date": "2005-01-01",
+      "id": "ie.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "ga": "Lá Caille"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-03-17",
+      "id": "ie.saint-patrick",
+      "name": {
+        "en": "Saint Patrick’s Day",
+        "ga": "Lá Fhéile Pádraig"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-03-28",
+      "id": "ie.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "ga": "Luan na Cásca"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-05-02",
+      "id": "ie.may-bank-holiday",
+      "name": {
+        "en": "First Monday in May",
+        "ga": "An chéad Luan i mí na Bealtaine"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-06-06",
+      "id": "ie.june-bank-holiday",
+      "name": {
+        "en": "First Monday in June",
+        "ga": "An chéad Luan i mí an Mheithimh"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-08-01",
+      "id": "ie.august-bank-holiday",
+      "name": {
+        "en": "First Monday in August",
+        "ga": "An chéad Luan i mí Lúnasa"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-10-31",
+      "id": "ie.october-bank-holiday",
+      "name": {
+        "en": "Last Monday in October",
+        "ga": "An Luan deireanach i mí Dheireadh Fómhair"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-12-25",
+      "id": "ie.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "ga": "Lá Nollag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    },
+    {
+      "date": "2005-12-26",
+      "id": "ie.saint-stephen",
+      "name": {
+        "en": "Saint Stephen’s Day",
+        "ga": "Lá Fhéile Stiofáin"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "owta-1997",
+        "wrc-public-holidays",
+        "fssu-public-holidays"
+      ]
+    }
+  ],
+  "sources": {
+    "owta-1997": {
+      "title": "Organisation of Working Time Act 1997, Second Schedule (Public Holidays), revised, updated to 20 January 2025",
+      "publisher": "Law Reform Commission (Revised Acts)",
+      "law": "Organisation of Working Time Act 1997 (No. 20 of 1997), s. 21 and Sch. 2 para. 1",
+      "url": "https://revisedacts.lawreform.ie/eli/1997/act/20/revised/en/html",
+      "accessed": "2026-11-15"
+    },
+    "wrc-public-holidays": {
+      "title": "Public Holidays",
+      "publisher": "Workplace Relations Commission",
+      "url": "https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/",
+      "accessed": "2026-11-15"
+    },
+    "fssu-public-holidays": {
+      "title": "Financial Guideline P10 Public Holidays 2026 / Laethanta Saoire Poiblí 2026 (English and Irish); P16 Public holidays 2022",
+      "publisher": "Financial Support Services Unit (FSSU), funded by the Department of Education",
+      "url": "https://www.fssu.ie/app/uploads/2025/11/P10-26-Financial-Guideline-Public-Holidays-2025-2026.pdf",
+      "accessed": "2026-11-15"
+    }
+  }
+}
