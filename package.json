@@ -1,0 +1,47 @@
+{
+  "name": "@craftsmith/holidays",
+  "version": "0.1.0",
+  "description": "Public holidays of Western Europe with sources: national and regional, half days, substitute days. Same data and results as the Composer package craftsmith/holidays.",
+  "license": "MIT",
+  "author": "craftsmith",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./js/index.d.ts",
+      "default": "./js/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./js/index.d.ts",
+  "files": [
+    "js/",
+    "schema/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "holidays",
+    "public holidays",
+    "bank holidays",
+    "calendar",
+    "switzerland",
+    "liechtenstein",
+    "europe"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/js/*.test.js",
+    "test:types": "tsc -p tsconfig.json",
+    "compare": "node scripts/compare.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "date-holidays": "^3.39.2",
+    "js-yaml": "^4.3.2",
+    "typescript": "^5.9.3"
+  }
+}
