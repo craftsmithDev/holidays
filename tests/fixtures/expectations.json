@@ -1,0 +1,224 @@
+{
+  "about": "Cases both runtimes must pass (tests/js/expectations.test.js, tests/php/ExpectationsTest.php). data: fixtures = tests/fixtures/rules, bundled = the shipped data. A holiday is written as 'date id[ for original][ from startTime] type'.",
+  "all": ["public", "bank", "observance"],
+  "cases": [
+    {
+      "name": "substitute chaining: Saturday Christmas, Sunday Boxing Day, Monday already a regional holiday",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2027, "XX-AA", "all"],
+      "expect": [
+        "2027-01-01 xx.new-year public",
+        "2027-03-17 xx.moved-day public",
+        "2027-04-01 xx.pilgrimage public",
+        "2027-04-05 xx.clash-day observance",
+        "2027-05-03 xx.law-day public",
+        "2027-05-31 xx.spring-bank bank",
+        "2027-06-25 xx.midsummer-eve from 12:00 public",
+        "2027-12-25 xx.christmas public",
+        "2027-12-26 xx.boxing-day public",
+        "2027-12-27 xx.saint-day public",
+        "2027-12-28 xx.christmas for 2027-12-25 public",
+        "2027-12-29 xx.boxing-day for 2027-12-26 public"
+      ]
+    },
+    {
+      "name": "substitute skips a day taken by another holiday; observances do not block",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2022, "XX-BB", "all"],
+      "expect": [
+        "2022-01-01 xx.new-year public",
+        "2022-03-17 xx.moved-day public",
+        "2022-04-05 xx.clash-day observance",
+        "2022-04-25 xx.orthodox-easter-monday observance",
+        "2022-05-02 xx.law-day public",
+        "2022-06-24 xx.midsummer-eve from 12:00 public",
+        "2022-12-25 xx.christmas public",
+        "2022-12-26 xx.boxing-day public",
+        "2022-12-27 xx.christmas for 2022-12-25 public",
+        "2022-12-27 xx.saint-day observance",
+        "2022-12-31 xx.new-years-eve public"
+      ]
+    },
+    {
+      "name": "a substitute for 31 December lands in the next year",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2023, "XX-BB", ["public"]],
+      "expect": [
+        "2023-01-01 xx.new-year public",
+        "2023-01-02 xx.new-years-eve for 2022-12-31 public",
+        "2023-03-17 xx.moved-day public",
+        "2023-05-01 xx.law-day public",
+        "2023-06-23 xx.midsummer-eve from 12:00 public",
+        "2023-12-25 xx.christmas public",
+        "2023-12-26 xx.boxing-day public",
+        "2023-12-31 xx.new-years-eve public"
+      ]
+    },
+    {
+      "name": "list rule (one-off, decree table with years), Holy Week shift, Sunday saint day",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2026, "XX-AA", "all"],
+      "expect": [
+        "2026-01-01 xx.new-year public",
+        "2026-03-17 xx.moved-day public",
+        "2026-03-19 xx.decree-day public",
+        "2026-04-05 xx.clash-day observance",
+        "2026-04-09 xx.pilgrimage public",
+        "2026-05-04 xx.law-day public",
+        "2026-05-25 xx.spring-bank bank",
+        "2026-06-12 xx.royal-wedding public",
+        "2026-06-19 xx.midsummer-eve from 12:00 public",
+        "2026-12-25 xx.christmas public",
+        "2026-12-26 xx.boxing-day public",
+        "2026-12-27 xx.saint-day public",
+        "2026-12-28 xx.boxing-day for 2026-12-26 public"
+      ]
+    },
+    {
+      "name": "regional adjust skip (saint day on a Saturday) and regional opt-out (except)",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2025, "XX-AA", "all"],
+      "expect": [
+        "2025-01-01 xx.new-year public",
+        "2025-03-17 xx.moved-day public",
+        "2025-04-03 xx.pilgrimage public",
+        "2025-04-05 xx.clash-day observance",
+        "2025-05-05 xx.law-day public",
+        "2025-05-26 xx.spring-bank bank",
+        "2025-06-20 xx.midsummer-eve from 12:00 public",
+        "2025-12-25 xx.christmas public",
+        "2025-12-26 xx.boxing-day public"
+      ]
+    },
+    {
+      "name": "moveTo (Sunday → Monday), Orthodox Easter Monday, law change in 2010",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2024, "XX-BB", "all"],
+      "expect": [
+        "2024-01-01 xx.new-year public",
+        "2024-01-02 xx.new-years-eve for 2023-12-31 public",
+        "2024-03-18 xx.moved-day public",
+        "2024-04-05 xx.clash-day observance",
+        "2024-05-06 xx.orthodox-easter-monday observance",
+        "2024-05-06 xx.law-day public",
+        "2024-06-21 xx.midsummer-eve from 12:00 public",
+        "2024-12-25 xx.christmas public",
+        "2024-12-26 xx.boxing-day public",
+        "2024-12-27 xx.saint-day observance",
+        "2024-12-31 xx.new-years-eve public"
+      ]
+    },
+    {
+      "name": "without a region only nationwide entries; sameDateAs skip (5 April = Easter Monday 2021)",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2021, null, "all"],
+      "expect": [
+        "2021-01-01 xx.new-year public",
+        "2021-03-17 xx.moved-day public",
+        "2021-05-03 xx.law-day public",
+        "2021-06-25 xx.midsummer-eve from 12:00 public",
+        "2021-12-25 xx.christmas public",
+        "2021-12-26 xx.boxing-day public"
+      ]
+    },
+    {
+      "name": "old date rule before 2010, no Orthodox holiday before 2020",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2009, "XX-BB", ["observance", "public"]],
+      "expect": [
+        "2009-01-01 xx.new-year public",
+        "2009-03-17 xx.moved-day public",
+        "2009-04-05 xx.clash-day observance",
+        "2009-05-05 xx.law-day public",
+        "2009-06-19 xx.midsummer-eve from 12:00 public",
+        "2009-12-25 xx.christmas public",
+        "2009-12-26 xx.boxing-day public",
+        "2009-12-27 xx.saint-day observance",
+        "2009-12-28 xx.boxing-day for 2009-12-26 public",
+        "2009-12-31 xx.new-years-eve public"
+      ]
+    },
+    {
+      "name": "observance validity ends (law day until 2030); decree day only for XX-BB in 2027",
+      "data": "fixtures", "method": "holidays", "args": ["XX", 2031, "XX-BB", ["public"]],
+      "expect": [
+        "2031-01-01 xx.new-year public",
+        "2031-03-17 xx.moved-day public",
+        "2031-06-20 xx.midsummer-eve from 12:00 public",
+        "2031-12-25 xx.christmas public",
+        "2031-12-26 xx.boxing-day public",
+        "2031-12-31 xx.new-years-eve public"
+      ]
+    },
+    {
+      "name": "country without regions; 29 February only in leap years",
+      "data": "fixtures", "method": "holidays", "args": ["XY", 2024, null, "all"],
+      "expect": ["2024-02-29 xy.leap-day observance", "2024-07-14 xy.national-day public"]
+    },
+    {
+      "name": "default type filter is public only",
+      "data": "fixtures", "method": "holidays", "args": ["XY", 2025, null, null],
+      "expect": ["2025-07-14 xy.national-day public"]
+    },
+    {"name": "region code without country prefix", "data": "fixtures", "method": "isHoliday", "args": ["2026-12-27", "XX", "AA", null], "expect": true},
+    {"name": "lower-case input", "data": "fixtures", "method": "isHoliday", "args": ["2026-12-27", "xx", "xx-aa", null], "expect": true},
+    {"name": "observance is not public", "data": "fixtures", "method": "isHoliday", "args": ["2026-12-27", "XX", "XX-BB", null], "expect": false},
+    {"name": "observance with types", "data": "fixtures", "method": "isHoliday", "args": ["2026-12-27", "XX", "XX-BB", ["observance"]], "expect": true},
+    {"name": "next across a year", "data": "fixtures", "method": "next", "args": ["2023-12-31", "XX", "XX-BB", null], "expect": "2024-01-01 xx.new-year public"},
+    {"name": "next is strictly after", "data": "fixtures", "method": "next", "args": ["2026-12-25", "XX", "XX-AA", null], "expect": "2026-12-26 xx.boxing-day public"},
+    {"name": "previous across a year", "data": "fixtures", "method": "previous", "args": ["2024-01-01", "XX", "XX-BB", null], "expect": "2023-12-31 xx.new-years-eve public"},
+    {"name": "next with nothing in ten years", "data": "fixtures", "method": "next", "args": ["2026-01-01", "XY", null, ["bank"]], "expect": null},
+    {"name": "unknown country", "data": "fixtures", "method": "holidays", "args": ["ZZ", 2026, null, null], "error": true},
+    {"name": "unknown region", "data": "fixtures", "method": "holidays", "args": ["XX", 2026, "XX-CC", null], "error": true},
+    {"name": "region in a country without regions", "data": "fixtures", "method": "holidays", "args": ["XY", 2026, "XY-AA", null], "error": true},
+    {"name": "unknown type", "data": "fixtures", "method": "holidays", "args": ["XX", 2026, null, ["school"]], "error": true},
+    {"name": "malformed date", "data": "fixtures", "method": "isHoliday", "args": ["2026-02-30", "XX", null, null], "error": true},
+    {"name": "year out of range", "data": "fixtures", "method": "holidays", "args": ["XX", 1500, null, null], "error": true},
+
+    {
+      "name": "CH Zurich 2026 (visibility reference table) with all types",
+      "data": "bundled", "method": "holidays", "args": ["CH", 2026, "ZH", "all"],
+      "expect": [
+        "2026-01-01 ch.new-year public",
+        "2026-01-02 ch.berchtold observance",
+        "2026-04-03 ch.good-friday public",
+        "2026-04-06 ch.easter-monday public",
+        "2026-05-01 ch.labour-day public",
+        "2026-05-14 ch.ascension public",
+        "2026-05-25 ch.whit-monday public",
+        "2026-08-01 ch.national-day public",
+        "2026-12-25 ch.christmas public",
+        "2026-12-26 ch.saint-stephen public"
+      ]
+    },
+    {
+      "name": "CH nationwide public holidays",
+      "data": "bundled", "method": "holidays", "args": ["CH", 2026, null, null],
+      "expect": [
+        "2026-01-01 ch.new-year public",
+        "2026-05-14 ch.ascension public",
+        "2026-08-01 ch.national-day public",
+        "2026-12-25 ch.christmas public"
+      ]
+    },
+    {"name": "Näfelser Fahrt 2026 moves out of Holy Week", "data": "bundled", "method": "isHoliday", "args": ["2026-04-09", "CH", "GL", null], "expect": true},
+    {"name": "Näfelser Fahrt 2027 stays on 1 April", "data": "bundled", "method": "isHoliday", "args": ["2027-04-01", "CH", "GL", null], "expect": true},
+    {"name": "Genevan Fast 2027", "data": "bundled", "method": "isHoliday", "args": ["2027-09-09", "CH", "GE", null], "expect": true},
+    {"name": "no Good Friday in Ticino", "data": "bundled", "method": "isHoliday", "args": ["2027-03-26", "CH", "TI", "all"], "expect": false},
+    {"name": "Zurich Berchtold is not public", "data": "bundled", "method": "isHoliday", "args": ["2026-01-02", "CH", "ZH", null], "expect": false},
+    {"name": "Bern Berchtold is public", "data": "bundled", "method": "isHoliday", "args": ["2026-01-02", "CH", "BE", null], "expect": true},
+    {"name": "CH next after Christmas in Zurich", "data": "bundled", "method": "next", "args": ["2026-12-25", "CH", "ZH", null], "expect": "2026-12-26 ch.saint-stephen public"},
+    {
+      "name": "LI 2026 public holidays (ArG Art. 18)",
+      "data": "bundled", "method": "holidays", "args": ["LI", 2026, null, null],
+      "expect": [
+        "2026-01-01 li.new-year public",
+        "2026-01-06 li.epiphany public",
+        "2026-04-06 li.easter-monday public",
+        "2026-05-01 li.labour-day public",
+        "2026-05-14 li.ascension public",
+        "2026-05-25 li.whit-monday public",
+        "2026-06-04 li.corpus-christi public",
+        "2026-08-15 li.national-day public",
+        "2026-09-08 li.nativity-of-mary public",
+        "2026-11-01 li.all-saints public",
+        "2026-12-08 li.immaculate-conception public",
+        "2026-12-25 li.christmas public",
+        "2026-12-26 li.saint-stephen public"
+      ]
+    },
+    {"name": "LI Shrove Tuesday 2026 is an observance", "data": "bundled", "method": "isHoliday", "args": ["2026-02-17", "LI", "LI-11", ["observance"]], "expect": true}
+  ]
+}
