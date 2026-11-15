@@ -256,6 +256,165 @@
       ]
     },
     {
+      "code": "IT",
+      "names": {
+        "it": "Italia",
+        "en": "Italy"
+      },
+      "languages": [
+        "it"
+      ],
+      "regions": [
+        {
+          "code": "IT-21",
+          "names": {
+            "it": "Piemonte",
+            "en": "Piedmont"
+          }
+        },
+        {
+          "code": "IT-23",
+          "names": {
+            "it": "Valle d’Aosta",
+            "en": "Aosta Valley"
+          }
+        },
+        {
+          "code": "IT-25",
+          "names": {
+            "it": "Lombardia",
+            "en": "Lombardy"
+          }
+        },
+        {
+          "code": "IT-34",
+          "names": {
+            "it": "Veneto",
+            "en": "Veneto"
+          }
+        },
+        {
+          "code": "IT-36",
+          "names": {
+            "it": "Friuli Venezia Giulia",
+            "en": "Friuli Venezia Giulia"
+          }
+        },
+        {
+          "code": "IT-42",
+          "names": {
+            "it": "Liguria",
+            "en": "Liguria"
+          }
+        },
+        {
+          "code": "IT-45",
+          "names": {
+            "it": "Emilia-Romagna",
+            "en": "Emilia-Romagna"
+          }
+        },
+        {
+          "code": "IT-52",
+          "names": {
+            "it": "Toscana",
+            "en": "Tuscany"
+          }
+        },
+        {
+          "code": "IT-55",
+          "names": {
+            "it": "Umbria",
+            "en": "Umbria"
+          }
+        },
+        {
+          "code": "IT-57",
+          "names": {
+            "it": "Marche",
+            "en": "Marche"
+          }
+        },
+        {
+          "code": "IT-62",
+          "names": {
+            "it": "Lazio",
+            "en": "Lazio"
+          }
+        },
+        {
+          "code": "IT-65",
+          "names": {
+            "it": "Abruzzo",
+            "en": "Abruzzo"
+          }
+        },
+        {
+          "code": "IT-67",
+          "names": {
+            "it": "Molise",
+            "en": "Molise"
+          }
+        },
+        {
+          "code": "IT-72",
+          "names": {
+            "it": "Campania",
+            "en": "Campania"
+          }
+        },
+        {
+          "code": "IT-75",
+          "names": {
+            "it": "Puglia",
+            "en": "Apulia"
+          }
+        },
+        {
+          "code": "IT-77",
+          "names": {
+            "it": "Basilicata",
+            "en": "Basilicata"
+          }
+        },
+        {
+          "code": "IT-78",
+          "names": {
+            "it": "Calabria",
+            "en": "Calabria"
+          }
+        },
+        {
+          "code": "IT-82",
+          "names": {
+            "it": "Sicilia",
+            "en": "Sicily"
+          }
+        },
+        {
+          "code": "IT-88",
+          "names": {
+            "it": "Sardegna",
+            "en": "Sardinia"
+          }
+        },
+        {
+          "code": "IT-BZ",
+          "names": {
+            "it": "Provincia autonoma di Bolzano – Alto Adige",
+            "en": "South Tyrol (Autonomous Province of Bolzano)"
+          }
+        },
+        {
+          "code": "IT-TN",
+          "names": {
+            "it": "Provincia autonoma di Trento",
+            "en": "Trentino (Autonomous Province of Trento)"
+          }
+        }
+      ]
+    },
+    {
       "code": "LI",
       "names": {
         "de": "Liechtenstein",
@@ -343,6 +502,92 @@
           }
         }
       ]
+    },
+    {
+      "code": "SM",
+      "names": {
+        "it": "San Marino",
+        "en": "San Marino"
+      },
+      "languages": [
+        "it"
+      ],
+      "regions": [
+        {
+          "code": "SM-01",
+          "names": {
+            "it": "Acquaviva",
+            "en": "Acquaviva"
+          }
+        },
+        {
+          "code": "SM-02",
+          "names": {
+            "it": "Chiesanuova",
+            "en": "Chiesanuova"
+          }
+        },
+        {
+          "code": "SM-03",
+          "names": {
+            "it": "Domagnano",
+            "en": "Domagnano"
+          }
+        },
+        {
+          "code": "SM-04",
+          "names": {
+            "it": "Faetano",
+            "en": "Faetano"
+          }
+        },
+        {
+          "code": "SM-05",
+          "names": {
+            "it": "Fiorentino",
+            "en": "Fiorentino"
+          }
+        },
+        {
+          "code": "SM-06",
+          "names": {
+            "it": "Borgo Maggiore",
+            "en": "Borgo Maggiore"
+          }
+        },
+        {
+          "code": "SM-07",
+          "names": {
+            "it": "Città di San Marino",
+            "en": "City of San Marino"
+          }
+        },
+        {
+          "code": "SM-08",
+          "names": {
+            "it": "Montegiardino",
+            "en": "Montegiardino"
+          }
+        },
+        {
+          "code": "SM-09",
+          "names": {
+            "it": "Serravalle",
+            "en": "Serravalle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "VA",
+      "names": {
+        "it": "Città del Vaticano",
+        "en": "Vatican City"
+      },
+      "languages": [
+        "it"
+      ],
+      "regions": []
     }
   ]
 }

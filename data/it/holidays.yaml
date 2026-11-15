@@ -1,0 +1,121 @@
+# Italian holidays at national level, plus Whit Monday in South Tyrol.
+#
+# public: the "giorni festivi" of Legge 260/1949 Art. 2. Legge 54/1977 took
+# away the civil effect of Epiphany, Saint Joseph, Ascension, Corpus Domini
+# and Saints Peter and Paul, and moved 2 June and 4 November to Sundays.
+# Normattiva still prints these days in Art. 2, because the 1977 law did not
+# change the wording. D.P.R. 792/1985 restored Epiphany (from 1986), Legge
+# 336/2000 restored 2 June (from 2001), Legge 151/2025 added 4 October
+# (from 2026).
+#
+# Sundays are not listed (decision D7): Easter Sunday, and the Republic Day
+# of 2000, which Legge 54/1977 had moved to the first Sunday of June.
+#
+# Patron-saint days are municipal and not listed (see
+# docs/verification/it.md). D.P.R. 792/1985 names one of them, 29 June for
+# the comune di Roma.
+
+holidays:
+  - id: it.new-year
+    names: {en: New Year’s Day, it: Capodanno}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949, dpr-792-1985]}
+
+  - id: it.epiphany
+    names: {en: Epiphany, it: Epifania}
+    date: {type: fixed, month: 1, day: 6}
+    observances:
+      - regions: all
+        type: public
+        sources: [legge-260-1949, legge-54-1977, dpr-792-1985]
+        note: Not a civil holiday from 1977 to 1985 (Legge 54/1977); restored by D.P.R. 792/1985 from 1 January 1986.
+
+  - id: it.unification-150
+    names: {en: 150th Anniversary of the Unification of Italy, it: Festa nazionale per il 150° anniversario dell’Unità d’Italia}
+    date: {type: list, dates: ["2011-03-17"]}
+    observances:
+      - regions: all
+        type: public
+        sources: [dl-5-2011]
+        note: Declared a giorno festivo for 2011 only (D.L. 5/2011 Art. 1).
+
+  - id: it.easter-monday
+    names: {en: Easter Monday, it: Lunedì dell’Angelo}
+    note: Legge 260/1949 Art. 2 calls it "il giorno di lunedì dopo Pasqua".
+    date: {type: easter, offset: 1}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949]}
+
+  - id: it.liberation-day
+    names: {en: Liberation Day, it: Anniversario della Liberazione}
+    date: {type: fixed, month: 4, day: 25}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949]}
+
+  - id: it.labour-day
+    names: {en: Labour Day, it: Festa del lavoro}
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949]}
+
+  - id: it.whit-monday
+    names: {en: Whit Monday, it: Lunedì di Pentecoste}
+    date: {type: easter, offset: 50}
+    observances:
+      - regions: [IT-BZ]
+        type: observance
+        sources: [bz-accordo-terziario, bz-contratto-dirigenti-regione]
+        note: >-
+          General day off in South Tyrol, but not a giorno festivo under state
+          law. Collective agreements put the patron-saint holiday of the
+          national contracts on Whit Monday for the whole province (decision
+          D-it-2).
+
+  - id: it.national-day
+    names: {en: Republic Day, it: Festa della Repubblica}
+    note: Legge 260/1949 Art. 1. In 2000 it was held on the first Sunday of June (Legge 54/1977); Legge 336/2000 moved it back to 2 June from 2001.
+    date: {type: fixed, month: 6, day: 2}
+    observances:
+      - {regions: all, type: public, from: 2001, sources: [legge-260-1949, legge-336-2000]}
+
+  - id: it.assumption
+    names: {en: Assumption Day, it: Assunzione di Maria Vergine}
+    date: {type: fixed, month: 8, day: 15}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949, dpr-792-1985]}
+
+  - id: it.saint-francis
+    names: {en: Feast of Saint Francis of Assisi, it: Festa nazionale di San Francesco d’Assisi}
+    date: {type: fixed, month: 10, day: 4}
+    observances:
+      - regions: all
+        type: public
+        from: 2026
+        sources: [legge-151-2025]
+        note: Added to Legge 260/1949 Art. 2 by Legge 151/2025, in force from 1 January 2026.
+
+  - id: it.all-saints
+    names: {en: All Saints’ Day, it: Ognissanti}
+    date: {type: fixed, month: 11, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949, dpr-792-1985]}
+
+  - id: it.immaculate-conception
+    names: {en: Immaculate Conception, it: Immacolata Concezione}
+    date: {type: fixed, month: 12, day: 8}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949, dpr-792-1985]}
+
+  - id: it.christmas
+    names: {en: Christmas Day, it: Natale}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949, dpr-792-1985]}
+
+  - id: it.saint-stephen
+    names: {en: Saint Stephen’s Day, it: Santo Stefano}
+    note: Legge 260/1949 Art. 2 says only "il giorno 26 dicembre".
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - {regions: all, type: public, sources: [legge-260-1949]}

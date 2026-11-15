@@ -1,0 +1,90 @@
+# Italy. Regions: the 19 regions of ISO 3166-2:IT other than
+# Trentino-Alto Adige (IT-32), plus its two autonomous provinces Bolzano
+# (IT-BZ) and Trento (IT-TN), which ISO 3166-2:IT lists as subdivisions of
+# their own. Together they cover Italy once (decision D-it-1). Only IT-BZ
+# has a holiday of its own; every other entry is nationwide.
+#
+# Types in this file:
+# - public: a "giorno festivo" agli effetti civili under Legge 27 maggio
+#   1949 n. 260 Art. 2, as changed by Legge 54/1977, D.P.R. 792/1985,
+#   Legge 336/2000 and Legge 151/2025 (or a one-off day declared festivo
+#   "ai sensi degli articoli 2 e 4" of that law).
+# - observance: a general day off that rests on collective agreements, not
+#   on state law (Whit Monday in IT-BZ, see decision D-it-2).
+#
+# Municipal patron-saint days (Rome 29 June, Milan 7 December, …) are not
+# listed; see docs/verification/it.md.
+code: IT
+names: {it: Italia, en: Italy}
+languages: [it]
+regions:
+  - {code: IT-21, names: {it: Piemonte, en: Piedmont}}
+  - {code: IT-23, names: {it: Valle d’Aosta, en: Aosta Valley}}
+  - {code: IT-25, names: {it: Lombardia, en: Lombardy}}
+  - {code: IT-34, names: {it: Veneto, en: Veneto}}
+  - {code: IT-36, names: {it: Friuli Venezia Giulia, en: Friuli Venezia Giulia}}
+  - {code: IT-42, names: {it: Liguria, en: Liguria}}
+  - {code: IT-45, names: {it: Emilia-Romagna, en: Emilia-Romagna}}
+  - {code: IT-52, names: {it: Toscana, en: Tuscany}}
+  - {code: IT-55, names: {it: Umbria, en: Umbria}}
+  - {code: IT-57, names: {it: Marche, en: Marche}}
+  - {code: IT-62, names: {it: Lazio, en: Lazio}}
+  - {code: IT-65, names: {it: Abruzzo, en: Abruzzo}}
+  - {code: IT-67, names: {it: Molise, en: Molise}}
+  - {code: IT-72, names: {it: Campania, en: Campania}}
+  - {code: IT-75, names: {it: Puglia, en: Apulia}}
+  - {code: IT-77, names: {it: Basilicata, en: Basilicata}}
+  - {code: IT-78, names: {it: Calabria, en: Calabria}}
+  - {code: IT-82, names: {it: Sicilia, en: Sicily}}
+  - {code: IT-88, names: {it: Sardegna, en: Sardinia}}
+  - {code: IT-BZ, names: {it: Provincia autonoma di Bolzano – Alto Adige, en: South Tyrol (Autonomous Province of Bolzano)}}
+  - {code: IT-TN, names: {it: Provincia autonoma di Trento, en: Trentino (Autonomous Province of Trento)}}
+sources:
+  legge-260-1949:
+    title: "Legge 27 maggio 1949, n. 260: Disposizioni in materia di ricorrenze festive (testo vigente dal 1° gennaio 2026)"
+    publisher: Normattiva (Istituto Poligrafico e Zecca dello Stato)
+    law: Legge 27 maggio 1949, n. 260, artt. 1 e 2
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1949-05-27;260~art2!vig=2026-11-15
+    accessed: "2026-11-15"
+  legge-54-1977:
+    title: "Legge 5 marzo 1977, n. 54: Disposizioni in materia di giorni festivi"
+    publisher: Normattiva (Istituto Poligrafico e Zecca dello Stato)
+    law: Legge 5 marzo 1977, n. 54, art. 1
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1977-03-05;54~art1!vig=2026-11-15
+    accessed: "2026-11-15"
+  dpr-792-1985:
+    title: "D.P.R. 28 dicembre 1985, n. 792: Riconoscimento come giorni festivi di festività religiose determinate d’intesa tra la Repubblica italiana e la Santa Sede"
+    publisher: Normattiva (Istituto Poligrafico e Zecca dello Stato)
+    law: D.P.R. 28 dicembre 1985, n. 792, art. 1
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1985-12-28;792!vig=2026-11-15
+    accessed: "2026-11-15"
+  legge-336-2000:
+    title: "Legge 20 novembre 2000, n. 336: Ripristino della festività nazionale del 2 giugno, data di fondazione della Repubblica"
+    publisher: Normattiva (Istituto Poligrafico e Zecca dello Stato)
+    law: Legge 20 novembre 2000, n. 336, art. 1
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2000-11-20;336!vig=2026-11-15
+    accessed: "2026-11-15"
+  dl-5-2011:
+    title: "Decreto-legge 22 febbraio 2011, n. 5: Disposizioni per la festa nazionale del 17 marzo 2011 (convertito dalla legge 21 aprile 2011, n. 47)"
+    publisher: Normattiva (Istituto Poligrafico e Zecca dello Stato)
+    law: D.L. 22 febbraio 2011, n. 5, art. 1
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-02-22;5~art1!vig=2026-11-15
+    accessed: "2026-11-15"
+  legge-151-2025:
+    title: "Legge 8 ottobre 2025, n. 151: Istituzione della festa nazionale di San Francesco d’Assisi"
+    publisher: Normattiva (Istituto Poligrafico e Zecca dello Stato)
+    law: Legge 8 ottobre 2025, n. 151, artt. 1 e 3 (G.U. n. 236 del 10 ottobre 2025)
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-10-08;151~art1!vig=2026-11-15
+    accessed: "2026-11-15"
+  bz-accordo-terziario:
+    title: "Accordo integrativo territoriale di 2° livello della Provincia di Bolzano, Terziario Distribuzione Servizi (26 settembre 2016)"
+    publisher: Unione commercio turismo servizi Alto Adige and trade unions
+    law: Art. 8 (Patrono locale)
+    url: https://www.unione-bz.it/files/content/474803_38831_2_0/accordo-integrativo-territoriale-provincia-bolzano.pdf
+    accessed: "2026-11-15"
+  bz-contratto-dirigenti-regione:
+    title: "Contratto collettivo riguardante il personale dell’area dirigenziale della Regione autonoma Trentino-Alto Adige e delle Camere di commercio, industria, artigianato e agricoltura di Trento e Bolzano, triennio economico e giuridico 2019–2021"
+    publisher: Regione autonoma Trentino-Alto Adige (A.P.Ra.N.)
+    law: Art. 22 (Festività)
+    url: https://www.camcom.bz.it/sites/default/files/uploaded_files/Altri_servizi/Amministrazione_trasparente/contratto%20dirigenti.pdf
+    accessed: "2026-11-15"

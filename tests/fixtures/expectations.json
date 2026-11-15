@@ -642,6 +642,158 @@
         ]
       ],
       "expect": true
+    },
+    {
+      "name": "IT 2026 South Tyrol: Whit Monday (observance) and the new 4 October",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "IT",
+        2026,
+        "BZ",
+        "all"
+      ],
+      "expect": [
+        "2026-01-01 it.new-year public",
+        "2026-01-06 it.epiphany public",
+        "2026-04-06 it.easter-monday public",
+        "2026-04-25 it.liberation-day public",
+        "2026-05-01 it.labour-day public",
+        "2026-05-25 it.whit-monday observance",
+        "2026-06-02 it.national-day public",
+        "2026-08-15 it.assumption public",
+        "2026-10-04 it.saint-francis public",
+        "2026-11-01 it.all-saints public",
+        "2026-12-08 it.immaculate-conception public",
+        "2026-12-25 it.christmas public",
+        "2026-12-26 it.saint-stephen public"
+      ]
+    },
+    {
+      "name": "IT: no Whit Monday in Trentino",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-05-25",
+        "IT",
+        "IT-TN",
+        "all"
+      ],
+      "expect": false
+    },
+    {
+      "name": "IT: 4 October is not a holiday before 2026 (Legge 151/2025)",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2025-10-04",
+        "IT",
+        null,
+        "all"
+      ],
+      "expect": false
+    },
+    {
+      "name": "IT: 2 June 2000 is not a holiday (first Sunday of June until 2000)",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2000-06-02",
+        "IT",
+        null,
+        "all"
+      ],
+      "expect": false
+    },
+    {
+      "name": "IT: one-off holiday 17 March 2011",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2011-03-17",
+        "IT",
+        "IT-62",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "SM 2027: the 17 days of Legge 152/1990 (Corpus Christi on Thursday, no 31 December)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "SM",
+        2027,
+        null,
+        null
+      ],
+      "expect": [
+        "2027-01-01 sm.new-year public",
+        "2027-01-06 sm.epiphany public",
+        "2027-02-05 sm.saint-agatha public",
+        "2027-03-25 sm.arengo public",
+        "2027-03-29 sm.easter-monday public",
+        "2027-04-01 sm.captains-regent-april public",
+        "2027-05-01 sm.labour-day public",
+        "2027-05-27 sm.corpus-christi public",
+        "2027-07-28 sm.fall-of-fascism public",
+        "2027-08-15 sm.assumption public",
+        "2027-09-03 sm.national-day public",
+        "2027-10-01 sm.captains-regent-october public",
+        "2027-11-01 sm.all-saints public",
+        "2027-11-02 sm.all-souls public",
+        "2027-12-08 sm.immaculate-conception public",
+        "2027-12-25 sm.christmas public",
+        "2027-12-26 sm.saint-stephen public"
+      ]
+    },
+    {
+      "name": "VA: name day of Pope Francis not held after his death (2025)",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2025-04-23",
+        "VA",
+        null,
+        "all"
+      ],
+      "expect": false
+    },
+    {
+      "name": "VA: name day of Leo XIV on 17 September from 2025",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2025-09-01",
+        "VA",
+        null,
+        null
+      ],
+      "expect": "2025-09-17 va.papal-name-day public"
+    },
+    {
+      "name": "VA: election anniversaries switch with the pontificate",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2025-03-13",
+        "VA",
+        null,
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "VA: no election anniversary in the year of an election",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2025-05-08",
+        "VA",
+        null,
+        "all"
+      ],
+      "expect": false
     }
   ]
 }
