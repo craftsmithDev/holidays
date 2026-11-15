@@ -1,0 +1,39 @@
+# Liechtenstein. Regions: the 11 municipalities (ISO 3166-2:LI). Holidays
+# do not differ between them, so every entry is nationwide.
+#
+# Types in this file:
+# - public: equal to Sunday under the Labour Act (ArG Art. 18 para. 2).
+# - observance: church holidays and days off of the national administration
+#   (LLV calendar) that the Labour Act does not list.
+code: LI
+names: {de: Liechtenstein, en: Liechtenstein}
+languages: [de]
+regions:
+  - {code: LI-01, names: {de: Balzers, en: Balzers}}
+  - {code: LI-02, names: {de: Eschen, en: Eschen}}
+  - {code: LI-03, names: {de: Gamprin, en: Gamprin}}
+  - {code: LI-04, names: {de: Mauren, en: Mauren}}
+  - {code: LI-05, names: {de: Planken, en: Planken}}
+  - {code: LI-06, names: {de: Ruggell, en: Ruggell}}
+  - {code: LI-07, names: {de: Schaan, en: Schaan}}
+  - {code: LI-08, names: {de: Schellenberg, en: Schellenberg}}
+  - {code: LI-09, names: {de: Triesen, en: Triesen}}
+  - {code: LI-10, names: {de: Triesenberg, en: Triesenberg}}
+  - {code: LI-11, names: {de: Vaduz, en: Vaduz}}
+sources:
+  li-arbeitsgesetz:
+    title: Gesetz vom 29. Dezember 1966 über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz), Fassung 01.01.2019
+    publisher: Fürstentum Liechtenstein (gesetze.li)
+    law: LR 822.10, Art. 18 para. 2
+    url: https://nextmobile.gesetze.li/konso/pdf/1967006000?version=14
+    accessed: "2026-11-15"
+  llv-kalender-2025:
+    title: Feiertage und dienstfreie Tage 2025
+    publisher: Liechtensteinische Landesverwaltung, Amt für Personal und Organisation
+    url: https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-personal-und-organisation/kalender-der-llv/kalender-2025.pdf
+    accessed: "2026-11-15"
+  llv-kalender-2024:
+    title: Feiertage und dienstfreie Tage 2024
+    publisher: Liechtensteinische Landesverwaltung, Amt für Personal und Organisation
+    url: https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-personal-und-organisation/kalender-der-llv/kalender-2024.pdf
+    accessed: "2026-11-15"

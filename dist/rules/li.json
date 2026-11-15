@@ -1,0 +1,542 @@
+{
+  "format": 1,
+  "code": "LI",
+  "names": {
+    "de": "Liechtenstein",
+    "en": "Liechtenstein"
+  },
+  "languages": [
+    "de"
+  ],
+  "regions": [
+    {
+      "code": "LI-01",
+      "names": {
+        "de": "Balzers",
+        "en": "Balzers"
+      }
+    },
+    {
+      "code": "LI-02",
+      "names": {
+        "de": "Eschen",
+        "en": "Eschen"
+      }
+    },
+    {
+      "code": "LI-03",
+      "names": {
+        "de": "Gamprin",
+        "en": "Gamprin"
+      }
+    },
+    {
+      "code": "LI-04",
+      "names": {
+        "de": "Mauren",
+        "en": "Mauren"
+      }
+    },
+    {
+      "code": "LI-05",
+      "names": {
+        "de": "Planken",
+        "en": "Planken"
+      }
+    },
+    {
+      "code": "LI-06",
+      "names": {
+        "de": "Ruggell",
+        "en": "Ruggell"
+      }
+    },
+    {
+      "code": "LI-07",
+      "names": {
+        "de": "Schaan",
+        "en": "Schaan"
+      }
+    },
+    {
+      "code": "LI-08",
+      "names": {
+        "de": "Schellenberg",
+        "en": "Schellenberg"
+      }
+    },
+    {
+      "code": "LI-09",
+      "names": {
+        "de": "Triesen",
+        "en": "Triesen"
+      }
+    },
+    {
+      "code": "LI-10",
+      "names": {
+        "de": "Triesenberg",
+        "en": "Triesenberg"
+      }
+    },
+    {
+      "code": "LI-11",
+      "names": {
+        "de": "Vaduz",
+        "en": "Vaduz"
+      }
+    }
+  ],
+  "sources": {
+    "li-arbeitsgesetz": {
+      "title": "Gesetz vom 29. Dezember 1966 über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz), Fassung 01.01.2019",
+      "publisher": "Fürstentum Liechtenstein (gesetze.li)",
+      "law": "LR 822.10, Art. 18 para. 2",
+      "url": "https://nextmobile.gesetze.li/konso/pdf/1967006000?version=14",
+      "accessed": "2026-11-15"
+    },
+    "llv-kalender-2025": {
+      "title": "Feiertage und dienstfreie Tage 2025",
+      "publisher": "Liechtensteinische Landesverwaltung, Amt für Personal und Organisation",
+      "url": "https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-personal-und-organisation/kalender-der-llv/kalender-2025.pdf",
+      "accessed": "2026-11-15"
+    },
+    "llv-kalender-2024": {
+      "title": "Feiertage und dienstfreie Tage 2024",
+      "publisher": "Liechtensteinische Landesverwaltung, Amt für Personal und Organisation",
+      "url": "https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-personal-und-organisation/kalender-der-llv/kalender-2024.pdf",
+      "accessed": "2026-11-15"
+    }
+  },
+  "holidays": [
+    {
+      "id": "li.new-year",
+      "names": {
+        "en": "New Year’s Day",
+        "de": "Neujahr"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.berchtold",
+      "names": {
+        "en": "Berchtold’s Day",
+        "de": "Berchtoldstag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "llv-kalender-2025",
+            "llv-kalender-2024"
+          ],
+          "note": "Whole day off for the national administration; not in ArG Art. 18."
+        }
+      ]
+    },
+    {
+      "id": "li.epiphany",
+      "names": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.candlemas",
+      "names": {
+        "en": "Candlemas",
+        "de": "Mariä Lichtmess"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 2,
+        "day": 2
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "llv-kalender-2024"
+          ],
+          "note": "Church holiday; on the LLV holiday calendar, not in ArG Art. 18."
+        }
+      ]
+    },
+    {
+      "id": "li.shrove-tuesday",
+      "names": {
+        "en": "Shrove Tuesday",
+        "de": "Fasnachtsdienstag"
+      },
+      "date": {
+        "type": "easter",
+        "offset": -47
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "llv-kalender-2025",
+            "llv-kalender-2024"
+          ],
+          "note": "Whole day off for the national administration; not in ArG Art. 18."
+        }
+      ]
+    },
+    {
+      "id": "li.saint-joseph",
+      "names": {
+        "en": "Saint Joseph’s Day",
+        "de": "Josefstag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "llv-kalender-2025",
+            "llv-kalender-2024"
+          ],
+          "note": "Church holiday; on the LLV holiday calendar, not in ArG Art. 18."
+        }
+      ]
+    },
+    {
+      "id": "li.good-friday",
+      "names": {
+        "en": "Good Friday",
+        "de": "Karfreitag"
+      },
+      "date": {
+        "type": "easter",
+        "offset": -2
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "llv-kalender-2025",
+            "llv-kalender-2024"
+          ],
+          "note": "Whole day off for the national administration; not in ArG Art. 18."
+        }
+      ]
+    },
+    {
+      "id": "li.easter-monday",
+      "names": {
+        "en": "Easter Monday",
+        "de": "Ostermontag"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.labour-day",
+      "names": {
+        "en": "Labour Day",
+        "de": "Tag der Arbeit"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.ascension",
+      "names": {
+        "en": "Ascension Day",
+        "de": "Auffahrt"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 39
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.whit-monday",
+      "names": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 50
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.corpus-christi",
+      "names": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 60
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.national-day",
+      "names": {
+        "en": "National Day (Assumption Day)",
+        "de": "Staatsfeiertag (Mariä Himmelfahrt)"
+      },
+      "note": "ArG Art. 18 lists the day as Maria Himmelfahrt; the LLV calendar calls it Staatsfeiertag.",
+      "date": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz",
+            "llv-kalender-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.nativity-of-mary",
+      "names": {
+        "en": "Nativity of Mary",
+        "de": "Mariä Geburt"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 9,
+        "day": 8
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.all-saints",
+      "names": {
+        "en": "All Saints’ Day",
+        "de": "Allerheiligen"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.immaculate-conception",
+      "names": {
+        "en": "Immaculate Conception",
+        "de": "Mariä Empfängnis"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.christmas-eve",
+      "names": {
+        "en": "Christmas Eve",
+        "de": "Heiligabend"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "llv-kalender-2025",
+            "llv-kalender-2024"
+          ],
+          "note": "Whole day off for the national administration; not in ArG Art. 18."
+        }
+      ]
+    },
+    {
+      "id": "li.christmas",
+      "names": {
+        "en": "Christmas Day",
+        "de": "Weihnachten"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.saint-stephen",
+      "names": {
+        "en": "Saint Stephen’s Day",
+        "de": "Stephanstag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "li-arbeitsgesetz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li.new-years-eve",
+      "names": {
+        "en": "New Year’s Eve",
+        "de": "Silvester"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "llv-kalender-2025",
+            "llv-kalender-2024"
+          ],
+          "note": "Whole day off for the national administration; not in ArG Art. 18."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,889 @@
+{
+  "format": 1,
+  "country": "CH",
+  "year": 2038,
+  "holidays": [
+    {
+      "date": "2038-01-01",
+      "id": "ch.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "de": "Neujahr",
+        "fr": "Nouvel An",
+        "it": "Capodanno"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-01-02",
+      "id": "ch.berchtold",
+      "name": {
+        "en": "Berchtold’s Day",
+        "de": "Berchtoldstag",
+        "fr": "Saint-Berthold",
+        "it": "San Bertoldo"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-BE",
+        "CH-TG",
+        "CH-VD"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-01-02",
+      "id": "ch.berchtold",
+      "name": {
+        "en": "Berchtold’s Day",
+        "de": "Berchtoldstag",
+        "fr": "Saint-Berthold",
+        "it": "San Bertoldo"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AG",
+        "CH-FR",
+        "CH-GL",
+        "CH-JU",
+        "CH-LU",
+        "CH-NE",
+        "CH-OW",
+        "CH-SH",
+        "CH-SO",
+        "CH-ZG",
+        "CH-ZH"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-01-06",
+      "id": "ch.epiphany",
+      "name": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige",
+        "fr": "Épiphanie",
+        "it": "Epifania"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-TI"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-01-06",
+      "id": "ch.epiphany",
+      "name": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige",
+        "fr": "Épiphanie",
+        "it": "Epifania"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-SZ",
+        "CH-UR"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-03-01",
+      "id": "ch.republic-day",
+      "name": {
+        "en": "Republic Day",
+        "de": "Jahrestag der Ausrufung der Republik",
+        "fr": "Instauration de la République",
+        "it": "Anniversario della Repubblica"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-NE"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-03-19",
+      "id": "ch.saint-joseph",
+      "name": {
+        "en": "Saint Joseph’s Day",
+        "de": "Josefstag",
+        "fr": "Saint-Joseph",
+        "it": "San Giuseppe"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-SZ",
+        "CH-VS"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-03-19",
+      "id": "ch.saint-joseph",
+      "name": {
+        "en": "Saint Joseph’s Day",
+        "de": "Josefstag",
+        "fr": "Saint-Joseph",
+        "it": "San Giuseppe"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-NW",
+        "CH-TI",
+        "CH-UR"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-04-01",
+      "id": "ch.naefelser-fahrt",
+      "name": {
+        "en": "Näfels Pilgrimage",
+        "de": "Näfelser Fahrt",
+        "fr": "Fête de Näfels",
+        "it": "Pellegrinaggio di Näfels"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-GL"
+      ],
+      "sources": [
+        "seco-art20a",
+        "gl-ruhetagsgesetz"
+      ]
+    },
+    {
+      "date": "2038-04-23",
+      "id": "ch.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "de": "Karfreitag",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AG",
+        "CH-AI",
+        "CH-AR",
+        "CH-BE",
+        "CH-BL",
+        "CH-BS",
+        "CH-FR",
+        "CH-GE",
+        "CH-GL",
+        "CH-GR",
+        "CH-JU",
+        "CH-LU",
+        "CH-NE",
+        "CH-NW",
+        "CH-OW",
+        "CH-SG",
+        "CH-SH",
+        "CH-SO",
+        "CH-SZ",
+        "CH-TG",
+        "CH-UR",
+        "CH-VD",
+        "CH-ZG",
+        "CH-ZH"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-04-26",
+      "id": "ch.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "de": "Ostermontag",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì dell’Angelo"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI",
+        "CH-AR",
+        "CH-BE",
+        "CH-BL",
+        "CH-BS",
+        "CH-GE",
+        "CH-GL",
+        "CH-GR",
+        "CH-JU",
+        "CH-SG",
+        "CH-SH",
+        "CH-TG",
+        "CH-TI",
+        "CH-VD",
+        "CH-ZH"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-04-26",
+      "id": "ch.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "de": "Ostermontag",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì dell’Angelo"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AG",
+        "CH-FR",
+        "CH-LU",
+        "CH-NE",
+        "CH-NW",
+        "CH-OW",
+        "CH-SO",
+        "CH-SZ",
+        "CH-UR",
+        "CH-ZG"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-05-01",
+      "id": "ch.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "de": "Tag der Arbeit",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-BL",
+        "CH-BS",
+        "CH-JU",
+        "CH-NE",
+        "CH-SH",
+        "CH-ZH"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-05-01",
+      "id": "ch.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "de": "Tag der Arbeit",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-TI"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-06-03",
+      "id": "ch.ascension",
+      "name": {
+        "en": "Ascension Day",
+        "de": "Auffahrt",
+        "fr": "Ascension",
+        "it": "Ascensione"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-06-14",
+      "id": "ch.whit-monday",
+      "name": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI",
+        "CH-AR",
+        "CH-BE",
+        "CH-BL",
+        "CH-BS",
+        "CH-GE",
+        "CH-GR",
+        "CH-JU",
+        "CH-SG",
+        "CH-SH",
+        "CH-TG",
+        "CH-VD",
+        "CH-ZH"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-06-14",
+      "id": "ch.whit-monday",
+      "name": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AG",
+        "CH-FR",
+        "CH-GL",
+        "CH-LU",
+        "CH-NE",
+        "CH-NW",
+        "CH-OW",
+        "CH-SO",
+        "CH-SZ",
+        "CH-TI",
+        "CH-UR",
+        "CH-ZG"
+      ],
+      "sources": [
+        "seco-art20a",
+        "gl-ruhetagsgesetz"
+      ]
+    },
+    {
+      "date": "2038-06-23",
+      "id": "ch.jura-independence",
+      "name": {
+        "en": "Jura Independence Day",
+        "de": "Fest der Unabhängigkeit",
+        "fr": "Commémoration du plébiscite jurassien",
+        "it": "Festa dell’indipendenza giurassiana"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-JU"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-06-24",
+      "id": "ch.corpus-christi",
+      "name": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI",
+        "CH-JU",
+        "CH-LU",
+        "CH-NW",
+        "CH-OW",
+        "CH-SZ",
+        "CH-UR",
+        "CH-VS",
+        "CH-ZG"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-06-24",
+      "id": "ch.corpus-christi",
+      "name": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-FR",
+        "CH-TI"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-06-29",
+      "id": "ch.peter-and-paul",
+      "name": {
+        "en": "Saints Peter and Paul",
+        "de": "Peter und Paul",
+        "fr": "Saint-Pierre et Saint-Paul",
+        "it": "Santi Pietro e Paolo"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-TI"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-08-01",
+      "id": "ch.national-day",
+      "name": {
+        "en": "Swiss National Day",
+        "de": "Bundesfeier",
+        "fr": "Fête nationale",
+        "it": "Festa nazionale"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "federal-constitution",
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-08-15",
+      "id": "ch.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "de": "Mariä Himmelfahrt",
+        "fr": "Assomption",
+        "it": "Assunzione"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-LU",
+        "CH-NW",
+        "CH-OW",
+        "CH-SZ",
+        "CH-TI",
+        "CH-UR",
+        "CH-VS",
+        "CH-ZG"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-08-15",
+      "id": "ch.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "de": "Mariä Himmelfahrt",
+        "fr": "Assomption",
+        "it": "Assunzione"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI",
+        "CH-FR",
+        "CH-JU"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-09-09",
+      "id": "ch.jeune-genevois",
+      "name": {
+        "en": "Genevan Fast",
+        "de": "Genfer Bettag",
+        "fr": "Jeûne genevois",
+        "it": "Digiuno ginevrino"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-GE"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-09-20",
+      "id": "ch.federal-fast-monday",
+      "name": {
+        "en": "Federal Fast Monday",
+        "de": "Bettagsmontag",
+        "fr": "Lundi du Jeûne fédéral",
+        "it": "Lunedì del Digiuno federale"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-VD"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-09-22",
+      "id": "ch.saint-maurice",
+      "name": {
+        "en": "Saint Maurice’s Day",
+        "de": "Mauritiustag",
+        "fr": "Saint-Maurice",
+        "it": "San Maurizio"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-09-25",
+      "id": "ch.bruder-klaus",
+      "name": {
+        "en": "Saint Nicholas of Flüe",
+        "de": "Bruder Klaus",
+        "fr": "Saint-Nicolas-de-Flüe",
+        "it": "San Nicolao della Flüe"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-OW"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-11-01",
+      "id": "ch.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "de": "Allerheiligen",
+        "fr": "Toussaint",
+        "it": "Ognissanti"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-GL",
+        "CH-LU",
+        "CH-NW",
+        "CH-OW",
+        "CH-SZ",
+        "CH-TI",
+        "CH-UR",
+        "CH-VS",
+        "CH-ZG"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-11-01",
+      "id": "ch.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "de": "Allerheiligen",
+        "fr": "Toussaint",
+        "it": "Ognissanti"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI",
+        "CH-FR",
+        "CH-JU"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-12-08",
+      "id": "ch.immaculate-conception",
+      "name": {
+        "en": "Immaculate Conception",
+        "de": "Mariä Empfängnis",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-NW",
+        "CH-OW",
+        "CH-UR",
+        "CH-VS",
+        "CH-ZG"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-12-08",
+      "id": "ch.immaculate-conception",
+      "name": {
+        "en": "Immaculate Conception",
+        "de": "Mariä Empfängnis",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI",
+        "CH-LU",
+        "CH-SZ",
+        "CH-TI"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-12-25",
+      "id": "ch.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "de": "Weihnachten",
+        "fr": "Noël",
+        "it": "Natale"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-12-26",
+      "id": "ch.saint-stephen",
+      "name": {
+        "en": "Saint Stephen’s Day",
+        "de": "Stephanstag",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AI",
+        "CH-AR",
+        "CH-BE",
+        "CH-BL",
+        "CH-BS",
+        "CH-GL",
+        "CH-GR",
+        "CH-LU",
+        "CH-SG",
+        "CH-SH",
+        "CH-TG",
+        "CH-TI",
+        "CH-ZH"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-12-26",
+      "id": "ch.saint-stephen",
+      "name": {
+        "en": "Saint Stephen’s Day",
+        "de": "Stephanstag",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-AG",
+        "CH-FR",
+        "CH-NW",
+        "CH-OW",
+        "CH-SO",
+        "CH-SZ",
+        "CH-UR",
+        "CH-ZG"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    },
+    {
+      "date": "2038-12-31",
+      "id": "ch.restoration",
+      "name": {
+        "en": "Restoration of the Republic",
+        "de": "Wiederherstellung der Republik",
+        "fr": "Restauration de la République",
+        "it": "Restaurazione della Repubblica"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "CH-GE"
+      ],
+      "sources": [
+        "seco-art20a"
+      ]
+    }
+  ],
+  "sources": {
+    "federal-constitution": {
+      "title": "Bundesverfassung der Schweizerischen Eidgenossenschaft",
+      "publisher": "Swiss Confederation (Fedlex)",
+      "law": "SR 101, Art. 110 para. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_110",
+      "accessed": "2026-11-15"
+    },
+    "seco-art20a": {
+      "title": "Anhang: Feiertage Schweiz (Auszug ArG/ArGV 1–5), Stand am 12.12.2024",
+      "publisher": "State Secretariat for Economic Affairs SECO",
+      "law": "SR 822.11, ArG Art. 20a para. 1",
+      "url": "https://www.seco.admin.ch/dam/de/sd-web/x5LtHPJdNis5/Anhang-Feiertage-Schweiz-Auszug-ArG-ArGV1-5-SECO-SB-2024-DE.pdf",
+      "accessed": "2026-11-15"
+    },
+    "gl-ruhetagsgesetz": {
+      "title": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), Stand 1. Juli 2019",
+      "publisher": "Kanton Glarus",
+      "law": "GS IX B/21/1, Art. 2",
+      "url": "https://www.lexfind.ch/tol/6801/de",
+      "accessed": "2026-11-15"
+    }
+  }
+}

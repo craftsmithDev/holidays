@@ -1,0 +1,4 @@
+{
+  "about": "Dates where this library deliberately differs from the visibility reference (tests/golden/ch-2026-2030.json). Each entry names the region, the date, whether the library adds or removes it, and the section of docs/verification/ch.md that gives the source. The golden tests in both runtimes fail on any difference not listed here.",
+  "deviations": []
+}
