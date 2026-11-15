@@ -1,9 +1,17 @@
 {
   "name": "@craftsmith/holidays",
-  "version": "0.1.0",
-  "description": "Public holidays of Western Europe with sources: national and regional, half days, substitute days. Same data and results as the Composer package craftsmith/holidays.",
+  "version": "1.0.0",
+  "description": "Public holidays of 18 Western European countries, national and regional, with the legal source for every day: half days, substitute days, public, bank and observance types. Same data and results as the Composer package craftsmith/holidays.",
   "license": "MIT",
   "author": "craftsmith",
+  "homepage": "https://github.com/craftsmithDev/holidays#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftsmithDev/holidays.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craftsmithDev/holidays/issues"
+  },
   "type": "module",
   "sideEffects": false,
   "exports": {
@@ -25,12 +33,24 @@
   },
   "keywords": [
     "holidays",
-    "public holidays",
-    "bank holidays",
+    "public-holidays",
+    "bank-holidays",
     "calendar",
+    "europe",
+    "iso-3166",
     "switzerland",
     "liechtenstein",
-    "europe"
+    "germany",
+    "austria",
+    "france",
+    "italy",
+    "spain",
+    "portugal",
+    "united-kingdom",
+    "ireland",
+    "belgium",
+    "netherlands",
+    "luxembourg"
   ],
   "scripts": {
     "build": "node scripts/build.mjs",
