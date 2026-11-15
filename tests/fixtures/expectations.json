@@ -730,6 +730,56 @@
         null
       ],
       "expect": true
+    },
+    {
+      "name": "MC 2027: Assumption on a Sunday adds Monday 16 August (Loi 798, circular 2026-12)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "MC",
+        2027,
+        null,
+        null
+      ],
+      "expect": [
+        "2027-01-01 mc.new-year public",
+        "2027-01-27 mc.saint-devote public",
+        "2027-03-29 mc.easter-monday public",
+        "2027-05-01 mc.labour-day public",
+        "2027-05-06 mc.ascension public",
+        "2027-05-17 mc.whit-monday public",
+        "2027-05-27 mc.corpus-christi public",
+        "2027-08-15 mc.assumption public",
+        "2027-08-16 mc.assumption for 2027-08-15 public",
+        "2027-11-01 mc.all-saints public",
+        "2027-11-19 mc.national-day public",
+        "2027-12-08 mc.immaculate-conception public",
+        "2027-12-25 mc.christmas public"
+      ]
+    },
+    {
+      "name": "MC 2024: Immaculate Conception on a Sunday moves to 9 December",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2024-12-01",
+        "MC",
+        null,
+        null
+      ],
+      "expect": "2024-12-09 mc.immaculate-conception public"
+    },
+    {
+      "name": "MC 2019: no Monday after Sainte-Dévote on a Sunday",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2019-01-28",
+        "MC",
+        null,
+        "all"
+      ],
+      "expect": false
     }
   ]
 }

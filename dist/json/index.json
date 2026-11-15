@@ -425,6 +425,17 @@
           }
         }
       ]
+    },
+    {
+      "code": "MC",
+      "names": {
+        "fr": "Monaco",
+        "en": "Monaco"
+      },
+      "languages": [
+        "fr"
+      ],
+      "regions": []
     }
   ]
 }

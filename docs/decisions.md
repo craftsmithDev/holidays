@@ -78,3 +78,10 @@ Whit Monday follows the same line. It is still in L3133-1. Since 2004 the unpaid
 
 L3134-13 makes Good Friday a jour férié only “dans les communes ayant un temple protestant ou une église mixte”. The DREETS guide on local labour law repeats this limit. Following D4 and D6, a day that is statutory only in part of a region is an `observance` at that level, with a note naming where. 26 December is `public` in all three departments. OpenHolidays and date-holidays list Good Friday as a public holiday in the whole of the three departments; see verification/fr.md.
 
+## D-mc-1 Monaco: the Sunday rule adds a day
+
+Loi n° 798 art. 1er: when New Year’s Day, 1 May, Assumption, All Saints, the Prince’s Day or Christmas falls on a Sunday, “le lundi qui suit sera jour férié légal”. The Sunday stays a jour férié of the same article, so the Monday is a `substitute` (D10), not a move. The yearly government circular writes “reporté au lundi”; the data keeps both days because the law lists both.
+
+## D-mc-2 Monaco: Immaculate Conception on a Sunday moves to Monday
+
+The law has no Sunday rule for 8 December. The government page on public holidays (“8th December or 9th if 8th is on Sunday”) and the circular for 2024 (n° 2023-14) move the day; the FEDEM legal note of October 2024 reports the same for 2019 (circular n° 2019-1, not read here) to Monday 9 December, following the liturgical calendar. This is a move (`adjust` with `moveTo`), since the circulars replace the Sunday. Applied to every year 2000–2050; the circulars before 2019 were not checked (open point in verification/mc.md).

@@ -2,5 +2,6 @@
 import ch from './ch.js';
 import fr from './fr.js';
 import li from './li.js';
+import mc from './mc.js';
 
-export default { CH: ch, FR: fr, LI: li };
+export default { CH: ch, FR: fr, LI: li, MC: mc };
