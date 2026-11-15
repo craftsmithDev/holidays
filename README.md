@@ -14,6 +14,8 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 |---|---|---|
 | Switzerland (CH) | 26 cantons | `public` = equal to Sunday under the Labour Act (ArG Art. 20a); see [verification](docs/verification/ch.md) |
 | Liechtenstein (LI) | 11 municipalities | `public` = Labour Act Art. 18; see [verification](docs/verification/li.md) |
+| Spain (ES) | 17 communities, Ceuta, Melilla | `public` = fiesta laboral in the yearly BOE resolution, 2000–2027; see [verification](docs/verification/es.md) |
+| Andorra (AD) | 7 parishes | `public` = yearly labour calendar decree, 2024–2027; see [verification](docs/verification/ad.md) |
 
 More Western European countries follow in the same format.
 
