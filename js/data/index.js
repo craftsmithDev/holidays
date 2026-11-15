@@ -3,7 +3,10 @@ import at from './at.js';
 import ch from './ch.js';
 import de from './de.js';
 import fr from './fr.js';
+import it from './it.js';
 import li from './li.js';
 import mc from './mc.js';
+import sm from './sm.js';
+import va from './va.js';
 
-export default { AT: at, CH: ch, DE: de, FR: fr, LI: li, MC: mc };
+export default { AT: at, CH: ch, DE: de, FR: fr, IT: it, LI: li, MC: mc, SM: sm, VA: va };

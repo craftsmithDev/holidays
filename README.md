@@ -18,6 +18,9 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 | Austria (AT) | 9 Bundesländer | `public` = Feiertag under the Arbeitsruhegesetz (ARG § 7); see [verification](docs/verification/at.md) |
 | France (FR) | Alsace-Moselle departments and the overseas territories with their own days (10) | `public` = jour férié under the Code du travail; see [verification](docs/verification/fr.md) |
 | Monaco (MC) | none | `public` = Loi n° 798; Sunday rule as substitute days; see [verification](docs/verification/mc.md) |
+| Italy (IT) | 19 regions + the autonomous provinces Bolzano and Trento | `public` = Legge 260/1949 as amended (4 October from 2026); Whit Monday in South Tyrol as `observance`; no patron-saint days; see [verification](docs/verification/it.md) |
+| San Marino (SM) | 9 castelli | `public` = Legge 152/1990; see [verification](docs/verification/sm.md) |
+| Vatican City (VA) | none | `public` = days off under the personnel regulations of the Holy See and the Governatorato; see [verification](docs/verification/va.md) |
 
 More Western European countries follow in the same format.
 

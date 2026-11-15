@@ -1,0 +1,41 @@
+# San Marino. Regions: the 9 castelli (ISO 3166-2:SM). Holidays do not
+# differ between them, so every entry is nationwide (as for LI, D14).
+# Patron-saint days of the castelli are not listed.
+#
+# Types in this file:
+# - public: a holiday of Legge 18 dicembre 1990 n. 152 (Calendario delle
+#   Festività), Art. 1 or 2. The law calls some days "festive" and others
+#   "previste" as national holidays; the offices of the State close on both
+#   (calendario degli uffici 2026), and Art. 5 adapts the labour law to the
+#   whole list, so both are public.
+code: SM
+names: {it: San Marino, en: San Marino}
+languages: [it]
+regions:
+  - {code: SM-01, names: {it: Acquaviva, en: Acquaviva}}
+  - {code: SM-02, names: {it: Chiesanuova, en: Chiesanuova}}
+  - {code: SM-03, names: {it: Domagnano, en: Domagnano}}
+  - {code: SM-04, names: {it: Faetano, en: Faetano}}
+  - {code: SM-05, names: {it: Fiorentino, en: Fiorentino}}
+  - {code: SM-06, names: {it: Borgo Maggiore, en: Borgo Maggiore}}
+  - {code: SM-07, names: {it: Città di San Marino, en: City of San Marino}}
+  - {code: SM-08, names: {it: Montegiardino, en: Montegiardino}}
+  - {code: SM-09, names: {it: Serravalle, en: Serravalle}}
+sources:
+  legge-152-1990:
+    title: "Legge 18 dicembre 1990 n. 152: Calendario delle Festività"
+    publisher: Consiglio Grande e Generale, Repubblica di San Marino
+    law: Legge 18 dicembre 1990 n. 152, artt. 1, 2 e 3 (in vigore dal 1° gennaio 1991)
+    url: https://www.consigliograndeegenerale.sm/on-line/home/archivio-leggi-decreti-e-regolamenti/documento17021104.html
+    accessed: "2026-11-15"
+  calendario-uffici-2026:
+    title: Calendario degli uffici 2026
+    publisher: Segreteria di Stato per gli Affari Interni, Repubblica di San Marino
+    url: https://www.interni.sm/pub2/InterniSM/dam/jcr:3f582a60-f458-4514-a7eb-3cfe60e0cc9d/CALENDARIO%202026-3.pdf
+    accessed: "2026-11-15"
+  calendario-scolastico-2026-2027:
+    title: "Decreto Delegato 26 febbraio 2026 n. 30: Calendario scolastico 2026–2027"
+    publisher: Consiglio Grande e Generale, Repubblica di San Marino
+    law: Decreto Delegato 26 febbraio 2026 n. 30
+    url: https://www.consigliograndeegenerale.sm/on-line/home/lavori-consiliari/consultazione-archivi/documento17157145.html
+    accessed: "2026-11-15"

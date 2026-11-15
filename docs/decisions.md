@@ -85,3 +85,23 @@ Loi n° 798 art. 1er: when New Year’s Day, 1 May, Assumption, All Saints, the 
 ## D-mc-2 Monaco: Immaculate Conception on a Sunday moves to Monday
 
 The law has no Sunday rule for 8 December. The government page on public holidays (“8th December or 9th if 8th is on Sunday”) and the circular for 2024 (n° 2023-14) move the day; the FEDEM legal note of October 2024 reports the same for 2019 (circular n° 2019-1, not read here) to Monday 9 December, following the liturgical calendar. This is a move (`adjust` with `moveTo`), since the circulars replace the Sunday. Applied to every year 2000–2050; the circulars before 2019 were not checked (open point in verification/mc.md).
+
+## D-it-1 Italy: Bolzano and Trento instead of Trentino-Alto Adige
+
+ISO 3166-2:IT has 20 regions (IT-21 … IT-88) and below them the provinces, among them the autonomous provinces Bolzano (IT-BZ) and Trento (IT-TN), which together form Trentino-Alto Adige (IT-32). Only South Tyrol has a holiday of its own (Whit Monday, D-it-2). The region list is the 19 other regions plus IT-BZ and IT-TN: 21 codes that cover Italy once, so that a South Tyrol query gets Whit Monday and a Trentino query does not. IT-32 is not a region code in this library; a caller with IT-32 has to choose IT-BZ or IT-TN. The alternative, IT-32 with Whit Monday as an observance and a note (as in D6), would tell everyone in Trentino about a day off they do not have.
+
+## D-it-2 Italy: Whit Monday in South Tyrol is an observance
+
+The national collective agreements give a paid holiday on the local patron saint’s day. In South Tyrol, territorial agreements put that holiday on Whit Monday for the whole province (e.g. the 2016 agreement for commerce, Art. 8; the contract for the executives of the Region and the chambers of commerce, Art. 22). No state law makes Whit Monday a giorno festivo, so under the Italian type rule (public = Legge 260/1949) it is an `observance`, with the agreements as sources. In practice it is a general day off in the province. Patron-saint days elsewhere are municipal and not listed.
+
+## D-sm-1 San Marino regions
+
+The 9 castelli are the ISO 3166-2:SM subdivisions and are listed, as for Liechtenstein (D14). No holiday differs between them.
+
+## D-va-1 Vatican City: public means a day off under the personnel regulations
+
+The State has no labour act with a list of holidays. The Holy See and the Governatorato, which employ nearly everyone who works in the State, have personnel regulations with the same list: Sundays, the holy days of obligation of canon 1246 §1, and ten further days (anniversary of the pope’s election, his name day, the anniversary of the State, Saint Joseph the Worker, the last three days of Holy Week, Easter Monday and Tuesday, the eve and the day after the Assumption, All Souls, Christmas Eve and the two days after Christmas, New Year’s Eve). These are `public`. The canon 1246 days keep their universal dates (Ascension and Corpus Christi on Thursday), because the regulations name the feasts of obligation and no Vatican source moves them to Sunday.
+
+## D-va-2 Vatican City: no Latin names
+
+Latin is the official language of the Holy See, but the laws of the State and the personnel regulations are in Italian. Latin names exist for the liturgical feasts, not for days such as “the day after the Assumption” or “the last day of the year”, and the build requires a name for every holiday in every language of the country. VA lists `languages: [it]`; adding `la` later means a Latin name for every VA holiday from a citable source.
