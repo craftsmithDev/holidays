@@ -1,4 +1,168 @@
 {
-  "about": "Dates where this library deliberately differs from the visibility reference (tests/golden/ch-2026-2030.json). Each entry names the region, the date, whether the library adds or removes it, and the section of docs/verification/ch.md that gives the source. The golden tests in both runtimes fail on any difference not listed here.",
-  "deviations": []
+  "about": "Dates where this library deliberately differs from the visibility reference (tests/golden/ch-2026-2030.json). Each entry gives the region, the holiday, whether the library adds or removes the dates, and the section of docs/verification/ch.md with the source. The golden tests in both runtimes fail on any difference not listed here.",
+  "deviations": [
+    {
+      "region": "CH-AI",
+      "id": "ch.saint-stephen",
+      "change": "removed",
+      "dates": [
+        "2026-12-26",
+        "2028-12-26"
+      ],
+      "section": "saint-stephen-in-ai-and-ar"
+    },
+    {
+      "region": "CH-AR",
+      "id": "ch.saint-stephen",
+      "change": "removed",
+      "dates": [
+        "2026-12-26",
+        "2028-12-26"
+      ],
+      "section": "saint-stephen-in-ai-and-ar"
+    },
+    {
+      "region": "CH-SO",
+      "id": "ch.labour-day",
+      "change": "added",
+      "dates": [
+        "2026-05-01",
+        "2027-05-01",
+        "2028-05-01",
+        "2029-05-01",
+        "2030-05-01"
+      ],
+      "section": "labour-day-afternoon-in-so"
+    },
+    {
+      "region": "CH-SG",
+      "id": "ch.all-saints",
+      "change": "added",
+      "dates": [
+        "2026-11-01",
+        "2027-11-01",
+        "2028-11-01",
+        "2029-11-01",
+        "2030-11-01"
+      ],
+      "section": "all-saints-in-sg"
+    },
+    {
+      "region": "CH-FR",
+      "id": "ch.immaculate-conception",
+      "change": "added",
+      "dates": [
+        "2026-12-08",
+        "2027-12-08",
+        "2028-12-08",
+        "2029-12-08",
+        "2030-12-08"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-AG",
+      "id": "ch.corpus-christi",
+      "change": "added",
+      "dates": [
+        "2026-06-04",
+        "2027-05-27",
+        "2028-06-15",
+        "2029-05-31",
+        "2030-06-20"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-AG",
+      "id": "ch.assumption",
+      "change": "added",
+      "dates": [
+        "2026-08-15",
+        "2027-08-15",
+        "2028-08-15",
+        "2029-08-15",
+        "2030-08-15"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-AG",
+      "id": "ch.all-saints",
+      "change": "added",
+      "dates": [
+        "2026-11-01",
+        "2027-11-01",
+        "2028-11-01",
+        "2029-11-01",
+        "2030-11-01"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-AG",
+      "id": "ch.immaculate-conception",
+      "change": "added",
+      "dates": [
+        "2026-12-08",
+        "2027-12-08",
+        "2028-12-08",
+        "2029-12-08",
+        "2030-12-08"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-SO",
+      "id": "ch.corpus-christi",
+      "change": "added",
+      "dates": [
+        "2026-06-04",
+        "2027-05-27",
+        "2028-06-15",
+        "2029-05-31",
+        "2030-06-20"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-SO",
+      "id": "ch.assumption",
+      "change": "added",
+      "dates": [
+        "2026-08-15",
+        "2027-08-15",
+        "2028-08-15",
+        "2029-08-15",
+        "2030-08-15"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-SO",
+      "id": "ch.all-saints",
+      "change": "added",
+      "dates": [
+        "2026-11-01",
+        "2027-11-01",
+        "2028-11-01",
+        "2029-11-01",
+        "2030-11-01"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    },
+    {
+      "region": "CH-NE",
+      "id": "ch.corpus-christi",
+      "change": "added",
+      "dates": [
+        "2026-06-04",
+        "2027-05-27",
+        "2028-06-15",
+        "2029-05-31",
+        "2030-06-20"
+      ],
+      "section": "days-equal-to-sunday-in-part-of-a-canton"
+    }
+  ]
 }

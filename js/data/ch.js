@@ -264,6 +264,13 @@ export default {
       "url": "https://www.seco.admin.ch/dam/de/sd-web/x5LtHPJdNis5/Anhang-Feiertage-Schweiz-Auszug-ArG-ArGV1-5-SECO-SB-2024-DE.pdf",
       "accessed": "2026-11-15"
     },
+    "ne-loi-dimanche": {
+      "title": "Loi sur le dimanche et les jours fériés, état au 1er janvier 2010",
+      "publisher": "République et Canton de Neuchâtel",
+      "law": "RSN 941.02, Art. 3",
+      "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/94102.pdf",
+      "accessed": "2026-11-15"
+    },
     "gl-ruhetagsgesetz": {
       "title": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), Stand 1. Juli 2019",
       "publisher": "Kanton Glarus",
@@ -293,6 +300,25 @@ export default {
           "sources": [
             "seco-art20a"
           ]
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "public",
+          "substitute": {
+            "when": {
+              "weekday": [
+                "sun"
+              ]
+            },
+            "avoidWeekdays": []
+          },
+          "sources": [
+            "seco-art20a",
+            "ne-loi-dimanche"
+          ],
+          "note": "When 1 January is a Sunday, 2 January is a rest day equal to Sunday (RSN 941.02 Art. 3)."
         }
       ]
     },
@@ -326,7 +352,6 @@ export default {
             "CH-GL",
             "CH-JU",
             "CH-LU",
-            "CH-NE",
             "CH-OW",
             "CH-SH",
             "CH-SO",
@@ -338,6 +363,17 @@ export default {
             "seco-art20a"
           ],
           "note": "Customary day off; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a",
+            "ne-loi-dimanche"
+          ],
+          "note": "Equal to Sunday only when 1 January is a Sunday; that case is the substitute day of ch.new-year. Otherwise customary."
         },
         {
           "regions": [
@@ -638,6 +674,17 @@ export default {
         },
         {
           "regions": [
+            "CH-SO"
+          ],
+          "type": "public",
+          "startTime": "12:00",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Afternoon only, in the whole canton."
+        },
+        {
+          "regions": [
             "CH-TI"
           ],
           "type": "observance",
@@ -804,6 +851,36 @@ export default {
             "seco-art20a"
           ],
           "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Baden (except Bergdietikon), Bremgarten, Laufenburg, Muri and Zurzach and in six municipalities of the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-SO"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday in the whole canton except the district Bucheggberg."
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the municipality Le Landeron."
         }
       ]
     },
@@ -933,6 +1010,26 @@ export default {
             "seco-art20a"
           ],
           "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Bremgarten, Laufenburg and Muri and in six municipalities of the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-SO"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday in the whole canton except the district Bucheggberg."
         }
       ]
     },
@@ -1064,6 +1161,7 @@ export default {
             "CH-LU",
             "CH-NW",
             "CH-OW",
+            "CH-SG",
             "CH-SZ",
             "CH-TI",
             "CH-UR",
@@ -1095,6 +1193,26 @@ export default {
             "seco-art20a"
           ],
           "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Bremgarten, Laufenburg, Muri and Zurzach and in the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-SO"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday in the whole canton except the district Bucheggberg."
         }
       ]
     },
@@ -1137,6 +1255,26 @@ export default {
             "seco-art20a"
           ],
           "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Laufenburg and Muri and in six municipalities of the district Rheinfelden."
         }
       ]
     },
@@ -1160,6 +1298,25 @@ export default {
           "sources": [
             "seco-art20a"
           ]
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "public",
+          "substitute": {
+            "when": {
+              "weekday": [
+                "sun"
+              ]
+            },
+            "avoidWeekdays": []
+          },
+          "sources": [
+            "seco-art20a",
+            "ne-loi-dimanche"
+          ],
+          "note": "When 25 December is a Sunday, 26 December is a rest day equal to Sunday (RSN 941.02 Art. 3)."
         }
       ]
     },
@@ -1179,8 +1336,6 @@ export default {
       "observances": [
         {
           "regions": [
-            "CH-AI",
-            "CH-AR",
             "CH-BE",
             "CH-BL",
             "CH-BS",
@@ -1197,6 +1352,28 @@ export default {
           "sources": [
             "seco-art20a"
           ]
+        },
+        {
+          "regions": [
+            "CH-AI",
+            "CH-AR"
+          ],
+          "type": "public",
+          "adjust": [
+            {
+              "when": {
+                "weekday": [
+                  "tue",
+                  "sat"
+                ]
+              },
+              "skip": true
+            }
+          ],
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Not observed when Christmas falls on a Monday or Friday, i.e. when it would make three rest days in a row (AR, AI)."
         },
         {
           "regions": [

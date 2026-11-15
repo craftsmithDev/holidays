@@ -13,9 +13,11 @@ test('CH 2026–2030 per canton equals the visibility reference', () => {
   for (const [region, years] of Object.entries(golden)) {
     for (const [year, dates] of Object.entries(years)) {
       const expected = new Set(dates);
-      for (const d of deviations.filter((x) => x.region === region && x.date.startsWith(year))) {
-        if (d.change === 'added') expected.add(d.date);
-        else expected.delete(d.date);
+      for (const d of deviations.filter((x) => x.region === region)) {
+        for (const date of d.dates.filter((x) => x.startsWith(year))) {
+          if (d.change === 'added') expected.add(date);
+          else expected.delete(date);
+        }
       }
       const ours = [...new Set(holidays.holidays('CH', Number(year), region, TYPES).map((h) => h.date))].sort();
       assert.deepEqual(ours, [...expected].sort(), `${region} ${year}`);

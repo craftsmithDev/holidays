@@ -25,11 +25,17 @@ final class GoldenTest extends TestCase
             foreach ($years as $year => $dates) {
                 $expected = array_fill_keys($dates, true);
                 foreach ($deviations as $d) {
-                    if ($d['region'] === $region && str_starts_with($d['date'], (string)$year)) {
+                    if ($d['region'] !== $region) {
+                        continue;
+                    }
+                    foreach ($d['dates'] as $date) {
+                        if (!str_starts_with($date, (string)$year)) {
+                            continue;
+                        }
                         if ($d['change'] === 'added') {
-                            $expected[$d['date']] = true;
+                            $expected[$date] = true;
                         } else {
-                            unset($expected[$d['date']]);
+                            unset($expected[$date]);
                         }
                     }
                 }
