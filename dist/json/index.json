@@ -142,6 +142,49 @@
       ]
     },
     {
+      "code": "BE",
+      "names": {
+        "nl": "België",
+        "fr": "Belgique",
+        "de": "Belgien",
+        "en": "Belgium"
+      },
+      "languages": [
+        "nl",
+        "fr",
+        "de"
+      ],
+      "regions": [
+        {
+          "code": "BE-BRU",
+          "names": {
+            "nl": "Brussels Hoofdstedelijk Gewest",
+            "fr": "Région de Bruxelles-Capitale",
+            "de": "Region Brüssel-Hauptstadt",
+            "en": "Brussels-Capital Region"
+          }
+        },
+        {
+          "code": "BE-VLG",
+          "names": {
+            "nl": "Vlaams Gewest",
+            "fr": "Région flamande",
+            "de": "Flämische Region",
+            "en": "Flemish Region"
+          }
+        },
+        {
+          "code": "BE-WAL",
+          "names": {
+            "nl": "Waals Gewest",
+            "fr": "Région wallonne",
+            "de": "Wallonische Region",
+            "en": "Walloon Region"
+          }
+        }
+      ]
+    },
+    {
       "code": "CH",
       "names": {
         "de": "Schweiz",
@@ -1051,6 +1094,21 @@
       ]
     },
     {
+      "code": "LU",
+      "names": {
+        "lb": "Lëtzebuerg",
+        "fr": "Luxembourg",
+        "de": "Luxemburg",
+        "en": "Luxembourg"
+      },
+      "languages": [
+        "lb",
+        "fr",
+        "de"
+      ],
+      "regions": []
+    },
+    {
       "code": "MC",
       "names": {
         "fr": "Monaco",
@@ -1072,6 +1130,123 @@
         "en"
       ],
       "regions": []
+    },
+    {
+      "code": "NL",
+      "names": {
+        "nl": "Nederland",
+        "en": "Netherlands"
+      },
+      "languages": [
+        "nl"
+      ],
+      "regions": [
+        {
+          "code": "NL-DR",
+          "names": {
+            "nl": "Drenthe",
+            "en": "Drenthe"
+          }
+        },
+        {
+          "code": "NL-FL",
+          "names": {
+            "nl": "Flevoland",
+            "en": "Flevoland"
+          }
+        },
+        {
+          "code": "NL-FR",
+          "names": {
+            "nl": "Fryslân",
+            "en": "Friesland"
+          }
+        },
+        {
+          "code": "NL-GE",
+          "names": {
+            "nl": "Gelderland",
+            "en": "Gelderland"
+          }
+        },
+        {
+          "code": "NL-GR",
+          "names": {
+            "nl": "Groningen",
+            "en": "Groningen"
+          }
+        },
+        {
+          "code": "NL-LI",
+          "names": {
+            "nl": "Limburg",
+            "en": "Limburg"
+          }
+        },
+        {
+          "code": "NL-NB",
+          "names": {
+            "nl": "Noord-Brabant",
+            "en": "North Brabant"
+          }
+        },
+        {
+          "code": "NL-NH",
+          "names": {
+            "nl": "Noord-Holland",
+            "en": "North Holland"
+          }
+        },
+        {
+          "code": "NL-OV",
+          "names": {
+            "nl": "Overijssel",
+            "en": "Overijssel"
+          }
+        },
+        {
+          "code": "NL-UT",
+          "names": {
+            "nl": "Utrecht",
+            "en": "Utrecht"
+          }
+        },
+        {
+          "code": "NL-ZE",
+          "names": {
+            "nl": "Zeeland",
+            "en": "Zeeland"
+          }
+        },
+        {
+          "code": "NL-ZH",
+          "names": {
+            "nl": "Zuid-Holland",
+            "en": "South Holland"
+          }
+        },
+        {
+          "code": "NL-BQ1",
+          "names": {
+            "nl": "Bonaire",
+            "en": "Bonaire"
+          }
+        },
+        {
+          "code": "NL-BQ2",
+          "names": {
+            "nl": "Saba",
+            "en": "Saba"
+          }
+        },
+        {
+          "code": "NL-BQ3",
+          "names": {
+            "nl": "Sint Eustatius",
+            "en": "Sint Eustatius"
+          }
+        }
+      ]
     },
     {
       "code": "PT",

@@ -1,0 +1,108 @@
+# Luxembourg holidays.
+#
+# public: the “jours fériés légaux” of the Code du travail, Art. L. 232-2
+# (source lu-code-du-travail); until the Code (2006) the same list in the law
+# of 10 April 1976, Art. 2 (source lu-loi-1976). Europe Day since 2019.
+#
+# No substitute days: a holiday on a Sunday, or two holidays on the same day
+# (Ascension and Europe Day in 2024), gives a compensatory day off within
+# three months, chosen per employee (Art. L. 232-3, L. 232-6). The 1976 law
+# moved National Day to 24 June when 23 June was a Sunday and let the
+# minister fix replacement days; the laws of 12 February 1999 and 2002
+# replaced this by the compensatory day (source lu-doc-parl-4608). From 2000
+# on, every day stays on its date.
+#
+# bank: Good Friday and the afternoon of Christmas Eve, bank holidays under
+# the collective agreement of the banking sector (source lu-guichet).
+#
+# Luxembourgish names follow the Lëtzebuerger Online Dictionnaire (LOD); see
+# docs/verification/lu.md.
+
+holidays:
+  - id: lu.new-year
+    names: {en: New Year’s Day, lb: Neijoerschdag, fr: Nouvel An, de: Neujahr}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.good-friday
+    names: {en: Good Friday, lb: Karfreideg, fr: Vendredi saint, de: Karfreitag}
+    date: {type: easter, offset: -2}
+    observances:
+      - regions: all
+        type: bank
+        sources: [lu-guichet]
+        note: Bank holiday under the collective agreement of the banking sector; not a “jour férié légal”.
+
+  - id: lu.easter-monday
+    names: {en: Easter Monday, lb: Ouschterméindeg, fr: Lundi de Pâques, de: Ostermontag}
+    date: {type: easter, offset: 1}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.labour-day
+    names: {en: Labour Day, lb: Dag vun der Aarbecht, fr: Fête du travail, de: Tag der Arbeit}
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.europe-day
+    names: {en: Europe Day, lb: Europadag, fr: Journée de l’Europe, de: Europatag}
+    from: 2019
+    date: {type: fixed, month: 5, day: 9}
+    note: Added by the law of 25 April 2019 with effect from 1 January 2019.
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-guichet]}
+
+  - id: lu.ascension
+    names: {en: Ascension Day, lb: Christi Himmelfaart, fr: Ascension, de: Christi Himmelfahrt}
+    date: {type: easter, offset: 39}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.whit-monday
+    names: {en: Whit Monday, lb: Päischtméindeg, fr: Lundi de Pentecôte, de: Pfingstmontag}
+    date: {type: easter, offset: 50}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.national-day
+    names: {en: National Day, lb: Nationalfeierdag, fr: Fête nationale, de: Nationalfeiertag}
+    date: {type: fixed, month: 6, day: 23}
+    note: Public celebration of the Grand Duke’s birthday, fixed on 23 June (Art. L. 232-2, 7°).
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-doc-parl-4608, lu-guichet]}
+
+  - id: lu.assumption
+    names: {en: Assumption Day, lb: Léiffrawëschdag, fr: Assomption, de: Mariä Himmelfahrt}
+    date: {type: fixed, month: 8, day: 15}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.all-saints
+    names: {en: All Saints’ Day, lb: Allerhellegen, fr: Toussaint, de: Allerheiligen}
+    date: {type: fixed, month: 11, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.christmas-eve
+    names: {en: Christmas Eve, lb: Hellegowend, fr: Veille de Noël, de: Heiligabend}
+    date: {type: fixed, month: 12, day: 24}
+    observances:
+      - regions: all
+        type: bank
+        startTime: "12:00"
+        sources: [lu-guichet]
+        note: The afternoon is a bank holiday under the collective agreement of the banking sector; the sources say “afternoon” without a time.
+
+  - id: lu.christmas
+    names: {en: Christmas Day, lb: Chrëschtdag, fr: 1er jour de Noël, de: 1. Weihnachtsfeiertag}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}
+
+  - id: lu.saint-stephen
+    names: {en: Boxing Day, lb: Stiefesdag, fr: 2e jour de Noël, de: 2. Weihnachtsfeiertag}
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - {regions: all, type: public, sources: [lu-code-du-travail, lu-loi-1976, lu-guichet]}

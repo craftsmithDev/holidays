@@ -1593,6 +1593,146 @@
         "all"
       ],
       "expect": false
+    },
+    {
+      "name": "BE 2008: Ascension on 1 May replaced by 2 May (AR of 10 February 2008)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "BE",
+        2008,
+        null,
+        null
+      ],
+      "expect": [
+        "2008-01-01 be.new-year public",
+        "2008-03-24 be.easter-monday public",
+        "2008-05-01 be.labour-day public",
+        "2008-05-02 be.ascension public",
+        "2008-05-12 be.whit-monday public",
+        "2008-07-21 be.national-day public",
+        "2008-08-15 be.assumption public",
+        "2008-11-01 be.all-saints public",
+        "2008-11-11 be.armistice public",
+        "2008-12-25 be.christmas public"
+      ]
+    },
+    {
+      "name": "BE King’s Feast is not a statutory day off",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-11-15",
+        "BE",
+        "WAL",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "BE King’s Feast and German-speaking Community day as observances",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-11-15",
+        "BE",
+        "WAL",
+        "all"
+      ],
+      "expect": true
+    },
+    {
+      "name": "NL 2025: King’s Day on Saturday 26 April because 27 April is a Sunday",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "NL",
+        2025,
+        "NL-NH",
+        null
+      ],
+      "expect": [
+        "2025-01-01 nl.new-year public",
+        "2025-04-21 nl.easter-monday public",
+        "2025-04-26 nl.kings-day public",
+        "2025-05-29 nl.ascension public",
+        "2025-06-09 nl.whit-monday public",
+        "2025-12-25 nl.christmas public",
+        "2025-12-26 nl.saint-stephen public"
+      ]
+    },
+    {
+      "name": "NL 2000: Queen’s Day on Saturday 29 April because 30 April is a Sunday",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2000-04-29",
+        "NL",
+        "NH",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "NL before 2010: nothing is nationwide, the Caribbean Netherlands have no data",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2000-04-29",
+        "NL",
+        null,
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "NL Bonaire 2022: Labour Day on Monday 2 May, Whit Monday only an observance",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "NL",
+        2022,
+        "NL-BQ1",
+        "all"
+      ],
+      "expect": [
+        "2022-01-01 nl.new-year public",
+        "2022-04-15 nl.good-friday public",
+        "2022-04-18 nl.easter-monday public",
+        "2022-04-27 nl.kings-day public",
+        "2022-04-30 nl.dia-di-rincon public",
+        "2022-05-02 nl.labour-day public",
+        "2022-05-05 nl.liberation-day observance",
+        "2022-05-26 nl.ascension public",
+        "2022-06-06 nl.whit-monday observance",
+        "2022-09-06 nl.flag-day-bonaire public",
+        "2022-12-25 nl.christmas public",
+        "2022-12-26 nl.saint-stephen public"
+      ]
+    },
+    {
+      "name": "LU 2024: Europe Day and Ascension on the same day",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "LU",
+        2024,
+        null,
+        null
+      ],
+      "expect": [
+        "2024-01-01 lu.new-year public",
+        "2024-04-01 lu.easter-monday public",
+        "2024-05-01 lu.labour-day public",
+        "2024-05-09 lu.europe-day public",
+        "2024-05-09 lu.ascension public",
+        "2024-05-20 lu.whit-monday public",
+        "2024-06-23 lu.national-day public",
+        "2024-08-15 lu.assumption public",
+        "2024-11-01 lu.all-saints public",
+        "2024-12-25 lu.christmas public",
+        "2024-12-26 lu.saint-stephen public"
+      ]
     }
   ]
 }

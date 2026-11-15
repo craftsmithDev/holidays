@@ -1,0 +1,93 @@
+# Netherlands. Regions: the 12 provinces and the three special
+# municipalities of the Caribbean Netherlands (Bonaire, Saba, Sint
+# Eustatius), all first-level subdivisions of ISO 3166-2:NL. Aruba, Curaçao
+# and Sint Maarten (NL-AW, NL-CW, NL-SX) are countries of the Kingdom with
+# their own law and their own ISO 3166-1 codes; they are not listed
+# (decision D-bnl-3).
+#
+# Types in this file (decision D-bnl-2):
+# - European Netherlands: no law gives employees a day off on a holiday; the
+#   collective agreement (cao) or the contract decides (Rijksoverheid).
+#   public: an “algemeen erkende feestdag” of the Algemene termijnenwet,
+#   Art. 3 para. 1, that is a general day off in practice.
+#   observance: Good Friday (equal to those days only for time limits,
+#   Art. 3 para. 2) and Liberation Day (in Art. 3 para. 1, but a day off only
+#   under some cao's, many of them only every fifth year).
+# - Caribbean Netherlands (NL-BQ1, NL-BQ2, NL-BQ3), from 10 October 2010:
+#   public: a holiday of the Arbeidswet 2000 BES, Art. 23 (paid; work on it
+#   paid double). observance: a day of the Algemene termijnenwet (which
+#   applies there by its Art. 5a) that is not in Art. 23.
+code: NL
+names: {nl: Nederland, en: Netherlands}
+languages: [nl]
+regions:
+  - {code: NL-DR, names: {nl: Drenthe, en: Drenthe}}
+  - {code: NL-FL, names: {nl: Flevoland, en: Flevoland}}
+  - {code: NL-FR, names: {nl: Fryslân, en: Friesland}}
+  - {code: NL-GE, names: {nl: Gelderland, en: Gelderland}}
+  - {code: NL-GR, names: {nl: Groningen, en: Groningen}}
+  - {code: NL-LI, names: {nl: Limburg, en: Limburg}}
+  - {code: NL-NB, names: {nl: Noord-Brabant, en: North Brabant}}
+  - {code: NL-NH, names: {nl: Noord-Holland, en: North Holland}}
+  - {code: NL-OV, names: {nl: Overijssel, en: Overijssel}}
+  - {code: NL-UT, names: {nl: Utrecht, en: Utrecht}}
+  - {code: NL-ZE, names: {nl: Zeeland, en: Zeeland}}
+  - {code: NL-ZH, names: {nl: Zuid-Holland, en: South Holland}}
+  - {code: NL-BQ1, names: {nl: Bonaire, en: Bonaire}}
+  - {code: NL-BQ2, names: {nl: Saba, en: Saba}}
+  - {code: NL-BQ3, names: {nl: Sint Eustatius, en: Sint Eustatius}}
+sources:
+  nl-termijnenwet:
+    title: Algemene termijnenwet, geldend van 10-10-2010 t/m heden
+    publisher: Overheid.nl (wetten.overheid.nl)
+    law: Algemene termijnenwet (BWBR0002448), Art. 3 and 5a
+    url: https://wetten.overheid.nl/BWBR0002448/2010-10-10
+    accessed: "2026-11-15"
+  nl-rijksoverheid-feestdagen:
+    title: Wanneer zijn de officiële feestdagen in Nederland?
+    publisher: Rijksoverheid
+    url: https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen
+    accessed: "2026-11-15"
+  nl-rijksoverheid-goede-vrijdag:
+    title: Is Goede Vrijdag een vrije dag?
+    publisher: Rijksoverheid
+    url: https://www.rijksoverheid.nl/themas/werk/vakantiedagen-en-vakantiegeld/officiele-feestdagen/vraag-en-antwoord/arbeidsovereenkomst-en-cao/goede-vrijdag-vrije-dag
+    accessed: "2026-11-15"
+  nl-rijksoverheid-bevrijdingsdag:
+    title: Is Bevrijdingsdag (5 mei) een vrije dag?
+    publisher: Rijksoverheid
+    url: https://www.rijksoverheid.nl/themas/werk/vakantiedagen-en-vakantiegeld/officiele-feestdagen/vraag-en-antwoord/arbeidsovereenkomst-en-cao/bevrijdingsdag-5-mei-vrije-dag
+    accessed: "2026-11-15"
+  nl-rijksoverheid-koningsdag:
+    title: Is Koningsdag (27 april) een vrije dag?
+    publisher: Rijksoverheid
+    url: https://www.rijksoverheid.nl/themas/werk/vakantiedagen-en-vakantiegeld/officiele-feestdagen/vraag-en-antwoord/arbeidsovereenkomst-en-cao/koningsdag-27-april-vrije-dag
+    accessed: "2026-11-15"
+  nl-besluit-koningsdag:
+    title: Besluit van 30 januari 2013, nr. 13.000173, houdende vaststelling en aanduiding van de zevenentwintigste april als Koningsdag (met nota van toelichting)
+    publisher: Staatscourant 2013, 4075
+    law: Besluit vaststelling en aanduiding zevenentwintigste april als Koningsdag (BWBR0032908), Art. 1–2
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2013-4075.pdf
+    accessed: "2026-11-15"
+  nl-stcrt-2000-koninginnedag:
+    title: Sluiting luchtruim. Bezoek koningin Beatrix aan Leiden (zaterdag 29 april 2000)
+    publisher: Staatscourant 2000, 102
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2000-102-p9-SC24161.pdf
+    accessed: "2026-11-15"
+  nl-stcrt-2006-koninginnedag:
+    title: Regeling tijdelijke sluiting luchtruim Koninginnedag 2006 (29 april 2006)
+    publisher: Staatscourant 2006, 87
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2006-87-p21-SC75027.pdf
+    accessed: "2026-11-15"
+  nl-arbeidswet-bes:
+    title: Arbeidswet 2000 BES (versions from 10-10-2010 to the version in force since 01-01-2025)
+    publisher: Overheid.nl (wetten.overheid.nl)
+    law: Arbeidswet 2000 BES (BWBR0028202), Art. 22–23
+    url: https://wetten.overheid.nl/BWBR0028202/
+    accessed: "2026-11-15"
+  nl-regeling-feestdagen-ambtenaren-bes:
+    title: Regeling feestdagen ambtenaren BES
+    publisher: Staatscourant 2019, 63152
+    law: Regeling van 18 november 2019, nr. 2019-0000605266, Art. 1–3
+    url: https://www.officielebekendmakingen.nl/stcrt-2019-63152.pdf
+    accessed: "2026-11-15"
