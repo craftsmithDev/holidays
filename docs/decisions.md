@@ -61,3 +61,11 @@ The 11 municipalities are the ISO 3166-2:LI subdivisions and are listed, so that
 ## D15 Generated files are committed
 
 `dist/`, `js/data/` and the fixture outputs are in git, so that jsDelivr can serve the year files straight from GitHub and the npm and Composer packages need no build step. CI fails when the committed output differs from a fresh build.
+
+## D-pt-1 Portugal: districts listed as regions, municipal holidays left out
+
+ISO 3166-2:PT has 18 districts and the two autonomous regions. Only the Azores (PT-20) and Madeira (PT-30) have holidays of their own; the districts are listed anyway, like the municipalities of Liechtenstein (D14), so that a district code is accepted and returns the national days. Municipal holidays (one per municipality, Labour Code Art. 235) are not modelled; the scope is country and region.
+
+## D-pt-2 Malta: no substitute days
+
+Cap. 252 Art. 6 never moves a holiday that falls on a weekend. Under Act II of 2005 such a holiday gave nothing extra; since 1 January 2021 it gives one extra day of vacation leave, to be taken when agreed. That is a leave entitlement without a date, so the Malta data has no `substitute`. A consumer who counts leave days can find the weekend holidays from the year files.
