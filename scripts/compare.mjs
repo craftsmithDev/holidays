@@ -69,8 +69,12 @@ async function openHolidays(country, year, regions) {
 
 function dateHolidays(country, year, regions) {
   const out = {};
+  // date-holidays knows only some subdivisions (AD: 2 of 7 parishes); use the
+  // country rules for the others instead of crashing.
+  const known = new DateHolidays().getStates(country) || {};
   for (const region of regions.length > 0 ? regions : ['']) {
-    const hd = region ? new DateHolidays(country, region.split('-')[1]) : new DateHolidays(country);
+    const state = region.split('-')[1];
+    const hd = region && known[state] ? new DateHolidays(country, state) : new DateHolidays(country);
     out[region] = {};
     for (const h of hd.getHolidays(year) || []) {
       if (h.type === 'school') continue;
