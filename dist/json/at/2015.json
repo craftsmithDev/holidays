@@ -1,0 +1,501 @@
+{
+  "format": 1,
+  "country": "AT",
+  "year": 2015,
+  "holidays": [
+    {
+      "date": "2015-01-01",
+      "id": "at.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "de": "Neujahr"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-01-06",
+      "id": "at.epiphany",
+      "name": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-03-19",
+      "id": "at.saint-joseph",
+      "name": {
+        "en": "Saint Joseph’s Day",
+        "de": "Josefitag"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "AT-2",
+        "AT-6",
+        "AT-7",
+        "AT-8"
+      ],
+      "sources": [
+        "schzg",
+        "k-schg",
+        "stmk-schzag",
+        "t-schog",
+        "vbg-pszg"
+      ]
+    },
+    {
+      "date": "2015-04-03",
+      "id": "at.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "de": "Karfreitag"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg-2019"
+      ]
+    },
+    {
+      "date": "2015-04-06",
+      "id": "at.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "de": "Ostermontag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-05-01",
+      "id": "at.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "de": "Staatsfeiertag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-05-04",
+      "id": "at.saint-florian",
+      "name": {
+        "en": "Saint Florian’s Day",
+        "de": "Florian"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "AT-4"
+      ],
+      "sources": [
+        "schzg",
+        "ooe-lfschg"
+      ]
+    },
+    {
+      "date": "2015-05-14",
+      "id": "at.ascension",
+      "name": {
+        "en": "Ascension Day",
+        "de": "Christi Himmelfahrt"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-05-25",
+      "id": "at.whit-monday",
+      "name": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-06-04",
+      "id": "at.corpus-christi",
+      "name": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-08-15",
+      "id": "at.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "de": "Mariä Himmelfahrt"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-09-24",
+      "id": "at.saint-rupert",
+      "name": {
+        "en": "Saint Rupert’s Day",
+        "de": "Rupertitag"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "AT-5"
+      ],
+      "sources": [
+        "schzg",
+        "sbg-lwschg"
+      ]
+    },
+    {
+      "date": "2015-10-10",
+      "id": "at.plebiscite-day",
+      "name": {
+        "en": "Carinthian Plebiscite Day",
+        "de": "Tag der Volksabstimmung"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "AT-2"
+      ],
+      "sources": [
+        "schzg",
+        "k-schg"
+      ]
+    },
+    {
+      "date": "2015-10-26",
+      "id": "at.national-day",
+      "name": {
+        "en": "National Day",
+        "de": "Nationalfeiertag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-11-01",
+      "id": "at.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "de": "Allerheiligen"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-11-11",
+      "id": "at.saint-martin",
+      "name": {
+        "en": "Saint Martin’s Day",
+        "de": "Martini"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "AT-1"
+      ],
+      "sources": [
+        "schzg",
+        "bgld-lbedg",
+        "bgld-lwschg"
+      ]
+    },
+    {
+      "date": "2015-11-15",
+      "id": "at.saint-leopold",
+      "name": {
+        "en": "Saint Leopold’s Day",
+        "de": "Leopolditag"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "AT-3",
+        "AT-9"
+      ],
+      "sources": [
+        "schzg",
+        "noe-lv",
+        "w-schg"
+      ]
+    },
+    {
+      "date": "2015-12-08",
+      "id": "at.immaculate-conception",
+      "name": {
+        "en": "Immaculate Conception",
+        "de": "Mariä Empfängnis"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-12-24",
+      "id": "at.christmas-eve",
+      "name": {
+        "en": "Christmas Eve",
+        "de": "Heiliger Abend"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "schzg"
+      ]
+    },
+    {
+      "date": "2015-12-25",
+      "id": "at.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "de": "Weihnachten"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-12-26",
+      "id": "at.saint-stephen",
+      "name": {
+        "en": "Saint Stephen’s Day",
+        "de": "Stephanstag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "frg"
+      ]
+    },
+    {
+      "date": "2015-12-31",
+      "id": "at.new-years-eve",
+      "name": {
+        "en": "New Year’s Eve",
+        "de": "Silvester"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "arg",
+        "schzg"
+      ]
+    }
+  ],
+  "sources": {
+    "arg": {
+      "title": "Arbeitsruhegesetz (ARG), Fassung vom 15.11.2026",
+      "publisher": "Bundeskanzleramt, Rechtsinformationssystem des Bundes (RIS)",
+      "law": "BGBl. Nr. 144/1983, § 7 Abs. 2 und § 7a",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008541",
+      "accessed": "2026-11-15"
+    },
+    "arg-2019": {
+      "title": "Arbeitsruhegesetz (ARG), Fassung vom 01.01.2019",
+      "publisher": "Bundeskanzleramt, Rechtsinformationssystem des Bundes (RIS)",
+      "law": "BGBl. Nr. 144/1983, § 7 Abs. 3 (aufgehoben durch BGBl. I Nr. 22/2019)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008541&FassungVom=2019-01-01",
+      "accessed": "2026-11-15"
+    },
+    "frg": {
+      "title": "Feiertagsruhegesetz 1957, Fassung vom 15.11.2026",
+      "publisher": "Bundeskanzleramt, Rechtsinformationssystem des Bundes (RIS)",
+      "law": "BGBl. Nr. 153/1957, § 1 Abs. 1",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008168",
+      "accessed": "2026-11-15"
+    },
+    "schzg": {
+      "title": "Schulzeitgesetz 1985, Fassung vom 15.11.2026",
+      "publisher": "Bundeskanzleramt, Rechtsinformationssystem des Bundes (RIS)",
+      "law": "BGBl. Nr. 77/1985, § 2 (Festtag des Landespatrons, Weihnachtsferien)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009575",
+      "accessed": "2026-11-15"
+    },
+    "bgld-lbedg": {
+      "title": "Burgenländisches Landesbedienstetengesetz 2020, Fassung vom 15.11.2026",
+      "publisher": "Land Burgenland (RIS Landesrecht)",
+      "law": "LGBl. Nr. 95/2019, § 11 Abs. 1 (11. November, Fest des Landespatrons)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrBgld&Gesetzesnummer=20001247",
+      "accessed": "2026-11-15"
+    },
+    "bgld-lwschg": {
+      "title": "Burgenländisches Landwirtschaftliches Schulgesetz, Fassung vom 15.11.2026",
+      "publisher": "Land Burgenland (RIS Landesrecht)",
+      "law": "LGBl. Nr. 30/1985, § 15 Abs. 1 lit. a (11. November als Festtag des Landespatrons)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrBgld&Gesetzesnummer=10000175",
+      "accessed": "2026-11-15"
+    },
+    "k-schg": {
+      "title": "Kärntner Schulgesetz (K-SchG), Fassung vom 15.11.2026",
+      "publisher": "Land Kärnten (RIS Landesrecht)",
+      "law": "LGBl. Nr. 58/2000, § 74 Abs. 4 lit. a (19. März, 10. Oktober)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrK&Gesetzesnummer=20000025",
+      "accessed": "2026-11-15"
+    },
+    "noe-lv": {
+      "title": "NÖ Landesverfassung 1979, Fassung vom 15.11.2026",
+      "publisher": "Land Niederösterreich (RIS Landesrecht)",
+      "law": "LGBl. 0001, Art. 7 Abs. 6 (Landespatron Heiliger Leopold, Landesfeiertag 15. November)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrNO&Gesetzesnummer=20000038",
+      "accessed": "2026-11-15"
+    },
+    "ooe-lfschg": {
+      "title": "Oö. Land- und forstwirtschaftliches Schulgesetz, Fassung vom 15.11.2026",
+      "publisher": "Land Oberösterreich (RIS Landesrecht)",
+      "law": "LGBl. Nr. 60/1997, § 15 Abs. 1 Z 1 (4. Mai als Festtag des Landespatrons)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrOO&Gesetzesnummer=10000543",
+      "accessed": "2026-11-15"
+    },
+    "sbg-lwschg": {
+      "title": "Salzburger Landwirtschaftliches Schulgesetz 2018, Fassung vom 15.11.2026",
+      "publisher": "Land Salzburg (RIS Landesrecht)",
+      "law": "LGBl. Nr. 53/2018, § 15 Abs. 1 lit. a (24. September als Festtag des Landespatrons)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrSbg&Gesetzesnummer=20001169",
+      "accessed": "2026-11-15"
+    },
+    "stmk-schzag": {
+      "title": "Steiermärkisches Schulzeit-Ausführungsgesetz 1999, Fassung vom 15.11.2026",
+      "publisher": "Land Steiermark (RIS Landesrecht)",
+      "law": "LGBl. Nr. 105/1999, § 2 Abs. 6 Z 1 (19. März als Festtag des Landespatrons)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrStmk&Gesetzesnummer=20000163",
+      "accessed": "2026-11-15"
+    },
+    "t-schog": {
+      "title": "Tiroler Schulorganisationsgesetz 1991, Fassung vom 15.11.2026",
+      "publisher": "Land Tirol (RIS Landesrecht)",
+      "law": "LGBl. Nr. 84/1991, § 110 Abs. 2 (19. März, Festtag des Landespatrons)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrT&Gesetzesnummer=20000013",
+      "accessed": "2026-11-15"
+    },
+    "vbg-pszg": {
+      "title": "Pflichtschulzeitgesetz (Vorarlberg), Fassung vom 15.11.2026",
+      "publisher": "Land Vorarlberg (RIS Landesrecht)",
+      "law": "LGBl. Nr. 31/1998, § 3 Abs. 1 lit. a (19. März)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrVbg&Gesetzesnummer=20000230",
+      "accessed": "2026-11-15"
+    },
+    "w-schg": {
+      "title": "Wiener Schulgesetz, Fassung vom 15.11.2026",
+      "publisher": "Land Wien (RIS Landesrecht)",
+      "law": "LGBl. Nr. 20/1976, § 56 Abs. 4 Z 1 (15. November)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000197",
+      "accessed": "2026-11-15"
+    }
+  }
+}

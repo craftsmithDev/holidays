@@ -1,0 +1,710 @@
+{
+  "format": 1,
+  "country": "DE",
+  "year": 2027,
+  "holidays": [
+    {
+      "date": "2027-01-01",
+      "id": "de.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "de": "Neujahr"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-01-06",
+      "id": "de.epiphany",
+      "name": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-BW",
+        "DE-BY",
+        "DE-ST"
+      ],
+      "sources": [
+        "bw-ftg",
+        "by-ftg",
+        "st-feiertg"
+      ]
+    },
+    {
+      "date": "2027-03-08",
+      "id": "de.womens-day",
+      "name": {
+        "en": "International Women’s Day",
+        "de": "Internationaler Frauentag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-BE",
+        "DE-MV"
+      ],
+      "sources": [
+        "be-feiertg",
+        "mv-ftg",
+        "mv-gvobl-2022"
+      ]
+    },
+    {
+      "date": "2027-03-26",
+      "id": "de.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "de": "Karfreitag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-03-29",
+      "id": "de.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "de": "Ostermontag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-05-01",
+      "id": "de.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "de": "Tag der Arbeit"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-05-06",
+      "id": "de.ascension",
+      "name": {
+        "en": "Ascension Day",
+        "de": "Christi Himmelfahrt"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-05-17",
+      "id": "de.whit-monday",
+      "name": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-05-27",
+      "id": "de.corpus-christi",
+      "name": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-BW",
+        "DE-BY",
+        "DE-HE",
+        "DE-NW",
+        "DE-RP",
+        "DE-SL"
+      ],
+      "sources": [
+        "bw-ftg",
+        "by-ftg",
+        "he-feiertg",
+        "nw-ftg",
+        "rp-lftg",
+        "sl-sfg"
+      ]
+    },
+    {
+      "date": "2027-05-27",
+      "id": "de.corpus-christi",
+      "name": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-SN",
+        "DE-TH"
+      ],
+      "sources": [
+        "sn-saechssfg",
+        "sn-fronleichnamsvo",
+        "th-fgtg",
+        "th-fgtg-10"
+      ]
+    },
+    {
+      "date": "2027-08-08",
+      "id": "de.augsburg-peace-festival",
+      "name": {
+        "en": "Augsburg Peace Festival",
+        "de": "Augsburger Hohes Friedensfest"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-BY"
+      ],
+      "sources": [
+        "by-ftg"
+      ]
+    },
+    {
+      "date": "2027-08-15",
+      "id": "de.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "de": "Mariä Himmelfahrt"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-SL"
+      ],
+      "sources": [
+        "sl-sfg"
+      ]
+    },
+    {
+      "date": "2027-08-15",
+      "id": "de.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "de": "Mariä Himmelfahrt"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-BY"
+      ],
+      "sources": [
+        "by-ftg"
+      ]
+    },
+    {
+      "date": "2027-09-20",
+      "id": "de.world-childrens-day",
+      "name": {
+        "en": "World Children’s Day",
+        "de": "Weltkindertag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-TH"
+      ],
+      "sources": [
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-10-03",
+      "id": "de.national-day",
+      "name": {
+        "en": "Day of German Unity",
+        "de": "Tag der Deutschen Einheit"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "einigvtr"
+      ]
+    },
+    {
+      "date": "2027-10-31",
+      "id": "de.reformation-day",
+      "name": {
+        "en": "Reformation Day",
+        "de": "Reformationstag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-BB",
+        "DE-HB",
+        "DE-HH",
+        "DE-MV",
+        "DE-NI",
+        "DE-SH",
+        "DE-SN",
+        "DE-ST",
+        "DE-TH"
+      ],
+      "sources": [
+        "bb-ftg",
+        "hb-gbl-2018",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "sh-sftg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-11-01",
+      "id": "de.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "de": "Allerheiligen"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-BW",
+        "DE-BY",
+        "DE-NW",
+        "DE-RP",
+        "DE-SL"
+      ],
+      "sources": [
+        "bw-ftg",
+        "by-ftg",
+        "nw-ftg",
+        "rp-lftg",
+        "sl-sfg"
+      ]
+    },
+    {
+      "date": "2027-11-17",
+      "id": "de.repentance-day",
+      "name": {
+        "en": "Day of Repentance and Prayer",
+        "de": "Buß- und Bettag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "DE-SN"
+      ],
+      "sources": [
+        "sn-saechssfg"
+      ]
+    },
+    {
+      "date": "2027-12-24",
+      "id": "de.christmas-eve",
+      "name": {
+        "en": "Christmas Eve",
+        "de": "Heiligabend"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "azv",
+        "ladschlg"
+      ]
+    },
+    {
+      "date": "2027-12-25",
+      "id": "de.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "de": "Erster Weihnachtstag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-12-26",
+      "id": "de.saint-stephen",
+      "name": {
+        "en": "Second Day of Christmas",
+        "de": "Zweiter Weihnachtstag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bb-ftg",
+        "be-feiertg",
+        "bw-ftg",
+        "by-ftg",
+        "hb-feiertg",
+        "he-feiertg",
+        "hh-feiertg",
+        "mv-ftg",
+        "ni-nfeiertagsg",
+        "nw-ftg",
+        "rp-lftg",
+        "sh-sftg",
+        "sl-sfg",
+        "sn-saechssfg",
+        "st-feiertg",
+        "th-fgtg"
+      ]
+    },
+    {
+      "date": "2027-12-31",
+      "id": "de.new-years-eve",
+      "name": {
+        "en": "New Year’s Eve",
+        "de": "Silvester"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "azv"
+      ]
+    }
+  ],
+  "sources": {
+    "einigvtr": {
+      "title": "Vertrag zwischen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik über die Herstellung der Einheit Deutschlands (Einigungsvertrag)",
+      "publisher": "Bundesministerium der Justiz (gesetze-im-internet.de)",
+      "law": "Einigungsvertrag Art. 2 Abs. 2",
+      "url": "https://www.gesetze-im-internet.de/einigvtr/art_2.html",
+      "accessed": "2026-11-15"
+    },
+    "azv": {
+      "title": "Verordnung über die Arbeitszeit der Beamtinnen und Beamten des Bundes (Arbeitszeitverordnung - AZV)",
+      "publisher": "Bundesministerium der Justiz (gesetze-im-internet.de)",
+      "law": "AZV § 6 Abs. 1",
+      "url": "https://www.gesetze-im-internet.de/azv/__6.html",
+      "accessed": "2026-11-15"
+    },
+    "ladschlg": {
+      "title": "Gesetz über den Ladenschluß (LadSchlG)",
+      "publisher": "Bundesministerium der Justiz (gesetze-im-internet.de)",
+      "law": "LadSchlG § 3 Satz 1 Nr. 3",
+      "url": "https://www.gesetze-im-internet.de/ladschlg/__3.html",
+      "accessed": "2026-11-15"
+    },
+    "bb-ftg": {
+      "title": "Gesetz über die Sonn- und Feiertage (Feiertagsgesetz - FTG) vom 21. März 1991, zuletzt geändert durch Gesetz vom 30. April 2015",
+      "publisher": "Land Brandenburg (BRAVORS)",
+      "law": "FTG § 2 Abs. 1",
+      "url": "https://bravors.brandenburg.de/gesetze/ftg_2015",
+      "accessed": "2026-11-15"
+    },
+    "be-feiertg": {
+      "title": "Gesetz über die Sonn- und Feiertage vom 28. Oktober 1954, Gesamtausgaben 25.10.2015–31.12.2017, 07.02.2019–08.05.2020, 21.07.2024–08.05.2025 und ab 09.05.2025",
+      "publisher": "Land Berlin (gesetze.berlin.de)",
+      "law": "FeiertG BE § 1 Abs. 1",
+      "url": "https://gesetze.berlin.de/perma?a=FeiertG_BE",
+      "accessed": "2026-11-15"
+    },
+    "bw-ftg": {
+      "title": "Gesetz über die Sonntage und Feiertage (Feiertagsgesetz - FTG) in der Fassung vom 8. Mai 1995",
+      "publisher": "Land Baden-Württemberg (landesrecht-bw.de)",
+      "law": "FTG § 1",
+      "url": "https://www.landesrecht-bw.de/perma?j=FeiertG_BW_!_1",
+      "accessed": "2026-11-15"
+    },
+    "by-ftg": {
+      "title": "Gesetz über den Schutz der Sonn- und Feiertage (Feiertagsgesetz - FTG) vom 21. Mai 1980",
+      "publisher": "Freistaat Bayern (gesetze-bayern.de)",
+      "law": "FTG Art. 1",
+      "url": "https://www.gesetze-bayern.de/Content/Document/BayFTG-1",
+      "accessed": "2026-11-15"
+    },
+    "hb-feiertg": {
+      "title": "Gesetz über die Sonn-, Gedenk- und Feiertage vom 12. November 1954 (Gesamtausgabe 04.06.2013–27.07.2015)",
+      "publisher": "Freie Hansestadt Bremen (Transparenzportal)",
+      "law": "FeiertG BR § 2 Abs. 1",
+      "url": "https://www.transparenz.bremen.de/metainformationen/gesetz-ueber-die-sonn-gedenk-und-feiertage-vom-12-november-1954-74780?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d",
+      "accessed": "2026-11-15"
+    },
+    "hb-gbl-2018": {
+      "title": "Gesetz zur Änderung des Gesetzes über die Sonn- und Feiertage vom 26. Juni 2018",
+      "publisher": "Freie Hansestadt Bremen (Gesetzblatt)",
+      "law": "Brem.GBl. 2018 Nr. 63 S. 302, § 2 Abs. 1 lit. j",
+      "url": "https://www.gesetzblatt.bremen.de/fastmedia/218/2018_06_28_GBl_Nr_0063_signed.pdf",
+      "accessed": "2026-11-15"
+    },
+    "he-feiertg": {
+      "title": "Hessisches Feiertagsgesetz (HFeiertagsG) in der Fassung vom 29. Dezember 1971",
+      "publisher": "Land Hessen (rv.hessenrecht.hessen.de)",
+      "law": "HFeiertagsG § 1 Abs. 1",
+      "url": "https://www.rv.hessenrecht.hessen.de/perma?a=FeiertG_HE",
+      "accessed": "2026-11-15"
+    },
+    "hh-feiertg": {
+      "title": "Gesetz über Sonntage, Feiertage, Gedenktage und Trauertage (Feiertagsgesetz) vom 16. Oktober 1953",
+      "publisher": "Freie und Hansestadt Hamburg (landesrecht-hamburg.de)",
+      "law": "FeiertG HA § 1, § 1 geändert durch Gesetz vom 12. März 2018 (HmbGVBl. S. 63)",
+      "url": "https://www.landesrecht-hamburg.de/bsha/document/jlr-NNLHH00006CB9",
+      "accessed": "2026-11-15"
+    },
+    "mv-ftg": {
+      "title": "Gesetz über Sonn- und Feiertage (Feiertagsgesetz Mecklenburg-Vorpommern - FTG M-V) in der Fassung vom 8. März 2002",
+      "publisher": "Land Mecklenburg-Vorpommern (landesrecht-mv.de)",
+      "law": "FTG M-V § 2 Abs. 1",
+      "url": "https://www.landesrecht-mv.de/bsmv/document/jlr-NNLMV00007A2F",
+      "accessed": "2026-11-15"
+    },
+    "mv-gvobl-2022": {
+      "title": "Viertes Gesetz zur Änderung des Feiertagsgesetzes Mecklenburg-Vorpommern vom 7. Juli 2022",
+      "publisher": "Land Mecklenburg-Vorpommern (Gesetz- und Verordnungsblatt)",
+      "law": "GVOBl. M-V 2022 Nr. 31 S. 427",
+      "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/53736/gesetz_und_verordnungsblatt_2022_31.pdf",
+      "accessed": "2026-11-15"
+    },
+    "ni-nfeiertagsg": {
+      "title": "Niedersächsisches Gesetz über die Feiertage (NFeiertagsG), § 2 in der Fassung ab 29.06.2018",
+      "publisher": "Land Niedersachsen (NI-VORIS)",
+      "law": "NFeiertagsG § 2 Abs. 1",
+      "url": "https://voris.wolterskluwer-online.de/browse/document/f74bc6e7-6ded-3c2c-9afb-b34620456e56",
+      "accessed": "2026-11-15"
+    },
+    "nw-ftg": {
+      "title": "Gesetz über die Sonn- und Feiertage (Feiertagsgesetz NW) in der Fassung vom 23. April 1989",
+      "publisher": "Land Nordrhein-Westfalen (recht.nrw.de)",
+      "law": "FTG NW § 2 Abs. 1",
+      "url": "https://recht.nrw.de/lrgv/gesetz/01012000-bekanntmachung-der-neufassung-des-gesetzes-ueber-die-sonn-und-feiertage/",
+      "accessed": "2026-11-15"
+    },
+    "rp-lftg": {
+      "title": "Landesgesetz über den Schutz der Sonn- und Feiertage (Feiertagsgesetz - LFtG) vom 15. Juli 1970",
+      "publisher": "Land Rheinland-Pfalz (landesrecht.rlp.de)",
+      "law": "LFtG § 2 Abs. 1",
+      "url": "https://landesrecht.rlp.de/bsrp/document/jlr-NNLRP00006125",
+      "accessed": "2026-11-15"
+    },
+    "sh-sftg": {
+      "title": "Gesetz über Sonn- und Feiertage (SFTG) vom 28. Juni 2004",
+      "publisher": "Land Schleswig-Holstein (gesetze-rechtsprechung.sh.juris.de)",
+      "law": "SFTG § 2 Abs. 1, geändert durch Gesetz vom 21. März 2018 (GVOBl. S. 69)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/bssh/document/jlr-NNLSH00003261",
+      "accessed": "2026-11-15"
+    },
+    "sl-sfg": {
+      "title": "Gesetz Nr. 1040 über die Sonn- und Feiertage (Feiertagsgesetz - SFG) vom 18. Februar 1976",
+      "publisher": "Saarland (recht.saarland.de)",
+      "law": "SFG § 2 Abs. 1",
+      "url": "https://recht.saarland.de/perma?a=FeiertG_SL",
+      "accessed": "2026-11-15"
+    },
+    "sn-saechssfg": {
+      "title": "Gesetz über Sonn- und Feiertage im Freistaat Sachsen (SächsSFG) vom 10. November 1992",
+      "publisher": "Freistaat Sachsen (REVOSax)",
+      "law": "SächsSFG § 1 Abs. 1",
+      "url": "https://revosax.sachsen.de/vorschrift/3997",
+      "accessed": "2026-11-15"
+    },
+    "sn-fronleichnamsvo": {
+      "title": "Verordnung des Sächsischen Staatsministeriums des Innern über den regionalen Feiertag Fronleichnam (FronleichnamsVO) vom 4. Mai 1993",
+      "publisher": "Freistaat Sachsen (REVOSax)",
+      "law": "FronleichnamsVO § 1 und Anlage",
+      "url": "https://revosax.sachsen.de/vorschrift/4142",
+      "accessed": "2026-11-15"
+    },
+    "st-feiertg": {
+      "title": "Gesetz über die Sonn- und Feiertage (FeiertG LSA) in der Fassung vom 25. August 2004",
+      "publisher": "Land Sachsen-Anhalt (landesrecht.sachsen-anhalt.de)",
+      "law": "FeiertG LSA § 2",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/perma?a=FeiertG_ST",
+      "accessed": "2026-11-15"
+    },
+    "th-fgtg": {
+      "title": "Thüringer Feier- und Gedenktagsgesetz (ThürFGtG), § 2 in der Fassung ab 27.03.2019",
+      "publisher": "Freistaat Thüringen (landesrecht.thueringen.de)",
+      "law": "ThürFGtG § 2",
+      "url": "https://landesrecht.thueringen.de/perma?d=jlr-NNLTH00003E03NN00000000006",
+      "accessed": "2026-11-15"
+    },
+    "th-fgtg-10": {
+      "title": "Thüringer Feier- und Gedenktagsgesetz (ThürFGtG), § 10 Übergangsbestimmungen",
+      "publisher": "Freistaat Thüringen (landesrecht.thueringen.de)",
+      "law": "ThürFGtG § 10 Abs. 1",
+      "url": "https://landesrecht.thueringen.de/bsth/document/jlr-NNLTH00003E03NN00000000021",
+      "accessed": "2026-11-15"
+    }
+  }
+}

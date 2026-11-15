@@ -6,6 +6,81 @@
   },
   "countries": [
     {
+      "code": "AT",
+      "names": {
+        "de": "Österreich",
+        "en": "Austria"
+      },
+      "languages": [
+        "de"
+      ],
+      "regions": [
+        {
+          "code": "AT-1",
+          "names": {
+            "de": "Burgenland",
+            "en": "Burgenland"
+          }
+        },
+        {
+          "code": "AT-2",
+          "names": {
+            "de": "Kärnten",
+            "en": "Carinthia"
+          }
+        },
+        {
+          "code": "AT-3",
+          "names": {
+            "de": "Niederösterreich",
+            "en": "Lower Austria"
+          }
+        },
+        {
+          "code": "AT-4",
+          "names": {
+            "de": "Oberösterreich",
+            "en": "Upper Austria"
+          }
+        },
+        {
+          "code": "AT-5",
+          "names": {
+            "de": "Salzburg",
+            "en": "Salzburg"
+          }
+        },
+        {
+          "code": "AT-6",
+          "names": {
+            "de": "Steiermark",
+            "en": "Styria"
+          }
+        },
+        {
+          "code": "AT-7",
+          "names": {
+            "de": "Tirol",
+            "en": "Tyrol"
+          }
+        },
+        {
+          "code": "AT-8",
+          "names": {
+            "de": "Vorarlberg",
+            "en": "Vorarlberg"
+          }
+        },
+        {
+          "code": "AT-9",
+          "names": {
+            "de": "Wien",
+            "en": "Vienna"
+          }
+        }
+      ]
+    },
+    {
       "code": "CH",
       "names": {
         "de": "Schweiz",
@@ -251,6 +326,130 @@
             "fr": "Zurich",
             "it": "Zurigo",
             "en": "Zurich"
+          }
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "names": {
+        "de": "Deutschland",
+        "en": "Germany"
+      },
+      "languages": [
+        "de"
+      ],
+      "regions": [
+        {
+          "code": "DE-BB",
+          "names": {
+            "de": "Brandenburg",
+            "en": "Brandenburg"
+          }
+        },
+        {
+          "code": "DE-BE",
+          "names": {
+            "de": "Berlin",
+            "en": "Berlin"
+          }
+        },
+        {
+          "code": "DE-BW",
+          "names": {
+            "de": "Baden-Württemberg",
+            "en": "Baden-Württemberg"
+          }
+        },
+        {
+          "code": "DE-BY",
+          "names": {
+            "de": "Bayern",
+            "en": "Bavaria"
+          }
+        },
+        {
+          "code": "DE-HB",
+          "names": {
+            "de": "Bremen",
+            "en": "Bremen"
+          }
+        },
+        {
+          "code": "DE-HE",
+          "names": {
+            "de": "Hessen",
+            "en": "Hesse"
+          }
+        },
+        {
+          "code": "DE-HH",
+          "names": {
+            "de": "Hamburg",
+            "en": "Hamburg"
+          }
+        },
+        {
+          "code": "DE-MV",
+          "names": {
+            "de": "Mecklenburg-Vorpommern",
+            "en": "Mecklenburg-Western Pomerania"
+          }
+        },
+        {
+          "code": "DE-NI",
+          "names": {
+            "de": "Niedersachsen",
+            "en": "Lower Saxony"
+          }
+        },
+        {
+          "code": "DE-NW",
+          "names": {
+            "de": "Nordrhein-Westfalen",
+            "en": "North Rhine-Westphalia"
+          }
+        },
+        {
+          "code": "DE-RP",
+          "names": {
+            "de": "Rheinland-Pfalz",
+            "en": "Rhineland-Palatinate"
+          }
+        },
+        {
+          "code": "DE-SH",
+          "names": {
+            "de": "Schleswig-Holstein",
+            "en": "Schleswig-Holstein"
+          }
+        },
+        {
+          "code": "DE-SL",
+          "names": {
+            "de": "Saarland",
+            "en": "Saarland"
+          }
+        },
+        {
+          "code": "DE-SN",
+          "names": {
+            "de": "Sachsen",
+            "en": "Saxony"
+          }
+        },
+        {
+          "code": "DE-ST",
+          "names": {
+            "de": "Sachsen-Anhalt",
+            "en": "Saxony-Anhalt"
+          }
+        },
+        {
+          "code": "DE-TH",
+          "names": {
+            "de": "Thüringen",
+            "en": "Thuringia"
           }
         }
       ]

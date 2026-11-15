@@ -1,0 +1,209 @@
+# Austrian holidays.
+#
+# public: the 13 Feiertage of the Arbeitsruhegesetz, ARG § 7 para. 2 (source
+# arg; the same list is in the Feiertagsruhegesetz 1957, § 1). Easter Sunday
+# and Whit Sunday are not listed (decision D7).
+#
+# observance:
+# - Good Friday: until 2018 a Feiertag only for members of the Protestant
+#   churches AB and HB, the Old Catholic and the Methodist church (ARG § 7
+#   para. 3, old version); since BGBl. I Nr. 22/2019 no Feiertag at all.
+#   Employees may instead pick one day of their annual leave as a "persönlicher
+#   Feiertag" (ARG § 7a).
+# - Landespatrone and the Carinthian Plebiscite Day: school-free under the
+#   school laws of the Länder (SchZG 1985 § 2; in Burgenland also a Feiertag
+#   for staff of the Land), but not a Feiertag under the ARG.
+# - Christmas Eve and New Year's Eve: not Feiertage under the ARG; often off
+#   or half days by collective agreement.
+
+holidays:
+  - id: at.new-year
+    names: {en: New Year’s Day, de: Neujahr}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.epiphany
+    names: {en: Epiphany, de: Heilige Drei Könige}
+    date: {type: fixed, month: 1, day: 6}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.saint-joseph
+    names: {en: Saint Joseph’s Day, de: Josefitag}
+    date: {type: fixed, month: 3, day: 19}
+    observances:
+      - regions: [AT-2]
+        type: observance
+        sources: [k-schg, schzg]
+        note: Feast of the Land patron; school-free (K-SchG § 74). Not a Feiertag under ARG § 7.
+      - regions: [AT-6]
+        type: observance
+        sources: [stmk-schzag, schzg]
+        note: Feast of the Land patron; school-free (Stmk. SchZAG § 2). Not a Feiertag under ARG § 7.
+      - regions: [AT-7]
+        type: observance
+        sources: [t-schog, schzg]
+        note: Feast of the Land patron; school-free (Tiroler SchOG § 110). Not a Feiertag under ARG § 7.
+      - regions: [AT-8]
+        type: observance
+        sources: [vbg-pszg, schzg]
+        note: Feast of the Land patron; school-free (Vbg. Pflichtschulzeitgesetz § 3). Not a Feiertag under ARG § 7.
+
+  - id: at.good-friday
+    names: {en: Good Friday, de: Karfreitag}
+    date: {type: easter, offset: -2}
+    observances:
+      - regions: all
+        type: observance
+        to: 2018
+        sources: [arg-2019]
+        note: Feiertag only for members of the Protestant churches AB and HB, the Old Catholic and the Methodist church (ARG § 7 para. 3, old version).
+      - regions: all
+        type: observance
+        from: 2019
+        sources: [bgbl-2019-22, arg]
+        note: No longer a Feiertag for anyone since BGBl. I Nr. 22/2019. Employees may take one day of leave as a "persönlicher Feiertag" (ARG § 7a).
+
+  - id: at.easter-monday
+    names: {en: Easter Monday, de: Ostermontag}
+    date: {type: easter, offset: 1}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.labour-day
+    names: {en: Labour Day, de: Staatsfeiertag}
+    note: ARG § 7 para. 2 names the day "1. Mai (Staatsfeiertag)".
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.saint-florian
+    names: {en: Saint Florian’s Day, de: Florian}
+    date: {type: fixed, month: 5, day: 4}
+    observances:
+      - regions: [AT-4]
+        type: observance
+        from: 2005
+        sources: [ooe-lfschg, schzg]
+        note: Feast of the Land patron of Upper Austria since 2004 (before, Saint Leopold); school-free from the school year 2004/05 (Oö. LFSchG § 15). Not a Feiertag under ARG § 7.
+
+  - id: at.ascension
+    names: {en: Ascension Day, de: Christi Himmelfahrt}
+    date: {type: easter, offset: 39}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.whit-monday
+    names: {en: Whit Monday, de: Pfingstmontag}
+    date: {type: easter, offset: 50}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.corpus-christi
+    names: {en: Corpus Christi, de: Fronleichnam}
+    date: {type: easter, offset: 60}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.assumption
+    names: {en: Assumption Day, de: Mariä Himmelfahrt}
+    date: {type: fixed, month: 8, day: 15}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.saint-rupert
+    names: {en: Saint Rupert’s Day, de: Rupertitag}
+    date: {type: fixed, month: 9, day: 24}
+    observances:
+      - regions: [AT-5]
+        type: observance
+        sources: [sbg-lwschg, schzg]
+        note: Feast of the Land patron; school-free (Sbg. LwSchG § 15). Not a Feiertag under ARG § 7.
+
+  - id: at.plebiscite-day
+    names: {en: Carinthian Plebiscite Day, de: Tag der Volksabstimmung}
+    note: Anniversary of the Carinthian plebiscite of 10 October 1920.
+    date: {type: fixed, month: 10, day: 10}
+    observances:
+      - regions: [AT-2]
+        type: observance
+        sources: [k-schg, schzg]
+        note: Landesfeiertag of Carinthia; school-free (K-SchG § 74). Not a Feiertag under ARG § 7.
+
+  - id: at.national-day
+    names: {en: National Day, de: Nationalfeiertag}
+    date: {type: fixed, month: 10, day: 26}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.all-saints
+    names: {en: All Saints’ Day, de: Allerheiligen}
+    date: {type: fixed, month: 11, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.saint-martin
+    names: {en: Saint Martin’s Day, de: Martini}
+    date: {type: fixed, month: 11, day: 11}
+    observances:
+      - regions: [AT-1]
+        type: observance
+        sources: [bgld-lbedg, bgld-lwschg, schzg]
+        note: Feast of the Land patron; a Feiertag for staff of the Land (Bgld. LBedG 2020 § 11) and school-free. Not a Feiertag under ARG § 7.
+
+  - id: at.saint-leopold
+    names: {en: Saint Leopold’s Day, de: Leopolditag}
+    date: {type: fixed, month: 11, day: 15}
+    observances:
+      - regions: [AT-3]
+        type: observance
+        sources: [noe-lv, schzg]
+        note: Landesfeiertag of Lower Austria (NÖ LV Art. 7); school-free. Not a Feiertag under ARG § 7.
+      - regions: [AT-9]
+        type: observance
+        sources: [w-schg, schzg]
+        note: Feast of the Land patron; school-free (Wiener Schulgesetz § 56). Not a Feiertag under ARG § 7.
+      - regions: [AT-4]
+        type: observance
+        to: 2003
+        sources: [ooe-lfschg-2004, schzg]
+        note: Feast of the Land patron of Upper Austria until 2004 (then Saint Florian); school-free until the school year 2003/04. Not a Feiertag under ARG § 7.
+
+  - id: at.immaculate-conception
+    names: {en: Immaculate Conception, de: Mariä Empfängnis}
+    note: Shops may open on 8 December under ARG § 13a; for employees it stays a Feiertag.
+    date: {type: fixed, month: 12, day: 8}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.christmas-eve
+    names: {en: Christmas Eve, de: Heiliger Abend}
+    date: {type: fixed, month: 12, day: 24}
+    observances:
+      - regions: all
+        type: observance
+        sources: [arg, schzg]
+        note: Not a Feiertag under ARG § 7. Often a day or half day off by collective agreement; schools are closed (Christmas holidays).
+
+  - id: at.christmas
+    names: {en: Christmas Day, de: Weihnachten}
+    note: ARG § 7 para. 2 names the day "25. Dezember (Weihnachten)"; commonly called Christtag.
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.saint-stephen
+    names: {en: Saint Stephen’s Day, de: Stephanstag}
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - {regions: all, type: public, sources: [arg, frg]}
+
+  - id: at.new-years-eve
+    names: {en: New Year’s Eve, de: Silvester}
+    date: {type: fixed, month: 12, day: 31}
+    observances:
+      - regions: all
+        type: observance
+        sources: [arg, schzg]
+        note: Not a Feiertag under ARG § 7. Often a day or half day off by collective agreement; schools are closed (Christmas holidays).
