@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "country": "ES",
+  "year": 2029,
+  "holidays": [
+    {
+      "date": "2029-01-01",
+      "id": "es.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "es": "Año Nuevo",
+        "gl": "Aninovo",
+        "eu": "Urte Berri eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-03-30",
+      "id": "es.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "es": "Viernes Santo",
+        "gl": "Venres Santo",
+        "eu": "Ostiral Santua"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-05-01",
+      "id": "es.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "es": "Fiesta del Trabajo",
+        "gl": "Festa do Traballo",
+        "eu": "Langileen Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-08-15",
+      "id": "es.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "es": "Asunción de la Virgen",
+        "gl": "Asunción da Virxe",
+        "eu": "Ama Birjinaren Jasokundea"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-10-12",
+      "id": "es.national-day",
+      "name": {
+        "en": "National Day of Spain",
+        "es": "Fiesta Nacional de España",
+        "gl": "Festa Nacional de España",
+        "eu": "Espainiako Jai Nazionala"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-11-01",
+      "id": "es.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "es": "Todos los Santos",
+        "gl": "Todos os Santos",
+        "eu": "Santu Guztien Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-12-06",
+      "id": "es.constitution-day",
+      "name": {
+        "en": "Constitution Day",
+        "es": "Día de la Constitución Española",
+        "gl": "Día da Constitución Española",
+        "eu": "Konstituzio Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-12-08",
+      "id": "es.immaculate-conception",
+      "name": {
+        "en": "Immaculate Conception",
+        "es": "Inmaculada Concepción",
+        "gl": "Inmaculada Concepción",
+        "eu": "Andre Maria Sortzez Garbiaren Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    },
+    {
+      "date": "2029-12-25",
+      "id": "es.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "es": "Natividad del Señor",
+        "gl": "Natividade do Señor",
+        "eu": "Eguberri Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "rd-2001-1983"
+      ]
+    }
+  ],
+  "sources": {
+    "rd-2001-1983": {
+      "title": "Real Decreto 2001/1983, de 28 de julio, sobre regulación de la jornada de trabajo, jornadas especiales y descansos (texto consolidado)",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "law": "RD 2001/1983, Art. 45 (in force for holidays; BOE-A-1983-20906)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1983-20906",
+      "accessed": "2026-11-15"
+    }
+  }
+}

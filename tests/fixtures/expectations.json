@@ -1147,6 +1147,152 @@
         "all"
       ],
       "expect": false
+    },
+    {
+      "name": "ES Catalonia 2026 (BOE table) with Aran as observance",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "ES",
+        2026,
+        "CT",
+        "all"
+      ],
+      "expect": [
+        "2026-01-01 es.new-year public",
+        "2026-01-06 es.epiphany public",
+        "2026-04-03 es.good-friday public",
+        "2026-04-06 es.easter-monday public",
+        "2026-05-01 es.labour-day public",
+        "2026-06-17 es.aran-day observance",
+        "2026-06-24 es.saint-john public",
+        "2026-08-15 es.assumption public",
+        "2026-09-11 es.catalonia-national-day public",
+        "2026-10-12 es.national-day public",
+        "2026-12-08 es.immaculate-conception public",
+        "2026-12-25 es.christmas public",
+        "2026-12-26 es.saint-stephen public"
+      ]
+    },
+    {
+      "name": "ES Andalusia 2026: All Saints on Sunday, moved to Monday 2 November by decree",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-11-02",
+        "ES",
+        "AN",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "ES Catalonia 2026: All Saints on Sunday not moved",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-11-02",
+        "ES",
+        "CT",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "ES 2004 Balearic Islands: 27 December after the BOE correction",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2004-12-27",
+        "ES",
+        "IB",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "ES Canary Islands 2026: Tenerife island day is an observance",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-02-02",
+        "ES",
+        "CN",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "ES 2032 nationwide: no BOE resolution, only the non-replaceable national days, Sunday 15 August left out",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "ES",
+        2032,
+        null,
+        null
+      ],
+      "expect": [
+        "2032-01-01 es.new-year public",
+        "2032-03-26 es.good-friday public",
+        "2032-05-01 es.labour-day public",
+        "2032-10-12 es.national-day public",
+        "2032-11-01 es.all-saints public",
+        "2032-12-06 es.constitution-day public",
+        "2032-12-08 es.immaculate-conception public",
+        "2032-12-25 es.christmas public"
+      ]
+    },
+    {
+      "name": "ES 1999: before the covered range nothing is returned",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "ES",
+        1999,
+        "MD",
+        "all"
+      ],
+      "expect": []
+    },
+    {
+      "name": "AD 2024: Carnival on Tuesday 20 February (decree)",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2024-02-20",
+        "AD",
+        null,
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "AD 2026 nationwide",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "AD",
+        2026,
+        null,
+        null
+      ],
+      "expect": [
+        "2026-01-01 ad.new-year public",
+        "2026-01-06 ad.epiphany public",
+        "2026-02-16 ad.carnival public",
+        "2026-03-14 ad.constitution-day public",
+        "2026-04-03 ad.good-friday public",
+        "2026-04-06 ad.easter-monday public",
+        "2026-05-01 ad.labour-day public",
+        "2026-05-25 ad.whit-monday public",
+        "2026-08-15 ad.assumption public",
+        "2026-09-08 ad.meritxell public",
+        "2026-11-01 ad.all-saints public",
+        "2026-12-08 ad.immaculate-conception public",
+        "2026-12-25 ad.christmas public",
+        "2026-12-26 ad.saint-stephen public"
+      ]
     }
   ]
 }

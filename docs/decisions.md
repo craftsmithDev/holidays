@@ -105,3 +105,23 @@ The State has no labour act with a list of holidays. The Holy See and the Govern
 ## D-va-2 Vatican City: no Latin names
 
 Latin is the official language of the Holy See, but the laws of the State and the personnel regulations are in Italian. Latin names exist for the liturgical feasts, not for days such as “the day after the Assumption” or “the last day of the year”, and the build requires a name for every holiday in every language of the country. VA lists `languages: [it]`; adding `la` later means a Latin name for every VA holiday from a citable source.
+
+## D-es-1 Spain: Spanish as the only language, regional names where an official text gives them
+
+`languages: [es]`: Spanish is the language of the BOE resolutions and the only official language in all 19 communities and cities. Catalan, Basque and Galician are official only in some of them, so they are not required for every holiday. Where a regional calendar decree names a day in its own language, the name is added (`gl` from the DOG decrees for 2026 and 2027, `eu` from the Basque versions of the BOPV decrees for 2026 and 2027, `ca` from the Catalan order for 2026, which names only Sant Esteve and the Festa d’Aran). Names were not translated by hand.
+
+## D-es-2 Spain: recuperable days stay public
+
+The BOE marks some days “recuperable”: a paid day off whose working hours are made up later (Estatuto de los Trabajadores Art. 37.2 allows a fourteenth, recuperable day; some communities also declare one of their days recuperable). It is still a day off by law, so the type is `public` and the observance has a note. Where a community lets the employer choose which of several days is recuperable (Catalonia in most years), each of those days has the note.
+
+## D-es-3 Spain: Arán and the Canary Islands
+
+The BOE notes name days that hold only in part of a community: one day per island in the Canary Islands and the Fiesta de Arán (17 June) in the territory of Arán, Catalonia. Following D6 they are `observance` at community level, with a note naming the island or Arán. The Catalan day that Arán replaces (usually 26 December) stays `public` for Catalonia with a note, although it is not a holiday in Arán. D6 would make it an `observance` for the whole of Catalonia; that would tell more than 99% of Catalan employees that Saint Stephen is not a statutory day off. Open for the owner: keep this exception or apply D6 strictly.
+
+## D-es-4 Spain: years without a BOE resolution
+
+The days are set by a resolution each year; there is one for 2000–2027. Before 2000 the library returns nothing. From 2028 it returns only the nine national holidays the communities cannot replace (RD 2001/1983 Art. 45.1 a–c) in every community, without the ones on a Sunday, because the yearly resolution decides where a Sunday holiday moves. When a new resolution is published, its table is added and the start year of this fallback moves on by one year.
+
+## D-ad-1 Andorra: yearly decree, parishes as regions, coverage
+
+Llei 31/2018 Art. 62 leaves the holidays to a yearly Govern decree on the labour calendar. All 14 days of the decree are `public`. The decree lets sectors directly related to tourism move ten of them by agreement; those observances have a note, the type stays `public`. The 7 parishes are listed as regions, as for Liechtenstein (D14); parish holidays (up to four per parish, set by each comú) are municipal and not listed. Only the years whose decree or its official publication was read are covered (2024–2027); other years return nothing. Carnival is a date list because the decree sets it each year (Tuesday 20 February in 2024, the Monday before Ash Wednesday in 2025–2027).

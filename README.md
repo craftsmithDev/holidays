@@ -21,6 +21,8 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 | Italy (IT) | 19 regions + the autonomous provinces Bolzano and Trento | `public` = Legge 260/1949 as amended (4 October from 2026); Whit Monday in South Tyrol as `observance`; no patron-saint days; see [verification](docs/verification/it.md) |
 | San Marino (SM) | 9 castelli | `public` = Legge 152/1990; see [verification](docs/verification/sm.md) |
 | Vatican City (VA) | none | `public` = days off under the personnel regulations of the Holy See and the Governatorato; see [verification](docs/verification/va.md) |
+| Spain (ES) | 17 communities, Ceuta, Melilla | `public` = fiesta laboral in the yearly BOE resolution, 2000–2027; see [verification](docs/verification/es.md) |
+| Andorra (AD) | 7 parishes | `public` = yearly labour calendar decree, 2024–2027; see [verification](docs/verification/ad.md) |
 
 More Western European countries follow in the same format.
 

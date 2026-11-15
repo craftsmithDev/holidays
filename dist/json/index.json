@@ -6,6 +6,67 @@
   },
   "countries": [
     {
+      "code": "AD",
+      "names": {
+        "ca": "Andorra",
+        "en": "Andorra"
+      },
+      "languages": [
+        "ca"
+      ],
+      "regions": [
+        {
+          "code": "AD-02",
+          "names": {
+            "ca": "Canillo",
+            "en": "Canillo"
+          }
+        },
+        {
+          "code": "AD-03",
+          "names": {
+            "ca": "Encamp",
+            "en": "Encamp"
+          }
+        },
+        {
+          "code": "AD-04",
+          "names": {
+            "ca": "La Massana",
+            "en": "La Massana"
+          }
+        },
+        {
+          "code": "AD-05",
+          "names": {
+            "ca": "Ordino",
+            "en": "Ordino"
+          }
+        },
+        {
+          "code": "AD-06",
+          "names": {
+            "ca": "Sant Julià de Lòria",
+            "en": "Sant Julià de Lòria"
+          }
+        },
+        {
+          "code": "AD-07",
+          "names": {
+            "ca": "Andorra la Vella",
+            "en": "Andorra la Vella"
+          }
+        },
+        {
+          "code": "AD-08",
+          "names": {
+            "ca": "Escaldes-Engordany",
+            "en": "Escaldes-Engordany"
+          }
+        }
+      ]
+    },
+    {
       "code": "AT",
       "names": {
         "de": "Österreich",
@@ -450,6 +511,160 @@
           "names": {
             "de": "Thüringen",
             "en": "Thuringia"
+          }
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "names": {
+        "es": "España",
+        "en": "Spain",
+        "ca": "Espanya",
+        "eu": "Espainia",
+        "gl": "España"
+      },
+      "languages": [
+        "es"
+      ],
+      "regions": [
+        {
+          "code": "ES-AN",
+          "names": {
+            "es": "Andalucía",
+            "en": "Andalusia"
+          }
+        },
+        {
+          "code": "ES-AR",
+          "names": {
+            "es": "Aragón",
+            "en": "Aragon"
+          }
+        },
+        {
+          "code": "ES-AS",
+          "names": {
+            "es": "Principado de Asturias",
+            "en": "Asturias"
+          }
+        },
+        {
+          "code": "ES-CB",
+          "names": {
+            "es": "Cantabria",
+            "en": "Cantabria"
+          }
+        },
+        {
+          "code": "ES-CE",
+          "names": {
+            "es": "Ceuta",
+            "en": "Ceuta"
+          }
+        },
+        {
+          "code": "ES-CL",
+          "names": {
+            "es": "Castilla y León",
+            "en": "Castile and León"
+          }
+        },
+        {
+          "code": "ES-CM",
+          "names": {
+            "es": "Castilla-La Mancha",
+            "en": "Castile-La Mancha"
+          }
+        },
+        {
+          "code": "ES-CN",
+          "names": {
+            "es": "Canarias",
+            "en": "Canary Islands"
+          }
+        },
+        {
+          "code": "ES-CT",
+          "names": {
+            "es": "Cataluña",
+            "en": "Catalonia",
+            "ca": "Catalunya"
+          }
+        },
+        {
+          "code": "ES-EX",
+          "names": {
+            "es": "Extremadura",
+            "en": "Extremadura"
+          }
+        },
+        {
+          "code": "ES-GA",
+          "names": {
+            "es": "Galicia",
+            "en": "Galicia",
+            "gl": "Galicia"
+          }
+        },
+        {
+          "code": "ES-IB",
+          "names": {
+            "es": "Illes Balears",
+            "en": "Balearic Islands",
+            "ca": "Illes Balears"
+          }
+        },
+        {
+          "code": "ES-MC",
+          "names": {
+            "es": "Región de Murcia",
+            "en": "Murcia"
+          }
+        },
+        {
+          "code": "ES-MD",
+          "names": {
+            "es": "Comunidad de Madrid",
+            "en": "Madrid"
+          }
+        },
+        {
+          "code": "ES-ML",
+          "names": {
+            "es": "Melilla",
+            "en": "Melilla"
+          }
+        },
+        {
+          "code": "ES-NC",
+          "names": {
+            "es": "Comunidad Foral de Navarra",
+            "en": "Navarre",
+            "eu": "Nafarroako Foru Komunitatea"
+          }
+        },
+        {
+          "code": "ES-PV",
+          "names": {
+            "es": "País Vasco",
+            "en": "Basque Country",
+            "eu": "Euskadi"
+          }
+        },
+        {
+          "code": "ES-RI",
+          "names": {
+            "es": "La Rioja",
+            "en": "La Rioja"
+          }
+        },
+        {
+          "code": "ES-VC",
+          "names": {
+            "es": "Comunitat Valenciana",
+            "en": "Valencian Community",
+            "ca": "Comunitat Valenciana"
           }
         }
       ]

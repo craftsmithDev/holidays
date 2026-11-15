@@ -1,0 +1,1874 @@
+{
+  "format": 1,
+  "country": "ES",
+  "year": 2013,
+  "holidays": [
+    {
+      "date": "2013-01-01",
+      "id": "es.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "es": "Año Nuevo",
+        "gl": "Aninovo",
+        "eu": "Urte Berri eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2026",
+        "dog-gal-2027",
+        "bopv-2026",
+        "bopv-2027",
+        "dogc-2026"
+      ]
+    },
+    {
+      "date": "2013-01-07",
+      "id": "es.epiphany",
+      "name": {
+        "en": "Epiphany",
+        "es": "Epifanía del Señor",
+        "gl": "Epifanía do Señor (Día de Reis)",
+        "eu": "Jaunaren Agerkundea"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-AN",
+        "ES-AR",
+        "ES-AS",
+        "ES-CB",
+        "ES-CE",
+        "ES-CL",
+        "ES-CM",
+        "ES-CN",
+        "ES-EX",
+        "ES-MC",
+        "ES-MD",
+        "ES-ML",
+        "ES-NC"
+      ],
+      "sources": [
+        "boe-2013"
+      ]
+    },
+    {
+      "date": "2013-02-02",
+      "id": "es.island-tenerife",
+      "name": {
+        "en": "Island holiday: Tenerife",
+        "es": "Fiesta insular: Tenerife"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-02-28",
+      "id": "es.andalusia-day",
+      "name": {
+        "en": "Andalusia Day",
+        "es": "Día de Andalucía"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-AN"
+      ],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-03-01",
+      "id": "es.balearic-islands-day",
+      "name": {
+        "en": "Balearic Islands Day",
+        "es": "Día de las Illes Balears"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-IB"
+      ],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-03-18",
+      "id": "es.fallas-monday",
+      "name": {
+        "en": "Fallas Monday",
+        "es": "Lunes de Fallas"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-VC"
+      ],
+      "sources": [
+        "boe-2013"
+      ]
+    },
+    {
+      "date": "2013-03-18",
+      "id": "es.saint-joseph",
+      "name": {
+        "en": "Saint Joseph’s Day",
+        "es": "San José",
+        "gl": "San Xosé",
+        "eu": "San Joseren eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-MD"
+      ],
+      "sources": [
+        "boe-2013",
+        "boe-2023"
+      ]
+    },
+    {
+      "date": "2013-03-19",
+      "id": "es.saint-joseph",
+      "name": {
+        "en": "Saint Joseph’s Day",
+        "es": "San José",
+        "gl": "San Xosé",
+        "eu": "San Joseren eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-MC",
+        "ES-ML",
+        "ES-VC"
+      ],
+      "sources": [
+        "boe-2007",
+        "boe-2013",
+        "boe-2016",
+        "boe-2007-correction"
+      ]
+    },
+    {
+      "date": "2013-03-28",
+      "id": "es.maundy-thursday",
+      "name": {
+        "en": "Maundy Thursday",
+        "es": "Jueves Santo",
+        "gl": "Xoves Santo",
+        "eu": "Ostegun Santua"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-AN",
+        "ES-AR",
+        "ES-AS",
+        "ES-CB",
+        "ES-CE",
+        "ES-CL",
+        "ES-CM",
+        "ES-CN",
+        "ES-EX",
+        "ES-GA",
+        "ES-IB",
+        "ES-MC",
+        "ES-MD",
+        "ES-ML",
+        "ES-NC",
+        "ES-PV",
+        "ES-RI"
+      ],
+      "sources": [
+        "boe-2010",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "dog-gal-2026",
+        "dog-gal-2027",
+        "bopv-2026",
+        "bopv-2027"
+      ]
+    },
+    {
+      "date": "2013-03-29",
+      "id": "es.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "es": "Viernes Santo",
+        "gl": "Venres Santo",
+        "eu": "Ostiral Santua"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2026",
+        "dog-gal-2027",
+        "bopv-2026",
+        "bopv-2027",
+        "dogc-2026"
+      ]
+    },
+    {
+      "date": "2013-04-01",
+      "id": "es.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "es": "Lunes de Pascua",
+        "eu": "Pazko Astelehena"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CB",
+        "ES-CT",
+        "ES-IB",
+        "ES-NC",
+        "ES-PV",
+        "ES-RI",
+        "ES-VC"
+      ],
+      "sources": [
+        "boe-2013"
+      ]
+    },
+    {
+      "date": "2013-04-23",
+      "id": "es.aragon-day",
+      "name": {
+        "en": "Saint George’s Day, Aragon Day",
+        "es": "San Jorge, Día de Aragón"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-AR"
+      ],
+      "sources": [
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-04-23",
+      "id": "es.castile-leon-day",
+      "name": {
+        "en": "Castile and León Day",
+        "es": "Fiesta de Castilla y León"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CL"
+      ],
+      "sources": [
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-05-01",
+      "id": "es.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "es": "Fiesta del Trabajo",
+        "gl": "Festa do Traballo",
+        "eu": "Langileen Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2026",
+        "dog-gal-2027",
+        "bopv-2026",
+        "bopv-2027",
+        "dogc-2026"
+      ]
+    },
+    {
+      "date": "2013-05-02",
+      "id": "es.madrid-day",
+      "name": {
+        "en": "Community of Madrid Day",
+        "es": "Fiesta de la Comunidad de Madrid"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-MD"
+      ],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-05-17",
+      "id": "es.galician-literature-day",
+      "name": {
+        "en": "Galician Literature Day",
+        "es": "Día de las Letras Gallegas",
+        "gl": "Día das Letras Galegas"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-GA"
+      ],
+      "sources": [
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2008",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2016",
+        "boe-2017",
+        "boe-2019",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2011-correction",
+        "dog-gal-2027"
+      ]
+    },
+    {
+      "date": "2013-05-30",
+      "id": "es.canary-islands-day",
+      "name": {
+        "en": "Canary Islands Day",
+        "es": "Día de Canarias"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-05-30",
+      "id": "es.corpus-christi",
+      "name": {
+        "en": "Corpus Christi",
+        "es": "Corpus Christi"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CM"
+      ],
+      "sources": [
+        "boe-2012",
+        "boe-2013",
+        "boe-2016",
+        "boe-2017",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027"
+      ]
+    },
+    {
+      "date": "2013-05-31",
+      "id": "es.castile-la-mancha-day",
+      "name": {
+        "en": "Castile-La Mancha Day",
+        "es": "Día de Castilla-La Mancha"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CM"
+      ],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-06-10",
+      "id": "es.la-rioja-day",
+      "name": {
+        "en": "La Rioja Day",
+        "es": "Día de La Rioja"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-RI"
+      ],
+      "sources": [
+        "boe-2002",
+        "boe-2013",
+        "boe-2019",
+        "boe-2024"
+      ]
+    },
+    {
+      "date": "2013-06-24",
+      "id": "es.saint-john",
+      "name": {
+        "en": "Saint John’s Day",
+        "es": "San Juan",
+        "gl": "San Xoán"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CT",
+        "ES-GA"
+      ],
+      "sources": [
+        "boe-2013",
+        "boe-2016"
+      ]
+    },
+    {
+      "date": "2013-07-06",
+      "id": "es.island-el-hierro",
+      "name": {
+        "en": "Island holiday: El Hierro",
+        "es": "Fiesta insular: El Hierro"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-07-25",
+      "id": "es.saint-james",
+      "name": {
+        "en": "Saint James’s Day",
+        "es": "Santiago Apóstol",
+        "gl": "Día Nacional de Galicia",
+        "eu": "Santiago Apostoluaren eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CB",
+        "ES-GA",
+        "ES-NC",
+        "ES-PV"
+      ],
+      "sources": [
+        "boe-2013"
+      ]
+    },
+    {
+      "date": "2013-08-05",
+      "id": "es.island-la-palma",
+      "name": {
+        "en": "Island holiday: La Palma",
+        "es": "Fiesta insular: La Palma"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-08-15",
+      "id": "es.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "es": "Asunción de la Virgen",
+        "gl": "Asunción da Virxe",
+        "eu": "Ama Birjinaren Jasokundea"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2026",
+        "bopv-2026",
+        "dogc-2026"
+      ]
+    },
+    {
+      "date": "2013-09-09",
+      "id": "es.asturias-day",
+      "name": {
+        "en": "Asturias Day",
+        "es": "Día de Asturias"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-AS"
+      ],
+      "sources": [
+        "boe-2002",
+        "boe-2013",
+        "boe-2019",
+        "boe-2024"
+      ]
+    },
+    {
+      "date": "2013-09-09",
+      "id": "es.extremadura-day",
+      "name": {
+        "en": "Extremadura Day",
+        "es": "Día de Extremadura"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-EX"
+      ],
+      "sources": [
+        "boe-2002",
+        "boe-2013",
+        "boe-2019"
+      ]
+    },
+    {
+      "date": "2013-09-09",
+      "id": "es.island-gran-canaria",
+      "name": {
+        "en": "Island holiday: Gran Canaria",
+        "es": "Fiesta insular: Gran Canaria"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-09-11",
+      "id": "es.catalonia-national-day",
+      "name": {
+        "en": "National Day of Catalonia",
+        "es": "Fiesta Nacional de Cataluña"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CT"
+      ],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dogc-2026"
+      ]
+    },
+    {
+      "date": "2013-09-16",
+      "id": "es.island-lanzarote",
+      "name": {
+        "en": "Island holiday: Lanzarote",
+        "es": "Fiesta insular: Lanzarote"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-09-20",
+      "id": "es.island-fuerteventura",
+      "name": {
+        "en": "Island holiday: Fuerteventura",
+        "es": "Fiesta insular: Fuerteventura"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-10-08",
+      "id": "es.island-la-gomera",
+      "name": {
+        "en": "Island holiday: La Gomera",
+        "es": "Fiesta insular: La Gomera"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CN"
+      ],
+      "sources": [
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-10-09",
+      "id": "es.valencian-community-day",
+      "name": {
+        "en": "Valencian Community Day",
+        "es": "Día de la Comunitat Valenciana"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-VC"
+      ],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-10-12",
+      "id": "es.national-day",
+      "name": {
+        "en": "National Day of Spain",
+        "es": "Fiesta Nacional de España",
+        "gl": "Festa Nacional de España",
+        "eu": "Espainiako Jai Nazionala"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2009",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2026",
+        "dog-gal-2027",
+        "bopv-2026",
+        "bopv-2027",
+        "dogc-2026"
+      ]
+    },
+    {
+      "date": "2013-10-15",
+      "id": "es.eid-al-adha",
+      "name": {
+        "en": "Eid al-Adha",
+        "es": "Fiesta del Sacrificio (Eid al-Adha)"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CE",
+        "ES-ML"
+      ],
+      "sources": [
+        "boe-2010",
+        "boe-2011",
+        "boe-2013",
+        "boe-2015",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes"
+      ]
+    },
+    {
+      "date": "2013-10-25",
+      "id": "es.basque-country-day",
+      "name": {
+        "en": "Basque Country Day",
+        "es": "Día del País Vasco",
+        "eu": "Euskadiko Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-PV"
+      ],
+      "sources": [
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2011-correction"
+      ]
+    },
+    {
+      "date": "2013-11-01",
+      "id": "es.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "es": "Todos los Santos",
+        "gl": "Todos os Santos",
+        "eu": "Santu Guztien Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2027",
+        "bopv-2027"
+      ]
+    },
+    {
+      "date": "2013-12-06",
+      "id": "es.constitution-day",
+      "name": {
+        "en": "Constitution Day",
+        "es": "Día de la Constitución Española",
+        "gl": "Día da Constitución Española",
+        "eu": "Konstituzio Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2010",
+        "boe-2011",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2016",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2021",
+        "boe-2022",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2027",
+        "bopv-2027"
+      ]
+    },
+    {
+      "date": "2013-12-09",
+      "id": "es.immaculate-conception",
+      "name": {
+        "en": "Immaculate Conception",
+        "es": "Inmaculada Concepción",
+        "gl": "Inmaculada Concepción",
+        "eu": "Andre Maria Sortzez Garbiaren Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-AN",
+        "ES-AR",
+        "ES-AS",
+        "ES-CE",
+        "ES-CL",
+        "ES-EX",
+        "ES-MC",
+        "ES-RI"
+      ],
+      "sources": [
+        "boe-2013"
+      ]
+    },
+    {
+      "date": "2013-12-25",
+      "id": "es.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "es": "Natividad del Señor",
+        "gl": "Natividade do Señor",
+        "eu": "Eguberri Eguna"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "boe-2000",
+        "boe-2001",
+        "boe-2002",
+        "boe-2003",
+        "boe-2004",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2010",
+        "boe-2012",
+        "boe-2013",
+        "boe-2014",
+        "boe-2015",
+        "boe-2017",
+        "boe-2018",
+        "boe-2019",
+        "boe-2020",
+        "boe-2021",
+        "boe-2023",
+        "boe-2024",
+        "boe-2025",
+        "boe-2026",
+        "boe-2027",
+        "boe-2004-correction",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2018-correction",
+        "boe-2018-correction-notes",
+        "dog-gal-2026",
+        "dog-gal-2027",
+        "bopv-2026",
+        "bopv-2027",
+        "dogc-2026"
+      ]
+    },
+    {
+      "date": "2013-12-26",
+      "id": "es.saint-stephen",
+      "name": {
+        "en": "Saint Stephen’s Day",
+        "es": "San Esteban",
+        "ca": "Sant Esteve"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "ES-CT",
+        "ES-IB"
+      ],
+      "sources": [
+        "boe-2002",
+        "boe-2005",
+        "boe-2006",
+        "boe-2007",
+        "boe-2008",
+        "boe-2009",
+        "boe-2011",
+        "boe-2013",
+        "boe-2016",
+        "boe-2006-correction",
+        "boe-2007-correction",
+        "boe-2011-correction"
+      ]
+    }
+  ],
+  "sources": {
+    "boe-2000": {
+      "title": "Resolución de 21 de octubre de 1999, de la Dirección General de Trabajo, por la que se aprueba la publicación de las fiestas laborales para el año 2000.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-1999-21089",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1999-21089",
+      "accessed": "2026-11-15"
+    },
+    "boe-2001": {
+      "title": "Resolución de 14 de noviembre de 2000, de la Dirección General de Trabajo, por la que se aprueba la publicación de las fiestas laborales para el año 2001.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2000-21049",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-21049",
+      "accessed": "2026-11-15"
+    },
+    "boe-2002": {
+      "title": "Resolución de 16 de octubre de 2001, de la Dirección General de Trabajo, por la que se dispone la publicación de las fiestas laborales para el año 2002.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2001-19997",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2001-19997",
+      "accessed": "2026-11-15"
+    },
+    "boe-2003": {
+      "title": "Resolución de 22 de octubre de 2002, de la Dirección General de Trabajo, por la que se aprueba la publicación de las fiestas laborales para el año 2003.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2002-21073",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-21073",
+      "accessed": "2026-11-15"
+    },
+    "boe-2004": {
+      "title": "Resolución de 22 de octubre de 2003, de la Dirección General de Trabajo, por la que se aprueba la publicación de las Fiestas Laborales para el año 2004.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2003-19971",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-19971",
+      "accessed": "2026-11-15"
+    },
+    "boe-2005": {
+      "title": "Resolución de 6 de octubre de 2004, de la Dirección General de Trabajo, por la que se dispone la inscripción en el registro y publicación de la relación de Fiestas Laborales para el año 2005.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2004-18115",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-18115",
+      "accessed": "2026-11-15"
+    },
+    "boe-2006": {
+      "title": "Resolución de 11 de octubre de 2005, de la Dirección General de Trabajo, por la que se publica el calendario laboral para el año 2006.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2005-17217",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-17217",
+      "accessed": "2026-11-15"
+    },
+    "boe-2007": {
+      "title": "Resolución de 2 de noviembre de 2006, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2007.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2006-19349",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-19349",
+      "accessed": "2026-11-15"
+    },
+    "boe-2008": {
+      "title": "Resolución de 9 de octubre de 2007, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2008.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2007-18306",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-18306",
+      "accessed": "2026-11-15"
+    },
+    "boe-2009": {
+      "title": "Resolución de 5 de noviembre de 2008, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2009.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2008-18411",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-18411",
+      "accessed": "2026-11-15"
+    },
+    "boe-2010": {
+      "title": "Resolución de 12 de noviembre de 2009, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2010.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2009-18477",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-18477",
+      "accessed": "2026-11-15"
+    },
+    "boe-2011": {
+      "title": "Resolución de 7 de octubre de 2010, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2011.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2010-15722",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15722",
+      "accessed": "2026-11-15"
+    },
+    "boe-2012": {
+      "title": "Resolución de 6 de octubre de 2011, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2012.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2011-16116",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-16116",
+      "accessed": "2026-11-15"
+    },
+    "boe-2013": {
+      "title": "Resolución de 30 de octubre de 2012, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2013.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2012-13644",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13644",
+      "accessed": "2026-11-15"
+    },
+    "boe-2014": {
+      "title": "Resolución de 8 de noviembre de 2013, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2014.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2013-12147",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-12147",
+      "accessed": "2026-11-15"
+    },
+    "boe-2015": {
+      "title": "Resolución de 17 de octubre de 2014, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2015.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2014-10823",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-10823",
+      "accessed": "2026-11-15"
+    },
+    "boe-2016": {
+      "title": "Resolución de 19 de octubre de 2015, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2016.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2015-11348",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-11348",
+      "accessed": "2026-11-15"
+    },
+    "boe-2017": {
+      "title": "Resolución de 4 de octubre de 2016, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2017.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2016-9244",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-9244",
+      "accessed": "2026-11-15"
+    },
+    "boe-2018": {
+      "title": "Resolución de 9 de octubre de 2017, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2018.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2017-11639",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-11639",
+      "accessed": "2026-11-15"
+    },
+    "boe-2019": {
+      "title": "Resolución de 16 de octubre de 2018, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2019.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2018-14369",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-14369",
+      "accessed": "2026-11-15"
+    },
+    "boe-2020": {
+      "title": "Resolución de 3 de octubre de 2019, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2020.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2019-14552",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-14552",
+      "accessed": "2026-11-15"
+    },
+    "boe-2021": {
+      "title": "Resolución de 28 de octubre de 2020, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2021.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2020-13343",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-13343",
+      "accessed": "2026-11-15"
+    },
+    "boe-2022": {
+      "title": "Resolución de 14 de octubre de 2021, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2022.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2021-17113",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17113",
+      "accessed": "2026-11-15"
+    },
+    "boe-2023": {
+      "title": "Resolución de 7 de octubre de 2022, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2023.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2022-16755",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-16755",
+      "accessed": "2026-11-15"
+    },
+    "boe-2024": {
+      "title": "Resolución de 23 de octubre de 2023, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2024.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2023-22014",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22014",
+      "accessed": "2026-11-15"
+    },
+    "boe-2025": {
+      "title": "Resolución de 15 de octubre de 2024, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2025.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2024-21316",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21316",
+      "accessed": "2026-11-15"
+    },
+    "boe-2026": {
+      "title": "Resolución de 17 de octubre de 2025, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2026.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2025-21667",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21667",
+      "accessed": "2026-11-15"
+    },
+    "boe-2027": {
+      "title": "Resolución de 8 de octubre de 2026, de la Dirección General de Trabajo, por la que se publica relación de fiestas laborales para el año 2027.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2026-21254",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21254",
+      "accessed": "2026-11-15"
+    },
+    "boe-2004-correction": {
+      "title": "Corrección de errores de la Resolución de 22 de octubre de 2003, de la Dirección General de Trabajo, por la que se aprueba la publicación de las Fiestas Laborales para el año 2004.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2003-22720",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-22720",
+      "accessed": "2026-11-15"
+    },
+    "boe-2006-correction": {
+      "title": "Resolución de 21 de octubre de 2005, de la Dirección General de Trabajo, por la que se corrige error en la de 11 de octubre de 2005, por la que se publica el Calendario laboral para el año 2006.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2005-17504",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-17504",
+      "accessed": "2026-11-15"
+    },
+    "boe-2007-correction": {
+      "title": "Resolución de 30 de noviembre de 2006, de la Dirección General de Trabajo, por la que se corrigen errores en la de 2 de noviembre de 2006, por la que se publica la relación de fiestas laborales para el año 2007.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2006-21647",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-21647",
+      "accessed": "2026-11-15"
+    },
+    "boe-2011-correction": {
+      "title": "Resolución de 24 de noviembre de 2010, de la Dirección General de Trabajo, por la que se corrige error en la de 7 de octubre de 2010, por la que se publica la relación de fiestas laborales para el año 2011.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2010-18511",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-18511",
+      "accessed": "2026-11-15"
+    },
+    "boe-2018-correction": {
+      "title": "Corrección de errores de la Resolución de 9 de octubre de 2017, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2018.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2017-12209",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12209",
+      "accessed": "2026-11-15"
+    },
+    "boe-2018-correction-notes": {
+      "title": "Corrección de errores de la Resolución de 9 de octubre de 2017, de la Dirección General de Empleo, por la que se publica la relación de fiestas laborales para el año 2018.",
+      "publisher": "Ministerio de Trabajo, Dirección General de Trabajo (Dirección General de Empleo 2012–2017), in the Boletín Oficial del Estado",
+      "law": "BOE-A-2017-11952",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-11952",
+      "accessed": "2026-11-15"
+    },
+    "dog-gal-2026": {
+      "title": "DECRETO 46/2025, do 9 de xuño, polo que se determinan as festas da Comunidade Autónoma de Galicia do calendario laboral para o ano 2026",
+      "publisher": "Xunta de Galicia, Diario Oficial de Galicia núm. 117, 20.6.2025",
+      "url": "https://www.xunta.gal/dog/Publicados/2025/20250620/AnuncioG0767-120625-0002_gl.html",
+      "accessed": "2026-11-15"
+    },
+    "dog-gal-2027": {
+      "title": "DECRETO 68/2026, do 15 de xuño, polo que se determinan as festas da Comunidade Autónoma de Galicia do calendario laboral para o ano 2027",
+      "publisher": "Xunta de Galicia, Diario Oficial de Galicia núm. 122, 2.7.2026",
+      "url": "https://www.xunta.gal/dog/Publicados/2026/20260702/AnuncioG0767-250626-0001_gl.html",
+      "accessed": "2026-11-15"
+    },
+    "bopv-2026": {
+      "title": "82/2025 DEKRETUA, apirilaren 8koa, Euskal Autonomia Erkidegoko langileen 2026. urteko jaiegunen egutegi ofiziala onartzen duena",
+      "publisher": "Eusko Jaurlaritza, Euskal Herriko Agintaritzaren Aldizkaria 78. zk., 2025-04-25",
+      "url": "https://www.euskadi.eus/bopv2/datos/2025/04/2501782e.pdf",
+      "accessed": "2026-11-15"
+    },
+    "bopv-2027": {
+      "title": "90/2026 DEKRETUA, ekainaren 9koa, Euskal Autonomia Erkidegoko langileen 2027. urteko jaiegunen egutegi ofiziala onartzen duena",
+      "publisher": "Eusko Jaurlaritza, Euskal Herriko Agintaritzaren Aldizkaria 134. zk., 2026-07-16",
+      "url": "https://www.euskadi.eus/bopv2/datos/2026/07/2603215e.pdf",
+      "accessed": "2026-11-15"
+    },
+    "dogc-2026": {
+      "title": "Ordre EMT/66/2025, de 30 d'abril, per la qual s'estableix el calendari oficial de festes laborals a Catalunya per a l'any 2026",
+      "publisher": "Generalitat de Catalunya, Diari Oficial de la Generalitat de Catalunya núm. 9406, 6.5.2025 (copy hosted by UGT de Catalunya; the DOGC portal was not reachable)",
+      "url": "https://www.ugt.cat/wp-content/uploads/2025/05/Calendari_festes_laborals_2026.pdf.pdf",
+      "accessed": "2026-11-15"
+    }
+  }
+}

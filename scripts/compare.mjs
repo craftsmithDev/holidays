@@ -92,9 +92,12 @@ const DATE_HOLIDAYS_STATES = { 'FR-971': 'GP', 'FR-972': 'MQ', 'FR-973': 'GF', '
 
 function dateHolidays(country, year, regions) {
   const out = {};
+  // date-holidays knows only some subdivisions (AD: 2 of 7 parishes); use the
+  // country rules for the others instead of crashing.
+  const known = new DateHolidays().getStates(country) || {};
   for (const region of regions.length > 0 ? regions : ['']) {
     const state = DATE_HOLIDAYS_STATES[region] ?? region.split('-')[1];
-    const hd = region ? new DateHolidays(country, state) : new DateHolidays(country);
+    const hd = region && known[state] ? new DateHolidays(country, state) : new DateHolidays(country);
     out[region] = {};
     for (const h of hd.getHolidays(year) || []) {
       if (h.type === 'school') continue;
