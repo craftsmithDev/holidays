@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "code": "IE",
+  "names": {
+    "en": "Ireland",
+    "ga": "Éire"
+  },
+  "languages": [
+    "en",
+    "ga"
+  ],
+  "regions": [],
+  "sources": {
+    "owta-1997": {
+      "title": "Organisation of Working Time Act 1997, Second Schedule (Public Holidays), revised, updated to 20 January 2025",
+      "publisher": "Law Reform Commission (Revised Acts)",
+      "law": "Organisation of Working Time Act 1997 (No. 20 of 1997), s. 21 and Sch. 2 para. 1",
+      "url": "https://revisedacts.lawreform.ie/eli/1997/act/20/revised/en/html",
+      "accessed": "2026-11-15"
+    },
+    "si-50-2022": {
+      "title": "Organisation of Working Time (Covid-19 Commemoration) Regulations 2022",
+      "publisher": "Office of the Attorney General (irishstatutebook.ie)",
+      "law": "S.I. No. 50 of 2022, regs. 3–5",
+      "url": "https://www.irishstatutebook.ie/eli/2022/si/50/made/en/print",
+      "accessed": "2026-11-15"
+    },
+    "si-419-2001": {
+      "title": "Organisation of Working Time (National Day of Mourning) Regulations, 2001",
+      "publisher": "Office of the Attorney General (irishstatutebook.ie)",
+      "law": "S.I. No. 419 of 2001, reg. 2",
+      "url": "https://www.irishstatutebook.ie/eli/2001/si/419/made/en/print",
+      "accessed": "2026-11-15"
+    },
+    "wrc-public-holidays": {
+      "title": "Public Holidays",
+      "publisher": "Workplace Relations Commission",
+      "url": "https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/",
+      "accessed": "2026-11-15"
+    },
+    "fssu-public-holidays": {
+      "title": "Financial Guideline P10 Public Holidays 2026 / Laethanta Saoire Poiblí 2026 (English and Irish); P16 Public holidays 2022",
+      "publisher": "Financial Support Services Unit (FSSU), funded by the Department of Education",
+      "url": "https://www.fssu.ie/app/uploads/2025/11/P10-26-Financial-Guideline-Public-Holidays-2025-2026.pdf",
+      "accessed": "2026-11-15"
+    }
+  },
+  "holidays": [
+    {
+      "id": "ie.new-year",
+      "names": {
+        "en": "New Year’s Day",
+        "ga": "Lá Caille"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.saint-brigid",
+      "names": {
+        "en": "Saint Brigid’s Day",
+        "ga": "Lá Fhéile Bríde"
+      },
+      "from": 2023,
+      "date": {
+        "type": "nthWeekday",
+        "month": 2,
+        "weekday": "mon",
+        "nth": 1,
+        "adjust": [
+          {
+            "when": {
+              "sameDateAs": {
+                "type": "fixed",
+                "month": 2,
+                "day": 4
+              }
+            },
+            "offset": -3
+          }
+        ]
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "si-50-2022",
+            "wrc-public-holidays"
+          ],
+          "note": "First Monday in February; 1 February when that is a Friday (S.I. 50/2022 regs. 4 and 5). The first Monday is 4 February exactly when 1 February is a Friday."
+        }
+      ]
+    },
+    {
+      "id": "ie.saint-patrick",
+      "names": {
+        "en": "Saint Patrick’s Day",
+        "ga": "Lá Fhéile Pádraig"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 3,
+        "day": 17
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.covid-commemoration",
+      "names": {
+        "en": "Extra public holiday",
+        "ga": "Lá saoire poiblí breise"
+      },
+      "date": {
+        "type": "list",
+        "dates": [
+          "2022-03-18"
+        ]
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "si-50-2022",
+            "fssu-public-holidays"
+          ],
+          "note": "Once-off public holiday in recognition of the public and frontline workers during the Covid-19 pandemic and in remembrance of those who died (S.I. 50/2022 reg. 3). Names as in the FSSU guideline for 2022."
+        }
+      ]
+    },
+    {
+      "id": "ie.easter-monday",
+      "names": {
+        "en": "Easter Monday",
+        "ga": "Luan na Cásca"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.may-bank-holiday",
+      "names": {
+        "en": "First Monday in May",
+        "ga": "An chéad Luan i mí na Bealtaine"
+      },
+      "date": {
+        "type": "nthWeekday",
+        "month": 5,
+        "weekday": "mon",
+        "nth": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.june-bank-holiday",
+      "names": {
+        "en": "First Monday in June",
+        "ga": "An chéad Luan i mí an Mheithimh"
+      },
+      "date": {
+        "type": "nthWeekday",
+        "month": 6,
+        "weekday": "mon",
+        "nth": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.august-bank-holiday",
+      "names": {
+        "en": "First Monday in August",
+        "ga": "An chéad Luan i mí Lúnasa"
+      },
+      "date": {
+        "type": "nthWeekday",
+        "month": 8,
+        "weekday": "mon",
+        "nth": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.national-day-of-mourning",
+      "names": {
+        "en": "National Day of Mourning",
+        "ga": "Lá saoire poiblí breise"
+      },
+      "date": {
+        "type": "list",
+        "dates": [
+          "2001-09-14"
+        ]
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "si-419-2001"
+          ],
+          "note": "In sympathy with the victims of the attacks in the United States on 11 September 2001 (S.I. 419/2001). No official Irish name was found; the Irish name is the generic \"extra public holiday\" of the FSSU guideline."
+        }
+      ]
+    },
+    {
+      "id": "ie.october-bank-holiday",
+      "names": {
+        "en": "Last Monday in October",
+        "ga": "An Luan deireanach i mí Dheireadh Fómhair"
+      },
+      "date": {
+        "type": "nthWeekday",
+        "month": 10,
+        "weekday": "mon",
+        "nth": -1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.christmas",
+      "names": {
+        "en": "Christmas Day",
+        "ga": "Lá Nollag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie.saint-stephen",
+      "names": {
+        "en": "Saint Stephen’s Day",
+        "ga": "Lá Fhéile Stiofáin"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "owta-1997",
+            "wrc-public-holidays",
+            "fssu-public-holidays"
+          ]
+        }
+      ]
+    }
+  ]
+}

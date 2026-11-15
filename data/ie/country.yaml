@@ -1,0 +1,48 @@
+# Ireland. No regions: public holidays are the same in the whole state.
+#
+# Types in this file:
+# - public: a public holiday under the Organisation of Working Time Act 1997,
+#   Second Schedule para. 1, including days prescribed by regulation under
+#   para. 1(g). For each public holiday the employee is entitled to one of: a
+#   paid day off on the day, a paid day off within a month, an extra day of
+#   annual leave, or an extra day's pay; the employer decides (s. 21).
+# - bank and observance are not used. Good Friday is not a public holiday
+#   (WRC) and is not listed.
+#
+# Weekends: there is no substitute day. A public holiday on a Saturday or
+# Sunday still gives the s. 21 entitlement, but "there is no legal
+# entitlement to have the next working day off work" (WRC). See decision
+# D-ie-1.
+code: IE
+names: {en: Ireland, ga: Éire}
+languages: [en, ga]
+regions: []
+sources:
+  owta-1997:
+    title: Organisation of Working Time Act 1997, Second Schedule (Public Holidays), revised, updated to 20 January 2025
+    publisher: Law Reform Commission (Revised Acts)
+    law: Organisation of Working Time Act 1997 (No. 20 of 1997), s. 21 and Sch. 2 para. 1
+    url: https://revisedacts.lawreform.ie/eli/1997/act/20/revised/en/html
+    accessed: "2026-11-15"
+  si-50-2022:
+    title: Organisation of Working Time (Covid-19 Commemoration) Regulations 2022
+    publisher: Office of the Attorney General (irishstatutebook.ie)
+    law: S.I. No. 50 of 2022, regs. 3–5
+    url: https://www.irishstatutebook.ie/eli/2022/si/50/made/en/print
+    accessed: "2026-11-15"
+  si-419-2001:
+    title: Organisation of Working Time (National Day of Mourning) Regulations, 2001
+    publisher: Office of the Attorney General (irishstatutebook.ie)
+    law: S.I. No. 419 of 2001, reg. 2
+    url: https://www.irishstatutebook.ie/eli/2001/si/419/made/en/print
+    accessed: "2026-11-15"
+  wrc-public-holidays:
+    title: Public Holidays
+    publisher: Workplace Relations Commission
+    url: https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/
+    accessed: "2026-11-15"
+  fssu-public-holidays:
+    title: Financial Guideline P10 Public Holidays 2026 / Laethanta Saoire Poiblí 2026 (English and Irish); P16 Public holidays 2022
+    publisher: Financial Support Services Unit (FSSU), funded by the Department of Education
+    url: https://www.fssu.ie/app/uploads/2025/11/P10-26-Financial-Guideline-Public-Holidays-2025-2026.pdf
+    accessed: "2026-11-15"

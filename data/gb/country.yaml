@@ -1,0 +1,72 @@
+# United Kingdom. Regions: the four countries of the UK (ISO 3166-2:GB).
+# England and Wales share one list; Scotland and Northern Ireland have their
+# own (Banking and Financial Dealings Act 1971, Sch. 1, and the yearly Royal
+# Proclamations under s. 1).
+#
+# Types in this file (decision D-gb-1):
+# - public: a bank holiday in that part of the UK under the Banking and
+#   Financial Dealings Act 1971 (Sch. 1 or a Royal Proclamation under s. 1),
+#   the St Andrew's Day Bank Holiday (Scotland) Act 2007, or Christmas Day
+#   and Good Friday in England, Wales and Northern Ireland, as listed by
+#   gov.uk. Bank holidays are the general public holidays of the UK, but there
+#   is no general statutory right to the day off: "Your employer does not have
+#   to give you paid leave on bank or public holidays" (gov.uk).
+# - bank and observance are not used.
+#
+# Names: English, and Welsh (cy) where gov.uk/gwyliau-banc gives one. Welsh
+# and Scottish Gaelic are regional languages, so they are not in `languages`
+# (that would require a name for every day); see decision D-gb-2.
+code: GB
+names: {en: United Kingdom}
+languages: [en]
+regions:
+  - {code: GB-ENG, names: {en: England, cy: Lloegr}}
+  - {code: GB-NIR, names: {en: Northern Ireland, cy: Gogledd Iwerddon}}
+  - {code: GB-SCT, names: {en: Scotland, cy: Yr Alban}}
+  - {code: GB-WLS, names: {en: Wales, cy: Cymru}}
+sources:
+  bfda-1971:
+    title: Banking and Financial Dealings Act 1971, Schedule 1 (Bank Holidays)
+    publisher: The National Archives (legislation.gov.uk)
+    law: Banking and Financial Dealings Act 1971 (c. 80), s. 1 and Sch. 1
+    url: https://www.legislation.gov.uk/ukpga/1971/80/schedule/1
+    accessed: "2026-11-15"
+  st-andrews-day-act-2007:
+    title: St Andrew’s Day Bank Holiday (Scotland) Act 2007
+    publisher: The National Archives (legislation.gov.uk)
+    law: 2007 asp 2, s. 1 (inserts 30 November into Sch. 1 para. 2 of the 1971 Act)
+    url: https://www.legislation.gov.uk/asp/2007/2/enacted
+    accessed: "2026-11-15"
+  govuk-bank-holidays:
+    title: UK bank holidays
+    publisher: GOV.UK (Government Digital Service)
+    url: https://www.gov.uk/bank-holidays
+    accessed: "2026-11-15"
+  govuk-bank-holidays-2018:
+    title: UK bank holidays, JSON feed as of 2 January 2018 (archived copy; covers 2012–2019)
+    publisher: GOV.UK (Government Digital Service), archived by the Internet Archive
+    url: http://web.archive.org/web/20180102215633/https://www.gov.uk/bank-holidays.json
+    accessed: "2026-11-15"
+  govscot-bank-holidays:
+    title: Scottish bank holiday dates
+    publisher: The Scottish Government
+    url: https://www.gov.scot/publications/bank-holidays/
+    accessed: "2026-11-15"
+  gazette-2002-jubilee:
+    title: "Proclamation appointing Tuesday, 4th June as a bank holiday in England, Wales, and Northern Ireland instead of Monday, 27th May 2002 and appointing Monday, 3rd June 2002 as a bank holiday (London Gazette 56043, notice L-56043-1001); for Scotland: Edinburgh Gazette 24921, p. 2551"
+    publisher: The Gazette (TSO for HMSO)
+    law: Banking and Financial Dealings Act 1971, s. 1(2) and 1(3); Proclamations of 15 November 2000
+    url: https://www.thegazette.co.uk/notice/L-56043-1001
+    accessed: "2026-11-15"
+  gazette-2011-royal-wedding:
+    title: "Proclamation appointing Friday 29th April 2011 as a bank holiday in England, Wales and Northern Ireland (notice L-59637-1268656); for Scotland: notice E-26880-2"
+    publisher: The Gazette (TSO for HMSO)
+    law: Banking and Financial Dealings Act 1971, s. 1(3); Proclamations of 15 December 2010
+    url: https://www.thegazette.co.uk/notice/L-59637-1268656
+    accessed: "2026-11-15"
+  gazette-2012-jubilee:
+    title: "Proclamation appointing Monday 4th June 2012 in place of Monday 28th May 2012 and Tuesday 5th June 2012 as bank holidays in England, Wales and Northern Ireland (notice L-59806-1377705); for Scotland: notice E-26950-1"
+    publisher: The Gazette (TSO for HMSO)
+    law: Banking and Financial Dealings Act 1971, s. 1(2) and 1(3); Proclamations of June 2011
+    url: https://www.thegazette.co.uk/notice/L-59806-1377705
+    accessed: "2026-11-15"

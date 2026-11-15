@@ -752,6 +752,57 @@
       ]
     },
     {
+      "code": "GB",
+      "names": {
+        "en": "United Kingdom"
+      },
+      "languages": [
+        "en"
+      ],
+      "regions": [
+        {
+          "code": "GB-ENG",
+          "names": {
+            "en": "England",
+            "cy": "Lloegr"
+          }
+        },
+        {
+          "code": "GB-NIR",
+          "names": {
+            "en": "Northern Ireland",
+            "cy": "Gogledd Iwerddon"
+          }
+        },
+        {
+          "code": "GB-SCT",
+          "names": {
+            "en": "Scotland",
+            "cy": "Yr Alban"
+          }
+        },
+        {
+          "code": "GB-WLS",
+          "names": {
+            "en": "Wales",
+            "cy": "Cymru"
+          }
+        }
+      ]
+    },
+    {
+      "code": "IE",
+      "names": {
+        "en": "Ireland",
+        "ga": "Éire"
+      },
+      "languages": [
+        "en",
+        "ga"
+      ],
+      "regions": []
+    },
+    {
       "code": "IT",
       "names": {
         "it": "Italia",

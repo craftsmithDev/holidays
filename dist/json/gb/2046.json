@@ -1,0 +1,304 @@
+{
+  "format": 1,
+  "country": "GB",
+  "year": 2046,
+  "holidays": [
+    {
+      "date": "2046-01-01",
+      "id": "gb.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "cy": "Dydd Calan"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-01-02",
+      "id": "gb.second-january",
+      "name": {
+        "en": "2nd January",
+        "cy": "2il o Ionawr"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "GB-SCT"
+      ],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-03-17",
+      "id": "gb.saint-patrick",
+      "name": {
+        "en": "St Patrick’s Day",
+        "cy": "Gŵyl Sant Padrig"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "GB-NIR"
+      ],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-03-19",
+      "id": "gb.saint-patrick",
+      "name": {
+        "en": "St Patrick’s Day",
+        "cy": "Gŵyl Sant Padrig"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": "2046-03-17",
+      "nationwide": false,
+      "regions": [
+        "GB-NIR"
+      ],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-03-23",
+      "id": "gb.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "cy": "Gwener y Groglith"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-03-26",
+      "id": "gb.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "cy": "Llun y Pasg"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "GB-ENG",
+        "GB-NIR",
+        "GB-WLS"
+      ],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-05-07",
+      "id": "gb.early-may",
+      "name": {
+        "en": "Early May bank holiday",
+        "cy": "Gŵyl banc dechrau Mai"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-05-28",
+      "id": "gb.spring-bank",
+      "name": {
+        "en": "Spring bank holiday",
+        "cy": "Gŵyl banc y gwanwyn"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays",
+        "gazette-2002-jubilee",
+        "gazette-2012-jubilee"
+      ]
+    },
+    {
+      "date": "2046-07-12",
+      "id": "gb.battle-of-the-boyne",
+      "name": {
+        "en": "Battle of the Boyne (Orangemen’s Day)",
+        "cy": "Brwydr y Boyne (Dydd yr Orenwyr)"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "GB-NIR"
+      ],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-08-06",
+      "id": "gb.summer-bank",
+      "name": {
+        "en": "Summer bank holiday",
+        "cy": "Gŵyl banc yr haf"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "GB-SCT"
+      ],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-08-27",
+      "id": "gb.summer-bank",
+      "name": {
+        "en": "Summer bank holiday",
+        "cy": "Gŵyl banc yr haf"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "GB-ENG",
+        "GB-NIR",
+        "GB-WLS"
+      ],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-11-30",
+      "id": "gb.saint-andrew",
+      "name": {
+        "en": "St Andrew’s Day",
+        "cy": "Gŵyl Andreas"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "GB-SCT"
+      ],
+      "sources": [
+        "bfda-1971",
+        "st-andrews-day-act-2007",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-12-25",
+      "id": "gb.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "cy": "Dydd Nadolig"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    },
+    {
+      "date": "2046-12-26",
+      "id": "gb.boxing-day",
+      "name": {
+        "en": "Boxing Day",
+        "cy": "Dydd San Steffan"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "bfda-1971",
+        "govuk-bank-holidays"
+      ]
+    }
+  ],
+  "sources": {
+    "bfda-1971": {
+      "title": "Banking and Financial Dealings Act 1971, Schedule 1 (Bank Holidays)",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "law": "Banking and Financial Dealings Act 1971 (c. 80), s. 1 and Sch. 1",
+      "url": "https://www.legislation.gov.uk/ukpga/1971/80/schedule/1",
+      "accessed": "2026-11-15"
+    },
+    "st-andrews-day-act-2007": {
+      "title": "St Andrew’s Day Bank Holiday (Scotland) Act 2007",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "law": "2007 asp 2, s. 1 (inserts 30 November into Sch. 1 para. 2 of the 1971 Act)",
+      "url": "https://www.legislation.gov.uk/asp/2007/2/enacted",
+      "accessed": "2026-11-15"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK (Government Digital Service)",
+      "url": "https://www.gov.uk/bank-holidays",
+      "accessed": "2026-11-15"
+    },
+    "gazette-2002-jubilee": {
+      "title": "Proclamation appointing Tuesday, 4th June as a bank holiday in England, Wales, and Northern Ireland instead of Monday, 27th May 2002 and appointing Monday, 3rd June 2002 as a bank holiday (London Gazette 56043, notice L-56043-1001); for Scotland: Edinburgh Gazette 24921, p. 2551",
+      "publisher": "The Gazette (TSO for HMSO)",
+      "law": "Banking and Financial Dealings Act 1971, s. 1(2) and 1(3); Proclamations of 15 November 2000",
+      "url": "https://www.thegazette.co.uk/notice/L-56043-1001",
+      "accessed": "2026-11-15"
+    },
+    "gazette-2012-jubilee": {
+      "title": "Proclamation appointing Monday 4th June 2012 in place of Monday 28th May 2012 and Tuesday 5th June 2012 as bank holidays in England, Wales and Northern Ireland (notice L-59806-1377705); for Scotland: notice E-26950-1",
+      "publisher": "The Gazette (TSO for HMSO)",
+      "law": "Banking and Financial Dealings Act 1971, s. 1(2) and 1(3); Proclamations of June 2011",
+      "url": "https://www.thegazette.co.uk/notice/L-59806-1377705",
+      "accessed": "2026-11-15"
+    }
+  }
+}

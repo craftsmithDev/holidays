@@ -1427,6 +1427,172 @@
         null
       ],
       "expect": true
+    },
+    {
+      "name": "GB Scotland 2022: New Year and 2 January substitutes chain, moved Spring bank holiday, Platinum Jubilee, State Funeral",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "GB",
+        2022,
+        "SCT",
+        null
+      ],
+      "expect": [
+        "2022-01-01 gb.new-year public",
+        "2022-01-02 gb.second-january public",
+        "2022-01-03 gb.new-year for 2022-01-01 public",
+        "2022-01-04 gb.second-january for 2022-01-02 public",
+        "2022-04-15 gb.good-friday public",
+        "2022-05-02 gb.early-may public",
+        "2022-06-02 gb.spring-bank public",
+        "2022-06-03 gb.platinum-jubilee public",
+        "2022-08-01 gb.summer-bank public",
+        "2022-09-19 gb.state-funeral public",
+        "2022-11-30 gb.saint-andrew public",
+        "2022-12-25 gb.christmas public",
+        "2022-12-26 gb.boxing-day public",
+        "2022-12-27 gb.christmas for 2022-12-25 public"
+      ]
+    },
+    {
+      "name": "GB 2002 nationwide: Golden Jubilee and Spring bank holiday moved to Tuesday 4 June",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "GB",
+        2002,
+        null,
+        null
+      ],
+      "expect": [
+        "2002-01-01 gb.new-year public",
+        "2002-03-29 gb.good-friday public",
+        "2002-05-06 gb.early-may public",
+        "2002-06-03 gb.golden-jubilee public",
+        "2002-06-04 gb.spring-bank public",
+        "2002-12-25 gb.christmas public",
+        "2002-12-26 gb.boxing-day public"
+      ]
+    },
+    {
+      "name": "GB England 2021: Christmas on a Saturday goes to Monday 27",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2021-12-26",
+        "GB",
+        "ENG",
+        null
+      ],
+      "expect": "2021-12-27 gb.christmas for 2021-12-25 public"
+    },
+    {
+      "name": "GB England 2021: Boxing Day on a Sunday goes to Tuesday 28",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2021-12-28",
+        "GB",
+        "GB-ENG",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "GB 2020: Early May bank holiday moved from Monday 4 May to Friday 8 May",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2020-05-04",
+        "GB",
+        "WLS",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "GB Northern Ireland 2025: Battle of the Boyne on a Saturday",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2025-07-12",
+        "GB",
+        "NIR",
+        null
+      ],
+      "expect": "2025-07-14 gb.battle-of-the-boyne for 2025-07-12 public"
+    },
+    {
+      "name": "GB Scotland 2025: St Andrew's Day on a Sunday goes to Monday 1 December",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2025-11-30",
+        "GB",
+        "SCT",
+        null
+      ],
+      "expect": "2025-12-01 gb.saint-andrew for 2025-11-30 public"
+    },
+    {
+      "name": "GB Scotland has no Easter Monday",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-04-06",
+        "GB",
+        "SCT",
+        "all"
+      ],
+      "expect": false
+    },
+    {
+      "name": "IE 2022 with the once-off 18 March",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "IE",
+        2022,
+        null,
+        null
+      ],
+      "expect": [
+        "2022-01-01 ie.new-year public",
+        "2022-03-17 ie.saint-patrick public",
+        "2022-03-18 ie.covid-commemoration public",
+        "2022-04-18 ie.easter-monday public",
+        "2022-05-02 ie.may-bank-holiday public",
+        "2022-06-06 ie.june-bank-holiday public",
+        "2022-08-01 ie.august-bank-holiday public",
+        "2022-10-31 ie.october-bank-holiday public",
+        "2022-12-25 ie.christmas public",
+        "2022-12-26 ie.saint-stephen public"
+      ]
+    },
+    {
+      "name": "IE Saint Brigid's Day 2030: 1 February is a Friday",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2030-01-01",
+        "IE",
+        null,
+        null
+      ],
+      "expect": "2030-02-01 ie.saint-brigid public"
+    },
+    {
+      "name": "IE no substitute day: Saint Patrick's Day 2024 is a Sunday",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2024-03-18",
+        "IE",
+        null,
+        "all"
+      ],
+      "expect": false
     }
   ]
 }
