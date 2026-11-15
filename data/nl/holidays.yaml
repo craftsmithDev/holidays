@@ -1,0 +1,197 @@
+# Netherlands holidays. Type rules: see the top of country.yaml.
+#
+# European Netherlands: the days of the Algemene termijnenwet, Art. 3
+# (source nl-termijnenwet), unchanged since 1982. Easter Sunday and Whit
+# Sunday are left out (decision D7).
+#
+# Caribbean Netherlands (NL-BQ1 Bonaire, NL-BQ2 Saba, NL-BQ3 Sint
+# Eustatius): part of the Netherlands since 10 October 2010. Days before that
+# date are not listed for them, so before 2010 no entry is nationwide
+# (decision D-bnl-3). Holidays: Arbeidswet 2000 BES, Art. 23 (source
+# nl-arbeidswet-bes). Not modelled:
+# - Pinksterzondag (Whit Sunday, Art. 23 para. 1 f) and Eerste Paasdag:
+#   Sundays (D7).
+# - The day after the carnival parade (Art. 23 para. 1 b): on all three
+#   islands until 2019, on Sint Eustatius and Saba until 2021, on Saba since
+#   2022. The parade date is set each year on the island; there is no rule
+#   to compute it.
+# - Art. 23 para. 3: the island council may move the carnival day and the
+#   island days to another date. No such decision is modelled.
+
+holidays:
+  - id: nl.new-year
+    names: {en: New Year’s Day, nl: Nieuwjaarsdag}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, to: 2010, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen]}
+      - {regions: all, type: public, from: 2011, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen, nl-arbeidswet-bes]}
+
+  - id: nl.good-friday
+    names: {en: Good Friday, nl: Goede Vrijdag}
+    date: {type: easter, offset: -2}
+    observances:
+      - regions: all
+        except: [NL-BQ1, NL-BQ2, NL-BQ3]
+        type: observance
+        sources: [nl-termijnenwet, nl-rijksoverheid-goede-vrijdag]
+        note: >-
+          Equal to the official holidays only for time limits (Algemene
+          termijnenwet, Art. 3 para. 2). Most employees work (Rijksoverheid);
+          a day off only where the cao grants it.
+      - {regions: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, from: 2011, sources: [nl-arbeidswet-bes]}
+
+  - id: nl.easter-monday
+    names: {en: Easter Monday, nl: Tweede Paasdag}
+    date: {type: easter, offset: 1}
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, to: 2010, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen]}
+      - {regions: all, type: public, from: 2011, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen, nl-arbeidswet-bes]}
+
+  - id: nl.queens-day
+    names: {en: Queen’s Day, nl: Koninginnedag}
+    to: 2013
+    date:
+      type: fixed
+      month: 4
+      day: 30
+      adjust:
+        - when: {weekday: [sun]}
+          offset: -1
+    sources: [nl-stcrt-2000-koninginnedag, nl-stcrt-2006-koninginnedag]
+    note: >-
+      30 April under the Royal Decree of 24 April 1980, nr. 11 (withdrawn from
+      2014 by the decree of 30 January 2013). When 30 April was a Sunday, the
+      day was held on Saturday 29 April (2000 and 2006, both shown by
+      Staatscourant notices). The 1980 decree itself was not found online.
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, to: 2010, sources: [nl-termijnenwet, nl-besluit-koningsdag]}
+      - {regions: all, type: public, from: 2011, sources: [nl-termijnenwet, nl-besluit-koningsdag, nl-arbeidswet-bes]}
+
+  - id: nl.kings-day
+    names: {en: King’s Day, nl: Koningsdag}
+    from: 2014
+    date:
+      type: fixed
+      month: 4
+      day: 27
+      adjust:
+        - when: {weekday: [sun]}
+          offset: -1
+    note: >-
+      27 April from 2014 “behoudens uitzonderingen in verband met zondagen”
+      (decree of 30 January 2013, Art. 1); when 27 April is a Sunday it is
+      held on the Saturday before (nota van toelichting; Rijksoverheid).
+    observances:
+      - {regions: all, type: public, sources: [nl-termijnenwet, nl-besluit-koningsdag, nl-rijksoverheid-koningsdag, nl-arbeidswet-bes]}
+
+  - id: nl.dia-di-rincon
+    names: {en: Rincon Day, nl: Dia di Rincon}
+    from: 2020
+    date: {type: fixed, month: 4, day: 30}
+    observances:
+      - regions: [NL-BQ1]
+        type: public
+        sources: [nl-arbeidswet-bes, nl-regeling-feestdagen-ambtenaren-bes]
+        note: >-
+          Art. 23 para. 1 j since 1 January 2020: “de dag waarop de viering van
+          Dia di Rincon plaatsvindt”. The law gives no date; the Regeling
+          feestdagen ambtenaren BES names 30 April.
+
+  - id: nl.labour-day
+    names: {en: Labour Day, nl: Dag van de Arbeid}
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - regions: [NL-BQ1, NL-BQ2, NL-BQ3]
+        type: public
+        from: 2011
+        adjust:
+          - when: {weekday: [sun]}
+            moveTo: {weekday: mon, direction: after}
+        sources: [nl-arbeidswet-bes]
+        note: >-
+          Art. 23 para. 2: 1 May, or the next working day when 1 May is a
+          Sunday or the King’s birthday is celebrated on it. Only the Sunday
+          case can occur (King’s Day is 27 or 26 April; Queen’s Day was 30 or
+          29 April).
+
+  - id: nl.liberation-day
+    names: {en: Liberation Day, nl: Bevrijdingsdag}
+    date: {type: fixed, month: 5, day: 5}
+    note: >-
+      An “algemeen erkende feestdag” (Algemene termijnenwet, Art. 3 para. 1),
+      but not everyone is off (Rijksoverheid); the cao decides, and many cao’s
+      give the day off only every fifth year (decision D-bnl-2).
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: observance, to: 2010, sources: [nl-termijnenwet, nl-rijksoverheid-bevrijdingsdag]}
+      - {regions: all, type: observance, from: 2011, sources: [nl-termijnenwet, nl-rijksoverheid-bevrijdingsdag]}
+
+  - id: nl.ascension
+    names: {en: Ascension Day, nl: Hemelvaartsdag}
+    date: {type: easter, offset: 39}
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, to: 2010, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen]}
+      - {regions: all, type: public, from: 2011, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen, nl-arbeidswet-bes]}
+
+  - id: nl.whit-monday
+    names: {en: Whit Monday, nl: Tweede Pinksterdag}
+    date: {type: easter, offset: 50}
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen]}
+      - regions: [NL-BQ1, NL-BQ2, NL-BQ3]
+        type: observance
+        from: 2011
+        sources: [nl-termijnenwet, nl-arbeidswet-bes]
+        note: >-
+          A day of the Algemene termijnenwet (time limits), but Art. 23 of the
+          Arbeidswet 2000 BES lists Whit Sunday instead of Whit Monday.
+
+  - id: nl.emancipation-day
+    names: {en: Emancipation Day, nl: Emancipatiedag}
+    from: 2022
+    date: {type: fixed, month: 7, day: 1}
+    observances:
+      - regions: [NL-BQ3]
+        type: public
+        sources: [nl-arbeidswet-bes]
+        note: Art. 23 para. 1 k since 1 January 2022 (“de datum 1 juli”); the law gives no name.
+
+  - id: nl.flag-day-bonaire
+    names: {en: Bonaire Flag and Anthem Day, nl: Dia di Himno y Bandera}
+    date: {type: fixed, month: 9, day: 6}
+    observances:
+      - regions: [NL-BQ1]
+        type: public
+        from: 2011
+        sources: [nl-arbeidswet-bes, nl-regeling-feestdagen-ambtenaren-bes]
+
+  - id: nl.statia-day
+    names: {en: Statia Day, nl: Statia Day}
+    date: {type: fixed, month: 11, day: 16}
+    observances:
+      - regions: [NL-BQ3]
+        type: public
+        from: 2010
+        sources: [nl-arbeidswet-bes, nl-regeling-feestdagen-ambtenaren-bes]
+
+  - id: nl.saba-day
+    names: {en: Saba Day, nl: Saba Day}
+    date: {type: nthWeekday, month: 12, weekday: fri, nth: 1}
+    observances:
+      - regions: [NL-BQ2]
+        type: public
+        from: 2010
+        sources: [nl-arbeidswet-bes, nl-regeling-feestdagen-ambtenaren-bes]
+
+  - id: nl.christmas
+    names: {en: Christmas Day, nl: Eerste Kerstdag}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, to: 2009, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen]}
+      - {regions: all, type: public, from: 2010, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen, nl-arbeidswet-bes]}
+
+  - id: nl.saint-stephen
+    names: {en: Second Day of Christmas, nl: Tweede Kerstdag}
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - {regions: all, except: [NL-BQ1, NL-BQ2, NL-BQ3], type: public, to: 2009, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen]}
+      - {regions: all, type: public, from: 2010, sources: [nl-termijnenwet, nl-rijksoverheid-feestdagen, nl-arbeidswet-bes]}
