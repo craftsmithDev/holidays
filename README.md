@@ -16,6 +16,8 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 | Liechtenstein (LI) | 11 municipalities | `public` = Labour Act Art. 18; see [verification](docs/verification/li.md) |
 | Germany (DE) | 16 Länder | `public` = gesetzlicher Feiertag in the whole Land under its Feiertagsgesetz; see [verification](docs/verification/de.md) |
 | Austria (AT) | 9 Bundesländer | `public` = Feiertag under the Arbeitsruhegesetz (ARG § 7); see [verification](docs/verification/at.md) |
+| France (FR) | Alsace-Moselle departments and the overseas territories with their own days (10) | `public` = jour férié under the Code du travail; see [verification](docs/verification/fr.md) |
+| Monaco (MC) | none | `public` = Loi n° 798; Sunday rule as substitute days; see [verification](docs/verification/mc.md) |
 
 More Western European countries follow in the same format.
 

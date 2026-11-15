@@ -1,0 +1,53 @@
+# Monaco. No regions: the holidays are the same in the whole principality
+# (ISO 3166-2:MC lists 17 quarters; none has its own holiday).
+#
+# Types in this file:
+# - public: a jour férié légal of Loi n° 798 art. 1. Loi n° 800 art. 2 makes
+#   every one of them a compulsory paid day off for all employees.
+code: MC
+names: {fr: Monaco, en: Monaco}
+languages: [fr]
+regions: []
+sources:
+  loi-798:
+    title: Loi n° 798 du 18 février 1966 portant fixation des jours fériés légaux
+    publisher: Legimonaco (Principauté de Monaco)
+    law: Loi n° 798 du 18 février 1966, art. 1er (Journal de Monaco du 25 février 1966)
+    url: https://legimonaco.mc/tnc/loi/1966/02-18-798/
+    accessed: "2026-11-15"
+  loi-800:
+    title: Loi n° 800 du 18 février 1966 régissant la rémunération et les conditions de travail relatives aux jours fériés légaux
+    publisher: Legimonaco (Principauté de Monaco)
+    law: Loi n° 800 du 18 février 1966, art. 2 (as amended by loi n° 1.020 du 5 juillet 1979)
+    url: https://legimonaco.mc/tnc/loi/1966/02-18-800/
+    accessed: "2026-11-15"
+  gouv-jours-feries:
+    title: Public Holidays (last updated 3 March 2026)
+    publisher: Gouvernement Princier, MonEntreprise
+    url: https://monentreprise.gouv.mc/en/themes/employment/employment-regulations/leave-and-leave-sharing/public-holidays
+    accessed: "2026-11-15"
+  circulaire-2018-12:
+    title: Circulaire n° 2018-12 du 24 septembre 2018 relative à la liste des jours chômés et payés pour l'année 2019
+    publisher: Journal de Monaco n° 8.402 du 5 octobre 2018
+    url: https://journaldemonaco.gouv.mc/Journaux/2018/Journal-8402/Circulaire-n-2018-12-du-24-septembre-2018-relative-a-la-liste-des-jours-chomes-et-payes-pour-l-annee-2019
+    accessed: "2026-11-15"
+  circulaire-2023-14:
+    title: Circulaire n° 2023-14 du 2 octobre 2023 relative à la liste des jours chômés et payés pour l'année 2024
+    publisher: Journal de Monaco n° 8.664 du 13 octobre 2023
+    url: https://journaldemonaco.gouv.mc/content/download/195939/4566333/file/JO%208.664_13%20octobre%202023.pdf
+    accessed: "2026-11-15"
+  circulaire-2024-7:
+    title: Circulaire n° 2024-7 du 1er octobre 2024 relative à la liste des jours chômés et payés pour l'année 2025
+    publisher: Journal de Monaco n° 8.716 du 11 octobre 2024
+    url: https://journaldemonaco.gouv.mc/Journaux/2024/Journal-8716/Circulaire-n-2024-7-du-1er-octobre-2024-relative-a-la-liste-des-jours-chomes-et-payes-pour-l-annee-2025.
+    accessed: "2026-11-15"
+  circulaire-2025-8:
+    title: Circulaire n° 2025-8 du 1er octobre 2025 relative à la liste des jours chômés et payés pour l'année 2026
+    publisher: Journal de Monaco n° 8.768 du 10 octobre 2025
+    url: https://journaldemonaco.gouv.mc/Journaux/2025/Journal-8768/Circulaire-n-2025-8-du-1er-octobre-2025-relative-a-la-liste-des-jours-chomes-et-payes-pour-l-annee-2026
+    accessed: "2026-11-15"
+  circulaire-2026-12:
+    title: Circulaire n° 2026-12 du 16 octobre 2026 relative à la liste des jours chômés et payés pour l'année 2027
+    publisher: Journal de Monaco n° 8.822 du 23 octobre 2026
+    url: https://journaldemonaco.gouv.mc/Journaux/2026/Journal-8822/Circulaire-n-2026-12-du-16-octobre-2026-relative-a-la-liste-des-jours-chomes-et-payes-pour-l-annee-2027
+    accessed: "2026-11-15"

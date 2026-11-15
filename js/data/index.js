@@ -2,6 +2,8 @@
 import at from './at.js';
 import ch from './ch.js';
 import de from './de.js';
+import fr from './fr.js';
 import li from './li.js';
+import mc from './mc.js';
 
-export default { AT: at, CH: ch, DE: de, LI: li };
+export default { AT: at, CH: ch, DE: de, FR: fr, LI: li, MC: mc };

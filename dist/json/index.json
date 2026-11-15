@@ -455,6 +455,88 @@
       ]
     },
     {
+      "code": "FR",
+      "names": {
+        "fr": "France",
+        "en": "France"
+      },
+      "languages": [
+        "fr"
+      ],
+      "regions": [
+        {
+          "code": "FR-57",
+          "names": {
+            "fr": "Moselle",
+            "en": "Moselle"
+          }
+        },
+        {
+          "code": "FR-67",
+          "names": {
+            "fr": "Bas-Rhin",
+            "en": "Bas-Rhin"
+          }
+        },
+        {
+          "code": "FR-68",
+          "names": {
+            "fr": "Haut-Rhin",
+            "en": "Haut-Rhin"
+          }
+        },
+        {
+          "code": "FR-971",
+          "names": {
+            "fr": "Guadeloupe",
+            "en": "Guadeloupe"
+          }
+        },
+        {
+          "code": "FR-972",
+          "names": {
+            "fr": "Martinique",
+            "en": "Martinique"
+          }
+        },
+        {
+          "code": "FR-973",
+          "names": {
+            "fr": "Guyane",
+            "en": "French Guiana"
+          }
+        },
+        {
+          "code": "FR-974",
+          "names": {
+            "fr": "La Réunion",
+            "en": "Réunion"
+          }
+        },
+        {
+          "code": "FR-976",
+          "names": {
+            "fr": "Mayotte",
+            "en": "Mayotte"
+          }
+        },
+        {
+          "code": "FR-BL",
+          "names": {
+            "fr": "Saint-Barthélemy",
+            "en": "Saint Barthélemy"
+          }
+        },
+        {
+          "code": "FR-MF",
+          "names": {
+            "fr": "Saint-Martin",
+            "en": "Saint Martin"
+          }
+        }
+      ]
+    },
+    {
       "code": "LI",
       "names": {
         "de": "Liechtenstein",
@@ -542,6 +624,17 @@
           }
         }
       ]
+    },
+    {
+      "code": "MC",
+      "names": {
+        "fr": "Monaco",
+        "en": "Monaco"
+      },
+      "languages": [
+        "fr"
+      ],
+      "regions": []
     }
   ]
 }

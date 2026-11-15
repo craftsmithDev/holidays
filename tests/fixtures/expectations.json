@@ -857,6 +857,144 @@
         "2005-12-26 at.saint-stephen public",
         "2005-12-31 at.new-years-eve observance"
       ]
+    },
+    {
+      "name": "FR nationwide public holidays 2027 (Code du travail L3133-1)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "FR",
+        2027,
+        null,
+        null
+      ],
+      "expect": [
+        "2027-01-01 fr.new-year public",
+        "2027-03-29 fr.easter-monday public",
+        "2027-05-01 fr.labour-day public",
+        "2027-05-06 fr.ascension public",
+        "2027-05-08 fr.victory-day public",
+        "2027-05-17 fr.whit-monday public",
+        "2027-07-14 fr.national-day public",
+        "2027-08-15 fr.assumption public",
+        "2027-11-01 fr.all-saints public",
+        "2027-11-11 fr.armistice-day public",
+        "2027-12-25 fr.christmas public"
+      ]
+    },
+    {
+      "name": "FR Moselle: Good Friday is only an observance (communes with a Protestant church)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "FR",
+        2026,
+        "FR-57",
+        [
+          "observance"
+        ]
+      ],
+      "expect": [
+        "2026-04-03 fr.good-friday observance"
+      ]
+    },
+    {
+      "name": "FR Bas-Rhin: 26 December is public",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-12-26",
+        "FR",
+        "67",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "FR Réunion: abolition of slavery on 20 December",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2026-12-01",
+        "FR",
+        "FR-974",
+        null
+      ],
+      "expect": "2026-12-20 fr.abolition-of-slavery public"
+    },
+    {
+      "name": "FR Saint-Barthélemy: abolition day only since décret 2012-553",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2011-10-09",
+        "FR",
+        "BL",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "FR Saint-Barthélemy: abolition day on 9 October 2012",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2012-10-09",
+        "FR",
+        "BL",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "MC 2027: Assumption on a Sunday adds Monday 16 August (Loi 798, circular 2026-12)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "MC",
+        2027,
+        null,
+        null
+      ],
+      "expect": [
+        "2027-01-01 mc.new-year public",
+        "2027-01-27 mc.saint-devote public",
+        "2027-03-29 mc.easter-monday public",
+        "2027-05-01 mc.labour-day public",
+        "2027-05-06 mc.ascension public",
+        "2027-05-17 mc.whit-monday public",
+        "2027-05-27 mc.corpus-christi public",
+        "2027-08-15 mc.assumption public",
+        "2027-08-16 mc.assumption for 2027-08-15 public",
+        "2027-11-01 mc.all-saints public",
+        "2027-11-19 mc.national-day public",
+        "2027-12-08 mc.immaculate-conception public",
+        "2027-12-25 mc.christmas public"
+      ]
+    },
+    {
+      "name": "MC 2024: Immaculate Conception on a Sunday moves to 9 December",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2024-12-01",
+        "MC",
+        null,
+        null
+      ],
+      "expect": "2024-12-09 mc.immaculate-conception public"
+    },
+    {
+      "name": "MC 2019: no Monday after Sainte-Dévote on a Sunday",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2019-01-28",
+        "MC",
+        null,
+        "all"
+      ],
+      "expect": false
     }
   ]
 }

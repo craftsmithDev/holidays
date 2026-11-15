@@ -1,0 +1,91 @@
+# France. Regions: only the ISO 3166-2:FR subdivisions whose holidays differ
+# from the national list (decision D-fr-1): the three departments of
+# Alsace-Moselle and the overseas departments and collectivities where the
+# Code du travail sets an extra day. Every other part of metropolitan France
+# (and Saint-Pierre-et-Miquelon) has exactly the nationwide days: query
+# without a region. French Polynesia, New Caledonia and Wallis and Futuna
+# have their own labour codes and are not covered.
+#
+# Types in this file:
+# - public: a "jour férié" designated by law, i.e. one of the "fêtes légales"
+#   of Code du travail L3133-1, or a day added by L3134-13 (Alsace-Moselle)
+#   or L3422-2 (overseas). Nationally only 1 May is also compulsorily a day
+#   off (L3133-4); whether the other days are worked is set by collective
+#   agreement (L3133-3-1). In Alsace-Moselle every jour férié is a day off
+#   (L3134-13). The line is "designated jour férié by law", not "day off for
+#   every employee" (decision D-fr-2).
+# - observance: a day the law makes a jour férié only in part of a region
+#   (Good Friday in Alsace-Moselle, decision D-fr-3, after D4 and D6).
+code: FR
+names: {fr: France, en: France}
+languages: [fr]
+regions:
+  - {code: FR-57, names: {fr: Moselle, en: Moselle}}
+  - {code: FR-67, names: {fr: Bas-Rhin, en: Bas-Rhin}}
+  - {code: FR-68, names: {fr: Haut-Rhin, en: Haut-Rhin}}
+  - {code: FR-971, names: {fr: Guadeloupe, en: Guadeloupe}}
+  - {code: FR-972, names: {fr: Martinique, en: Martinique}}
+  - {code: FR-973, names: {fr: Guyane, en: French Guiana}}
+  - {code: FR-974, names: {fr: La Réunion, en: Réunion}}
+  - {code: FR-976, names: {fr: Mayotte, en: Mayotte}}
+  - {code: FR-BL, names: {fr: Saint-Barthélemy, en: Saint Barthélemy}}
+  - {code: FR-MF, names: {fr: Saint-Martin, en: Saint Martin}}
+sources:
+  ct-l3133-1:
+    title: Code du travail, article L3133-1
+    publisher: Légifrance (République française)
+    law: Code du travail, art. L3133-1 (in force since 1 May 2008; before, former art. L222-1 with the same list)
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020901
+    accessed: "2026-11-15"
+  ct-l3133-4:
+    title: Code du travail, article L3133-4
+    publisher: Légifrance (République française)
+    law: Code du travail, art. L3133-4
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020884
+    accessed: "2026-11-15"
+  ct-l3133-11:
+    title: Code du travail, article L3133-11 (journée de solidarité)
+    publisher: Légifrance (République française)
+    law: Code du travail, art. L3133-11
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020848
+    accessed: "2026-11-15"
+  ct-l3134-13:
+    title: Code du travail, article L3134-13 (dispositions particulières à la Moselle, au Bas-Rhin et au Haut-Rhin)
+    publisher: Légifrance (République française)
+    law: Code du travail, art. L3134-13
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902635
+    accessed: "2026-11-15"
+  ct-l3422-2:
+    title: Code du travail, article L3422-2 (commémoration de l'abolition de l'esclavage)
+    publisher: Légifrance (République française)
+    law: Code du travail, art. L3422-2 (created by loi n° 2016-1088, in force since 10 August 2016; Mayotte added from 1 January 2018 by ordonnance n° 2017-1491)
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035902463
+    accessed: "2026-11-15"
+  loi-83-550:
+    title: Loi n° 83-550 du 30 juin 1983 relative à la commémoration de l'abolition de l'esclavage
+    publisher: Légifrance (République française)
+    law: Loi n° 83-550 du 30 juin 1983, article unique
+    url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000692257
+    accessed: "2026-11-15"
+  decret-83-1003:
+    title: Décret n° 83-1003 du 23 novembre 1983 relatif à la commémoration de l'abolition de l'esclavage
+    publisher: Légifrance (République française)
+    law: Décret n° 83-1003 du 23 novembre 1983, art. 1er (as amended by décret n° 2012-553 du 23 avril 2012, in force since 26 April 2012)
+    url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000336997
+    accessed: "2026-11-15"
+  decret-2012-553:
+    title: Décret n° 2012-553 du 23 avril 2012 modifiant le décret n° 83-1003 du 23 novembre 1983
+    publisher: Légifrance (République française)
+    law: Décret n° 2012-553 du 23 avril 2012
+    url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000025743756
+    accessed: "2026-11-15"
+  service-public-f2405:
+    title: Jours fériés et ponts dans le secteur privé (vérifié le 1er janvier 2026)
+    publisher: Service-Public.gouv.fr, Direction de l'information légale et administrative (Premier ministre)
+    url: https://www.service-public.gouv.fr/particuliers/vosdroits/F2405
+    accessed: "2026-11-15"
+  dreets-droit-local:
+    title: Guide du droit local du travail en Alsace-Moselle (décembre 2022)
+    publisher: DREETS Grand Est, DDETS de Moselle, DDETS du Bas-Rhin, DDETSPP du Haut-Rhin
+    url: https://grand-est.dreets.gouv.fr/sites/dreets-als-champ/files/2026-08/Guide%20droit%20local%20du%20travail%20alsace%20moselle%20-%20d%C3%A9cembre%202022.pdf
+    accessed: "2026-11-15"
