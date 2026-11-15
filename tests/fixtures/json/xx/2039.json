@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "country": "XX",
+  "year": 2039,
+  "holidays": [
+    {
+      "date": "2039-01-01",
+      "id": "xx.new-year",
+      "name": {
+        "en": "New Year's Day",
+        "de": "Neujahr"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture-law"
+      ]
+    },
+    {
+      "date": "2039-03-17",
+      "id": "xx.moved-day",
+      "name": {
+        "en": "Moved Day",
+        "de": "Verschobener Tag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-04-05",
+      "id": "xx.clash-day",
+      "name": {
+        "en": "Clash Day",
+        "de": "Kollisionstag"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-04-14",
+      "id": "xx.pilgrimage",
+      "name": {
+        "en": "Pilgrimage",
+        "de": "Fahrt"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "XX-AA"
+      ],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-04-18",
+      "id": "xx.orthodox-easter-monday",
+      "name": {
+        "en": "Orthodox Easter Monday",
+        "de": "Orthodoxer Ostermontag"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "XX-BB"
+      ],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-05-30",
+      "id": "xx.spring-bank",
+      "name": {
+        "en": "Spring Bank Holiday",
+        "de": "Frühlingsfeiertag"
+      },
+      "type": "bank",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "XX-AA"
+      ],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-06-24",
+      "id": "xx.midsummer-eve",
+      "name": {
+        "en": "Midsummer Eve",
+        "de": "Mittsommerabend"
+      },
+      "type": "public",
+      "startTime": "12:00",
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-12-25",
+      "id": "xx.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "de": "Weihnachten"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-12-26",
+      "id": "xx.boxing-day",
+      "name": {
+        "en": "Boxing Day",
+        "de": "Stephanstag"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-12-27",
+      "id": "xx.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "de": "Weihnachten"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": "2039-12-25",
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-12-27",
+      "id": "xx.saint-day",
+      "name": {
+        "en": "Saint's Day",
+        "de": "Heiligentag"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "XX-BB"
+      ],
+      "sources": [
+        "fixture"
+      ]
+    },
+    {
+      "date": "2039-12-31",
+      "id": "xx.new-years-eve",
+      "name": {
+        "en": "New Year's Eve",
+        "de": "Silvester"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "XX-BB"
+      ],
+      "sources": [
+        "fixture"
+      ]
+    }
+  ],
+  "sources": {
+    "fixture": {
+      "title": "Test fixture",
+      "url": "https://example.org/fixture",
+      "accessed": "2026-11-15"
+    },
+    "fixture-law": {
+      "title": "Test fixture law",
+      "publisher": "Nobody",
+      "law": "Fixture Act, s. 1",
+      "url": "https://example.org/law",
+      "accessed": "2026-11-15"
+    }
+  }
+}

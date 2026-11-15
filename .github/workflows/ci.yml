@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['8.2', '8.4']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: json, calendar
+          coverage: none
+
+      - name: Install
+        run: |
+          npm ci
+          composer install --no-interaction --no-progress
+
+      - name: Build (validates data/ against schema/ and the semantic checks)
+        run: npm run build
+
+      - name: Build output is committed
+        run: |
+          changes="$(git status --porcelain -- dist js/data tests/fixtures/rules tests/fixtures/json)"
+          if [ -n "$changes" ]; then echo "Run npm run build and commit:"; echo "$changes"; exit 1; fi
+
+      - name: JS tests (schema, rules, golden, dist)
+        run: npm test
+
+      - name: Type declarations
+        run: npm run test:types
+
+      - name: PHP tests (rules, golden, cross-runtime)
+        run: vendor/bin/phpunit
+
+      - name: Cross-runtime check (PHP writes every year file, must equal the JS build)
+        run: |
+          php scripts/dump.php "$RUNNER_TEMP/php-json"
+          diff -r dist/json "$RUNNER_TEMP/php-json"

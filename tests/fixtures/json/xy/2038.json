@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "country": "XY",
+  "year": 2038,
+  "holidays": [
+    {
+      "date": "2038-07-14",
+      "id": "xy.national-day",
+      "name": {
+        "en": "National Day",
+        "fr": "Fête nationale"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "fixture"
+      ]
+    }
+  ],
+  "sources": {
+    "fixture": {
+      "title": "Test fixture",
+      "url": "https://example.org/fixture",
+      "accessed": "2026-11-15"
+    }
+  }
+}
