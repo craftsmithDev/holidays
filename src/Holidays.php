@@ -7,7 +7,7 @@ namespace craftsmith\holidays;
 use DateTimeInterface;
 
 /**
- * Holidays over a set of compiled country rules (dist/rules/<cc>.json).
+ * Holidays over a set of compiled country rules (src/data/<cc>.json).
  * Method names, arguments and results match the JS class Holidays of
  * @craftsmith/holidays. Results are plain arrays shaped like the JSON files.
  *
@@ -29,11 +29,11 @@ final class Holidays
     private array $cache = [];
 
     /**
-     * @param string|null $rulesDir folder with <cc>.json rule files; default: the bundled dist/rules
+     * @param string|null $rulesDir folder with <cc>.json rule files; default: the bundled src/data
      */
     public function __construct(?string $rulesDir = null)
     {
-        $dir = $rulesDir ?? dirname(__DIR__) . '/dist/rules';
+        $dir = $rulesDir ?? __DIR__ . '/data';
         foreach (glob(rtrim($dir, '/') . '/*.json') ?: [] as $file) {
             $data = json_decode((string)file_get_contents($file), true, 512, JSON_THROW_ON_ERROR);
             $this->rules[$data['code']] = $data;
@@ -60,7 +60,7 @@ final class Holidays
     }
 
     /**
-     * The full year document (identical to dist/json/<cc>/<year>.json).
+     * The full year document (identical to json/<cc>/<year>.json).
      *
      * @return array<string, mixed>
      */

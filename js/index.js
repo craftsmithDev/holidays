@@ -1,5 +1,5 @@
 // @craftsmith/holidays: public holidays with sources, computed from the
-// language-independent rules in data/ (compiled into ./data/).
+// language-independent rules in countries/ (compiled into ./data/).
 
 import { Holidays } from './holidays.js';
 

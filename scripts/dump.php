@@ -1,7 +1,8 @@
 <?php
 
-// Writes the year files and the index with the PHP runtime, in the same
-// layout as dist/json. Used by the cross-runtime check:
+// Writes the year files and the index with the PHP runtime, in the layout
+// of json/. scripts/dump.mjs does the same with the JS runtime; the
+// cross-runtime test (tests/php/CrossRuntimeTest.php) compares both.
 //   php scripts/dump.php <out-dir> [rules-dir] [from] [to]
 
 declare(strict_types=1);
@@ -16,7 +17,7 @@ if ($out === null) {
     fwrite(STDERR, "usage: php scripts/dump.php <out-dir> [rules-dir] [from] [to]\n");
     exit(2);
 }
-$rulesDir = $argv[2] ?? dirname(__DIR__) . '/dist/rules';
+$rulesDir = $argv[2] ?? dirname(__DIR__) . '/src/data';
 $from = (int)($argv[3] ?? 2000);
 $to = (int)($argv[4] ?? 2050);
 

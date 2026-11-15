@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import { join } from 'node:path';
 import { checkSemantics, countryDirs, loadCountry, ROOT, validators } from '../../scripts/lib/data.mjs';
 
-const dirs = [...countryDirs(join(ROOT, 'data')), ...countryDirs(join(ROOT, 'tests/fixtures/data'))];
+const dirs = [...countryDirs(join(ROOT, 'countries')), ...countryDirs(join(ROOT, 'tests/fixtures/data'))];
 
 for (const dir of dirs) {
   test(`valid: ${dir.slice(ROOT.length)}`, () => {
@@ -14,8 +14,8 @@ for (const dir of dirs) {
   });
 }
 
-test('valid: data/_template', () => {
-  assert.deepEqual(loadCountry(join(ROOT, 'data/_template'), { expectCode: false }).errors, []);
+test('valid: countries/_template', () => {
+  assert.deepEqual(loadCountry(join(ROOT, 'countries/_template'), { expectCode: false }).errors, []);
 });
 
 const holiday = (extra = {}) => ({
@@ -25,7 +25,14 @@ const holiday = (extra = {}) => ({
   observances: [{ regions: 'all', type: 'public', sources: ['s'] }],
   ...extra,
 });
-const schemaOk = (h) => validators.holidays({ holidays: [h] });
+const base = {
+  code: 'XX',
+  names: { en: 'X' },
+  languages: ['en'],
+  regions: [],
+  sources: { s: { title: 't', url: 'https://x.org', accessed: '2026-01-01' } },
+};
+const schemaOk = (h) => validators.rules({ ...base, holidays: [h] });
 
 test('schema rejects malformed rules and observances', () => {
   assert.equal(schemaOk(holiday()), true);

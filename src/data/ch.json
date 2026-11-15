@@ -1,0 +1,1440 @@
+{
+  "format": 1,
+  "code": "CH",
+  "names": {
+    "de": "Schweiz",
+    "fr": "Suisse",
+    "it": "Svizzera",
+    "en": "Switzerland"
+  },
+  "languages": [
+    "de",
+    "fr",
+    "it"
+  ],
+  "regions": [
+    {
+      "code": "CH-AG",
+      "names": {
+        "de": "Aargau",
+        "fr": "Argovie",
+        "it": "Argovia",
+        "en": "Aargau"
+      }
+    },
+    {
+      "code": "CH-AI",
+      "names": {
+        "de": "Appenzell Innerrhoden",
+        "fr": "Appenzell Rhodes-Intérieures",
+        "it": "Appenzello Interno",
+        "en": "Appenzell Innerrhoden"
+      }
+    },
+    {
+      "code": "CH-AR",
+      "names": {
+        "de": "Appenzell Ausserrhoden",
+        "fr": "Appenzell Rhodes-Extérieures",
+        "it": "Appenzello Esterno",
+        "en": "Appenzell Ausserrhoden"
+      }
+    },
+    {
+      "code": "CH-BE",
+      "names": {
+        "de": "Bern",
+        "fr": "Berne",
+        "it": "Berna",
+        "en": "Bern"
+      }
+    },
+    {
+      "code": "CH-BL",
+      "names": {
+        "de": "Basel-Landschaft",
+        "fr": "Bâle-Campagne",
+        "it": "Basilea Campagna",
+        "en": "Basel-Landschaft"
+      }
+    },
+    {
+      "code": "CH-BS",
+      "names": {
+        "de": "Basel-Stadt",
+        "fr": "Bâle-Ville",
+        "it": "Basilea Città",
+        "en": "Basel-Stadt"
+      }
+    },
+    {
+      "code": "CH-FR",
+      "names": {
+        "de": "Freiburg",
+        "fr": "Fribourg",
+        "it": "Friburgo",
+        "en": "Fribourg"
+      }
+    },
+    {
+      "code": "CH-GE",
+      "names": {
+        "de": "Genf",
+        "fr": "Genève",
+        "it": "Ginevra",
+        "en": "Geneva"
+      }
+    },
+    {
+      "code": "CH-GL",
+      "names": {
+        "de": "Glarus",
+        "fr": "Glaris",
+        "it": "Glarona",
+        "en": "Glarus"
+      }
+    },
+    {
+      "code": "CH-GR",
+      "names": {
+        "de": "Graubünden",
+        "fr": "Grisons",
+        "it": "Grigioni",
+        "en": "Graubünden"
+      }
+    },
+    {
+      "code": "CH-JU",
+      "names": {
+        "de": "Jura",
+        "fr": "Jura",
+        "it": "Giura",
+        "en": "Jura"
+      }
+    },
+    {
+      "code": "CH-LU",
+      "names": {
+        "de": "Luzern",
+        "fr": "Lucerne",
+        "it": "Lucerna",
+        "en": "Lucerne"
+      }
+    },
+    {
+      "code": "CH-NE",
+      "names": {
+        "de": "Neuenburg",
+        "fr": "Neuchâtel",
+        "it": "Neuchâtel",
+        "en": "Neuchâtel"
+      }
+    },
+    {
+      "code": "CH-NW",
+      "names": {
+        "de": "Nidwalden",
+        "fr": "Nidwald",
+        "it": "Nidvaldo",
+        "en": "Nidwalden"
+      }
+    },
+    {
+      "code": "CH-OW",
+      "names": {
+        "de": "Obwalden",
+        "fr": "Obwald",
+        "it": "Obvaldo",
+        "en": "Obwalden"
+      }
+    },
+    {
+      "code": "CH-SG",
+      "names": {
+        "de": "St. Gallen",
+        "fr": "Saint-Gall",
+        "it": "San Gallo",
+        "en": "St. Gallen"
+      }
+    },
+    {
+      "code": "CH-SH",
+      "names": {
+        "de": "Schaffhausen",
+        "fr": "Schaffhouse",
+        "it": "Sciaffusa",
+        "en": "Schaffhausen"
+      }
+    },
+    {
+      "code": "CH-SO",
+      "names": {
+        "de": "Solothurn",
+        "fr": "Soleure",
+        "it": "Soletta",
+        "en": "Solothurn"
+      }
+    },
+    {
+      "code": "CH-SZ",
+      "names": {
+        "de": "Schwyz",
+        "fr": "Schwytz",
+        "it": "Svitto",
+        "en": "Schwyz"
+      }
+    },
+    {
+      "code": "CH-TG",
+      "names": {
+        "de": "Thurgau",
+        "fr": "Thurgovie",
+        "it": "Turgovia",
+        "en": "Thurgau"
+      }
+    },
+    {
+      "code": "CH-TI",
+      "names": {
+        "de": "Tessin",
+        "fr": "Tessin",
+        "it": "Ticino",
+        "en": "Ticino"
+      }
+    },
+    {
+      "code": "CH-UR",
+      "names": {
+        "de": "Uri",
+        "fr": "Uri",
+        "it": "Uri",
+        "en": "Uri"
+      }
+    },
+    {
+      "code": "CH-VD",
+      "names": {
+        "de": "Waadt",
+        "fr": "Vaud",
+        "it": "Vaud",
+        "en": "Vaud"
+      }
+    },
+    {
+      "code": "CH-VS",
+      "names": {
+        "de": "Wallis",
+        "fr": "Valais",
+        "it": "Vallese",
+        "en": "Valais"
+      }
+    },
+    {
+      "code": "CH-ZG",
+      "names": {
+        "de": "Zug",
+        "fr": "Zoug",
+        "it": "Zugo",
+        "en": "Zug"
+      }
+    },
+    {
+      "code": "CH-ZH",
+      "names": {
+        "de": "Zürich",
+        "fr": "Zurich",
+        "it": "Zurigo",
+        "en": "Zurich"
+      }
+    }
+  ],
+  "sources": {
+    "federal-constitution": {
+      "title": "Bundesverfassung der Schweizerischen Eidgenossenschaft",
+      "publisher": "Swiss Confederation (Fedlex)",
+      "law": "SR 101, Art. 110 para. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_110",
+      "accessed": "2026-11-15"
+    },
+    "seco-art20a": {
+      "title": "Anhang: Feiertage Schweiz (Auszug ArG/ArGV 1–5), Stand am 12.12.2024",
+      "publisher": "State Secretariat for Economic Affairs SECO",
+      "law": "SR 822.11, ArG Art. 20a para. 1",
+      "url": "https://www.seco.admin.ch/dam/de/sd-web/x5LtHPJdNis5/Anhang-Feiertage-Schweiz-Auszug-ArG-ArGV1-5-SECO-SB-2024-DE.pdf",
+      "accessed": "2026-11-15"
+    },
+    "ne-loi-dimanche": {
+      "title": "Loi sur le dimanche et les jours fériés, état au 1er janvier 2010",
+      "publisher": "République et Canton de Neuchâtel",
+      "law": "RSN 941.02, Art. 3",
+      "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/94102.pdf",
+      "accessed": "2026-11-15"
+    },
+    "gl-ruhetagsgesetz": {
+      "title": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), Stand 1. Juli 2019",
+      "publisher": "Kanton Glarus",
+      "law": "GS IX B/21/1, Art. 2",
+      "url": "https://www.lexfind.ch/tol/6801/de",
+      "accessed": "2026-11-15"
+    }
+  },
+  "holidays": [
+    {
+      "id": "ch.new-year",
+      "names": {
+        "en": "New Year’s Day",
+        "de": "Neujahr",
+        "fr": "Nouvel An",
+        "it": "Capodanno"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "public",
+          "substitute": {
+            "when": {
+              "weekday": [
+                "sun"
+              ]
+            },
+            "avoidWeekdays": []
+          },
+          "sources": [
+            "seco-art20a",
+            "ne-loi-dimanche"
+          ],
+          "note": "When 1 January is a Sunday, 2 January is a rest day equal to Sunday (RSN 941.02 Art. 3)."
+        }
+      ]
+    },
+    {
+      "id": "ch.berchtold",
+      "names": {
+        "en": "Berchtold’s Day",
+        "de": "Berchtoldstag",
+        "fr": "Saint-Berthold",
+        "it": "San Bertoldo"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-BE",
+            "CH-TG",
+            "CH-VD"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-GL",
+            "CH-JU",
+            "CH-LU",
+            "CH-OW",
+            "CH-SH",
+            "CH-SO",
+            "CH-ZG",
+            "CH-ZH"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Customary day off; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a",
+            "ne-loi-dimanche"
+          ],
+          "note": "Equal to Sunday only when 1 January is a Sunday; that case is the substitute day of ch.new-year. Otherwise customary."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Aarau, Brugg, Kulm, Lenzburg, Zofingen and Zurzach and in Bergdietikon."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Reformed municipalities."
+        }
+      ]
+    },
+    {
+      "id": "ch.epiphany",
+      "names": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige",
+        "fr": "Épiphanie",
+        "it": "Epifania"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-TI"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-SZ",
+            "CH-UR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        }
+      ]
+    },
+    {
+      "id": "ch.republic-day",
+      "names": {
+        "en": "Republic Day",
+        "de": "Jahrestag der Ausrufung der Republik",
+        "fr": "Instauration de la République",
+        "it": "Anniversario della Repubblica"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 3,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch.saint-joseph",
+      "names": {
+        "en": "Saint Joseph’s Day",
+        "de": "Josefstag",
+        "fr": "Saint-Joseph",
+        "it": "San Giuseppe"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-SZ",
+            "CH-VS"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-NW",
+            "CH-TI",
+            "CH-UR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        }
+      ]
+    },
+    {
+      "id": "ch.good-friday",
+      "names": {
+        "en": "Good Friday",
+        "de": "Karfreitag",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo"
+      },
+      "date": {
+        "type": "easter",
+        "offset": -2
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "except": [
+            "CH-TI",
+            "CH-VS"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch.easter-monday",
+      "names": {
+        "en": "Easter Monday",
+        "de": "Ostermontag",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì dell’Angelo"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 1
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-AI",
+            "CH-AR",
+            "CH-BE",
+            "CH-BL",
+            "CH-BS",
+            "CH-GE",
+            "CH-GL",
+            "CH-GR",
+            "CH-JU",
+            "CH-SG",
+            "CH-SH",
+            "CH-TG",
+            "CH-TI",
+            "CH-VD",
+            "CH-ZH"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-LU",
+            "CH-NE",
+            "CH-NW",
+            "CH-OW",
+            "CH-SO",
+            "CH-SZ",
+            "CH-UR",
+            "CH-ZG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Customary day off; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Aarau, Baden, Brugg, Kulm, Lenzburg and Zofingen, in Bergdietikon and in eight municipalities of the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Reformed municipalities."
+        }
+      ]
+    },
+    {
+      "id": "ch.naefelser-fahrt",
+      "names": {
+        "en": "Näfels Pilgrimage",
+        "de": "Näfelser Fahrt",
+        "fr": "Fête de Näfels",
+        "it": "Pellegrinaggio di Näfels"
+      },
+      "note": "First Thursday of April; one week later when that Thursday falls in Holy Week (2026 → 9 April).",
+      "date": {
+        "type": "nthWeekday",
+        "month": 4,
+        "weekday": "thu",
+        "nth": 1,
+        "adjust": [
+          {
+            "when": {
+              "between": {
+                "from": {
+                  "type": "easter",
+                  "offset": -7
+                },
+                "to": {
+                  "type": "easter",
+                  "offset": -1
+                }
+              }
+            },
+            "offset": 7
+          }
+        ]
+      },
+      "sources": [
+        "gl-ruhetagsgesetz"
+      ],
+      "observances": [
+        {
+          "regions": [
+            "CH-GL"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch.labour-day",
+      "names": {
+        "en": "Labour Day",
+        "de": "Tag der Arbeit",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-BL",
+            "CH-BS",
+            "CH-JU",
+            "CH-NE",
+            "CH-SH",
+            "CH-ZH"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-SO"
+          ],
+          "type": "public",
+          "startTime": "12:00",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Afternoon only, in the whole canton."
+        },
+        {
+          "regions": [
+            "CH-TI"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        }
+      ]
+    },
+    {
+      "id": "ch.ascension",
+      "names": {
+        "en": "Ascension Day",
+        "de": "Auffahrt",
+        "fr": "Ascension",
+        "it": "Ascensione"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 39
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch.whit-monday",
+      "names": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 50
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-AI",
+            "CH-AR",
+            "CH-BE",
+            "CH-BL",
+            "CH-BS",
+            "CH-GE",
+            "CH-GR",
+            "CH-JU",
+            "CH-SG",
+            "CH-SH",
+            "CH-TG",
+            "CH-VD",
+            "CH-ZH"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-LU",
+            "CH-NE",
+            "CH-NW",
+            "CH-OW",
+            "CH-SO",
+            "CH-SZ",
+            "CH-TI",
+            "CH-UR",
+            "CH-ZG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Customary day off; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-GL"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a",
+            "gl-ruhetagsgesetz"
+          ],
+          "note": "The Glarus Ruhetagsgesetz (Art. 2) lists Whit Monday as a public rest day equal to Sunday, but the SECO list does not count it for Glarus (ArG Art. 20a allows at most eight). See sources.md."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Aarau, Baden, Brugg, Kulm, Lenzburg and Zofingen, in Bergdietikon and in eight municipalities of the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Reformed municipalities."
+        }
+      ]
+    },
+    {
+      "id": "ch.corpus-christi",
+      "names": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 60
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-AI",
+            "CH-JU",
+            "CH-LU",
+            "CH-NW",
+            "CH-OW",
+            "CH-SZ",
+            "CH-UR",
+            "CH-VS",
+            "CH-ZG"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-TI"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Baden (except Bergdietikon), Bremgarten, Laufenburg, Muri and Zurzach and in six municipalities of the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-SO"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday in the whole canton except the district Bucheggberg."
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the municipality Le Landeron."
+        }
+      ]
+    },
+    {
+      "id": "ch.jura-independence",
+      "names": {
+        "en": "Jura Independence Day",
+        "de": "Fest der Unabhängigkeit",
+        "fr": "Commémoration du plébiscite jurassien",
+        "it": "Festa dell’indipendenza giurassiana"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 6,
+        "day": 23
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-JU"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a (Jura already equates eight other days)."
+        }
+      ]
+    },
+    {
+      "id": "ch.peter-and-paul",
+      "names": {
+        "en": "Saints Peter and Paul",
+        "de": "Peter und Paul",
+        "fr": "Saint-Pierre et Saint-Paul",
+        "it": "Santi Pietro e Paolo"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 6,
+        "day": 29
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-TI"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        }
+      ]
+    },
+    {
+      "id": "ch.national-day",
+      "names": {
+        "en": "Swiss National Day",
+        "de": "Bundesfeier",
+        "fr": "Fête nationale",
+        "it": "Festa nazionale"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 8,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "federal-constitution",
+            "seco-art20a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch.assumption",
+      "names": {
+        "en": "Assumption Day",
+        "de": "Mariä Himmelfahrt",
+        "fr": "Assomption",
+        "it": "Assunzione"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-LU",
+            "CH-NW",
+            "CH-OW",
+            "CH-SZ",
+            "CH-TI",
+            "CH-UR",
+            "CH-VS",
+            "CH-ZG"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-AI",
+            "CH-JU"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Bremgarten, Laufenburg and Muri and in six municipalities of the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-SO"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday in the whole canton except the district Bucheggberg."
+        }
+      ]
+    },
+    {
+      "id": "ch.jeune-genevois",
+      "names": {
+        "en": "Genevan Fast",
+        "de": "Genfer Bettag",
+        "fr": "Jeûne genevois",
+        "it": "Digiuno ginevrino"
+      },
+      "note": "Thursday after the first Sunday of September.",
+      "date": {
+        "type": "nthWeekday",
+        "month": 9,
+        "weekday": "sun",
+        "nth": 1,
+        "offset": 4
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-GE"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch.federal-fast-monday",
+      "names": {
+        "en": "Federal Fast Monday",
+        "de": "Bettagsmontag",
+        "fr": "Lundi du Jeûne fédéral",
+        "it": "Lunedì del Digiuno federale"
+      },
+      "note": "Monday after the third Sunday of September (the Federal Day of Thanksgiving, Repentance and Prayer).",
+      "date": {
+        "type": "nthWeekday",
+        "month": 9,
+        "weekday": "sun",
+        "nth": 3,
+        "offset": 1
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-VD"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch.saint-maurice",
+      "names": {
+        "en": "Saint Maurice’s Day",
+        "de": "Mauritiustag",
+        "fr": "Saint-Maurice",
+        "it": "San Maurizio"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 9,
+        "day": 22
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-AI"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        }
+      ]
+    },
+    {
+      "id": "ch.bruder-klaus",
+      "names": {
+        "en": "Saint Nicholas of Flüe",
+        "de": "Bruder Klaus",
+        "fr": "Saint-Nicolas-de-Flüe",
+        "it": "San Nicolao della Flüe"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 9,
+        "day": 25
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-OW"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        }
+      ]
+    },
+    {
+      "id": "ch.all-saints",
+      "names": {
+        "en": "All Saints’ Day",
+        "de": "Allerheiligen",
+        "fr": "Toussaint",
+        "it": "Ognissanti"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-GL",
+            "CH-LU",
+            "CH-NW",
+            "CH-OW",
+            "CH-SG",
+            "CH-SZ",
+            "CH-TI",
+            "CH-UR",
+            "CH-VS",
+            "CH-ZG"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-AI",
+            "CH-JU"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Bremgarten, Laufenburg, Muri and Zurzach and in the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-SO"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday in the whole canton except the district Bucheggberg."
+        }
+      ]
+    },
+    {
+      "id": "ch.immaculate-conception",
+      "names": {
+        "en": "Immaculate Conception",
+        "de": "Mariä Empfängnis",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-NW",
+            "CH-OW",
+            "CH-UR",
+            "CH-VS",
+            "CH-ZG"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-AI",
+            "CH-LU",
+            "CH-SZ",
+            "CH-TI"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Cantonal holiday; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Catholic municipalities."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Laufenburg and Muri and in six municipalities of the district Rheinfelden."
+        }
+      ]
+    },
+    {
+      "id": "ch.christmas",
+      "names": {
+        "en": "Christmas Day",
+        "de": "Weihnachten",
+        "fr": "Noël",
+        "it": "Natale"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-NE"
+          ],
+          "type": "public",
+          "substitute": {
+            "when": {
+              "weekday": [
+                "sun"
+              ]
+            },
+            "avoidWeekdays": []
+          },
+          "sources": [
+            "seco-art20a",
+            "ne-loi-dimanche"
+          ],
+          "note": "When 25 December is a Sunday, 26 December is a rest day equal to Sunday (RSN 941.02 Art. 3)."
+        }
+      ]
+    },
+    {
+      "id": "ch.saint-stephen",
+      "names": {
+        "en": "Saint Stephen’s Day",
+        "de": "Stephanstag",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-BE",
+            "CH-BL",
+            "CH-BS",
+            "CH-GL",
+            "CH-GR",
+            "CH-LU",
+            "CH-SG",
+            "CH-SH",
+            "CH-TG",
+            "CH-TI",
+            "CH-ZH"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        },
+        {
+          "regions": [
+            "CH-AI",
+            "CH-AR"
+          ],
+          "type": "public",
+          "adjust": [
+            {
+              "when": {
+                "weekday": [
+                  "tue",
+                  "sat"
+                ]
+              },
+              "skip": true
+            }
+          ],
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Not observed when Christmas falls on a Monday or Friday, i.e. when it would make three rest days in a row (AR, AI)."
+        },
+        {
+          "regions": [
+            "CH-NW",
+            "CH-OW",
+            "CH-SO",
+            "CH-SZ",
+            "CH-UR",
+            "CH-ZG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Customary day off; not equal to Sunday under ArG Art. 20a."
+        },
+        {
+          "regions": [
+            "CH-AG"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in the districts Aarau, Baden, Bremgarten, Brugg, Kulm, Lenzburg, Zofingen and Zurzach, in Bergdietikon and in eight municipalities of the district Rheinfelden."
+        },
+        {
+          "regions": [
+            "CH-FR"
+          ],
+          "type": "observance",
+          "sources": [
+            "seco-art20a"
+          ],
+          "note": "Equal to Sunday only in predominantly Reformed municipalities."
+        }
+      ]
+    },
+    {
+      "id": "ch.restoration",
+      "names": {
+        "en": "Restoration of the Republic",
+        "de": "Wiederherstellung der Republik",
+        "fr": "Restauration de la République",
+        "it": "Restaurazione della Repubblica"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      },
+      "observances": [
+        {
+          "regions": [
+            "CH-GE"
+          ],
+          "type": "public",
+          "sources": [
+            "seco-art20a"
+          ]
+        }
+      ]
+    }
+  ]
+}

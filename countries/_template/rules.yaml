@@ -1,0 +1,63 @@
+# Country template. Copy this folder to countries/<cc>/ (lower-case ISO
+# 3166-1 alpha-2 code), then replace every value. Field reference:
+# docs/format.md. Checklist and source rules: CONTRIBUTING.md.
+
+# ISO 3166-1 alpha-2, upper case. Must match the folder name.
+code: XX
+
+# Country name in English and in every language of `languages`.
+names: {en: Exampleland, de: Beispielland}
+
+# Local languages (BCP 47), most used first. Every holiday needs a name in
+# each of them plus English.
+languages: [de]
+
+# First-level subdivisions with their full ISO 3166-2 code. Use [] when the
+# holidays never differ by region.
+regions:
+  - {code: XX-AA, names: {en: Region A, de: Region A}}
+  - {code: XX-BB, names: {en: Region B, de: Region B}}
+
+# Source catalogue. Each holiday observance cites one or more ids from here.
+# Prefer the law itself or an official government page. Every entry must be
+# cited at least once.
+sources:
+  holiday-act:
+    title: Official title of the act or page, in its own language
+    publisher: Ministry or authority
+    law: Official citation, e.g. Act No. 12/2020, s. 3
+    url: https://example.org/official-page
+    accessed: "2026-11-15"   # quoted: YYYY-MM-DD, the day you read it
+
+# Holidays. One entry per holiday; the order of entries is the order of
+# same-day holidays in the output.
+
+holidays:
+  # A nationwide public holiday on a fixed date.
+  - id: xx.new-year                      # <cc>.<slug>, never change once published
+    names: {en: New Year’s Day, de: Neujahr}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - regions: all
+        type: public                     # public | bank | observance
+        sources: [holiday-act]
+
+  # An Easter-based holiday that one region does not observe.
+  - id: xx.good-friday
+    names: {en: Good Friday, de: Karfreitag}
+    date: {type: easter, offset: -2}
+    observances:
+      - regions: all
+        except: [XX-BB]
+        type: public
+        sources: [holiday-act]
+
+  # A regional half day.
+  - id: xx.christmas-eve
+    names: {en: Christmas Eve, de: Heiligabend}
+    date: {type: fixed, month: 12, day: 24}
+    observances:
+      - regions: [XX-AA]
+        type: public
+        startTime: "12:00"
+        sources: [holiday-act]

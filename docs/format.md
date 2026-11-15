@@ -1,32 +1,33 @@
 # Data format
 
-This is the reference for the rule files in `data/<cc>/`. Both runtimes (PHP and JS) implement exactly what this page says, and `tests/fixtures/expectations.json` checks it in both. If this page and the code disagree, the code has a bug.
+This is the reference for the rule files `countries/<cc>/rules.yaml`. Both runtimes (PHP and JS) implement exactly what this page says, and `tests/fixtures/expectations.json` checks it in both. If this page and the code disagree, the code has a bug.
 
 Format version: **1**. Additive changes (a new optional field, a new rule type, a new region) keep version 1. Removing or renaming a field, or changing what an existing field means, would need version 2.
 
 ## Files
 
 ```
-data/
+countries/
   <cc>/                 lower-case ISO 3166-1 alpha-2 code, e.g. ch
-    country.yaml        country, languages, regions, source catalogue
-    holidays.yaml       the holidays
+    rules.yaml          country, languages, regions, source catalogue, holidays
+    sources.md          the sources explained, the verification, the comparison with external data
   _template/            copy this to start a country (ignored by the build)
 schema/
-  country.schema.json   validates country.yaml
-  holidays.schema.json  validates holidays.yaml
-  year.schema.json      describes dist/json/<cc>/<year>.json
-  index.schema.json     describes dist/json/index.json
+  rules.schema.json     validates rules.yaml
+  year.schema.json      describes json/<cc>/<year>.json
+  index.schema.json     describes json/index.json
 ```
 
 `npm run build` validates every file and writes:
 
 | Output | Contents | Used by |
 |---|---|---|
-| `dist/rules/<cc>.json` | country.yaml and holidays.yaml merged, unchanged otherwise | PHP runtime |
+| `src/data/<cc>.json` | rules.yaml as JSON with the format version, without comments | PHP runtime |
 | `js/data/<cc>.js` | the same rules as an ES module | JS runtime |
-| `dist/json/<cc>/<year>.json` | computed holidays, 2000–2050 | anyone, also via jsDelivr |
-| `dist/json/index.json` | countries, regions, year range | anyone |
+| `json/<cc>/<year>.json` | computed holidays, 2025–2036 | anyone, also via jsDelivr |
+| `json/index.json` | countries, regions, year range | anyone |
+
+The runtimes compute any year from the rules; the year files are a convenience for a short window (the previous year to ten years ahead).
 
 ### YAML dialect
 
@@ -38,7 +39,9 @@ The build parses YAML with the JSON schema of js-yaml. In practice:
 - Duplicate keys are an error.
 - Times must be quoted: `startTime: "12:00"`.
 
-## country.yaml
+## rules.yaml: country
+
+The first part of the file describes the country.
 
 ```yaml
 code: CH                                   # ISO 3166-1 alpha-2, upper case, equals the folder name
@@ -73,7 +76,9 @@ A source:
 | `publisher` | no | Authority or organisation. |
 | `law` | no | Legal citation, e.g. `SR 822.11, ArG Art. 20a para. 1`, `Banking and Financial Dealings Act 1971, Sch. 1`. |
 
-## holidays.yaml
+## rules.yaml: holidays
+
+The second part lists the holidays.
 
 ```yaml
 holidays:
@@ -106,7 +111,7 @@ The order of holidays in the file is the order of same-day holidays in the outpu
 
 | Field | Required | Meaning |
 |---|---|---|
-| `regions` | yes | `all` (whole country) or a list of region codes from country.yaml. |
+| `regions` | yes | `all` (whole country) or a list of region codes from `regions`. |
 | `except` | no | Region codes that opt out. Only together with `regions: all`. |
 | `type` | yes | `public`, `bank` or `observance` (below). |
 | `startTime` | no | Partial day: the day off starts at this local time, `"HH:MM"`. Omit for a whole day. |
@@ -126,7 +131,7 @@ The order of holidays in the file is the order of same-day holidays in the outpu
 | `bank` | Banks and financial markets close by law or by the banking calendar, but it is not a general day off. | TARGET2 closing days; a bank-only day |
 | `observance` | Customary or optional, or a rest day under some other law, but not a statutory day off for employees. | Berchtold’s Day in Zurich; Christmas Eve in many countries |
 
-Write down your country’s line between `public` and `observance` at the top of `country.yaml` (see `data/ch/country.yaml`), so that the next person classifies new days the same way. Mark partial days with `startTime` and keep the type: an afternoon off by law is `public` with `startTime: "12:00"`.
+Write down your country’s line between `public` and `observance` at the top of `rules.yaml` (see `countries/ch/rules.yaml`), so that the next person classifies new days the same way. Mark partial days with `startTime` and keep the type: an afternoon off by law is `public` with `startTime: "12:00"`.
 
 #### Which observance applies
 
@@ -339,7 +344,7 @@ Each autonomous community chooses some days each year, and moves Sunday holidays
 
 ## Output: year files
 
-`dist/json/<cc>/<year>.json`, schema `schema/year.schema.json`. Both runtimes return this exact document from `year()`, byte for byte when encoded.
+`json/<cc>/<year>.json`, schema `schema/year.schema.json`. Both runtimes return this exact document from `year()`, byte for byte when encoded.
 
 ```json
 {
@@ -366,7 +371,7 @@ Each autonomous community chooses some days each year, and moves Sunday holidays
 How entries are built:
 
 1. The runtime computes each region separately (a country without regions is computed once).
-2. Entries with the same date, id, type, `startTime` and `substituteFor` are merged; `regions` lists where they apply, in the order of country.yaml.
+2. Entries with the same date, id, type, `startTime` and `substituteFor` are merged; `regions` lists where they apply, in the order of `regions`.
 3. `nationwide` is true when an entry applies in every region (or the country has no regions); `regions` is then `[]`.
 4. `sources` is the union of the holiday’s and the observances’ sources, in catalogue order. The top-level `sources` holds the cited entries.
 5. Sorted by date, then file order, then originals before substitutes, then type (`public`, `bank`, `observance`).
@@ -378,6 +383,6 @@ To get the holidays of one region from a year file, keep the entries where `nati
 ## Reserved for later (no breaking change needed)
 
 - Municipal level. An optional `parent` field on regions, and region codes below ISO 3166-2 (e.g. `CH-ZH-261` with the Swiss municipality number). Observances could then list municipalities. Today the schema rejects `parent`, so nobody uses it by accident.
-- School holidays. Separate files (`data/<cc>/school.yaml`) with date ranges and their own schema and output folder. They will not change the holiday files.
+- School holidays. Separate files (`countries/<cc>/school.yaml`) with date ranges and their own schema and output folder. They will not change the holiday files.
 - More rule types or conditions. New `type` values and new `when` keys are additive.
 - `endTime` for a partial day that ends early. Not needed so far.

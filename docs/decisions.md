@@ -4,11 +4,11 @@ Modelling questions without one obvious answer, how this library answers them, a
 
 ## D1 YAML as the source format, JSON for everything else
 
-The rule files are YAML: contributors write and review them by hand, and YAML allows comments next to a legal nuance. The YAML traps (dates turned into timestamps, `NO` turned into `false`, `08` read as octal) are closed by parsing with the JSON schema of js-yaml, and the JSON Schema rejects anything else. The build converts YAML to JSON once (`dist/rules/<cc>.json`), so neither runtime needs a YAML parser and the PHP package has no dependency at all.
+The rule files are YAML: contributors write and review them by hand, and YAML allows comments next to a legal nuance. The YAML traps (dates turned into timestamps, `NO` turned into `false`, `08` read as octal) are closed by parsing with the JSON schema of js-yaml, and the JSON Schema rejects anything else. The build converts YAML to JSON once (`src/data/<cc>.json`, and `js/data/<cc>.js` for JS), so neither runtime needs a YAML parser and the PHP package has no dependency at all.
 
 ## D2 The runtimes evaluate rules; the year files are a by-product
 
-Both runtimes read the compiled rules and compute any year in the range 1583–9999 (the Gregorian calendar starts in 1583). The precomputed files (2000–2050) are for consumers without a runtime. Shipping only year files would cap the range and double the data in each package.
+Both runtimes read the compiled rules and compute any year in the range 1583–9999 (the Gregorian calendar starts in 1583). The precomputed files (`json/`, 2025–2036: the previous year to ten years ahead) are for consumers without a runtime. Shipping only year files would cap the range and double the data in each package.
 
 ## D3 Integer day numbers, no Date objects
 
@@ -20,7 +20,7 @@ All arithmetic runs on integer day numbers (days since 1970-01-01, proleptic Gre
 
 ## D5 Switzerland: public means equal to Sunday under ArG Art. 20a
 
-Swiss cantons decide their holidays; the Labour Act (Art. 20a) lets each canton equate at most eight of them with Sunday, plus 1 August. The SECO list of these days is the most uniform official source for all 26 cantons, so `public` in CH means: in the SECO list for that canton (or 1 August). Every other cantonal holiday is an `observance`, even when cantonal law calls it a rest day (e.g. Whit Monday in Glarus, see verification/ch.md). The note on each observance says which.
+Swiss cantons decide their holidays; the Labour Act (Art. 20a) lets each canton equate at most eight of them with Sunday, plus 1 August. The SECO list of these days is the most uniform official source for all 26 cantons, so `public` in CH means: in the SECO list for that canton (or 1 August). Every other cantonal holiday is an `observance`, even when cantonal law calls it a rest day (e.g. Whit Monday in Glarus, see countries/ch/sources.md). The note on each observance says which.
 
 ## D6 Days equal to Sunday in only part of a canton
 
@@ -60,7 +60,7 @@ The 11 municipalities are the ISO 3166-2:LI subdivisions and are listed, so that
 
 ## D15 Generated files are committed
 
-`dist/`, `js/data/` and the fixture outputs are in git, so that jsDelivr can serve the year files straight from GitHub and the npm and Composer packages need no build step. CI fails when the committed output differs from a fresh build.
+`src/data/`, `js/data/`, `json/` and the compiled test fixtures are in git, so that jsDelivr can serve the year files straight from GitHub and the npm and Composer packages need no build step. Only the years 2025–2036 are committed as year files, to keep the repository small; the cross-runtime test still compares PHP and JS for 2000–2050, in a temporary folder. CI fails when the committed output differs from a fresh build.
 
 ## D-fr-1 France: only the subdivisions with their own holidays are regions
 
@@ -76,7 +76,7 @@ Whit Monday follows the same line. It is still in L3133-1. Since 2004 the unpaid
 
 ## D-fr-3 France: Good Friday in Alsace-Moselle is an observance
 
-L3134-13 makes Good Friday a jour férié only “dans les communes ayant un temple protestant ou une église mixte”. The DREETS guide on local labour law repeats this limit. Following D4 and D6, a day that is statutory only in part of a region is an `observance` at that level, with a note naming where. 26 December is `public` in all three departments. OpenHolidays and date-holidays list Good Friday as a public holiday in the whole of the three departments; see verification/fr.md.
+L3134-13 makes Good Friday a jour férié only “dans les communes ayant un temple protestant ou une église mixte”. The DREETS guide on local labour law repeats this limit. Following D4 and D6, a day that is statutory only in part of a region is an `observance` at that level, with a note naming where. 26 December is `public` in all three departments. OpenHolidays and date-holidays list Good Friday as a public holiday in the whole of the three departments; see countries/fr/sources.md.
 
 ## D-mc-1 Monaco: the Sunday rule adds a day
 
@@ -84,7 +84,7 @@ Loi n° 798 art. 1er: when New Year’s Day, 1 May, Assumption, All Saints, the 
 
 ## D-mc-2 Monaco: Immaculate Conception on a Sunday moves to Monday
 
-The law has no Sunday rule for 8 December. The government page on public holidays (“8th December or 9th if 8th is on Sunday”) and the circular for 2024 (n° 2023-14) move the day; the FEDEM legal note of October 2024 reports the same for 2019 (circular n° 2019-1, not read here) to Monday 9 December, following the liturgical calendar. This is a move (`adjust` with `moveTo`), since the circulars replace the Sunday. Applied to every year 2000–2050; the circulars before 2019 were not checked (open point in verification/mc.md).
+The law has no Sunday rule for 8 December. The government page on public holidays (“8th December or 9th if 8th is on Sunday”) and the circular for 2024 (n° 2023-14) move the day; the FEDEM legal note of October 2024 reports the same for 2019 (circular n° 2019-1, not read here) to Monday 9 December, following the liturgical calendar. This is a move (`adjust` with `moveTo`), since the circulars replace the Sunday. Applied to every year 2000–2050; the circulars before 2019 were not checked (open point in countries/mc/sources.md).
 
 ## D-it-1 Italy: Bolzano and Trento instead of Trentino-Alto Adige
 
@@ -136,7 +136,7 @@ Cap. 252 Art. 6 never moves a holiday that falls on a weekend. Under Act II of 2
 
 ## D-gb-1 United Kingdom: bank holidays are public
 
-The UK has no statutory list of days off; the bank holidays are its public holidays. `public` in GB means a bank holiday in that part of the UK (Banking and Financial Dealings Act 1971 Sch. 1, a Royal Proclamation under its s. 1, or the St Andrew’s Day Bank Holiday (Scotland) Act 2007), plus Christmas Day and Good Friday in England, Wales and Northern Ireland, which are customary holidays there and on the gov.uk list. There is no general statutory right to the day off (gov.uk: “Your employer does not have to give you paid leave on bank or public holidays”); `country.yaml` says so. Typing them `bank` would hide every UK holiday from the default filter (D9), although they are the days the country takes off.
+The UK has no statutory list of days off; the bank holidays are its public holidays. `public` in GB means a bank holiday in that part of the UK (Banking and Financial Dealings Act 1971 Sch. 1, a Royal Proclamation under its s. 1, or the St Andrew’s Day Bank Holiday (Scotland) Act 2007), plus Christmas Day and Good Friday in England, Wales and Northern Ireland, which are customary holidays there and on the gov.uk list. There is no general statutory right to the day off (gov.uk: “Your employer does not have to give you paid leave on bank or public holidays”); `rules.yaml` says so. Typing them `bank` would hide every UK holiday from the default filter (D9), although they are the days the country takes off.
 
 ## D-gb-2 Welsh and Gaelic names are optional in GB
 
@@ -148,7 +148,7 @@ Under the 1971 Act the weekday is the bank holiday and the weekend date is not. 
 
 ## D-ie-1 Ireland: no substitute days
 
-The Organisation of Working Time Act 1997 has no weekend rule. A public holiday on a Saturday or Sunday still gives the s. 21 entitlement (a paid day off within a month, an extra day of annual leave or an extra day’s pay), but “there is no legal entitlement to have the next working day off work” (Workplace Relations Commission). So IE has no `substitute`; the entitlement is described in `country.yaml`. If banks close on the following Monday, that is a `bank` day for later, once an official source exists.
+The Organisation of Working Time Act 1997 has no weekend rule. A public holiday on a Saturday or Sunday still gives the s. 21 entitlement (a paid day off within a month, an extra day of annual leave or an extra day’s pay), but “there is no legal entitlement to have the next working day off work” (Workplace Relations Commission). So IE has no `substitute`; the entitlement is described in `rules.yaml`. If banks close on the following Monday, that is a `bank` day for later, once an official source exists.
 
 ## D-bnl-1 Belgium: the ten days are public; communities mapped to regions
 

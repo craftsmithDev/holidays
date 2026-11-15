@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace craftsmith\holidays;
 
 /**
- * Evaluates the compiled rules of one country (dist/rules/<cc>.json) and
- * builds the year document (dist/json/<cc>/<year>.json). Semantics: see
+ * Evaluates the compiled rules of one country (src/data/<cc>.json) and
+ * builds the year document (json/<cc>/<year>.json). Semantics: see
  * docs/format.md. Mirrors js/engine.js.
  */
 final class Engine

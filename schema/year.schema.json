@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://cdn.jsdelivr.net/gh/craftsmithDev/holidays@main/schema/year.schema.json",
-  "title": "Year file (dist/json/<cc>/<year>.json)",
+  "title": "Year file (json/<cc>/<year>.json)",
   "description": "All holidays of one country in one year, computed from the rules. Both runtimes return exactly this document from year().",
   "type": "object",
   "additionalProperties": false,

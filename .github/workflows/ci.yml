@@ -31,24 +31,19 @@ jobs:
           npm ci
           composer install --no-interaction --no-progress
 
-      - name: Build (validates data/ against schema/ and the semantic checks)
+      - name: Build (validates countries/ against schema/ and the semantic checks)
         run: npm run build
 
       - name: Build output is committed
         run: |
-          changes="$(git status --porcelain -- dist js/data tests/fixtures/rules tests/fixtures/json)"
+          changes="$(git status --porcelain -- src/data js/data json tests/fixtures/rules)"
           if [ -n "$changes" ]; then echo "Run npm run build and commit:"; echo "$changes"; exit 1; fi
 
-      - name: JS tests (schema, rules, golden, dist)
+      - name: JS tests (schema, rules, golden, committed output)
         run: npm test
 
       - name: Type declarations
         run: npm run test:types
 
-      - name: PHP tests (rules, golden, cross-runtime)
+      - name: PHP tests (rules, golden, cross-runtime PHP vs JS 2000–2050)
         run: vendor/bin/phpunit
-
-      - name: Cross-runtime check (PHP writes every year file, must equal the JS build)
-        run: |
-          php scripts/dump.php "$RUNNER_TEMP/php-json"
-          diff -r dist/json "$RUNNER_TEMP/php-json"

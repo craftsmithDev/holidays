@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://cdn.jsdelivr.net/gh/craftsmithDev/holidays@main/schema/index.schema.json",
-  "title": "Index file (dist/json/index.json)",
+  "title": "Index file (json/index.json)",
   "description": "Countries and regions covered, and the range of precomputed year files.",
   "type": "object",
   "additionalProperties": false,

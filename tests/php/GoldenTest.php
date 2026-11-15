@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Golden test: CH 2026–2030 equals the visibility reference dataset, apart
- * from the documented deviations (docs/verification/ch.md).
+ * from the documented deviations (countries/ch/sources.md).
  */
 final class GoldenTest extends TestCase
 {

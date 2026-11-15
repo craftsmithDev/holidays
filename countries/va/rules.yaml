@@ -1,0 +1,257 @@
+# Vatican City State. No subdivisions.
+#
+# Types in this file:
+# - public: a holiday or "giorno di vacanza" of the personnel regulations
+#   of the Holy See and of the Governatorato of the State: Sundays, the
+#   holy days of obligation of canon 1246 §1 CIC, and the ten days listed in
+#   Regolamento Generale della Curia Romana (1999) Art. 50, Regolamento
+#   generale per il personale del Governatorato (2010) Art. 27 and
+#   Regolamento del Personale della Curia Romana (2025) Art. 52. The State
+#   has no general labour act with its own list; these regulations are the
+#   employer rules for nearly everyone who works there (decision D-va-1).
+#
+# Names are in Italian, the language of the State's laws, and English.
+# Latin names are not included (decision D-va-2).
+code: VA
+names: {it: Città del Vaticano, en: Vatican City}
+languages: [it]
+regions: []
+sources:
+  cic-1246:
+    title: Code of Canon Law, Book IV, Part II, Title I (cann. 1244–1253)
+    publisher: The Holy See (vatican.va)
+    law: CIC 1983, can. 1246 §1
+    url: https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann1244-1253_en.html
+    accessed: "2026-11-15"
+  rgcr-1999:
+    title: Regolamento Generale della Curia Romana (1999), testo aggiornato dall’ULSA, Bollettino n. 17
+    publisher: Ufficio del Lavoro della Sede Apostolica (ULSA)
+    law: Regolamento Generale della Curia Romana, approvato il 15 aprile 1999, in vigore dal 1° luglio 1999, Art. 50 (AAS 91 [1999] 629–699)
+    url: https://www.vatican.va/roman_curia/labour_office/docs/documents/ulsa_b17_5_it.html
+    accessed: "2026-11-15"
+  regolamento-governatorato-2010:
+    title: Regolamento generale per il personale del Governatorato dello Stato della Città del Vaticano
+    publisher: Pontificia Commissione per lo Stato della Città del Vaticano (ULSA copy)
+    law: Decreto N. CXXVI del 21 novembre 2010, in vigore dal 1° gennaio 2011, Art. 27
+    url: https://www.ulsa.va/it/pubblicazioni/norme-e-documenti/regolamento_personale_governatorato_scv1.html
+    accessed: "2026-11-15"
+  rpcr-2025:
+    title: Regolamento del Personale della Curia Romana (23 novembre 2025)
+    publisher: The Holy See (vatican.va)
+    law: Approvato ad experimentum per cinque anni, in vigore dal 1° gennaio 2026, Art. 52
+    url: https://www.vatican.va/content/leo-xiv/it/motu_proprio/documents/20251123-regolamento-personale-curia-romana.html
+    accessed: "2026-11-15"
+  orp-regolamento-2000:
+    title: Regolamento dell’Opera Romana Pellegrinaggi, Bollettino ULSA n. 9 (2000)
+    publisher: Ufficio del Lavoro della Sede Apostolica (ULSA)
+    law: Art. 39 (giorni festivi)
+    url: https://www.vatican.va/roman_curia/labour_office/docs/documents/ulsa_b09_8_it.html
+    accessed: "2026-11-15"
+  vaticannews-leo-name-day:
+    title: "Heiliger Robert Bellarmin: Namenspatron des Papstes (17. September 2025)"
+    publisher: Vatican News
+    url: https://www.vaticannews.va/de/vatikan/news/2025-09/heiliger-jesuit-robert-bellarmin-namenspatron-papst-leo-xiv.html
+    accessed: "2026-11-15"
+
+# Vatican City State holidays.
+#
+# Two lists make up the year (sources above):
+# 1. The holy days of obligation of canon 1246 §1: Christmas, Epiphany,
+#    Ascension, Corpus Christi, Mary Mother of God, Immaculate Conception,
+#    Assumption, Saint Joseph, Saints Peter and Paul, All Saints. The
+#    regulations refer to them as "le altre feste di precetto". Canon 1246
+#    §2 lets a bishops' conference move Ascension and Corpus Christi to a
+#    Sunday (Italy does); the data keeps the universal Thursdays, see
+#    sources.md.
+# 2. The ten "giorni di vacanza" of the personnel regulations (RGCR 1999
+#    Art. 50, Governatorato 2010 Art. 27, RPCR 2025 Art. 52, same wording).
+#
+# Sundays are not listed (decision D7), Easter Sunday included.
+#
+# Two days depend on the reigning pope: the anniversary of his election and
+# his name day. Their rules end with each pontificate. The rules for
+# Leo XIV have no end year; when the see falls vacant, end them and add the
+# successor's days. Benedict XVI's name day (Joseph) is 19 March, already
+# Saint Joseph, so it has no entry of its own.
+
+holidays:
+  - id: va.new-year
+    names: {en: "Solemnity of Mary, Mother of God", it: Maria Santissima Madre di Dio}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.epiphany
+    names: {en: Epiphany, it: Epifania del Signore}
+    date: {type: fixed, month: 1, day: 6}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.state-anniversary
+    names: {en: Anniversary of the Foundation of Vatican City State, it: Anniversario dell’istituzione dello Stato della Città del Vaticano}
+    note: >-
+      The regulations name the day but not the date. 11 February is the day
+      the Lateran Treaty was signed (1929); the regulation of the Opera
+      Romana Pellegrinaggi lists the day as "11 febbraio, Anniversario della
+      firma dei Patti Lateranensi". The treaty entered into force on 7 June
+      1929; see sources.md.
+    date: {type: fixed, month: 2, day: 11}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025, orp-regolamento-2000]}
+
+  - id: va.saint-joseph
+    names: {en: Saint Joseph’s Day, it: San Giuseppe}
+    date: {type: fixed, month: 3, day: 19}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.maundy-thursday
+    names: {en: Maundy Thursday, it: Giovedì santo}
+    date: {type: easter, offset: -3}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.good-friday
+    names: {en: Good Friday, it: Venerdì santo}
+    date: {type: easter, offset: -2}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.holy-saturday
+    names: {en: Holy Saturday, it: Sabato santo}
+    date: {type: easter, offset: -1}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.easter-monday
+    names: {en: Easter Monday, it: Lunedì di Pasqua}
+    date: {type: easter, offset: 1}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.easter-tuesday
+    names: {en: Easter Tuesday, it: Martedì di Pasqua}
+    date: {type: easter, offset: 2}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.saint-joseph-the-worker
+    names: {en: Saint Joseph the Worker, it: San Giuseppe artigiano}
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.papal-election-anniversary
+    names: {en: Anniversary of the Election of the Pope, it: Anniversario dell’elezione del Sommo Pontefice}
+    note: >-
+      John Paul II elected 16 October 1978 (died 2 April 2005); Benedict XVI
+      elected 19 April 2005 (resigned 28 February 2013); Francis elected 13
+      March 2013 (died 21 April 2025); Leo XIV elected 8 May 2025. No
+      anniversary in the year of an election.
+    date:
+      - {type: fixed, month: 10, day: 16, from: 1979, to: 2004}
+      - {type: fixed, month: 4, day: 19, from: 2006, to: 2012}
+      - {type: fixed, month: 3, day: 13, from: 2014, to: 2025}
+      - {type: fixed, month: 5, day: 8, from: 2026}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.ascension
+    names: {en: Ascension Day, it: Ascensione del Signore}
+    date: {type: easter, offset: 39}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025, orp-regolamento-2000]}
+
+  - id: va.corpus-christi
+    names: {en: Corpus Christi, it: Santissimo Corpo e Sangue di Cristo}
+    date: {type: easter, offset: 60}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025, orp-regolamento-2000]}
+
+  - id: va.saints-peter-and-paul
+    names: {en: Saints Peter and Paul, it: Santi Apostoli Pietro e Paolo}
+    date: {type: fixed, month: 6, day: 29}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.assumption-eve
+    names: {en: Eve of the Assumption, it: Vigilia dell’Assunzione}
+    date: {type: fixed, month: 8, day: 14}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.assumption
+    names: {en: Assumption Day, it: Assunzione di Maria Santissima}
+    date: {type: fixed, month: 8, day: 15}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.day-after-assumption
+    names: {en: Day after the Assumption, it: Giorno successivo all’Assunzione}
+    date: {type: fixed, month: 8, day: 16}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.papal-name-day
+    names: {en: Name Day of the Pope, it: Onomastico del Sommo Pontefice}
+    note: >-
+      John Paul II (Karol): Saint Charles Borromeo, 4 November. Francis
+      (Jorge): Saint George, 23 April. Leo XIV (Robert): Saint Robert
+      Bellarmine, 17 September, first held on 17 September 2025 (Vatican
+      News). Benedict XVI (Joseph): 19 March, see va.saint-joseph.
+    date:
+      - {type: fixed, month: 11, day: 4, from: 1978, to: 2004}
+      - {type: fixed, month: 4, day: 23, from: 2013, to: 2024}
+      - {type: fixed, month: 9, day: 17, from: 2025}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025, vaticannews-leo-name-day]}
+
+  - id: va.all-saints
+    names: {en: All Saints’ Day, it: Tutti i Santi}
+    date: {type: fixed, month: 11, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.all-souls
+    names: {en: All Souls’ Day, it: Commemorazione di tutti i fedeli defunti}
+    date: {type: fixed, month: 11, day: 2}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.immaculate-conception
+    names: {en: Immaculate Conception, it: Immacolata Concezione}
+    date: {type: fixed, month: 12, day: 8}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.christmas-eve
+    names: {en: Christmas Eve, it: Vigilia di Natale}
+    date: {type: fixed, month: 12, day: 24}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.christmas
+    names: {en: Christmas Day, it: Natale del Signore}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - {regions: all, type: public, sources: [cic-1246, rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.saint-stephen
+    names: {en: Saint Stephen’s Day, it: Santo Stefano}
+    note: The first of "i due giorni successivi al Santo Natale".
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.saint-john
+    names: {en: Saint John the Apostle, it: San Giovanni apostolo ed evangelista}
+    note: The second of "i due giorni successivi al Santo Natale".
+    date: {type: fixed, month: 12, day: 27}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}
+
+  - id: va.new-years-eve
+    names: {en: New Year’s Eve, it: Ultimo giorno dell’anno}
+    date: {type: fixed, month: 12, day: 31}
+    observances:
+      - {regions: all, type: public, sources: [rgcr-1999, regolamento-governatorato-2010, rpcr-2025]}

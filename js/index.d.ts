@@ -4,7 +4,7 @@ export type HolidayType = 'public' | 'bank' | 'observance';
 /** Names keyed by BCP 47 language tag; always has `en`. */
 export type Names = { en: string } & Record<string, string>;
 
-/** One holiday on one date, as in dist/json/<cc>/<year>.json. */
+/** One holiday on one date, as in json/<cc>/<year>.json. */
 export interface Holiday {
   /** YYYY-MM-DD */
   date: string;
@@ -66,7 +66,7 @@ export declare const TYPES: readonly HolidayType[];
 export declare const FORMAT: 1;
 
 export declare class Holidays {
-  /** @param rules compiled rules (dist/rules/<cc>.json) keyed by country code; default: the bundled data */
+  /** @param rules compiled rules (src/data/<cc>.json) keyed by country code; default: the bundled data */
   constructor(rules?: Record<string, unknown>);
   countries(): Country[];
   regions(country: string): Region[];

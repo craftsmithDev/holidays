@@ -1,0 +1,649 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/craftsmithDev/holidays@main/schema/rules.schema.json",
+  "title": "Rule file (countries/<cc>/rules.yaml)",
+  "description": "One country: metadata, its regions (ISO 3166-2), the catalogue of sources, and the holidays with a date rule and one or more observances (where, which type, since when, sources). See docs/format.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "code",
+    "names",
+    "languages",
+    "regions",
+    "sources",
+    "holidays"
+  ],
+  "properties": {
+    "code": {
+      "description": "ISO 3166-1 alpha-2 code, upper case. Must match the folder name (lower case).",
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "names": {
+      "$ref": "#/$defs/names"
+    },
+    "languages": {
+      "description": "The local languages of the country as BCP 47 tags, most used first. Every holiday name must exist in each of them and in English.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/languageTag"
+      }
+    },
+    "regions": {
+      "description": "First-level subdivisions (ISO 3166-2). Empty list for a country whose holidays never differ by region.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "names"
+        ],
+        "properties": {
+          "code": {
+            "description": "Full ISO 3166-2 code, e.g. CH-ZH.",
+            "type": "string",
+            "pattern": "^[A-Z]{2}-[A-Z0-9]{1,3}$"
+          },
+          "names": {
+            "$ref": "#/$defs/names"
+          }
+        }
+      }
+    },
+    "sources": {
+      "description": "Source catalogue. Keys are ids that the holidays cite.",
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "holidays": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/holiday"
+      }
+    }
+  },
+  "$defs": {
+    "year": {
+      "type": "integer",
+      "minimum": 1583,
+      "maximum": 9999
+    },
+    "weekday": {
+      "enum": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ]
+    },
+    "weekdays": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/weekday"
+      }
+    },
+    "regionCode": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}-[A-Z0-9]{1,3}$"
+    },
+    "names": {
+      "description": "Names keyed by BCP 47 language tag. English (en) is required.",
+      "type": "object",
+      "required": [
+        "en"
+      ],
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "sourceRefs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      }
+    },
+    "holiday": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "names",
+        "date",
+        "observances"
+      ],
+      "properties": {
+        "id": {
+          "description": "Stable id: '<cc>.<slug>', lower case, words joined by '-'. Never change it once published.",
+          "type": "string",
+          "pattern": "^[a-z]{2}\\.[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "names": {
+          "$ref": "#/$defs/names"
+        },
+        "date": {
+          "description": "One rule, or a list of rules with non-overlapping from/to when the law changed the date.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/rule"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/rule"
+              }
+            }
+          ]
+        },
+        "from": {
+          "$ref": "#/$defs/year"
+        },
+        "to": {
+          "$ref": "#/$defs/year"
+        },
+        "sources": {
+          "description": "Sources for the date rule itself. Added to the sources of every observance.",
+          "$ref": "#/$defs/sourceRefs"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observances": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/observance"
+          }
+        }
+      }
+    },
+    "observance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "regions",
+        "type",
+        "sources"
+      ],
+      "properties": {
+        "regions": {
+          "description": "'all' (the whole country) or a list of ISO 3166-2 codes.",
+          "oneOf": [
+            {
+              "const": "all"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/$defs/regionCode"
+              }
+            }
+          ]
+        },
+        "except": {
+          "description": "Regions that opt out. Only together with regions: all.",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/regionCode"
+          }
+        },
+        "type": {
+          "description": "public = statutory day off; bank = banks and financial markets closed, no general day off; observance = customary or optional, not a statutory day off.",
+          "enum": [
+            "public",
+            "bank",
+            "observance"
+          ]
+        },
+        "startTime": {
+          "description": "Partial day: the day off starts at this local time (HH:MM). Omit for a whole day.",
+          "type": "string",
+          "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+        },
+        "from": {
+          "$ref": "#/$defs/year"
+        },
+        "to": {
+          "$ref": "#/$defs/year"
+        },
+        "years": {
+          "description": "Only in these years (e.g. set by decree each year).",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/year"
+          }
+        },
+        "date": {
+          "description": "Overrides the holiday's date rule for these regions.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/rule"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/rule"
+              }
+            }
+          ]
+        },
+        "adjust": {
+          "description": "Conditional changes applied after the date rule (and after its own adjust).",
+          "$ref": "#/$defs/adjustList"
+        },
+        "substitute": {
+          "$ref": "#/$defs/substitute"
+        },
+        "sources": {
+          "$ref": "#/$defs/sourceRefs"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "except"
+            ]
+          },
+          "then": {
+            "properties": {
+              "regions": {
+                "const": "all"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "rule": {
+      "description": "A date rule. from/to: years the rule is valid (inclusive). offset: days added after the rule. adjust: conditional changes, applied after offset.",
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "fixed",
+            "easter",
+            "nthWeekday",
+            "relativeWeekday",
+            "list"
+          ]
+        },
+        "from": {
+          "$ref": "#/$defs/year"
+        },
+        "to": {
+          "$ref": "#/$defs/year"
+        },
+        "offset": {
+          "type": "integer",
+          "minimum": -400,
+          "maximum": 400
+        },
+        "adjust": {
+          "$ref": "#/$defs/adjustList"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "fixed"
+              }
+            }
+          },
+          "then": {
+            "additionalProperties": false,
+            "required": [
+              "month",
+              "day"
+            ],
+            "properties": {
+              "type": true,
+              "from": true,
+              "to": true,
+              "offset": true,
+              "adjust": true,
+              "month": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 12
+              },
+              "day": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 31
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "easter"
+              }
+            }
+          },
+          "then": {
+            "additionalProperties": false,
+            "properties": {
+              "type": true,
+              "from": true,
+              "to": true,
+              "offset": true,
+              "adjust": true,
+              "calendar": {
+                "enum": [
+                  "western",
+                  "orthodox"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "nthWeekday"
+              }
+            }
+          },
+          "then": {
+            "additionalProperties": false,
+            "required": [
+              "month",
+              "weekday",
+              "nth"
+            ],
+            "properties": {
+              "type": true,
+              "from": true,
+              "to": true,
+              "offset": true,
+              "adjust": true,
+              "month": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 12
+              },
+              "weekday": {
+                "$ref": "#/$defs/weekday"
+              },
+              "nth": {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  -1,
+                  -2,
+                  -3,
+                  -4,
+                  -5
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "relativeWeekday"
+              }
+            }
+          },
+          "then": {
+            "additionalProperties": false,
+            "required": [
+              "weekday",
+              "direction",
+              "base"
+            ],
+            "properties": {
+              "type": true,
+              "from": true,
+              "to": true,
+              "offset": true,
+              "adjust": true,
+              "weekday": {
+                "$ref": "#/$defs/weekday"
+              },
+              "direction": {
+                "enum": [
+                  "onOrAfter",
+                  "after",
+                  "onOrBefore",
+                  "before"
+                ]
+              },
+              "base": {
+                "$ref": "#/$defs/rule"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "list"
+              }
+            }
+          },
+          "then": {
+            "additionalProperties": false,
+            "required": [
+              "dates"
+            ],
+            "properties": {
+              "type": true,
+              "from": true,
+              "to": true,
+              "dates": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "adjustList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "description": "When the condition holds, apply exactly one action. The first matching entry wins.",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "when"
+        ],
+        "properties": {
+          "when": {
+            "$ref": "#/$defs/condition"
+          },
+          "offset": {
+            "type": "integer",
+            "minimum": -400,
+            "maximum": 400
+          },
+          "skip": {
+            "const": true
+          },
+          "moveTo": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "weekday",
+              "direction"
+            ],
+            "properties": {
+              "weekday": {
+                "$ref": "#/$defs/weekday"
+              },
+              "direction": {
+                "enum": [
+                  "onOrAfter",
+                  "after",
+                  "onOrBefore",
+                  "before"
+                ]
+              }
+            }
+          }
+        },
+        "oneOf": [
+          {
+            "required": [
+              "offset"
+            ]
+          },
+          {
+            "required": [
+              "skip"
+            ]
+          },
+          {
+            "required": [
+              "moveTo"
+            ]
+          }
+        ]
+      }
+    },
+    "condition": {
+      "description": "All given keys must hold.",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "weekday": {
+          "$ref": "#/$defs/weekdays"
+        },
+        "sameDateAs": {
+          "$ref": "#/$defs/rule"
+        },
+        "between": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "from",
+            "to"
+          ],
+          "properties": {
+            "from": {
+              "$ref": "#/$defs/rule"
+            },
+            "to": {
+              "$ref": "#/$defs/rule"
+            }
+          }
+        }
+      }
+    },
+    "substitute": {
+      "description": "When the condition holds on the date, an extra substitute day is added: the first later day whose weekday is not in avoidWeekdays and that is not already a whole-day public holiday (or substitute) in the same region.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "when",
+        "avoidWeekdays"
+      ],
+      "properties": {
+        "when": {
+          "$ref": "#/$defs/condition"
+        },
+        "avoidWeekdays": {
+          "$ref": "#/$defs/weekdays"
+        }
+      }
+    },
+    "languageTag": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url",
+        "accessed"
+      ],
+      "properties": {
+        "title": {
+          "description": "Title of the document or page, in its own language.",
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "description": "Authority or organisation that publishes it.",
+          "type": "string",
+          "minLength": 1
+        },
+        "law": {
+          "description": "Legal citation, e.g. 'SR 822.11, Art. 20a para. 1'.",
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "accessed": {
+          "description": "Date the source was read (YYYY-MM-DD).",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      }
+    }
+  }
+}

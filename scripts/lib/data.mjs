@@ -1,5 +1,5 @@
-// Loads, validates and compiles the rule files of data/<cc>/. Used by the
-// build and by the tests. Any problem is collected and reported; a country
+// Loads, validates and compiles the rule files countries/<cc>/rules.yaml.
+// Used by the build and by the tests. Any problem is collected and reported; a country
 // with problems is never compiled.
 
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
@@ -10,13 +10,15 @@ import { isValidDate } from '../../js/calendar.js';
 import { buildYear, FORMAT } from '../../js/engine.js';
 
 export const ROOT = new URL('../../', import.meta.url).pathname;
+// Every country is computed and checked for these years (build dry run,
+// cross-runtime test). The committed year files cover the shorter range.
 export const YEARS = { from: 2000, to: 2050 };
+export const FILE_YEARS = { from: 2025, to: 2036 };
 
 const ajv = new Ajv({ allErrors: true, strict: true, strictRequired: false });
 const schema = (name) => JSON.parse(readFileSync(join(ROOT, 'schema', `${name}.schema.json`), 'utf8'));
 export const validators = {
-  country: ajv.compile(schema('country')),
-  holidays: ajv.compile(schema('holidays')),
+  rules: ajv.compile(schema('rules')),
   year: ajv.compile(schema('year')),
   index: ajv.compile(schema('index')),
 };
@@ -26,7 +28,7 @@ export function readYaml(file) {
   return yaml.load(readFileSync(file, 'utf8'), { schema: yaml.JSON_SCHEMA, filename: file });
 }
 
-/** Country folders below a data directory (folders starting with _ are skipped). */
+/** Country folders below a directory (folders starting with _ are skipped). */
 export function countryDirs(dataDir) {
   return readdirSync(dataDir, { withFileTypes: true })
     .filter((e) => e.isDirectory() && !e.name.startsWith('_'))
@@ -42,34 +44,26 @@ const schemaErrors = (label, validate) =>
  * there are errors. `expectCode` false skips the folder-name check (template).
  */
 export function loadCountry(dir, { expectCode = true, years = YEARS } = {}) {
-  const errors = [];
   const name = dir.split('/').pop();
-  const files = { country: join(dir, 'country.yaml'), holidays: join(dir, 'holidays.yaml') };
-  const loaded = {};
-  for (const [kind, file] of Object.entries(files)) {
-    if (!existsSync(file)) {
-      errors.push(`${name}: missing ${kind}.yaml`);
-      continue;
-    }
-    try {
-      loaded[kind] = readYaml(file);
-    } catch (e) {
-      errors.push(`${name}/${kind}.yaml: ${e.message}`);
-      continue;
-    }
-    if (!validators[kind](loaded[kind])) errors.push(...schemaErrors(`${name}/${kind}.yaml`, validators[kind]));
+  const file = join(dir, 'rules.yaml');
+  if (!existsSync(file)) return { rules: null, errors: [`${name}: missing rules.yaml`] };
+  let data;
+  try {
+    data = readYaml(file);
+  } catch (e) {
+    return { rules: null, errors: [`${name}/rules.yaml: ${e.message}`] };
   }
-  if (errors.length > 0) return { rules: null, errors };
+  if (!validators.rules(data)) return { rules: null, errors: schemaErrors(`${name}/rules.yaml`, validators.rules) };
 
-  const country = loaded.country;
+  const errors = [];
   const rules = {
     format: FORMAT,
-    code: country.code,
-    names: country.names,
-    languages: country.languages,
-    regions: country.regions,
-    sources: country.sources,
-    holidays: loaded.holidays.holidays,
+    code: data.code,
+    names: data.names,
+    languages: data.languages,
+    regions: data.regions,
+    sources: data.sources,
+    holidays: data.holidays,
   };
   errors.push(...checkSemantics(rules, name, expectCode));
   if (errors.length === 0) {
@@ -108,7 +102,7 @@ export function checkSemantics(rules, folder, expectCode = true) {
   const errors = [];
   const at = (where, message) => errors.push(`${folder}: ${where}: ${message}`);
   const cc = rules.code.toLowerCase();
-  if (expectCode && folder !== cc) at('country.yaml', `code ${rules.code} does not match the folder name "${folder}"`);
+  if (expectCode && folder !== cc) at('code', `code ${rules.code} does not match the folder name "${folder}"`);
 
   const regionCodes = new Set();
   for (const region of rules.regions) {
@@ -160,10 +154,10 @@ export function checkSemantics(rules, folder, expectCode = true) {
     });
   }
   for (const id of usedSources) {
-    if (rules.sources[id] === undefined) at('sources', `"${id}" is cited but not in country.yaml`);
+    if (rules.sources[id] === undefined) at('sources', `"${id}" is cited but not in the source catalogue`);
   }
   for (const id of Object.keys(rules.sources)) {
-    if (!usedSources.has(id)) at('sources', `"${id}" is in country.yaml but never cited`);
+    if (!usedSources.has(id)) at('sources', `"${id}" is in the source catalogue but never cited`);
   }
   return errors;
 }

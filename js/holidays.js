@@ -6,7 +6,7 @@ const DEFAULT_TYPES = ['public'];
 const SEARCH_YEARS = 10;
 
 /**
- * Holidays over a set of compiled country rules (dist/rules/<cc>.json).
+ * Holidays over a set of compiled country rules (src/data/<cc>.json).
  * Method names, arguments and results match the PHP class
  * craftsmith\holidays\Holidays.
  */
@@ -30,7 +30,7 @@ export class Holidays {
     return this.#country(this.#rules(country)).regions;
   }
 
-  /** The full year document (identical to dist/json/<cc>/<year>.json). */
+  /** The full year document (identical to json/<cc>/<year>.json). */
   year(country, year) {
     const rules = this.#rules(country);
     const key = `${rules.code}|${year}`;

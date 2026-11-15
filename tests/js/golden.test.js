@@ -1,5 +1,5 @@
 // Golden test: CH 2026–2030 equals the visibility reference dataset, apart
-// from the documented deviations (docs/verification/ch.md).
+// from the documented deviations (countries/ch/sources.md).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { Holidays, TYPES } from '../../js/index.js';

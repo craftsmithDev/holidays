@@ -1,0 +1,26 @@
+# Test fixture: a country without regions.
+code: XY
+names: {en: Plainland, fr: Pays plat}
+languages: [fr]
+regions: []
+sources:
+  fixture:
+    title: Test fixture
+    url: https://example.org/fixture
+    accessed: "2026-11-15"
+
+holidays:
+  - id: xy.national-day
+    names: {en: National Day, fr: Fête nationale}
+    date: {type: fixed, month: 7, day: 14}
+    observances:
+      - regions: all
+        type: public
+        sources: [fixture]
+  - id: xy.leap-day
+    names: {en: Leap Day, fr: Jour bissextile}
+    date: {type: fixed, month: 2, day: 29}
+    observances:
+      - regions: all
+        type: observance
+        sources: [fixture]

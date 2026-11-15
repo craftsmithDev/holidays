@@ -2,9 +2,9 @@
 
 # Not needed in the Composer package (the GitHub archive).
 /.github export-ignore
-/dist/json export-ignore
 /docs export-ignore
 /js export-ignore
+/json export-ignore
 /scripts export-ignore
 /tests export-ignore
 /package.json export-ignore
@@ -13,7 +13,7 @@
 /tsconfig.json export-ignore
 
 # Generated files: collapse them in diffs.
-/dist/** linguist-generated=true
+/src/data/** linguist-generated=true
 /js/data/** linguist-generated=true
+/json/** linguist-generated=true
 /tests/fixtures/rules/** linguist-generated=true
-/tests/fixtures/json/** linguist-generated=true

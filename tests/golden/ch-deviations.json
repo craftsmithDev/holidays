@@ -1,5 +1,5 @@
 {
-  "about": "Dates where this library deliberately differs from the visibility reference (tests/golden/ch-2026-2030.json). Each entry gives the region, the holiday, whether the library adds or removes the dates, and the section of docs/verification/ch.md with the source. The golden tests in both runtimes fail on any difference not listed here.",
+  "about": "Dates where this library deliberately differs from the visibility reference (tests/golden/ch-2026-2030.json). Each entry gives the region, the holiday, whether the library adds or removes the dates, and the section of countries/ch/sources.md with the source. The golden tests in both runtimes fail on any difference not listed here.",
   "deviations": [
     {
       "region": "CH-AI",

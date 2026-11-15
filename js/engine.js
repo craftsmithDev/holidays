@@ -1,5 +1,5 @@
-// Evaluates the compiled rules of one country (dist/rules/<cc>.json) and builds
-// the year document (dist/json/<cc>/<year>.json). The semantics are specified
+// Evaluates the compiled rules of one country (src/data/<cc>.json) and builds
+// the year document (json/<cc>/<year>.json). The semantics are specified
 // in docs/format.md; the PHP runtime (src/Engine.php) mirrors this file.
 
 import {

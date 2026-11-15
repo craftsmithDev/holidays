@@ -1,0 +1,224 @@
+# Belgium. Regions: the three regions of ISO 3166-2:BE (first level). The
+# provinces (second level) are not listed; no holiday differs by province.
+#
+# Types in this file:
+# - public: one of the ten days of the Holidays Act (Wet van 4 januari 1974,
+#   Art. 4) as fixed by the Royal Decree of 18 April 1974 (Art. 1): a day on
+#   which employees may not be made to work and are paid.
+# - observance: a day off only for the federal public service (Royal Decree
+#   of 19 November 1998, Art. 14), and the days of the three communities,
+#   which are not general days off (decision D-bnl-1).
+#
+# Communities are not ISO 3166-2 subdivisions. Their days are mapped to the
+# regions where the community has competence (decision D-bnl-1):
+# Flemish Community -> BE-VLG, BE-BRU; French Community -> BE-WAL, BE-BRU;
+# German-speaking Community -> BE-WAL (only its nine municipalities in the
+# province of Liège, named in the note).
+code: BE
+names: {nl: België, fr: Belgique, de: Belgien, en: Belgium}
+languages: [nl, fr, de]
+regions:
+  - {code: BE-BRU, names: {nl: Brussels Hoofdstedelijk Gewest, fr: Région de Bruxelles-Capitale, de: Region Brüssel-Hauptstadt, en: Brussels-Capital Region}}
+  - {code: BE-VLG, names: {nl: Vlaams Gewest, fr: Région flamande, de: Flämische Region, en: Flemish Region}}
+  - {code: BE-WAL, names: {nl: Waals Gewest, fr: Région wallonne, de: Wallonische Region, en: Walloon Region}}
+sources:
+  be-wet-feestdagen:
+    title: 4 JANVIER 1974. - Loi relative aux jours fériés (Justel, version consolidée)
+    publisher: SPF Justice, Moniteur belge (ejustice)
+    law: Loi du 4 janvier 1974 relative aux jours fériés, Art. 4, 6–9
+    url: https://www.ejustice.just.fgov.be/eli/loi/1974/01/04/1974010407/justel
+    accessed: "2026-11-15"
+  be-ar-feestdagen:
+    title: 18 AVRIL 1974. - Arrêté royal déterminant les modalités générales d'exécution de la loi du 4 janvier 1974 relative aux jours fériés (Justel, version consolidée)
+    publisher: SPF Justice, Moniteur belge (ejustice)
+    law: AR du 18 avril 1974, Art. 1 (modifié pour 2008 par AR du 10 février 2008, Art. 1)
+    url: https://www.ejustice.just.fgov.be/eli/arrete/1974/04/18/1974041801/justel
+    accessed: "2026-11-15"
+  be-spf-emploi:
+    title: Jours fériés
+    publisher: SPF Emploi, Travail et Concertation sociale
+    url: https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries
+    accessed: "2026-11-15"
+  be-ar-conges-etat:
+    title: 19 NOVEMBRE 1998. - Arrêté royal relatif aux congés et aux absences accordés aux membres du personnel des administrations de l'Etat (Justel, version consolidée)
+    publisher: SPF Justice, Moniteur belge (ejustice)
+    law: AR du 19 novembre 1998, Art. 14
+    url: https://www.ejustice.just.fgov.be/eli/arrete/1998/11/19/1998002123/justel
+    accessed: "2026-11-15"
+  be-decreet-vlaamse-gemeenschap:
+    title: 7 NOVEMBER 1990. - Decreet houdende vaststelling van het wapen, de vlag, het volkslied en de feestdag van de Vlaamse Gemeenschap (Justel)
+    publisher: SPF Justice, Moniteur belge (ejustice)
+    law: Decreet van 7 november 1990, Art. 6
+    url: https://www.ejustice.just.fgov.be/eli/decreet/1990/11/07/1990030433/justel
+    accessed: "2026-11-15"
+  be-decret-communaute-francaise:
+    title: 3 JUILLET 1991. - Décret déterminant le jour de fête et les emblèmes propres à la Communauté française de Belgique (Moniteur belge du 15 novembre 1991, p. 25658)
+    publisher: SPF Justice, Moniteur belge (ejustice)
+    law: Décret du 3 juillet 1991, Art. 1er
+    url: https://www.ejustice.just.fgov.be/eli/decret/1991/07/03/1991029619/moniteur
+    accessed: "2026-11-15"
+  be-dekret-deutschsprachige-gemeinschaft:
+    title: 1. OKTOBER 1990. - Dekret betreffend die Einführung des Festtages, des Wappens und der Fahne der Deutschsprachigen Gemeinschaft (Belgisches Staatsblatt vom 15. November 1990, S. 21587)
+    publisher: SPF Justice, Moniteur belge (ejustice)
+    law: Dekret vom 1. Oktober 1990, Art. 1
+    url: https://www.ejustice.just.fgov.be/eli/decret/1990/10/01/1990030370/moniteur
+    accessed: "2026-11-15"
+
+# Belgium holidays.
+#
+# public: the ten days of the Royal Decree of 18 April 1974, Art. 1 (source
+# be-ar-feestdagen), under the Holidays Act of 4 January 1974.
+#
+# Sunday and usual non-working days (Holidays Act Art. 6–9): when one of the
+# ten days falls on a Sunday or on a day the company does not usually work,
+# each employee gets a replacement day on a usual working day. The joint
+# committee, the works council, the union delegation or the employee sets
+# it; failing that, it is the first usual working day of the company after
+# the holiday (Art. 9). The date depends on the company and its working
+# days, so no substitute is modelled. Federal civil servants instead get the
+# days from 27 to 31 December (Royal Decree of 19 November 1998, Art. 14
+# para. 2); not modelled either.
+#
+# observance: the extra days off of the federal public service (Royal Decree
+# of 19 November 1998, Art. 14 para. 1: 2 November, 15 November, 26
+# December) and the community days. The Holidays Act does not apply to the
+# public sector (Art. 1), and none of these days is one of the ten.
+
+holidays:
+  - id: be.new-year
+    names: {en: New Year’s Day, nl: Nieuwjaar, fr: Nouvel An, de: Neujahr}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.easter-monday
+    names: {en: Easter Monday, nl: Paasmaandag, fr: Lundi de Pâques, de: Ostermontag}
+    date: {type: easter, offset: 1}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.labour-day
+    names: {en: Labour Day, nl: Feest van de Arbeid, fr: Fête du travail, de: Tag der Arbeit}
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.ascension
+    names: {en: Ascension Day, nl: Hemelvaartsdag, fr: Ascension, de: Christi Himmelfahrt}
+    date: {type: easter, offset: 39}
+    note: >-
+      In 2008 Ascension fell on 1 May. The Royal Decree of 10 February 2008
+      replaced Ascension by 2 May for that year only (AR 1974 Art. 1, note in
+      the consolidated text).
+    observances:
+      - {regions: all, type: public, to: 2007, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+      - regions: all
+        type: public
+        years: [2008]
+        date: {type: list, dates: ["2008-05-02"]}
+        sources: [be-ar-feestdagen]
+        note: Replaces Ascension, which coincided with Labour Day (AR of 10 February 2008, Art. 1).
+      - {regions: all, type: public, from: 2009, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.whit-monday
+    names: {en: Whit Monday, nl: Pinkstermaandag, fr: Lundi de Pentecôte, de: Pfingstmontag}
+    date: {type: easter, offset: 50}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.flemish-community-day
+    names: {en: Day of the Flemish Community, nl: Feestdag van de Vlaamse Gemeenschap, fr: Fête de la Communauté flamande, de: Festtag der Flämischen Gemeinschaft}
+    date: {type: fixed, month: 7, day: 11}
+    observances:
+      - regions: [BE-VLG, BE-BRU]
+        type: observance
+        sources: [be-decreet-vlaamse-gemeenschap]
+        note: >-
+          Day of the Flemish Community (decree of 7 November 1990, Art. 6). Not
+          one of the ten statutory days; a day off only where a collective
+          agreement or the employer grants it. In Brussels it concerns the
+          Flemish institutions.
+
+  - id: be.national-day
+    names: {en: Belgian National Day, nl: Nationale feestdag, fr: Fête nationale, de: Nationalfeiertag}
+    date: {type: fixed, month: 7, day: 21}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.assumption
+    names: {en: Assumption Day, nl: Tenhemelopneming, fr: Assomption, de: Mariä Himmelfahrt}
+    date: {type: fixed, month: 8, day: 15}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.french-community-day
+    names: {en: Day of the French Community, nl: Feestdag van de Franse Gemeenschap, fr: Fête de la Communauté française, de: Festtag der Französischen Gemeinschaft}
+    date: {type: fixed, month: 9, day: 27}
+    observances:
+      - regions: [BE-WAL, BE-BRU]
+        type: observance
+        sources: [be-decret-communaute-francaise]
+        note: >-
+          Day of the French Community (decree of 3 July 1991, Art. 1). Not one
+          of the ten statutory days; a day off only where a collective agreement
+          or the employer grants it. In Wallonia not in the nine municipalities
+          of the German-speaking Community; in Brussels it concerns the French
+          institutions.
+
+  - id: be.all-saints
+    names: {en: All Saints’ Day, nl: Allerheiligen, fr: Toussaint, de: Allerheiligen}
+    date: {type: fixed, month: 11, day: 1}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.all-souls
+    names: {en: All Souls’ Day, nl: Allerzielen, fr: Jour des morts, de: Allerseelen}
+    date: {type: fixed, month: 11, day: 2}
+    observances:
+      - regions: all
+        type: observance
+        sources: [be-ar-conges-etat]
+        note: Day off for the staff of the federal administration (AR of 19 November 1998, Art. 14); not one of the ten statutory days.
+
+  - id: be.armistice
+    names: {en: Armistice Day, nl: Wapenstilstand, fr: Armistice, de: Waffenstillstand}
+    date: {type: fixed, month: 11, day: 11}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.kings-feast
+    names: {en: King’s Feast, nl: Koningsdag, fr: Fête du Roi, de: Festtag des Königs}
+    date: {type: fixed, month: 11, day: 15}
+    observances:
+      - regions: all
+        type: observance
+        sources: [be-ar-conges-etat]
+        note: Day off for the staff of the federal administration (AR of 19 November 1998, Art. 14); not one of the ten statutory days.
+
+  - id: be.german-speaking-community-day
+    names: {en: Day of the German-speaking Community, nl: Feestdag van de Duitstalige Gemeenschap, fr: Fête de la Communauté germanophone, de: Tag der Deutschsprachigen Gemeinschaft}
+    date: {type: fixed, month: 11, day: 15}
+    observances:
+      - regions: [BE-WAL]
+        type: observance
+        sources: [be-dekret-deutschsprachige-gemeinschaft]
+        note: >-
+          Festtag of the German-speaking Community (decree of 1 October 1990,
+          Art. 1). Only in its nine municipalities (Amel, Büllingen,
+          Burg-Reuland, Bütgenbach, Eupen, Kelmis, Lontzen, Raeren, Sankt Vith);
+          not one of the ten statutory days.
+
+  - id: be.christmas
+    names: {en: Christmas Day, nl: Kerstmis, fr: Noël, de: Weihnachten}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - {regions: all, type: public, sources: [be-wet-feestdagen, be-ar-feestdagen, be-spf-emploi]}
+
+  - id: be.saint-stephen
+    names: {en: Second Day of Christmas, nl: Tweede Kerstdag, fr: Second jour de Noël, de: Zweiter Weihnachtstag}
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - regions: all
+        type: observance
+        sources: [be-ar-conges-etat]
+        note: Day off for the staff of the federal administration (AR of 19 November 1998, Art. 14); not one of the ten statutory days.
