@@ -14,6 +14,8 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 |---|---|---|
 | Switzerland (CH) | 26 cantons | `public` = equal to Sunday under the Labour Act (ArG Art. 20a); see [verification](docs/verification/ch.md) |
 | Liechtenstein (LI) | 11 municipalities | `public` = Labour Act Art. 18; see [verification](docs/verification/li.md) |
+| Germany (DE) | 16 Länder | `public` = gesetzlicher Feiertag in the whole Land under its Feiertagsgesetz; see [verification](docs/verification/de.md) |
+| Austria (AT) | 9 Bundesländer | `public` = Feiertag under the Arbeitsruhegesetz (ARG § 7); see [verification](docs/verification/at.md) |
 
 More Western European countries follow in the same format.
 
