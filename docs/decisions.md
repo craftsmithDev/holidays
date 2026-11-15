@@ -61,3 +61,19 @@ The 11 municipalities are the ISO 3166-2:LI subdivisions and are listed, so that
 ## D15 Generated files are committed
 
 `dist/`, `js/data/` and the fixture outputs are in git, so that jsDelivr can serve the year files straight from GitHub and the npm and Composer packages need no build step. CI fails when the committed output differs from a fresh build.
+
+## D-gb-1 United Kingdom: bank holidays are public
+
+The UK has no statutory list of days off; the bank holidays are its public holidays. `public` in GB means a bank holiday in that part of the UK (Banking and Financial Dealings Act 1971 Sch. 1, a Royal Proclamation under its s. 1, or the St Andrew’s Day Bank Holiday (Scotland) Act 2007), plus Christmas Day and Good Friday in England, Wales and Northern Ireland, which are customary holidays there and on the gov.uk list. There is no general statutory right to the day off (gov.uk: “Your employer does not have to give you paid leave on bank or public holidays”); `country.yaml` says so. Typing them `bank` would hide every UK holiday from the default filter (D9), although they are the days the country takes off.
+
+## D-gb-2 Welsh and Gaelic names are optional in GB
+
+`languages` lists only `en`. Welsh (`cy`) names are added where gov.uk/gwyliau-banc gives one, which is every day except the Golden Jubilee 2002 and the Royal Wedding 2011. No official Scottish Gaelic (`gd`) name was found, so there are none. Listing `cy` or `gd` in `languages` would make the build demand a name for every day, including days without an official translation. The format allows names in further languages; consumers fall back to `en`.
+
+## D-gb-3 UK substitute days keep the weekend date
+
+Under the 1971 Act the weekday is the bank holiday and the weekend date is not. The data still lists the weekend date and adds the weekday as a substitute (D10), because Christmas Day stays Christmas Day and the format models UK chaining this way. A day the law moves without a weekend (the spring bank holiday 2002, 2012 and 2022, the early May bank holiday 2020) is a changed date rule for that year, not a substitute.
+
+## D-ie-1 Ireland: no substitute days
+
+The Organisation of Working Time Act 1997 has no weekend rule. A public holiday on a Saturday or Sunday still gives the s. 21 entitlement (a paid day off within a month, an extra day of annual leave or an extra day’s pay), but “there is no legal entitlement to have the next working day off work” (Workplace Relations Commission). So IE has no `substitute`; the entitlement is described in `country.yaml`. If banks close on the following Monday, that is a `bank` day for later, once an official source exists.
