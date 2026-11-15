@@ -45,7 +45,27 @@ function ourDates(country, year) {
   return out;
 }
 
+/** OpenHolidays subdivision code (e.g. FR-GE-MO) → ISO 3166-2 code (FR-57), per country. */
+const ohIsoCodes = new Map();
+async function openHolidaysIsoCodes(country) {
+  if (!ohIsoCodes.has(country)) {
+    const response = await fetch(`https://openholidaysapi.org/Subdivisions?countryIsoCode=${country}`, { headers: { accept: 'application/json' } });
+    if (!response.ok) throw new Error(`OpenHolidays subdivisions ${country}: HTTP ${response.status}`);
+    const map = {};
+    const walk = (list) => {
+      for (const s of list ?? []) {
+        if (s.isoCode) map[s.code] = s.isoCode;
+        walk(s.children);
+      }
+    };
+    walk(await response.json());
+    ohIsoCodes.set(country, map);
+  }
+  return ohIsoCodes.get(country);
+}
+
 async function openHolidays(country, year, regions) {
+  const isoCodes = await openHolidaysIsoCodes(country);
   const url = `https://openholidaysapi.org/PublicHolidays?countryIsoCode=${country}&validFrom=${year}-01-01&validTo=${year}-12-31&languageIsoCode=EN`;
   const response = await fetch(url, { headers: { accept: 'application/json' } });
   if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
@@ -61,16 +81,20 @@ async function openHolidays(country, year, regions) {
     }
     const targets = item.nationwide || regions.length === 0
       ? Object.keys(out)
-      : (item.subdivisions ?? []).map((s) => s.code).filter((code) => code in out);
+      : (item.subdivisions ?? []).map((s) => isoCodes[s.code] ?? s.code).filter((code) => code in out);
     for (const region of targets) for (const day of days) out[region][day] = out[region][day] ? `${out[region][day]}; ${label}` : label;
   }
   return out;
 }
 
+// ISO 3166-2 codes that date-holidays knows under another state code.
+const DATE_HOLIDAYS_STATES = { 'FR-971': 'GP', 'FR-972': 'MQ', 'FR-973': 'GF', 'FR-974': 'RE', 'FR-976': 'YT' };
+
 function dateHolidays(country, year, regions) {
   const out = {};
   for (const region of regions.length > 0 ? regions : ['']) {
-    const hd = region ? new DateHolidays(country, region.split('-')[1]) : new DateHolidays(country);
+    const state = DATE_HOLIDAYS_STATES[region] ?? region.split('-')[1];
+    const hd = region ? new DateHolidays(country, state) : new DateHolidays(country);
     out[region] = {};
     for (const h of hd.getHolidays(year) || []) {
       if (h.type === 'school') continue;
