@@ -1,0 +1,253 @@
+# German holidays at Land level.
+#
+# public: listed as a gesetzlicher Feiertag for the whole Land in its
+# Feiertagsgesetz, or declared once for the whole Land by law or ordinance
+# (Reformation Day 2017, Berlin's anniversary days). The Day of German Unity
+# is federal law (Einigungsvertrag Art. 2 para. 2).
+#
+# observance: a gesetzlicher Feiertag in part of a Land only (decision D6):
+# the Augsburg Peace Festival (city of Augsburg), Assumption Day in Bavaria
+# (municipalities with a Catholic majority), Corpus Christi in Saxony and
+# Thuringia (municipalities set by ordinance or by the 1994 status). And
+# Christmas Eve and New Year's Eve, which are working days under every
+# Feiertagsgesetz but off for federal civil servants (AZV § 6).
+#
+# Days that some Länder protect without making them Feiertage (Maundy
+# Thursday, Repentance Day outside Saxony, Reformation Day in Baden-Württemberg
+# as a church holiday) are left out. Easter Sunday and Whit Sunday are left
+# out (D7).
+
+holidays:
+  - id: de.new-year
+    names: {en: New Year’s Day, de: Neujahr}
+    date: {type: fixed, month: 1, day: 1}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.epiphany
+    names: {en: Epiphany, de: Heilige Drei Könige}
+    date: {type: fixed, month: 1, day: 6}
+    observances:
+      - {regions: [DE-BW], type: public, sources: [bw-ftg]}
+      - {regions: [DE-BY], type: public, sources: [by-ftg]}
+      - {regions: [DE-ST], type: public, sources: [st-feiertg]}
+
+  - id: de.womens-day
+    names: {en: International Women’s Day, de: Internationaler Frauentag}
+    date: {type: fixed, month: 3, day: 8}
+    observances:
+      - regions: [DE-BE]
+        type: public
+        from: 2019
+        sources: [be-feiertg]
+        note: In FeiertG BE § 1 since the version of 7 February 2019.
+      - regions: [DE-MV]
+        type: public
+        from: 2023
+        sources: [mv-ftg, mv-gvobl-2022]
+        note: In FTG M-V § 2 since the amendment of 7 July 2022, in force the day after promulgation; first observed on 8 March 2023.
+
+  - id: de.good-friday
+    names: {en: Good Friday, de: Karfreitag}
+    date: {type: easter, offset: -2}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.easter-monday
+    names: {en: Easter Monday, de: Ostermontag}
+    date: {type: easter, offset: 1}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.labour-day
+    names: {en: Labour Day, de: Tag der Arbeit}
+    date: {type: fixed, month: 5, day: 1}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.liberation-day
+    names: {en: Liberation Day, de: Tag der Befreiung}
+    note: One-off holidays in Berlin for the 75th and 80th anniversary of the liberation from National Socialism and the end of the Second World War in Europe.
+    date: {type: list, dates: ["2020-05-08", "2025-05-08"]}
+    observances:
+      - regions: [DE-BE]
+        type: public
+        sources: [be-feiertg]
+        note: FeiertG BE § 1 Abs. 1 Nr. 11 in the versions valid 07.02.2019–08.05.2020 and 21.07.2024–08.05.2025.
+
+  - id: de.ascension
+    names: {en: Ascension Day, de: Christi Himmelfahrt}
+    date: {type: easter, offset: 39}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.whit-monday
+    names: {en: Whit Monday, de: Pfingstmontag}
+    date: {type: easter, offset: 50}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.corpus-christi
+    names: {en: Corpus Christi, de: Fronleichnam}
+    date: {type: easter, offset: 60}
+    observances:
+      - {regions: [DE-BW], type: public, sources: [bw-ftg]}
+      - {regions: [DE-BY], type: public, sources: [by-ftg]}
+      - {regions: [DE-HE], type: public, sources: [he-feiertg]}
+      - {regions: [DE-NW], type: public, sources: [nw-ftg]}
+      - {regions: [DE-RP], type: public, sources: [rp-lftg]}
+      - {regions: [DE-SL], type: public, sources: [sl-sfg]}
+      - regions: [DE-SN]
+        type: observance
+        sources: [sn-saechssfg, sn-fronleichnamsvo]
+        note: Gesetzlicher Feiertag only in the municipalities listed in the FronleichnamsVO (Sorbian Catholic area in today's Landkreis Bautzen).
+      - regions: [DE-TH]
+        type: observance
+        sources: [th-fgtg, th-fgtg-10]
+        note: Gesetzlicher Feiertag only in municipalities with a mainly Catholic population (ThürFGtG § 2 para. 2) and, until an ordinance is issued, in the parts of Thuringia where it was one in 1994 (§ 10 para. 1).
+
+  - id: de.uprising-anniversary
+    names: {en: 75th Anniversary of the Uprising of 17 June 1953, de: 75. Jahrestag des Aufstandes vom 17. Juni 1953}
+    date: {type: list, dates: ["2028-06-17"]}
+    observances:
+      - regions: [DE-BE]
+        type: public
+        sources: [be-feiertg]
+        note: One-off holiday, FeiertG BE § 1 Abs. 1 Nr. 11 (version from 09.05.2025). 17 June 2028 is a Saturday.
+
+  - id: de.augsburg-peace-festival
+    names: {en: Augsburg Peace Festival, de: Augsburger Hohes Friedensfest}
+    date: {type: fixed, month: 8, day: 8}
+    observances:
+      - regions: [DE-BY]
+        type: observance
+        sources: [by-ftg]
+        note: Gesetzlicher Feiertag only in the city of Augsburg (FTG Art. 1 Abs. 2).
+
+  - id: de.assumption
+    names: {en: Assumption Day, de: Mariä Himmelfahrt}
+    date: {type: fixed, month: 8, day: 15}
+    observances:
+      - {regions: [DE-SL], type: public, sources: [sl-sfg]}
+      - regions: [DE-BY]
+        type: observance
+        sources: [by-ftg]
+        note: Gesetzlicher Feiertag only in municipalities with a mainly Catholic population, as determined by the Bavarian statistics office from the last census (FTG Art. 1 Abs. 1 Nr. 2 and Abs. 3); most municipalities.
+
+  - id: de.world-childrens-day
+    names: {en: World Children’s Day, de: Weltkindertag}
+    date: {type: fixed, month: 9, day: 20}
+    observances:
+      - regions: [DE-TH]
+        type: public
+        from: 2019
+        sources: [th-fgtg]
+        note: In ThürFGtG § 2 since the version valid from 27 March 2019.
+
+  - id: de.national-day
+    names: {en: Day of German Unity, de: Tag der Deutschen Einheit}
+    date: {type: fixed, month: 10, day: 3}
+    observances:
+      - {regions: all, type: public, sources: [einigvtr]}
+
+  - id: de.reformation-day
+    names: {en: Reformation Day, de: Reformationstag}
+    date: {type: fixed, month: 10, day: 31}
+    observances:
+      - {regions: [DE-BB], type: public, sources: [bb-ftg]}
+      - {regions: [DE-MV], type: public, sources: [mv-ftg]}
+      - {regions: [DE-SN], type: public, sources: [sn-saechssfg]}
+      - {regions: [DE-ST], type: public, sources: [st-feiertg]}
+      - {regions: [DE-TH], type: public, sources: [th-fgtg]}
+      - regions: [DE-HB]
+        type: public
+        from: 2018
+        sources: [hb-gbl-2018]
+      - regions: [DE-HH]
+        type: public
+        from: 2018
+        sources: [hh-feiertg]
+        note: Added to FeiertG HA § 1 by the law of 12 March 2018 (HmbGVBl. S. 63).
+      - regions: [DE-NI]
+        type: public
+        from: 2018
+        sources: [ni-nfeiertagsg]
+        note: NFeiertagsG § 2 in the version from 29 June 2018.
+      - regions: [DE-SH]
+        type: public
+        from: 2018
+        sources: [sh-sftg]
+        note: Added to SFTG § 2 by the law of 21 March 2018 (GVOBl. S. 69).
+      - {regions: [DE-HB], type: public, years: [2017], sources: [hb-feiertg], note: "One-off day for the 500th anniversary of the Reformation (§ 2 Abs. 1 lit. j, version 2013)."}
+      - {regions: [DE-NI], type: public, years: [2017], sources: [ni-gvbl-2013], note: One-off day for the 500th anniversary of the Reformation.}
+      - {regions: [DE-SH], type: public, years: [2017], sources: [sh-reft2017v], note: One-off day for the 500th anniversary of the Reformation.}
+      - {regions: [DE-BE], type: public, years: [2017], sources: [be-feiertg], note: "One-off day for the 500th anniversary of the Reformation (§ 1 Abs. 1 Nr. 10, version 25.10.2015–31.12.2017)."}
+      - {regions: [DE-BW], type: public, years: [2017], sources: [bw-ftg-1a], note: One-off day for the 500th anniversary of the Reformation.}
+      - {regions: [DE-BY], type: public, years: [2017], sources: [by-gvbl-2016], note: One-off day for the 500th anniversary of the Reformation.}
+      - {regions: [DE-HE], type: public, years: [2017], sources: [he-reft2017v], note: One-off day for the 500th anniversary of the Reformation.}
+      - {regions: [DE-NW], type: public, years: [2017], sources: [nw-gv-2015], note: One-off day for the 500th anniversary of the Reformation.}
+      - {regions: [DE-RP], type: public, years: [2017], sources: [rp-mdi-2015], note: "One-off day for the 500th anniversary of the Reformation, set by Landesverordnung under LFtG § 2 Abs. 2; source is the ministry's announcement."}
+      - {regions: [DE-SL], type: public, years: [2017], sources: [sl-reft2017v], note: One-off day for the 500th anniversary of the Reformation.}
+
+  - id: de.all-saints
+    names: {en: All Saints’ Day, de: Allerheiligen}
+    date: {type: fixed, month: 11, day: 1}
+    observances:
+      - {regions: [DE-BW], type: public, sources: [bw-ftg]}
+      - {regions: [DE-BY], type: public, sources: [by-ftg]}
+      - {regions: [DE-NW], type: public, sources: [nw-ftg]}
+      - {regions: [DE-RP], type: public, sources: [rp-lftg]}
+      - {regions: [DE-SL], type: public, sources: [sl-sfg]}
+
+  - id: de.repentance-day
+    names: {en: Day of Repentance and Prayer, de: Buß- und Bettag}
+    note: The Wednesday before 23 November (the Wednesday before the last Sunday of the church year).
+    date: {type: relativeWeekday, weekday: wed, direction: before, base: {type: fixed, month: 11, day: 23}}
+    observances:
+      - {regions: [DE-SN], type: public, sources: [sn-saechssfg]}
+
+  - id: de.christmas-eve
+    names: {en: Christmas Eve, de: Heiligabend}
+    date: {type: fixed, month: 12, day: 24}
+    observances:
+      - regions: all
+        type: observance
+        sources: [azv, ladschlg]
+        note: Not a Feiertag in any Land. Off for federal civil servants (AZV § 6); shops close at 14:00 (LadSchlG § 3 and the shop-hours laws of the Länder).
+
+  - id: de.christmas
+    names: {en: Christmas Day, de: Erster Weihnachtstag}
+    date: {type: fixed, month: 12, day: 25}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.saint-stephen
+    names: {en: Second Day of Christmas, de: Zweiter Weihnachtstag}
+    date: {type: fixed, month: 12, day: 26}
+    observances:
+      - regions: all
+        type: public
+        sources: [bb-ftg, be-feiertg, bw-ftg, by-ftg, hb-feiertg, he-feiertg, hh-feiertg, mv-ftg, ni-nfeiertagsg, nw-ftg, rp-lftg, sh-sftg, sl-sfg, sn-saechssfg, st-feiertg, th-fgtg]
+
+  - id: de.new-years-eve
+    names: {en: New Year’s Eve, de: Silvester}
+    date: {type: fixed, month: 12, day: 31}
+    observances:
+      - regions: all
+        type: observance
+        sources: [azv]
+        note: Not a Feiertag in any Land. Off for federal civil servants (AZV § 6).

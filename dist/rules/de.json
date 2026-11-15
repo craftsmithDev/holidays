@@ -1,0 +1,1317 @@
+{
+  "format": 1,
+  "code": "DE",
+  "names": {
+    "de": "Deutschland",
+    "en": "Germany"
+  },
+  "languages": [
+    "de"
+  ],
+  "regions": [
+    {
+      "code": "DE-BB",
+      "names": {
+        "de": "Brandenburg",
+        "en": "Brandenburg"
+      }
+    },
+    {
+      "code": "DE-BE",
+      "names": {
+        "de": "Berlin",
+        "en": "Berlin"
+      }
+    },
+    {
+      "code": "DE-BW",
+      "names": {
+        "de": "Baden-Württemberg",
+        "en": "Baden-Württemberg"
+      }
+    },
+    {
+      "code": "DE-BY",
+      "names": {
+        "de": "Bayern",
+        "en": "Bavaria"
+      }
+    },
+    {
+      "code": "DE-HB",
+      "names": {
+        "de": "Bremen",
+        "en": "Bremen"
+      }
+    },
+    {
+      "code": "DE-HE",
+      "names": {
+        "de": "Hessen",
+        "en": "Hesse"
+      }
+    },
+    {
+      "code": "DE-HH",
+      "names": {
+        "de": "Hamburg",
+        "en": "Hamburg"
+      }
+    },
+    {
+      "code": "DE-MV",
+      "names": {
+        "de": "Mecklenburg-Vorpommern",
+        "en": "Mecklenburg-Western Pomerania"
+      }
+    },
+    {
+      "code": "DE-NI",
+      "names": {
+        "de": "Niedersachsen",
+        "en": "Lower Saxony"
+      }
+    },
+    {
+      "code": "DE-NW",
+      "names": {
+        "de": "Nordrhein-Westfalen",
+        "en": "North Rhine-Westphalia"
+      }
+    },
+    {
+      "code": "DE-RP",
+      "names": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rhineland-Palatinate"
+      }
+    },
+    {
+      "code": "DE-SH",
+      "names": {
+        "de": "Schleswig-Holstein",
+        "en": "Schleswig-Holstein"
+      }
+    },
+    {
+      "code": "DE-SL",
+      "names": {
+        "de": "Saarland",
+        "en": "Saarland"
+      }
+    },
+    {
+      "code": "DE-SN",
+      "names": {
+        "de": "Sachsen",
+        "en": "Saxony"
+      }
+    },
+    {
+      "code": "DE-ST",
+      "names": {
+        "de": "Sachsen-Anhalt",
+        "en": "Saxony-Anhalt"
+      }
+    },
+    {
+      "code": "DE-TH",
+      "names": {
+        "de": "Thüringen",
+        "en": "Thuringia"
+      }
+    }
+  ],
+  "sources": {
+    "einigvtr": {
+      "title": "Vertrag zwischen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik über die Herstellung der Einheit Deutschlands (Einigungsvertrag)",
+      "publisher": "Bundesministerium der Justiz (gesetze-im-internet.de)",
+      "law": "Einigungsvertrag Art. 2 Abs. 2",
+      "url": "https://www.gesetze-im-internet.de/einigvtr/art_2.html",
+      "accessed": "2026-11-15"
+    },
+    "azv": {
+      "title": "Verordnung über die Arbeitszeit der Beamtinnen und Beamten des Bundes (Arbeitszeitverordnung - AZV)",
+      "publisher": "Bundesministerium der Justiz (gesetze-im-internet.de)",
+      "law": "AZV § 6 Abs. 1",
+      "url": "https://www.gesetze-im-internet.de/azv/__6.html",
+      "accessed": "2026-11-15"
+    },
+    "ladschlg": {
+      "title": "Gesetz über den Ladenschluß (LadSchlG)",
+      "publisher": "Bundesministerium der Justiz (gesetze-im-internet.de)",
+      "law": "LadSchlG § 3 Satz 1 Nr. 3",
+      "url": "https://www.gesetze-im-internet.de/ladschlg/__3.html",
+      "accessed": "2026-11-15"
+    },
+    "bb-ftg": {
+      "title": "Gesetz über die Sonn- und Feiertage (Feiertagsgesetz - FTG) vom 21. März 1991, zuletzt geändert durch Gesetz vom 30. April 2015",
+      "publisher": "Land Brandenburg (BRAVORS)",
+      "law": "FTG § 2 Abs. 1",
+      "url": "https://bravors.brandenburg.de/gesetze/ftg_2015",
+      "accessed": "2026-11-15"
+    },
+    "be-feiertg": {
+      "title": "Gesetz über die Sonn- und Feiertage vom 28. Oktober 1954, Gesamtausgaben 25.10.2015–31.12.2017, 07.02.2019–08.05.2020, 21.07.2024–08.05.2025 und ab 09.05.2025",
+      "publisher": "Land Berlin (gesetze.berlin.de)",
+      "law": "FeiertG BE § 1 Abs. 1",
+      "url": "https://gesetze.berlin.de/perma?a=FeiertG_BE",
+      "accessed": "2026-11-15"
+    },
+    "bw-ftg": {
+      "title": "Gesetz über die Sonntage und Feiertage (Feiertagsgesetz - FTG) in der Fassung vom 8. Mai 1995",
+      "publisher": "Land Baden-Württemberg (landesrecht-bw.de)",
+      "law": "FTG § 1",
+      "url": "https://www.landesrecht-bw.de/perma?j=FeiertG_BW_!_1",
+      "accessed": "2026-11-15"
+    },
+    "bw-ftg-1a": {
+      "title": "Feiertagsgesetz (FTG) § 1a, gültig vom 29.11.2014 bis 01.11.2017",
+      "publisher": "Land Baden-Württemberg (landesrecht-bw.de)",
+      "law": "FTG § 1a, eingefügt durch Gesetz vom 25. November 2014 (GBl. S. 548)",
+      "url": "https://www.landesrecht-bw.de/perma?j=FeiertG_BW_!_1a",
+      "accessed": "2026-11-15"
+    },
+    "by-ftg": {
+      "title": "Gesetz über den Schutz der Sonn- und Feiertage (Feiertagsgesetz - FTG) vom 21. Mai 1980",
+      "publisher": "Freistaat Bayern (gesetze-bayern.de)",
+      "law": "FTG Art. 1",
+      "url": "https://www.gesetze-bayern.de/Content/Document/BayFTG-1",
+      "accessed": "2026-11-15"
+    },
+    "by-gvbl-2016": {
+      "title": "Gesetz zur Änderung des Feiertagsgesetzes vom 12. April 2016",
+      "publisher": "Freistaat Bayern (Verkündungsplattform Bayern)",
+      "law": "GVBl. 2016 S. 50, FTG Art. 1 Abs. 2a (außer Kraft am 1. November 2017)",
+      "url": "https://www.verkuendung-bayern.de/gvbl/2016-50/",
+      "accessed": "2026-11-15"
+    },
+    "hb-feiertg": {
+      "title": "Gesetz über die Sonn-, Gedenk- und Feiertage vom 12. November 1954 (Gesamtausgabe 04.06.2013–27.07.2015)",
+      "publisher": "Freie Hansestadt Bremen (Transparenzportal)",
+      "law": "FeiertG BR § 2 Abs. 1",
+      "url": "https://www.transparenz.bremen.de/metainformationen/gesetz-ueber-die-sonn-gedenk-und-feiertage-vom-12-november-1954-74780?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d",
+      "accessed": "2026-11-15"
+    },
+    "hb-gbl-2018": {
+      "title": "Gesetz zur Änderung des Gesetzes über die Sonn- und Feiertage vom 26. Juni 2018",
+      "publisher": "Freie Hansestadt Bremen (Gesetzblatt)",
+      "law": "Brem.GBl. 2018 Nr. 63 S. 302, § 2 Abs. 1 lit. j",
+      "url": "https://www.gesetzblatt.bremen.de/fastmedia/218/2018_06_28_GBl_Nr_0063_signed.pdf",
+      "accessed": "2026-11-15"
+    },
+    "he-feiertg": {
+      "title": "Hessisches Feiertagsgesetz (HFeiertagsG) in der Fassung vom 29. Dezember 1971",
+      "publisher": "Land Hessen (rv.hessenrecht.hessen.de)",
+      "law": "HFeiertagsG § 1 Abs. 1",
+      "url": "https://www.rv.hessenrecht.hessen.de/perma?a=FeiertG_HE",
+      "accessed": "2026-11-15"
+    },
+    "he-reft2017v": {
+      "title": "Verordnung zur Bestimmung des Reformationstages 2017 zum gesetzlichen Feiertag vom 16. Oktober 2013",
+      "publisher": "Land Hessen (rv.hessenrecht.hessen.de)",
+      "law": "GVBl. 2013 S. 566",
+      "url": "https://www.rv.hessenrecht.hessen.de/perma?d=jlr-NNLHE000054E9",
+      "accessed": "2026-11-15"
+    },
+    "hh-feiertg": {
+      "title": "Gesetz über Sonntage, Feiertage, Gedenktage und Trauertage (Feiertagsgesetz) vom 16. Oktober 1953",
+      "publisher": "Freie und Hansestadt Hamburg (landesrecht-hamburg.de)",
+      "law": "FeiertG HA § 1, § 1 geändert durch Gesetz vom 12. März 2018 (HmbGVBl. S. 63)",
+      "url": "https://www.landesrecht-hamburg.de/bsha/document/jlr-NNLHH00006CB9",
+      "accessed": "2026-11-15"
+    },
+    "mv-ftg": {
+      "title": "Gesetz über Sonn- und Feiertage (Feiertagsgesetz Mecklenburg-Vorpommern - FTG M-V) in der Fassung vom 8. März 2002",
+      "publisher": "Land Mecklenburg-Vorpommern (landesrecht-mv.de)",
+      "law": "FTG M-V § 2 Abs. 1",
+      "url": "https://www.landesrecht-mv.de/bsmv/document/jlr-NNLMV00007A2F",
+      "accessed": "2026-11-15"
+    },
+    "mv-gvobl-2022": {
+      "title": "Viertes Gesetz zur Änderung des Feiertagsgesetzes Mecklenburg-Vorpommern vom 7. Juli 2022",
+      "publisher": "Land Mecklenburg-Vorpommern (Gesetz- und Verordnungsblatt)",
+      "law": "GVOBl. M-V 2022 Nr. 31 S. 427",
+      "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/53736/gesetz_und_verordnungsblatt_2022_31.pdf",
+      "accessed": "2026-11-15"
+    },
+    "ni-nfeiertagsg": {
+      "title": "Niedersächsisches Gesetz über die Feiertage (NFeiertagsG), § 2 in der Fassung ab 29.06.2018",
+      "publisher": "Land Niedersachsen (NI-VORIS)",
+      "law": "NFeiertagsG § 2 Abs. 1",
+      "url": "https://voris.wolterskluwer-online.de/browse/document/f74bc6e7-6ded-3c2c-9afb-b34620456e56",
+      "accessed": "2026-11-15"
+    },
+    "ni-gvbl-2013": {
+      "title": "Gesetz zur Änderung des Niedersächsischen Gesetzes über die Feiertage vom 5. Juni 2013",
+      "publisher": "Land Niedersachsen (Niedersächsisches Gesetz- und Verordnungsblatt)",
+      "law": "Nds. GVBl. Nr. 8/2013 S. 131",
+      "url": "https://www.niedersachsen.de/download/78453/Nds._GVBl._Nr._8_2013_vom_11.06.2013_S._123-134.pdf",
+      "accessed": "2026-11-15"
+    },
+    "nw-ftg": {
+      "title": "Gesetz über die Sonn- und Feiertage (Feiertagsgesetz NW) in der Fassung vom 23. April 1989",
+      "publisher": "Land Nordrhein-Westfalen (recht.nrw.de)",
+      "law": "FTG NW § 2 Abs. 1",
+      "url": "https://recht.nrw.de/lrgv/gesetz/01012000-bekanntmachung-der-neufassung-des-gesetzes-ueber-die-sonn-und-feiertage/",
+      "accessed": "2026-11-15"
+    },
+    "nw-gv-2015": {
+      "title": "Gesetz über die Bestimmung des 31. Oktober 2017 als 500. Jahrestag der Reformation zum Feiertag in Nordrhein-Westfalen vom 25. Juni 2015",
+      "publisher": "Land Nordrhein-Westfalen (recht.nrw.de)",
+      "law": "GV. NRW. 2015 S. 496",
+      "url": "https://recht.nrw.de/gvnrw/2015-s496",
+      "accessed": "2026-11-15"
+    },
+    "rp-lftg": {
+      "title": "Landesgesetz über den Schutz der Sonn- und Feiertage (Feiertagsgesetz - LFtG) vom 15. Juli 1970",
+      "publisher": "Land Rheinland-Pfalz (landesrecht.rlp.de)",
+      "law": "LFtG § 2 Abs. 1",
+      "url": "https://landesrecht.rlp.de/bsrp/document/jlr-NNLRP00006125",
+      "accessed": "2026-11-15"
+    },
+    "rp-mdi-2015": {
+      "title": "Dreyer/Lewentz: 31. Oktober 2017 einmalig ein Feiertag (Pressemitteilung vom 17.11.2015)",
+      "publisher": "Ministerium des Innern und für Sport Rheinland-Pfalz",
+      "law": "Landesverordnung zur Bestimmung des Reformationstages 2017 zum einmaligen gesetzlichen Feiertag (LFtG § 2 Abs. 2)",
+      "url": "https://mdi.rlp.de/service/pressemitteilungen/detail/dreyer-lewentz-31-oktober-2017-einmalig-ein-feiertag",
+      "accessed": "2026-11-15"
+    },
+    "sh-sftg": {
+      "title": "Gesetz über Sonn- und Feiertage (SFTG) vom 28. Juni 2004",
+      "publisher": "Land Schleswig-Holstein (gesetze-rechtsprechung.sh.juris.de)",
+      "law": "SFTG § 2 Abs. 1, geändert durch Gesetz vom 21. März 2018 (GVOBl. S. 69)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/bssh/document/jlr-NNLSH00003261",
+      "accessed": "2026-11-15"
+    },
+    "sh-reft2017v": {
+      "title": "Landesverordnung über den Reformationstag 2017 vom 24. November 2014",
+      "publisher": "Land Schleswig-Holstein (gesetze-rechtsprechung.sh.juris.de)",
+      "law": "GVOBl. 2014 S. 380",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/perma?d=jlr-NNLSH00003042",
+      "accessed": "2026-11-15"
+    },
+    "sl-sfg": {
+      "title": "Gesetz Nr. 1040 über die Sonn- und Feiertage (Feiertagsgesetz - SFG) vom 18. Februar 1976",
+      "publisher": "Saarland (recht.saarland.de)",
+      "law": "SFG § 2 Abs. 1",
+      "url": "https://recht.saarland.de/perma?a=FeiertG_SL",
+      "accessed": "2026-11-15"
+    },
+    "sl-reft2017v": {
+      "title": "Verordnung zur Erklärung des 500. Reformationsjubiläums am 31. Oktober 2017 zum Feiertag vom 18. Juni 2014",
+      "publisher": "Saarland (recht.saarland.de)",
+      "law": "Amtsbl. I 2014 S. 283",
+      "url": "https://recht.saarland.de/bssl/document/jlr-NNLSL0000A896",
+      "accessed": "2026-11-15"
+    },
+    "sn-saechssfg": {
+      "title": "Gesetz über Sonn- und Feiertage im Freistaat Sachsen (SächsSFG) vom 10. November 1992",
+      "publisher": "Freistaat Sachsen (REVOSax)",
+      "law": "SächsSFG § 1 Abs. 1",
+      "url": "https://revosax.sachsen.de/vorschrift/3997",
+      "accessed": "2026-11-15"
+    },
+    "sn-fronleichnamsvo": {
+      "title": "Verordnung des Sächsischen Staatsministeriums des Innern über den regionalen Feiertag Fronleichnam (FronleichnamsVO) vom 4. Mai 1993",
+      "publisher": "Freistaat Sachsen (REVOSax)",
+      "law": "FronleichnamsVO § 1 und Anlage",
+      "url": "https://revosax.sachsen.de/vorschrift/4142",
+      "accessed": "2026-11-15"
+    },
+    "st-feiertg": {
+      "title": "Gesetz über die Sonn- und Feiertage (FeiertG LSA) in der Fassung vom 25. August 2004",
+      "publisher": "Land Sachsen-Anhalt (landesrecht.sachsen-anhalt.de)",
+      "law": "FeiertG LSA § 2",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/perma?a=FeiertG_ST",
+      "accessed": "2026-11-15"
+    },
+    "th-fgtg": {
+      "title": "Thüringer Feier- und Gedenktagsgesetz (ThürFGtG), § 2 in der Fassung ab 27.03.2019",
+      "publisher": "Freistaat Thüringen (landesrecht.thueringen.de)",
+      "law": "ThürFGtG § 2",
+      "url": "https://landesrecht.thueringen.de/perma?d=jlr-NNLTH00003E03NN00000000006",
+      "accessed": "2026-11-15"
+    },
+    "th-fgtg-10": {
+      "title": "Thüringer Feier- und Gedenktagsgesetz (ThürFGtG), § 10 Übergangsbestimmungen",
+      "publisher": "Freistaat Thüringen (landesrecht.thueringen.de)",
+      "law": "ThürFGtG § 10 Abs. 1",
+      "url": "https://landesrecht.thueringen.de/bsth/document/jlr-NNLTH00003E03NN00000000021",
+      "accessed": "2026-11-15"
+    }
+  },
+  "holidays": [
+    {
+      "id": "de.new-year",
+      "names": {
+        "en": "New Year’s Day",
+        "de": "Neujahr"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.epiphany",
+      "names": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BW"
+          ],
+          "type": "public",
+          "sources": [
+            "bw-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-BY"
+          ],
+          "type": "public",
+          "sources": [
+            "by-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-ST"
+          ],
+          "type": "public",
+          "sources": [
+            "st-feiertg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.womens-day",
+      "names": {
+        "en": "International Women’s Day",
+        "de": "Internationaler Frauentag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BE"
+          ],
+          "type": "public",
+          "from": 2019,
+          "sources": [
+            "be-feiertg"
+          ],
+          "note": "In FeiertG BE § 1 since the version of 7 February 2019."
+        },
+        {
+          "regions": [
+            "DE-MV"
+          ],
+          "type": "public",
+          "from": 2023,
+          "sources": [
+            "mv-ftg",
+            "mv-gvobl-2022"
+          ],
+          "note": "In FTG M-V § 2 since the amendment of 7 July 2022, in force the day after promulgation; first observed on 8 March 2023."
+        }
+      ]
+    },
+    {
+      "id": "de.good-friday",
+      "names": {
+        "en": "Good Friday",
+        "de": "Karfreitag"
+      },
+      "date": {
+        "type": "easter",
+        "offset": -2
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.easter-monday",
+      "names": {
+        "en": "Easter Monday",
+        "de": "Ostermontag"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.labour-day",
+      "names": {
+        "en": "Labour Day",
+        "de": "Tag der Arbeit"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.liberation-day",
+      "names": {
+        "en": "Liberation Day",
+        "de": "Tag der Befreiung"
+      },
+      "note": "One-off holidays in Berlin for the 75th and 80th anniversary of the liberation from National Socialism and the end of the Second World War in Europe.",
+      "date": {
+        "type": "list",
+        "dates": [
+          "2020-05-08",
+          "2025-05-08"
+        ]
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BE"
+          ],
+          "type": "public",
+          "sources": [
+            "be-feiertg"
+          ],
+          "note": "FeiertG BE § 1 Abs. 1 Nr. 11 in the versions valid 07.02.2019–08.05.2020 and 21.07.2024–08.05.2025."
+        }
+      ]
+    },
+    {
+      "id": "de.ascension",
+      "names": {
+        "en": "Ascension Day",
+        "de": "Christi Himmelfahrt"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 39
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.whit-monday",
+      "names": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 50
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.corpus-christi",
+      "names": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam"
+      },
+      "date": {
+        "type": "easter",
+        "offset": 60
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BW"
+          ],
+          "type": "public",
+          "sources": [
+            "bw-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-BY"
+          ],
+          "type": "public",
+          "sources": [
+            "by-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-HE"
+          ],
+          "type": "public",
+          "sources": [
+            "he-feiertg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-NW"
+          ],
+          "type": "public",
+          "sources": [
+            "nw-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-RP"
+          ],
+          "type": "public",
+          "sources": [
+            "rp-lftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-SL"
+          ],
+          "type": "public",
+          "sources": [
+            "sl-sfg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-SN"
+          ],
+          "type": "observance",
+          "sources": [
+            "sn-saechssfg",
+            "sn-fronleichnamsvo"
+          ],
+          "note": "Gesetzlicher Feiertag only in the municipalities listed in the FronleichnamsVO (Sorbian Catholic area in today's Landkreis Bautzen)."
+        },
+        {
+          "regions": [
+            "DE-TH"
+          ],
+          "type": "observance",
+          "sources": [
+            "th-fgtg",
+            "th-fgtg-10"
+          ],
+          "note": "Gesetzlicher Feiertag only in municipalities with a mainly Catholic population (ThürFGtG § 2 para. 2) and, until an ordinance is issued, in the parts of Thuringia where it was one in 1994 (§ 10 para. 1)."
+        }
+      ]
+    },
+    {
+      "id": "de.uprising-anniversary",
+      "names": {
+        "en": "75th Anniversary of the Uprising of 17 June 1953",
+        "de": "75. Jahrestag des Aufstandes vom 17. Juni 1953"
+      },
+      "date": {
+        "type": "list",
+        "dates": [
+          "2028-06-17"
+        ]
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BE"
+          ],
+          "type": "public",
+          "sources": [
+            "be-feiertg"
+          ],
+          "note": "One-off holiday, FeiertG BE § 1 Abs. 1 Nr. 11 (version from 09.05.2025). 17 June 2028 is a Saturday."
+        }
+      ]
+    },
+    {
+      "id": "de.augsburg-peace-festival",
+      "names": {
+        "en": "Augsburg Peace Festival",
+        "de": "Augsburger Hohes Friedensfest"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 8,
+        "day": 8
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BY"
+          ],
+          "type": "observance",
+          "sources": [
+            "by-ftg"
+          ],
+          "note": "Gesetzlicher Feiertag only in the city of Augsburg (FTG Art. 1 Abs. 2)."
+        }
+      ]
+    },
+    {
+      "id": "de.assumption",
+      "names": {
+        "en": "Assumption Day",
+        "de": "Mariä Himmelfahrt"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-SL"
+          ],
+          "type": "public",
+          "sources": [
+            "sl-sfg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-BY"
+          ],
+          "type": "observance",
+          "sources": [
+            "by-ftg"
+          ],
+          "note": "Gesetzlicher Feiertag only in municipalities with a mainly Catholic population, as determined by the Bavarian statistics office from the last census (FTG Art. 1 Abs. 1 Nr. 2 and Abs. 3); most municipalities."
+        }
+      ]
+    },
+    {
+      "id": "de.world-childrens-day",
+      "names": {
+        "en": "World Children’s Day",
+        "de": "Weltkindertag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 9,
+        "day": 20
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-TH"
+          ],
+          "type": "public",
+          "from": 2019,
+          "sources": [
+            "th-fgtg"
+          ],
+          "note": "In ThürFGtG § 2 since the version valid from 27 March 2019."
+        }
+      ]
+    },
+    {
+      "id": "de.national-day",
+      "names": {
+        "en": "Day of German Unity",
+        "de": "Tag der Deutschen Einheit"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 10,
+        "day": 3
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "einigvtr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.reformation-day",
+      "names": {
+        "en": "Reformation Day",
+        "de": "Reformationstag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 10,
+        "day": 31
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BB"
+          ],
+          "type": "public",
+          "sources": [
+            "bb-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-MV"
+          ],
+          "type": "public",
+          "sources": [
+            "mv-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-SN"
+          ],
+          "type": "public",
+          "sources": [
+            "sn-saechssfg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-ST"
+          ],
+          "type": "public",
+          "sources": [
+            "st-feiertg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-TH"
+          ],
+          "type": "public",
+          "sources": [
+            "th-fgtg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-HB"
+          ],
+          "type": "public",
+          "from": 2018,
+          "sources": [
+            "hb-gbl-2018"
+          ]
+        },
+        {
+          "regions": [
+            "DE-HH"
+          ],
+          "type": "public",
+          "from": 2018,
+          "sources": [
+            "hh-feiertg"
+          ],
+          "note": "Added to FeiertG HA § 1 by the law of 12 March 2018 (HmbGVBl. S. 63)."
+        },
+        {
+          "regions": [
+            "DE-NI"
+          ],
+          "type": "public",
+          "from": 2018,
+          "sources": [
+            "ni-nfeiertagsg"
+          ],
+          "note": "NFeiertagsG § 2 in the version from 29 June 2018."
+        },
+        {
+          "regions": [
+            "DE-SH"
+          ],
+          "type": "public",
+          "from": 2018,
+          "sources": [
+            "sh-sftg"
+          ],
+          "note": "Added to SFTG § 2 by the law of 21 March 2018 (GVOBl. S. 69)."
+        },
+        {
+          "regions": [
+            "DE-HB"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "hb-feiertg"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation (§ 2 Abs. 1 lit. j, version 2013)."
+        },
+        {
+          "regions": [
+            "DE-NI"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "ni-gvbl-2013"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation."
+        },
+        {
+          "regions": [
+            "DE-SH"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "sh-reft2017v"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation."
+        },
+        {
+          "regions": [
+            "DE-BE"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "be-feiertg"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation (§ 1 Abs. 1 Nr. 10, version 25.10.2015–31.12.2017)."
+        },
+        {
+          "regions": [
+            "DE-BW"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "bw-ftg-1a"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation."
+        },
+        {
+          "regions": [
+            "DE-BY"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "by-gvbl-2016"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation."
+        },
+        {
+          "regions": [
+            "DE-HE"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "he-reft2017v"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation."
+        },
+        {
+          "regions": [
+            "DE-NW"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "nw-gv-2015"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation."
+        },
+        {
+          "regions": [
+            "DE-RP"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "rp-mdi-2015"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation, set by Landesverordnung under LFtG § 2 Abs. 2; source is the ministry's announcement."
+        },
+        {
+          "regions": [
+            "DE-SL"
+          ],
+          "type": "public",
+          "years": [
+            2017
+          ],
+          "sources": [
+            "sl-reft2017v"
+          ],
+          "note": "One-off day for the 500th anniversary of the Reformation."
+        }
+      ]
+    },
+    {
+      "id": "de.all-saints",
+      "names": {
+        "en": "All Saints’ Day",
+        "de": "Allerheiligen"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-BW"
+          ],
+          "type": "public",
+          "sources": [
+            "bw-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-BY"
+          ],
+          "type": "public",
+          "sources": [
+            "by-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-NW"
+          ],
+          "type": "public",
+          "sources": [
+            "nw-ftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-RP"
+          ],
+          "type": "public",
+          "sources": [
+            "rp-lftg"
+          ]
+        },
+        {
+          "regions": [
+            "DE-SL"
+          ],
+          "type": "public",
+          "sources": [
+            "sl-sfg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.repentance-day",
+      "names": {
+        "en": "Day of Repentance and Prayer",
+        "de": "Buß- und Bettag"
+      },
+      "note": "The Wednesday before 23 November (the Wednesday before the last Sunday of the church year).",
+      "date": {
+        "type": "relativeWeekday",
+        "weekday": "wed",
+        "direction": "before",
+        "base": {
+          "type": "fixed",
+          "month": 11,
+          "day": 23
+        }
+      },
+      "observances": [
+        {
+          "regions": [
+            "DE-SN"
+          ],
+          "type": "public",
+          "sources": [
+            "sn-saechssfg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.christmas-eve",
+      "names": {
+        "en": "Christmas Eve",
+        "de": "Heiligabend"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "azv",
+            "ladschlg"
+          ],
+          "note": "Not a Feiertag in any Land. Off for federal civil servants (AZV § 6); shops close at 14:00 (LadSchlG § 3 and the shop-hours laws of the Länder)."
+        }
+      ]
+    },
+    {
+      "id": "de.christmas",
+      "names": {
+        "en": "Christmas Day",
+        "de": "Erster Weihnachtstag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.saint-stephen",
+      "names": {
+        "en": "Second Day of Christmas",
+        "de": "Zweiter Weihnachtstag"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "public",
+          "sources": [
+            "bb-ftg",
+            "be-feiertg",
+            "bw-ftg",
+            "by-ftg",
+            "hb-feiertg",
+            "he-feiertg",
+            "hh-feiertg",
+            "mv-ftg",
+            "ni-nfeiertagsg",
+            "nw-ftg",
+            "rp-lftg",
+            "sh-sftg",
+            "sl-sfg",
+            "sn-saechssfg",
+            "st-feiertg",
+            "th-fgtg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de.new-years-eve",
+      "names": {
+        "en": "New Year’s Eve",
+        "de": "Silvester"
+      },
+      "date": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      },
+      "observances": [
+        {
+          "regions": "all",
+          "type": "observance",
+          "sources": [
+            "azv"
+          ],
+          "note": "Not a Feiertag in any Land. Off for federal civil servants (AZV § 6)."
+        }
+      ]
+    }
+  ]
+}
