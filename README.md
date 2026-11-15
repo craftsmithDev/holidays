@@ -14,6 +14,9 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 |---|---|---|
 | Switzerland (CH) | 26 cantons | `public` = equal to Sunday under the Labour Act (ArG Art. 20a); see [verification](docs/verification/ch.md) |
 | Liechtenstein (LI) | 11 municipalities | `public` = Labour Act Art. 18; see [verification](docs/verification/li.md) |
+| Belgium (BE) | 3 regions | `public` = the ten days of the Holidays Act 1974; see [verification](docs/verification/be.md) |
+| Netherlands (NL) | 12 provinces, 3 Caribbean special municipalities | `public` = Algemene termijnenwet Art. 3 day that is a general day off, Arbeidswet 2000 BES in the Caribbean Netherlands; see [verification](docs/verification/nl.md) |
+| Luxembourg (LU) | none | `public` = Code du travail Art. L. 232-2; see [verification](docs/verification/lu.md) |
 
 More Western European countries follow in the same format.
 

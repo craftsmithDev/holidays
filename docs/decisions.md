@@ -61,3 +61,21 @@ The 11 municipalities are the ISO 3166-2:LI subdivisions and are listed, so that
 ## D15 Generated files are committed
 
 `dist/`, `js/data/` and the fixture outputs are in git, so that jsDelivr can serve the year files straight from GitHub and the npm and Composer packages need no build step. CI fails when the committed output differs from a fresh build.
+
+## D-bnl-1 Belgium: the ten days are public; communities mapped to regions
+
+`public` in BE means one of the ten days of the Royal Decree of 18 April 1974 under the Holidays Act of 4 January 1974. The extra days of the federal administration (2 November, 15 November, 26 December; Royal Decree of 19 November 1998, Art. 14) and the community days (11 July, 27 September, 15 November) are `observance`: no law gives employees these days off. A replacement day for a holiday on a Sunday or a usual non-working day is set per company (Act Art. 6–9) and is not modelled.
+
+The communities are not ISO 3166-2 subdivisions. Their days go to the regions where the community has competence: Flemish Community to BE-VLG and BE-BRU, French Community to BE-WAL and BE-BRU, German-speaking Community to BE-WAL with a note naming its nine municipalities (D6 applied to a part of a region). A pseudo-region per community would not be an ISO code and would break region lookups.
+
+## D-bnl-2 Netherlands: no statutory day off; public by the Algemene termijnenwet
+
+Dutch law gives employees no day off on a holiday; the cao decides. `public` in the European Netherlands means a day of the Algemene termijnenwet, Art. 3 para. 1, that is a general day off in practice. Good Friday (Art. 3 para. 2, time limits only) and Liberation Day (in Art. 3 para. 1, but a day off only under some cao’s, many only every fifth year) are `observance` (D4). A lustrum rule (`public` every fifth year) would rest on cao practice, not on a law.
+
+## D-bnl-3 Netherlands: the Caribbean Netherlands are regions from 2010
+
+Bonaire, Saba and Sint Eustatius are first-level subdivisions of ISO 3166-2:NL (NL-BQ1, NL-BQ2, NL-BQ3) and are listed. Their holidays follow the Arbeidswet 2000 BES, Art. 23, from 10 October 2010; there are no entries for them before. As a result, before 2010 no Dutch entry is nationwide, and a query without a region returns nothing for those years (D8). Aruba, Curaçao and Sint Maarten (NL-AW, NL-CW, NL-SX) are left out: they are countries of the Kingdom with their own law and their own ISO 3166-1 codes.
+
+## D-bnl-4 Luxembourg: no regions
+
+No Luxembourg holiday differs within the country, so `regions` is `[]` (CONTRIBUTING.md, step 4). The 12 cantons of ISO 3166-2:LU are not listed. This differs from Liechtenstein (D14); the owner decides whether LU should list its cantons the same way.
