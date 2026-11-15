@@ -23,6 +23,8 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 | Vatican City (VA) | none | `public` = days off under the personnel regulations of the Holy See and the Governatorato; see [verification](docs/verification/va.md) |
 | Spain (ES) | 17 communities, Ceuta, Melilla | `public` = fiesta laboral in the yearly BOE resolution, 2000–2027; see [verification](docs/verification/es.md) |
 | Andorra (AD) | 7 parishes | `public` = yearly labour calendar decree, 2024–2027; see [verification](docs/verification/ad.md) |
+| Malta (MT) | none | `public` = National Holidays and public holidays of Cap. 252; no substitute days; see [verification](docs/verification/mt.md) |
+| Portugal (PT) | 18 districts, Azores, Madeira | `public` = Labour Code Art. 234 and regional decrees; Carnival is an `observance`; see [verification](docs/verification/pt.md) |
 
 More Western European countries follow in the same format.
 

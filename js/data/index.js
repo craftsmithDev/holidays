@@ -8,7 +8,9 @@ import fr from './fr.js';
 import it from './it.js';
 import li from './li.js';
 import mc from './mc.js';
+import mt from './mt.js';
+import pt from './pt.js';
 import sm from './sm.js';
 import va from './va.js';
 
-export default { AD: ad, AT: at, CH: ch, DE: de, ES: es, FR: fr, IT: it, LI: li, MC: mc, SM: sm, VA: va };
+export default { AD: ad, AT: at, CH: ch, DE: de, ES: es, FR: fr, IT: it, LI: li, MC: mc, MT: mt, PT: pt, SM: sm, VA: va };

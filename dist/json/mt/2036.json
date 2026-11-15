@@ -1,0 +1,261 @@
+{
+  "format": 1,
+  "country": "MT",
+  "year": 2036,
+  "holidays": [
+    {
+      "date": "2036-01-01",
+      "id": "mt.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "mt": "L-Ewwel tas-Sena"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-02-10",
+      "id": "mt.saint-pauls-shipwreck",
+      "name": {
+        "en": "Feast of St. Paul’s Shipwreck",
+        "mt": "Il-Festa tan-Nawfraġju ta’ San Pawl"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-03-19",
+      "id": "mt.saint-joseph",
+      "name": {
+        "en": "Feast of St. Joseph",
+        "mt": "Il-Festa ta’ San Ġużepp"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-03-31",
+      "id": "mt.freedom-day",
+      "name": {
+        "en": "Freedom Day",
+        "mt": "Jum il-Ħelsien"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-04-11",
+      "id": "mt.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "mt": "Il-Ġimgħa l-Kbira"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-05-01",
+      "id": "mt.labour-day",
+      "name": {
+        "en": "Workers’ Day",
+        "mt": "Jum il-Ħaddiem"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-06-07",
+      "id": "mt.sette-giugno",
+      "name": {
+        "en": "Sette Giugno",
+        "mt": "Sette Giugno"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-06-29",
+      "id": "mt.saints-peter-and-paul",
+      "name": {
+        "en": "Feast of St. Peter and St. Paul",
+        "mt": "Il-Festa ta’ San Pietru u San Pawl"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-08-15",
+      "id": "mt.assumption",
+      "name": {
+        "en": "Feast of the Assumption",
+        "mt": "Il-Festa ta’ Santa Marija"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-09-08",
+      "id": "mt.victory-day",
+      "name": {
+        "en": "Victory Day",
+        "mt": "Jum il-Vittorja"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-09-21",
+      "id": "mt.independence-day",
+      "name": {
+        "en": "Independence Day",
+        "mt": "Jum l-Indipendenza"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-12-08",
+      "id": "mt.immaculate-conception",
+      "name": {
+        "en": "Feast of the Immaculate Conception",
+        "mt": "Il-Festa tal-Immakulata Kunċizzjoni"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-12-13",
+      "id": "mt.republic-day",
+      "name": {
+        "en": "Republic Day",
+        "mt": "Jum ir-Repubblika"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    },
+    {
+      "date": "2036-12-25",
+      "id": "mt.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "mt": "Il-Milied"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "cap-252-en",
+        "cap-252-mt"
+      ]
+    }
+  ],
+  "sources": {
+    "cap-252-en": {
+      "title": "National Holidays and Other Public Holidays Act",
+      "publisher": "Government of Malta, legislation.mt",
+      "law": "Cap. 252, Art. 2, 5, 6 and Schedule (Act XXX of 1975 as amended up to Act IV of 2021)",
+      "url": "https://legislation.mt/eli/cap/252/eng/pdf",
+      "accessed": "2026-11-15"
+    },
+    "cap-252-mt": {
+      "title": "Att dwar il-Festi Nazzjonali u Btajjel Pubbliċi Oħra",
+      "publisher": "Gvern ta’ Malta, legislation.mt",
+      "law": "Kap. 252, Art. 2, 5, 6 u l-Iskeda",
+      "url": "https://legislation.mt/eli/cap/252/mlt/pdf",
+      "accessed": "2026-11-15"
+    }
+  }
+}

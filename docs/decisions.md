@@ -125,3 +125,11 @@ The days are set by a resolution each year; there is one for 2000–2027. Before
 ## D-ad-1 Andorra: yearly decree, parishes as regions, coverage
 
 Llei 31/2018 Art. 62 leaves the holidays to a yearly Govern decree on the labour calendar. All 14 days of the decree are `public`. The decree lets sectors directly related to tourism move ten of them by agreement; those observances have a note, the type stays `public`. The 7 parishes are listed as regions, as for Liechtenstein (D14); parish holidays (up to four per parish, set by each comú) are municipal and not listed. Only the years whose decree or its official publication was read are covered (2024–2027); other years return nothing. Carnival is a date list because the decree sets it each year (Tuesday 20 February in 2024, the Monday before Ash Wednesday in 2025–2027).
+
+## D-pt-1 Portugal: districts listed as regions, municipal holidays left out
+
+ISO 3166-2:PT has 18 districts and the two autonomous regions. Only the Azores (PT-20) and Madeira (PT-30) have holidays of their own; the districts are listed anyway, like the municipalities of Liechtenstein (D14), so that a district code is accepted and returns the national days. Municipal holidays (one per municipality, Labour Code Art. 235) are not modelled; the scope is country and region.
+
+## D-pt-2 Malta: no substitute days
+
+Cap. 252 Art. 6 never moves a holiday that falls on a weekend. Under Act II of 2005 such a holiday gave nothing extra; since 1 January 2021 it gives one extra day of vacation leave, to be taken when agreed. That is a leave entitlement without a date, so the Malta data has no `substitute`. A consumer who counts leave days can find the weekend holidays from the year files.
