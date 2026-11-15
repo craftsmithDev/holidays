@@ -61,3 +61,20 @@ The 11 municipalities are the ISO 3166-2:LI subdivisions and are listed, so that
 ## D15 Generated files are committed
 
 `dist/`, `js/data/` and the fixture outputs are in git, so that jsDelivr can serve the year files straight from GitHub and the npm and Composer packages need no build step. CI fails when the committed output differs from a fresh build.
+
+## D-fr-1 France: only the subdivisions with their own holidays are regions
+
+ISO 3166-2:FR has several levels: 12 metropolitan regions, Corsica, Paris and the Métropole de Lyon, the European collectivity of Alsace (FR-6AE, since 2021, with the departments FR-67 and FR-68 below it), 95 metropolitan departments and the overseas codes (FR-971 to FR-976 since 2020, FR-BL, FR-MF, FR-PM, FR-NC, FR-PF, FR-WF and others). The extra days follow departments and overseas territories: L3134-13 names the departments Moselle, Bas-Rhin and Haut-Rhin, and Moselle sits in the region Grand Est with seven departments that do not have the days. So the regions of FR are the departments FR-57, FR-67, FR-68 and the overseas codes FR-971, FR-972, FR-973, FR-974, FR-976, FR-BL and FR-MF, the ISO 3166-2 codes in force. FR-6AE is not listed (it would duplicate FR-67 and FR-68), nor the former alpha codes FR-GP, FR-MQ, FR-GF, FR-RE, FR-YT (removed from ISO 3166-2 in 2021).
+
+Everywhere else in France the holidays are the nationwide ones. A query without a region returns exactly them (D8); a region code that is not listed (for example FR-75C) is rejected, as for every country. French Polynesia, New Caledonia and Wallis and Futuna have their own labour codes and are not covered; Saint-Pierre-et-Miquelon has no day of its own and needs no region.
+
+## D-fr-2 France: public means “jour férié” by law, and Whit Monday stays public
+
+Code du travail L3133-1 lists eleven fêtes légales as jours fériés, but only 1 May is a compulsory day off nationwide (L3133-4); collective agreements decide about the others (L3133-3-1). Taking “compulsory day off” as the line would leave France with one public holiday, which no French employer, calendar or authority would recognise. So `public` in FR means: designated jour férié by law (L3133-1, L3134-13 for Alsace-Moselle, L3422-2 overseas).
+
+Whit Monday follows the same line. It is still in L3133-1. Since 2004 the unpaid journée de solidarité exists, and an employer or agreement may put it on Whit Monday (L3133-11; from 2005 to 2007 Whit Monday was the default). That changes whether people work, not whether the day is a jour férié, so the day is `public` with a note.
+
+## D-fr-3 France: Good Friday in Alsace-Moselle is an observance
+
+L3134-13 makes Good Friday a jour férié only “dans les communes ayant un temple protestant ou une église mixte”. The DREETS guide on local labour law repeats this limit. Following D4 and D6, a day that is statutory only in part of a region is an `observance` at that level, with a note naming where. 26 December is `public` in all three departments. OpenHolidays and date-holidays list Good Friday as a public holiday in the whole of the three departments; see verification/fr.md.
+

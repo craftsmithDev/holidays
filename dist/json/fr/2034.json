@@ -1,0 +1,432 @@
+{
+  "format": 1,
+  "country": "FR",
+  "year": 2034,
+  "holidays": [
+    {
+      "date": "2034-01-01",
+      "id": "fr.new-year",
+      "name": {
+        "en": "New Year’s Day",
+        "fr": "Jour de l’An"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-04-07",
+      "id": "fr.good-friday",
+      "name": {
+        "en": "Good Friday",
+        "fr": "Vendredi saint"
+      },
+      "type": "observance",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-57",
+        "FR-67",
+        "FR-68"
+      ],
+      "sources": [
+        "ct-l3134-13",
+        "service-public-f2405",
+        "dreets-droit-local"
+      ]
+    },
+    {
+      "date": "2034-04-10",
+      "id": "fr.easter-monday",
+      "name": {
+        "en": "Easter Monday",
+        "fr": "Lundi de Pâques"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-04-27",
+      "id": "fr.abolition-of-slavery",
+      "name": {
+        "en": "Abolition of Slavery Day",
+        "fr": "Commémoration de l’abolition de l’esclavage"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-976"
+      ],
+      "sources": [
+        "ct-l3422-2",
+        "loi-83-550",
+        "decret-83-1003"
+      ]
+    },
+    {
+      "date": "2034-05-01",
+      "id": "fr.labour-day",
+      "name": {
+        "en": "Labour Day",
+        "fr": "Fête du Travail"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "ct-l3133-4",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-05-08",
+      "id": "fr.victory-day",
+      "name": {
+        "en": "Victory in Europe Day",
+        "fr": "Victoire 1945"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-05-18",
+      "id": "fr.ascension",
+      "name": {
+        "en": "Ascension Day",
+        "fr": "Ascension"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-05-22",
+      "id": "fr.abolition-of-slavery",
+      "name": {
+        "en": "Abolition of Slavery Day",
+        "fr": "Commémoration de l’abolition de l’esclavage"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-972"
+      ],
+      "sources": [
+        "ct-l3422-2",
+        "loi-83-550",
+        "decret-83-1003"
+      ]
+    },
+    {
+      "date": "2034-05-27",
+      "id": "fr.abolition-of-slavery",
+      "name": {
+        "en": "Abolition of Slavery Day",
+        "fr": "Commémoration de l’abolition de l’esclavage"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-971",
+        "FR-MF"
+      ],
+      "sources": [
+        "ct-l3422-2",
+        "loi-83-550",
+        "decret-83-1003",
+        "decret-2012-553"
+      ]
+    },
+    {
+      "date": "2034-05-29",
+      "id": "fr.whit-monday",
+      "name": {
+        "en": "Whit Monday",
+        "fr": "Lundi de Pentecôte"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "ct-l3133-11",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-06-10",
+      "id": "fr.abolition-of-slavery",
+      "name": {
+        "en": "Abolition of Slavery Day",
+        "fr": "Commémoration de l’abolition de l’esclavage"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-973"
+      ],
+      "sources": [
+        "ct-l3422-2",
+        "loi-83-550",
+        "decret-83-1003"
+      ]
+    },
+    {
+      "date": "2034-07-14",
+      "id": "fr.national-day",
+      "name": {
+        "en": "National Day",
+        "fr": "Fête nationale"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-08-15",
+      "id": "fr.assumption",
+      "name": {
+        "en": "Assumption Day",
+        "fr": "Assomption"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-10-09",
+      "id": "fr.abolition-of-slavery",
+      "name": {
+        "en": "Abolition of Slavery Day",
+        "fr": "Commémoration de l’abolition de l’esclavage"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-BL"
+      ],
+      "sources": [
+        "ct-l3422-2",
+        "decret-83-1003",
+        "decret-2012-553"
+      ]
+    },
+    {
+      "date": "2034-11-01",
+      "id": "fr.all-saints",
+      "name": {
+        "en": "All Saints’ Day",
+        "fr": "Toussaint"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-11-11",
+      "id": "fr.armistice-day",
+      "name": {
+        "en": "Armistice Day",
+        "fr": "Armistice 1918"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-12-20",
+      "id": "fr.abolition-of-slavery",
+      "name": {
+        "en": "Abolition of Slavery Day",
+        "fr": "Commémoration de l’abolition de l’esclavage"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-974"
+      ],
+      "sources": [
+        "ct-l3422-2",
+        "loi-83-550",
+        "decret-83-1003"
+      ]
+    },
+    {
+      "date": "2034-12-25",
+      "id": "fr.christmas",
+      "name": {
+        "en": "Christmas Day",
+        "fr": "Noël"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": true,
+      "regions": [],
+      "sources": [
+        "ct-l3133-1",
+        "service-public-f2405"
+      ]
+    },
+    {
+      "date": "2034-12-26",
+      "id": "fr.saint-stephen",
+      "name": {
+        "en": "Saint Stephen’s Day",
+        "fr": "Saint-Étienne (second jour de Noël)"
+      },
+      "type": "public",
+      "startTime": null,
+      "substituteFor": null,
+      "nationwide": false,
+      "regions": [
+        "FR-57",
+        "FR-67",
+        "FR-68"
+      ],
+      "sources": [
+        "ct-l3134-13",
+        "service-public-f2405",
+        "dreets-droit-local"
+      ]
+    }
+  ],
+  "sources": {
+    "ct-l3133-1": {
+      "title": "Code du travail, article L3133-1",
+      "publisher": "Légifrance (République française)",
+      "law": "Code du travail, art. L3133-1 (in force since 1 May 2008; before, former art. L222-1 with the same list)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020901",
+      "accessed": "2026-11-15"
+    },
+    "ct-l3133-4": {
+      "title": "Code du travail, article L3133-4",
+      "publisher": "Légifrance (République française)",
+      "law": "Code du travail, art. L3133-4",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020884",
+      "accessed": "2026-11-15"
+    },
+    "ct-l3133-11": {
+      "title": "Code du travail, article L3133-11 (journée de solidarité)",
+      "publisher": "Légifrance (République française)",
+      "law": "Code du travail, art. L3133-11",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020848",
+      "accessed": "2026-11-15"
+    },
+    "ct-l3134-13": {
+      "title": "Code du travail, article L3134-13 (dispositions particulières à la Moselle, au Bas-Rhin et au Haut-Rhin)",
+      "publisher": "Légifrance (République française)",
+      "law": "Code du travail, art. L3134-13",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902635",
+      "accessed": "2026-11-15"
+    },
+    "ct-l3422-2": {
+      "title": "Code du travail, article L3422-2 (commémoration de l'abolition de l'esclavage)",
+      "publisher": "Légifrance (République française)",
+      "law": "Code du travail, art. L3422-2 (created by loi n° 2016-1088, in force since 10 August 2016; Mayotte added from 1 January 2018 by ordonnance n° 2017-1491)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035902463",
+      "accessed": "2026-11-15"
+    },
+    "loi-83-550": {
+      "title": "Loi n° 83-550 du 30 juin 1983 relative à la commémoration de l'abolition de l'esclavage",
+      "publisher": "Légifrance (République française)",
+      "law": "Loi n° 83-550 du 30 juin 1983, article unique",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000692257",
+      "accessed": "2026-11-15"
+    },
+    "decret-83-1003": {
+      "title": "Décret n° 83-1003 du 23 novembre 1983 relatif à la commémoration de l'abolition de l'esclavage",
+      "publisher": "Légifrance (République française)",
+      "law": "Décret n° 83-1003 du 23 novembre 1983, art. 1er (as amended by décret n° 2012-553 du 23 avril 2012, in force since 26 April 2012)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000336997",
+      "accessed": "2026-11-15"
+    },
+    "decret-2012-553": {
+      "title": "Décret n° 2012-553 du 23 avril 2012 modifiant le décret n° 83-1003 du 23 novembre 1983",
+      "publisher": "Légifrance (République française)",
+      "law": "Décret n° 2012-553 du 23 avril 2012",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000025743756",
+      "accessed": "2026-11-15"
+    },
+    "service-public-f2405": {
+      "title": "Jours fériés et ponts dans le secteur privé (vérifié le 1er janvier 2026)",
+      "publisher": "Service-Public.gouv.fr, Direction de l'information légale et administrative (Premier ministre)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+      "accessed": "2026-11-15"
+    },
+    "dreets-droit-local": {
+      "title": "Guide du droit local du travail en Alsace-Moselle (décembre 2022)",
+      "publisher": "DREETS Grand Est, DDETS de Moselle, DDETS du Bas-Rhin, DDETSPP du Haut-Rhin",
+      "url": "https://grand-est.dreets.gouv.fr/sites/dreets-als-champ/files/2026-08/Guide%20droit%20local%20du%20travail%20alsace%20moselle%20-%20d%C3%A9cembre%202022.pdf",
+      "accessed": "2026-11-15"
+    }
+  }
+}

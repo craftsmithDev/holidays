@@ -642,6 +642,94 @@
         ]
       ],
       "expect": true
+    },
+    {
+      "name": "FR nationwide public holidays 2027 (Code du travail L3133-1)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "FR",
+        2027,
+        null,
+        null
+      ],
+      "expect": [
+        "2027-01-01 fr.new-year public",
+        "2027-03-29 fr.easter-monday public",
+        "2027-05-01 fr.labour-day public",
+        "2027-05-06 fr.ascension public",
+        "2027-05-08 fr.victory-day public",
+        "2027-05-17 fr.whit-monday public",
+        "2027-07-14 fr.national-day public",
+        "2027-08-15 fr.assumption public",
+        "2027-11-01 fr.all-saints public",
+        "2027-11-11 fr.armistice-day public",
+        "2027-12-25 fr.christmas public"
+      ]
+    },
+    {
+      "name": "FR Moselle: Good Friday is only an observance (communes with a Protestant church)",
+      "data": "bundled",
+      "method": "holidays",
+      "args": [
+        "FR",
+        2026,
+        "FR-57",
+        [
+          "observance"
+        ]
+      ],
+      "expect": [
+        "2026-04-03 fr.good-friday observance"
+      ]
+    },
+    {
+      "name": "FR Bas-Rhin: 26 December is public",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2026-12-26",
+        "FR",
+        "67",
+        null
+      ],
+      "expect": true
+    },
+    {
+      "name": "FR Réunion: abolition of slavery on 20 December",
+      "data": "bundled",
+      "method": "next",
+      "args": [
+        "2026-12-01",
+        "FR",
+        "FR-974",
+        null
+      ],
+      "expect": "2026-12-20 fr.abolition-of-slavery public"
+    },
+    {
+      "name": "FR Saint-Barthélemy: abolition day only since décret 2012-553",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2011-10-09",
+        "FR",
+        "BL",
+        null
+      ],
+      "expect": false
+    },
+    {
+      "name": "FR Saint-Barthélemy: abolition day on 9 October 2012",
+      "data": "bundled",
+      "method": "isHoliday",
+      "args": [
+        "2012-10-09",
+        "FR",
+        "BL",
+        null
+      ],
+      "expect": true
     }
   ]
 }
