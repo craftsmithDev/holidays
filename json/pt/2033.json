@@ -8,7 +8,16 @@
       "id": "pt.new-year",
       "name": {
         "en": "New Year’s Day",
-        "pt": "Ano Novo"
+        "pt": "Ano Novo",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "type": "public",
       "startTime": null,
@@ -25,7 +34,16 @@
       "id": "pt.shrove-tuesday",
       "name": {
         "en": "Carnival",
-        "pt": "Carnaval"
+        "pt": "Carnaval",
+        "de": "Karneval",
+        "es": "Carnaval",
+        "fr": "Carnaval",
+        "it": "Carnevale",
+        "nl": "Carnaval",
+        "pl": "Karnawał",
+        "rm": "Tschaiver",
+        "ru": "Карнавал",
+        "tr": "Karnaval"
       },
       "type": "observance",
       "startTime": null,
@@ -42,7 +60,16 @@
       "id": "pt.madeira-autonomy-day",
       "name": {
         "en": "Autonomy Day",
-        "pt": "Dia da Autonomia"
+        "pt": "Dia da Autonomia",
+        "de": "Tag der Autonomie",
+        "es": "Día de la Autonomía",
+        "fr": "Jour de l’autonomie",
+        "it": "Giorno dell’autonomia",
+        "nl": "Dag van de Autonomie",
+        "pl": "Dzień Autonomii",
+        "rm": "Di da l’autonomia",
+        "ru": "День автономии",
+        "tr": "Özerklik Günü"
       },
       "type": "public",
       "startTime": null,
@@ -60,7 +87,16 @@
       "id": "pt.good-friday",
       "name": {
         "en": "Good Friday",
-        "pt": "Sexta-Feira Santa"
+        "pt": "Sexta-Feira Santa",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "type": "public",
       "startTime": null,
@@ -77,7 +113,16 @@
       "id": "pt.freedom-day",
       "name": {
         "en": "Freedom Day",
-        "pt": "Dia da Liberdade"
+        "pt": "Dia da Liberdade",
+        "de": "Tag der Freiheit",
+        "es": "Día de la Libertad",
+        "fr": "Jour de la Liberté",
+        "it": "Giorno della Libertà",
+        "nl": "Dag van de Vrijheid",
+        "pl": "Dzień Wolności",
+        "rm": "Di da la libertad",
+        "ru": "День свободы",
+        "tr": "Özgürlük Günü"
       },
       "type": "public",
       "startTime": null,
@@ -94,7 +139,16 @@
       "id": "pt.labour-day",
       "name": {
         "en": "Labour Day",
-        "pt": "Dia do Trabalhador"
+        "pt": "Dia do Trabalhador",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -111,7 +165,16 @@
       "id": "pt.azores-day",
       "name": {
         "en": "Azores Day",
-        "pt": "Dia da Região Autónoma dos Açores"
+        "pt": "Dia da Região Autónoma dos Açores",
+        "de": "Tag der Azoren",
+        "es": "Día de las Azores",
+        "fr": "Jour des Açores",
+        "it": "Giornata delle Azzorre",
+        "nl": "Dag van de Azoren",
+        "pl": "Dzień Azorów",
+        "rm": "Di da las Azoras",
+        "ru": "День Азорских островов",
+        "tr": "Azorlar Günü"
       },
       "type": "public",
       "startTime": null,
@@ -129,7 +192,16 @@
       "id": "pt.national-day",
       "name": {
         "en": "Portugal Day",
-        "pt": "Dia de Portugal, de Camões e das Comunidades Portuguesas"
+        "pt": "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+        "de": "Tag Portugals",
+        "es": "Día de Portugal",
+        "fr": "Jour du Portugal",
+        "it": "Giornata del Portogallo",
+        "nl": "Dag van Portugal",
+        "pl": "Dzień Portugalii",
+        "rm": "Di dal Portugal",
+        "ru": "День Португалии",
+        "tr": "Portekiz Günü"
       },
       "type": "public",
       "startTime": null,
@@ -146,7 +218,16 @@
       "id": "pt.corpus-christi",
       "name": {
         "en": "Corpus Christi",
-        "pt": "Corpo de Deus"
+        "pt": "Corpo de Deus",
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "type": "public",
       "startTime": null,
@@ -162,7 +243,16 @@
       "id": "pt.madeira-day",
       "name": {
         "en": "Madeira Day",
-        "pt": "Dia da Região e das Comunidades Madeirenses"
+        "pt": "Dia da Região e das Comunidades Madeirenses",
+        "de": "Tag Madeiras",
+        "es": "Día de Madeira",
+        "fr": "Jour de Madère",
+        "it": "Giornata di Madera",
+        "nl": "Dag van Madeira",
+        "pl": "Dzień Madery",
+        "rm": "Di da Madeira",
+        "ru": "День Мадейры",
+        "tr": "Madeira Günü"
       },
       "type": "public",
       "startTime": null,
@@ -182,7 +272,16 @@
       "id": "pt.assumption",
       "name": {
         "en": "Assumption Day",
-        "pt": "Assunção de Nossa Senhora"
+        "pt": "Assunção de Nossa Senhora",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "type": "public",
       "startTime": null,
@@ -199,7 +298,16 @@
       "id": "pt.republic-day",
       "name": {
         "en": "Republic Day",
-        "pt": "Implantação da República"
+        "pt": "Implantação da República",
+        "de": "Tag der Republik",
+        "es": "Día de la República",
+        "fr": "Fête de la République",
+        "it": "Festa della Repubblica",
+        "nl": "Dag van de Republiek",
+        "pl": "Święto Republiki",
+        "rm": "Di da la republica",
+        "ru": "День Республики",
+        "tr": "Cumhuriyet Bayramı"
       },
       "type": "public",
       "startTime": null,
@@ -215,7 +323,16 @@
       "id": "pt.all-saints",
       "name": {
         "en": "All Saints’ Day",
-        "pt": "Dia de Todos-os-Santos"
+        "pt": "Dia de Todos-os-Santos",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "type": "public",
       "startTime": null,
@@ -231,7 +348,16 @@
       "id": "pt.restoration-of-independence",
       "name": {
         "en": "Restoration of Independence",
-        "pt": "Restauração da Independência"
+        "pt": "Restauração da Independência",
+        "de": "Wiederherstellung der Unabhängigkeit",
+        "es": "Restauración de la Independencia",
+        "fr": "Restauration de l’indépendance",
+        "it": "Restaurazione dell’indipendenza",
+        "nl": "Herstel van de onafhankelijkheid",
+        "pl": "Przywrócenie Niepodległości",
+        "rm": "Restauraziun da l’independenza",
+        "ru": "День восстановления независимости",
+        "tr": "Bağımsızlığın Yeniden Kazanılması"
       },
       "type": "public",
       "startTime": null,
@@ -247,7 +373,16 @@
       "id": "pt.immaculate-conception",
       "name": {
         "en": "Immaculate Conception",
-        "pt": "Imaculada Conceição"
+        "pt": "Imaculada Conceição",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "type": "public",
       "startTime": null,
@@ -264,7 +399,16 @@
       "id": "pt.christmas",
       "name": {
         "en": "Christmas Day",
-        "pt": "Natal"
+        "pt": "Natal",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "type": "public",
       "startTime": null,
@@ -281,7 +425,16 @@
       "id": "pt.saint-stephen",
       "name": {
         "en": "First Octave of Christmas",
-        "pt": "Primeira Oitava"
+        "pt": "Primeira Oitava",
+        "de": "Erster Tag der Weihnachtsoktav",
+        "es": "Primer día de la octava de Navidad",
+        "fr": "Premier jour de l’octave de Noël",
+        "it": "Primo giorno dell’ottava di Natale",
+        "nl": "Eerste dag van het octaaf van Kerstmis",
+        "pl": "Pierwszy dzień oktawy Bożego Narodzenia",
+        "rm": "Emprim di da l’octava da Nadal",
+        "ru": "Первый день октавы Рождества",
+        "tr": "Noel oktavının ilk günü"
       },
       "type": "public",
       "startTime": null,

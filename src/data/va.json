@@ -2,8 +2,17 @@
   "format": 1,
   "code": "VA",
   "names": {
+    "en": "Vatican City",
     "it": "Città del Vaticano",
-    "en": "Vatican City"
+    "de": "Vatikanstadt",
+    "es": "Ciudad del Vaticano",
+    "fr": "État de la Cité du Vatican",
+    "nl": "Vaticaanstad",
+    "pl": "Watykan",
+    "pt": "Cidade do Vaticano",
+    "rm": "Citad dal Vatican",
+    "ru": "Ватикан",
+    "tr": "Vatikan"
   },
   "languages": [
     "it"
@@ -57,7 +66,16 @@
       "id": "va.new-year",
       "names": {
         "en": "Solemnity of Mary, Mother of God",
-        "it": "Maria Santissima Madre di Dio"
+        "it": "Maria Santissima Madre di Dio",
+        "de": "Hochfest der Gottesmutter Maria",
+        "es": "Santa María, Madre de Dios",
+        "fr": "Sainte Marie, Mère de Dieu",
+        "nl": "Hoogfeest van Maria, Moeder van God",
+        "pl": "Uroczystość Świętej Bożej Rodzicielki Maryi",
+        "pt": "Solenidade de Santa Maria, Mãe de Deus",
+        "rm": "Solemnitad da Maria, mamma da Dieu",
+        "ru": "Торжество Пресвятой Богородицы",
+        "tr": "Tanrı’nın Annesi Meryem Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -81,7 +99,16 @@
       "id": "va.epiphany",
       "names": {
         "en": "Epiphany",
-        "it": "Epifania del Signore"
+        "it": "Epifania del Signore",
+        "de": "Heilige Drei Könige",
+        "es": "Epifanía del Señor",
+        "fr": "Épiphanie",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "date": {
         "type": "fixed",
@@ -105,7 +132,16 @@
       "id": "va.state-anniversary",
       "names": {
         "en": "Anniversary of the Foundation of Vatican City State",
-        "it": "Anniversario dell’istituzione dello Stato della Città del Vaticano"
+        "it": "Anniversario dell’istituzione dello Stato della Città del Vaticano",
+        "de": "Jahrestag der Gründung des Staates Vatikanstadt",
+        "es": "Aniversario de la fundación del Estado de la Ciudad del Vaticano",
+        "fr": "Anniversaire de la fondation de l’État de la Cité du Vatican",
+        "nl": "Verjaardag van de stichting van Vaticaanstad",
+        "pl": "Rocznica utworzenia Państwa Watykańskiego",
+        "pt": "Aniversário da fundação do Estado da Cidade do Vaticano",
+        "rm": "Anniversari da la fundaziun dal Stadi da la Citad dal Vatican",
+        "ru": "Годовщина основания государства Ватикан",
+        "tr": "Vatikan Şehir Devleti’nin kuruluş yıl dönümü"
       },
       "note": "The regulations name the day but not the date. 11 February is the day the Lateran Treaty was signed (1929); the regulation of the Opera Romana Pellegrinaggi lists the day as \"11 febbraio, Anniversario della firma dei Patti Lateranensi\". The treaty entered into force on 7 June 1929; see sources.md.",
       "date": {
@@ -130,7 +166,16 @@
       "id": "va.saint-joseph",
       "names": {
         "en": "Saint Joseph’s Day",
-        "it": "San Giuseppe"
+        "it": "San Giuseppe",
+        "de": "Josefstag",
+        "es": "San José",
+        "fr": "Saint-Joseph",
+        "nl": "Sint-Jozef",
+        "pl": "Dzień Świętego Józefa",
+        "pt": "Dia de São José",
+        "rm": "Son Josef",
+        "ru": "День святого Иосифа",
+        "tr": "Aziz Yusuf Günü"
       },
       "date": {
         "type": "fixed",
@@ -154,7 +199,16 @@
       "id": "va.maundy-thursday",
       "names": {
         "en": "Maundy Thursday",
-        "it": "Giovedì santo"
+        "it": "Giovedì santo",
+        "de": "Gründonnerstag",
+        "es": "Jueves Santo",
+        "fr": "Jeudi saint",
+        "nl": "Witte Donderdag",
+        "pl": "Wielki Czwartek",
+        "pt": "Quinta-feira Santa",
+        "rm": "Gievgia sontga",
+        "ru": "Великий четверг",
+        "tr": "Kutsal Perşembe"
       },
       "date": {
         "type": "easter",
@@ -176,7 +230,16 @@
       "id": "va.good-friday",
       "names": {
         "en": "Good Friday",
-        "it": "Venerdì santo"
+        "it": "Venerdì santo",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -198,7 +261,16 @@
       "id": "va.holy-saturday",
       "names": {
         "en": "Holy Saturday",
-        "it": "Sabato santo"
+        "it": "Sabato santo",
+        "de": "Karsamstag",
+        "es": "Sábado Santo",
+        "fr": "Samedi saint",
+        "nl": "Stille Zaterdag",
+        "pl": "Wielka Sobota",
+        "pt": "Sábado Santo",
+        "rm": "Sonda sontga",
+        "ru": "Великая суббота",
+        "tr": "Kutsal Cumartesi"
       },
       "date": {
         "type": "easter",
@@ -220,7 +292,16 @@
       "id": "va.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "it": "Lunedì di Pasqua"
+        "it": "Lunedì di Pasqua",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -242,7 +323,16 @@
       "id": "va.easter-tuesday",
       "names": {
         "en": "Easter Tuesday",
-        "it": "Martedì di Pasqua"
+        "it": "Martedì di Pasqua",
+        "de": "Osterdienstag",
+        "es": "Martes de Pascua",
+        "fr": "Mardi de Pâques",
+        "nl": "Paasdinsdag",
+        "pl": "Wtorek Wielkanocny",
+        "pt": "Terça-feira de Páscoa",
+        "rm": "Mardi da Pasca",
+        "ru": "Пасхальный вторник",
+        "tr": "Paskalya Salısı"
       },
       "date": {
         "type": "easter",
@@ -264,7 +354,16 @@
       "id": "va.saint-joseph-the-worker",
       "names": {
         "en": "Saint Joseph the Worker",
-        "it": "San Giuseppe artigiano"
+        "it": "San Giuseppe artigiano",
+        "de": "Josef der Arbeiter",
+        "es": "San José Obrero",
+        "fr": "Saint Joseph travailleur",
+        "nl": "Sint-Jozef Arbeider",
+        "pl": "Świętego Józefa Robotnika",
+        "pt": "São José Operário",
+        "rm": "Son Josef lavurant",
+        "ru": "День святого Иосифа Труженика",
+        "tr": "İşçi Aziz Yusuf Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -287,7 +386,16 @@
       "id": "va.papal-election-anniversary",
       "names": {
         "en": "Anniversary of the Election of the Pope",
-        "it": "Anniversario dell’elezione del Sommo Pontefice"
+        "it": "Anniversario dell’elezione del Sommo Pontefice",
+        "de": "Jahrestag der Papstwahl",
+        "es": "Aniversario de la elección del papa",
+        "fr": "Anniversaire de l’élection du pape",
+        "nl": "Verjaardag van de pausverkiezing",
+        "pl": "Rocznica wyboru papieża",
+        "pt": "Aniversário da eleição do papa",
+        "rm": "Anniversari da l’elecziun dal papa",
+        "ru": "Годовщина избрания папы",
+        "tr": "Papanın seçilişinin yıl dönümü"
       },
       "note": "John Paul II elected 16 October 1978 (died 2 April 2005); Benedict XVI elected 19 April 2005 (resigned 28 February 2013); Francis elected 13 March 2013 (died 21 April 2025); Leo XIV elected 8 May 2025. No anniversary in the year of an election.",
       "date": [
@@ -335,7 +443,16 @@
       "id": "va.ascension",
       "names": {
         "en": "Ascension Day",
-        "it": "Ascensione del Signore"
+        "it": "Ascensione del Signore",
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "fr": "Ascension",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -359,7 +476,16 @@
       "id": "va.corpus-christi",
       "names": {
         "en": "Corpus Christi",
-        "it": "Santissimo Corpo e Sangue di Cristo"
+        "it": "Santissimo Corpo e Sangue di Cristo",
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "fr": "Fête-Dieu",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "pt": "Corpo de Deus",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "date": {
         "type": "easter",
@@ -383,7 +509,16 @@
       "id": "va.saints-peter-and-paul",
       "names": {
         "en": "Saints Peter and Paul",
-        "it": "Santi Apostoli Pietro e Paolo"
+        "it": "Santi Apostoli Pietro e Paolo",
+        "de": "Peter und Paul",
+        "es": "San Pedro y San Pablo",
+        "fr": "Saint-Pierre et Saint-Paul",
+        "nl": "Sint-Petrus en Sint-Paulus",
+        "pl": "Uroczystość Świętych Apostołów Piotra i Pawła",
+        "pt": "São Pedro e São Paulo",
+        "rm": "Son Pieder e Son Paul",
+        "ru": "День святых Петра и Павла",
+        "tr": "Aziz Petrus ve Aziz Pavlus Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -407,7 +542,16 @@
       "id": "va.assumption-eve",
       "names": {
         "en": "Eve of the Assumption",
-        "it": "Vigilia dell’Assunzione"
+        "it": "Vigilia dell’Assunzione",
+        "de": "Vorabend von Mariä Himmelfahrt",
+        "es": "Víspera de la Asunción",
+        "fr": "Veille de l’Assomption",
+        "nl": "Vooravond van Maria-Tenhemelopneming",
+        "pl": "Wigilia Wniebowzięcia Najświętszej Maryi Panny",
+        "pt": "Véspera da Assunção",
+        "rm": "Vigilia da l’Assumziun da Maria",
+        "ru": "Канун Успения Богородицы",
+        "tr": "Meryem’in Göğe Kabulü Arifesi"
       },
       "date": {
         "type": "fixed",
@@ -430,7 +574,16 @@
       "id": "va.assumption",
       "names": {
         "en": "Assumption Day",
-        "it": "Assunzione di Maria Santissima"
+        "it": "Assunzione di Maria Santissima",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -454,7 +607,16 @@
       "id": "va.day-after-assumption",
       "names": {
         "en": "Day after the Assumption",
-        "it": "Giorno successivo all’Assunzione"
+        "it": "Giorno successivo all’Assunzione",
+        "de": "Tag nach Mariä Himmelfahrt",
+        "es": "Día siguiente a la Asunción",
+        "fr": "Lendemain de l’Assomption",
+        "nl": "Dag na Maria-Tenhemelopneming",
+        "pl": "Dzień po Wniebowzięciu Najświętszej Maryi Panny",
+        "pt": "Dia seguinte à Assunção",
+        "rm": "Di suenter l’Assumziun da Maria",
+        "ru": "День после Успения Богородицы",
+        "tr": "Meryem’in Göğe Kabulü’nden sonraki gün"
       },
       "date": {
         "type": "fixed",
@@ -477,7 +639,16 @@
       "id": "va.papal-name-day",
       "names": {
         "en": "Name Day of the Pope",
-        "it": "Onomastico del Sommo Pontefice"
+        "it": "Onomastico del Sommo Pontefice",
+        "de": "Namenstag des Papstes",
+        "es": "Onomástica del papa",
+        "fr": "Fête onomastique du pape",
+        "nl": "Naamdag van de paus",
+        "pl": "Imieniny papieża",
+        "pt": "Onomástico do papa",
+        "rm": "Di dal num dal papa",
+        "ru": "Именины папы",
+        "tr": "Papanın isim günü"
       },
       "note": "John Paul II (Karol): Saint Charles Borromeo, 4 November. Francis (Jorge): Saint George, 23 April. Leo XIV (Robert): Saint Robert Bellarmine, 17 September, first held on 17 September 2025 (Vatican News). Benedict XVI (Joseph): 19 March, see va.saint-joseph.",
       "date": [
@@ -519,7 +690,16 @@
       "id": "va.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "it": "Tutti i Santi"
+        "it": "Tutti i Santi",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -543,7 +723,16 @@
       "id": "va.all-souls",
       "names": {
         "en": "All Souls’ Day",
-        "it": "Commemorazione di tutti i fedeli defunti"
+        "it": "Commemorazione di tutti i fedeli defunti",
+        "de": "Allerseelen",
+        "es": "Día de los Fieles Difuntos",
+        "fr": "Jour des morts",
+        "nl": "Allerzielen",
+        "pl": "Dzień Zaduszny",
+        "pt": "Dia de Finados",
+        "rm": "Di da las olmas",
+        "ru": "День поминовения усопших",
+        "tr": "Ölüleri Anma Günü"
       },
       "date": {
         "type": "fixed",
@@ -566,7 +755,16 @@
       "id": "va.immaculate-conception",
       "names": {
         "en": "Immaculate Conception",
-        "it": "Immacolata Concezione"
+        "it": "Immacolata Concezione",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -590,7 +788,16 @@
       "id": "va.christmas-eve",
       "names": {
         "en": "Christmas Eve",
-        "it": "Vigilia di Natale"
+        "it": "Vigilia di Natale",
+        "de": "Heiligabend",
+        "es": "Nochebuena",
+        "fr": "Veille de Noël",
+        "nl": "Kerstavond",
+        "pl": "Wigilia Bożego Narodzenia",
+        "pt": "Véspera de Natal",
+        "rm": "Sontga Saira",
+        "ru": "Сочельник",
+        "tr": "Noel Arifesi"
       },
       "date": {
         "type": "fixed",
@@ -613,7 +820,16 @@
       "id": "va.christmas",
       "names": {
         "en": "Christmas Day",
-        "it": "Natale del Signore"
+        "it": "Natale del Signore",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -637,7 +853,16 @@
       "id": "va.saint-stephen",
       "names": {
         "en": "Saint Stephen’s Day",
-        "it": "Santo Stefano"
+        "it": "Santo Stefano",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "note": "The first of \"i due giorni successivi al Santo Natale\".",
       "date": {
@@ -661,7 +886,16 @@
       "id": "va.saint-john",
       "names": {
         "en": "Saint John the Apostle",
-        "it": "San Giovanni apostolo ed evangelista"
+        "it": "San Giovanni apostolo ed evangelista",
+        "de": "Apostel Johannes",
+        "es": "San Juan Apóstol",
+        "fr": "Saint Jean l’Apôtre",
+        "nl": "Sint-Jan de Apostel",
+        "pl": "Świętego Jana Apostoła",
+        "pt": "São João Apóstolo",
+        "rm": "Son Gion apostel",
+        "ru": "День святого апостола Иоанна",
+        "tr": "Havari Aziz Yuhanna Günü"
       },
       "note": "The second of \"i due giorni successivi al Santo Natale\".",
       "date": {
@@ -685,7 +919,16 @@
       "id": "va.new-years-eve",
       "names": {
         "en": "New Year’s Eve",
-        "it": "Ultimo giorno dell’anno"
+        "it": "Ultimo giorno dell’anno",
+        "de": "Silvester",
+        "es": "Nochevieja",
+        "fr": "Saint-Sylvestre",
+        "nl": "Oudejaarsdag",
+        "pl": "Sylwester",
+        "pt": "Véspera de Ano Novo",
+        "rm": "Silvester",
+        "ru": "Канун Нового года",
+        "tr": "Yılbaşı Gecesi"
       },
       "date": {
         "type": "fixed",

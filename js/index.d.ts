@@ -1,7 +1,7 @@
 /** public = statutory day off; bank = banks closed, no general day off; observance = customary, not a statutory day off. */
 export type HolidayType = 'public' | 'bank' | 'observance';
 
-/** Names keyed by BCP 47 language tag; always has `en`. */
+/** Names keyed by BCP 47 language tag; always has `en`, the local languages of the country and the translations. */
 export type Names = { en: string } & Record<string, string>;
 
 /** One holiday on one date, as in json/<cc>/<year>.json. */
@@ -70,6 +70,8 @@ export declare class Holidays {
   constructor(rules?: Record<string, unknown>);
   countries(): Country[];
   regions(country: string): Region[];
+  /** The name of a holiday by id in a language: the exact tag, then its base language, then English; null for an unknown id. */
+  name(id: string, language: string): string | null;
   year(country: string, year: number): YearDocument;
   /** Holidays of a year. Without a region only the nationwide ones. Default types: ['public']. */
   holidays(country: string, year: number, region?: RegionInput, types?: HolidayType[] | null): Holiday[];
@@ -82,6 +84,7 @@ export declare class Holidays {
 
 export declare function countries(): Country[];
 export declare function regions(country: string): Region[];
+export declare function name(id: string, language: string): string | null;
 export declare function year(country: string, year: number): YearDocument;
 export declare function holidays(country: string, year: number, region?: RegionInput, types?: HolidayType[] | null): Holiday[];
 export declare function isHoliday(date: DateInput, country: string, region?: RegionInput, types?: HolidayType[] | null): boolean;

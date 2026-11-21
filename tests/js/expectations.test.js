@@ -17,7 +17,7 @@ for (const c of cases) {
     }
     const result = call();
     if (c.method === 'holidays') assert.deepEqual(result.map(line), c.expect);
-    else if (c.method === 'isHoliday') assert.equal(result, c.expect);
+    else if (c.method === 'isHoliday' || c.method === 'name') assert.equal(result, c.expect);
     else assert.equal(result === null ? null : line(result), c.expect);
   });
 }

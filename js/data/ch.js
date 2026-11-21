@@ -3,249 +3,439 @@ export default {
   "format": 1,
   "code": "CH",
   "names": {
+    "en": "Switzerland",
     "de": "Schweiz",
     "fr": "Suisse",
     "it": "Svizzera",
-    "en": "Switzerland"
+    "rm": "Svizra",
+    "es": "Suiza",
+    "nl": "Zwitserland",
+    "pl": "Szwajcaria",
+    "pt": "Suíça",
+    "ru": "Швейцария",
+    "tr": "İsviçre"
   },
   "languages": [
     "de",
     "fr",
-    "it"
+    "it",
+    "rm"
   ],
   "regions": [
     {
       "code": "CH-AG",
       "names": {
+        "en": "Aargau",
         "de": "Aargau",
         "fr": "Argovie",
         "it": "Argovia",
-        "en": "Aargau"
+        "rm": "Argovia",
+        "es": "Argovia",
+        "nl": "Aargau",
+        "pl": "Argowia",
+        "pt": "Argóvia",
+        "ru": "Аргау",
+        "tr": "Aargau"
       }
     },
     {
       "code": "CH-AI",
       "names": {
+        "en": "Appenzell Innerrhoden",
         "de": "Appenzell Innerrhoden",
         "fr": "Appenzell Rhodes-Intérieures",
         "it": "Appenzello Interno",
-        "en": "Appenzell Innerrhoden"
+        "rm": "Appenzell Dadens",
+        "es": "Appenzell Rodas Interiores",
+        "nl": "Appenzell Innerrhoden",
+        "pl": "Appenzell Innerrhoden",
+        "pt": "Appenzell Interior",
+        "ru": "Аппенцелль-Иннерроден",
+        "tr": "Appenzell Innerrhoden"
       }
     },
     {
       "code": "CH-AR",
       "names": {
+        "en": "Appenzell Ausserrhoden",
         "de": "Appenzell Ausserrhoden",
         "fr": "Appenzell Rhodes-Extérieures",
         "it": "Appenzello Esterno",
-        "en": "Appenzell Ausserrhoden"
+        "rm": "Appenzell Dadora",
+        "es": "Appenzell Rodas Exteriores",
+        "nl": "Appenzell Ausserrhoden",
+        "pl": "Appenzell Ausserrhoden",
+        "pt": "Appenzell Exterior",
+        "ru": "Аппенцелль-Ауссерроден",
+        "tr": "Appenzell Ausserrhoden"
       }
     },
     {
       "code": "CH-BE",
       "names": {
+        "en": "Bern",
         "de": "Bern",
         "fr": "Berne",
         "it": "Berna",
-        "en": "Bern"
+        "rm": "Berna",
+        "es": "Berna",
+        "nl": "Bern",
+        "pl": "Berno",
+        "pt": "Berna",
+        "ru": "Берн",
+        "tr": "Bern"
       }
     },
     {
       "code": "CH-BL",
       "names": {
+        "en": "Basel-Landschaft",
         "de": "Basel-Landschaft",
         "fr": "Bâle-Campagne",
         "it": "Basilea Campagna",
-        "en": "Basel-Landschaft"
+        "rm": "Basilea-Champagna",
+        "es": "Basilea-Campiña",
+        "nl": "Basel-Landschaft",
+        "pl": "Bazylea-Okręg",
+        "pt": "Basileia-Campo",
+        "ru": "Базель-Ланд",
+        "tr": "Basel-Landschaft"
       }
     },
     {
       "code": "CH-BS",
       "names": {
+        "en": "Basel-Stadt",
         "de": "Basel-Stadt",
         "fr": "Bâle-Ville",
         "it": "Basilea Città",
-        "en": "Basel-Stadt"
+        "rm": "Basilea-Citad",
+        "es": "Basilea-Ciudad",
+        "nl": "Bazel-Stad",
+        "pl": "Bazylea-Miasto",
+        "pt": "Basileia-Cidade",
+        "ru": "Базель-Штадт",
+        "tr": "Basel-Stadt"
       }
     },
     {
       "code": "CH-FR",
       "names": {
+        "en": "Fribourg",
         "de": "Freiburg",
         "fr": "Fribourg",
         "it": "Friburgo",
-        "en": "Fribourg"
+        "rm": "Friburg",
+        "es": "Friburgo",
+        "nl": "Fribourg",
+        "pl": "Fryburg",
+        "pt": "Friburgo",
+        "ru": "Фрибур",
+        "tr": "Fribourg"
       }
     },
     {
       "code": "CH-GE",
       "names": {
+        "en": "Geneva",
         "de": "Genf",
         "fr": "Genève",
         "it": "Ginevra",
-        "en": "Geneva"
+        "rm": "Genevra",
+        "es": "Ginebra",
+        "nl": "Genève",
+        "pl": "Genewa",
+        "pt": "Genebra",
+        "ru": "Женева",
+        "tr": "Cenevre"
       }
     },
     {
       "code": "CH-GL",
       "names": {
+        "en": "Glarus",
         "de": "Glarus",
         "fr": "Glaris",
         "it": "Glarona",
-        "en": "Glarus"
+        "rm": "Glaruna",
+        "es": "Glaris",
+        "nl": "Glarus",
+        "pl": "Glarus",
+        "pt": "Glarus",
+        "ru": "Гларус",
+        "tr": "Glarus"
       }
     },
     {
       "code": "CH-GR",
       "names": {
+        "en": "Graubünden",
         "de": "Graubünden",
         "fr": "Grisons",
         "it": "Grigioni",
-        "en": "Graubünden"
+        "rm": "Grischun",
+        "es": "Grisones",
+        "nl": "Graubünden",
+        "pl": "Gryzonia",
+        "pt": "Grisões",
+        "ru": "Граубюнден",
+        "tr": "Graubünden"
       }
     },
     {
       "code": "CH-JU",
       "names": {
+        "en": "Jura",
         "de": "Jura",
         "fr": "Jura",
         "it": "Giura",
-        "en": "Jura"
+        "rm": "Giura",
+        "es": "Jura",
+        "nl": "Jura",
+        "pl": "Jura",
+        "pt": "Jura",
+        "ru": "Юра",
+        "tr": "Jura"
       }
     },
     {
       "code": "CH-LU",
       "names": {
+        "en": "Lucerne",
         "de": "Luzern",
         "fr": "Lucerne",
         "it": "Lucerna",
-        "en": "Lucerne"
+        "rm": "Lucerna",
+        "es": "Lucerna",
+        "nl": "Luzern",
+        "pl": "Lucerna",
+        "pt": "Lucerna",
+        "ru": "Люцерн",
+        "tr": "Luzern"
       }
     },
     {
       "code": "CH-NE",
       "names": {
+        "en": "Neuchâtel",
         "de": "Neuenburg",
         "fr": "Neuchâtel",
         "it": "Neuchâtel",
-        "en": "Neuchâtel"
+        "rm": "Neuchâtel",
+        "es": "Neuchâtel",
+        "nl": "Neuchâtel",
+        "pl": "Neuchâtel",
+        "pt": "Neuchâtel",
+        "ru": "Невшатель",
+        "tr": "Neuchâtel"
       }
     },
     {
       "code": "CH-NW",
       "names": {
+        "en": "Nidwalden",
         "de": "Nidwalden",
         "fr": "Nidwald",
         "it": "Nidvaldo",
-        "en": "Nidwalden"
+        "rm": "Sutsilvania",
+        "es": "Nidwalden",
+        "nl": "Nidwalden",
+        "pl": "Nidwalden",
+        "pt": "Nidwald",
+        "ru": "Нидвальден",
+        "tr": "Nidwalden"
       }
     },
     {
       "code": "CH-OW",
       "names": {
+        "en": "Obwalden",
         "de": "Obwalden",
         "fr": "Obwald",
         "it": "Obvaldo",
-        "en": "Obwalden"
+        "rm": "Sursilvania",
+        "es": "Obwalden",
+        "nl": "Obwalden",
+        "pl": "Obwalden",
+        "pt": "Obwald",
+        "ru": "Обвальден",
+        "tr": "Obwalden"
       }
     },
     {
       "code": "CH-SG",
       "names": {
+        "en": "St. Gallen",
         "de": "St. Gallen",
         "fr": "Saint-Gall",
         "it": "San Gallo",
-        "en": "St. Gallen"
+        "rm": "Son Gagl",
+        "es": "San Galo",
+        "nl": "Sankt Gallen",
+        "pl": "St. Gallen",
+        "pt": "São Galo",
+        "ru": "Санкт-Галлен",
+        "tr": "St. Gallen"
       }
     },
     {
       "code": "CH-SH",
       "names": {
+        "en": "Schaffhausen",
         "de": "Schaffhausen",
         "fr": "Schaffhouse",
         "it": "Sciaffusa",
-        "en": "Schaffhausen"
+        "rm": "Schaffusa",
+        "es": "Schaffhausen",
+        "nl": "Schaffhausen",
+        "pl": "Szafuza",
+        "pt": "Schaffhausen",
+        "ru": "Шаффхаузен",
+        "tr": "Schaffhausen"
       }
     },
     {
       "code": "CH-SO",
       "names": {
+        "en": "Solothurn",
         "de": "Solothurn",
         "fr": "Soleure",
         "it": "Soletta",
-        "en": "Solothurn"
+        "rm": "Soloturn",
+        "es": "Soleura",
+        "nl": "Solothurn",
+        "pl": "Solura",
+        "pt": "Soleura",
+        "ru": "Золотурн",
+        "tr": "Solothurn"
       }
     },
     {
       "code": "CH-SZ",
       "names": {
+        "en": "Schwyz",
         "de": "Schwyz",
         "fr": "Schwytz",
         "it": "Svitto",
-        "en": "Schwyz"
+        "rm": "Sviz",
+        "es": "Schwyz",
+        "nl": "Schwyz",
+        "pl": "Schwyz",
+        "pt": "Schwyz",
+        "ru": "Швиц",
+        "tr": "Schwyz"
       }
     },
     {
       "code": "CH-TG",
       "names": {
+        "en": "Thurgau",
         "de": "Thurgau",
         "fr": "Thurgovie",
         "it": "Turgovia",
-        "en": "Thurgau"
+        "rm": "Turgovia",
+        "es": "Turgovia",
+        "nl": "Thurgau",
+        "pl": "Turgowia",
+        "pt": "Turgóvia",
+        "ru": "Тургау",
+        "tr": "Thurgau"
       }
     },
     {
       "code": "CH-TI",
       "names": {
+        "en": "Ticino",
         "de": "Tessin",
         "fr": "Tessin",
         "it": "Ticino",
-        "en": "Ticino"
+        "rm": "Tessin",
+        "es": "Tesino",
+        "nl": "Ticino",
+        "pl": "Ticino",
+        "pt": "Ticino",
+        "ru": "Тичино",
+        "tr": "Ticino"
       }
     },
     {
       "code": "CH-UR",
       "names": {
+        "en": "Uri",
         "de": "Uri",
         "fr": "Uri",
         "it": "Uri",
-        "en": "Uri"
+        "rm": "Uri",
+        "es": "Uri",
+        "nl": "Uri",
+        "pl": "Uri",
+        "pt": "Uri",
+        "ru": "Ури",
+        "tr": "Uri"
       }
     },
     {
       "code": "CH-VD",
       "names": {
+        "en": "Vaud",
         "de": "Waadt",
         "fr": "Vaud",
         "it": "Vaud",
-        "en": "Vaud"
+        "rm": "Vad",
+        "es": "Vaud",
+        "nl": "Vaud",
+        "pl": "Vaud",
+        "pt": "Vaud",
+        "ru": "Во",
+        "tr": "Vaud"
       }
     },
     {
       "code": "CH-VS",
       "names": {
+        "en": "Valais",
         "de": "Wallis",
         "fr": "Valais",
         "it": "Vallese",
-        "en": "Valais"
+        "rm": "Vallais",
+        "es": "Valais",
+        "nl": "Wallis",
+        "pl": "Valais",
+        "pt": "Valais",
+        "ru": "Вале",
+        "tr": "Valais"
       }
     },
     {
       "code": "CH-ZG",
       "names": {
+        "en": "Zug",
         "de": "Zug",
         "fr": "Zoug",
         "it": "Zugo",
-        "en": "Zug"
+        "rm": "Zug",
+        "es": "Zug",
+        "nl": "Zug",
+        "pl": "Zug",
+        "pt": "Zug",
+        "ru": "Цуг",
+        "tr": "Zug"
       }
     },
     {
       "code": "CH-ZH",
       "names": {
+        "en": "Zurich",
         "de": "Zürich",
         "fr": "Zurich",
         "it": "Zurigo",
-        "en": "Zurich"
+        "rm": "Turitg",
+        "es": "Zúrich",
+        "nl": "Zürich",
+        "pl": "Zurych",
+        "pt": "Zurique",
+        "ru": "Цюрих",
+        "tr": "Zürih"
       }
     }
   ],
@@ -286,7 +476,14 @@ export default {
         "en": "New Year’s Day",
         "de": "Neujahr",
         "fr": "Nouvel An",
-        "it": "Capodanno"
+        "it": "Capodanno",
+        "rm": "Bumaun",
+        "es": "Año Nuevo",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -328,7 +525,14 @@ export default {
         "en": "Berchtold’s Day",
         "de": "Berchtoldstag",
         "fr": "Saint-Berthold",
-        "it": "San Bertoldo"
+        "it": "San Bertoldo",
+        "rm": "Di da Berchtold",
+        "es": "Día de Berchtold",
+        "nl": "Berchtoldsdag",
+        "pl": "Dzień Berchtolda",
+        "pt": "Dia de Berchtold",
+        "ru": "День Берхтольда",
+        "tr": "Berchtold Günü"
       },
       "date": {
         "type": "fixed",
@@ -403,7 +607,14 @@ export default {
         "en": "Epiphany",
         "de": "Heilige Drei Könige",
         "fr": "Épiphanie",
-        "it": "Epifania"
+        "it": "Epifania",
+        "rm": "Babania",
+        "es": "Epifanía del Señor",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "date": {
         "type": "fixed",
@@ -439,7 +650,14 @@ export default {
         "en": "Republic Day",
         "de": "Jahrestag der Ausrufung der Republik",
         "fr": "Instauration de la République",
-        "it": "Anniversario della Repubblica"
+        "it": "Anniversario della Repubblica",
+        "rm": "Instauraziun da la Republica",
+        "es": "Día de la República",
+        "nl": "Dag van de Republiek",
+        "pl": "Święto Republiki",
+        "pt": "Dia da República",
+        "ru": "День Республики",
+        "tr": "Cumhuriyet Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -464,7 +682,14 @@ export default {
         "en": "Saint Joseph’s Day",
         "de": "Josefstag",
         "fr": "Saint-Joseph",
-        "it": "San Giuseppe"
+        "it": "San Giuseppe",
+        "rm": "Son Josef",
+        "es": "San José",
+        "nl": "Sint-Jozef",
+        "pl": "Dzień Świętego Józefa",
+        "pt": "Dia de São José",
+        "ru": "День святого Иосифа",
+        "tr": "Aziz Yusuf Günü"
       },
       "date": {
         "type": "fixed",
@@ -502,7 +727,14 @@ export default {
         "en": "Good Friday",
         "de": "Karfreitag",
         "fr": "Vendredi saint",
-        "it": "Venerdì santo"
+        "it": "Venerdì santo",
+        "rm": "Venderdi sontg",
+        "es": "Viernes Santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -528,7 +760,14 @@ export default {
         "en": "Easter Monday",
         "de": "Ostermontag",
         "fr": "Lundi de Pâques",
-        "it": "Lunedì dell’Angelo"
+        "it": "Lunedì dell’Angelo",
+        "rm": "Glindesdi da Pasca",
+        "es": "Lunes de Pascua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -603,7 +842,14 @@ export default {
         "en": "Näfels Pilgrimage",
         "de": "Näfelser Fahrt",
         "fr": "Fête de Näfels",
-        "it": "Pellegrinaggio di Näfels"
+        "it": "Pellegrinaggio di Näfels",
+        "rm": "Pelegrinadi da Näfels",
+        "es": "Peregrinación de Näfels",
+        "nl": "Bedevaart van Näfels",
+        "pl": "Pielgrzymka do Näfels",
+        "pt": "Peregrinação de Näfels",
+        "ru": "Паломничество в Нефельс",
+        "tr": "Näfels Hac Yürüyüşü"
       },
       "note": "First Thursday of April; one week later when that Thursday falls in Holy Week (2026 → 9 April).",
       "date": {
@@ -650,7 +896,14 @@ export default {
         "en": "Labour Day",
         "de": "Tag der Arbeit",
         "fr": "Fête du travail",
-        "it": "Festa del lavoro"
+        "it": "Festa del lavoro",
+        "rm": "Di da la lavur",
+        "es": "Fiesta del Trabajo",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -701,7 +954,14 @@ export default {
         "en": "Ascension Day",
         "de": "Auffahrt",
         "fr": "Ascension",
-        "it": "Ascensione"
+        "it": "Ascensione",
+        "rm": "Ascensiun",
+        "es": "Ascensión",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -723,7 +983,14 @@ export default {
         "en": "Whit Monday",
         "de": "Pfingstmontag",
         "fr": "Lundi de Pentecôte",
-        "it": "Lunedì di Pentecoste"
+        "it": "Lunedì di Pentecoste",
+        "rm": "Glindesdi da Tschuncaisma",
+        "es": "Lunes de Pentecostés",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -808,7 +1075,14 @@ export default {
         "en": "Corpus Christi",
         "de": "Fronleichnam",
         "fr": "Fête-Dieu",
-        "it": "Corpus Domini"
+        "it": "Corpus Domini",
+        "rm": "Sontgilcrest",
+        "es": "Corpus Christi",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "pt": "Corpo de Deus",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "date": {
         "type": "easter",
@@ -890,7 +1164,14 @@ export default {
         "en": "Jura Independence Day",
         "de": "Fest der Unabhängigkeit",
         "fr": "Commémoration du plébiscite jurassien",
-        "it": "Festa dell’indipendenza giurassiana"
+        "it": "Festa dell’indipendenza giurassiana",
+        "rm": "Festa da l’independenza giurassiana",
+        "es": "Fiesta de la Independencia del Jura",
+        "nl": "Onafhankelijkheidsdag van de Jura",
+        "pl": "Święto Niepodległości Jury",
+        "pt": "Dia da Independência do Jura",
+        "ru": "День независимости Юры",
+        "tr": "Jura Bağımsızlık Günü"
       },
       "date": {
         "type": "fixed",
@@ -916,7 +1197,14 @@ export default {
         "en": "Saints Peter and Paul",
         "de": "Peter und Paul",
         "fr": "Saint-Pierre et Saint-Paul",
-        "it": "Santi Pietro e Paolo"
+        "it": "Santi Pietro e Paolo",
+        "rm": "Son Pieder e Son Paul",
+        "es": "San Pedro y San Pablo",
+        "nl": "Sint-Petrus en Sint-Paulus",
+        "pl": "Uroczystość Świętych Apostołów Piotra i Pawła",
+        "pt": "São Pedro e São Paulo",
+        "ru": "День святых Петра и Павла",
+        "tr": "Aziz Petrus ve Aziz Pavlus Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -942,7 +1230,14 @@ export default {
         "en": "Swiss National Day",
         "de": "Bundesfeier",
         "fr": "Fête nationale",
-        "it": "Festa nazionale"
+        "it": "Festa nazionale",
+        "rm": "Festa naziunala",
+        "es": "Fiesta nacional suiza",
+        "nl": "Zwitserse nationale feestdag",
+        "pl": "Święto Narodowe Szwajcarii",
+        "pt": "Dia Nacional da Suíça",
+        "ru": "Национальный день Швейцарии",
+        "tr": "İsviçre Ulusal Günü"
       },
       "date": {
         "type": "fixed",
@@ -966,7 +1261,14 @@ export default {
         "en": "Assumption Day",
         "de": "Mariä Himmelfahrt",
         "fr": "Assomption",
-        "it": "Assunzione"
+        "it": "Assunzione",
+        "rm": "Assumziun da Maria",
+        "es": "Asunción de la Virgen",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -1039,7 +1341,14 @@ export default {
         "en": "Genevan Fast",
         "de": "Genfer Bettag",
         "fr": "Jeûne genevois",
-        "it": "Digiuno ginevrino"
+        "it": "Digiuno ginevrino",
+        "rm": "Jeûne genevois",
+        "es": "Ayuno de Ginebra",
+        "nl": "Geneefse vastendag",
+        "pl": "Genewski Dzień Postu",
+        "pt": "Jejum de Genebra",
+        "ru": "Женевский пост",
+        "tr": "Cenevre Orucu"
       },
       "note": "Thursday after the first Sunday of September.",
       "date": {
@@ -1067,7 +1376,14 @@ export default {
         "en": "Federal Fast Monday",
         "de": "Bettagsmontag",
         "fr": "Lundi du Jeûne fédéral",
-        "it": "Lunedì del Digiuno federale"
+        "it": "Lunedì del Digiuno federale",
+        "rm": "Glindesdi da la Rogaziun federala",
+        "es": "Lunes del Ayuno Federal",
+        "nl": "Maandag na de Federale Biddag",
+        "pl": "Poniedziałek po Federalnym Dniu Postu",
+        "pt": "Segunda-feira do Jejum Federal",
+        "ru": "Понедельник после Федерального дня молитвы",
+        "tr": "Federal Oruç Pazartesisi"
       },
       "note": "Monday after the third Sunday of September (the Federal Day of Thanksgiving, Repentance and Prayer).",
       "date": {
@@ -1095,7 +1411,14 @@ export default {
         "en": "Saint Maurice’s Day",
         "de": "Mauritiustag",
         "fr": "Saint-Maurice",
-        "it": "San Maurizio"
+        "it": "San Maurizio",
+        "rm": "San Murezzan",
+        "es": "San Mauricio",
+        "nl": "Sint-Mauritius",
+        "pl": "Dzień Świętego Maurycego",
+        "pt": "Dia de São Maurício",
+        "ru": "День святого Маврикия",
+        "tr": "Aziz Mauritius Günü"
       },
       "date": {
         "type": "fixed",
@@ -1121,7 +1444,14 @@ export default {
         "en": "Saint Nicholas of Flüe",
         "de": "Bruder Klaus",
         "fr": "Saint-Nicolas-de-Flüe",
-        "it": "San Nicolao della Flüe"
+        "it": "San Nicolao della Flüe",
+        "rm": "Son Niclau da Flüe",
+        "es": "San Nicolás de Flüe",
+        "nl": "Heilige Nicolaas van Flüe",
+        "pl": "Święty Mikołaj z Flüe",
+        "pt": "São Nicolau de Flüe",
+        "ru": "Святой Николай из Флюэ",
+        "tr": "Flüe’li Aziz Nikolaus"
       },
       "date": {
         "type": "fixed",
@@ -1147,7 +1477,14 @@ export default {
         "en": "All Saints’ Day",
         "de": "Allerheiligen",
         "fr": "Toussaint",
-        "it": "Ognissanti"
+        "it": "Ognissanti",
+        "rm": "Numnasontga",
+        "es": "Todos los Santos",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -1222,7 +1559,14 @@ export default {
         "en": "Immaculate Conception",
         "de": "Mariä Empfängnis",
         "fr": "Immaculée Conception",
-        "it": "Immacolata Concezione"
+        "it": "Immacolata Concezione",
+        "rm": "Immaculata Concepziun",
+        "es": "Inmaculada Concepción",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -1284,7 +1628,14 @@ export default {
         "en": "Christmas Day",
         "de": "Weihnachten",
         "fr": "Noël",
-        "it": "Natale"
+        "it": "Natale",
+        "rm": "Nadal",
+        "es": "Navidad",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -1326,7 +1677,14 @@ export default {
         "en": "Saint Stephen’s Day",
         "de": "Stephanstag",
         "fr": "Saint-Étienne",
-        "it": "Santo Stefano"
+        "it": "Santo Stefano",
+        "rm": "Son Steffan",
+        "es": "San Esteban",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "date": {
         "type": "fixed",
@@ -1418,7 +1776,14 @@ export default {
         "en": "Restoration of the Republic",
         "de": "Wiederherstellung der Republik",
         "fr": "Restauration de la République",
-        "it": "Restaurazione della Repubblica"
+        "it": "Restaurazione della Repubblica",
+        "rm": "Restauraziun da la Republica",
+        "es": "Restauración de la República",
+        "nl": "Herstel van de Republiek",
+        "pl": "Przywrócenie Republiki",
+        "pt": "Restauração da República",
+        "ru": "Восстановление Республики",
+        "tr": "Cumhuriyetin Yeniden Kuruluşu"
       },
       "date": {
         "type": "fixed",

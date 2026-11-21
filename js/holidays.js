@@ -5,6 +5,14 @@ import { buildYear, checkYear, HolidaysError, TYPES } from './engine.js';
 const DEFAULT_TYPES = ['public'];
 const SEARCH_YEARS = 10;
 
+/** A name by language tag, then base language, then English; own keys only. */
+function pick(names, language) {
+  const tag = String(language ?? '').replace(/_/g, '-');
+  if (Object.hasOwn(names, tag)) return names[tag];
+  const base = tag.split('-')[0].toLowerCase();
+  return Object.hasOwn(names, base) ? names[base] : names.en;
+}
+
 /**
  * Holidays over a set of compiled country rules (src/data/<cc>.json).
  * Method names, arguments and results match the PHP class
@@ -28,6 +36,17 @@ export class Holidays {
   /** Regions of a country: [{code, names}]. */
   regions(country) {
     return this.#country(this.#rules(country)).regions;
+  }
+
+  /**
+   * The name of a holiday in a language: the exact tag (`de-CH`; `_` is read
+   * as `-`), then its base language (`de`), then English. null for an unknown id.
+   */
+  name(id, language) {
+    const text = String(id ?? '').toLowerCase();
+    const code = text.split('.')[0].toUpperCase();
+    const holiday = Object.hasOwn(this.rules, code) ? this.rules[code].holidays.find((h) => h.id === text) : undefined;
+    return holiday === undefined ? null : pick(holiday.names, language);
   }
 
   /** The full year document (identical to json/<cc>/<year>.json). */

@@ -1,7 +1,5 @@
 # Test fixture: a country without regions.
 code: XY
-names: {en: Plainland, fr: Pays plat}
-languages: [fr]
 regions: []
 sources:
   fixture:

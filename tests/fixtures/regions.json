@@ -1,0 +1,42 @@
+{
+  "about": "Stands in for craftsmith/regions for the invented countries of the test fixtures (tests/fixtures/data, tests/fixtures/invalid) and countries/_template: country names, languages and region names, in the shape of the compiled regions files. Not real data.",
+  "countries": {
+    "XX": {
+      "code": "XX",
+      "names": {
+        "en": "Testland",
+        "de": "Testland"
+      },
+      "languages": [
+        "de"
+      ],
+      "regions": [
+        {
+          "code": "XX-AA",
+          "names": {
+            "en": "Alpha",
+            "de": "Alpha"
+          }
+        },
+        {
+          "code": "XX-BB",
+          "names": {
+            "en": "Beta",
+            "de": "Beta"
+          }
+        }
+      ]
+    },
+    "XY": {
+      "code": "XY",
+      "names": {
+        "en": "Plainland",
+        "fr": "Pays plat"
+      },
+      "languages": [
+        "fr"
+      ],
+      "regions": []
+    }
+  }
+}

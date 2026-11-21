@@ -3,8 +3,17 @@ export default {
   "format": 1,
   "code": "IT",
   "names": {
+    "en": "Italy",
     "it": "Italia",
-    "en": "Italy"
+    "fr": "Italie",
+    "de": "Italien",
+    "es": "Italia",
+    "nl": "Italië",
+    "pl": "Włochy",
+    "pt": "Itália",
+    "rm": "Italia",
+    "ru": "Италия",
+    "tr": "İtalya"
   },
   "languages": [
     "it"
@@ -13,148 +22,321 @@ export default {
     {
       "code": "IT-21",
       "names": {
+        "en": "Piedmont",
         "it": "Piemonte",
-        "en": "Piedmont"
+        "fr": "Piémont",
+        "de": "Piemont",
+        "es": "Piamonte",
+        "nl": "Piemonte",
+        "pl": "Piemont",
+        "pt": "Piemonte",
+        "rm": "Piemont",
+        "ru": "Пьемонт",
+        "tr": "Piyemonte"
       }
     },
     {
       "code": "IT-23",
       "names": {
+        "en": "Aosta Valley",
         "it": "Valle d’Aosta",
-        "en": "Aosta Valley"
+        "fr": "Vallée d’Aoste",
+        "de": "Aostatal",
+        "es": "Valle de Aosta",
+        "nl": "Valle d’Aosta",
+        "pl": "Dolina Aosty",
+        "pt": "Vale de Aosta",
+        "tr": "Aosta Vadisi"
       }
     },
     {
       "code": "IT-25",
       "names": {
+        "en": "Lombardy",
         "it": "Lombardia",
-        "en": "Lombardy"
+        "fr": "Lombardie",
+        "de": "Lombardei",
+        "es": "Lombardía",
+        "nl": "Lombardije",
+        "pl": "Lombardia",
+        "pt": "Lombardia",
+        "rm": "Lumbardia",
+        "ru": "Ломбардия",
+        "tr": "Lombardiya"
       }
     },
     {
       "code": "IT-34",
       "names": {
+        "en": "Veneto",
         "it": "Veneto",
-        "en": "Veneto"
+        "fr": "Vénétie",
+        "de": "Venetien",
+        "es": "Véneto",
+        "nl": "Veneto",
+        "pl": "Wenecja Euganejska",
+        "pt": "Véneto",
+        "ru": "Венеция",
+        "tr": "Veneto"
       }
     },
     {
       "code": "IT-36",
       "names": {
+        "en": "Friuli Venezia Giulia",
         "it": "Friuli Venezia Giulia",
-        "en": "Friuli Venezia Giulia"
+        "fr": "Frioul-Vénétie julienne",
+        "de": "Friaul-Julisch Venetien",
+        "es": "Friuli-Venecia Julia",
+        "nl": "Friuli-Venezia Giulia",
+        "pl": "Friuli-Wenecja Julijska",
+        "pt": "Friul-Veneza Júlia",
+        "ru": "Фриули-Венеция-Джулия",
+        "tr": "Friuli-Venezia Giulia"
       }
     },
     {
       "code": "IT-42",
       "names": {
+        "en": "Liguria",
         "it": "Liguria",
-        "en": "Liguria"
+        "fr": "Ligurie",
+        "de": "Ligurien",
+        "es": "Liguria",
+        "nl": "Ligurië",
+        "pl": "Liguria",
+        "pt": "Ligúria",
+        "rm": "Liguria",
+        "ru": "Лигурия",
+        "tr": "Ligurya"
       }
     },
     {
       "code": "IT-45",
       "names": {
+        "en": "Emilia-Romagna",
         "it": "Emilia-Romagna",
-        "en": "Emilia-Romagna"
+        "fr": "Émilie-Romagne",
+        "de": "Emilia-Romagna",
+        "es": "Emilia-Romaña",
+        "nl": "Emilia-Romagna",
+        "pl": "Emilia-Romania",
+        "pt": "Emília-Romanha",
+        "ru": "Эмилия-Романья",
+        "tr": "Emilia-Romagna"
       }
     },
     {
       "code": "IT-52",
       "names": {
+        "en": "Tuscany",
         "it": "Toscana",
-        "en": "Tuscany"
+        "fr": "Toscane",
+        "de": "Toskana",
+        "es": "Toscana",
+        "nl": "Toscane",
+        "pl": "Toskania",
+        "pt": "Toscana",
+        "rm": "Toscana",
+        "ru": "Тоскана",
+        "tr": "Toskana"
       }
     },
     {
       "code": "IT-55",
       "names": {
+        "en": "Umbria",
         "it": "Umbria",
-        "en": "Umbria"
+        "fr": "Ombrie",
+        "de": "Umbrien",
+        "es": "Umbría",
+        "nl": "Umbrië",
+        "pl": "Umbria",
+        "pt": "Úmbria",
+        "ru": "Умбрия",
+        "tr": "Umbria"
       }
     },
     {
       "code": "IT-57",
       "names": {
+        "en": "Marche",
         "it": "Marche",
-        "en": "Marche"
+        "fr": "Marches",
+        "de": "Marken",
+        "es": "Marcas",
+        "nl": "Marche",
+        "pl": "Marche",
+        "pt": "Marcas",
+        "ru": "Марке",
+        "tr": "Marche"
       }
     },
     {
       "code": "IT-62",
       "names": {
+        "en": "Lazio",
         "it": "Lazio",
-        "en": "Lazio"
+        "fr": "Latium",
+        "de": "Latium",
+        "es": "Lacio",
+        "nl": "Lazio",
+        "pl": "Lacjum",
+        "pt": "Lácio",
+        "rm": "Lazio",
+        "ru": "Лацио",
+        "tr": "Lazio"
       }
     },
     {
       "code": "IT-65",
       "names": {
+        "en": "Abruzzo",
         "it": "Abruzzo",
-        "en": "Abruzzo"
+        "fr": "Abruzzes",
+        "de": "Abruzzen",
+        "es": "Abruzos",
+        "nl": "Abruzzen",
+        "pl": "Abruzja",
+        "pt": "Abruzos",
+        "ru": "Абруццо",
+        "tr": "Abruzzo"
       }
     },
     {
       "code": "IT-67",
       "names": {
+        "en": "Molise",
         "it": "Molise",
-        "en": "Molise"
+        "fr": "Molise",
+        "de": "Molise",
+        "es": "Molise",
+        "nl": "Molise",
+        "pl": "Molise",
+        "pt": "Molise",
+        "ru": "Молизе",
+        "tr": "Molise"
       }
     },
     {
       "code": "IT-72",
       "names": {
+        "en": "Campania",
         "it": "Campania",
-        "en": "Campania"
+        "fr": "Campanie",
+        "de": "Kampanien",
+        "es": "Campania",
+        "nl": "Campania",
+        "pl": "Kampania",
+        "pt": "Campânia",
+        "ru": "Кампания",
+        "tr": "Campania"
       }
     },
     {
       "code": "IT-75",
       "names": {
+        "en": "Apulia",
         "it": "Puglia",
-        "en": "Apulia"
+        "fr": "Pouilles",
+        "de": "Apulien",
+        "es": "Apulia",
+        "nl": "Apulië",
+        "pl": "Apulia",
+        "pt": "Apúlia",
+        "ru": "Апулия",
+        "tr": "Puglia"
       }
     },
     {
       "code": "IT-77",
       "names": {
+        "en": "Basilicata",
         "it": "Basilicata",
-        "en": "Basilicata"
+        "fr": "Basilicate",
+        "de": "Basilikata",
+        "es": "Basilicata",
+        "nl": "Basilicata",
+        "pl": "Basilicata",
+        "pt": "Basilicata",
+        "ru": "Базиликата",
+        "tr": "Basilicata"
       }
     },
     {
       "code": "IT-78",
       "names": {
+        "en": "Calabria",
         "it": "Calabria",
-        "en": "Calabria"
+        "fr": "Calabre",
+        "de": "Kalabrien",
+        "es": "Calabria",
+        "nl": "Calabrië",
+        "pl": "Kalabria",
+        "pt": "Calábria",
+        "ru": "Калабрия",
+        "tr": "Calabria"
       }
     },
     {
       "code": "IT-82",
       "names": {
+        "en": "Sicily",
         "it": "Sicilia",
-        "en": "Sicily"
+        "fr": "Sicile",
+        "de": "Sizilien",
+        "es": "Sicilia",
+        "nl": "Sicilië",
+        "pl": "Sycylia",
+        "pt": "Sicília",
+        "ru": "Сицилия",
+        "tr": "Sicilya"
       }
     },
     {
       "code": "IT-88",
       "names": {
+        "en": "Sardinia",
         "it": "Sardegna",
-        "en": "Sardinia"
+        "fr": "Sardaigne",
+        "de": "Sardinien",
+        "es": "Cerdeña",
+        "nl": "Sardinië",
+        "pl": "Sardynia",
+        "pt": "Sardenha",
+        "ru": "Сардиния",
+        "tr": "Sardinya"
       }
     },
     {
       "code": "IT-BZ",
       "names": {
-        "it": "Provincia autonoma di Bolzano – Alto Adige",
-        "en": "South Tyrol (Autonomous Province of Bolzano)"
+        "en": "South Tyrol",
+        "it": "Bolzano",
+        "fr": "Bolzano",
+        "de": "Südtirol",
+        "es": "Bolzano",
+        "nl": "Zuid-Tirol",
+        "pl": "Bolzano",
+        "pt": "Autónoma de Bolzano",
+        "rm": "Tirol dal Sid",
+        "ru": "Больцано",
+        "tr": "Güney Tirol"
       }
     },
     {
       "code": "IT-TN",
       "names": {
-        "it": "Provincia autonoma di Trento",
-        "en": "Trentino (Autonomous Province of Trento)"
+        "en": "Trentino",
+        "it": "Trento",
+        "fr": "Trente",
+        "de": "Trentino",
+        "es": "Trento",
+        "nl": "Trente",
+        "pl": "Trydent",
+        "pt": "Autónoma de Trento",
+        "ru": "Тренто",
+        "tr": "Trento"
       }
     }
   ],
@@ -221,7 +403,16 @@ export default {
       "id": "it.new-year",
       "names": {
         "en": "New Year’s Day",
-        "it": "Capodanno"
+        "it": "Capodanno",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -243,7 +434,16 @@ export default {
       "id": "it.epiphany",
       "names": {
         "en": "Epiphany",
-        "it": "Epifania"
+        "it": "Epifania",
+        "de": "Heilige Drei Könige",
+        "es": "Epifanía del Señor",
+        "fr": "Épiphanie",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "date": {
         "type": "fixed",
@@ -267,7 +467,16 @@ export default {
       "id": "it.unification-150",
       "names": {
         "en": "150th Anniversary of the Unification of Italy",
-        "it": "Festa nazionale per il 150° anniversario dell’Unità d’Italia"
+        "it": "Festa nazionale per il 150° anniversario dell’Unità d’Italia",
+        "de": "150. Jahrestag der Einigung Italiens",
+        "es": "150.º aniversario de la unificación de Italia",
+        "fr": "150e anniversaire de l’unité italienne",
+        "nl": "150e verjaardag van de eenwording van Italië",
+        "pl": "150. rocznica zjednoczenia Włoch",
+        "pt": "150.º aniversário da unificação de Itália",
+        "rm": "150avel anniversari da l’unificaziun da l’Italia",
+        "ru": "150-летие объединения Италии",
+        "tr": "İtalya’nın birleşmesinin 150. yıl dönümü"
       },
       "date": {
         "type": "list",
@@ -290,7 +499,16 @@ export default {
       "id": "it.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "it": "Lunedì dell’Angelo"
+        "it": "Lunedì dell’Angelo",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "note": "Legge 260/1949 Art. 2 calls it \"il giorno di lunedì dopo Pasqua\".",
       "date": {
@@ -311,7 +529,16 @@ export default {
       "id": "it.liberation-day",
       "names": {
         "en": "Liberation Day",
-        "it": "Anniversario della Liberazione"
+        "it": "Anniversario della Liberazione",
+        "de": "Tag der Befreiung",
+        "es": "Día de la Liberación",
+        "fr": "Fête de la Libération",
+        "nl": "Bevrijdingsdag",
+        "pl": "Dzień Wyzwolenia",
+        "pt": "Dia da Libertação",
+        "rm": "Di da la liberaziun",
+        "ru": "День освобождения",
+        "tr": "Kurtuluş Günü"
       },
       "date": {
         "type": "fixed",
@@ -332,7 +559,16 @@ export default {
       "id": "it.labour-day",
       "names": {
         "en": "Labour Day",
-        "it": "Festa del lavoro"
+        "it": "Festa del lavoro",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -353,7 +589,16 @@ export default {
       "id": "it.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "it": "Lunedì di Pentecoste"
+        "it": "Lunedì di Pentecoste",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -377,7 +622,16 @@ export default {
       "id": "it.national-day",
       "names": {
         "en": "Republic Day",
-        "it": "Festa della Repubblica"
+        "it": "Festa della Repubblica",
+        "de": "Tag der Republik",
+        "es": "Día de la República",
+        "fr": "Fête de la République",
+        "nl": "Dag van de Republiek",
+        "pl": "Święto Republiki",
+        "pt": "Dia da República",
+        "rm": "Di da la republica",
+        "ru": "День Республики",
+        "tr": "Cumhuriyet Bayramı"
       },
       "note": "Legge 260/1949 Art. 1. In 2000 it was held on the first Sunday of June (Legge 54/1977); Legge 336/2000 moved it back to 2 June from 2001.",
       "date": {
@@ -401,7 +655,16 @@ export default {
       "id": "it.assumption",
       "names": {
         "en": "Assumption Day",
-        "it": "Assunzione di Maria Vergine"
+        "it": "Assunzione di Maria Vergine",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -423,7 +686,16 @@ export default {
       "id": "it.saint-francis",
       "names": {
         "en": "Feast of Saint Francis of Assisi",
-        "it": "Festa nazionale di San Francesco d’Assisi"
+        "it": "Festa nazionale di San Francesco d’Assisi",
+        "de": "Fest des heiligen Franz von Assisi",
+        "es": "Fiesta de San Francisco de Asís",
+        "fr": "Fête de saint François d’Assise",
+        "nl": "Feest van Sint-Franciscus van Assisi",
+        "pl": "Święto Świętego Franciszka z Asyżu",
+        "pt": "Festa de São Francisco de Assis",
+        "rm": "Festa da Son Francestg d’Assisi",
+        "ru": "День святого Франциска Ассизского",
+        "tr": "Assisili Aziz Francesco Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -446,7 +718,16 @@ export default {
       "id": "it.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "it": "Ognissanti"
+        "it": "Ognissanti",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -468,7 +749,16 @@ export default {
       "id": "it.immaculate-conception",
       "names": {
         "en": "Immaculate Conception",
-        "it": "Immacolata Concezione"
+        "it": "Immacolata Concezione",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -490,7 +780,16 @@ export default {
       "id": "it.christmas",
       "names": {
         "en": "Christmas Day",
-        "it": "Natale"
+        "it": "Natale",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -512,7 +811,16 @@ export default {
       "id": "it.saint-stephen",
       "names": {
         "en": "Saint Stephen’s Day",
-        "it": "Santo Stefano"
+        "it": "Santo Stefano",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "note": "Legge 260/1949 Art. 2 says only \"il giorno 26 dicembre\".",
       "date": {

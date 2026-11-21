@@ -3,8 +3,18 @@ export default {
   "format": 1,
   "code": "AD",
   "names": {
+    "en": "Andorra",
     "ca": "Andorra",
-    "en": "Andorra"
+    "de": "Andorra",
+    "es": "Andorra",
+    "fr": "Andorre",
+    "it": "Andorra",
+    "nl": "Andorra",
+    "pl": "Andora",
+    "pt": "Andorra",
+    "rm": "Andorra",
+    "ru": "Андорра",
+    "tr": "Andorra"
   },
   "languages": [
     "ca"
@@ -13,50 +23,115 @@ export default {
     {
       "code": "AD-02",
       "names": {
+        "en": "Canillo",
         "ca": "Canillo",
-        "en": "Canillo"
+        "de": "Canillo",
+        "es": "Canillo",
+        "fr": "Canillo",
+        "it": "Canillo",
+        "nl": "Canillo",
+        "pl": "Canillo",
+        "pt": "Canillo",
+        "ru": "Канильо",
+        "tr": "Canillo"
       }
     },
     {
       "code": "AD-03",
       "names": {
+        "en": "Encamp",
         "ca": "Encamp",
-        "en": "Encamp"
+        "de": "Encamp",
+        "es": "Encamp",
+        "fr": "Encamp",
+        "it": "Encamp",
+        "nl": "Encamp",
+        "pl": "Encamp",
+        "pt": "Encamp",
+        "ru": "Энкамп",
+        "tr": "Encamp"
       }
     },
     {
       "code": "AD-04",
       "names": {
+        "en": "La Massana",
         "ca": "La Massana",
-        "en": "La Massana"
+        "de": "La Massana",
+        "es": "La Massana",
+        "fr": "La Massana",
+        "it": "La Massana",
+        "nl": "La Massana",
+        "pl": "La Massana",
+        "pt": "La Massana",
+        "ru": "Ла-Массана",
+        "tr": "La Massana"
       }
     },
     {
       "code": "AD-05",
       "names": {
+        "en": "Ordino",
         "ca": "Ordino",
-        "en": "Ordino"
+        "de": "Ordino",
+        "es": "Ordino",
+        "fr": "Ordino",
+        "it": "Ordino",
+        "nl": "Ordino",
+        "pl": "Ordino",
+        "pt": "Ordino",
+        "rm": "Ordino",
+        "ru": "Ордино",
+        "tr": "Ordino"
       }
     },
     {
       "code": "AD-06",
       "names": {
+        "en": "Sant Julià de Lòria",
         "ca": "Sant Julià de Lòria",
-        "en": "Sant Julià de Lòria"
+        "de": "Sant Julià de Lòria",
+        "es": "San Julián de Loria",
+        "fr": "Sant Julià de Lòria",
+        "it": "Sant Julià de Lòria",
+        "nl": "Sant Julià de Lòria",
+        "pl": "Sant Julià de Lòria",
+        "pt": "Sant Julià de Lòria",
+        "rm": "Sant Julià de Lòria",
+        "ru": "Сант-Жулия-де-Лория",
+        "tr": "Sant Julià de Lòria"
       }
     },
     {
       "code": "AD-07",
       "names": {
+        "en": "Andorra la Vella",
         "ca": "Andorra la Vella",
-        "en": "Andorra la Vella"
+        "de": "Andorra la Vella",
+        "es": "Andorra la Vella",
+        "fr": "Andorre-la-Vieille",
+        "it": "Andorra la Vella",
+        "nl": "Parochie Andorra la Vella",
+        "pl": "Andora",
+        "pt": "Andorra-a-Velha",
+        "ru": "Андорра-ла-Велья",
+        "tr": "Andorra la Vella"
       }
     },
     {
       "code": "AD-08",
       "names": {
+        "en": "Escaldes-Engordany",
         "ca": "Escaldes-Engordany",
-        "en": "Escaldes-Engordany"
+        "de": "Escaldes-Engordany",
+        "es": "Escaldes-Engordany",
+        "fr": "Escaldes-Engordany",
+        "it": "Escaldes-Engordany",
+        "nl": "Escaldes-Engordany",
+        "pl": "Escaldes-Engordany",
+        "pt": "Escaldes-Engordany",
+        "ru": "Эскальдес-Энгордань",
+        "tr": "Escaldes-Engordany"
       }
     }
   ],
@@ -100,7 +175,17 @@ export default {
       "id": "ad.new-year",
       "names": {
         "en": "New Year’s Day",
-        "ca": "Cap d’Any"
+        "ca": "Cap d’Any",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -127,7 +212,17 @@ export default {
       "id": "ad.epiphany",
       "names": {
         "en": "Epiphany",
-        "ca": "Reis"
+        "ca": "Reis",
+        "de": "Heilige Drei Könige",
+        "es": "Epifanía del Señor",
+        "fr": "Épiphanie",
+        "it": "Epifania",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "date": {
         "type": "fixed",
@@ -155,7 +250,17 @@ export default {
       "id": "ad.carnival",
       "names": {
         "en": "Carnival",
-        "ca": "Carnaval"
+        "ca": "Carnaval",
+        "de": "Karneval",
+        "es": "Carnaval",
+        "fr": "Carnaval",
+        "it": "Carnevale",
+        "nl": "Carnaval",
+        "pl": "Karnawał",
+        "pt": "Carnaval",
+        "rm": "Tschaiver",
+        "ru": "Карнавал",
+        "tr": "Karnaval"
       },
       "note": "The decree sets the day each year; 2024 was a Tuesday (20 February), 2025-2027 the Monday before Ash Wednesday.",
       "date": {
@@ -186,7 +291,17 @@ export default {
       "id": "ad.constitution-day",
       "names": {
         "en": "Constitution Day",
-        "ca": "Dia de la Constitució"
+        "ca": "Dia de la Constitució",
+        "de": "Tag der Verfassung",
+        "es": "Día de la Constitución",
+        "fr": "Jour de la Constitution",
+        "it": "Giorno della Costituzione",
+        "nl": "Dag van de Grondwet",
+        "pl": "Dzień Konstytucji",
+        "pt": "Dia da Constituição",
+        "rm": "Di da la Constituziun",
+        "ru": "День Конституции",
+        "tr": "Anayasa Günü"
       },
       "date": {
         "type": "fixed",
@@ -213,7 +328,17 @@ export default {
       "id": "ad.good-friday",
       "names": {
         "en": "Good Friday",
-        "ca": "Divendres Sant"
+        "ca": "Divendres Sant",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -240,7 +365,17 @@ export default {
       "id": "ad.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "ca": "Dilluns de Pasqua"
+        "ca": "Dilluns de Pasqua",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -267,7 +402,17 @@ export default {
       "id": "ad.labour-day",
       "names": {
         "en": "Labour Day",
-        "ca": "Festa del treball"
+        "ca": "Festa del treball",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -295,7 +440,17 @@ export default {
       "id": "ad.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "ca": "Dilluns de Pentecosta"
+        "ca": "Dilluns de Pentecosta",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -322,7 +477,17 @@ export default {
       "id": "ad.assumption",
       "names": {
         "en": "Assumption Day",
-        "ca": "L’Assumpció"
+        "ca": "L’Assumpció",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -350,7 +515,17 @@ export default {
       "id": "ad.meritxell",
       "names": {
         "en": "Our Lady of Meritxell",
-        "ca": "Nostra Senyora de Meritxell"
+        "ca": "Nostra Senyora de Meritxell",
+        "de": "Unsere Liebe Frau von Meritxell",
+        "es": "Nuestra Señora de Meritxell",
+        "fr": "Notre-Dame de Meritxell",
+        "it": "Nostra Signora di Meritxell",
+        "nl": "Onze-Lieve-Vrouw van Meritxell",
+        "pl": "Matka Boża z Meritxell",
+        "pt": "Nossa Senhora de Meritxell",
+        "rm": "Nossadunna da Meritxell",
+        "ru": "Богоматерь Меричельская",
+        "tr": "Meritxell Meryem Ana Günü"
       },
       "date": {
         "type": "fixed",
@@ -377,7 +552,17 @@ export default {
       "id": "ad.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "ca": "Tots Sants"
+        "ca": "Tots Sants",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -405,7 +590,17 @@ export default {
       "id": "ad.immaculate-conception",
       "names": {
         "en": "Immaculate Conception",
-        "ca": "Immaculada Concepció"
+        "ca": "Immaculada Concepció",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -433,7 +628,17 @@ export default {
       "id": "ad.christmas",
       "names": {
         "en": "Christmas Day",
-        "ca": "Nadal"
+        "ca": "Nadal",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -460,7 +665,17 @@ export default {
       "id": "ad.saint-stephen",
       "names": {
         "en": "Saint Stephen’s Day",
-        "ca": "Sant Esteve"
+        "ca": "Sant Esteve",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "date": {
         "type": "fixed",

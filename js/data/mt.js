@@ -3,8 +3,18 @@ export default {
   "format": 1,
   "code": "MT",
   "names": {
+    "en": "Malta",
     "mt": "Malta",
-    "en": "Malta"
+    "de": "Malta",
+    "es": "Malta",
+    "fr": "Malte",
+    "it": "Malta",
+    "nl": "Malta",
+    "pl": "Malta",
+    "pt": "Malta",
+    "rm": "Malta",
+    "ru": "Мальта",
+    "tr": "Malta"
   },
   "languages": [
     "mt",
@@ -32,7 +42,17 @@ export default {
       "id": "mt.new-year",
       "names": {
         "en": "New Year’s Day",
-        "mt": "L-Ewwel tas-Sena"
+        "mt": "L-Ewwel tas-Sena",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -54,7 +74,17 @@ export default {
       "id": "mt.saint-pauls-shipwreck",
       "names": {
         "en": "Feast of St. Paul’s Shipwreck",
-        "mt": "Il-Festa tan-Nawfraġju ta’ San Pawl"
+        "mt": "Il-Festa tan-Nawfraġju ta’ San Pawl",
+        "de": "Fest des Schiffbruchs des Apostels Paulus",
+        "es": "Fiesta del Naufragio de San Pablo",
+        "fr": "Fête du naufrage de saint Paul",
+        "it": "Festa del naufragio di San Paolo",
+        "nl": "Feest van de schipbreuk van Sint-Paulus",
+        "pl": "Święto Rozbicia Statku Świętego Pawła",
+        "pt": "Festa do Naufrágio de São Paulo",
+        "rm": "Festa dal naufragi da Son Paul",
+        "ru": "Праздник кораблекрушения святого Павла",
+        "tr": "Aziz Pavlus’un Gemi Kazası Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -76,7 +106,17 @@ export default {
       "id": "mt.saint-joseph",
       "names": {
         "en": "Feast of St. Joseph",
-        "mt": "Il-Festa ta’ San Ġużepp"
+        "mt": "Il-Festa ta’ San Ġużepp",
+        "de": "Josefstag",
+        "es": "San José",
+        "fr": "Saint-Joseph",
+        "it": "San Giuseppe",
+        "nl": "Sint-Jozef",
+        "pl": "Dzień Świętego Józefa",
+        "pt": "Dia de São José",
+        "rm": "Son Josef",
+        "ru": "День святого Иосифа",
+        "tr": "Aziz Yusuf Günü"
       },
       "date": {
         "type": "fixed",
@@ -98,7 +138,17 @@ export default {
       "id": "mt.freedom-day",
       "names": {
         "en": "Freedom Day",
-        "mt": "Jum il-Ħelsien"
+        "mt": "Jum il-Ħelsien",
+        "de": "Tag der Freiheit",
+        "es": "Día de la Libertad",
+        "fr": "Jour de la Liberté",
+        "it": "Giorno della Libertà",
+        "nl": "Dag van de Vrijheid",
+        "pl": "Dzień Wolności",
+        "pt": "Dia da Liberdade",
+        "rm": "Di da la libertad",
+        "ru": "День свободы",
+        "tr": "Özgürlük Günü"
       },
       "date": {
         "type": "fixed",
@@ -120,7 +170,17 @@ export default {
       "id": "mt.good-friday",
       "names": {
         "en": "Good Friday",
-        "mt": "Il-Ġimgħa l-Kbira"
+        "mt": "Il-Ġimgħa l-Kbira",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -141,7 +201,17 @@ export default {
       "id": "mt.labour-day",
       "names": {
         "en": "Workers’ Day",
-        "mt": "Jum il-Ħaddiem"
+        "mt": "Jum il-Ħaddiem",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -163,7 +233,17 @@ export default {
       "id": "mt.sette-giugno",
       "names": {
         "en": "Sette Giugno",
-        "mt": "Sette Giugno"
+        "mt": "Sette Giugno",
+        "de": "Sette Giugno",
+        "es": "Sette Giugno",
+        "fr": "Sette Giugno",
+        "it": "Sette giugno",
+        "nl": "Sette Giugno",
+        "pl": "Sette Giugno",
+        "pt": "Sette Giugno",
+        "rm": "Sette Giugno",
+        "ru": "Сетте Джуньо",
+        "tr": "Sette Giugno"
       },
       "date": {
         "type": "fixed",
@@ -185,7 +265,17 @@ export default {
       "id": "mt.saints-peter-and-paul",
       "names": {
         "en": "Feast of St. Peter and St. Paul",
-        "mt": "Il-Festa ta’ San Pietru u San Pawl"
+        "mt": "Il-Festa ta’ San Pietru u San Pawl",
+        "de": "Peter und Paul",
+        "es": "San Pedro y San Pablo",
+        "fr": "Saint-Pierre et Saint-Paul",
+        "it": "Santi Pietro e Paolo",
+        "nl": "Sint-Petrus en Sint-Paulus",
+        "pl": "Uroczystość Świętych Apostołów Piotra i Pawła",
+        "pt": "São Pedro e São Paulo",
+        "rm": "Son Pieder e Son Paul",
+        "ru": "День святых Петра и Павла",
+        "tr": "Aziz Petrus ve Aziz Pavlus Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -207,7 +297,17 @@ export default {
       "id": "mt.assumption",
       "names": {
         "en": "Feast of the Assumption",
-        "mt": "Il-Festa ta’ Santa Marija"
+        "mt": "Il-Festa ta’ Santa Marija",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -229,7 +329,17 @@ export default {
       "id": "mt.victory-day",
       "names": {
         "en": "Victory Day",
-        "mt": "Jum il-Vittorja"
+        "mt": "Jum il-Vittorja",
+        "de": "Tag des Sieges",
+        "es": "Día de la Victoria",
+        "fr": "Jour de la Victoire",
+        "it": "Giorno della Vittoria",
+        "nl": "Dag van de Overwinning",
+        "pl": "Dzień Zwycięstwa",
+        "pt": "Dia da Vitória",
+        "rm": "Di da la victoria",
+        "ru": "День Победы",
+        "tr": "Zafer Günü"
       },
       "date": {
         "type": "fixed",
@@ -251,7 +361,17 @@ export default {
       "id": "mt.independence-day",
       "names": {
         "en": "Independence Day",
-        "mt": "Jum l-Indipendenza"
+        "mt": "Jum l-Indipendenza",
+        "de": "Unabhängigkeitstag",
+        "es": "Día de la Independencia",
+        "fr": "Fête de l’Indépendance",
+        "it": "Festa dell’Indipendenza",
+        "nl": "Onafhankelijkheidsdag",
+        "pl": "Dzień Niepodległości",
+        "pt": "Dia da Independência",
+        "rm": "Di da l’independenza",
+        "ru": "День независимости",
+        "tr": "Bağımsızlık Günü"
       },
       "date": {
         "type": "fixed",
@@ -273,7 +393,17 @@ export default {
       "id": "mt.immaculate-conception",
       "names": {
         "en": "Feast of the Immaculate Conception",
-        "mt": "Il-Festa tal-Immakulata Kunċizzjoni"
+        "mt": "Il-Festa tal-Immakulata Kunċizzjoni",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -295,7 +425,17 @@ export default {
       "id": "mt.republic-day",
       "names": {
         "en": "Republic Day",
-        "mt": "Jum ir-Repubblika"
+        "mt": "Jum ir-Repubblika",
+        "de": "Tag der Republik",
+        "es": "Día de la República",
+        "fr": "Fête de la République",
+        "it": "Festa della Repubblica",
+        "nl": "Dag van de Republiek",
+        "pl": "Święto Republiki",
+        "pt": "Dia da República",
+        "rm": "Di da la republica",
+        "ru": "День Республики",
+        "tr": "Cumhuriyet Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -317,7 +457,17 @@ export default {
       "id": "mt.christmas",
       "names": {
         "en": "Christmas Day",
-        "mt": "Il-Milied"
+        "mt": "Il-Milied",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",

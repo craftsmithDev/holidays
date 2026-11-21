@@ -1,4 +1,4 @@
-// Build: validates countries/ and writes
+// Build: validates countries/ and translations/ (names from craftsmith/regions) and writes
 //   src/data/<cc>.json          compiled rules (read by the PHP runtime)
 //   js/data/<cc>.js, index.js   the same rules as ES modules (JS runtime)
 //   json/<cc>/<year>.json, json/index.json   precomputed years (FILE_YEARS)
@@ -7,14 +7,23 @@
 
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { countryDirs, FILE_YEARS, loadCountry, ROOT, validators } from './lib/data.mjs';
+import {
+  checkTranslationIds,
+  countryDirs,
+  FILE_YEARS,
+  FIXTURE_REGIONS,
+  loadCountry,
+  ROOT,
+  TRANSLATIONS,
+  validators,
+} from './lib/data.mjs';
 import { buildYear, encode, FORMAT } from '../js/engine.js';
 
-const problems = [];
-const compile = (dir) => {
+const problems = [...TRANSLATIONS.errors];
+const compile = (dir, options = {}) => {
   const out = [];
   for (const country of countryDirs(dir)) {
-    const { rules, errors } = loadCountry(country);
+    const { rules, errors } = loadCountry(country, options);
     problems.push(...errors);
     if (rules) out.push(rules);
   }
@@ -22,8 +31,9 @@ const compile = (dir) => {
 };
 
 const countries = compile(join(ROOT, 'countries'));
-const fixtures = compile(join(ROOT, 'tests/fixtures/data'));
-problems.push(...loadCountry(join(ROOT, 'countries/_template'), { expectCode: false }).errors);
+const fixtures = compile(join(ROOT, 'tests/fixtures/data'), { regions: FIXTURE_REGIONS, translations: {} });
+problems.push(...loadCountry(join(ROOT, 'countries/_template'), { expectCode: false, regions: FIXTURE_REGIONS, translations: {} }).errors);
+problems.push(...checkTranslationIds(TRANSLATIONS.translations, countries));
 
 if (problems.length > 0) {
   console.error(`Invalid data (${problems.length}):\n- ${problems.join('\n- ')}`);

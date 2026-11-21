@@ -2,8 +2,17 @@
   "format": 1,
   "code": "DE",
   "names": {
+    "en": "Germany",
     "de": "Deutschland",
-    "en": "Germany"
+    "es": "Alemania",
+    "fr": "Allemagne",
+    "it": "Germania",
+    "nl": "Duitsland",
+    "pl": "Niemcy",
+    "pt": "Alemanha",
+    "rm": "Germania",
+    "ru": "Германия",
+    "tr": "Almanya"
   },
   "languages": [
     "de"
@@ -12,113 +21,257 @@
     {
       "code": "DE-BB",
       "names": {
+        "en": "Brandenburg",
         "de": "Brandenburg",
-        "en": "Brandenburg"
+        "es": "Brandeburgo",
+        "fr": "Brandebourg",
+        "it": "Brandeburgo",
+        "nl": "Brandenburg",
+        "pl": "Brandenburgia",
+        "pt": "Brandemburgo",
+        "rm": "Brandenburg",
+        "ru": "Бранденбург",
+        "tr": "Brandenburg"
       }
     },
     {
       "code": "DE-BE",
       "names": {
+        "en": "Berlin",
         "de": "Berlin",
-        "en": "Berlin"
+        "es": "Berlín",
+        "fr": "Berlin",
+        "it": "Berlino",
+        "nl": "Berlijn",
+        "pl": "Berlin",
+        "pt": "Berlim",
+        "rm": "Berlin",
+        "ru": "Берлин",
+        "tr": "Berlin"
       }
     },
     {
       "code": "DE-BW",
       "names": {
+        "en": "Baden-Württemberg",
         "de": "Baden-Württemberg",
-        "en": "Baden-Württemberg"
+        "es": "Baden-Wurtemberg",
+        "fr": "Bade-Wurtemberg",
+        "it": "Baden-Württemberg",
+        "nl": "Baden-Württemberg",
+        "pl": "Badenia-Wirtembergia",
+        "pt": "Baden-Württemberg",
+        "rm": "Baden-Württemberg",
+        "ru": "Баден-Вюртемберг",
+        "tr": "Baden-Württemberg"
       }
     },
     {
       "code": "DE-BY",
       "names": {
+        "en": "Bavaria",
         "de": "Bayern",
-        "en": "Bavaria"
+        "es": "Baviera",
+        "fr": "Bavière",
+        "it": "Baviera",
+        "nl": "Beieren",
+        "pl": "Bawaria",
+        "pt": "Baviera",
+        "rm": "Baviera",
+        "ru": "Бавария",
+        "tr": "Bavyera"
       }
     },
     {
       "code": "DE-HB",
       "names": {
+        "en": "Bremen",
         "de": "Bremen",
-        "en": "Bremen"
+        "es": "Bremen",
+        "fr": "Brême",
+        "it": "Brema",
+        "nl": "Bremen",
+        "pl": "Brema",
+        "pt": "Bremen",
+        "rm": "Bremen",
+        "ru": "Бремен",
+        "tr": "Bremen"
       }
     },
     {
       "code": "DE-HE",
       "names": {
+        "en": "Hesse",
         "de": "Hessen",
-        "en": "Hesse"
+        "es": "Hasse",
+        "fr": "Hesse",
+        "it": "Assia",
+        "nl": "Hessen",
+        "pl": "Hesja",
+        "pt": "Hesse",
+        "rm": "Hessen",
+        "ru": "Гессен",
+        "tr": "Hessen"
       }
     },
     {
       "code": "DE-HH",
       "names": {
+        "en": "Hamburg",
         "de": "Hamburg",
-        "en": "Hamburg"
+        "es": "Hamburgo",
+        "fr": "Hambourg",
+        "it": "Amburgo",
+        "nl": "Hamburg",
+        "pl": "Hamburg",
+        "pt": "Hamburgo",
+        "rm": "Hamburg",
+        "ru": "Гамбург",
+        "tr": "Hamburg"
       }
     },
     {
       "code": "DE-MV",
       "names": {
+        "en": "Mecklenburg-Western Pomerania",
         "de": "Mecklenburg-Vorpommern",
-        "en": "Mecklenburg-Western Pomerania"
+        "es": "Mecklemburgo-Pomerania Occidental",
+        "fr": "Mecklembourg-Poméranie-Occidentale",
+        "it": "Meclemburgo-Pomerania Anteriore",
+        "nl": "Mecklenburg-Voor-Pommeren",
+        "pl": "Meklemburgia-Pomorze Przednie",
+        "pt": "Mecklemburgo-Pomerânia Ocidental",
+        "rm": "Mecklenburg-Pomerania Anteriura",
+        "ru": "Мекленбург-Передняя Померания",
+        "tr": "Mecklenburg-Vorpommern"
       }
     },
     {
       "code": "DE-NI",
       "names": {
+        "en": "Lower Saxony",
         "de": "Niedersachsen",
-        "en": "Lower Saxony"
+        "es": "Baja Sajonia",
+        "fr": "Basse-Saxe",
+        "it": "Bassa Sassonia",
+        "nl": "Nedersaksen",
+        "pl": "Dolna Saksonia",
+        "pt": "Baixa Saxônia",
+        "rm": "Saxonia Inferiura",
+        "ru": "Нижняя Саксония",
+        "tr": "Aşağı Saksonya"
       }
     },
     {
       "code": "DE-NW",
       "names": {
+        "en": "North Rhine-Westphalia",
         "de": "Nordrhein-Westfalen",
-        "en": "North Rhine-Westphalia"
+        "es": "Renania del Norte-Westfalia",
+        "fr": "Rhénanie-du-Nord-Westphalie",
+        "it": "Renania Settentrionale-Vestfalia",
+        "nl": "Noordrijn-Westfalen",
+        "pl": "Nadrenia Północna-Westfalia",
+        "pt": "Renânia do Norte-Vestfália",
+        "rm": "Rain dal Nord-Vestfalia",
+        "ru": "Северный Рейн-Вестфалия",
+        "tr": "Kuzey Ren-Vestfalya"
       }
     },
     {
       "code": "DE-RP",
       "names": {
+        "en": "Rhineland-Palatinate",
         "de": "Rheinland-Pfalz",
-        "en": "Rhineland-Palatinate"
+        "es": "Renania-Palatinado",
+        "fr": "Rhénanie-Palatinat",
+        "it": "Renania-Palatinato",
+        "nl": "Rijnland-Palts",
+        "pl": "Nadrenia-Palatynat",
+        "pt": "Renânia-Palatinado",
+        "rm": "Renania-Palatinat",
+        "ru": "Рейнланд-Пфальц",
+        "tr": "Renanya-Palatina"
       }
     },
     {
       "code": "DE-SH",
       "names": {
+        "en": "Schleswig-Holstein",
         "de": "Schleswig-Holstein",
-        "en": "Schleswig-Holstein"
+        "es": "Schleswig-Holstein",
+        "fr": "Schleswig-Holstein",
+        "it": "Schleswig-Holstein",
+        "nl": "Sleeswijk-Holstein",
+        "pl": "Szlezwik-Holsztyn",
+        "pt": "Schleswig-Holstein",
+        "rm": "Schleswig-Holstein",
+        "ru": "Шлезвиг-Гольштейн",
+        "tr": "Schleswig-Holstein"
       }
     },
     {
       "code": "DE-SL",
       "names": {
+        "en": "Saarland",
         "de": "Saarland",
-        "en": "Saarland"
+        "es": "Sarre",
+        "fr": "Sarre",
+        "it": "Saarland",
+        "nl": "Saarland",
+        "pl": "Saara",
+        "pt": "Sarre",
+        "rm": "Saarland",
+        "ru": "Саар",
+        "tr": "Saarland"
       }
     },
     {
       "code": "DE-SN",
       "names": {
+        "en": "Saxony",
         "de": "Sachsen",
-        "en": "Saxony"
+        "es": "Sajonia",
+        "fr": "Saxe",
+        "it": "Sassonia",
+        "nl": "Saksen",
+        "pl": "Saksonia",
+        "pt": "Saxónia",
+        "rm": "Saxonia",
+        "ru": "Саксония",
+        "tr": "Saksonya"
       }
     },
     {
       "code": "DE-ST",
       "names": {
+        "en": "Saxony-Anhalt",
         "de": "Sachsen-Anhalt",
-        "en": "Saxony-Anhalt"
+        "es": "Sajonia-Anhalt",
+        "fr": "Saxe-Anhalt",
+        "it": "Sassonia-Anhalt",
+        "nl": "Saksen-Anhalt",
+        "pl": "Saksonia-Anhalt",
+        "pt": "Saxônia-Anhalt",
+        "rm": "Saxonia-Anhalt",
+        "ru": "Саксония-Анхальт",
+        "tr": "Saksonya-Anhalt"
       }
     },
     {
       "code": "DE-TH",
       "names": {
+        "en": "Thuringia",
         "de": "Thüringen",
-        "en": "Thuringia"
+        "es": "Turingia",
+        "fr": "Thuringe",
+        "it": "Turingia",
+        "nl": "Thüringen",
+        "pl": "Turyngia",
+        "pt": "Turíngia",
+        "rm": "Turinga",
+        "ru": "Тюрингия",
+        "tr": "Türingiya"
       }
     }
   ],
@@ -346,7 +499,16 @@
       "id": "de.new-year",
       "names": {
         "en": "New Year’s Day",
-        "de": "Neujahr"
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -382,7 +544,16 @@
       "id": "de.epiphany",
       "names": {
         "en": "Epiphany",
-        "de": "Heilige Drei Könige"
+        "de": "Heilige Drei Könige",
+        "es": "Epifanía del Señor",
+        "fr": "Épiphanie",
+        "it": "Epifania",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "date": {
         "type": "fixed",
@@ -423,7 +594,16 @@
       "id": "de.womens-day",
       "names": {
         "en": "International Women’s Day",
-        "de": "Internationaler Frauentag"
+        "de": "Internationaler Frauentag",
+        "es": "Día Internacional de la Mujer",
+        "fr": "Journée internationale des droits des femmes",
+        "it": "Giornata internazionale della donna",
+        "nl": "Internationale Vrouwendag",
+        "pl": "Międzynarodowy Dzień Kobiet",
+        "pt": "Dia Internacional da Mulher",
+        "rm": "Di internaziunal da la dunna",
+        "ru": "Международный женский день",
+        "tr": "Dünya Kadınlar Günü"
       },
       "date": {
         "type": "fixed",
@@ -460,7 +640,16 @@
       "id": "de.good-friday",
       "names": {
         "en": "Good Friday",
-        "de": "Karfreitag"
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -495,7 +684,16 @@
       "id": "de.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "de": "Ostermontag"
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -530,7 +728,16 @@
       "id": "de.labour-day",
       "names": {
         "en": "Labour Day",
-        "de": "Tag der Arbeit"
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -566,7 +773,16 @@
       "id": "de.liberation-day",
       "names": {
         "en": "Liberation Day",
-        "de": "Tag der Befreiung"
+        "de": "Tag der Befreiung",
+        "es": "Día de la Liberación",
+        "fr": "Fête de la Libération",
+        "it": "Festa della Liberazione",
+        "nl": "Bevrijdingsdag",
+        "pl": "Dzień Wyzwolenia",
+        "pt": "Dia da Libertação",
+        "rm": "Di da la liberaziun",
+        "ru": "День освобождения",
+        "tr": "Kurtuluş Günü"
       },
       "note": "One-off holidays in Berlin for the 75th and 80th anniversary of the liberation from National Socialism and the end of the Second World War in Europe.",
       "date": {
@@ -593,7 +809,16 @@
       "id": "de.ascension",
       "names": {
         "en": "Ascension Day",
-        "de": "Christi Himmelfahrt"
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "fr": "Ascension",
+        "it": "Ascensione",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -628,7 +853,16 @@
       "id": "de.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "de": "Pfingstmontag"
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -663,7 +897,16 @@
       "id": "de.corpus-christi",
       "names": {
         "en": "Corpus Christi",
-        "de": "Fronleichnam"
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "pt": "Corpo de Deus",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "date": {
         "type": "easter",
@@ -752,7 +995,16 @@
       "id": "de.uprising-anniversary",
       "names": {
         "en": "75th Anniversary of the Uprising of 17 June 1953",
-        "de": "75. Jahrestag des Aufstandes vom 17. Juni 1953"
+        "de": "75. Jahrestag des Aufstandes vom 17. Juni 1953",
+        "es": "75.º aniversario del levantamiento del 17 de junio de 1953",
+        "fr": "75e anniversaire du soulèvement du 17 juin 1953",
+        "it": "75º anniversario della rivolta del 17 giugno 1953",
+        "nl": "75e verjaardag van de opstand van 17 juni 1953",
+        "pl": "75. rocznica powstania z 17 czerwca 1953 roku",
+        "pt": "75.º aniversário da revolta de 17 de junho de 1953",
+        "rm": "75avel anniversari da la revolta dals 17 da zercladur 1953",
+        "ru": "75-летие восстания 17 июня 1953 года",
+        "tr": "17 Haziran 1953 ayaklanmasının 75. yıl dönümü"
       },
       "date": {
         "type": "list",
@@ -777,7 +1029,16 @@
       "id": "de.augsburg-peace-festival",
       "names": {
         "en": "Augsburg Peace Festival",
-        "de": "Augsburger Hohes Friedensfest"
+        "de": "Augsburger Hohes Friedensfest",
+        "es": "Fiesta de la Paz de Augsburgo",
+        "fr": "Fête de la paix d’Augsbourg",
+        "it": "Festa della pace di Augusta",
+        "nl": "Augsburgs Vredesfeest",
+        "pl": "Augsburskie Święto Pokoju",
+        "pt": "Festa da Paz de Augsburgo",
+        "rm": "Festa da la pasch d’Augsburg",
+        "ru": "Аугсбургский праздник мира",
+        "tr": "Augsburg Barış Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -801,7 +1062,16 @@
       "id": "de.assumption",
       "names": {
         "en": "Assumption Day",
-        "de": "Mariä Himmelfahrt"
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -834,7 +1104,16 @@
       "id": "de.world-childrens-day",
       "names": {
         "en": "World Children’s Day",
-        "de": "Weltkindertag"
+        "de": "Weltkindertag",
+        "es": "Día Mundial de la Infancia",
+        "fr": "Journée mondiale de l’enfance",
+        "it": "Giornata mondiale dei bambini",
+        "nl": "Wereldkinderdag",
+        "pl": "Światowy Dzień Dziecka",
+        "pt": "Dia Mundial da Criança",
+        "rm": "Di mundial da l’uffant",
+        "ru": "Всемирный день детей",
+        "tr": "Dünya Çocuk Günü"
       },
       "date": {
         "type": "fixed",
@@ -859,7 +1138,16 @@
       "id": "de.national-day",
       "names": {
         "en": "Day of German Unity",
-        "de": "Tag der Deutschen Einheit"
+        "de": "Tag der Deutschen Einheit",
+        "es": "Día de la Unidad Alemana",
+        "fr": "Jour de l’Unité allemande",
+        "it": "Giorno dell’unità tedesca",
+        "nl": "Dag van de Duitse Eenheid",
+        "pl": "Dzień Jedności Niemiec",
+        "pt": "Dia da Unidade Alemã",
+        "rm": "Di da l’unitad tudestga",
+        "ru": "День германского единства",
+        "tr": "Alman Birliği Günü"
       },
       "date": {
         "type": "fixed",
@@ -880,7 +1168,16 @@
       "id": "de.reformation-day",
       "names": {
         "en": "Reformation Day",
-        "de": "Reformationstag"
+        "de": "Reformationstag",
+        "es": "Día de la Reforma",
+        "fr": "Jour de la Réforme",
+        "it": "Festa della Riforma",
+        "nl": "Hervormingsdag",
+        "pl": "Święto Reformacji",
+        "pt": "Dia da Reforma",
+        "rm": "Di da la refurmaziun",
+        "ru": "День Реформации",
+        "tr": "Reform Günü"
       },
       "date": {
         "type": "fixed",
@@ -1112,7 +1409,16 @@
       "id": "de.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "de": "Allerheiligen"
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -1171,7 +1477,16 @@
       "id": "de.repentance-day",
       "names": {
         "en": "Day of Repentance and Prayer",
-        "de": "Buß- und Bettag"
+        "de": "Buß- und Bettag",
+        "es": "Día de Penitencia y Oración",
+        "fr": "Jour de pénitence et de prière",
+        "it": "Giorno di penitenza e preghiera",
+        "nl": "Boete- en Biddag",
+        "pl": "Dzień Pokuty i Modlitwy",
+        "pt": "Dia de Penitência e Oração",
+        "rm": "Di da penitenza e d’oraziun",
+        "ru": "День покаяния и молитвы",
+        "tr": "Tövbe ve Dua Günü"
       },
       "note": "The Wednesday before 23 November (the Wednesday before the last Sunday of the church year).",
       "date": {
@@ -1200,7 +1515,16 @@
       "id": "de.christmas-eve",
       "names": {
         "en": "Christmas Eve",
-        "de": "Heiligabend"
+        "de": "Heiligabend",
+        "es": "Nochebuena",
+        "fr": "Veille de Noël",
+        "it": "Vigilia di Natale",
+        "nl": "Kerstavond",
+        "pl": "Wigilia Bożego Narodzenia",
+        "pt": "Véspera de Natal",
+        "rm": "Sontga Saira",
+        "ru": "Сочельник",
+        "tr": "Noel Arifesi"
       },
       "date": {
         "type": "fixed",
@@ -1223,7 +1547,16 @@
       "id": "de.christmas",
       "names": {
         "en": "Christmas Day",
-        "de": "Erster Weihnachtstag"
+        "de": "Erster Weihnachtstag",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -1259,7 +1592,16 @@
       "id": "de.saint-stephen",
       "names": {
         "en": "Second Day of Christmas",
-        "de": "Zweiter Weihnachtstag"
+        "de": "Zweiter Weihnachtstag",
+        "es": "Segundo día de Navidad",
+        "fr": "Deuxième jour de Noël",
+        "it": "Secondo giorno di Natale",
+        "nl": "Tweede Kerstdag",
+        "pl": "Drugi dzień Bożego Narodzenia",
+        "pt": "Segundo dia de Natal",
+        "rm": "Segund di da Nadal",
+        "ru": "Второй день Рождества",
+        "tr": "Noel’in İkinci Günü"
       },
       "date": {
         "type": "fixed",
@@ -1295,7 +1637,16 @@
       "id": "de.new-years-eve",
       "names": {
         "en": "New Year’s Eve",
-        "de": "Silvester"
+        "de": "Silvester",
+        "es": "Nochevieja",
+        "fr": "Saint-Sylvestre",
+        "it": "San Silvestro",
+        "nl": "Oudejaarsdag",
+        "pl": "Sylwester",
+        "pt": "Véspera de Ano Novo",
+        "rm": "Silvester",
+        "ru": "Канун Нового года",
+        "tr": "Yılbaşı Gecesi"
       },
       "date": {
         "type": "fixed",

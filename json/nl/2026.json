@@ -8,7 +8,16 @@
       "id": "nl.new-year",
       "name": {
         "en": "New Year’s Day",
-        "nl": "Nieuwjaarsdag"
+        "nl": "Nieuwjaarsdag",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "type": "public",
       "startTime": null,
@@ -26,7 +35,16 @@
       "id": "nl.good-friday",
       "name": {
         "en": "Good Friday",
-        "nl": "Goede Vrijdag"
+        "nl": "Goede Vrijdag",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "type": "public",
       "startTime": null,
@@ -46,7 +64,16 @@
       "id": "nl.good-friday",
       "name": {
         "en": "Good Friday",
-        "nl": "Goede Vrijdag"
+        "nl": "Goede Vrijdag",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "type": "observance",
       "startTime": null,
@@ -76,7 +103,16 @@
       "id": "nl.easter-monday",
       "name": {
         "en": "Easter Monday",
-        "nl": "Tweede Paasdag"
+        "nl": "Tweede Paasdag",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -94,7 +130,16 @@
       "id": "nl.kings-day",
       "name": {
         "en": "King’s Day",
-        "nl": "Koningsdag"
+        "nl": "Koningsdag",
+        "de": "Königstag",
+        "es": "Día del Rey",
+        "fr": "Jour du Roi",
+        "it": "Festa del Re",
+        "pl": "Dzień Króla",
+        "pt": "Dia do Rei",
+        "rm": "Di dal retg",
+        "ru": "День короля",
+        "tr": "Kral Günü"
       },
       "type": "public",
       "startTime": null,
@@ -113,7 +158,16 @@
       "id": "nl.dia-di-rincon",
       "name": {
         "en": "Rincon Day",
-        "nl": "Dia di Rincon"
+        "nl": "Dia di Rincon",
+        "de": "Rincon-Tag",
+        "es": "Día de Rincón",
+        "fr": "Jour de Rincon",
+        "it": "Giorno di Rincon",
+        "pl": "Dzień Rincon",
+        "pt": "Dia de Rincon",
+        "rm": "Di da Rincon",
+        "ru": "День Ринкона",
+        "tr": "Rincon Günü"
       },
       "type": "public",
       "startTime": null,
@@ -132,7 +186,16 @@
       "id": "nl.labour-day",
       "name": {
         "en": "Labour Day",
-        "nl": "Dag van de Arbeid"
+        "nl": "Dag van de Arbeid",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -152,7 +215,16 @@
       "id": "nl.liberation-day",
       "name": {
         "en": "Liberation Day",
-        "nl": "Bevrijdingsdag"
+        "nl": "Bevrijdingsdag",
+        "de": "Tag der Befreiung",
+        "es": "Día de la Liberación",
+        "fr": "Fête de la Libération",
+        "it": "Festa della Liberazione",
+        "pl": "Dzień Wyzwolenia",
+        "pt": "Dia da Libertação",
+        "rm": "Di da la liberaziun",
+        "ru": "День освобождения",
+        "tr": "Kurtuluş Günü"
       },
       "type": "observance",
       "startTime": null,
@@ -169,7 +241,16 @@
       "id": "nl.ascension",
       "name": {
         "en": "Ascension Day",
-        "nl": "Hemelvaartsdag"
+        "nl": "Hemelvaartsdag",
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "fr": "Ascension",
+        "it": "Ascensione",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "type": "public",
       "startTime": null,
@@ -187,7 +268,16 @@
       "id": "nl.whit-monday",
       "name": {
         "en": "Whit Monday",
-        "nl": "Tweede Pinksterdag"
+        "nl": "Tweede Pinksterdag",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -217,7 +307,16 @@
       "id": "nl.whit-monday",
       "name": {
         "en": "Whit Monday",
-        "nl": "Tweede Pinksterdag"
+        "nl": "Tweede Pinksterdag",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "type": "observance",
       "startTime": null,
@@ -238,7 +337,16 @@
       "id": "nl.emancipation-day",
       "name": {
         "en": "Emancipation Day",
-        "nl": "Emancipatiedag"
+        "nl": "Emancipatiedag",
+        "de": "Tag der Emanzipation",
+        "es": "Día de la Emancipación",
+        "fr": "Jour de l’émancipation",
+        "it": "Giorno dell’emancipazione",
+        "pl": "Dzień Emancypacji",
+        "pt": "Dia da Emancipação",
+        "rm": "Di da l’emancipaziun",
+        "ru": "День эмансипации",
+        "tr": "Özgürleşme Günü"
       },
       "type": "public",
       "startTime": null,
@@ -256,7 +364,16 @@
       "id": "nl.flag-day-bonaire",
       "name": {
         "en": "Bonaire Flag and Anthem Day",
-        "nl": "Dia di Himno y Bandera"
+        "nl": "Dia di Himno y Bandera",
+        "de": "Tag der Flagge und Hymne von Bonaire",
+        "es": "Día de la Bandera y el Himno de Bonaire",
+        "fr": "Jour du drapeau et de l’hymne de Bonaire",
+        "it": "Giornata della bandiera e dell’inno di Bonaire",
+        "pl": "Dzień Flagi i Hymnu Bonaire",
+        "pt": "Dia da Bandeira e do Hino de Bonaire",
+        "rm": "Di da la bandiera e da l’imni da Bonaire",
+        "ru": "День флага и гимна Бонайре",
+        "tr": "Bonaire Bayrak ve Marş Günü"
       },
       "type": "public",
       "startTime": null,
@@ -275,7 +392,16 @@
       "id": "nl.statia-day",
       "name": {
         "en": "Statia Day",
-        "nl": "Statia Day"
+        "nl": "Statia Day",
+        "de": "Statia-Tag",
+        "es": "Día de Statia",
+        "fr": "Jour de Statia",
+        "it": "Giorno di Statia",
+        "pl": "Dzień Statii",
+        "pt": "Dia de Statia",
+        "rm": "Di da Statia",
+        "ru": "День Синт-Эстатиуса",
+        "tr": "Statia Günü"
       },
       "type": "public",
       "startTime": null,
@@ -294,7 +420,16 @@
       "id": "nl.saba-day",
       "name": {
         "en": "Saba Day",
-        "nl": "Saba Day"
+        "nl": "Saba Day",
+        "de": "Saba-Tag",
+        "es": "Día de Saba",
+        "fr": "Jour de Saba",
+        "it": "Giorno di Saba",
+        "pl": "Dzień Saby",
+        "pt": "Dia de Saba",
+        "rm": "Di da Saba",
+        "ru": "День Сабы",
+        "tr": "Saba Günü"
       },
       "type": "public",
       "startTime": null,
@@ -313,7 +448,16 @@
       "id": "nl.christmas",
       "name": {
         "en": "Christmas Day",
-        "nl": "Eerste Kerstdag"
+        "nl": "Eerste Kerstdag",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "type": "public",
       "startTime": null,
@@ -331,7 +475,16 @@
       "id": "nl.saint-stephen",
       "name": {
         "en": "Second Day of Christmas",
-        "nl": "Tweede Kerstdag"
+        "nl": "Tweede Kerstdag",
+        "de": "Zweiter Weihnachtstag",
+        "es": "Segundo día de Navidad",
+        "fr": "Deuxième jour de Noël",
+        "it": "Secondo giorno di Natale",
+        "pl": "Drugi dzień Bożego Narodzenia",
+        "pt": "Segundo dia de Natal",
+        "rm": "Segund di da Nadal",
+        "ru": "Второй день Рождества",
+        "tr": "Noel’in İkinci Günü"
       },
       "type": "public",
       "startTime": null,

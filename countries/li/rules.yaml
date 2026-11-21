@@ -6,20 +6,18 @@
 # - observance: church holidays and days off of the national administration
 #   (LLV calendar) that the Labour Act does not list.
 code: LI
-names: {de: Liechtenstein, en: Liechtenstein}
-languages: [de]
 regions:
-  - {code: LI-01, names: {de: Balzers, en: Balzers}}
-  - {code: LI-02, names: {de: Eschen, en: Eschen}}
-  - {code: LI-03, names: {de: Gamprin, en: Gamprin}}
-  - {code: LI-04, names: {de: Mauren, en: Mauren}}
-  - {code: LI-05, names: {de: Planken, en: Planken}}
-  - {code: LI-06, names: {de: Ruggell, en: Ruggell}}
-  - {code: LI-07, names: {de: Schaan, en: Schaan}}
-  - {code: LI-08, names: {de: Schellenberg, en: Schellenberg}}
-  - {code: LI-09, names: {de: Triesen, en: Triesen}}
-  - {code: LI-10, names: {de: Triesenberg, en: Triesenberg}}
-  - {code: LI-11, names: {de: Vaduz, en: Vaduz}}
+  - LI-01
+  - LI-02
+  - LI-03
+  - LI-04
+  - LI-05
+  - LI-06
+  - LI-07
+  - LI-08
+  - LI-09
+  - LI-10
+  - LI-11
 sources:
   li-arbeitsgesetz:
     title: Gesetz vom 29. Dezember 1966 über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz), Fassung 01.01.2019

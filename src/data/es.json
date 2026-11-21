@@ -2,11 +2,20 @@
   "format": 1,
   "code": "ES",
   "names": {
-    "es": "España",
     "en": "Spain",
+    "es": "España",
     "ca": "Espanya",
     "eu": "Espainia",
-    "gl": "España"
+    "gl": "España",
+    "de": "Spanien",
+    "fr": "Espagne",
+    "it": "Spagna",
+    "nl": "Spanje",
+    "pl": "Hiszpania",
+    "pt": "Espanha",
+    "rm": "Spagna",
+    "ru": "Испания",
+    "tr": "İspanya"
   },
   "languages": [
     "es"
@@ -15,140 +24,344 @@
     {
       "code": "ES-AN",
       "names": {
+        "en": "Andalusia",
         "es": "Andalucía",
-        "en": "Andalusia"
+        "ca": "Andalusia",
+        "eu": "Andaluzia",
+        "gl": "Andalucía",
+        "de": "Andalusien",
+        "fr": "Andalousie",
+        "it": "Andalusia",
+        "nl": "Andalusië",
+        "pl": "Andaluzja",
+        "pt": "Andaluzia",
+        "ru": "Андалусия",
+        "tr": "Endülüs"
       }
     },
     {
       "code": "ES-AR",
       "names": {
+        "en": "Aragon",
         "es": "Aragón",
-        "en": "Aragon"
+        "ca": "Aragó",
+        "eu": "Aragoi",
+        "gl": "Aragón",
+        "de": "Aragonien",
+        "fr": "Aragon",
+        "it": "Aragona",
+        "nl": "Aragón",
+        "pl": "Aragonia",
+        "pt": "Aragão",
+        "ru": "Арагон",
+        "tr": "Aragon"
       }
     },
     {
       "code": "ES-AS",
       "names": {
-        "es": "Principado de Asturias",
-        "en": "Asturias"
+        "en": "Asturias",
+        "es": "Asturias",
+        "ca": "Astúries",
+        "eu": "Asturiesko Printzerria",
+        "gl": "Principado de Asturias",
+        "de": "Asturien",
+        "fr": "Asturies",
+        "it": "Asturie",
+        "nl": "Asturië",
+        "pl": "Asturia",
+        "pt": "Astúrias",
+        "ru": "Астурия",
+        "tr": "Asturies"
       }
     },
     {
       "code": "ES-CB",
       "names": {
+        "en": "Cantabria",
         "es": "Cantabria",
-        "en": "Cantabria"
+        "ca": "Cantàbria",
+        "eu": "Kantabria",
+        "gl": "Cantabria",
+        "de": "Kantabrien",
+        "fr": "Cantabrie",
+        "it": "Cantabria",
+        "nl": "Cantabrië",
+        "pl": "Kantabria",
+        "pt": "Cantábria",
+        "ru": "Кантабрия",
+        "tr": "Kantabria"
       }
     },
     {
       "code": "ES-CE",
       "names": {
+        "en": "Ceuta",
         "es": "Ceuta",
-        "en": "Ceuta"
+        "ca": "Ceuta",
+        "eu": "Ceuta",
+        "gl": "Ceuta",
+        "de": "Ceuta",
+        "fr": "Ceuta",
+        "it": "Ceuta",
+        "nl": "Ceuta",
+        "pl": "Ceuta",
+        "pt": "Ceuta",
+        "ru": "Сеута",
+        "tr": "Ceuta"
       }
     },
     {
       "code": "ES-CL",
       "names": {
+        "en": "Castile and León",
         "es": "Castilla y León",
-        "en": "Castile and León"
+        "ca": "Castella i Lleó",
+        "eu": "Gaztela eta Leon",
+        "gl": "Castela e León",
+        "de": "Kastilien und León",
+        "fr": "Castille-et-León",
+        "it": "Castiglia e León",
+        "nl": "Castilië en León",
+        "pl": "Kastylia i León",
+        "pt": "Castela e Leão",
+        "ru": "Кастилия и Леон",
+        "tr": "Kastilya ve Leon"
       }
     },
     {
       "code": "ES-CM",
       "names": {
+        "en": "Castile-La Mancha",
         "es": "Castilla-La Mancha",
-        "en": "Castile-La Mancha"
+        "ca": "Castella - la Manxa",
+        "eu": "Gaztela-Mantxa",
+        "gl": "Castela-A Mancha",
+        "de": "Kastilien-La Mancha",
+        "fr": "Castille-La Manche",
+        "it": "Castiglia-La Mancia",
+        "nl": "Castilië-La Mancha",
+        "pl": "Kastylia-La Mancha",
+        "pt": "Castela-Mancha",
+        "ru": "Кастилия — Ла-Манча",
+        "tr": "Kastilya-La Mancha"
       }
     },
     {
       "code": "ES-CN",
       "names": {
+        "en": "Canary Islands",
         "es": "Canarias",
-        "en": "Canary Islands"
+        "ca": "illes Canàries",
+        "eu": "Kanariak",
+        "gl": "Illas Canarias",
+        "de": "Kanarische Inseln",
+        "fr": "Îles Canaries",
+        "it": "isole Canarie",
+        "nl": "Canarische Eilanden",
+        "pl": "Wyspy Kanaryjskie",
+        "pt": "Canárias",
+        "ru": "Канарские острова",
+        "tr": "Kanarya Adaları"
       }
     },
     {
       "code": "ES-CT",
       "names": {
-        "es": "Cataluña",
         "en": "Catalonia",
-        "ca": "Catalunya"
+        "es": "Cataluña",
+        "ca": "Catalunya",
+        "eu": "Katalunia",
+        "gl": "Cataluña",
+        "de": "Katalonien",
+        "fr": "Catalogne",
+        "it": "Catalogna",
+        "nl": "Catalonië",
+        "pl": "Katalonia",
+        "pt": "Catalunha",
+        "rm": "Catalugna",
+        "ru": "Каталония",
+        "tr": "Katalonya"
       }
     },
     {
       "code": "ES-EX",
       "names": {
+        "en": "Extremadura",
         "es": "Extremadura",
-        "en": "Extremadura"
+        "ca": "Extremadura",
+        "eu": "Extremadura",
+        "gl": "Estremadura - Extremadura",
+        "de": "Extremadura",
+        "fr": "Estrémadure",
+        "it": "Estremadura",
+        "nl": "Extremadura",
+        "pl": "Estremadura",
+        "pt": "Estremadura",
+        "ru": "Эстремадура",
+        "tr": "Ekstremadura"
       }
     },
     {
       "code": "ES-GA",
       "names": {
-        "es": "Galicia",
         "en": "Galicia",
-        "gl": "Galicia"
+        "es": "Galicia",
+        "ca": "Galícia",
+        "eu": "Galizia",
+        "gl": "Galicia",
+        "de": "Galicien",
+        "fr": "Galice",
+        "it": "Galizia",
+        "nl": "Galicië",
+        "pl": "Galicja",
+        "pt": "Galiza",
+        "ru": "Галисия",
+        "tr": "Galiçya"
       }
     },
     {
       "code": "ES-IB",
       "names": {
-        "es": "Illes Balears",
         "en": "Balearic Islands",
-        "ca": "Illes Balears"
+        "es": "Illes Balears",
+        "ca": "Illes Balears",
+        "eu": "Balear Uharteak",
+        "gl": "Illas Baleares - Illes Balears",
+        "de": "Balearische Inseln",
+        "fr": "Îles Baléares",
+        "it": "isole Baleari",
+        "nl": "Balearen",
+        "pl": "Baleary",
+        "pt": "Baleares",
+        "ru": "Балеарские острова",
+        "tr": "Balear Adaları"
       }
     },
     {
       "code": "ES-MC",
       "names": {
-        "es": "Región de Murcia",
-        "en": "Murcia"
+        "en": "Murcia",
+        "es": "Murcia",
+        "ca": "Múrcia",
+        "eu": "Murtziako Eskualdea",
+        "gl": "Murcia",
+        "de": "Murcia",
+        "fr": "Murcie",
+        "it": "Murcia",
+        "nl": "Murcia",
+        "pl": "Murcja",
+        "pt": "Múrcia",
+        "ru": "Мурсия",
+        "tr": "Murcia"
       }
     },
     {
       "code": "ES-MD",
       "names": {
-        "es": "Comunidad de Madrid",
-        "en": "Madrid"
+        "en": "Madrid",
+        "es": "Madrid",
+        "ca": "Comunitat de Madrid",
+        "eu": "Madrilgo Erkidegoa",
+        "gl": "Comunidade de Madrid",
+        "de": "Madrid",
+        "fr": "communauté de Madrid",
+        "it": "comunità di Madrid",
+        "nl": "Madrid",
+        "pl": "Madryt",
+        "pt": "Comunidade de Madrid",
+        "ru": "Мадрид",
+        "tr": "Madrid"
       }
     },
     {
       "code": "ES-ML",
       "names": {
+        "en": "Melilla",
         "es": "Melilla",
-        "en": "Melilla"
+        "ca": "Melilla",
+        "eu": "Melilla",
+        "gl": "Melilla",
+        "de": "Melilla",
+        "fr": "Melilla",
+        "it": "Melilla",
+        "nl": "Melilla",
+        "pl": "Melilla",
+        "pt": "Melilla",
+        "ru": "Мелилья",
+        "tr": "Melilla"
       }
     },
     {
       "code": "ES-NC",
       "names": {
-        "es": "Comunidad Foral de Navarra",
         "en": "Navarre",
-        "eu": "Nafarroako Foru Komunitatea"
+        "es": "Navarra",
+        "ca": "Navarra",
+        "eu": "Nafarroako Foru Komunitatea",
+        "gl": "Navarra",
+        "de": "Navarra",
+        "fr": "Navarre",
+        "it": "Navarra",
+        "nl": "Navarra",
+        "pl": "Nawarra",
+        "pt": "Navarra",
+        "ru": "Наварра",
+        "tr": "Navarra"
       }
     },
     {
       "code": "ES-PV",
       "names": {
-        "es": "País Vasco",
         "en": "Basque Country",
-        "eu": "Euskadi"
+        "es": "País Vasco",
+        "ca": "País Basc",
+        "eu": "Euskadi",
+        "gl": "País Vasco",
+        "de": "Baskenland",
+        "fr": "Pays basque",
+        "it": "Paesi Baschi",
+        "nl": "Baskenland",
+        "pl": "Basków",
+        "pt": "País Basco",
+        "ru": "Страна Басков",
+        "tr": "Bask"
       }
     },
     {
       "code": "ES-RI",
       "names": {
+        "en": "La Rioja",
         "es": "La Rioja",
-        "en": "La Rioja"
+        "ca": "La Rioja",
+        "eu": "Errioxako Autonomia Erkidegoa",
+        "gl": "A Rioxa",
+        "de": "La Rioja",
+        "fr": "La Rioja",
+        "it": "La Rioja",
+        "nl": "La Rioja",
+        "pl": "La Rioja",
+        "pt": "La Rioja",
+        "ru": "Риоха",
+        "tr": "La Rioja"
       }
     },
     {
       "code": "ES-VC",
       "names": {
-        "es": "Comunitat Valenciana",
         "en": "Valencian Community",
-        "ca": "Comunitat Valenciana"
+        "es": "Comunitat Valenciana",
+        "ca": "Comunitat Valenciana",
+        "eu": "Valentziako Erkidegoa",
+        "gl": "Comunidade Valenciana",
+        "de": "Valencianische Gemeinschaft",
+        "fr": "communauté valencienne",
+        "it": "comunità Valenzana",
+        "nl": "Valencia",
+        "pl": "Walencja",
+        "pt": "Comunidade Valenciana",
+        "ru": "Валенсия",
+        "tr": "Valensiya"
       }
     }
   ],
@@ -436,7 +649,16 @@
         "en": "New Year’s Day",
         "es": "Año Nuevo",
         "gl": "Aninovo",
-        "eu": "Urte Berri eguna"
+        "eu": "Urte Berri eguna",
+        "de": "Neujahr",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -628,7 +850,16 @@
         "en": "Epiphany",
         "es": "Epifanía del Señor",
         "gl": "Epifanía do Señor (Día de Reis)",
-        "eu": "Jaunaren Agerkundea"
+        "eu": "Jaunaren Agerkundea",
+        "de": "Heilige Drei Könige",
+        "fr": "Épiphanie",
+        "it": "Epifania",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "date": {
         "type": "fixed",
@@ -951,7 +1182,16 @@
       "id": "es.ceuta-convivencia-day",
       "names": {
         "en": "Day of Coexistence",
-        "es": "Día de la Convivencia"
+        "es": "Día de la Convivencia",
+        "de": "Tag des Zusammenlebens",
+        "fr": "Journée du vivre-ensemble",
+        "it": "Giornata della convivenza",
+        "nl": "Dag van het samenleven",
+        "pl": "Dzień Współistnienia",
+        "pt": "Dia da Convivência",
+        "rm": "Di da la convivenza",
+        "ru": "День сосуществования",
+        "tr": "Birlikte Yaşam Günü"
       },
       "date": {
         "type": "list",
@@ -981,7 +1221,16 @@
       "id": "es.island-tenerife",
       "names": {
         "en": "Island holiday: Tenerife",
-        "es": "Fiesta insular: Tenerife"
+        "es": "Fiesta insular: Tenerife",
+        "de": "Inselfeiertag: Teneriffa",
+        "fr": "Fête insulaire : Tenerife",
+        "it": "Festa insulare: Tenerife",
+        "nl": "Eilandfeestdag: Tenerife",
+        "pl": "Święto wyspy: Teneryfa",
+        "pt": "Feriado insular: Tenerife",
+        "rm": "Festa da l’insla: Tenerife",
+        "ru": "Праздник острова: Тенерифе",
+        "tr": "Ada bayramı: Tenerife"
       },
       "date": {
         "type": "list",
@@ -1077,7 +1326,16 @@
       "id": "es.shrove-tuesday",
       "names": {
         "en": "Shrove Tuesday",
-        "es": "Martes de Carnaval"
+        "es": "Martes de Carnaval",
+        "de": "Fasnachtsdienstag",
+        "fr": "Mardi gras",
+        "it": "Martedì grasso",
+        "nl": "Carnavalsdinsdag",
+        "pl": "Ostatki",
+        "pt": "Terça-feira de Carnaval",
+        "rm": "Mardi da tschaiver",
+        "ru": "Жирный вторник",
+        "tr": "Karnaval Salısı"
       },
       "date": {
         "type": "easter",
@@ -1104,7 +1362,16 @@
       "id": "es.andalusia-day",
       "names": {
         "en": "Andalusia Day",
-        "es": "Día de Andalucía"
+        "es": "Día de Andalucía",
+        "de": "Tag Andalusiens",
+        "fr": "Journée de l’Andalousie",
+        "it": "Giornata dell’Andalusia",
+        "nl": "Dag van Andalusië",
+        "pl": "Dzień Andaluzji",
+        "pt": "Dia da Andaluzia",
+        "rm": "Di da l’Andalusia",
+        "ru": "День Андалусии",
+        "tr": "Endülüs Günü"
       },
       "date": {
         "type": "fixed",
@@ -1209,7 +1476,16 @@
       "id": "es.balearic-islands-day",
       "names": {
         "en": "Balearic Islands Day",
-        "es": "Día de las Illes Balears"
+        "es": "Día de las Illes Balears",
+        "de": "Tag der Balearen",
+        "fr": "Journée des îles Baléares",
+        "it": "Giornata delle Isole Baleari",
+        "nl": "Dag van de Balearen",
+        "pl": "Dzień Balearów",
+        "pt": "Dia das Ilhas Baleares",
+        "rm": "Di da las Inslas Baleares",
+        "ru": "День Балеарских островов",
+        "tr": "Balear Adaları Günü"
       },
       "date": {
         "type": "fixed",
@@ -1316,7 +1592,16 @@
       "id": "es.melilla-statute-day",
       "names": {
         "en": "Melilla Statute of Autonomy Day",
-        "es": "Estatuto de Autonomía de la Ciudad de Melilla"
+        "es": "Estatuto de Autonomía de la Ciudad de Melilla",
+        "de": "Tag des Autonomiestatuts von Melilla",
+        "fr": "Journée du statut d’autonomie de Melilla",
+        "it": "Giornata dello statuto di autonomia di Melilla",
+        "nl": "Dag van het autonomiestatuut van Melilla",
+        "pl": "Dzień Statutu Autonomii Melilli",
+        "pt": "Dia do Estatuto de Autonomia de Melilha",
+        "rm": "Di dal statut d’autonomia da Melilla",
+        "ru": "День статута автономии Мелильи",
+        "tr": "Melilla Özerklik Statüsü Günü"
       },
       "date": {
         "type": "fixed",
@@ -1344,7 +1629,16 @@
       "id": "es.fallas-monday",
       "names": {
         "en": "Fallas Monday",
-        "es": "Lunes de Fallas"
+        "es": "Lunes de Fallas",
+        "de": "Fallas-Montag",
+        "fr": "Lundi des Fallas",
+        "it": "Lunedì delle Fallas",
+        "nl": "Fallas-maandag",
+        "pl": "Poniedziałek Fallas",
+        "pt": "Segunda-feira das Fallas",
+        "rm": "Glindesdi da las Fallas",
+        "ru": "Понедельник Фальяс",
+        "tr": "Fallas Pazartesisi"
       },
       "date": {
         "type": "list",
@@ -1373,7 +1667,16 @@
         "en": "Saint Joseph’s Day",
         "es": "San José",
         "gl": "San Xosé",
-        "eu": "San Joseren eguna"
+        "eu": "San Joseren eguna",
+        "de": "Josefstag",
+        "fr": "Saint-Joseph",
+        "it": "San Giuseppe",
+        "nl": "Sint-Jozef",
+        "pl": "Dzień Świętego Józefa",
+        "pt": "Dia de São José",
+        "rm": "Son Josef",
+        "ru": "День святого Иосифа",
+        "tr": "Aziz Yusuf Günü"
       },
       "date": {
         "type": "fixed",
@@ -1833,7 +2136,16 @@
         "en": "Maundy Thursday",
         "es": "Jueves Santo",
         "gl": "Xoves Santo",
-        "eu": "Ostegun Santua"
+        "eu": "Ostegun Santua",
+        "de": "Gründonnerstag",
+        "fr": "Jeudi saint",
+        "it": "Giovedì santo",
+        "nl": "Witte Donderdag",
+        "pl": "Wielki Czwartek",
+        "pt": "Quinta-feira Santa",
+        "rm": "Gievgia sontga",
+        "ru": "Великий четверг",
+        "tr": "Kutsal Perşembe"
       },
       "date": {
         "type": "easter",
@@ -2059,7 +2371,16 @@
         "en": "Good Friday",
         "es": "Viernes Santo",
         "gl": "Venres Santo",
-        "eu": "Ostiral Santua"
+        "eu": "Ostiral Santua",
+        "de": "Karfreitag",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -2167,7 +2488,16 @@
       "names": {
         "en": "Easter Monday",
         "es": "Lunes de Pascua",
-        "eu": "Pazko Astelehena"
+        "eu": "Pazko Astelehena",
+        "de": "Ostermontag",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -2488,7 +2818,16 @@
       "id": "es.aragon-day",
       "names": {
         "en": "Saint George’s Day, Aragon Day",
-        "es": "San Jorge, Día de Aragón"
+        "es": "San Jorge, Día de Aragón",
+        "de": "Georgstag, Tag Aragoniens",
+        "fr": "Saint-Georges, Journée de l’Aragon",
+        "it": "San Giorgio, Giornata dell’Aragona",
+        "nl": "Sint-Joris, Dag van Aragón",
+        "pl": "Dzień Świętego Jerzego, Dzień Aragonii",
+        "pt": "Dia de São Jorge, Dia de Aragão",
+        "rm": "Son Gieri, Di da l’Aragon",
+        "ru": "День святого Георгия, День Арагона",
+        "tr": "Aziz Yorgi Günü, Aragon Günü"
       },
       "date": {
         "type": "fixed",
@@ -2590,7 +2929,16 @@
       "id": "es.castile-leon-day",
       "names": {
         "en": "Castile and León Day",
-        "es": "Fiesta de Castilla y León"
+        "es": "Fiesta de Castilla y León",
+        "de": "Tag von Kastilien und León",
+        "fr": "Journée de Castille-et-León",
+        "it": "Giornata di Castiglia e León",
+        "nl": "Dag van Castilië en León",
+        "pl": "Dzień Kastylii i Leónu",
+        "pt": "Dia de Castela e Leão",
+        "rm": "Di da Castiglia e León",
+        "ru": "День Кастилии и Леона",
+        "tr": "Kastilya ve León Günü"
       },
       "date": {
         "type": "fixed",
@@ -2691,7 +3039,16 @@
         "en": "Labour Day",
         "es": "Fiesta del Trabajo",
         "gl": "Festa do Traballo",
-        "eu": "Langileen Eguna"
+        "eu": "Langileen Eguna",
+        "de": "Tag der Arbeit",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -2886,7 +3243,16 @@
       "id": "es.madrid-day",
       "names": {
         "en": "Community of Madrid Day",
-        "es": "Fiesta de la Comunidad de Madrid"
+        "es": "Fiesta de la Comunidad de Madrid",
+        "de": "Tag der Autonomen Gemeinschaft Madrid",
+        "fr": "Fête de la Communauté de Madrid",
+        "it": "Festa della Comunità di Madrid",
+        "nl": "Dag van de Gemeenschap van Madrid",
+        "pl": "Święto Wspólnoty Madrytu",
+        "pt": "Dia da Comunidade de Madrid",
+        "rm": "Festa da la Communitad da Madrid",
+        "ru": "День автономного сообщества Мадрид",
+        "tr": "Madrid Topluluğu Günü"
       },
       "date": {
         "type": "fixed",
@@ -2980,7 +3346,16 @@
       "id": "es.eid-al-fitr",
       "names": {
         "en": "Eid al-Fitr",
-        "es": "Fiesta del Eid Fitr"
+        "es": "Fiesta del Eid Fitr",
+        "de": "Fest des Fastenbrechens",
+        "fr": "Aïd el-Fitr",
+        "it": "Festa della fine del digiuno",
+        "nl": "Suikerfeest",
+        "pl": "Święto Przerwania Postu",
+        "pt": "Festa do Fim do Jejum",
+        "rm": "Festa da la fin dal Ramadan",
+        "ru": "Ураза-байрам",
+        "tr": "Ramazan Bayramı"
       },
       "date": {
         "type": "list",
@@ -3020,7 +3395,16 @@
       "names": {
         "en": "Galician Literature Day",
         "es": "Día de las Letras Gallegas",
-        "gl": "Día das Letras Galegas"
+        "gl": "Día das Letras Galegas",
+        "de": "Tag der galicischen Literatur",
+        "fr": "Journée des lettres galiciennes",
+        "it": "Giornata delle lettere galiziane",
+        "nl": "Dag van de Galicische letteren",
+        "pl": "Dzień Literatury Galicyjskiej",
+        "pt": "Dia das Letras Galegas",
+        "rm": "Di da la litteratura galiziana",
+        "ru": "День галисийской литературы",
+        "tr": "Galiçya Edebiyatı Günü"
       },
       "date": {
         "type": "fixed",
@@ -3110,7 +3494,16 @@
       "id": "es.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "es": "Lunes de Pascua Granada"
+        "es": "Lunes de Pascua Granada",
+        "de": "Pfingstmontag",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -3142,7 +3535,16 @@
       "id": "es.canary-islands-day",
       "names": {
         "en": "Canary Islands Day",
-        "es": "Día de Canarias"
+        "es": "Día de Canarias",
+        "de": "Tag der Kanarischen Inseln",
+        "fr": "Journée des Canaries",
+        "it": "Giornata delle Canarie",
+        "nl": "Dag van de Canarische Eilanden",
+        "pl": "Dzień Wysp Kanaryjskich",
+        "pt": "Dia das Canárias",
+        "rm": "Di da las Inslas Canarias",
+        "ru": "День Канарских островов",
+        "tr": "Kanarya Adaları Günü"
       },
       "date": {
         "type": "fixed",
@@ -3241,7 +3643,16 @@
       "id": "es.castile-la-mancha-day",
       "names": {
         "en": "Castile-La Mancha Day",
-        "es": "Día de Castilla-La Mancha"
+        "es": "Día de Castilla-La Mancha",
+        "de": "Tag von Kastilien-La Mancha",
+        "fr": "Journée de Castille-La Manche",
+        "it": "Giornata di Castiglia-La Mancia",
+        "nl": "Dag van Castilië-La Mancha",
+        "pl": "Dzień Kastylii-La Manchy",
+        "pt": "Dia de Castela-La Mancha",
+        "rm": "Di da Castiglia-La Mancha",
+        "ru": "День Кастилии — Ла-Манчи",
+        "tr": "Kastilya-La Mancha Günü"
       },
       "date": {
         "type": "fixed",
@@ -3335,7 +3746,16 @@
       "id": "es.corpus-christi",
       "names": {
         "en": "Corpus Christi",
-        "es": "Corpus Christi"
+        "es": "Corpus Christi",
+        "de": "Fronleichnam",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "pt": "Corpo de Deus",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "date": {
         "type": "easter",
@@ -3416,7 +3836,16 @@
       "id": "es.murcia-day",
       "names": {
         "en": "Region of Murcia Day",
-        "es": "Día de la Región de Murcia"
+        "es": "Día de la Región de Murcia",
+        "de": "Tag der Region Murcia",
+        "fr": "Journée de la Région de Murcie",
+        "it": "Giornata della Regione di Murcia",
+        "nl": "Dag van de Regio Murcia",
+        "pl": "Dzień Regionu Murcji",
+        "pt": "Dia da Região de Múrcia",
+        "rm": "Di da la Regiun da Murcia",
+        "ru": "День области Мурсия",
+        "tr": "Murcia Bölgesi Günü"
       },
       "date": {
         "type": "fixed",
@@ -3515,7 +3944,16 @@
       "id": "es.la-rioja-day",
       "names": {
         "en": "La Rioja Day",
-        "es": "Día de La Rioja"
+        "es": "Día de La Rioja",
+        "de": "Tag von La Rioja",
+        "fr": "Journée de La Rioja",
+        "it": "Giornata di La Rioja",
+        "nl": "Dag van La Rioja",
+        "pl": "Dzień La Rioja",
+        "pt": "Dia de La Rioja",
+        "rm": "Di da La Rioja",
+        "ru": "День Риохи",
+        "tr": "La Rioja Günü"
       },
       "date": {
         "type": "fixed",
@@ -3621,7 +4059,16 @@
       "names": {
         "en": "Aran Day",
         "es": "Fiesta de Arán",
-        "ca": "Festa d'Aran"
+        "ca": "Festa d'Aran",
+        "de": "Fest von Aran",
+        "fr": "Fête d’Aran",
+        "it": "Festa di Aran",
+        "nl": "Feest van Aran",
+        "pl": "Święto Aranu",
+        "pt": "Festa de Aran",
+        "rm": "Festa d’Aran",
+        "ru": "Праздник Арана",
+        "tr": "Aran Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -3668,7 +4115,16 @@
       "names": {
         "en": "Saint John’s Day",
         "es": "San Juan",
-        "gl": "San Xoán"
+        "gl": "San Xoán",
+        "de": "Johannistag",
+        "fr": "Saint-Jean",
+        "it": "San Giovanni",
+        "nl": "Sint-Jan",
+        "pl": "Dzień Świętego Jana",
+        "pt": "Dia de São João",
+        "rm": "Son Gion",
+        "ru": "День святого Иоанна",
+        "tr": "Aziz Yahya Günü"
       },
       "date": {
         "type": "fixed",
@@ -3830,7 +4286,16 @@
         "en": "Saint James’s Day",
         "es": "Santiago Apóstol",
         "gl": "Día Nacional de Galicia",
-        "eu": "Santiago Apostoluaren eguna"
+        "eu": "Santiago Apostoluaren eguna",
+        "de": "Jakobstag",
+        "fr": "Saint-Jacques",
+        "it": "San Giacomo",
+        "nl": "Sint-Jacobus",
+        "pl": "Dzień Świętego Jakuba",
+        "pt": "Dia de Santiago",
+        "rm": "Son Giachen",
+        "ru": "День святого Иакова",
+        "tr": "Aziz Yakup Günü"
       },
       "date": {
         "type": "fixed",
@@ -4084,7 +4549,16 @@
       "id": "es.cantabria-institutions-day",
       "names": {
         "en": "Day of the Institutions of Cantabria",
-        "es": "Día de las Instituciones de Cantabria"
+        "es": "Día de las Instituciones de Cantabria",
+        "de": "Tag der Institutionen Kantabriens",
+        "fr": "Journée des institutions de Cantabrie",
+        "it": "Giornata delle istituzioni della Cantabria",
+        "nl": "Dag van de instellingen van Cantabrië",
+        "pl": "Dzień Instytucji Kantabrii",
+        "pt": "Dia das Instituições da Cantábria",
+        "rm": "Di da las instituziuns da la Cantabria",
+        "ru": "День институтов Кантабрии",
+        "tr": "Kantabria Kurumları Günü"
       },
       "date": {
         "type": "fixed",
@@ -4149,7 +4623,16 @@
       "id": "es.our-lady-of-africa",
       "names": {
         "en": "Our Lady of Africa",
-        "es": "Nuestra Señora de África"
+        "es": "Nuestra Señora de África",
+        "de": "Unsere Liebe Frau von Afrika",
+        "fr": "Notre-Dame d’Afrique",
+        "it": "Nostra Signora d’Africa",
+        "nl": "Onze-Lieve-Vrouw van Afrika",
+        "pl": "Matka Boża Afrykańska",
+        "pt": "Nossa Senhora de África",
+        "rm": "Nossadunna d’Africa",
+        "ru": "Богоматерь Африканская",
+        "tr": "Afrika Meryem Ana Günü"
       },
       "date": {
         "type": "fixed",
@@ -4185,7 +4668,16 @@
       "id": "es.island-la-palma",
       "names": {
         "en": "Island holiday: La Palma",
-        "es": "Fiesta insular: La Palma"
+        "es": "Fiesta insular: La Palma",
+        "de": "Inselfeiertag: La Palma",
+        "fr": "Fête insulaire : La Palma",
+        "it": "Festa insulare: La Palma",
+        "nl": "Eilandfeestdag: La Palma",
+        "pl": "Święto wyspy: La Palma",
+        "pt": "Feriado insular: La Palma",
+        "rm": "Festa da l’insla: La Palma",
+        "ru": "Праздник острова: Ла-Пальма",
+        "tr": "Ada bayramı: La Palma"
       },
       "date": {
         "type": "list",
@@ -4283,7 +4775,16 @@
         "en": "Assumption Day",
         "es": "Asunción de la Virgen",
         "gl": "Asunción da Virxe",
-        "eu": "Ama Birjinaren Jasokundea"
+        "eu": "Ama Birjinaren Jasokundea",
+        "de": "Mariä Himmelfahrt",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -4488,7 +4989,16 @@
       "id": "es.ceuta-day",
       "names": {
         "en": "Ceuta Day",
-        "es": "Día de Ceuta"
+        "es": "Día de Ceuta",
+        "de": "Tag von Ceuta",
+        "fr": "Journée de Ceuta",
+        "it": "Giornata di Ceuta",
+        "nl": "Dag van Ceuta",
+        "pl": "Dzień Ceuty",
+        "pt": "Dia de Ceuta",
+        "rm": "Di da Ceuta",
+        "ru": "День Сеуты",
+        "tr": "Septe Günü"
       },
       "date": {
         "type": "fixed",
@@ -4576,7 +5086,16 @@
       "id": "es.circumnavigation-500",
       "names": {
         "en": "500th anniversary of the first circumnavigation",
-        "es": "V Centenario de la Vuelta al Mundo"
+        "es": "V Centenario de la Vuelta al Mundo",
+        "de": "500. Jahrestag der ersten Weltumsegelung",
+        "fr": "500e anniversaire du premier tour du monde",
+        "it": "500º anniversario della prima circumnavigazione del globo",
+        "nl": "500e verjaardag van de eerste reis rond de wereld",
+        "pl": "500. rocznica pierwszego opłynięcia Ziemi",
+        "pt": "500.º aniversário da primeira viagem de circum-navegação",
+        "rm": "500avel anniversari dal emprim viadi enturn il mund",
+        "ru": "500-летие первого кругосветного плавания",
+        "tr": "İlk dünya turunun 500. yıl dönümü"
       },
       "date": {
         "type": "list",
@@ -4603,7 +5122,16 @@
       "id": "es.asturias-day",
       "names": {
         "en": "Asturias Day",
-        "es": "Día de Asturias"
+        "es": "Día de Asturias",
+        "de": "Tag Asturiens",
+        "fr": "Journée des Asturies",
+        "it": "Giornata delle Asturie",
+        "nl": "Dag van Asturië",
+        "pl": "Dzień Asturii",
+        "pt": "Dia das Astúrias",
+        "rm": "Di da las Asturias",
+        "ru": "День Астурии",
+        "tr": "Asturias Günü"
       },
       "date": {
         "type": "fixed",
@@ -4708,7 +5236,16 @@
       "id": "es.extremadura-day",
       "names": {
         "en": "Extremadura Day",
-        "es": "Día de Extremadura"
+        "es": "Día de Extremadura",
+        "de": "Tag der Extremadura",
+        "fr": "Journée de l’Estrémadure",
+        "it": "Giornata dell’Estremadura",
+        "nl": "Dag van Extremadura",
+        "pl": "Dzień Estremadury",
+        "pt": "Dia da Estremadura",
+        "rm": "Di da l’Extremadura",
+        "ru": "День Эстремадуры",
+        "tr": "Extremadura Günü"
       },
       "date": {
         "type": "fixed",
@@ -4810,7 +5347,16 @@
       "id": "es.island-gran-canaria",
       "names": {
         "en": "Island holiday: Gran Canaria",
-        "es": "Fiesta insular: Gran Canaria"
+        "es": "Fiesta insular: Gran Canaria",
+        "de": "Inselfeiertag: Gran Canaria",
+        "fr": "Fête insulaire : Gran Canaria",
+        "it": "Festa insulare: Gran Canaria",
+        "nl": "Eilandfeestdag: Gran Canaria",
+        "pl": "Święto wyspy: Gran Canaria",
+        "pt": "Feriado insular: Gran Canaria",
+        "rm": "Festa da l’insla: Gran Canaria",
+        "ru": "Праздник острова: Гран-Канария",
+        "tr": "Ada bayramı: Gran Canaria"
       },
       "date": {
         "type": "list",
@@ -4906,7 +5452,16 @@
       "id": "es.catalonia-national-day",
       "names": {
         "en": "National Day of Catalonia",
-        "es": "Fiesta Nacional de Cataluña"
+        "es": "Fiesta Nacional de Cataluña",
+        "de": "Nationalfeiertag Kataloniens",
+        "fr": "Fête nationale de la Catalogne",
+        "it": "Festa nazionale della Catalogna",
+        "nl": "Nationale feestdag van Catalonië",
+        "pl": "Narodowe Święto Katalonii",
+        "pt": "Dia Nacional da Catalunha",
+        "rm": "Festa naziunala da la Catalogna",
+        "ru": "Национальный день Каталонии",
+        "tr": "Katalonya Ulusal Günü"
       },
       "date": {
         "type": "fixed",
@@ -4984,7 +5539,16 @@
       "id": "es.bien-aparecida",
       "names": {
         "en": "Our Lady of Bien Aparecida",
-        "es": "La Bien Aparecida"
+        "es": "La Bien Aparecida",
+        "de": "Unsere Liebe Frau von Bien Aparecida",
+        "fr": "Notre-Dame de la Bien Aparecida",
+        "it": "Nostra Signora della Bien Aparecida",
+        "nl": "Onze-Lieve-Vrouw van Bien Aparecida",
+        "pl": "Matka Boża z Bien Aparecida",
+        "pt": "Nossa Senhora da Bien Aparecida",
+        "rm": "Nossadunna da Bien Aparecida",
+        "ru": "Богоматерь Бьен-Апаресида",
+        "tr": "Bien Aparecida Meryem Ana Günü"
       },
       "date": {
         "type": "fixed",
@@ -5062,7 +5626,16 @@
       "id": "es.island-lanzarote",
       "names": {
         "en": "Island holiday: Lanzarote",
-        "es": "Fiesta insular: Lanzarote"
+        "es": "Fiesta insular: Lanzarote",
+        "de": "Inselfeiertag: Lanzarote",
+        "fr": "Fête insulaire : Lanzarote",
+        "it": "Festa insulare: Lanzarote",
+        "nl": "Eilandfeestdag: Lanzarote",
+        "pl": "Święto wyspy: Lanzarote",
+        "pt": "Feriado insular: Lanzarote",
+        "rm": "Festa da l’insla: Lanzarote",
+        "ru": "Праздник острова: Лансароте",
+        "tr": "Ada bayramı: Lanzarote"
       },
       "date": {
         "type": "list",
@@ -5158,7 +5731,16 @@
       "id": "es.island-fuerteventura",
       "names": {
         "en": "Island holiday: Fuerteventura",
-        "es": "Fiesta insular: Fuerteventura"
+        "es": "Fiesta insular: Fuerteventura",
+        "de": "Inselfeiertag: Fuerteventura",
+        "fr": "Fête insulaire : Fuerteventura",
+        "it": "Festa insulare: Fuerteventura",
+        "nl": "Eilandfeestdag: Fuerteventura",
+        "pl": "Święto wyspy: Fuerteventura",
+        "pt": "Feriado insular: Fuerteventura",
+        "rm": "Festa da l’insla: Fuerteventura",
+        "ru": "Праздник острова: Фуэртевентура",
+        "tr": "Ada bayramı: Fuerteventura"
       },
       "date": {
         "type": "list",
@@ -5254,7 +5836,16 @@
       "id": "es.island-el-hierro",
       "names": {
         "en": "Island holiday: El Hierro",
-        "es": "Fiesta insular: El Hierro"
+        "es": "Fiesta insular: El Hierro",
+        "de": "Inselfeiertag: El Hierro",
+        "fr": "Fête insulaire : El Hierro",
+        "it": "Festa insulare: El Hierro",
+        "nl": "Eilandfeestdag: El Hierro",
+        "pl": "Święto wyspy: El Hierro",
+        "pt": "Feriado insular: El Hierro",
+        "rm": "Festa da l’insla: El Hierro",
+        "ru": "Праздник острова: Иерро",
+        "tr": "Ada bayramı: El Hierro"
       },
       "date": {
         "type": "list",
@@ -5351,7 +5942,16 @@
       "names": {
         "en": "Anniversary of the first Basque Government",
         "es": "Aniversario del primer Gobierno Vasco",
-        "eu": "Euskadiko lehen Gobernuaren urteurrena"
+        "eu": "Euskadiko lehen Gobernuaren urteurrena",
+        "de": "Jahrestag der ersten baskischen Regierung",
+        "fr": "Anniversaire du premier gouvernement basque",
+        "it": "Anniversario del primo governo basco",
+        "nl": "Verjaardag van de eerste Baskische regering",
+        "pl": "Rocznica pierwszego rządu baskijskiego",
+        "pt": "Aniversário do primeiro Governo Basco",
+        "rm": "Anniversari da l’emprima regenza basca",
+        "ru": "Годовщина первого баскского правительства",
+        "tr": "İlk Bask Hükümeti’nin yıl dönümü"
       },
       "date": {
         "type": "list",
@@ -5382,7 +5982,16 @@
       "id": "es.valencian-community-day",
       "names": {
         "en": "Valencian Community Day",
-        "es": "Día de la Comunitat Valenciana"
+        "es": "Día de la Comunitat Valenciana",
+        "de": "Tag der Valencianischen Gemeinschaft",
+        "fr": "Journée de la Communauté valencienne",
+        "it": "Giornata della Comunità Valenciana",
+        "nl": "Dag van de Valenciaanse Gemeenschap",
+        "pl": "Dzień Wspólnoty Walenckiej",
+        "pt": "Dia da Comunidade Valenciana",
+        "rm": "Di da la Communitad valenziana",
+        "ru": "День Валенсийского сообщества",
+        "tr": "Valensiya Topluluğu Günü"
       },
       "date": {
         "type": "fixed",
@@ -5459,7 +6068,16 @@
       "id": "es.island-la-gomera",
       "names": {
         "en": "Island holiday: La Gomera",
-        "es": "Fiesta insular: La Gomera"
+        "es": "Fiesta insular: La Gomera",
+        "de": "Inselfeiertag: La Gomera",
+        "fr": "Fête insulaire : La Gomera",
+        "it": "Festa insulare: La Gomera",
+        "nl": "Eilandfeestdag: La Gomera",
+        "pl": "Święto wyspy: La Gomera",
+        "pt": "Feriado insular: La Gomera",
+        "rm": "Festa da l’insla: La Gomera",
+        "ru": "Праздник острова: Ла-Гомера",
+        "tr": "Ada bayramı: La Gomera"
       },
       "date": {
         "type": "list",
@@ -5557,7 +6175,16 @@
         "en": "National Day of Spain",
         "es": "Fiesta Nacional de España",
         "gl": "Festa Nacional de España",
-        "eu": "Espainiako Jai Nazionala"
+        "eu": "Espainiako Jai Nazionala",
+        "de": "Spanischer Nationalfeiertag",
+        "fr": "Fête nationale espagnole",
+        "it": "Festa nazionale spagnola",
+        "nl": "Nationale feestdag van Spanje",
+        "pl": "Święto Narodowe Hiszpanii",
+        "pt": "Dia Nacional de Espanha",
+        "rm": "Festa naziunala da la Spagna",
+        "ru": "Национальный праздник Испании",
+        "tr": "İspanya Ulusal Günü"
       },
       "date": {
         "type": "fixed",
@@ -5753,7 +6380,16 @@
       "names": {
         "en": "Basque Country Day",
         "es": "Día del País Vasco",
-        "eu": "Euskadiko Eguna"
+        "eu": "Euskadiko Eguna",
+        "de": "Tag des Baskenlandes",
+        "fr": "Journée du Pays basque",
+        "it": "Giornata dei Paesi Baschi",
+        "nl": "Dag van Baskenland",
+        "pl": "Dzień Kraju Basków",
+        "pt": "Dia do País Basco",
+        "rm": "Di dal Pajais Basc",
+        "ru": "День Страны Басков",
+        "tr": "Bask Ülkesi Günü"
       },
       "date": {
         "type": "fixed",
@@ -5788,7 +6424,16 @@
         "en": "All Saints’ Day",
         "es": "Todos los Santos",
         "gl": "Todos os Santos",
-        "eu": "Santu Guztien Eguna"
+        "eu": "Santu Guztien Eguna",
+        "de": "Allerheiligen",
+        "fr": "Toussaint",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -5985,7 +6630,16 @@
       "id": "es.eid-al-adha",
       "names": {
         "en": "Eid al-Adha",
-        "es": "Fiesta del Sacrificio (Eid al-Adha)"
+        "es": "Fiesta del Sacrificio (Eid al-Adha)",
+        "de": "Opferfest",
+        "fr": "Aïd el-Kebir",
+        "it": "Festa del sacrificio",
+        "nl": "Offerfeest",
+        "pl": "Święto Ofiar",
+        "pt": "Festa do Sacrifício",
+        "rm": "Festa da l’unfrenda",
+        "ru": "Курбан-байрам",
+        "tr": "Kurban Bayramı"
       },
       "date": {
         "type": "list",
@@ -6131,7 +6785,16 @@
         "en": "Constitution Day",
         "es": "Día de la Constitución Española",
         "gl": "Día da Constitución Española",
-        "eu": "Konstituzio Eguna"
+        "eu": "Konstituzio Eguna",
+        "de": "Tag der Verfassung",
+        "fr": "Jour de la Constitution",
+        "it": "Giorno della Costituzione",
+        "nl": "Dag van de Grondwet",
+        "pl": "Dzień Konstytucji",
+        "pt": "Dia da Constituição",
+        "rm": "Di da la Constituziun",
+        "ru": "День Конституции",
+        "tr": "Anayasa Günü"
       },
       "date": {
         "type": "fixed",
@@ -6330,7 +6993,16 @@
         "en": "Immaculate Conception",
         "es": "Inmaculada Concepción",
         "gl": "Inmaculada Concepción",
-        "eu": "Andre Maria Sortzez Garbiaren Eguna"
+        "eu": "Andre Maria Sortzez Garbiaren Eguna",
+        "de": "Mariä Empfängnis",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -6534,7 +7206,16 @@
         "en": "Christmas Day",
         "es": "Natividad del Señor",
         "gl": "Natividade do Señor",
-        "eu": "Eguberri Eguna"
+        "eu": "Eguberri Eguna",
+        "de": "Weihnachten",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -6733,7 +7414,16 @@
       "names": {
         "en": "Saint Stephen’s Day",
         "es": "San Esteban",
-        "ca": "Sant Esteve"
+        "ca": "Sant Esteve",
+        "de": "Stephanstag",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "date": {
         "type": "fixed",

@@ -11,16 +11,14 @@
 # Coverage: 2024-2027, the years for which the decree or the Govern's
 # publication of it was read. Other years return nothing.
 code: AD
-names: {ca: Andorra, en: Andorra}
-languages: [ca]
 regions:
-  - {code: AD-02, names: {ca: Canillo, en: Canillo}}
-  - {code: AD-03, names: {ca: Encamp, en: Encamp}}
-  - {code: AD-04, names: {ca: La Massana, en: La Massana}}
-  - {code: AD-05, names: {ca: Ordino, en: Ordino}}
-  - {code: AD-06, names: {ca: Sant Julià de Lòria, en: Sant Julià de Lòria}}
-  - {code: AD-07, names: {ca: Andorra la Vella, en: Andorra la Vella}}
-  - {code: AD-08, names: {ca: Escaldes-Engordany, en: Escaldes-Engordany}}
+  - AD-02
+  - AD-03
+  - AD-04
+  - AD-05
+  - AD-06
+  - AD-07
+  - AD-08
 sources:
   ad-llei-31-2018:
     title: Llei 31/2018, del 6 de desembre, de relacions laborals

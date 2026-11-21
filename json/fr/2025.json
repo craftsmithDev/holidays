@@ -8,7 +8,16 @@
       "id": "fr.new-year",
       "name": {
         "en": "New Year’s Day",
-        "fr": "Jour de l’An"
+        "fr": "Jour de l’An",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "type": "public",
       "startTime": null,
@@ -25,7 +34,16 @@
       "id": "fr.good-friday",
       "name": {
         "en": "Good Friday",
-        "fr": "Vendredi saint"
+        "fr": "Vendredi saint",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "type": "observance",
       "startTime": null,
@@ -47,7 +65,16 @@
       "id": "fr.easter-monday",
       "name": {
         "en": "Easter Monday",
-        "fr": "Lundi de Pâques"
+        "fr": "Lundi de Pâques",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -64,7 +91,16 @@
       "id": "fr.abolition-of-slavery",
       "name": {
         "en": "Abolition of Slavery Day",
-        "fr": "Commémoration de l’abolition de l’esclavage"
+        "fr": "Commémoration de l’abolition de l’esclavage",
+        "de": "Gedenktag der Abschaffung der Sklaverei",
+        "es": "Conmemoración de la abolición de la esclavitud",
+        "it": "Commemorazione dell’abolizione della schiavitù",
+        "nl": "Herdenking van de afschaffing van de slavernij",
+        "pl": "Rocznica zniesienia niewolnictwa",
+        "pt": "Comemoração da abolição da escravatura",
+        "rm": "Commemoraziun da l’aboliziun da la sclavaria",
+        "ru": "День отмены рабства",
+        "tr": "Köleliğin Kaldırılışını Anma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -84,7 +120,16 @@
       "id": "fr.labour-day",
       "name": {
         "en": "Labour Day",
-        "fr": "Fête du Travail"
+        "fr": "Fête du Travail",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -102,7 +147,16 @@
       "id": "fr.victory-day",
       "name": {
         "en": "Victory in Europe Day",
-        "fr": "Victoire 1945"
+        "fr": "Victoire 1945",
+        "de": "Tag des Sieges in Europa",
+        "es": "Día de la Victoria en Europa",
+        "it": "Giorno della vittoria in Europa",
+        "nl": "Dag van de Overwinning in Europa",
+        "pl": "Dzień Zwycięstwa w Europie",
+        "pt": "Dia da Vitória na Europa",
+        "rm": "Di da la victoria en l’Europa",
+        "ru": "День Победы в Европе",
+        "tr": "Avrupa’da Zafer Günü"
       },
       "type": "public",
       "startTime": null,
@@ -119,7 +173,16 @@
       "id": "fr.abolition-of-slavery",
       "name": {
         "en": "Abolition of Slavery Day",
-        "fr": "Commémoration de l’abolition de l’esclavage"
+        "fr": "Commémoration de l’abolition de l’esclavage",
+        "de": "Gedenktag der Abschaffung der Sklaverei",
+        "es": "Conmemoración de la abolición de la esclavitud",
+        "it": "Commemorazione dell’abolizione della schiavitù",
+        "nl": "Herdenking van de afschaffing van de slavernij",
+        "pl": "Rocznica zniesienia niewolnictwa",
+        "pt": "Comemoração da abolição da escravatura",
+        "rm": "Commemoraziun da l’aboliziun da la sclavaria",
+        "ru": "День отмены рабства",
+        "tr": "Köleliğin Kaldırılışını Anma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -139,7 +202,16 @@
       "id": "fr.abolition-of-slavery",
       "name": {
         "en": "Abolition of Slavery Day",
-        "fr": "Commémoration de l’abolition de l’esclavage"
+        "fr": "Commémoration de l’abolition de l’esclavage",
+        "de": "Gedenktag der Abschaffung der Sklaverei",
+        "es": "Conmemoración de la abolición de la esclavitud",
+        "it": "Commemorazione dell’abolizione della schiavitù",
+        "nl": "Herdenking van de afschaffing van de slavernij",
+        "pl": "Rocznica zniesienia niewolnictwa",
+        "pt": "Comemoração da abolição da escravatura",
+        "rm": "Commemoraziun da l’aboliziun da la sclavaria",
+        "ru": "День отмены рабства",
+        "tr": "Köleliğin Kaldırılışını Anma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -161,7 +233,16 @@
       "id": "fr.ascension",
       "name": {
         "en": "Ascension Day",
-        "fr": "Ascension"
+        "fr": "Ascension",
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "it": "Ascensione",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "type": "public",
       "startTime": null,
@@ -178,7 +259,16 @@
       "id": "fr.whit-monday",
       "name": {
         "en": "Whit Monday",
-        "fr": "Lundi de Pentecôte"
+        "fr": "Lundi de Pentecôte",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -196,7 +286,16 @@
       "id": "fr.abolition-of-slavery",
       "name": {
         "en": "Abolition of Slavery Day",
-        "fr": "Commémoration de l’abolition de l’esclavage"
+        "fr": "Commémoration de l’abolition de l’esclavage",
+        "de": "Gedenktag der Abschaffung der Sklaverei",
+        "es": "Conmemoración de la abolición de la esclavitud",
+        "it": "Commemorazione dell’abolizione della schiavitù",
+        "nl": "Herdenking van de afschaffing van de slavernij",
+        "pl": "Rocznica zniesienia niewolnictwa",
+        "pt": "Comemoração da abolição da escravatura",
+        "rm": "Commemoraziun da l’aboliziun da la sclavaria",
+        "ru": "День отмены рабства",
+        "tr": "Köleliğin Kaldırılışını Anma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -216,7 +315,16 @@
       "id": "fr.national-day",
       "name": {
         "en": "National Day",
-        "fr": "Fête nationale"
+        "fr": "Fête nationale",
+        "de": "Nationalfeiertag",
+        "es": "Fiesta nacional",
+        "it": "Festa nazionale",
+        "nl": "Nationale feestdag",
+        "pl": "Święto Narodowe",
+        "pt": "Dia Nacional",
+        "rm": "Festa naziunala",
+        "ru": "Национальный праздник",
+        "tr": "Ulusal Bayram"
       },
       "type": "public",
       "startTime": null,
@@ -233,7 +341,16 @@
       "id": "fr.assumption",
       "name": {
         "en": "Assumption Day",
-        "fr": "Assomption"
+        "fr": "Assomption",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "type": "public",
       "startTime": null,
@@ -250,7 +367,16 @@
       "id": "fr.abolition-of-slavery",
       "name": {
         "en": "Abolition of Slavery Day",
-        "fr": "Commémoration de l’abolition de l’esclavage"
+        "fr": "Commémoration de l’abolition de l’esclavage",
+        "de": "Gedenktag der Abschaffung der Sklaverei",
+        "es": "Conmemoración de la abolición de la esclavitud",
+        "it": "Commemorazione dell’abolizione della schiavitù",
+        "nl": "Herdenking van de afschaffing van de slavernij",
+        "pl": "Rocznica zniesienia niewolnictwa",
+        "pt": "Comemoração da abolição da escravatura",
+        "rm": "Commemoraziun da l’aboliziun da la sclavaria",
+        "ru": "День отмены рабства",
+        "tr": "Köleliğin Kaldırılışını Anma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -270,7 +396,16 @@
       "id": "fr.all-saints",
       "name": {
         "en": "All Saints’ Day",
-        "fr": "Toussaint"
+        "fr": "Toussaint",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "type": "public",
       "startTime": null,
@@ -287,7 +422,16 @@
       "id": "fr.armistice-day",
       "name": {
         "en": "Armistice Day",
-        "fr": "Armistice 1918"
+        "fr": "Armistice 1918",
+        "de": "Waffenstillstand 1918",
+        "es": "Armisticio de 1918",
+        "it": "Armistizio del 1918",
+        "nl": "Wapenstilstand 1918",
+        "pl": "Rozejm z 1918 roku",
+        "pt": "Armistício de 1918",
+        "rm": "Armistizi 1918",
+        "ru": "Перемирие 1918 года",
+        "tr": "1918 Ateşkesi"
       },
       "type": "public",
       "startTime": null,
@@ -304,7 +448,16 @@
       "id": "fr.abolition-of-slavery",
       "name": {
         "en": "Abolition of Slavery Day",
-        "fr": "Commémoration de l’abolition de l’esclavage"
+        "fr": "Commémoration de l’abolition de l’esclavage",
+        "de": "Gedenktag der Abschaffung der Sklaverei",
+        "es": "Conmemoración de la abolición de la esclavitud",
+        "it": "Commemorazione dell’abolizione della schiavitù",
+        "nl": "Herdenking van de afschaffing van de slavernij",
+        "pl": "Rocznica zniesienia niewolnictwa",
+        "pt": "Comemoração da abolição da escravatura",
+        "rm": "Commemoraziun da l’aboliziun da la sclavaria",
+        "ru": "День отмены рабства",
+        "tr": "Köleliğin Kaldırılışını Anma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -324,7 +477,16 @@
       "id": "fr.christmas",
       "name": {
         "en": "Christmas Day",
-        "fr": "Noël"
+        "fr": "Noël",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "type": "public",
       "startTime": null,
@@ -341,7 +503,16 @@
       "id": "fr.saint-stephen",
       "name": {
         "en": "Saint Stephen’s Day",
-        "fr": "Saint-Étienne (second jour de Noël)"
+        "fr": "Saint-Étienne (second jour de Noël)",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "type": "public",
       "startTime": null,

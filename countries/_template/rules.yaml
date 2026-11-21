@@ -2,21 +2,18 @@
 # 3166-1 alpha-2 code), then replace every value. Field reference:
 # docs/format.md. Checklist and source rules: CONTRIBUTING.md.
 
-# ISO 3166-1 alpha-2, upper case. Must match the folder name.
+# ISO 3166-1 alpha-2, upper case. Must match the folder name. The country
+# name, its local languages and the region names come from craftsmith/regions;
+# every holiday needs a name in English and in each local language listed
+# there.
 code: XX
 
-# Country name in English and in every language of `languages`.
-names: {en: Exampleland, de: Beispielland}
-
-# Local languages (BCP 47), most used first. Every holiday needs a name in
-# each of them plus English.
-languages: [de]
-
-# First-level subdivisions with their full ISO 3166-2 code. Use [] when the
-# holidays never differ by region.
+# The ISO 3166-2 codes of the subdivisions that have their own holidays. Each
+# must exist in craftsmith/regions. Use [] when the holidays never differ by
+# region.
 regions:
-  - {code: XX-AA, names: {en: Region A, de: Region A}}
-  - {code: XX-BB, names: {en: Region B, de: Region B}}
+  - XX-AA
+  - XX-BB
 
 # Source catalogue. Each holiday observance cites one or more ids from here.
 # Prefer the law itself or an official government page. Every entry must be

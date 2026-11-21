@@ -2,8 +2,17 @@
   "format": 1,
   "code": "PT",
   "names": {
+    "en": "Portugal",
     "pt": "Portugal",
-    "en": "Portugal"
+    "de": "Portugal",
+    "es": "Portugal",
+    "fr": "Portugal",
+    "it": "Portogallo",
+    "nl": "Portugal",
+    "pl": "Portugalia",
+    "rm": "Portugal",
+    "ru": "Португалия",
+    "tr": "Portekiz"
   },
   "languages": [
     "pt"
@@ -12,141 +21,300 @@
     {
       "code": "PT-01",
       "names": {
+        "en": "Aveiro",
         "pt": "Aveiro",
-        "en": "Aveiro"
+        "de": "Aveiro",
+        "es": "Aveiro",
+        "fr": "Aveiro",
+        "it": "Aveiro",
+        "nl": "Aveiro",
+        "pl": "Aveiro",
+        "ru": "Авейру",
+        "tr": "Aveiro"
       }
     },
     {
       "code": "PT-02",
       "names": {
+        "en": "Beja",
         "pt": "Beja",
-        "en": "Beja"
+        "de": "Beja",
+        "es": "Beja",
+        "fr": "Beja",
+        "it": "Beja",
+        "nl": "Beja",
+        "pl": "Beja",
+        "ru": "Бежа",
+        "tr": "Beja"
       }
     },
     {
       "code": "PT-03",
       "names": {
+        "en": "Braga",
         "pt": "Braga",
-        "en": "Braga"
+        "de": "Braga",
+        "es": "Braga",
+        "fr": "Braga",
+        "it": "Braga",
+        "nl": "Braga",
+        "pl": "Braga",
+        "ru": "Брага",
+        "tr": "Braga"
       }
     },
     {
       "code": "PT-04",
       "names": {
+        "en": "Bragança",
         "pt": "Bragança",
-        "en": "Bragança"
+        "de": "Bragança",
+        "es": "Braganza",
+        "fr": "Bragance",
+        "it": "Braganza",
+        "nl": "Bragança",
+        "pl": "Bragança",
+        "ru": "Браганса",
+        "tr": "Bragança"
       }
     },
     {
       "code": "PT-05",
       "names": {
+        "en": "Castelo Branco",
         "pt": "Castelo Branco",
-        "en": "Castelo Branco"
+        "de": "Castelo Branco",
+        "es": "Castelo Branco",
+        "fr": "Castelo Branco",
+        "it": "Castelo Branco",
+        "nl": "Castelo Branco",
+        "pl": "Castelo Branco",
+        "ru": "Каштелу-Бранку",
+        "tr": "Castello Branco"
       }
     },
     {
       "code": "PT-06",
       "names": {
+        "en": "Coimbra",
         "pt": "Coimbra",
-        "en": "Coimbra"
+        "de": "Coimbra",
+        "es": "Coímbra",
+        "fr": "Coimbra",
+        "it": "Coimbra",
+        "nl": "Coimbra",
+        "pl": "Coimbra",
+        "ru": "Коимбра",
+        "tr": "Coimbra"
       }
     },
     {
       "code": "PT-07",
       "names": {
+        "en": "Évora",
         "pt": "Évora",
-        "en": "Évora"
+        "de": "Évora",
+        "es": "Évora",
+        "fr": "Évora",
+        "it": "Évora",
+        "nl": "Évora",
+        "pl": "Évora",
+        "ru": "Эвора",
+        "tr": "Évora"
       }
     },
     {
       "code": "PT-08",
       "names": {
+        "en": "Faro",
         "pt": "Faro",
-        "en": "Faro"
+        "de": "Faro",
+        "es": "Faro",
+        "fr": "Faro",
+        "it": "Faro",
+        "nl": "Faro",
+        "pl": "Faro",
+        "ru": "Фару",
+        "tr": "Faro"
       }
     },
     {
       "code": "PT-09",
       "names": {
+        "en": "Guarda",
         "pt": "Guarda",
-        "en": "Guarda"
+        "de": "Guarda",
+        "es": "Guarda",
+        "fr": "Guarda",
+        "it": "Guarda",
+        "nl": "Guarda",
+        "pl": "Guarda",
+        "ru": "Гуарда",
+        "tr": "Guarda"
       }
     },
     {
       "code": "PT-10",
       "names": {
+        "en": "Leiria",
         "pt": "Leiria",
-        "en": "Leiria"
+        "de": "Leiria",
+        "es": "Leiria",
+        "fr": "Leiria",
+        "it": "Leiria",
+        "nl": "Leiria",
+        "pl": "Leiria",
+        "ru": "Лейрия",
+        "tr": "Leiria"
       }
     },
     {
       "code": "PT-11",
       "names": {
+        "en": "Lisbon",
         "pt": "Lisboa",
-        "en": "Lisbon"
+        "de": "Lissabon",
+        "es": "Lisboa",
+        "fr": "Lisbonne",
+        "it": "Lisbona",
+        "nl": "Lissabon",
+        "pl": "Lizbona",
+        "ru": "Лиссабон",
+        "tr": "Lizbon"
       }
     },
     {
       "code": "PT-12",
       "names": {
+        "en": "Portalegre",
         "pt": "Portalegre",
-        "en": "Portalegre"
+        "de": "Portalegre",
+        "es": "Portalegre",
+        "fr": "Portalegre",
+        "it": "Portalegre",
+        "nl": "Portalegre",
+        "pl": "Portalegre",
+        "ru": "Порталегри",
+        "tr": "Portalegre"
       }
     },
     {
       "code": "PT-13",
       "names": {
+        "en": "Porto",
         "pt": "Porto",
-        "en": "Porto"
+        "de": "Porto",
+        "es": "Oporto",
+        "fr": "Porto",
+        "it": "Porto",
+        "nl": "Porto",
+        "ru": "Порту",
+        "tr": "Porto"
       }
     },
     {
       "code": "PT-14",
       "names": {
+        "en": "Santarém",
         "pt": "Santarém",
-        "en": "Santarém"
+        "de": "Santarém",
+        "es": "Santarém",
+        "fr": "Santarém",
+        "it": "Santarém",
+        "nl": "Santarém",
+        "pl": "Santarém",
+        "ru": "Сантарен",
+        "tr": "Santarém"
       }
     },
     {
       "code": "PT-15",
       "names": {
+        "en": "Setúbal",
         "pt": "Setúbal",
-        "en": "Setúbal"
+        "de": "Setúbal",
+        "es": "Setúbal",
+        "fr": "Setúbal",
+        "it": "Setúbal",
+        "nl": "Setúbal",
+        "pl": "Setúbal",
+        "ru": "Сетубал",
+        "tr": "Setubal"
       }
     },
     {
       "code": "PT-16",
       "names": {
+        "en": "Viana do Castelo",
         "pt": "Viana do Castelo",
-        "en": "Viana do Castelo"
+        "de": "Viana do Castelo",
+        "es": "Viana do Castelo",
+        "fr": "Viana do Castelo",
+        "it": "Viana do Castelo",
+        "nl": "Viana do Castelo",
+        "pl": "Viana do Castelo",
+        "ru": "Виана-ду-Каштелу",
+        "tr": "Viano do Castelo"
       }
     },
     {
       "code": "PT-17",
       "names": {
+        "en": "Vila Real",
         "pt": "Vila Real",
-        "en": "Vila Real"
+        "de": "Vila Real",
+        "es": "Vila Real",
+        "fr": "Vila Real",
+        "it": "Vila Real",
+        "nl": "Vila Real",
+        "pl": "Vila Real",
+        "ru": "Вила-Реал",
+        "tr": "Vila Real"
       }
     },
     {
       "code": "PT-18",
       "names": {
+        "en": "Viseu",
         "pt": "Viseu",
-        "en": "Viseu"
+        "de": "Viseu",
+        "es": "Viseu",
+        "fr": "Viseu",
+        "it": "Viseu",
+        "nl": "Viseu",
+        "pl": "Viseu",
+        "ru": "Визеу",
+        "tr": "Viseu"
       }
     },
     {
       "code": "PT-20",
       "names": {
-        "pt": "Região Autónoma dos Açores",
-        "en": "Azores"
+        "en": "Azores",
+        "pt": "Açores",
+        "de": "Azoren",
+        "es": "Azores",
+        "fr": "Açores",
+        "it": "Azzorre",
+        "nl": "Azoren",
+        "pl": "Azory",
+        "ru": "Азорские острова",
+        "tr": "Azorlar"
       }
     },
     {
       "code": "PT-30",
       "names": {
-        "pt": "Região Autónoma da Madeira",
-        "en": "Madeira"
+        "en": "Madeira",
+        "pt": "Madeira",
+        "de": "Madeira",
+        "es": "Madeira",
+        "fr": "Madère",
+        "it": "Madera",
+        "nl": "Madeira",
+        "pl": "Madera",
+        "ru": "Мадейра",
+        "tr": "Madeira Adaları"
       }
     }
   ],
@@ -220,7 +388,16 @@
       "id": "pt.new-year",
       "names": {
         "en": "New Year’s Day",
-        "pt": "Ano Novo"
+        "pt": "Ano Novo",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -242,7 +419,16 @@
       "id": "pt.shrove-tuesday",
       "names": {
         "en": "Carnival",
-        "pt": "Carnaval"
+        "pt": "Carnaval",
+        "de": "Karneval",
+        "es": "Carnaval",
+        "fr": "Carnaval",
+        "it": "Carnevale",
+        "nl": "Carnaval",
+        "pl": "Karnawał",
+        "rm": "Tschaiver",
+        "ru": "Карнавал",
+        "tr": "Karnaval"
       },
       "date": {
         "type": "easter",
@@ -264,7 +450,16 @@
       "id": "pt.good-friday",
       "names": {
         "en": "Good Friday",
-        "pt": "Sexta-Feira Santa"
+        "pt": "Sexta-Feira Santa",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -286,7 +481,16 @@
       "id": "pt.madeira-autonomy-day",
       "names": {
         "en": "Autonomy Day",
-        "pt": "Dia da Autonomia"
+        "pt": "Dia da Autonomia",
+        "de": "Tag der Autonomie",
+        "es": "Día de la Autonomía",
+        "fr": "Jour de l’autonomie",
+        "it": "Giorno dell’autonomia",
+        "nl": "Dag van de Autonomie",
+        "pl": "Dzień Autonomii",
+        "rm": "Di da l’autonomia",
+        "ru": "День автономии",
+        "tr": "Özerklik Günü"
       },
       "date": {
         "type": "fixed",
@@ -311,7 +515,16 @@
       "id": "pt.freedom-day",
       "names": {
         "en": "Freedom Day",
-        "pt": "Dia da Liberdade"
+        "pt": "Dia da Liberdade",
+        "de": "Tag der Freiheit",
+        "es": "Día de la Libertad",
+        "fr": "Jour de la Liberté",
+        "it": "Giorno della Libertà",
+        "nl": "Dag van de Vrijheid",
+        "pl": "Dzień Wolności",
+        "rm": "Di da la libertad",
+        "ru": "День свободы",
+        "tr": "Özgürlük Günü"
       },
       "date": {
         "type": "fixed",
@@ -333,7 +546,16 @@
       "id": "pt.labour-day",
       "names": {
         "en": "Labour Day",
-        "pt": "Dia do Trabalhador"
+        "pt": "Dia do Trabalhador",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -355,7 +577,16 @@
       "id": "pt.azores-day",
       "names": {
         "en": "Azores Day",
-        "pt": "Dia da Região Autónoma dos Açores"
+        "pt": "Dia da Região Autónoma dos Açores",
+        "de": "Tag der Azoren",
+        "es": "Día de las Azores",
+        "fr": "Jour des Açores",
+        "it": "Giornata delle Azzorre",
+        "nl": "Dag van de Azoren",
+        "pl": "Dzień Azorów",
+        "rm": "Di da las Azoras",
+        "ru": "День Азорских островов",
+        "tr": "Azorlar Günü"
       },
       "date": {
         "type": "easter",
@@ -378,7 +609,16 @@
       "id": "pt.corpus-christi",
       "names": {
         "en": "Corpus Christi",
-        "pt": "Corpo de Deus"
+        "pt": "Corpo de Deus",
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "date": {
         "type": "easter",
@@ -409,7 +649,16 @@
       "id": "pt.national-day",
       "names": {
         "en": "Portugal Day",
-        "pt": "Dia de Portugal, de Camões e das Comunidades Portuguesas"
+        "pt": "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+        "de": "Tag Portugals",
+        "es": "Día de Portugal",
+        "fr": "Jour du Portugal",
+        "it": "Giornata del Portogallo",
+        "nl": "Dag van Portugal",
+        "pl": "Dzień Portugalii",
+        "rm": "Di dal Portugal",
+        "ru": "День Португалии",
+        "tr": "Portekiz Günü"
       },
       "date": {
         "type": "fixed",
@@ -431,7 +680,16 @@
       "id": "pt.madeira-day",
       "names": {
         "en": "Madeira Day",
-        "pt": "Dia da Região e das Comunidades Madeirenses"
+        "pt": "Dia da Região e das Comunidades Madeirenses",
+        "de": "Tag Madeiras",
+        "es": "Día de Madeira",
+        "fr": "Jour de Madère",
+        "it": "Giornata di Madera",
+        "nl": "Dag van Madeira",
+        "pl": "Dzień Madery",
+        "rm": "Di da Madeira",
+        "ru": "День Мадейры",
+        "tr": "Madeira Günü"
       },
       "date": {
         "type": "fixed",
@@ -457,7 +715,16 @@
       "id": "pt.assumption",
       "names": {
         "en": "Assumption Day",
-        "pt": "Assunção de Nossa Senhora"
+        "pt": "Assunção de Nossa Senhora",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -479,7 +746,16 @@
       "id": "pt.republic-day",
       "names": {
         "en": "Republic Day",
-        "pt": "Implantação da República"
+        "pt": "Implantação da República",
+        "de": "Tag der Republik",
+        "es": "Día de la República",
+        "fr": "Fête de la République",
+        "it": "Festa della Repubblica",
+        "nl": "Dag van de Republiek",
+        "pl": "Święto Republiki",
+        "rm": "Di da la republica",
+        "ru": "День Республики",
+        "tr": "Cumhuriyet Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -511,7 +787,16 @@
       "id": "pt.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "pt": "Dia de Todos-os-Santos"
+        "pt": "Dia de Todos-os-Santos",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -543,7 +828,16 @@
       "id": "pt.restoration-of-independence",
       "names": {
         "en": "Restoration of Independence",
-        "pt": "Restauração da Independência"
+        "pt": "Restauração da Independência",
+        "de": "Wiederherstellung der Unabhängigkeit",
+        "es": "Restauración de la Independencia",
+        "fr": "Restauration de l’indépendance",
+        "it": "Restaurazione dell’indipendenza",
+        "nl": "Herstel van de onafhankelijkheid",
+        "pl": "Przywrócenie Niepodległości",
+        "rm": "Restauraziun da l’independenza",
+        "ru": "День восстановления независимости",
+        "tr": "Bağımsızlığın Yeniden Kazanılması"
       },
       "date": {
         "type": "fixed",
@@ -575,7 +869,16 @@
       "id": "pt.immaculate-conception",
       "names": {
         "en": "Immaculate Conception",
-        "pt": "Imaculada Conceição"
+        "pt": "Imaculada Conceição",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -597,7 +900,16 @@
       "id": "pt.christmas",
       "names": {
         "en": "Christmas Day",
-        "pt": "Natal"
+        "pt": "Natal",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -619,7 +931,16 @@
       "id": "pt.saint-stephen",
       "names": {
         "en": "First Octave of Christmas",
-        "pt": "Primeira Oitava"
+        "pt": "Primeira Oitava",
+        "de": "Erster Tag der Weihnachtsoktav",
+        "es": "Primer día de la octava de Navidad",
+        "fr": "Premier jour de l’octave de Noël",
+        "it": "Primo giorno dell’ottava di Natale",
+        "nl": "Eerste dag van het octaaf van Kerstmis",
+        "pl": "Pierwszy dzień oktawy Bożego Narodzenia",
+        "rm": "Emprim di da l’octava da Nadal",
+        "ru": "Первый день октавы Рождества",
+        "tr": "Noel oktavının ilk günü"
       },
       "date": {
         "type": "fixed",

@@ -13,8 +13,6 @@
 # Names are in Italian, the language of the State's laws, and English.
 # Latin names are not included (decision D-va-2).
 code: VA
-names: {it: Città del Vaticano, en: Vatican City}
-languages: [it]
 regions: []
 sources:
   cic-1246:

@@ -8,18 +8,16 @@
 #   custom or collective agreement: Good Friday, the feast days of the
 #   Landespatrone, the Carinthian Plebiscite Day, Christmas Eve, New Year's Eve.
 code: AT
-names: {de: Österreich, en: Austria}
-languages: [de]
 regions:
-  - {code: AT-1, names: {de: Burgenland, en: Burgenland}}
-  - {code: AT-2, names: {de: Kärnten, en: Carinthia}}
-  - {code: AT-3, names: {de: Niederösterreich, en: Lower Austria}}
-  - {code: AT-4, names: {de: Oberösterreich, en: Upper Austria}}
-  - {code: AT-5, names: {de: Salzburg, en: Salzburg}}
-  - {code: AT-6, names: {de: Steiermark, en: Styria}}
-  - {code: AT-7, names: {de: Tirol, en: Tyrol}}
-  - {code: AT-8, names: {de: Vorarlberg, en: Vorarlberg}}
-  - {code: AT-9, names: {de: Wien, en: Vienna}}
+  - AT-1
+  - AT-2
+  - AT-3
+  - AT-4
+  - AT-5
+  - AT-6
+  - AT-7
+  - AT-8
+  - AT-9
 sources:
   arg:
     title: Arbeitsruhegesetz (ARG), Fassung vom 15.11.2026

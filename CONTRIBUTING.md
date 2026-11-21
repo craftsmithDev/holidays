@@ -2,7 +2,7 @@
 
 The data is the product. Every holiday must be traceable to a source someone can open and read. Code changes are welcome too, but they must keep the PHP and JS runtimes identical (the cross-runtime test checks every byte).
 
-Setup:
+Setup (the build reads country and region names from craftsmith/regions, a dev dependency that points to `../regions` until it is published; check it out next to this folder):
 
 ```sh
 npm ci
@@ -18,7 +18,7 @@ vendor/bin/phpunit   # PHP tests, including the cross-runtime comparison 2000–
 1. **Copy the template.** `cp -r countries/_template countries/<cc>` with the lower-case ISO 3166-1 alpha-2 code. Read [docs/format.md](docs/format.md) once in full; it has a section on the hard cases (substitute days, decree tables, conditional shifts).
 2. **Find the sources first.** Collect the legal basis before you write a rule: the holiday act or labour law, the official gazette, the ministry page. Put each into `sources` in `rules.yaml` with title, URL, the law citation and the day you read it.
 3. **Decide what `public` means in your country.** Usually: a statutory day off for employees. Write one sentence at the top of `rules.yaml` (see `countries/ch/rules.yaml` and `countries/li/rules.yaml`), then classify every day by it. A day that is statutory only in part of a region is an `observance` with a note (decision D6 in [docs/decisions.md](docs/decisions.md)).
-4. **Regions.** List the ISO 3166-2 subdivisions that have their own holidays (in Germany the 16 Länder, in Spain the 19 communities and cities, in the UK `GB-ENG`, `GB-NIR`, `GB-SCT`, `GB-WLS`). If no holiday differs by region, use `regions: []`.
+4. **Regions.** List the ISO 3166-2 codes of the subdivisions that have their own holidays (in Germany the 16 Länder, in Spain the 19 communities and cities, in the UK `GB-ENG`, `GB-NIR`, `GB-SCT`, `GB-WLS`). Codes only: the names, the country name and the local languages come from craftsmith/regions, and each code must exist there. If no holiday differs by region, use `regions: []`.
 5. **Write the holidays.** One entry per holiday, in calendar order. Reuse the id slugs below so that the same holiday has the same slug in every country.
 6. **Build and test.** `npm run build` lists every problem with file and field. Then `npm test` and `vendor/bin/phpunit`.
 7. **Compare.** `node scripts/compare.mjs <CC> --from 2024 --to 2030` writes the comparison to the end of `countries/<cc>/sources.md` (everything below the marker line is replaced on each run). It needs network access for OpenHolidays (`--offline` skips it).
@@ -52,7 +52,8 @@ Never rename an id after it was released. If a holiday is split or merged by law
 - **`accessed`** is the day you actually read the source. Update it when you re-check.
 - **External datasets are not sources.** OpenHolidays, date-holidays, Wikipedia and commercial calendars are for the comparison report only. If they show a day you cannot find in an official source, it does not go in; it goes into the open points.
 - **No guessing.** If the law is unclear (a day equal to Sunday only for some workers, a decree not yet published), model what the source says, put the rest in a `note`, and list it as an open point in `sources.md`. Modelling questions that affect other countries go to `docs/decisions.md`.
-- **Translations.** Names in every local language and English. Use the name the official source uses; do not translate yourself into a language you cannot check.
+- **Names in `rules.yaml`.** Every local language and English. Use the name the official source uses; do not translate yourself into a language you cannot check.
+- **Translations.** `translations/<lang>.yaml` holds the names in the other plugin languages (de, fr, it, es, nl, pl, pt, ru, tr, rm); a new country needs a name in each. Mark every name you did not take from a source in [docs/coverage.md](docs/coverage.md) as machine-written.
 
 ## Verification checklist
 
@@ -60,7 +61,7 @@ Before you open a pull request:
 
 - [ ] `npm run build` passes and the generated files are committed (`src/data/`, `js/data/`, `json/`).
 - [ ] `npm test`, `npm run test:types` and `vendor/bin/phpunit` pass.
-- [ ] Every holiday has names in `en` and every language of `languages`.
+- [ ] Every holiday has names in `en` and every local language in `rules.yaml`, and in the other plugin languages in `translations/`.
 - [ ] Every observance cites a source with URL and accessed date; the law citation is filled where there is a law.
 - [ ] The type rule of the country is written at the top of `rules.yaml`.
 - [ ] Regional exceptions, half days and substitute days are modelled with fields, not only in notes.

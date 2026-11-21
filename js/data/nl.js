@@ -3,8 +3,17 @@ export default {
   "format": 1,
   "code": "NL",
   "names": {
+    "en": "Netherlands",
     "nl": "Nederland",
-    "en": "Netherlands"
+    "de": "Niederlande",
+    "es": "Países Bajos",
+    "fr": "Pays-Bas",
+    "it": "Paesi Bassi",
+    "pl": "Holandia",
+    "pt": "Países Baixos",
+    "rm": "Pajais Bass",
+    "ru": "Нидерланды",
+    "tr": "Hollanda"
   },
   "languages": [
     "nl"
@@ -13,106 +22,226 @@ export default {
     {
       "code": "NL-DR",
       "names": {
+        "en": "Drenthe",
         "nl": "Drenthe",
-        "en": "Drenthe"
+        "de": "Drente",
+        "es": "Drente",
+        "fr": "Drenthe",
+        "it": "Drenthe",
+        "pl": "Drenthe",
+        "pt": "Drente",
+        "ru": "Дренте",
+        "tr": "Drenthe"
       }
     },
     {
       "code": "NL-FL",
       "names": {
+        "en": "Flevoland",
         "nl": "Flevoland",
-        "en": "Flevoland"
+        "de": "Flevoland",
+        "es": "Flevoland",
+        "fr": "Flevoland",
+        "it": "Flevoland",
+        "pl": "Flevoland",
+        "pt": "Flevolândia",
+        "ru": "Флеволанд",
+        "tr": "Flevoland"
       }
     },
     {
       "code": "NL-FR",
       "names": {
+        "en": "Friesland",
         "nl": "Fryslân",
-        "en": "Friesland"
+        "de": "Friesland",
+        "es": "Frisia",
+        "fr": "Frise",
+        "it": "Frisia",
+        "pl": "Fryzja",
+        "pt": "Frísia",
+        "ru": "Фрисландия",
+        "tr": "Frizya"
       }
     },
     {
       "code": "NL-GE",
       "names": {
+        "en": "Gelderland",
         "nl": "Gelderland",
-        "en": "Gelderland"
+        "de": "Gelderland",
+        "es": "Güeldres",
+        "fr": "Gueldre",
+        "it": "Gheldria",
+        "pl": "Geldria",
+        "pt": "Guéldria",
+        "ru": "Гелдерланд",
+        "tr": "Gelderland"
       }
     },
     {
       "code": "NL-GR",
       "names": {
+        "en": "Groningen",
         "nl": "Groningen",
-        "en": "Groningen"
+        "de": "Groningen",
+        "es": "Groninga",
+        "fr": "Groningue",
+        "it": "Groninga",
+        "pl": "Groningen",
+        "pt": "Groninga",
+        "ru": "Гронинген",
+        "tr": "Groningen"
       }
     },
     {
       "code": "NL-LI",
       "names": {
+        "en": "Limburg",
         "nl": "Limburg",
-        "en": "Limburg"
+        "de": "Limburg",
+        "es": "Limburgo",
+        "fr": "Limbourg",
+        "it": "Limburgo",
+        "pl": "Limburgia",
+        "pt": "Limburgo",
+        "ru": "Лимбург",
+        "tr": "Limburg"
       }
     },
     {
       "code": "NL-NB",
       "names": {
+        "en": "North Brabant",
         "nl": "Noord-Brabant",
-        "en": "North Brabant"
+        "de": "Nordbrabant",
+        "es": "Brabante Septentrional",
+        "fr": "Brabant-Septentrional",
+        "it": "Brabante Settentrionale",
+        "pl": "Brabancja Północna",
+        "pt": "Brabante do Norte",
+        "ru": "Северный Брабант",
+        "tr": "Kuzey Brabant"
       }
     },
     {
       "code": "NL-NH",
       "names": {
+        "en": "North Holland",
         "nl": "Noord-Holland",
-        "en": "North Holland"
+        "de": "Nordholland",
+        "es": "Holanda Septentrional",
+        "fr": "Hollande-Septentrionale",
+        "it": "Olanda Settentrionale",
+        "pl": "Holandia Północna",
+        "pt": "Holanda do Norte",
+        "ru": "Северная Голландия",
+        "tr": "Kuzey Hollanda"
       }
     },
     {
       "code": "NL-OV",
       "names": {
+        "en": "Overijssel",
         "nl": "Overijssel",
-        "en": "Overijssel"
+        "de": "Overijssel",
+        "es": "Overijssel",
+        "fr": "Overijssel",
+        "it": "Overijssel",
+        "pl": "Overijssel",
+        "pt": "Overissel",
+        "ru": "Оверэйсел",
+        "tr": "Overijssel"
       }
     },
     {
       "code": "NL-UT",
       "names": {
+        "en": "Utrecht",
         "nl": "Utrecht",
-        "en": "Utrecht"
+        "de": "Utrecht",
+        "es": "Utrecht",
+        "fr": "Utrecht",
+        "it": "Utrecht",
+        "pl": "Utrecht",
+        "pt": "Utrecht",
+        "ru": "Утрехт",
+        "tr": "Utrecht"
       }
     },
     {
       "code": "NL-ZE",
       "names": {
+        "en": "Zeeland",
         "nl": "Zeeland",
-        "en": "Zeeland"
+        "de": "Zeeland",
+        "es": "Zelanda",
+        "fr": "Zélande",
+        "it": "Zelanda",
+        "pl": "Zelandia",
+        "pt": "Zelândia",
+        "ru": "Зеландия",
+        "tr": "Zelanda"
       }
     },
     {
       "code": "NL-ZH",
       "names": {
+        "en": "South Holland",
         "nl": "Zuid-Holland",
-        "en": "South Holland"
+        "de": "Südholland",
+        "es": "Holanda Meridional",
+        "fr": "Hollande-Méridionale",
+        "it": "Olanda Meridionale",
+        "pl": "Holandia Południowa",
+        "pt": "Holanda do Sul",
+        "ru": "Южная Голландия",
+        "tr": "Güney Hollanda"
       }
     },
     {
       "code": "NL-BQ1",
       "names": {
+        "en": "Bonaire",
         "nl": "Bonaire",
-        "en": "Bonaire"
+        "de": "Bonaire",
+        "es": "Bonaire",
+        "fr": "Bonaire",
+        "it": "Bonaire",
+        "pl": "Bonaire",
+        "pt": "Bonaire",
+        "ru": "Бонэйр",
+        "tr": "Bonaire"
       }
     },
     {
       "code": "NL-BQ2",
       "names": {
+        "en": "Saba",
         "nl": "Saba",
-        "en": "Saba"
+        "de": "Saba",
+        "es": "Saba",
+        "fr": "Saba",
+        "it": "Saba",
+        "pl": "Saba",
+        "pt": "Saba",
+        "ru": "Саба",
+        "tr": "Saba"
       }
     },
     {
       "code": "NL-BQ3",
       "names": {
+        "en": "Sint Eustatius",
         "nl": "Sint Eustatius",
-        "en": "Sint Eustatius"
+        "de": "Sint Eustatius",
+        "es": "San Eustaquio",
+        "fr": "Saint-Eustache",
+        "it": "Sint Eustatius",
+        "pl": "Sint Eustatius",
+        "pt": "Santo Eustáquio",
+        "ru": "Синт-Эстатиус",
+        "tr": "Sint Eustatius"
       }
     }
   ],
@@ -187,7 +316,16 @@ export default {
       "id": "nl.new-year",
       "names": {
         "en": "New Year’s Day",
-        "nl": "Nieuwjaarsdag"
+        "nl": "Nieuwjaarsdag",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -225,7 +363,16 @@ export default {
       "id": "nl.good-friday",
       "names": {
         "en": "Good Friday",
-        "nl": "Goede Vrijdag"
+        "nl": "Goede Vrijdag",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -264,7 +411,16 @@ export default {
       "id": "nl.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "nl": "Tweede Paasdag"
+        "nl": "Tweede Paasdag",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -301,7 +457,16 @@ export default {
       "id": "nl.queens-day",
       "names": {
         "en": "Queen’s Day",
-        "nl": "Koninginnedag"
+        "nl": "Koninginnedag",
+        "de": "Königinnentag",
+        "es": "Día de la Reina",
+        "fr": "Jour de la Reine",
+        "it": "Festa della Regina",
+        "pl": "Dzień Królowej",
+        "pt": "Dia da Rainha",
+        "rm": "Di da la regina",
+        "ru": "День королевы",
+        "tr": "Kraliçe Günü"
       },
       "to": 2013,
       "date": {
@@ -355,7 +520,16 @@ export default {
       "id": "nl.kings-day",
       "names": {
         "en": "King’s Day",
-        "nl": "Koningsdag"
+        "nl": "Koningsdag",
+        "de": "Königstag",
+        "es": "Día del Rey",
+        "fr": "Jour du Roi",
+        "it": "Festa del Re",
+        "pl": "Dzień Króla",
+        "pt": "Dia do Rei",
+        "rm": "Di dal retg",
+        "ru": "День короля",
+        "tr": "Kral Günü"
       },
       "from": 2014,
       "date": {
@@ -391,7 +565,16 @@ export default {
       "id": "nl.dia-di-rincon",
       "names": {
         "en": "Rincon Day",
-        "nl": "Dia di Rincon"
+        "nl": "Dia di Rincon",
+        "de": "Rincon-Tag",
+        "es": "Día de Rincón",
+        "fr": "Jour de Rincon",
+        "it": "Giorno di Rincon",
+        "pl": "Dzień Rincon",
+        "pt": "Dia de Rincon",
+        "rm": "Di da Rincon",
+        "ru": "День Ринкона",
+        "tr": "Rincon Günü"
       },
       "from": 2020,
       "date": {
@@ -417,7 +600,16 @@ export default {
       "id": "nl.labour-day",
       "names": {
         "en": "Labour Day",
-        "nl": "Dag van de Arbeid"
+        "nl": "Dag van de Arbeid",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -457,7 +649,16 @@ export default {
       "id": "nl.liberation-day",
       "names": {
         "en": "Liberation Day",
-        "nl": "Bevrijdingsdag"
+        "nl": "Bevrijdingsdag",
+        "de": "Tag der Befreiung",
+        "es": "Día de la Liberación",
+        "fr": "Fête de la Libération",
+        "it": "Festa della Liberazione",
+        "pl": "Dzień Wyzwolenia",
+        "pt": "Dia da Libertação",
+        "rm": "Di da la liberaziun",
+        "ru": "День освобождения",
+        "tr": "Kurtuluş Günü"
       },
       "date": {
         "type": "fixed",
@@ -495,7 +696,16 @@ export default {
       "id": "nl.ascension",
       "names": {
         "en": "Ascension Day",
-        "nl": "Hemelvaartsdag"
+        "nl": "Hemelvaartsdag",
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "fr": "Ascension",
+        "it": "Ascensione",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -532,7 +742,16 @@ export default {
       "id": "nl.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "nl": "Tweede Pinksterdag"
+        "nl": "Tweede Pinksterdag",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -572,7 +791,16 @@ export default {
       "id": "nl.emancipation-day",
       "names": {
         "en": "Emancipation Day",
-        "nl": "Emancipatiedag"
+        "nl": "Emancipatiedag",
+        "de": "Tag der Emanzipation",
+        "es": "Día de la Emancipación",
+        "fr": "Jour de l’émancipation",
+        "it": "Giorno dell’emancipazione",
+        "pl": "Dzień Emancypacji",
+        "pt": "Dia da Emancipação",
+        "rm": "Di da l’emancipaziun",
+        "ru": "День эмансипации",
+        "tr": "Özgürleşme Günü"
       },
       "from": 2022,
       "date": {
@@ -597,7 +825,16 @@ export default {
       "id": "nl.flag-day-bonaire",
       "names": {
         "en": "Bonaire Flag and Anthem Day",
-        "nl": "Dia di Himno y Bandera"
+        "nl": "Dia di Himno y Bandera",
+        "de": "Tag der Flagge und Hymne von Bonaire",
+        "es": "Día de la Bandera y el Himno de Bonaire",
+        "fr": "Jour du drapeau et de l’hymne de Bonaire",
+        "it": "Giornata della bandiera e dell’inno di Bonaire",
+        "pl": "Dzień Flagi i Hymnu Bonaire",
+        "pt": "Dia da Bandeira e do Hino de Bonaire",
+        "rm": "Di da la bandiera e da l’imni da Bonaire",
+        "ru": "День флага и гимна Бонайре",
+        "tr": "Bonaire Bayrak ve Marş Günü"
       },
       "date": {
         "type": "fixed",
@@ -622,7 +859,16 @@ export default {
       "id": "nl.statia-day",
       "names": {
         "en": "Statia Day",
-        "nl": "Statia Day"
+        "nl": "Statia Day",
+        "de": "Statia-Tag",
+        "es": "Día de Statia",
+        "fr": "Jour de Statia",
+        "it": "Giorno di Statia",
+        "pl": "Dzień Statii",
+        "pt": "Dia de Statia",
+        "rm": "Di da Statia",
+        "ru": "День Синт-Эстатиуса",
+        "tr": "Statia Günü"
       },
       "date": {
         "type": "fixed",
@@ -647,7 +893,16 @@ export default {
       "id": "nl.saba-day",
       "names": {
         "en": "Saba Day",
-        "nl": "Saba Day"
+        "nl": "Saba Day",
+        "de": "Saba-Tag",
+        "es": "Día de Saba",
+        "fr": "Jour de Saba",
+        "it": "Giorno di Saba",
+        "pl": "Dzień Saby",
+        "pt": "Dia de Saba",
+        "rm": "Di da Saba",
+        "ru": "День Сабы",
+        "tr": "Saba Günü"
       },
       "date": {
         "type": "nthWeekday",
@@ -673,7 +928,16 @@ export default {
       "id": "nl.christmas",
       "names": {
         "en": "Christmas Day",
-        "nl": "Eerste Kerstdag"
+        "nl": "Eerste Kerstdag",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -711,7 +975,16 @@ export default {
       "id": "nl.saint-stephen",
       "names": {
         "en": "Second Day of Christmas",
-        "nl": "Tweede Kerstdag"
+        "nl": "Tweede Kerstdag",
+        "de": "Zweiter Weihnachtstag",
+        "es": "Segundo día de Navidad",
+        "fr": "Deuxième jour de Noël",
+        "it": "Secondo giorno di Natale",
+        "pl": "Drugi dzień Bożego Narodzenia",
+        "pt": "Segundo dia de Natal",
+        "rm": "Segund di da Nadal",
+        "ru": "Второй день Рождества",
+        "tr": "Noel’in İkinci Günü"
       },
       "date": {
         "type": "fixed",

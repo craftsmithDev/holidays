@@ -2,8 +2,17 @@
   "format": 1,
   "code": "FR",
   "names": {
+    "en": "France",
     "fr": "France",
-    "en": "France"
+    "de": "Frankreich",
+    "es": "Francia",
+    "it": "Francia",
+    "nl": "Frankrijk",
+    "pl": "Francja",
+    "pt": "França",
+    "rm": "Frantscha",
+    "ru": "Франция",
+    "tr": "Fransa"
   },
   "languages": [
     "fr"
@@ -12,71 +21,136 @@
     {
       "code": "FR-57",
       "names": {
+        "en": "Moselle",
         "fr": "Moselle",
-        "en": "Moselle"
+        "de": "Moselle",
+        "es": "Mosela",
+        "it": "Mosella",
+        "nl": "Moselle",
+        "pl": "Mozela",
+        "pt": "Mosela",
+        "ru": "Мозель",
+        "tr": "Moselle"
       }
     },
     {
       "code": "FR-67",
       "names": {
+        "en": "Bas-Rhin",
         "fr": "Bas-Rhin",
-        "en": "Bas-Rhin"
+        "de": "Bas-Rhin",
+        "es": "Bajo Rin",
+        "it": "Basso Reno",
+        "nl": "Bas-Rhin",
+        "pl": "Dolny Ren",
+        "pt": "Baixo Reno",
+        "ru": "Нижний Рейн",
+        "tr": "Bas-Rhin"
       }
     },
     {
       "code": "FR-68",
       "names": {
+        "en": "Haut-Rhin",
         "fr": "Haut-Rhin",
-        "en": "Haut-Rhin"
+        "de": "Haut-Rhin",
+        "es": "Alto Rin",
+        "it": "Alto Reno",
+        "nl": "Haut-Rhin",
+        "pl": "Górny Ren",
+        "pt": "Alto Reno",
+        "ru": "Верхний Рейн",
+        "tr": "Haut-Rhin"
       }
     },
     {
       "code": "FR-971",
       "names": {
+        "en": "Guadeloupe",
         "fr": "Guadeloupe",
-        "en": "Guadeloupe"
+        "de": "Guadeloupe",
+        "es": "Guadalupe",
+        "it": "Guadalupa",
+        "nl": "Guadeloupe",
+        "pl": "Gwadelupa",
+        "pt": "Guadalupe",
+        "ru": "Гваделупа",
+        "tr": "Guadeloupe"
       }
     },
     {
       "code": "FR-972",
       "names": {
+        "en": "Martinique",
         "fr": "Martinique",
-        "en": "Martinique"
+        "de": "Martinique",
+        "es": "Martinica",
+        "it": "Martinica",
+        "nl": "Martinique",
+        "pl": "Martynika",
+        "pt": "Martinica",
+        "ru": "Мартиника",
+        "tr": "Martinique"
       }
     },
     {
       "code": "FR-973",
       "names": {
+        "en": "French Guiana",
         "fr": "Guyane",
-        "en": "French Guiana"
+        "de": "Französisch-Guayana",
+        "es": "Guayana Francesa",
+        "it": "Guyana francese",
+        "nl": "Frans-Guyana",
+        "pl": "Gujana Francuska",
+        "pt": "Guiana Francesa",
+        "ru": "Французская Гвиана",
+        "tr": "French Guiana"
       }
     },
     {
       "code": "FR-974",
       "names": {
+        "en": "Réunion",
         "fr": "La Réunion",
-        "en": "Réunion"
+        "de": "Réunion",
+        "es": "Reunión",
+        "it": "Riunione",
+        "nl": "Réunion",
+        "pl": "Reunion",
+        "pt": "Reunião",
+        "ru": "Реюньон",
+        "tr": "Réunion"
       }
     },
     {
       "code": "FR-976",
       "names": {
+        "en": "Mayotte",
         "fr": "Mayotte",
-        "en": "Mayotte"
+        "de": "Mayotte",
+        "es": "Mayotte",
+        "it": "Mayotte",
+        "nl": "Mayotte",
+        "pl": "Mayotte",
+        "pt": "Mayotte",
+        "rm": "Mayotte",
+        "ru": "Майотта",
+        "tr": "Mayotte"
       }
     },
     {
       "code": "FR-BL",
       "names": {
-        "fr": "Saint-Barthélemy",
-        "en": "Saint Barthélemy"
+        "en": "Saint Barthélemy",
+        "fr": "Saint-Barthélemy"
       }
     },
     {
       "code": "FR-MF",
       "names": {
-        "fr": "Saint-Martin",
-        "en": "Saint Martin"
+        "en": "Saint Martin",
+        "fr": "Saint-Martin"
       }
     }
   ],
@@ -155,7 +229,16 @@
       "id": "fr.new-year",
       "names": {
         "en": "New Year’s Day",
-        "fr": "Jour de l’An"
+        "fr": "Jour de l’An",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -177,7 +260,16 @@
       "id": "fr.good-friday",
       "names": {
         "en": "Good Friday",
-        "fr": "Vendredi saint"
+        "fr": "Vendredi saint",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -204,7 +296,16 @@
       "id": "fr.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "fr": "Lundi de Pâques"
+        "fr": "Lundi de Pâques",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -225,7 +326,16 @@
       "id": "fr.abolition-of-slavery",
       "names": {
         "en": "Abolition of Slavery Day",
-        "fr": "Commémoration de l’abolition de l’esclavage"
+        "fr": "Commémoration de l’abolition de l’esclavage",
+        "de": "Gedenktag der Abschaffung der Sklaverei",
+        "es": "Conmemoración de la abolición de la esclavitud",
+        "it": "Commemorazione dell’abolizione della schiavitù",
+        "nl": "Herdenking van de afschaffing van de slavernij",
+        "pl": "Rocznica zniesienia niewolnictwa",
+        "pt": "Comemoração da abolição da escravatura",
+        "rm": "Commemoraziun da l’aboliziun da la sclavaria",
+        "ru": "День отмены рабства",
+        "tr": "Köleliğin Kaldırılışını Anma Günü"
       },
       "note": "One holiday, one date per territory (Code du travail L3422-2, décret n° 83-1003 art. 1er). The holiday date is the one of Guadeloupe and Saint-Martin; the other territories override it.",
       "date": {
@@ -347,7 +457,16 @@
       "id": "fr.labour-day",
       "names": {
         "en": "Labour Day",
-        "fr": "Fête du Travail"
+        "fr": "Fête du Travail",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -371,7 +490,16 @@
       "id": "fr.victory-day",
       "names": {
         "en": "Victory in Europe Day",
-        "fr": "Victoire 1945"
+        "fr": "Victoire 1945",
+        "de": "Tag des Sieges in Europa",
+        "es": "Día de la Victoria en Europa",
+        "it": "Giorno della vittoria in Europa",
+        "nl": "Dag van de Overwinning in Europa",
+        "pl": "Dzień Zwycięstwa w Europie",
+        "pt": "Dia da Vitória na Europa",
+        "rm": "Di da la victoria en l’Europa",
+        "ru": "День Победы в Европе",
+        "tr": "Avrupa’da Zafer Günü"
       },
       "date": {
         "type": "fixed",
@@ -393,7 +521,16 @@
       "id": "fr.ascension",
       "names": {
         "en": "Ascension Day",
-        "fr": "Ascension"
+        "fr": "Ascension",
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "it": "Ascensione",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -414,7 +551,16 @@
       "id": "fr.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "fr": "Lundi de Pentecôte"
+        "fr": "Lundi de Pentecôte",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -437,7 +583,16 @@
       "id": "fr.national-day",
       "names": {
         "en": "National Day",
-        "fr": "Fête nationale"
+        "fr": "Fête nationale",
+        "de": "Nationalfeiertag",
+        "es": "Fiesta nacional",
+        "it": "Festa nazionale",
+        "nl": "Nationale feestdag",
+        "pl": "Święto Narodowe",
+        "pt": "Dia Nacional",
+        "rm": "Festa naziunala",
+        "ru": "Национальный праздник",
+        "tr": "Ulusal Bayram"
       },
       "date": {
         "type": "fixed",
@@ -459,7 +614,16 @@
       "id": "fr.assumption",
       "names": {
         "en": "Assumption Day",
-        "fr": "Assomption"
+        "fr": "Assomption",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -481,7 +645,16 @@
       "id": "fr.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "fr": "Toussaint"
+        "fr": "Toussaint",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -503,7 +676,16 @@
       "id": "fr.armistice-day",
       "names": {
         "en": "Armistice Day",
-        "fr": "Armistice 1918"
+        "fr": "Armistice 1918",
+        "de": "Waffenstillstand 1918",
+        "es": "Armisticio de 1918",
+        "it": "Armistizio del 1918",
+        "nl": "Wapenstilstand 1918",
+        "pl": "Rozejm z 1918 roku",
+        "pt": "Armistício de 1918",
+        "rm": "Armistizi 1918",
+        "ru": "Перемирие 1918 года",
+        "tr": "1918 Ateşkesi"
       },
       "date": {
         "type": "fixed",
@@ -525,7 +707,16 @@
       "id": "fr.christmas",
       "names": {
         "en": "Christmas Day",
-        "fr": "Noël"
+        "fr": "Noël",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -547,7 +738,16 @@
       "id": "fr.saint-stephen",
       "names": {
         "en": "Saint Stephen’s Day",
-        "fr": "Saint-Étienne (second jour de Noël)"
+        "fr": "Saint-Étienne (second jour de Noël)",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "date": {
         "type": "fixed",

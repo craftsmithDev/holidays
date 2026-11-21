@@ -8,7 +8,16 @@
       "id": "sm.new-year",
       "name": {
         "en": "Solemnity of Mary, Mother of God",
-        "it": "Maria Santissima Madre di Dio"
+        "it": "Maria Santissima Madre di Dio",
+        "de": "Hochfest der Gottesmutter Maria",
+        "es": "Santa María, Madre de Dios",
+        "fr": "Sainte Marie, Mère de Dieu",
+        "nl": "Hoogfeest van Maria, Moeder van God",
+        "pl": "Uroczystość Świętej Bożej Rodzicielki Maryi",
+        "pt": "Solenidade de Santa Maria, Mãe de Deus",
+        "rm": "Solemnitad da Maria, mamma da Dieu",
+        "ru": "Торжество Пресвятой Богородицы",
+        "tr": "Tanrı’nın Annesi Meryem Bayramı"
       },
       "type": "public",
       "startTime": null,
@@ -25,7 +34,16 @@
       "id": "sm.epiphany",
       "name": {
         "en": "Epiphany",
-        "it": "Epifania del Signore"
+        "it": "Epifania del Signore",
+        "de": "Heilige Drei Könige",
+        "es": "Epifanía del Señor",
+        "fr": "Épiphanie",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "type": "public",
       "startTime": null,
@@ -42,7 +60,16 @@
       "id": "sm.saint-agatha",
       "name": {
         "en": "Saint Agatha’s Day",
-        "it": "Sant’Agata, Compatrona della Repubblica"
+        "it": "Sant’Agata, Compatrona della Repubblica",
+        "de": "Tag der heiligen Agatha",
+        "es": "Santa Águeda",
+        "fr": "Sainte-Agathe",
+        "nl": "Sint-Agatha",
+        "pl": "Dzień Świętej Agaty",
+        "pt": "Dia de Santa Águeda",
+        "rm": "Sontga Agata",
+        "ru": "День святой Агаты",
+        "tr": "Azize Agatha Günü"
       },
       "type": "public",
       "startTime": null,
@@ -59,7 +86,16 @@
       "id": "sm.arengo",
       "name": {
         "en": "Anniversary of the Arengo",
-        "it": "Arengo"
+        "it": "Arengo",
+        "de": "Jahrestag des Arengo",
+        "es": "Aniversario del Arengo",
+        "fr": "Anniversaire de l’Arengo",
+        "nl": "Verjaardag van de Arengo",
+        "pl": "Rocznica Arengo",
+        "pt": "Aniversário do Arengo",
+        "rm": "Anniversari da l’Arengo",
+        "ru": "Годовщина Аренго",
+        "tr": "Arengo Yıl Dönümü"
       },
       "type": "public",
       "startTime": null,
@@ -76,7 +112,16 @@
       "id": "sm.easter-monday",
       "name": {
         "en": "Easter Monday",
-        "it": "Lunedì di Pasqua"
+        "it": "Lunedì di Pasqua",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -93,7 +138,16 @@
       "id": "sm.captains-regent-april",
       "name": {
         "en": "Investiture of the Captains Regent",
-        "it": "Ingresso dei Capitani Reggenti"
+        "it": "Ingresso dei Capitani Reggenti",
+        "de": "Amtseinführung der Capitani Reggenti",
+        "es": "Investidura de los Capitanes Regentes",
+        "fr": "Investiture des capitaines-régents",
+        "nl": "Installatie van de Kapiteins-Regent",
+        "pl": "Inwestytura Kapitanów Regentów",
+        "pt": "Investidura dos Capitães Regentes",
+        "rm": "Investitura dals Capitani Reggenti",
+        "ru": "Инаугурация капитанов-регентов",
+        "tr": "Kaptan Naiplerin göreve başlaması"
       },
       "type": "public",
       "startTime": null,
@@ -110,7 +164,16 @@
       "id": "sm.labour-day",
       "name": {
         "en": "Labour Day",
-        "it": "Festa del lavoro"
+        "it": "Festa del lavoro",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -127,7 +190,16 @@
       "id": "sm.corpus-christi",
       "name": {
         "en": "Corpus Christi",
-        "it": "Santissimo Corpo e Sangue di Cristo"
+        "it": "Santissimo Corpo e Sangue di Cristo",
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "fr": "Fête-Dieu",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "pt": "Corpo de Deus",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "type": "public",
       "startTime": null,
@@ -144,7 +216,16 @@
       "id": "sm.fall-of-fascism",
       "name": {
         "en": "Anniversary of the Fall of Fascism",
-        "it": "Anniversario della Caduta del Fascismo"
+        "it": "Anniversario della Caduta del Fascismo",
+        "de": "Jahrestag des Sturzes des Faschismus",
+        "es": "Aniversario de la caída del fascismo",
+        "fr": "Anniversaire de la chute du fascisme",
+        "nl": "Verjaardag van de val van het fascisme",
+        "pl": "Rocznica upadku faszyzmu",
+        "pt": "Aniversário da queda do fascismo",
+        "rm": "Anniversari da la fin dal fascissem",
+        "ru": "Годовщина падения фашизма",
+        "tr": "Faşizmin Çöküşünün Yıl Dönümü"
       },
       "type": "public",
       "startTime": null,
@@ -162,7 +243,16 @@
       "id": "sm.assumption",
       "name": {
         "en": "Assumption Day",
-        "it": "Assunzione della Beata Vergine Maria"
+        "it": "Assunzione della Beata Vergine Maria",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "type": "public",
       "startTime": null,
@@ -179,7 +269,16 @@
       "id": "sm.national-day",
       "name": {
         "en": "Feast of Saint Marinus, Founder of the Republic",
-        "it": "San Marino, Patrono e Fondatore della Repubblica"
+        "it": "San Marino, Patrono e Fondatore della Repubblica",
+        "de": "Fest des heiligen Marinus, Gründer der Republik",
+        "es": "Fiesta de San Marino, fundador de la República",
+        "fr": "Fête de saint Marin, fondateur de la République",
+        "nl": "Feest van Sint-Marinus, stichter van de Republiek",
+        "pl": "Święto Świętego Maryna, założyciela Republiki",
+        "pt": "Festa de São Marinho, fundador da República",
+        "rm": "Festa da Son Marino, fundatur da la Republica",
+        "ru": "День святого Марина, основателя республики",
+        "tr": "Cumhuriyetin kurucusu Aziz Marinus Bayramı"
       },
       "type": "public",
       "startTime": null,
@@ -196,7 +295,16 @@
       "id": "sm.captains-regent-october",
       "name": {
         "en": "Investiture of the Captains Regent",
-        "it": "Ingresso dei Capitani Reggenti"
+        "it": "Ingresso dei Capitani Reggenti",
+        "de": "Amtseinführung der Capitani Reggenti",
+        "es": "Investidura de los Capitanes Regentes",
+        "fr": "Investiture des capitaines-régents",
+        "nl": "Installatie van de Kapiteins-Regent",
+        "pl": "Inwestytura Kapitanów Regentów",
+        "pt": "Investidura dos Capitães Regentes",
+        "rm": "Investitura dals Capitani Reggenti",
+        "ru": "Инаугурация капитанов-регентов",
+        "tr": "Kaptan Naiplerin göreve başlaması"
       },
       "type": "public",
       "startTime": null,
@@ -213,7 +321,16 @@
       "id": "sm.all-saints",
       "name": {
         "en": "All Saints’ Day",
-        "it": "Tutti i Santi"
+        "it": "Tutti i Santi",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "type": "public",
       "startTime": null,
@@ -230,7 +347,16 @@
       "id": "sm.all-souls",
       "name": {
         "en": "All Souls’ Day",
-        "it": "Commemorazione dei defunti"
+        "it": "Commemorazione dei defunti",
+        "de": "Allerseelen",
+        "es": "Día de los Fieles Difuntos",
+        "fr": "Jour des morts",
+        "nl": "Allerzielen",
+        "pl": "Dzień Zaduszny",
+        "pt": "Dia de Finados",
+        "rm": "Di da las olmas",
+        "ru": "День поминовения усопших",
+        "tr": "Ölüleri Anma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -247,7 +373,16 @@
       "id": "sm.immaculate-conception",
       "name": {
         "en": "Immaculate Conception",
-        "it": "Immacolata Concezione della Beata Vergine Maria"
+        "it": "Immacolata Concezione della Beata Vergine Maria",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "type": "public",
       "startTime": null,
@@ -264,7 +399,16 @@
       "id": "sm.christmas",
       "name": {
         "en": "Christmas Day",
-        "it": "Natale del Signore"
+        "it": "Natale del Signore",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "type": "public",
       "startTime": null,
@@ -281,7 +425,16 @@
       "id": "sm.saint-stephen",
       "name": {
         "en": "Saint Stephen’s Day",
-        "it": "Santo Stefano"
+        "it": "Santo Stefano",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "type": "public",
       "startTime": null,

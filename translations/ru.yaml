@@ -1,0 +1,386 @@
+# ru: holiday names for countries where ru is not a local language. Written by
+# Claude and not yet reviewed (docs/coverage.md); edit by hand.
+language: ru
+countries:
+  AD:
+    holidays:
+      ad.new-year: Новый год
+      ad.epiphany: Богоявление
+      ad.carnival: Карнавал
+      ad.constitution-day: День Конституции
+      ad.good-friday: Страстная пятница
+      ad.easter-monday: Пасхальный понедельник
+      ad.labour-day: День труда
+      ad.whit-monday: Духов день
+      ad.assumption: Успение Богородицы
+      ad.meritxell: Богоматерь Меричельская
+      ad.all-saints: День всех святых
+      ad.immaculate-conception: Непорочное зачатие Девы Марии
+      ad.christmas: Рождество Христово
+      ad.saint-stephen: День святого Стефана
+  AT:
+    holidays:
+      at.new-year: Новый год
+      at.epiphany: Богоявление
+      at.saint-joseph: День святого Иосифа
+      at.good-friday: Страстная пятница
+      at.easter-monday: Пасхальный понедельник
+      at.labour-day: День труда
+      at.saint-florian: День святого Флориана
+      at.ascension: Вознесение Господне
+      at.whit-monday: Духов день
+      at.corpus-christi: Праздник Тела и Крови Христовых
+      at.assumption: Успение Богородицы
+      at.saint-rupert: День святого Руперта
+      at.plebiscite-day: День Каринтийского плебисцита
+      at.national-day: Национальный праздник
+      at.all-saints: День всех святых
+      at.saint-martin: День святого Мартина
+      at.saint-leopold: День святого Леопольда
+      at.immaculate-conception: Непорочное зачатие Девы Марии
+      at.christmas-eve: Сочельник
+      at.christmas: Рождество Христово
+      at.saint-stephen: День святого Стефана
+      at.new-years-eve: Канун Нового года
+  BE:
+    holidays:
+      be.new-year: Новый год
+      be.easter-monday: Пасхальный понедельник
+      be.labour-day: День труда
+      be.ascension: Вознесение Господне
+      be.whit-monday: Духов день
+      be.flemish-community-day: День Фламандского сообщества
+      be.national-day: Национальный праздник Бельгии
+      be.assumption: Успение Богородицы
+      be.french-community-day: День Французского сообщества
+      be.all-saints: День всех святых
+      be.all-souls: День поминовения усопших
+      be.armistice: День перемирия
+      be.kings-feast: Праздник короля
+      be.german-speaking-community-day: День Немецкоязычного сообщества
+      be.christmas: Рождество Христово
+      be.saint-stephen: Второй день Рождества
+  CH:
+    holidays:
+      ch.new-year: Новый год
+      ch.berchtold: День Берхтольда
+      ch.epiphany: Богоявление
+      ch.republic-day: День Республики
+      ch.saint-joseph: День святого Иосифа
+      ch.good-friday: Страстная пятница
+      ch.easter-monday: Пасхальный понедельник
+      ch.naefelser-fahrt: Паломничество в Нефельс
+      ch.labour-day: День труда
+      ch.ascension: Вознесение Господне
+      ch.whit-monday: Духов день
+      ch.corpus-christi: Праздник Тела и Крови Христовых
+      ch.jura-independence: День независимости Юры
+      ch.peter-and-paul: День святых Петра и Павла
+      ch.national-day: Национальный день Швейцарии
+      ch.assumption: Успение Богородицы
+      ch.jeune-genevois: Женевский пост
+      ch.federal-fast-monday: Понедельник после Федерального дня молитвы
+      ch.saint-maurice: День святого Маврикия
+      ch.bruder-klaus: Святой Николай из Флюэ
+      ch.all-saints: День всех святых
+      ch.immaculate-conception: Непорочное зачатие Девы Марии
+      ch.christmas: Рождество Христово
+      ch.saint-stephen: День святого Стефана
+      ch.restoration: Восстановление Республики
+  DE:
+    holidays:
+      de.new-year: Новый год
+      de.epiphany: Богоявление
+      de.womens-day: Международный женский день
+      de.good-friday: Страстная пятница
+      de.easter-monday: Пасхальный понедельник
+      de.labour-day: День труда
+      de.liberation-day: День освобождения
+      de.ascension: Вознесение Господне
+      de.whit-monday: Духов день
+      de.corpus-christi: Праздник Тела и Крови Христовых
+      de.uprising-anniversary: 75-летие восстания 17 июня 1953 года
+      de.augsburg-peace-festival: Аугсбургский праздник мира
+      de.assumption: Успение Богородицы
+      de.world-childrens-day: Всемирный день детей
+      de.national-day: День германского единства
+      de.reformation-day: День Реформации
+      de.all-saints: День всех святых
+      de.repentance-day: День покаяния и молитвы
+      de.christmas-eve: Сочельник
+      de.christmas: Рождество Христово
+      de.saint-stephen: Второй день Рождества
+      de.new-years-eve: Канун Нового года
+  ES:
+    holidays:
+      es.new-year: Новый год
+      es.epiphany: Богоявление
+      es.ceuta-convivencia-day: День сосуществования
+      es.island-tenerife: 'Праздник острова: Тенерифе'
+      es.shrove-tuesday: Жирный вторник
+      es.andalusia-day: День Андалусии
+      es.balearic-islands-day: День Балеарских островов
+      es.melilla-statute-day: День статута автономии Мелильи
+      es.fallas-monday: Понедельник Фальяс
+      es.saint-joseph: День святого Иосифа
+      es.maundy-thursday: Великий четверг
+      es.good-friday: Страстная пятница
+      es.easter-monday: Пасхальный понедельник
+      es.aragon-day: День святого Георгия, День Арагона
+      es.castile-leon-day: День Кастилии и Леона
+      es.labour-day: День труда
+      es.madrid-day: День автономного сообщества Мадрид
+      es.eid-al-fitr: Ураза-байрам
+      es.galician-literature-day: День галисийской литературы
+      es.whit-monday: Духов день
+      es.canary-islands-day: День Канарских островов
+      es.castile-la-mancha-day: День Кастилии — Ла-Манчи
+      es.corpus-christi: Праздник Тела и Крови Христовых
+      es.murcia-day: День области Мурсия
+      es.la-rioja-day: День Риохи
+      es.aran-day: Праздник Арана
+      es.saint-john: День святого Иоанна
+      es.saint-james: День святого Иакова
+      es.cantabria-institutions-day: День институтов Кантабрии
+      es.our-lady-of-africa: Богоматерь Африканская
+      es.island-la-palma: 'Праздник острова: Ла-Пальма'
+      es.assumption: Успение Богородицы
+      es.ceuta-day: День Сеуты
+      es.circumnavigation-500: 500-летие первого кругосветного плавания
+      es.asturias-day: День Астурии
+      es.extremadura-day: День Эстремадуры
+      es.island-gran-canaria: 'Праздник острова: Гран-Канария'
+      es.catalonia-national-day: Национальный день Каталонии
+      es.bien-aparecida: Богоматерь Бьен-Апаресида
+      es.island-lanzarote: 'Праздник острова: Лансароте'
+      es.island-fuerteventura: 'Праздник острова: Фуэртевентура'
+      es.island-el-hierro: 'Праздник острова: Иерро'
+      es.basque-government-anniversary: Годовщина первого баскского правительства
+      es.valencian-community-day: День Валенсийского сообщества
+      es.island-la-gomera: 'Праздник острова: Ла-Гомера'
+      es.national-day: Национальный праздник Испании
+      es.basque-country-day: День Страны Басков
+      es.all-saints: День всех святых
+      es.eid-al-adha: Курбан-байрам
+      es.constitution-day: День Конституции
+      es.immaculate-conception: Непорочное зачатие Девы Марии
+      es.christmas: Рождество Христово
+      es.saint-stephen: День святого Стефана
+  FR:
+    holidays:
+      fr.new-year: Новый год
+      fr.good-friday: Страстная пятница
+      fr.easter-monday: Пасхальный понедельник
+      fr.abolition-of-slavery: День отмены рабства
+      fr.labour-day: День труда
+      fr.victory-day: День Победы в Европе
+      fr.ascension: Вознесение Господне
+      fr.whit-monday: Духов день
+      fr.national-day: Национальный праздник
+      fr.assumption: Успение Богородицы
+      fr.all-saints: День всех святых
+      fr.armistice-day: Перемирие 1918 года
+      fr.christmas: Рождество Христово
+      fr.saint-stephen: День святого Стефана
+  GB:
+    holidays:
+      gb.new-year: Новый год
+      gb.second-january: 2 января
+      gb.saint-patrick: День святого Патрика
+      gb.good-friday: Страстная пятница
+      gb.easter-monday: Пасхальный понедельник
+      gb.royal-wedding: Королевская свадьба
+      gb.early-may: Майский праздник (начало мая)
+      gb.coronation: Выходной день в честь коронации короля Карла III
+      gb.spring-bank: Весенний праздник (конец мая)
+      gb.golden-jubilee: Золотой юбилей
+      gb.diamond-jubilee: Бриллиантовый юбилей королевы
+      gb.platinum-jubilee: Выходной день в честь платинового юбилея
+      gb.world-cup: Выходной день в честь чемпионата мира
+      gb.battle-of-the-boyne: Битва на реке Бойн (День оранжистов)
+      gb.summer-bank: Летний праздник (август)
+      gb.state-funeral: Выходной день в связи с государственными похоронами королевы Елизаветы II
+      gb.saint-andrew: День святого Андрея
+      gb.christmas: Рождество Христово
+      gb.boxing-day: День подарков
+  IE:
+    holidays:
+      ie.new-year: Новый год
+      ie.saint-brigid: День святой Бригиды
+      ie.saint-patrick: День святого Патрика
+      ie.covid-commemoration: Дополнительный праздничный день
+      ie.easter-monday: Пасхальный понедельник
+      ie.may-bank-holiday: Первый понедельник мая
+      ie.june-bank-holiday: Первый понедельник июня
+      ie.august-bank-holiday: Первый понедельник августа
+      ie.national-day-of-mourning: День национального траура
+      ie.october-bank-holiday: Последний понедельник октября
+      ie.christmas: Рождество Христово
+      ie.saint-stephen: День святого Стефана
+  IT:
+    holidays:
+      it.new-year: Новый год
+      it.epiphany: Богоявление
+      it.unification-150: 150-летие объединения Италии
+      it.easter-monday: Пасхальный понедельник
+      it.liberation-day: День освобождения
+      it.labour-day: День труда
+      it.whit-monday: Духов день
+      it.national-day: День Республики
+      it.assumption: Успение Богородицы
+      it.saint-francis: День святого Франциска Ассизского
+      it.all-saints: День всех святых
+      it.immaculate-conception: Непорочное зачатие Девы Марии
+      it.christmas: Рождество Христово
+      it.saint-stephen: День святого Стефана
+  LI:
+    holidays:
+      li.new-year: Новый год
+      li.berchtold: День Берхтольда
+      li.epiphany: Богоявление
+      li.candlemas: Сретение Господне
+      li.shrove-tuesday: Жирный вторник
+      li.saint-joseph: День святого Иосифа
+      li.good-friday: Страстная пятница
+      li.easter-monday: Пасхальный понедельник
+      li.labour-day: День труда
+      li.ascension: Вознесение Господне
+      li.whit-monday: Духов день
+      li.corpus-christi: Праздник Тела и Крови Христовых
+      li.national-day: Национальный праздник (Успение Богородицы)
+      li.nativity-of-mary: Рождество Пресвятой Богородицы
+      li.all-saints: День всех святых
+      li.immaculate-conception: Непорочное зачатие Девы Марии
+      li.christmas-eve: Сочельник
+      li.christmas: Рождество Христово
+      li.saint-stephen: День святого Стефана
+      li.new-years-eve: Канун Нового года
+  LU:
+    holidays:
+      lu.new-year: Новый год
+      lu.good-friday: Страстная пятница
+      lu.easter-monday: Пасхальный понедельник
+      lu.labour-day: День труда
+      lu.europe-day: День Европы
+      lu.ascension: Вознесение Господне
+      lu.whit-monday: Духов день
+      lu.national-day: Национальный праздник
+      lu.assumption: Успение Богородицы
+      lu.all-saints: День всех святых
+      lu.christmas-eve: Сочельник
+      lu.christmas: Рождество Христово
+      lu.saint-stephen: Второй день Рождества
+  MC:
+    holidays:
+      mc.new-year: Новый год
+      mc.saint-devote: День святой Девоты
+      mc.easter-monday: Пасхальный понедельник
+      mc.labour-day: День труда
+      mc.ascension: Вознесение Господне
+      mc.whit-monday: Духов день
+      mc.corpus-christi: Праздник Тела и Крови Христовых
+      mc.assumption: Успение Богородицы
+      mc.all-saints: День всех святых
+      mc.national-day: Национальный праздник (День князя)
+      mc.immaculate-conception: Непорочное зачатие Девы Марии
+      mc.christmas: Рождество Христово
+  MT:
+    holidays:
+      mt.new-year: Новый год
+      mt.saint-pauls-shipwreck: Праздник кораблекрушения святого Павла
+      mt.saint-joseph: День святого Иосифа
+      mt.freedom-day: День свободы
+      mt.good-friday: Страстная пятница
+      mt.labour-day: День труда
+      mt.sette-giugno: Сетте Джуньо
+      mt.saints-peter-and-paul: День святых Петра и Павла
+      mt.assumption: Успение Богородицы
+      mt.victory-day: День Победы
+      mt.independence-day: День независимости
+      mt.immaculate-conception: Непорочное зачатие Девы Марии
+      mt.republic-day: День Республики
+      mt.christmas: Рождество Христово
+  NL:
+    holidays:
+      nl.new-year: Новый год
+      nl.good-friday: Страстная пятница
+      nl.easter-monday: Пасхальный понедельник
+      nl.queens-day: День королевы
+      nl.kings-day: День короля
+      nl.dia-di-rincon: День Ринкона
+      nl.labour-day: День труда
+      nl.liberation-day: День освобождения
+      nl.ascension: Вознесение Господне
+      nl.whit-monday: Духов день
+      nl.emancipation-day: День эмансипации
+      nl.flag-day-bonaire: День флага и гимна Бонайре
+      nl.statia-day: День Синт-Эстатиуса
+      nl.saba-day: День Сабы
+      nl.christmas: Рождество Христово
+      nl.saint-stephen: Второй день Рождества
+  PT:
+    holidays:
+      pt.new-year: Новый год
+      pt.shrove-tuesday: Карнавал
+      pt.good-friday: Страстная пятница
+      pt.madeira-autonomy-day: День автономии
+      pt.freedom-day: День свободы
+      pt.labour-day: День труда
+      pt.azores-day: День Азорских островов
+      pt.corpus-christi: Праздник Тела и Крови Христовых
+      pt.national-day: День Португалии
+      pt.madeira-day: День Мадейры
+      pt.assumption: Успение Богородицы
+      pt.republic-day: День Республики
+      pt.all-saints: День всех святых
+      pt.restoration-of-independence: День восстановления независимости
+      pt.immaculate-conception: Непорочное зачатие Девы Марии
+      pt.christmas: Рождество Христово
+      pt.saint-stephen: Первый день октавы Рождества
+  SM:
+    holidays:
+      sm.new-year: Торжество Пресвятой Богородицы
+      sm.epiphany: Богоявление
+      sm.saint-agatha: День святой Агаты
+      sm.arengo: Годовщина Аренго
+      sm.captains-regent-april: Инаугурация капитанов-регентов
+      sm.easter-monday: Пасхальный понедельник
+      sm.labour-day: День труда
+      sm.corpus-christi: Праздник Тела и Крови Христовых
+      sm.fall-of-fascism: Годовщина падения фашизма
+      sm.assumption: Успение Богородицы
+      sm.national-day: День святого Марина, основателя республики
+      sm.captains-regent-october: Инаугурация капитанов-регентов
+      sm.all-saints: День всех святых
+      sm.all-souls: День поминовения усопших
+      sm.immaculate-conception: Непорочное зачатие Девы Марии
+      sm.christmas: Рождество Христово
+      sm.saint-stephen: День святого Стефана
+  VA:
+    holidays:
+      va.new-year: Торжество Пресвятой Богородицы
+      va.epiphany: Богоявление
+      va.state-anniversary: Годовщина основания государства Ватикан
+      va.saint-joseph: День святого Иосифа
+      va.maundy-thursday: Великий четверг
+      va.good-friday: Страстная пятница
+      va.holy-saturday: Великая суббота
+      va.easter-monday: Пасхальный понедельник
+      va.easter-tuesday: Пасхальный вторник
+      va.saint-joseph-the-worker: День святого Иосифа Труженика
+      va.papal-election-anniversary: Годовщина избрания папы
+      va.ascension: Вознесение Господне
+      va.corpus-christi: Праздник Тела и Крови Христовых
+      va.saints-peter-and-paul: День святых Петра и Павла
+      va.assumption-eve: Канун Успения Богородицы
+      va.assumption: Успение Богородицы
+      va.day-after-assumption: День после Успения Богородицы
+      va.papal-name-day: Именины папы
+      va.all-saints: День всех святых
+      va.all-souls: День поминовения усопших
+      va.immaculate-conception: Непорочное зачатие Девы Марии
+      va.christmas-eve: Сочельник
+      va.christmas: Рождество Христово
+      va.saint-stephen: День святого Стефана
+      va.saint-john: День святого апостола Иоанна
+      va.new-years-eve: Канун Нового года

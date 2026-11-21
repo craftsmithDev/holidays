@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/craftsmithDev/holidays@main/schema/translation.schema.json",
+  "title": "Translation file (translations/<lang>.yaml)",
+  "description": "Holiday names in one language for countries where it is not a local language. Local languages live in countries/<cc>/rules.yaml; a translation may not repeat them. See docs/format.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["language", "countries"],
+  "properties": {
+    "language": {
+      "description": "BCP 47 tag; equals the file name.",
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2}|-[0-9]{3})?$"
+    },
+    "countries": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[A-Z]{2}$" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["holidays"],
+        "properties": {
+          "holidays": {
+            "description": "Holiday id → name.",
+            "type": "object",
+            "propertyNames": { "pattern": "^[a-z]{2}\\.[a-z0-9]+(-[a-z0-9]+)*$" },
+            "additionalProperties": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    }
+  }
+}

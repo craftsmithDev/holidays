@@ -5,8 +5,6 @@
 # - public: a jour férié légal of Loi n° 798 art. 1. Loi n° 800 art. 2 makes
 #   every one of them a compulsory paid day off for all employees.
 code: MC
-names: {fr: Monaco, en: Monaco}
-languages: [fr]
 regions: []
 sources:
   loi-798:

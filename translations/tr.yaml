@@ -1,0 +1,386 @@
+# tr: holiday names for countries where tr is not a local language. Written by
+# Claude and not yet reviewed (docs/coverage.md); edit by hand.
+language: tr
+countries:
+  AD:
+    holidays:
+      ad.new-year: Yılbaşı
+      ad.epiphany: Epifani
+      ad.carnival: Karnaval
+      ad.constitution-day: Anayasa Günü
+      ad.good-friday: Kutsal Cuma
+      ad.easter-monday: Paskalya Pazartesisi
+      ad.labour-day: Emek ve Dayanışma Günü
+      ad.whit-monday: Pentekost Pazartesisi
+      ad.assumption: Meryem’in Göğe Kabulü
+      ad.meritxell: Meritxell Meryem Ana Günü
+      ad.all-saints: Tüm Azizler Günü
+      ad.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      ad.christmas: Noel
+      ad.saint-stephen: Aziz Stefanos Günü
+  AT:
+    holidays:
+      at.new-year: Yılbaşı
+      at.epiphany: Epifani
+      at.saint-joseph: Aziz Yusuf Günü
+      at.good-friday: Kutsal Cuma
+      at.easter-monday: Paskalya Pazartesisi
+      at.labour-day: Emek ve Dayanışma Günü
+      at.saint-florian: Aziz Florian Günü
+      at.ascension: İsa’nın Göğe Yükselişi
+      at.whit-monday: Pentekost Pazartesisi
+      at.corpus-christi: Corpus Christi
+      at.assumption: Meryem’in Göğe Kabulü
+      at.saint-rupert: Aziz Rupert Günü
+      at.plebiscite-day: Karintiya Plebisit Günü
+      at.national-day: Ulusal Bayram
+      at.all-saints: Tüm Azizler Günü
+      at.saint-martin: Aziz Martin Günü
+      at.saint-leopold: Aziz Leopold Günü
+      at.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      at.christmas-eve: Noel Arifesi
+      at.christmas: Noel
+      at.saint-stephen: Aziz Stefanos Günü
+      at.new-years-eve: Yılbaşı Gecesi
+  BE:
+    holidays:
+      be.new-year: Yılbaşı
+      be.easter-monday: Paskalya Pazartesisi
+      be.labour-day: Emek ve Dayanışma Günü
+      be.ascension: İsa’nın Göğe Yükselişi
+      be.whit-monday: Pentekost Pazartesisi
+      be.flemish-community-day: Flaman Topluluğu Günü
+      be.national-day: Belçika Ulusal Günü
+      be.assumption: Meryem’in Göğe Kabulü
+      be.french-community-day: Fransız Topluluğu Günü
+      be.all-saints: Tüm Azizler Günü
+      be.all-souls: Ölüleri Anma Günü
+      be.armistice: Ateşkes Günü
+      be.kings-feast: Kral Bayramı
+      be.german-speaking-community-day: Almanca Konuşan Topluluk Günü
+      be.christmas: Noel
+      be.saint-stephen: Noel’in İkinci Günü
+  CH:
+    holidays:
+      ch.new-year: Yılbaşı
+      ch.berchtold: Berchtold Günü
+      ch.epiphany: Epifani
+      ch.republic-day: Cumhuriyet Bayramı
+      ch.saint-joseph: Aziz Yusuf Günü
+      ch.good-friday: Kutsal Cuma
+      ch.easter-monday: Paskalya Pazartesisi
+      ch.naefelser-fahrt: Näfels Hac Yürüyüşü
+      ch.labour-day: Emek ve Dayanışma Günü
+      ch.ascension: İsa’nın Göğe Yükselişi
+      ch.whit-monday: Pentekost Pazartesisi
+      ch.corpus-christi: Corpus Christi
+      ch.jura-independence: Jura Bağımsızlık Günü
+      ch.peter-and-paul: Aziz Petrus ve Aziz Pavlus Bayramı
+      ch.national-day: İsviçre Ulusal Günü
+      ch.assumption: Meryem’in Göğe Kabulü
+      ch.jeune-genevois: Cenevre Orucu
+      ch.federal-fast-monday: Federal Oruç Pazartesisi
+      ch.saint-maurice: Aziz Mauritius Günü
+      ch.bruder-klaus: Flüe’li Aziz Nikolaus
+      ch.all-saints: Tüm Azizler Günü
+      ch.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      ch.christmas: Noel
+      ch.saint-stephen: Aziz Stefanos Günü
+      ch.restoration: Cumhuriyetin Yeniden Kuruluşu
+  DE:
+    holidays:
+      de.new-year: Yılbaşı
+      de.epiphany: Epifani
+      de.womens-day: Dünya Kadınlar Günü
+      de.good-friday: Kutsal Cuma
+      de.easter-monday: Paskalya Pazartesisi
+      de.labour-day: Emek ve Dayanışma Günü
+      de.liberation-day: Kurtuluş Günü
+      de.ascension: İsa’nın Göğe Yükselişi
+      de.whit-monday: Pentekost Pazartesisi
+      de.corpus-christi: Corpus Christi
+      de.uprising-anniversary: 17 Haziran 1953 ayaklanmasının 75. yıl dönümü
+      de.augsburg-peace-festival: Augsburg Barış Bayramı
+      de.assumption: Meryem’in Göğe Kabulü
+      de.world-childrens-day: Dünya Çocuk Günü
+      de.national-day: Alman Birliği Günü
+      de.reformation-day: Reform Günü
+      de.all-saints: Tüm Azizler Günü
+      de.repentance-day: Tövbe ve Dua Günü
+      de.christmas-eve: Noel Arifesi
+      de.christmas: Noel
+      de.saint-stephen: Noel’in İkinci Günü
+      de.new-years-eve: Yılbaşı Gecesi
+  ES:
+    holidays:
+      es.new-year: Yılbaşı
+      es.epiphany: Epifani
+      es.ceuta-convivencia-day: Birlikte Yaşam Günü
+      es.island-tenerife: 'Ada bayramı: Tenerife'
+      es.shrove-tuesday: Karnaval Salısı
+      es.andalusia-day: Endülüs Günü
+      es.balearic-islands-day: Balear Adaları Günü
+      es.melilla-statute-day: Melilla Özerklik Statüsü Günü
+      es.fallas-monday: Fallas Pazartesisi
+      es.saint-joseph: Aziz Yusuf Günü
+      es.maundy-thursday: Kutsal Perşembe
+      es.good-friday: Kutsal Cuma
+      es.easter-monday: Paskalya Pazartesisi
+      es.aragon-day: Aziz Yorgi Günü, Aragon Günü
+      es.castile-leon-day: Kastilya ve León Günü
+      es.labour-day: Emek ve Dayanışma Günü
+      es.madrid-day: Madrid Topluluğu Günü
+      es.eid-al-fitr: Ramazan Bayramı
+      es.galician-literature-day: Galiçya Edebiyatı Günü
+      es.whit-monday: Pentekost Pazartesisi
+      es.canary-islands-day: Kanarya Adaları Günü
+      es.castile-la-mancha-day: Kastilya-La Mancha Günü
+      es.corpus-christi: Corpus Christi
+      es.murcia-day: Murcia Bölgesi Günü
+      es.la-rioja-day: La Rioja Günü
+      es.aran-day: Aran Bayramı
+      es.saint-john: Aziz Yahya Günü
+      es.saint-james: Aziz Yakup Günü
+      es.cantabria-institutions-day: Kantabria Kurumları Günü
+      es.our-lady-of-africa: Afrika Meryem Ana Günü
+      es.island-la-palma: 'Ada bayramı: La Palma'
+      es.assumption: Meryem’in Göğe Kabulü
+      es.ceuta-day: Septe Günü
+      es.circumnavigation-500: İlk dünya turunun 500. yıl dönümü
+      es.asturias-day: Asturias Günü
+      es.extremadura-day: Extremadura Günü
+      es.island-gran-canaria: 'Ada bayramı: Gran Canaria'
+      es.catalonia-national-day: Katalonya Ulusal Günü
+      es.bien-aparecida: Bien Aparecida Meryem Ana Günü
+      es.island-lanzarote: 'Ada bayramı: Lanzarote'
+      es.island-fuerteventura: 'Ada bayramı: Fuerteventura'
+      es.island-el-hierro: 'Ada bayramı: El Hierro'
+      es.basque-government-anniversary: İlk Bask Hükümeti’nin yıl dönümü
+      es.valencian-community-day: Valensiya Topluluğu Günü
+      es.island-la-gomera: 'Ada bayramı: La Gomera'
+      es.national-day: İspanya Ulusal Günü
+      es.basque-country-day: Bask Ülkesi Günü
+      es.all-saints: Tüm Azizler Günü
+      es.eid-al-adha: Kurban Bayramı
+      es.constitution-day: Anayasa Günü
+      es.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      es.christmas: Noel
+      es.saint-stephen: Aziz Stefanos Günü
+  FR:
+    holidays:
+      fr.new-year: Yılbaşı
+      fr.good-friday: Kutsal Cuma
+      fr.easter-monday: Paskalya Pazartesisi
+      fr.abolition-of-slavery: Köleliğin Kaldırılışını Anma Günü
+      fr.labour-day: Emek ve Dayanışma Günü
+      fr.victory-day: Avrupa’da Zafer Günü
+      fr.ascension: İsa’nın Göğe Yükselişi
+      fr.whit-monday: Pentekost Pazartesisi
+      fr.national-day: Ulusal Bayram
+      fr.assumption: Meryem’in Göğe Kabulü
+      fr.all-saints: Tüm Azizler Günü
+      fr.armistice-day: 1918 Ateşkesi
+      fr.christmas: Noel
+      fr.saint-stephen: Aziz Stefanos Günü
+  GB:
+    holidays:
+      gb.new-year: Yılbaşı
+      gb.second-january: 2 Ocak
+      gb.saint-patrick: Aziz Patrick Günü
+      gb.good-friday: Kutsal Cuma
+      gb.easter-monday: Paskalya Pazartesisi
+      gb.royal-wedding: Kraliyet Düğünü
+      gb.early-may: Mayıs başı resmî tatili
+      gb.coronation: Kral III. Charles’ın taç giyme tatili
+      gb.spring-bank: Bahar resmî tatili
+      gb.golden-jubilee: Altın Jübile
+      gb.diamond-jubilee: Kraliçe’nin Elmas Jübilesi
+      gb.platinum-jubilee: Platin Jübile tatili
+      gb.world-cup: Dünya Kupası tatili
+      gb.battle-of-the-boyne: Boyne Muharebesi (Orangemen’s Day)
+      gb.summer-bank: Yaz resmî tatili
+      gb.state-funeral: Kraliçe II. Elizabeth’in devlet cenazesi tatili
+      gb.saint-andrew: Aziz Andreas Günü
+      gb.christmas: Noel
+      gb.boxing-day: Boxing Day
+  IE:
+    holidays:
+      ie.new-year: Yılbaşı
+      ie.saint-brigid: Azize Brigid Günü
+      ie.saint-patrick: Aziz Patrick Günü
+      ie.covid-commemoration: Ek resmî tatil
+      ie.easter-monday: Paskalya Pazartesisi
+      ie.may-bank-holiday: Mayıs’ın ilk pazartesi günü
+      ie.june-bank-holiday: Haziran’ın ilk pazartesi günü
+      ie.august-bank-holiday: Ağustos’un ilk pazartesi günü
+      ie.national-day-of-mourning: Ulusal Yas Günü
+      ie.october-bank-holiday: Ekim’in son pazartesi günü
+      ie.christmas: Noel
+      ie.saint-stephen: Aziz Stefanos Günü
+  IT:
+    holidays:
+      it.new-year: Yılbaşı
+      it.epiphany: Epifani
+      it.unification-150: İtalya’nın birleşmesinin 150. yıl dönümü
+      it.easter-monday: Paskalya Pazartesisi
+      it.liberation-day: Kurtuluş Günü
+      it.labour-day: Emek ve Dayanışma Günü
+      it.whit-monday: Pentekost Pazartesisi
+      it.national-day: Cumhuriyet Bayramı
+      it.assumption: Meryem’in Göğe Kabulü
+      it.saint-francis: Assisili Aziz Francesco Bayramı
+      it.all-saints: Tüm Azizler Günü
+      it.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      it.christmas: Noel
+      it.saint-stephen: Aziz Stefanos Günü
+  LI:
+    holidays:
+      li.new-year: Yılbaşı
+      li.berchtold: Berchtold Günü
+      li.epiphany: Epifani
+      li.candlemas: Mumlar Bayramı
+      li.shrove-tuesday: Karnaval Salısı
+      li.saint-joseph: Aziz Yusuf Günü
+      li.good-friday: Kutsal Cuma
+      li.easter-monday: Paskalya Pazartesisi
+      li.labour-day: Emek ve Dayanışma Günü
+      li.ascension: İsa’nın Göğe Yükselişi
+      li.whit-monday: Pentekost Pazartesisi
+      li.corpus-christi: Corpus Christi
+      li.national-day: Ulusal Bayram (Meryem’in Göğe Kabulü)
+      li.nativity-of-mary: Meryem’in Doğumu
+      li.all-saints: Tüm Azizler Günü
+      li.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      li.christmas-eve: Noel Arifesi
+      li.christmas: Noel
+      li.saint-stephen: Aziz Stefanos Günü
+      li.new-years-eve: Yılbaşı Gecesi
+  LU:
+    holidays:
+      lu.new-year: Yılbaşı
+      lu.good-friday: Kutsal Cuma
+      lu.easter-monday: Paskalya Pazartesisi
+      lu.labour-day: Emek ve Dayanışma Günü
+      lu.europe-day: Avrupa Günü
+      lu.ascension: İsa’nın Göğe Yükselişi
+      lu.whit-monday: Pentekost Pazartesisi
+      lu.national-day: Ulusal Bayram
+      lu.assumption: Meryem’in Göğe Kabulü
+      lu.all-saints: Tüm Azizler Günü
+      lu.christmas-eve: Noel Arifesi
+      lu.christmas: Noel
+      lu.saint-stephen: Noel’in İkinci Günü
+  MC:
+    holidays:
+      mc.new-year: Yılbaşı
+      mc.saint-devote: Azize Devota Günü
+      mc.easter-monday: Paskalya Pazartesisi
+      mc.labour-day: Emek ve Dayanışma Günü
+      mc.ascension: İsa’nın Göğe Yükselişi
+      mc.whit-monday: Pentekost Pazartesisi
+      mc.corpus-christi: Corpus Christi
+      mc.assumption: Meryem’in Göğe Kabulü
+      mc.all-saints: Tüm Azizler Günü
+      mc.national-day: Ulusal Bayram (Prens Günü)
+      mc.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      mc.christmas: Noel
+  MT:
+    holidays:
+      mt.new-year: Yılbaşı
+      mt.saint-pauls-shipwreck: Aziz Pavlus’un Gemi Kazası Bayramı
+      mt.saint-joseph: Aziz Yusuf Günü
+      mt.freedom-day: Özgürlük Günü
+      mt.good-friday: Kutsal Cuma
+      mt.labour-day: Emek ve Dayanışma Günü
+      mt.sette-giugno: Sette Giugno
+      mt.saints-peter-and-paul: Aziz Petrus ve Aziz Pavlus Bayramı
+      mt.assumption: Meryem’in Göğe Kabulü
+      mt.victory-day: Zafer Günü
+      mt.independence-day: Bağımsızlık Günü
+      mt.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      mt.republic-day: Cumhuriyet Bayramı
+      mt.christmas: Noel
+  NL:
+    holidays:
+      nl.new-year: Yılbaşı
+      nl.good-friday: Kutsal Cuma
+      nl.easter-monday: Paskalya Pazartesisi
+      nl.queens-day: Kraliçe Günü
+      nl.kings-day: Kral Günü
+      nl.dia-di-rincon: Rincon Günü
+      nl.labour-day: Emek ve Dayanışma Günü
+      nl.liberation-day: Kurtuluş Günü
+      nl.ascension: İsa’nın Göğe Yükselişi
+      nl.whit-monday: Pentekost Pazartesisi
+      nl.emancipation-day: Özgürleşme Günü
+      nl.flag-day-bonaire: Bonaire Bayrak ve Marş Günü
+      nl.statia-day: Statia Günü
+      nl.saba-day: Saba Günü
+      nl.christmas: Noel
+      nl.saint-stephen: Noel’in İkinci Günü
+  PT:
+    holidays:
+      pt.new-year: Yılbaşı
+      pt.shrove-tuesday: Karnaval
+      pt.good-friday: Kutsal Cuma
+      pt.madeira-autonomy-day: Özerklik Günü
+      pt.freedom-day: Özgürlük Günü
+      pt.labour-day: Emek ve Dayanışma Günü
+      pt.azores-day: Azorlar Günü
+      pt.corpus-christi: Corpus Christi
+      pt.national-day: Portekiz Günü
+      pt.madeira-day: Madeira Günü
+      pt.assumption: Meryem’in Göğe Kabulü
+      pt.republic-day: Cumhuriyet Bayramı
+      pt.all-saints: Tüm Azizler Günü
+      pt.restoration-of-independence: Bağımsızlığın Yeniden Kazanılması
+      pt.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      pt.christmas: Noel
+      pt.saint-stephen: Noel oktavının ilk günü
+  SM:
+    holidays:
+      sm.new-year: Tanrı’nın Annesi Meryem Bayramı
+      sm.epiphany: Epifani
+      sm.saint-agatha: Azize Agatha Günü
+      sm.arengo: Arengo Yıl Dönümü
+      sm.captains-regent-april: Kaptan Naiplerin göreve başlaması
+      sm.easter-monday: Paskalya Pazartesisi
+      sm.labour-day: Emek ve Dayanışma Günü
+      sm.corpus-christi: Corpus Christi
+      sm.fall-of-fascism: Faşizmin Çöküşünün Yıl Dönümü
+      sm.assumption: Meryem’in Göğe Kabulü
+      sm.national-day: Cumhuriyetin kurucusu Aziz Marinus Bayramı
+      sm.captains-regent-october: Kaptan Naiplerin göreve başlaması
+      sm.all-saints: Tüm Azizler Günü
+      sm.all-souls: Ölüleri Anma Günü
+      sm.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      sm.christmas: Noel
+      sm.saint-stephen: Aziz Stefanos Günü
+  VA:
+    holidays:
+      va.new-year: Tanrı’nın Annesi Meryem Bayramı
+      va.epiphany: Epifani
+      va.state-anniversary: Vatikan Şehir Devleti’nin kuruluş yıl dönümü
+      va.saint-joseph: Aziz Yusuf Günü
+      va.maundy-thursday: Kutsal Perşembe
+      va.good-friday: Kutsal Cuma
+      va.holy-saturday: Kutsal Cumartesi
+      va.easter-monday: Paskalya Pazartesisi
+      va.easter-tuesday: Paskalya Salısı
+      va.saint-joseph-the-worker: İşçi Aziz Yusuf Bayramı
+      va.papal-election-anniversary: Papanın seçilişinin yıl dönümü
+      va.ascension: İsa’nın Göğe Yükselişi
+      va.corpus-christi: Corpus Christi
+      va.saints-peter-and-paul: Aziz Petrus ve Aziz Pavlus Bayramı
+      va.assumption-eve: Meryem’in Göğe Kabulü Arifesi
+      va.assumption: Meryem’in Göğe Kabulü
+      va.day-after-assumption: Meryem’in Göğe Kabulü’nden sonraki gün
+      va.papal-name-day: Papanın isim günü
+      va.all-saints: Tüm Azizler Günü
+      va.all-souls: Ölüleri Anma Günü
+      va.immaculate-conception: Meryem’in Lekesiz Gebeliği
+      va.christmas-eve: Noel Arifesi
+      va.christmas: Noel
+      va.saint-stephen: Aziz Stefanos Günü
+      va.saint-john: Havari Aziz Yuhanna Günü
+      va.new-years-eve: Yılbaşı Gecesi

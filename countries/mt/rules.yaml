@@ -10,8 +10,6 @@
 # of 2021). Neither rule moves the holiday or names a substitute date, so
 # there are no substitute days in this file.
 code: MT
-names: {mt: Malta, en: Malta}
-languages: [mt, en]
 regions: []
 sources:
   cap-252-en:

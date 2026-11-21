@@ -17,13 +17,11 @@
 # and Scottish Gaelic are regional languages, so they are not in `languages`
 # (that would require a name for every day); see decision D-gb-2.
 code: GB
-names: {en: United Kingdom}
-languages: [en]
 regions:
-  - {code: GB-ENG, names: {en: England, cy: Lloegr}}
-  - {code: GB-NIR, names: {en: Northern Ireland, cy: Gogledd Iwerddon}}
-  - {code: GB-SCT, names: {en: Scotland, cy: Yr Alban}}
-  - {code: GB-WLS, names: {en: Wales, cy: Cymru}}
+  - GB-ENG
+  - GB-NIR
+  - GB-SCT
+  - GB-WLS
 sources:
   bfda-1971:
     title: Banking and Financial Dealings Act 1971, Schedule 1 (Bank Holidays)

@@ -33,7 +33,7 @@ Dates are plain calendar dates (`YYYY-MM-DD`), without time zones.
 | Netherlands (NL) | 12 provinces, 3 Caribbean special municipalities | `public` = Algemene termijnenwet Art. 3 day that is a general day off, Arbeidswet 2000 BES in the Caribbean Netherlands; see [sources](countries/nl/sources.md) |
 | Luxembourg (LU) | none | `public` = Code du travail Art. L. 232-2; see [sources](countries/lu/sources.md) |
 
-Regions are ISO 3166-2 codes. The `sources.md` of each country lists the laws, the checks and the open points.
+Regions are ISO 3166-2 codes; their names, the country names and the local languages come from craftsmith/regions. The `sources.md` of each country lists the laws, the checks and the open points.
 
 ## PHP
 
@@ -61,6 +61,7 @@ foreach ($holidays->holidays('CH', 2026, 'SO') as $day) {
 
 $holidays->next('2026-12-24', 'CH', 'CH-BE');             // ['date' => '2026-12-25', 'id' => 'ch.christmas', …]
 $holidays->regions('DE');                                  // [['code' => 'DE-BB', 'names' => […]], …]
+$holidays->name('ch.national-day', 'rm');                  // 'Festa naziunala'
 $holidays->year('GB', 2027);                               // the full year document, same as json/gb/2027.json
 ```
 
@@ -92,6 +93,7 @@ Both runtimes have the same methods, arguments and results. A region is `ZH` or 
 |---|---|
 | `countries()` | countries with names, languages and regions |
 | `regions(country)` | regions of a country |
+| `name(id, language)` | the name of a holiday in a language (`de-CH`, then `de`, then English), or `null` for an unknown id |
 | `year(country, year)` | the full year document (all regions, all types, sources) |
 | `holidays(country, year, region?, types?)` | the holidays of a year; without a region only the nationwide ones |
 | `isHoliday(date, country, region?, types?)` | `true` or `false` |
@@ -104,7 +106,7 @@ A holiday:
 {
   "date": "2026-05-01",
   "id": "ch.labour-day",
-  "name": {"en": "Labour Day", "de": "Tag der Arbeit", "fr": "Fête du travail", "it": "Festa del lavoro"},
+  "name": {"en": "Labour Day", "de": "Tag der Arbeit", "fr": "Fête du travail", "it": "Festa del lavoro", "rm": "Di da la lavur", "es": "Fiesta del Trabajo", "…": "…"},
   "type": "public",
   "startTime": "12:00",
   "substituteFor": null,
@@ -114,7 +116,7 @@ A holiday:
 }
 ```
 
-`id` is stable across years and releases, so you can map it to your own data. Names are given in English and in every local language of the country.
+`id` is stable across years and releases, so you can map it to your own data. Names are given in English, in every local language of the country, and in German, French, Italian, Spanish, Dutch, Polish, Portuguese, Russian, Turkish and Romansh. The local names come from the official sources, except the Romansh names of Switzerland, which are machine-written. The other languages are in `translations/` and are machine-written too; see [docs/coverage.md](docs/coverage.md). Country and region names come from [craftsmith/regions](https://github.com/craftsmithDev/regions).
 
 ## How holidays are typed
 
@@ -160,13 +162,14 @@ To get one region from a year file, keep the entries where `nationwide` is `true
 ```
 countries/<cc>/rules.yaml    the rules of one country: regions, sources, holidays
 countries/<cc>/sources.md    the sources explained, the verification, the comparison with external data
+translations/<lang>.yaml     holiday names in the plugin languages for countries where they are not local
 countries/_template/         start here for a new country
 src/                         PHP runtime (src/data: compiled rules)
 js/                          JS runtime (js/data: compiled rules)
 json/                        precomputed year files 2025–2036
 schema/                      JSON Schemas for the rules and the output
 scripts/                     build, comparison, cross-runtime dump
-docs/                        format reference and decisions
+docs/                        format reference, decisions, translation coverage
 ```
 
 ## Contributing

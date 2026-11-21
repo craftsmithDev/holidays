@@ -1,28 +1,33 @@
 # Data format
 
-This is the reference for the rule files `countries/<cc>/rules.yaml`. Both runtimes (PHP and JS) implement exactly what this page says, and `tests/fixtures/expectations.json` checks it in both. If this page and the code disagree, the code has a bug.
+This is the reference for the rule files `countries/<cc>/rules.yaml` and the translation files `translations/<lang>.yaml`. Both runtimes (PHP and JS) implement exactly what this page says, and `tests/fixtures/expectations.json` checks it in both. If this page and the code disagree, the code has a bug.
 
-Format version: **1**. Additive changes (a new optional field, a new rule type, a new region) keep version 1. Removing or renaming a field, or changing what an existing field means, would need version 2.
+Format version: **1**. It describes the compiled rules and the output files, which consumers read. Additive changes (a new optional field, a new rule type, a new region, a new language) keep version 1. Removing or renaming a field of these files, or changing what an existing field means, would need version 2. The rule files moved their country names, languages and region names to craftsmith/regions (docs/decisions.md D16) without a change to the compiled files, so the version stayed 1.
 
 ## Files
 
 ```
 countries/
   <cc>/                 lower-case ISO 3166-1 alpha-2 code, e.g. ch
-    rules.yaml          country, languages, regions, source catalogue, holidays
+    rules.yaml          country code, region codes, source catalogue, holidays
     sources.md          the sources explained, the verification, the comparison with external data
   _template/            copy this to start a country (ignored by the build)
+translations/
+  <lang>.yaml           holiday names in one language for countries where it is not a local language
 schema/
   rules.schema.json     validates rules.yaml
+  translation.schema.json validates <lang>.yaml
   year.schema.json      describes json/<cc>/<year>.json
   index.schema.json     describes json/index.json
 ```
+
+Country names, the local languages and region names come from craftsmith/regions, a dev dependency of the build (docs/decisions.md D16). The test fixtures and the template use invented countries; their names are in `tests/fixtures/regions.json`.
 
 `npm run build` validates every file and writes:
 
 | Output | Contents | Used by |
 |---|---|---|
-| `src/data/<cc>.json` | rules.yaml as JSON with the format version, without comments | PHP runtime |
+| `src/data/<cc>.json` | rules.yaml as JSON with the format version, without comments; with the country name, languages and region names from craftsmith/regions and the translations merged into the holiday names | PHP runtime |
 | `js/data/<cc>.js` | the same rules as an ES module | JS runtime |
 | `json/<cc>/<year>.json` | computed holidays, 2025–2036 | anyone, also via jsDelivr |
 | `json/index.json` | countries, regions, year range | anyone |
@@ -45,10 +50,8 @@ The first part of the file describes the country.
 
 ```yaml
 code: CH                                   # ISO 3166-1 alpha-2, upper case, equals the folder name
-names: {de: Schweiz, fr: Suisse, it: Svizzera, en: Switzerland}
-languages: [de, fr, it]                    # local languages (BCP 47), most used first
-regions:                                   # first-level ISO 3166-2 subdivisions; [] if never needed
-  - {code: CH-ZH, names: {de: Zürich, fr: Zurich, it: Zurigo, en: Zurich}}
+regions:                                   # ISO 3166-2 codes; [] if never needed
+  - CH-ZH
 sources:                                   # catalogue; holidays cite these ids
   seco-art20a:
     title: "Anhang: Feiertage Schweiz (Auszug ArG/ArGV 1–5), Stand am 12.12.2024"
@@ -60,10 +63,8 @@ sources:                                   # catalogue; holidays cite these ids
 
 | Field | Required | Meaning |
 |---|---|---|
-| `code` | yes | ISO 3166-1 alpha-2, upper case. |
-| `names` | yes | Country name; `en` plus every language in `languages`. |
-| `languages` | yes | Local languages as BCP 47 tags (`de`, `fr`, `it`, `rm`, `nl`, `fr-BE` …). Every holiday name must exist in each of them and in `en`. |
-| `regions` | yes | List of `{code, names}`. `code` is the full ISO 3166-2 code (`CH-ZH`, `GB-SCT`, `ES-AN`). `names` needs `en`. Use `[]` when holidays never differ by region. |
+| `code` | yes | ISO 3166-1 alpha-2, upper case. Must be a country of craftsmith/regions, which gives its names and its local languages (`languages`, most used first). Every holiday name must exist in each local language and in `en`. |
+| `regions` | yes | List of full ISO 3166-2 codes (`CH-ZH`, `GB-SCT`, `ES-AN`) that the holidays use. Each must exist in craftsmith/regions, which gives the names. Use `[]` when holidays never differ by region. |
 | `sources` | yes | Map of source id → source. Ids are lower case with `-`. Every id must be cited at least once, and every cited id must exist. |
 
 A source:
@@ -83,7 +84,7 @@ The second part lists the holidays.
 ```yaml
 holidays:
   - id: ch.national-day
-    names: {en: Swiss National Day, de: Bundesfeier, fr: Fête nationale, it: Festa nazionale}
+    names: {en: Swiss National Day, de: Bundesfeier, fr: Fête nationale, it: Festa nazionale, rm: Festa naziunala}
     date: {type: fixed, month: 8, day: 1}
     observances:
       - regions: all
@@ -98,7 +99,7 @@ A holiday is **one date rule** plus **one or more observances**. The date rule s
 | Field | Required | Meaning |
 |---|---|---|
 | `id` | yes | Stable id `<cc>.<slug>`: lower case, words joined by `-`. Never change or reuse an id once published; consumers map it. |
-| `names` | yes | `en` plus every language of the country. Use the official local name; English as commonly used in that country. |
+| `names` | yes | `en` plus every local language of the country (from craftsmith/regions). Use the official local name; English as commonly used in that country. Further languages with an official name are allowed (`cy` in GB, `ca`, `eu`, `gl` in ES). Other languages go to `translations/`. |
 | `date` | yes | A rule, or a list of rules with non-overlapping `from`/`to` when a law moved the date. |
 | `observances` | yes | One or more observances (below). |
 | `from`, `to` | no | First and last year (inclusive) the holiday exists at all. |
@@ -342,6 +343,26 @@ Each autonomous community chooses some days each year, and moves Sunday holidays
 
 `from`/`to` on the holiday or on the observance (e.g. Denmark abolished Great Prayer Day after 2023: `to: 2023`).
 
+## translations/&lt;lang&gt;.yaml
+
+Holiday names in one of the plugin languages (de, fr, it, es, nl, pl, pt, ru, tr, rm) for the countries where it is not a local language.
+
+```yaml
+language: de
+countries:
+  FR:
+    holidays:
+      fr.new-year: Neujahr
+      fr.armistice-day: Waffenstillstand 1918
+```
+
+| Field | Meaning |
+|---|---|
+| `language` | BCP 47 tag, equals the file name. |
+| `countries.<CC>.holidays` | Holiday id → name. |
+
+Rules, all checked by the build: every country and id must exist; a translation may not name a holiday in a local language of its country (that name belongs in `rules.yaml`), nor repeat a name `rules.yaml` has. There is no `en.yaml`: English is required in every rule file. The build adds the translations to the holiday's `names`, after the names of `rules.yaml`, in alphabetical order of the language. Which names were written by a person from a source and which are machine-written is in docs/coverage.md.
+
 ## Output: year files
 
 `json/<cc>/<year>.json`, schema `schema/year.schema.json`. Both runtimes return this exact document from `year()`, byte for byte when encoded.
@@ -355,7 +376,7 @@ Each autonomous community chooses some days each year, and moves Sunday holidays
     {
       "date": "2026-05-01",
       "id": "ch.labour-day",
-      "name": {"en": "Labour Day", "de": "Tag der Arbeit", "fr": "Fête du travail", "it": "Festa del lavoro"},
+      "name": {"en": "Labour Day", "de": "Tag der Arbeit", "fr": "Fête du travail", "it": "Festa del lavoro", "rm": "Di da la lavur", "es": "Fiesta del Trabajo", "…": "…"},
       "type": "public",
       "startTime": "12:00",
       "substituteFor": null,

@@ -12,8 +12,6 @@
 # same day, gives each employee a compensatory day off within three months.
 # The employer and employee choose the day, so no substitute is modelled.
 code: LU
-names: {lb: Lëtzebuerg, fr: Luxembourg, de: Luxemburg, en: Luxembourg}
-languages: [lb, fr, de]
 regions: []
 sources:
   lu-code-du-travail:

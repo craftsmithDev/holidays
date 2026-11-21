@@ -1,0 +1,350 @@
+# nl: holiday names for countries where nl is not a local language. Written by
+# Claude and not yet reviewed (docs/coverage.md); edit by hand.
+language: nl
+countries:
+  AD:
+    holidays:
+      ad.new-year: Nieuwjaarsdag
+      ad.epiphany: Driekoningen
+      ad.carnival: Carnaval
+      ad.constitution-day: Dag van de Grondwet
+      ad.good-friday: Goede Vrijdag
+      ad.easter-monday: Paasmaandag
+      ad.labour-day: Dag van de Arbeid
+      ad.whit-monday: Pinkstermaandag
+      ad.assumption: Maria-Tenhemelopneming
+      ad.meritxell: Onze-Lieve-Vrouw van Meritxell
+      ad.all-saints: Allerheiligen
+      ad.immaculate-conception: Onbevlekte Ontvangenis
+      ad.christmas: Kerstmis
+      ad.saint-stephen: Sint-Stefanus
+  AT:
+    holidays:
+      at.new-year: Nieuwjaarsdag
+      at.epiphany: Driekoningen
+      at.saint-joseph: Sint-Jozef
+      at.good-friday: Goede Vrijdag
+      at.easter-monday: Paasmaandag
+      at.labour-day: Dag van de Arbeid
+      at.saint-florian: Sint-Florianus
+      at.ascension: Hemelvaartsdag
+      at.whit-monday: Pinkstermaandag
+      at.corpus-christi: Sacramentsdag
+      at.assumption: Maria-Tenhemelopneming
+      at.saint-rupert: Sint-Rupert
+      at.plebiscite-day: Dag van het Karinthische referendum
+      at.national-day: Nationale feestdag
+      at.all-saints: Allerheiligen
+      at.saint-martin: Sint-Maarten
+      at.saint-leopold: Sint-Leopold
+      at.immaculate-conception: Onbevlekte Ontvangenis
+      at.christmas-eve: Kerstavond
+      at.christmas: Kerstmis
+      at.saint-stephen: Sint-Stefanus
+      at.new-years-eve: Oudejaarsdag
+  CH:
+    holidays:
+      ch.new-year: Nieuwjaarsdag
+      ch.berchtold: Berchtoldsdag
+      ch.epiphany: Driekoningen
+      ch.republic-day: Dag van de Republiek
+      ch.saint-joseph: Sint-Jozef
+      ch.good-friday: Goede Vrijdag
+      ch.easter-monday: Paasmaandag
+      ch.naefelser-fahrt: Bedevaart van Näfels
+      ch.labour-day: Dag van de Arbeid
+      ch.ascension: Hemelvaartsdag
+      ch.whit-monday: Pinkstermaandag
+      ch.corpus-christi: Sacramentsdag
+      ch.jura-independence: Onafhankelijkheidsdag van de Jura
+      ch.peter-and-paul: Sint-Petrus en Sint-Paulus
+      ch.national-day: Zwitserse nationale feestdag
+      ch.assumption: Maria-Tenhemelopneming
+      ch.jeune-genevois: Geneefse vastendag
+      ch.federal-fast-monday: Maandag na de Federale Biddag
+      ch.saint-maurice: Sint-Mauritius
+      ch.bruder-klaus: Heilige Nicolaas van Flüe
+      ch.all-saints: Allerheiligen
+      ch.immaculate-conception: Onbevlekte Ontvangenis
+      ch.christmas: Kerstmis
+      ch.saint-stephen: Sint-Stefanus
+      ch.restoration: Herstel van de Republiek
+  DE:
+    holidays:
+      de.new-year: Nieuwjaarsdag
+      de.epiphany: Driekoningen
+      de.womens-day: Internationale Vrouwendag
+      de.good-friday: Goede Vrijdag
+      de.easter-monday: Paasmaandag
+      de.labour-day: Dag van de Arbeid
+      de.liberation-day: Bevrijdingsdag
+      de.ascension: Hemelvaartsdag
+      de.whit-monday: Pinkstermaandag
+      de.corpus-christi: Sacramentsdag
+      de.uprising-anniversary: 75e verjaardag van de opstand van 17 juni 1953
+      de.augsburg-peace-festival: Augsburgs Vredesfeest
+      de.assumption: Maria-Tenhemelopneming
+      de.world-childrens-day: Wereldkinderdag
+      de.national-day: Dag van de Duitse Eenheid
+      de.reformation-day: Hervormingsdag
+      de.all-saints: Allerheiligen
+      de.repentance-day: Boete- en Biddag
+      de.christmas-eve: Kerstavond
+      de.christmas: Kerstmis
+      de.saint-stephen: Tweede Kerstdag
+      de.new-years-eve: Oudejaarsdag
+  ES:
+    holidays:
+      es.new-year: Nieuwjaarsdag
+      es.epiphany: Driekoningen
+      es.ceuta-convivencia-day: Dag van het samenleven
+      es.island-tenerife: 'Eilandfeestdag: Tenerife'
+      es.shrove-tuesday: Carnavalsdinsdag
+      es.andalusia-day: Dag van Andalusië
+      es.balearic-islands-day: Dag van de Balearen
+      es.melilla-statute-day: Dag van het autonomiestatuut van Melilla
+      es.fallas-monday: Fallas-maandag
+      es.saint-joseph: Sint-Jozef
+      es.maundy-thursday: Witte Donderdag
+      es.good-friday: Goede Vrijdag
+      es.easter-monday: Paasmaandag
+      es.aragon-day: Sint-Joris, Dag van Aragón
+      es.castile-leon-day: Dag van Castilië en León
+      es.labour-day: Dag van de Arbeid
+      es.madrid-day: Dag van de Gemeenschap van Madrid
+      es.eid-al-fitr: Suikerfeest
+      es.galician-literature-day: Dag van de Galicische letteren
+      es.whit-monday: Pinkstermaandag
+      es.canary-islands-day: Dag van de Canarische Eilanden
+      es.castile-la-mancha-day: Dag van Castilië-La Mancha
+      es.corpus-christi: Sacramentsdag
+      es.murcia-day: Dag van de Regio Murcia
+      es.la-rioja-day: Dag van La Rioja
+      es.aran-day: Feest van Aran
+      es.saint-john: Sint-Jan
+      es.saint-james: Sint-Jacobus
+      es.cantabria-institutions-day: Dag van de instellingen van Cantabrië
+      es.our-lady-of-africa: Onze-Lieve-Vrouw van Afrika
+      es.island-la-palma: 'Eilandfeestdag: La Palma'
+      es.assumption: Maria-Tenhemelopneming
+      es.ceuta-day: Dag van Ceuta
+      es.circumnavigation-500: 500e verjaardag van de eerste reis rond de wereld
+      es.asturias-day: Dag van Asturië
+      es.extremadura-day: Dag van Extremadura
+      es.island-gran-canaria: 'Eilandfeestdag: Gran Canaria'
+      es.catalonia-national-day: Nationale feestdag van Catalonië
+      es.bien-aparecida: Onze-Lieve-Vrouw van Bien Aparecida
+      es.island-lanzarote: 'Eilandfeestdag: Lanzarote'
+      es.island-fuerteventura: 'Eilandfeestdag: Fuerteventura'
+      es.island-el-hierro: 'Eilandfeestdag: El Hierro'
+      es.basque-government-anniversary: Verjaardag van de eerste Baskische regering
+      es.valencian-community-day: Dag van de Valenciaanse Gemeenschap
+      es.island-la-gomera: 'Eilandfeestdag: La Gomera'
+      es.national-day: Nationale feestdag van Spanje
+      es.basque-country-day: Dag van Baskenland
+      es.all-saints: Allerheiligen
+      es.eid-al-adha: Offerfeest
+      es.constitution-day: Dag van de Grondwet
+      es.immaculate-conception: Onbevlekte Ontvangenis
+      es.christmas: Kerstmis
+      es.saint-stephen: Sint-Stefanus
+  FR:
+    holidays:
+      fr.new-year: Nieuwjaarsdag
+      fr.good-friday: Goede Vrijdag
+      fr.easter-monday: Paasmaandag
+      fr.abolition-of-slavery: Herdenking van de afschaffing van de slavernij
+      fr.labour-day: Dag van de Arbeid
+      fr.victory-day: Dag van de Overwinning in Europa
+      fr.ascension: Hemelvaartsdag
+      fr.whit-monday: Pinkstermaandag
+      fr.national-day: Nationale feestdag
+      fr.assumption: Maria-Tenhemelopneming
+      fr.all-saints: Allerheiligen
+      fr.armistice-day: Wapenstilstand 1918
+      fr.christmas: Kerstmis
+      fr.saint-stephen: Sint-Stefanus
+  GB:
+    holidays:
+      gb.new-year: Nieuwjaarsdag
+      gb.second-january: 2 januari
+      gb.saint-patrick: Sint-Patricksdag
+      gb.good-friday: Goede Vrijdag
+      gb.easter-monday: Paasmaandag
+      gb.royal-wedding: Koninklijke bruiloft
+      gb.early-may: Feestdag begin mei
+      gb.coronation: Feestdag voor de kroning van koning Charles III
+      gb.spring-bank: Lentefeestdag
+      gb.golden-jubilee: Gouden jubileum
+      gb.diamond-jubilee: Diamanten jubileum van de koningin
+      gb.platinum-jubilee: Feestdag voor het platina jubileum
+      gb.world-cup: Feestdag voor het wereldkampioenschap
+      gb.battle-of-the-boyne: Slag aan de Boyne (Orangemen’s Day)
+      gb.summer-bank: Zomerfeestdag
+      gb.state-funeral: Feestdag voor de staatsbegrafenis van koningin Elizabeth II
+      gb.saint-andrew: Sint-Andreasdag
+      gb.christmas: Kerstmis
+      gb.boxing-day: Boxing Day
+  IE:
+    holidays:
+      ie.new-year: Nieuwjaarsdag
+      ie.saint-brigid: Sint-Brigida
+      ie.saint-patrick: Sint-Patricksdag
+      ie.covid-commemoration: Extra feestdag
+      ie.easter-monday: Paasmaandag
+      ie.may-bank-holiday: Eerste maandag van mei
+      ie.june-bank-holiday: Eerste maandag van juni
+      ie.august-bank-holiday: Eerste maandag van augustus
+      ie.national-day-of-mourning: Nationale dag van rouw
+      ie.october-bank-holiday: Laatste maandag van oktober
+      ie.christmas: Kerstmis
+      ie.saint-stephen: Sint-Stefanus
+  IT:
+    holidays:
+      it.new-year: Nieuwjaarsdag
+      it.epiphany: Driekoningen
+      it.unification-150: 150e verjaardag van de eenwording van Italië
+      it.easter-monday: Paasmaandag
+      it.liberation-day: Bevrijdingsdag
+      it.labour-day: Dag van de Arbeid
+      it.whit-monday: Pinkstermaandag
+      it.national-day: Dag van de Republiek
+      it.assumption: Maria-Tenhemelopneming
+      it.saint-francis: Feest van Sint-Franciscus van Assisi
+      it.all-saints: Allerheiligen
+      it.immaculate-conception: Onbevlekte Ontvangenis
+      it.christmas: Kerstmis
+      it.saint-stephen: Sint-Stefanus
+  LI:
+    holidays:
+      li.new-year: Nieuwjaarsdag
+      li.berchtold: Berchtoldsdag
+      li.epiphany: Driekoningen
+      li.candlemas: Maria-Lichtmis
+      li.shrove-tuesday: Carnavalsdinsdag
+      li.saint-joseph: Sint-Jozef
+      li.good-friday: Goede Vrijdag
+      li.easter-monday: Paasmaandag
+      li.labour-day: Dag van de Arbeid
+      li.ascension: Hemelvaartsdag
+      li.whit-monday: Pinkstermaandag
+      li.corpus-christi: Sacramentsdag
+      li.national-day: Nationale feestdag (Maria-Tenhemelopneming)
+      li.nativity-of-mary: Maria-Geboorte
+      li.all-saints: Allerheiligen
+      li.immaculate-conception: Onbevlekte Ontvangenis
+      li.christmas-eve: Kerstavond
+      li.christmas: Kerstmis
+      li.saint-stephen: Sint-Stefanus
+      li.new-years-eve: Oudejaarsdag
+  LU:
+    holidays:
+      lu.new-year: Nieuwjaarsdag
+      lu.good-friday: Goede Vrijdag
+      lu.easter-monday: Paasmaandag
+      lu.labour-day: Dag van de Arbeid
+      lu.europe-day: Dag van Europa
+      lu.ascension: Hemelvaartsdag
+      lu.whit-monday: Pinkstermaandag
+      lu.national-day: Nationale feestdag
+      lu.assumption: Maria-Tenhemelopneming
+      lu.all-saints: Allerheiligen
+      lu.christmas-eve: Kerstavond
+      lu.christmas: Kerstmis
+      lu.saint-stephen: Tweede Kerstdag
+  MC:
+    holidays:
+      mc.new-year: Nieuwjaarsdag
+      mc.saint-devote: Sint-Devota
+      mc.easter-monday: Paasmaandag
+      mc.labour-day: Dag van de Arbeid
+      mc.ascension: Hemelvaartsdag
+      mc.whit-monday: Pinkstermaandag
+      mc.corpus-christi: Sacramentsdag
+      mc.assumption: Maria-Tenhemelopneming
+      mc.all-saints: Allerheiligen
+      mc.national-day: Nationale feestdag (Dag van de Vorst)
+      mc.immaculate-conception: Onbevlekte Ontvangenis
+      mc.christmas: Kerstmis
+  MT:
+    holidays:
+      mt.new-year: Nieuwjaarsdag
+      mt.saint-pauls-shipwreck: Feest van de schipbreuk van Sint-Paulus
+      mt.saint-joseph: Sint-Jozef
+      mt.freedom-day: Dag van de Vrijheid
+      mt.good-friday: Goede Vrijdag
+      mt.labour-day: Dag van de Arbeid
+      mt.sette-giugno: Sette Giugno
+      mt.saints-peter-and-paul: Sint-Petrus en Sint-Paulus
+      mt.assumption: Maria-Tenhemelopneming
+      mt.victory-day: Dag van de Overwinning
+      mt.independence-day: Onafhankelijkheidsdag
+      mt.immaculate-conception: Onbevlekte Ontvangenis
+      mt.republic-day: Dag van de Republiek
+      mt.christmas: Kerstmis
+  PT:
+    holidays:
+      pt.new-year: Nieuwjaarsdag
+      pt.shrove-tuesday: Carnaval
+      pt.good-friday: Goede Vrijdag
+      pt.madeira-autonomy-day: Dag van de Autonomie
+      pt.freedom-day: Dag van de Vrijheid
+      pt.labour-day: Dag van de Arbeid
+      pt.azores-day: Dag van de Azoren
+      pt.corpus-christi: Sacramentsdag
+      pt.national-day: Dag van Portugal
+      pt.madeira-day: Dag van Madeira
+      pt.assumption: Maria-Tenhemelopneming
+      pt.republic-day: Dag van de Republiek
+      pt.all-saints: Allerheiligen
+      pt.restoration-of-independence: Herstel van de onafhankelijkheid
+      pt.immaculate-conception: Onbevlekte Ontvangenis
+      pt.christmas: Kerstmis
+      pt.saint-stephen: Eerste dag van het octaaf van Kerstmis
+  SM:
+    holidays:
+      sm.new-year: Hoogfeest van Maria, Moeder van God
+      sm.epiphany: Driekoningen
+      sm.saint-agatha: Sint-Agatha
+      sm.arengo: Verjaardag van de Arengo
+      sm.captains-regent-april: Installatie van de Kapiteins-Regent
+      sm.easter-monday: Paasmaandag
+      sm.labour-day: Dag van de Arbeid
+      sm.corpus-christi: Sacramentsdag
+      sm.fall-of-fascism: Verjaardag van de val van het fascisme
+      sm.assumption: Maria-Tenhemelopneming
+      sm.national-day: Feest van Sint-Marinus, stichter van de Republiek
+      sm.captains-regent-october: Installatie van de Kapiteins-Regent
+      sm.all-saints: Allerheiligen
+      sm.all-souls: Allerzielen
+      sm.immaculate-conception: Onbevlekte Ontvangenis
+      sm.christmas: Kerstmis
+      sm.saint-stephen: Sint-Stefanus
+  VA:
+    holidays:
+      va.new-year: Hoogfeest van Maria, Moeder van God
+      va.epiphany: Driekoningen
+      va.state-anniversary: Verjaardag van de stichting van Vaticaanstad
+      va.saint-joseph: Sint-Jozef
+      va.maundy-thursday: Witte Donderdag
+      va.good-friday: Goede Vrijdag
+      va.holy-saturday: Stille Zaterdag
+      va.easter-monday: Paasmaandag
+      va.easter-tuesday: Paasdinsdag
+      va.saint-joseph-the-worker: Sint-Jozef Arbeider
+      va.papal-election-anniversary: Verjaardag van de pausverkiezing
+      va.ascension: Hemelvaartsdag
+      va.corpus-christi: Sacramentsdag
+      va.saints-peter-and-paul: Sint-Petrus en Sint-Paulus
+      va.assumption-eve: Vooravond van Maria-Tenhemelopneming
+      va.assumption: Maria-Tenhemelopneming
+      va.day-after-assumption: Dag na Maria-Tenhemelopneming
+      va.papal-name-day: Naamdag van de paus
+      va.all-saints: Allerheiligen
+      va.all-souls: Allerzielen
+      va.immaculate-conception: Onbevlekte Ontvangenis
+      va.christmas-eve: Kerstavond
+      va.christmas: Kerstmis
+      va.saint-stephen: Sint-Stefanus
+      va.saint-john: Sint-Jan de Apostel
+      va.new-years-eve: Oudejaarsdag

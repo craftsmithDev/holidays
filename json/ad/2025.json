@@ -8,7 +8,17 @@
       "id": "ad.new-year",
       "name": {
         "en": "New Year’s Day",
-        "ca": "Cap d’Any"
+        "ca": "Cap d’Any",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "type": "public",
       "startTime": null,
@@ -28,7 +38,17 @@
       "id": "ad.epiphany",
       "name": {
         "en": "Epiphany",
-        "ca": "Reis"
+        "ca": "Reis",
+        "de": "Heilige Drei Könige",
+        "es": "Epifanía del Señor",
+        "fr": "Épiphanie",
+        "it": "Epifania",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "type": "public",
       "startTime": null,
@@ -48,7 +68,17 @@
       "id": "ad.carnival",
       "name": {
         "en": "Carnival",
-        "ca": "Carnaval"
+        "ca": "Carnaval",
+        "de": "Karneval",
+        "es": "Carnaval",
+        "fr": "Carnaval",
+        "it": "Carnevale",
+        "nl": "Carnaval",
+        "pl": "Karnawał",
+        "pt": "Carnaval",
+        "rm": "Tschaiver",
+        "ru": "Карнавал",
+        "tr": "Karnaval"
       },
       "type": "public",
       "startTime": null,
@@ -68,7 +98,17 @@
       "id": "ad.constitution-day",
       "name": {
         "en": "Constitution Day",
-        "ca": "Dia de la Constitució"
+        "ca": "Dia de la Constitució",
+        "de": "Tag der Verfassung",
+        "es": "Día de la Constitución",
+        "fr": "Jour de la Constitution",
+        "it": "Giorno della Costituzione",
+        "nl": "Dag van de Grondwet",
+        "pl": "Dzień Konstytucji",
+        "pt": "Dia da Constituição",
+        "rm": "Di da la Constituziun",
+        "ru": "День Конституции",
+        "tr": "Anayasa Günü"
       },
       "type": "public",
       "startTime": null,
@@ -88,7 +128,17 @@
       "id": "ad.good-friday",
       "name": {
         "en": "Good Friday",
-        "ca": "Divendres Sant"
+        "ca": "Divendres Sant",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "type": "public",
       "startTime": null,
@@ -108,7 +158,17 @@
       "id": "ad.easter-monday",
       "name": {
         "en": "Easter Monday",
-        "ca": "Dilluns de Pasqua"
+        "ca": "Dilluns de Pasqua",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -128,7 +188,17 @@
       "id": "ad.labour-day",
       "name": {
         "en": "Labour Day",
-        "ca": "Festa del treball"
+        "ca": "Festa del treball",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "type": "public",
       "startTime": null,
@@ -148,7 +218,17 @@
       "id": "ad.whit-monday",
       "name": {
         "en": "Whit Monday",
-        "ca": "Dilluns de Pentecosta"
+        "ca": "Dilluns de Pentecosta",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -168,7 +248,17 @@
       "id": "ad.assumption",
       "name": {
         "en": "Assumption Day",
-        "ca": "L’Assumpció"
+        "ca": "L’Assumpció",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "type": "public",
       "startTime": null,
@@ -188,7 +278,17 @@
       "id": "ad.meritxell",
       "name": {
         "en": "Our Lady of Meritxell",
-        "ca": "Nostra Senyora de Meritxell"
+        "ca": "Nostra Senyora de Meritxell",
+        "de": "Unsere Liebe Frau von Meritxell",
+        "es": "Nuestra Señora de Meritxell",
+        "fr": "Notre-Dame de Meritxell",
+        "it": "Nostra Signora di Meritxell",
+        "nl": "Onze-Lieve-Vrouw van Meritxell",
+        "pl": "Matka Boża z Meritxell",
+        "pt": "Nossa Senhora de Meritxell",
+        "rm": "Nossadunna da Meritxell",
+        "ru": "Богоматерь Меричельская",
+        "tr": "Meritxell Meryem Ana Günü"
       },
       "type": "public",
       "startTime": null,
@@ -208,7 +308,17 @@
       "id": "ad.all-saints",
       "name": {
         "en": "All Saints’ Day",
-        "ca": "Tots Sants"
+        "ca": "Tots Sants",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "type": "public",
       "startTime": null,
@@ -228,7 +338,17 @@
       "id": "ad.immaculate-conception",
       "name": {
         "en": "Immaculate Conception",
-        "ca": "Immaculada Concepció"
+        "ca": "Immaculada Concepció",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "type": "public",
       "startTime": null,
@@ -248,7 +368,17 @@
       "id": "ad.christmas",
       "name": {
         "en": "Christmas Day",
-        "ca": "Nadal"
+        "ca": "Nadal",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "type": "public",
       "startTime": null,
@@ -268,7 +398,17 @@
       "id": "ad.saint-stephen",
       "name": {
         "en": "Saint Stephen’s Day",
-        "ca": "Sant Esteve"
+        "ca": "Sant Esteve",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "type": "public",
       "startTime": null,

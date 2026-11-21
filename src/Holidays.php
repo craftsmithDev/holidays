@@ -60,6 +60,23 @@ final class Holidays
     }
 
     /**
+     * The name of a holiday in a language: the exact tag (de-CH; _ is read as
+     * -), then its base language (de), then English. Null for an unknown id.
+     */
+    public function name(string $id, string $language): ?string
+    {
+        $text = strtolower($id);
+        $code = strtoupper(explode('.', $text)[0]);
+        foreach ($this->rules[$code]['holidays'] ?? [] as $holiday) {
+            if ($holiday['id'] === $text) {
+                return self::pick($holiday['names'], $language);
+            }
+        }
+
+        return null;
+    }
+
+    /**
      * The full year document (identical to json/<cc>/<year>.json).
      *
      * @return array<string, mixed>
@@ -162,6 +179,22 @@ final class Holidays
             'languages' => $data['languages'],
             'regions' => array_map(fn(array $r) => ['code' => $r['code'], 'names' => $r['names']], $data['regions']),
         ];
+    }
+
+    /**
+     * A name by language tag, then base language, then English.
+     *
+     * @param array<string, string> $names
+     */
+    private static function pick(array $names, string $language): string
+    {
+        $tag = str_replace('_', '-', $language);
+        if (array_key_exists($tag, $names)) {
+            return $names[$tag];
+        }
+        $base = strtolower(explode('-', $tag)[0]);
+
+        return array_key_exists($base, $names) ? $names[$base] : $names['en'];
     }
 
     /**

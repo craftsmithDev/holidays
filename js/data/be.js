@@ -3,10 +3,17 @@ export default {
   "format": 1,
   "code": "BE",
   "names": {
+    "en": "Belgium",
     "nl": "België",
     "fr": "Belgique",
     "de": "Belgien",
-    "en": "Belgium"
+    "es": "Bélgica",
+    "it": "Belgio",
+    "pl": "Belgia",
+    "pt": "Bélgica",
+    "rm": "Belgia",
+    "ru": "Бельгия",
+    "tr": "Belçika"
   },
   "languages": [
     "nl",
@@ -17,28 +24,46 @@ export default {
     {
       "code": "BE-BRU",
       "names": {
-        "nl": "Brussels Hoofdstedelijk Gewest",
-        "fr": "Région de Bruxelles-Capitale",
-        "de": "Region Brüssel-Hauptstadt",
-        "en": "Brussels-Capital Region"
+        "en": "Brussels",
+        "nl": "Brussel",
+        "fr": "Bruxelles-Capitale",
+        "de": "Brüssel",
+        "es": "Bruselas-Capital",
+        "it": "Bruxelles-Capitale",
+        "pl": "Stołeczny Brukseli",
+        "pt": "Bruxelas-Capital",
+        "ru": "Брюссельский столичный регион",
+        "tr": "Brüksel Başkent"
       }
     },
     {
       "code": "BE-VLG",
       "names": {
-        "nl": "Vlaams Gewest",
-        "fr": "Région flamande",
-        "de": "Flämische Region",
-        "en": "Flemish Region"
+        "en": "Flanders",
+        "nl": "Vlaanderen",
+        "fr": "Flandre",
+        "de": "Flandern",
+        "es": "Flamenca",
+        "it": "Fiandre",
+        "pl": "Flamandzki",
+        "pt": "Flandres",
+        "ru": "Фламандский регион",
+        "tr": "Flaman"
       }
     },
     {
       "code": "BE-WAL",
       "names": {
-        "nl": "Waals Gewest",
-        "fr": "Région wallonne",
-        "de": "Wallonische Region",
-        "en": "Walloon Region"
+        "en": "Wallonia",
+        "nl": "Wallonië",
+        "fr": "Wallonie",
+        "de": "Wallonien",
+        "es": "Valonia",
+        "it": "Vallonia",
+        "pl": "Walonia",
+        "pt": "Valônia",
+        "ru": "Валлония",
+        "tr": "Valonya"
       }
     }
   ],
@@ -99,7 +124,14 @@ export default {
         "en": "New Year’s Day",
         "nl": "Nieuwjaar",
         "fr": "Nouvel An",
-        "de": "Neujahr"
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "it": "Capodanno",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -124,7 +156,14 @@ export default {
         "en": "Easter Monday",
         "nl": "Paasmaandag",
         "fr": "Lundi de Pâques",
-        "de": "Ostermontag"
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "it": "Lunedì di Pasqua",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -148,7 +187,14 @@ export default {
         "en": "Labour Day",
         "nl": "Feest van de Arbeid",
         "fr": "Fête du travail",
-        "de": "Tag der Arbeit"
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "it": "Festa del lavoro",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -173,7 +219,14 @@ export default {
         "en": "Ascension Day",
         "nl": "Hemelvaartsdag",
         "fr": "Ascension",
-        "de": "Christi Himmelfahrt"
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "it": "Ascensione",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -226,7 +279,14 @@ export default {
         "en": "Whit Monday",
         "nl": "Pinkstermaandag",
         "fr": "Lundi de Pentecôte",
-        "de": "Pfingstmontag"
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "it": "Lunedì di Pentecoste",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -250,7 +310,14 @@ export default {
         "en": "Day of the Flemish Community",
         "nl": "Feestdag van de Vlaamse Gemeenschap",
         "fr": "Fête de la Communauté flamande",
-        "de": "Festtag der Flämischen Gemeinschaft"
+        "de": "Festtag der Flämischen Gemeinschaft",
+        "es": "Fiesta de la Comunidad Flamenca",
+        "it": "Festa della Comunità fiamminga",
+        "pl": "Święto Wspólnoty Flamandzkiej",
+        "pt": "Dia da Comunidade Flamenga",
+        "rm": "Festa da la Communitad flama",
+        "ru": "День Фламандского сообщества",
+        "tr": "Flaman Topluluğu Günü"
       },
       "date": {
         "type": "fixed",
@@ -277,7 +344,14 @@ export default {
         "en": "Belgian National Day",
         "nl": "Nationale feestdag",
         "fr": "Fête nationale",
-        "de": "Nationalfeiertag"
+        "de": "Nationalfeiertag",
+        "es": "Fiesta Nacional de Bélgica",
+        "it": "Festa nazionale belga",
+        "pl": "Święto Narodowe Belgii",
+        "pt": "Dia Nacional da Bélgica",
+        "rm": "Festa naziunala da la Belgia",
+        "ru": "Национальный праздник Бельгии",
+        "tr": "Belçika Ulusal Günü"
       },
       "date": {
         "type": "fixed",
@@ -302,7 +376,14 @@ export default {
         "en": "Assumption Day",
         "nl": "Tenhemelopneming",
         "fr": "Assomption",
-        "de": "Mariä Himmelfahrt"
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "it": "Assunzione",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -327,7 +408,14 @@ export default {
         "en": "Day of the French Community",
         "nl": "Feestdag van de Franse Gemeenschap",
         "fr": "Fête de la Communauté française",
-        "de": "Festtag der Französischen Gemeinschaft"
+        "de": "Festtag der Französischen Gemeinschaft",
+        "es": "Fiesta de la Comunidad Francesa",
+        "it": "Festa della Comunità francese",
+        "pl": "Święto Wspólnoty Francuskiej",
+        "pt": "Dia da Comunidade Francesa",
+        "rm": "Festa da la Communitad franzosa",
+        "ru": "День Французского сообщества",
+        "tr": "Fransız Topluluğu Günü"
       },
       "date": {
         "type": "fixed",
@@ -354,7 +442,14 @@ export default {
         "en": "All Saints’ Day",
         "nl": "Allerheiligen",
         "fr": "Toussaint",
-        "de": "Allerheiligen"
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "it": "Ognissanti",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -379,7 +474,14 @@ export default {
         "en": "All Souls’ Day",
         "nl": "Allerzielen",
         "fr": "Jour des morts",
-        "de": "Allerseelen"
+        "de": "Allerseelen",
+        "es": "Día de los Fieles Difuntos",
+        "it": "Commemorazione dei defunti",
+        "pl": "Dzień Zaduszny",
+        "pt": "Dia de Finados",
+        "rm": "Di da las olmas",
+        "ru": "День поминовения усопших",
+        "tr": "Ölüleri Anma Günü"
       },
       "date": {
         "type": "fixed",
@@ -403,7 +505,14 @@ export default {
         "en": "Armistice Day",
         "nl": "Wapenstilstand",
         "fr": "Armistice",
-        "de": "Waffenstillstand"
+        "de": "Waffenstillstand",
+        "es": "Armisticio",
+        "it": "Armistizio",
+        "pl": "Rocznica rozejmu",
+        "pt": "Armistício",
+        "rm": "Armistizi",
+        "ru": "День перемирия",
+        "tr": "Ateşkes Günü"
       },
       "date": {
         "type": "fixed",
@@ -428,7 +537,14 @@ export default {
         "en": "King’s Feast",
         "nl": "Koningsdag",
         "fr": "Fête du Roi",
-        "de": "Festtag des Königs"
+        "de": "Festtag des Königs",
+        "es": "Fiesta del Rey",
+        "it": "Festa del Re",
+        "pl": "Święto Króla",
+        "pt": "Festa do Rei",
+        "rm": "Festa dal retg",
+        "ru": "Праздник короля",
+        "tr": "Kral Bayramı"
       },
       "date": {
         "type": "fixed",
@@ -452,7 +568,14 @@ export default {
         "en": "Day of the German-speaking Community",
         "nl": "Feestdag van de Duitstalige Gemeenschap",
         "fr": "Fête de la Communauté germanophone",
-        "de": "Tag der Deutschsprachigen Gemeinschaft"
+        "de": "Tag der Deutschsprachigen Gemeinschaft",
+        "es": "Fiesta de la Comunidad Germanófona",
+        "it": "Festa della Comunità germanofona",
+        "pl": "Święto Wspólnoty Niemieckojęzycznej",
+        "pt": "Dia da Comunidade Germanófona",
+        "rm": "Festa da la Communitad da lingua tudestga",
+        "ru": "День Немецкоязычного сообщества",
+        "tr": "Almanca Konuşan Topluluk Günü"
       },
       "date": {
         "type": "fixed",
@@ -478,7 +601,14 @@ export default {
         "en": "Christmas Day",
         "nl": "Kerstmis",
         "fr": "Noël",
-        "de": "Weihnachten"
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "it": "Natale",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -503,7 +633,14 @@ export default {
         "en": "Second Day of Christmas",
         "nl": "Tweede Kerstdag",
         "fr": "Second jour de Noël",
-        "de": "Zweiter Weihnachtstag"
+        "de": "Zweiter Weihnachtstag",
+        "es": "Segundo día de Navidad",
+        "it": "Secondo giorno di Natale",
+        "pl": "Drugi dzień Bożego Narodzenia",
+        "pt": "Segundo dia de Natal",
+        "rm": "Segund di da Nadal",
+        "ru": "Второй день Рождества",
+        "tr": "Noel’in İkinci Günü"
       },
       "date": {
         "type": "fixed",

@@ -1,8 +1,9 @@
 <?php
 
 // Writes the year files and the index with the PHP runtime, in the layout
-// of json/. scripts/dump.mjs does the same with the JS runtime; the
-// cross-runtime test (tests/php/CrossRuntimeTest.php) compares both.
+// of json/, and names.json (see scripts/dump.mjs). scripts/dump.mjs does the
+// same with the JS runtime; the cross-runtime test
+// (tests/php/CrossRuntimeTest.php) compares both.
 //   php scripts/dump.php <out-dir> [rules-dir] [from] [to]
 
 declare(strict_types=1);
@@ -38,4 +39,17 @@ file_put_contents($out . '/index.json', Engine::encode([
     'years' => ['from' => $from, 'to' => $to],
     'countries' => $holidays->countries(),
 ]));
-echo "Wrote $files year files to $out\n";
+$names = [];
+foreach ($holidays->countries() as $country) {
+    $rules = json_decode((string)file_get_contents($rulesDir . '/' . strtolower($country['code']) . '.json'), true, 512, JSON_THROW_ON_ERROR);
+    foreach ($rules['holidays'] as $holiday) {
+        $tags = array_values(array_unique(['de-CH', 'pt_BR', 'zz', ...array_map('strval', array_keys($holiday['names']))]));
+        sort($tags, SORT_STRING);
+        foreach ($tags as $tag) {
+            $names[$holiday['id']][$tag] = $holidays->name($holiday['id'], $tag);
+        }
+    }
+}
+$names['zz.unknown'] = ['en' => $holidays->name('zz.unknown', 'en')];
+file_put_contents($out . '/names.json', Engine::encode($names));
+echo "Wrote $files year files and the names to $out\n";

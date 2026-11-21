@@ -13,6 +13,7 @@ const instance = () => (shared ??= new Holidays());
 // arguments as the methods of Holidays.
 export const countries = () => instance().countries();
 export const regions = (country) => instance().regions(country);
+export const name = (id, language) => instance().name(id, language);
 export const year = (country, y) => instance().year(country, y);
 export const holidays = (country, y, region = null, types = null) => instance().holidays(country, y, region, types);
 export const isHoliday = (date, country, region = null, types = null) => instance().isHoliday(date, country, region, types);

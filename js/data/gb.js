@@ -3,7 +3,20 @@ export default {
   "format": 1,
   "code": "GB",
   "names": {
-    "en": "United Kingdom"
+    "en": "United Kingdom",
+    "cy": "Y Deyrnas Unedig",
+    "ga": "an Ríocht Aontaithe",
+    "gd": "An Rìoghachd Aonaichte",
+    "de": "Vereinigtes Königreich",
+    "es": "Reino Unido",
+    "fr": "Royaume-Uni",
+    "it": "Regno Unito",
+    "nl": "Verenigd Koninkrijk",
+    "pl": "Wielka Brytania",
+    "pt": "Reino Unido",
+    "rm": "Reginavel Unì",
+    "ru": "Великобритания",
+    "tr": "Birleşik Krallık"
   },
   "languages": [
     "en"
@@ -13,28 +26,75 @@ export default {
       "code": "GB-ENG",
       "names": {
         "en": "England",
-        "cy": "Lloegr"
+        "cy": "Lloegr",
+        "ga": "Sasana",
+        "gd": "Sasainn",
+        "de": "England",
+        "es": "Inglaterra",
+        "fr": "Angleterre",
+        "it": "Inghilterra",
+        "nl": "Engeland",
+        "pl": "Anglia",
+        "pt": "Inglaterra",
+        "rm": "Engalterra",
+        "ru": "Англия",
+        "tr": "İngiltere"
       }
     },
     {
       "code": "GB-NIR",
       "names": {
         "en": "Northern Ireland",
-        "cy": "Gogledd Iwerddon"
+        "cy": "Gogledd Iwerddon",
+        "ga": "Tuaisceart Éireann",
+        "de": "Nordirland",
+        "es": "Irlanda del Norte",
+        "fr": "Irlande du Nord",
+        "it": "Irlanda del Nord",
+        "nl": "Noord-Ierland",
+        "pl": "Irlandia Północna",
+        "pt": "Irlanda do Norte",
+        "rm": "Irlanda dal Nord",
+        "ru": "Северная Ирландия",
+        "tr": "Kuzey İrlanda"
       }
     },
     {
       "code": "GB-SCT",
       "names": {
         "en": "Scotland",
-        "cy": "Yr Alban"
+        "cy": "Yr Alban",
+        "ga": "Albain",
+        "gd": "Alba",
+        "de": "Schottland",
+        "es": "Escocia",
+        "fr": "Écosse",
+        "it": "Scozia",
+        "nl": "Schotland",
+        "pl": "Szkocja",
+        "pt": "Escócia",
+        "rm": "Scozia",
+        "ru": "Шотландия",
+        "tr": "İskoçya"
       }
     },
     {
       "code": "GB-WLS",
       "names": {
         "en": "Wales",
-        "cy": "Cymru"
+        "cy": "Cymru",
+        "ga": "an Bhreatain Bheag",
+        "gd": "A’ Chuimrigh",
+        "de": "Wales",
+        "es": "Gales",
+        "fr": "Pays de Galles",
+        "it": "Galles",
+        "nl": "Wales",
+        "pl": "Walia",
+        "pt": "País de Gales",
+        "rm": "Valisa",
+        "ru": "Уэльс",
+        "tr": "Galler"
       }
     }
   ],
@@ -98,7 +158,17 @@ export default {
       "id": "gb.new-year",
       "names": {
         "en": "New Year’s Day",
-        "cy": "Dydd Calan"
+        "cy": "Dydd Calan",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -133,7 +203,17 @@ export default {
       "id": "gb.second-january",
       "names": {
         "en": "2nd January",
-        "cy": "2il o Ionawr"
+        "cy": "2il o Ionawr",
+        "de": "2. Januar",
+        "es": "2 de enero",
+        "fr": "2 janvier",
+        "it": "2 gennaio",
+        "nl": "2 januari",
+        "pl": "2 stycznia",
+        "pt": "2 de janeiro",
+        "rm": "2 da schaner",
+        "ru": "2 января",
+        "tr": "2 Ocak"
       },
       "date": {
         "type": "fixed",
@@ -169,7 +249,17 @@ export default {
       "id": "gb.saint-patrick",
       "names": {
         "en": "St Patrick’s Day",
-        "cy": "Gŵyl Sant Padrig"
+        "cy": "Gŵyl Sant Padrig",
+        "de": "Sankt-Patricks-Tag",
+        "es": "Día de San Patricio",
+        "fr": "Saint-Patrick",
+        "it": "San Patrizio",
+        "nl": "Sint-Patricksdag",
+        "pl": "Dzień Świętego Patryka",
+        "pt": "Dia de São Patrício",
+        "rm": "Son Patrizi",
+        "ru": "День святого Патрика",
+        "tr": "Aziz Patrick Günü"
       },
       "date": {
         "type": "fixed",
@@ -205,7 +295,17 @@ export default {
       "id": "gb.good-friday",
       "names": {
         "en": "Good Friday",
-        "cy": "Gwener y Groglith"
+        "cy": "Gwener y Groglith",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -227,7 +327,17 @@ export default {
       "id": "gb.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "cy": "Llun y Pasg"
+        "cy": "Llun y Pasg",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -250,7 +360,17 @@ export default {
     {
       "id": "gb.royal-wedding",
       "names": {
-        "en": "Royal Wedding"
+        "en": "Royal Wedding",
+        "de": "Königliche Hochzeit",
+        "es": "Boda real",
+        "fr": "Mariage royal",
+        "it": "Matrimonio reale",
+        "nl": "Koninklijke bruiloft",
+        "pl": "Królewski ślub",
+        "pt": "Casamento real",
+        "rm": "Nozzas reginalas",
+        "ru": "Королевская свадьба",
+        "tr": "Kraliyet Düğünü"
       },
       "date": {
         "type": "list",
@@ -273,7 +393,17 @@ export default {
       "id": "gb.early-may",
       "names": {
         "en": "Early May bank holiday",
-        "cy": "Gŵyl banc dechrau Mai"
+        "cy": "Gŵyl banc dechrau Mai",
+        "de": "Feiertag Anfang Mai",
+        "es": "Festivo de principios de mayo",
+        "fr": "Jour férié de début mai",
+        "it": "Festività di inizio maggio",
+        "nl": "Feestdag begin mei",
+        "pl": "Majowy dzień wolny od pracy",
+        "pt": "Feriado do início de maio",
+        "rm": "Di da festa al cumenzament da matg",
+        "ru": "Майский праздник (начало мая)",
+        "tr": "Mayıs başı resmî tatili"
       },
       "date": [
         {
@@ -315,7 +445,17 @@ export default {
       "id": "gb.coronation",
       "names": {
         "en": "Bank holiday for the coronation of King Charles III",
-        "cy": "Gŵyl y banc ar gyfer coroni Brenin Siarl III"
+        "cy": "Gŵyl y banc ar gyfer coroni Brenin Siarl III",
+        "de": "Feiertag zur Krönung von König Charles III.",
+        "es": "Festivo por la coronación del rey Carlos III",
+        "fr": "Jour férié pour le couronnement du roi Charles III",
+        "it": "Festività per l’incoronazione di re Carlo III",
+        "nl": "Feestdag voor de kroning van koning Charles III",
+        "pl": "Dzień wolny z okazji koronacji króla Karola III",
+        "pt": "Feriado da coroação do rei Carlos III",
+        "rm": "Di da festa per la curunaziun dal retg Charles III",
+        "ru": "Выходной день в честь коронации короля Карла III",
+        "tr": "Kral III. Charles’ın taç giyme tatili"
       },
       "date": {
         "type": "list",
@@ -337,7 +477,17 @@ export default {
       "id": "gb.spring-bank",
       "names": {
         "en": "Spring bank holiday",
-        "cy": "Gŵyl banc y gwanwyn"
+        "cy": "Gŵyl banc y gwanwyn",
+        "de": "Frühlingsfeiertag",
+        "es": "Festivo de primavera",
+        "fr": "Jour férié de printemps",
+        "it": "Festività di primavera",
+        "nl": "Lentefeestdag",
+        "pl": "Wiosenny dzień wolny od pracy",
+        "pt": "Feriado da primavera",
+        "rm": "Di da festa da primavaira",
+        "ru": "Весенний праздник (конец мая)",
+        "tr": "Bahar resmî tatili"
       },
       "date": [
         {
@@ -412,7 +562,17 @@ export default {
     {
       "id": "gb.golden-jubilee",
       "names": {
-        "en": "Golden Jubilee"
+        "en": "Golden Jubilee",
+        "de": "Goldenes Thronjubiläum",
+        "es": "Jubileo de Oro",
+        "fr": "Jubilé d’or",
+        "it": "Giubileo d’oro",
+        "nl": "Gouden jubileum",
+        "pl": "Złoty Jubileusz",
+        "pt": "Jubileu de Ouro",
+        "rm": "Giubileum d’aur",
+        "ru": "Золотой юбилей",
+        "tr": "Altın Jübile"
       },
       "date": {
         "type": "list",
@@ -435,7 +595,17 @@ export default {
       "id": "gb.diamond-jubilee",
       "names": {
         "en": "Queen’s Diamond Jubilee",
-        "cy": "Jiwbilî Diemwnt y Frenhines"
+        "cy": "Jiwbilî Diemwnt y Frenhines",
+        "de": "Diamantenes Thronjubiläum der Königin",
+        "es": "Jubileo de Diamante de la reina",
+        "fr": "Jubilé de diamant de la reine",
+        "it": "Giubileo di diamante della regina",
+        "nl": "Diamanten jubileum van de koningin",
+        "pl": "Diamentowy Jubileusz królowej",
+        "pt": "Jubileu de Diamante da rainha",
+        "rm": "Giubileum da diamant da la regina",
+        "ru": "Бриллиантовый юбилей королевы",
+        "tr": "Kraliçe’nin Elmas Jübilesi"
       },
       "date": {
         "type": "list",
@@ -458,7 +628,17 @@ export default {
       "id": "gb.platinum-jubilee",
       "names": {
         "en": "Platinum Jubilee bank holiday",
-        "cy": "Gŵyl banc Jiwbilî Blatinwm"
+        "cy": "Gŵyl banc Jiwbilî Blatinwm",
+        "de": "Feiertag zum Platinjubiläum",
+        "es": "Festivo del Jubileo de Platino",
+        "fr": "Jour férié du jubilé de platine",
+        "it": "Festività per il Giubileo di platino",
+        "nl": "Feestdag voor het platina jubileum",
+        "pl": "Dzień wolny z okazji Platynowego Jubileuszu",
+        "pt": "Feriado do Jubileu de Platina",
+        "rm": "Di da festa dal giubileum da platin",
+        "ru": "Выходной день в честь платинового юбилея",
+        "tr": "Platin Jübile tatili"
       },
       "date": {
         "type": "list",
@@ -480,7 +660,17 @@ export default {
       "id": "gb.world-cup",
       "names": {
         "en": "World Cup bank holiday",
-        "cy": "Gŵyl y banc Cwpan y Byd"
+        "cy": "Gŵyl y banc Cwpan y Byd",
+        "de": "Feiertag zur Weltmeisterschaft",
+        "es": "Festivo de la Copa del Mundo",
+        "fr": "Jour férié de la Coupe du monde",
+        "it": "Festività per la Coppa del Mondo",
+        "nl": "Feestdag voor het wereldkampioenschap",
+        "pl": "Dzień wolny z okazji mistrzostw świata",
+        "pt": "Feriado do Campeonato do Mundo",
+        "rm": "Di da festa dal campiunadi mundial",
+        "ru": "Выходной день в честь чемпионата мира",
+        "tr": "Dünya Kupası tatili"
       },
       "date": {
         "type": "list",
@@ -506,7 +696,17 @@ export default {
       "id": "gb.battle-of-the-boyne",
       "names": {
         "en": "Battle of the Boyne (Orangemen’s Day)",
-        "cy": "Brwydr y Boyne (Dydd yr Orenwyr)"
+        "cy": "Brwydr y Boyne (Dydd yr Orenwyr)",
+        "de": "Schlacht am Boyne (Orangemen’s Day)",
+        "es": "Batalla del Boyne (Orangemen’s Day)",
+        "fr": "Bataille de la Boyne (Orangemen’s Day)",
+        "it": "Battaglia del Boyne (Orangemen’s Day)",
+        "nl": "Slag aan de Boyne (Orangemen’s Day)",
+        "pl": "Bitwa nad Boyne (Orangemen’s Day)",
+        "pt": "Batalha do Boyne (Orangemen’s Day)",
+        "rm": "Battaglia da la Boyne (Orangemen’s Day)",
+        "ru": "Битва на реке Бойн (День оранжистов)",
+        "tr": "Boyne Muharebesi (Orangemen’s Day)"
       },
       "date": {
         "type": "fixed",
@@ -543,7 +743,17 @@ export default {
       "id": "gb.summer-bank",
       "names": {
         "en": "Summer bank holiday",
-        "cy": "Gŵyl banc yr haf"
+        "cy": "Gŵyl banc yr haf",
+        "de": "Sommerfeiertag",
+        "es": "Festivo de verano",
+        "fr": "Jour férié d’été",
+        "it": "Festività d’estate",
+        "nl": "Zomerfeestdag",
+        "pl": "Letni dzień wolny od pracy",
+        "pt": "Feriado de verão",
+        "rm": "Di da festa da stad",
+        "ru": "Летний праздник (август)",
+        "tr": "Yaz resmî tatili"
       },
       "date": {
         "type": "nthWeekday",
@@ -587,7 +797,17 @@ export default {
       "id": "gb.state-funeral",
       "names": {
         "en": "Bank Holiday for the State Funeral of Queen Elizabeth II",
-        "cy": "Gŵyl y Banc ar gyfer Angladd Gwladol y Frenhines Elizabeth II"
+        "cy": "Gŵyl y Banc ar gyfer Angladd Gwladol y Frenhines Elizabeth II",
+        "de": "Feiertag zum Staatsbegräbnis von Königin Elisabeth II.",
+        "es": "Festivo por el funeral de Estado de la reina Isabel II",
+        "fr": "Jour férié pour les funérailles nationales de la reine Élisabeth II",
+        "it": "Festività per i funerali di Stato della regina Elisabetta II",
+        "nl": "Feestdag voor de staatsbegrafenis van koningin Elizabeth II",
+        "pl": "Dzień wolny z okazji pogrzebu państwowego królowej Elżbiety II",
+        "pt": "Feriado do funeral de Estado da rainha Isabel II",
+        "rm": "Di da festa per il funeral da stadi da la regina Elisabeth II",
+        "ru": "Выходной день в связи с государственными похоронами королевы Елизаветы II",
+        "tr": "Kraliçe II. Elizabeth’in devlet cenazesi tatili"
       },
       "date": {
         "type": "list",
@@ -609,7 +829,17 @@ export default {
       "id": "gb.saint-andrew",
       "names": {
         "en": "St Andrew’s Day",
-        "cy": "Gŵyl Andreas"
+        "cy": "Gŵyl Andreas",
+        "de": "Andreastag",
+        "es": "San Andrés",
+        "fr": "Saint-André",
+        "it": "Sant’Andrea",
+        "nl": "Sint-Andreasdag",
+        "pl": "Dzień Świętego Andrzeja",
+        "pt": "Dia de Santo André",
+        "rm": "Son Andreas",
+        "ru": "День святого Андрея",
+        "tr": "Aziz Andreas Günü"
       },
       "date": {
         "type": "fixed",
@@ -648,7 +878,17 @@ export default {
       "id": "gb.christmas",
       "names": {
         "en": "Christmas Day",
-        "cy": "Dydd Nadolig"
+        "cy": "Dydd Nadolig",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -683,7 +923,17 @@ export default {
       "id": "gb.boxing-day",
       "names": {
         "en": "Boxing Day",
-        "cy": "Dydd San Steffan"
+        "cy": "Dydd San Steffan",
+        "de": "Boxing Day",
+        "es": "Boxing Day",
+        "fr": "Boxing Day",
+        "it": "Boxing Day",
+        "nl": "Boxing Day",
+        "pl": "Boxing Day",
+        "pt": "Boxing Day",
+        "rm": "Boxing Day",
+        "ru": "День подарков",
+        "tr": "Boxing Day"
       },
       "date": {
         "type": "fixed",

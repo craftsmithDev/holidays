@@ -10,9 +10,11 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Cross-runtime test: the PHP runtime produces byte-identical JSON to the JS
- * runtime for every country and every year from 2000 to 2050. The JS side is
- * written to a temporary folder by scripts/dump.mjs (needs node); the
- * committed json/ files are checked as well.
+ * runtime for every country and every year from 2000 to 2050, and for name()
+ * of every holiday in every language of its data plus the fallbacks. The JS
+ * side is written to a temporary folder by scripts/dump.mjs (needs node), the
+ * names also by scripts/dump.php; the committed json/ files are checked as
+ * well.
  */
 final class CrossRuntimeTest extends TestCase
 {
@@ -28,6 +30,25 @@ final class CrossRuntimeTest extends TestCase
 
         $index = Engine::encode(['format' => Engine::FORMAT, 'years' => ['from' => self::FROM, 'to' => self::TO], 'countries' => $holidays->countries()]);
         self::assertSame((string)file_get_contents("$dir/index.json"), $index);
+    }
+
+    public function testNames(): void
+    {
+        $js = $this->dumpJs(Support::root() . '/src/data');
+        $php = sys_get_temp_dir() . '/holidays-php-' . bin2hex(random_bytes(6));
+        $command = sprintf('php %s %s %s %d %d 2>&1', escapeshellarg(Support::root() . '/scripts/dump.php'), escapeshellarg($php), escapeshellarg(Support::root() . '/src/data'), self::FROM, self::FROM);
+        exec($command, $output, $status);
+        self::assertSame(0, $status, "php scripts/dump.php failed:\n" . implode("\n", $output));
+        $text = (string)file_get_contents("$php/names.json");
+        array_map('unlink', glob("$php/*/*.json") ?: []);
+        array_map('rmdir', glob("$php/*", GLOB_ONLYDIR) ?: []);
+        array_map('unlink', glob("$php/*.json") ?: []);
+        @rmdir($php);
+
+        self::assertSame((string)file_get_contents("$js/names.json"), $text);
+        $names = json_decode($text, true, 512, JSON_THROW_ON_ERROR);
+        self::assertNull($names['zz.unknown']['en']);
+        self::assertGreaterThan(3000, array_sum(array_map('count', $names)));
     }
 
     public function testFixtures(): void

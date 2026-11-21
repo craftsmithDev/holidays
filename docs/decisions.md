@@ -46,9 +46,9 @@ A substitute day is a second entry with the same `id` and `substituteFor` set to
 
 A listed region beats `all`; two matches on the same level fail the build. File order would make a silent mistake possible (a second observance for a region that is never reached).
 
-## D12 Romansh names are not included yet
+## D12 Romansh is a language of Switzerland; its names are machine-written
 
-Romansh (`rm`) is a national language of Switzerland, but the ported dataset has no Romansh names and none were researched. CH lists `languages: [de, fr, it]`; adding `rm` later means adding a name to every CH holiday (the build enforces it).
+Romansh (`rm`) is a national language of Switzerland, and craftsmith/regions lists it for CH (owner decision AL-R6). Since the languages come from there (D16), CH has `languages: [de, fr, it, rm]`, and the build requires an `rm` name for every CH holiday. Those names are in `countries/ch/rules.yaml`. The ported dataset had no Romansh names and no official Romansh holiday list was found, so the 25 names were written by Claude and are marked as machine-written in docs/coverage.md, to be checked against a Romansh source. The alternative, `rm` only as a translation and CH without `rm`, would differ from craftsmith/regions in the one country where the owner decided for Romansh.
 
 ## D13 Liechtenstein: ArG Art. 18 for public, LLV calendar for observances
 
@@ -61,6 +61,24 @@ The 11 municipalities are the ISO 3166-2:LI subdivisions and are listed, so that
 ## D15 Generated files are committed
 
 `src/data/`, `js/data/`, `json/` and the compiled test fixtures are in git, so that jsDelivr can serve the year files straight from GitHub and the npm and Composer packages need no build step. Only the years 2025–2036 are committed as year files, to keep the repository small; the cross-runtime test still compares PHP and JS for 2000–2050, in a temporary folder. CI fails when the committed output differs from a fresh build.
+
+## D16 Country names, languages and region names come from craftsmith/regions
+
+One source per kind of data (owner concept V-R5, `stack/craft_plugins/visibility/docs/spec-regions-library.md`): a rule file keeps only the region codes its holidays use. The build reads the country name, the local languages and every region name from the compiled data of craftsmith/regions and writes them into `src/data/<cc>.json` and `js/data/<cc>.js` as before. The runtimes and the output files keep their shape and their format version, and both packages stay without runtime dependencies (D1). craftsmith/regions is a dev dependency only, today `file:../regions` (it is not published yet; `npm ci` needs the folder next to this one, and so does CI until the npm package exists). TODO before release: switch `@craftsmith/regions` to the published npm version.
+
+- **Region codes.** Every code in `regions` must exist in craftsmith/regions; the build fails otherwise. Holidays keeps its own choice of codes (D-fr-1, D-it-1: a subset, or a lower level such as IT-BZ).
+- **Names.** The output takes the full names map of craftsmith/regions: English, the local languages and its translations. 22 names in 1.0.0 carried a level word and change (CHANGELOG, craftsmith/regions D4 and D5): BE-BRU, BE-VLG, BE-WAL in nl, fr, de, en; ES-AS, ES-MC, ES-MD, ES-NC in es; IT-BZ and IT-TN in it and en; PT-20 and PT-30 in pt.
+- **Languages.** `languages` comes from craftsmith/regions for every country. It agreed with holidays 1.0.0 for 16 of the 18 countries. LU changes order (`fr, lb, de` instead of `lb, fr, de`; the order of the names in the output stays). CH gains `rm` (D12).
+- **Test fixtures and the template** use invented countries (XX, XY). Their names come from `tests/fixtures/regions.json`, which has the shape of the compiled regions data.
+- The rule files lose `names` and `languages` and region names. The compiled files and the output keep every field, so the format version stays 1: it describes what consumers read.
+
+## D17 Translations of holiday names, and one lookup for all languages
+
+Owner decision AL-R7. Names in the plugin languages (en, de, fr, it, es, nl, pl, pt, ru, tr, rm) that are not a local language of the country live in `translations/<lang>.yaml`, one file per language, in the shape of the craftsmith/regions translations (`countries.<CC>.holidays.<id>`). A translation may not name a holiday in a local language of its country, nor repeat a name `rules.yaml` has; the build fails otherwise. The build merges them into the `names` of every holiday, after the names of `rules.yaml`, in alphabetical order of the language, so `name` in the year files and in `holidays()` has every language. A test checks that every holiday has a name in each of the eleven languages.
+
+The names in the translation files were written by Claude, from the established name of the feast in that language where one exists (Christmas, Ascension, Corpus Christi) and as a faithful translation of the local name otherwise. None is invented: each translates a holiday of the rule files. They are marked as machine-written in docs/coverage.md until someone checks them. CONTRIBUTING.md still asks for official names in `rules.yaml`.
+
+`name(id, language)` in both runtimes returns the name in a language: the exact tag (`de-CH`; `_` is read as `-`), then its base language (`de`), then English; `null` for an unknown id. The brief asked for “translation file → country language → English”. Read as the place a name comes from, that is this lookup: a non-local language finds its name from the translation file, a local language from `rules.yaml`, and anything else falls back to English, as in craftsmith/regions (its D12). Falling back to the first local language (German for a Swiss holiday asked in Japanese) was the other reading; it would differ from craftsmith/regions and from the year files, where English is the one name every consumer can rely on.
 
 ## D-fr-1 France: only the subdivisions with their own holidays are regions
 

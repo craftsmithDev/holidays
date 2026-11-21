@@ -8,7 +8,17 @@
       "id": "ie.new-year",
       "name": {
         "en": "New Year’s Day",
-        "ga": "Lá Caille"
+        "ga": "Lá Caille",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "type": "public",
       "startTime": null,
@@ -26,7 +36,17 @@
       "id": "ie.saint-brigid",
       "name": {
         "en": "Saint Brigid’s Day",
-        "ga": "Lá Fhéile Bríde"
+        "ga": "Lá Fhéile Bríde",
+        "de": "Tag der heiligen Brigida",
+        "es": "Santa Brígida",
+        "fr": "Sainte-Brigitte",
+        "it": "Santa Brigida",
+        "nl": "Sint-Brigida",
+        "pl": "Dzień Świętej Brygidy",
+        "pt": "Dia de Santa Brígida",
+        "rm": "Sontga Brigida",
+        "ru": "День святой Бригиды",
+        "tr": "Azize Brigid Günü"
       },
       "type": "public",
       "startTime": null,
@@ -43,7 +63,17 @@
       "id": "ie.saint-patrick",
       "name": {
         "en": "Saint Patrick’s Day",
-        "ga": "Lá Fhéile Pádraig"
+        "ga": "Lá Fhéile Pádraig",
+        "de": "Sankt-Patricks-Tag",
+        "es": "Día de San Patricio",
+        "fr": "Saint-Patrick",
+        "it": "San Patrizio",
+        "nl": "Sint-Patricksdag",
+        "pl": "Dzień Świętego Patryka",
+        "pt": "Dia de São Patrício",
+        "rm": "Son Patrizi",
+        "ru": "День святого Патрика",
+        "tr": "Aziz Patrick Günü"
       },
       "type": "public",
       "startTime": null,
@@ -61,7 +91,17 @@
       "id": "ie.easter-monday",
       "name": {
         "en": "Easter Monday",
-        "ga": "Luan na Cásca"
+        "ga": "Luan na Cásca",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -79,7 +119,17 @@
       "id": "ie.may-bank-holiday",
       "name": {
         "en": "First Monday in May",
-        "ga": "An chéad Luan i mí na Bealtaine"
+        "ga": "An chéad Luan i mí na Bealtaine",
+        "de": "Erster Montag im Mai",
+        "es": "Primer lunes de mayo",
+        "fr": "Premier lundi de mai",
+        "it": "Primo lunedì di maggio",
+        "nl": "Eerste maandag van mei",
+        "pl": "Pierwszy poniedziałek maja",
+        "pt": "Primeira segunda-feira de maio",
+        "rm": "Emprim glindesdi da matg",
+        "ru": "Первый понедельник мая",
+        "tr": "Mayıs’ın ilk pazartesi günü"
       },
       "type": "public",
       "startTime": null,
@@ -97,7 +147,17 @@
       "id": "ie.june-bank-holiday",
       "name": {
         "en": "First Monday in June",
-        "ga": "An chéad Luan i mí an Mheithimh"
+        "ga": "An chéad Luan i mí an Mheithimh",
+        "de": "Erster Montag im Juni",
+        "es": "Primer lunes de junio",
+        "fr": "Premier lundi de juin",
+        "it": "Primo lunedì di giugno",
+        "nl": "Eerste maandag van juni",
+        "pl": "Pierwszy poniedziałek czerwca",
+        "pt": "Primeira segunda-feira de junho",
+        "rm": "Emprim glindesdi da zercladur",
+        "ru": "Первый понедельник июня",
+        "tr": "Haziran’ın ilk pazartesi günü"
       },
       "type": "public",
       "startTime": null,
@@ -115,7 +175,17 @@
       "id": "ie.august-bank-holiday",
       "name": {
         "en": "First Monday in August",
-        "ga": "An chéad Luan i mí Lúnasa"
+        "ga": "An chéad Luan i mí Lúnasa",
+        "de": "Erster Montag im August",
+        "es": "Primer lunes de agosto",
+        "fr": "Premier lundi d’août",
+        "it": "Primo lunedì di agosto",
+        "nl": "Eerste maandag van augustus",
+        "pl": "Pierwszy poniedziałek sierpnia",
+        "pt": "Primeira segunda-feira de agosto",
+        "rm": "Emprim glindesdi d’avust",
+        "ru": "Первый понедельник августа",
+        "tr": "Ağustos’un ilk pazartesi günü"
       },
       "type": "public",
       "startTime": null,
@@ -133,7 +203,17 @@
       "id": "ie.october-bank-holiday",
       "name": {
         "en": "Last Monday in October",
-        "ga": "An Luan deireanach i mí Dheireadh Fómhair"
+        "ga": "An Luan deireanach i mí Dheireadh Fómhair",
+        "de": "Letzter Montag im Oktober",
+        "es": "Último lunes de octubre",
+        "fr": "Dernier lundi d’octobre",
+        "it": "Ultimo lunedì di ottobre",
+        "nl": "Laatste maandag van oktober",
+        "pl": "Ostatni poniedziałek października",
+        "pt": "Última segunda-feira de outubro",
+        "rm": "Ultim glindesdi d’october",
+        "ru": "Последний понедельник октября",
+        "tr": "Ekim’in son pazartesi günü"
       },
       "type": "public",
       "startTime": null,
@@ -151,7 +231,17 @@
       "id": "ie.christmas",
       "name": {
         "en": "Christmas Day",
-        "ga": "Lá Nollag"
+        "ga": "Lá Nollag",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "type": "public",
       "startTime": null,
@@ -169,7 +259,17 @@
       "id": "ie.saint-stephen",
       "name": {
         "en": "Saint Stephen’s Day",
-        "ga": "Lá Fhéile Stiofáin"
+        "ga": "Lá Fhéile Stiofáin",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "type": "public",
       "startTime": null,

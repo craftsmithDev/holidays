@@ -8,8 +8,18 @@
     {
       "code": "AD",
       "names": {
+        "en": "Andorra",
         "ca": "Andorra",
-        "en": "Andorra"
+        "de": "Andorra",
+        "es": "Andorra",
+        "fr": "Andorre",
+        "it": "Andorra",
+        "nl": "Andorra",
+        "pl": "Andora",
+        "pt": "Andorra",
+        "rm": "Andorra",
+        "ru": "Андорра",
+        "tr": "Andorra"
       },
       "languages": [
         "ca"
@@ -18,50 +28,115 @@
         {
           "code": "AD-02",
           "names": {
+            "en": "Canillo",
             "ca": "Canillo",
-            "en": "Canillo"
+            "de": "Canillo",
+            "es": "Canillo",
+            "fr": "Canillo",
+            "it": "Canillo",
+            "nl": "Canillo",
+            "pl": "Canillo",
+            "pt": "Canillo",
+            "ru": "Канильо",
+            "tr": "Canillo"
           }
         },
         {
           "code": "AD-03",
           "names": {
+            "en": "Encamp",
             "ca": "Encamp",
-            "en": "Encamp"
+            "de": "Encamp",
+            "es": "Encamp",
+            "fr": "Encamp",
+            "it": "Encamp",
+            "nl": "Encamp",
+            "pl": "Encamp",
+            "pt": "Encamp",
+            "ru": "Энкамп",
+            "tr": "Encamp"
           }
         },
         {
           "code": "AD-04",
           "names": {
+            "en": "La Massana",
             "ca": "La Massana",
-            "en": "La Massana"
+            "de": "La Massana",
+            "es": "La Massana",
+            "fr": "La Massana",
+            "it": "La Massana",
+            "nl": "La Massana",
+            "pl": "La Massana",
+            "pt": "La Massana",
+            "ru": "Ла-Массана",
+            "tr": "La Massana"
           }
         },
         {
           "code": "AD-05",
           "names": {
+            "en": "Ordino",
             "ca": "Ordino",
-            "en": "Ordino"
+            "de": "Ordino",
+            "es": "Ordino",
+            "fr": "Ordino",
+            "it": "Ordino",
+            "nl": "Ordino",
+            "pl": "Ordino",
+            "pt": "Ordino",
+            "rm": "Ordino",
+            "ru": "Ордино",
+            "tr": "Ordino"
           }
         },
         {
           "code": "AD-06",
           "names": {
+            "en": "Sant Julià de Lòria",
             "ca": "Sant Julià de Lòria",
-            "en": "Sant Julià de Lòria"
+            "de": "Sant Julià de Lòria",
+            "es": "San Julián de Loria",
+            "fr": "Sant Julià de Lòria",
+            "it": "Sant Julià de Lòria",
+            "nl": "Sant Julià de Lòria",
+            "pl": "Sant Julià de Lòria",
+            "pt": "Sant Julià de Lòria",
+            "rm": "Sant Julià de Lòria",
+            "ru": "Сант-Жулия-де-Лория",
+            "tr": "Sant Julià de Lòria"
           }
         },
         {
           "code": "AD-07",
           "names": {
+            "en": "Andorra la Vella",
             "ca": "Andorra la Vella",
-            "en": "Andorra la Vella"
+            "de": "Andorra la Vella",
+            "es": "Andorra la Vella",
+            "fr": "Andorre-la-Vieille",
+            "it": "Andorra la Vella",
+            "nl": "Parochie Andorra la Vella",
+            "pl": "Andora",
+            "pt": "Andorra-a-Velha",
+            "ru": "Андорра-ла-Велья",
+            "tr": "Andorra la Vella"
           }
         },
         {
           "code": "AD-08",
           "names": {
+            "en": "Escaldes-Engordany",
             "ca": "Escaldes-Engordany",
-            "en": "Escaldes-Engordany"
+            "de": "Escaldes-Engordany",
+            "es": "Escaldes-Engordany",
+            "fr": "Escaldes-Engordany",
+            "it": "Escaldes-Engordany",
+            "nl": "Escaldes-Engordany",
+            "pl": "Escaldes-Engordany",
+            "pt": "Escaldes-Engordany",
+            "ru": "Эскальдес-Энгордань",
+            "tr": "Escaldes-Engordany"
           }
         }
       ]
@@ -69,8 +144,20 @@
     {
       "code": "AT",
       "names": {
+        "en": "Austria",
         "de": "Österreich",
-        "en": "Austria"
+        "hr": "Austrija",
+        "hu": "Ausztria",
+        "sl": "Avstrija",
+        "es": "Austria",
+        "fr": "Autriche",
+        "it": "Austria",
+        "nl": "Oostenrijk",
+        "pl": "Austria",
+        "pt": "Áustria",
+        "rm": "Austria",
+        "ru": "Австрия",
+        "tr": "Avusturya"
       },
       "languages": [
         "de"
@@ -79,64 +166,165 @@
         {
           "code": "AT-1",
           "names": {
+            "en": "Burgenland",
             "de": "Burgenland",
-            "en": "Burgenland"
+            "hr": "Gradišće",
+            "hu": "Burgenland",
+            "sl": "Gradiščanska",
+            "es": "Burgenland",
+            "fr": "Burgenland",
+            "it": "Burgenland",
+            "nl": "Burgenland",
+            "pl": "Burgenland",
+            "pt": "Burgenland",
+            "ru": "Бургенланд",
+            "tr": "Burgenland"
           }
         },
         {
           "code": "AT-2",
           "names": {
+            "en": "Carinthia",
             "de": "Kärnten",
-            "en": "Carinthia"
+            "hr": "Koruška",
+            "hu": "Karintia",
+            "sl": "Koroška",
+            "es": "Carintia",
+            "fr": "Carinthie",
+            "it": "Carinzia",
+            "nl": "Karinthië",
+            "pl": "Karyntia",
+            "pt": "Caríntia",
+            "ru": "Каринтия",
+            "tr": "Karintiya"
           }
         },
         {
           "code": "AT-3",
           "names": {
+            "en": "Lower Austria",
             "de": "Niederösterreich",
-            "en": "Lower Austria"
+            "hr": "Donja Austrija",
+            "hu": "Alsó-Ausztria",
+            "sl": "Spodnja Avstrija",
+            "es": "Baja Austria",
+            "fr": "Basse-Autriche",
+            "it": "Bassa Austria",
+            "nl": "Neder-Oostenrijk",
+            "pl": "Dolna Austria",
+            "pt": "Baixa Áustria",
+            "ru": "Нижняя Австрия",
+            "tr": "Aşağı Avusturya"
           }
         },
         {
           "code": "AT-4",
           "names": {
+            "en": "Upper Austria",
             "de": "Oberösterreich",
-            "en": "Upper Austria"
+            "hr": "Gornja Austrija",
+            "hu": "Felső-Ausztria",
+            "sl": "Gornja Avstrija",
+            "es": "Alta Austria",
+            "fr": "Haute-Autriche",
+            "it": "Alta Austria",
+            "nl": "Opper-Oostenrijk",
+            "pl": "Górna Austria",
+            "pt": "Alta Áustria",
+            "ru": "Верхняя Австрия",
+            "tr": "Yukarı Avusturya"
           }
         },
         {
           "code": "AT-5",
           "names": {
+            "en": "Salzburg",
             "de": "Salzburg",
-            "en": "Salzburg"
+            "hr": "Salzburg",
+            "hu": "Salzburg",
+            "sl": "Salzburg",
+            "es": "Salzburgo",
+            "fr": "Salzbourg",
+            "it": "Salisburghese",
+            "nl": "Salzburg",
+            "pl": "Salzburg",
+            "pt": "Salzburgo",
+            "ru": "Зальцбург",
+            "tr": "Salzburg"
           }
         },
         {
           "code": "AT-6",
           "names": {
+            "en": "Styria",
             "de": "Steiermark",
-            "en": "Styria"
+            "hr": "Štajerska",
+            "hu": "Stájerország",
+            "sl": "Štajerska",
+            "es": "Estiria",
+            "fr": "Styrie",
+            "it": "Stiria",
+            "nl": "Stiermarken",
+            "pl": "Styria",
+            "pt": "Estíria",
+            "ru": "Штирия",
+            "tr": "Steiermark"
           }
         },
         {
           "code": "AT-7",
           "names": {
+            "en": "Tyrol",
             "de": "Tirol",
-            "en": "Tyrol"
+            "hr": "Tirol",
+            "hu": "Tirol",
+            "sl": "Tirolska",
+            "es": "Tirol",
+            "fr": "Tyrol",
+            "it": "Tirolo",
+            "nl": "Tirol",
+            "pl": "Tyrol",
+            "pt": "Tirol",
+            "rm": "Tirol",
+            "ru": "Тироль",
+            "tr": "Tirol"
           }
         },
         {
           "code": "AT-8",
           "names": {
+            "en": "Vorarlberg",
             "de": "Vorarlberg",
-            "en": "Vorarlberg"
+            "hr": "Vorarlberg",
+            "hu": "Vorarlberg",
+            "sl": "Predarlska",
+            "es": "Vorarlberg",
+            "fr": "Vorarlberg",
+            "it": "Vorarlberg",
+            "nl": "Vorarlberg",
+            "pl": "Vorarlberg",
+            "pt": "Vorarlberg",
+            "ru": "Форарльберг",
+            "tr": "Vorarlberg"
           }
         },
         {
           "code": "AT-9",
           "names": {
+            "en": "Vienna",
             "de": "Wien",
-            "en": "Vienna"
+            "hr": "Beč",
+            "hu": "Bécs",
+            "sl": "Dunaj",
+            "es": "Viena",
+            "fr": "Vienne",
+            "it": "Vienna",
+            "nl": "Wenen",
+            "pl": "Wiedeń",
+            "pt": "Viena",
+            "rm": "Vienna",
+            "ru": "Вена",
+            "tr": "Viyana"
           }
         }
       ]
@@ -144,10 +332,17 @@
     {
       "code": "BE",
       "names": {
+        "en": "Belgium",
         "nl": "België",
         "fr": "Belgique",
         "de": "Belgien",
-        "en": "Belgium"
+        "es": "Bélgica",
+        "it": "Belgio",
+        "pl": "Belgia",
+        "pt": "Bélgica",
+        "rm": "Belgia",
+        "ru": "Бельгия",
+        "tr": "Belçika"
       },
       "languages": [
         "nl",
@@ -158,28 +353,46 @@
         {
           "code": "BE-BRU",
           "names": {
-            "nl": "Brussels Hoofdstedelijk Gewest",
-            "fr": "Région de Bruxelles-Capitale",
-            "de": "Region Brüssel-Hauptstadt",
-            "en": "Brussels-Capital Region"
+            "en": "Brussels",
+            "nl": "Brussel",
+            "fr": "Bruxelles-Capitale",
+            "de": "Brüssel",
+            "es": "Bruselas-Capital",
+            "it": "Bruxelles-Capitale",
+            "pl": "Stołeczny Brukseli",
+            "pt": "Bruxelas-Capital",
+            "ru": "Брюссельский столичный регион",
+            "tr": "Brüksel Başkent"
           }
         },
         {
           "code": "BE-VLG",
           "names": {
-            "nl": "Vlaams Gewest",
-            "fr": "Région flamande",
-            "de": "Flämische Region",
-            "en": "Flemish Region"
+            "en": "Flanders",
+            "nl": "Vlaanderen",
+            "fr": "Flandre",
+            "de": "Flandern",
+            "es": "Flamenca",
+            "it": "Fiandre",
+            "pl": "Flamandzki",
+            "pt": "Flandres",
+            "ru": "Фламандский регион",
+            "tr": "Flaman"
           }
         },
         {
           "code": "BE-WAL",
           "names": {
-            "nl": "Waals Gewest",
-            "fr": "Région wallonne",
-            "de": "Wallonische Region",
-            "en": "Walloon Region"
+            "en": "Wallonia",
+            "nl": "Wallonië",
+            "fr": "Wallonie",
+            "de": "Wallonien",
+            "es": "Valonia",
+            "it": "Vallonia",
+            "pl": "Walonia",
+            "pt": "Valônia",
+            "ru": "Валлония",
+            "tr": "Valonya"
           }
         }
       ]
@@ -187,249 +400,439 @@
     {
       "code": "CH",
       "names": {
+        "en": "Switzerland",
         "de": "Schweiz",
         "fr": "Suisse",
         "it": "Svizzera",
-        "en": "Switzerland"
+        "rm": "Svizra",
+        "es": "Suiza",
+        "nl": "Zwitserland",
+        "pl": "Szwajcaria",
+        "pt": "Suíça",
+        "ru": "Швейцария",
+        "tr": "İsviçre"
       },
       "languages": [
         "de",
         "fr",
-        "it"
+        "it",
+        "rm"
       ],
       "regions": [
         {
           "code": "CH-AG",
           "names": {
+            "en": "Aargau",
             "de": "Aargau",
             "fr": "Argovie",
             "it": "Argovia",
-            "en": "Aargau"
+            "rm": "Argovia",
+            "es": "Argovia",
+            "nl": "Aargau",
+            "pl": "Argowia",
+            "pt": "Argóvia",
+            "ru": "Аргау",
+            "tr": "Aargau"
           }
         },
         {
           "code": "CH-AI",
           "names": {
+            "en": "Appenzell Innerrhoden",
             "de": "Appenzell Innerrhoden",
             "fr": "Appenzell Rhodes-Intérieures",
             "it": "Appenzello Interno",
-            "en": "Appenzell Innerrhoden"
+            "rm": "Appenzell Dadens",
+            "es": "Appenzell Rodas Interiores",
+            "nl": "Appenzell Innerrhoden",
+            "pl": "Appenzell Innerrhoden",
+            "pt": "Appenzell Interior",
+            "ru": "Аппенцелль-Иннерроден",
+            "tr": "Appenzell Innerrhoden"
           }
         },
         {
           "code": "CH-AR",
           "names": {
+            "en": "Appenzell Ausserrhoden",
             "de": "Appenzell Ausserrhoden",
             "fr": "Appenzell Rhodes-Extérieures",
             "it": "Appenzello Esterno",
-            "en": "Appenzell Ausserrhoden"
+            "rm": "Appenzell Dadora",
+            "es": "Appenzell Rodas Exteriores",
+            "nl": "Appenzell Ausserrhoden",
+            "pl": "Appenzell Ausserrhoden",
+            "pt": "Appenzell Exterior",
+            "ru": "Аппенцелль-Ауссерроден",
+            "tr": "Appenzell Ausserrhoden"
           }
         },
         {
           "code": "CH-BE",
           "names": {
+            "en": "Bern",
             "de": "Bern",
             "fr": "Berne",
             "it": "Berna",
-            "en": "Bern"
+            "rm": "Berna",
+            "es": "Berna",
+            "nl": "Bern",
+            "pl": "Berno",
+            "pt": "Berna",
+            "ru": "Берн",
+            "tr": "Bern"
           }
         },
         {
           "code": "CH-BL",
           "names": {
+            "en": "Basel-Landschaft",
             "de": "Basel-Landschaft",
             "fr": "Bâle-Campagne",
             "it": "Basilea Campagna",
-            "en": "Basel-Landschaft"
+            "rm": "Basilea-Champagna",
+            "es": "Basilea-Campiña",
+            "nl": "Basel-Landschaft",
+            "pl": "Bazylea-Okręg",
+            "pt": "Basileia-Campo",
+            "ru": "Базель-Ланд",
+            "tr": "Basel-Landschaft"
           }
         },
         {
           "code": "CH-BS",
           "names": {
+            "en": "Basel-Stadt",
             "de": "Basel-Stadt",
             "fr": "Bâle-Ville",
             "it": "Basilea Città",
-            "en": "Basel-Stadt"
+            "rm": "Basilea-Citad",
+            "es": "Basilea-Ciudad",
+            "nl": "Bazel-Stad",
+            "pl": "Bazylea-Miasto",
+            "pt": "Basileia-Cidade",
+            "ru": "Базель-Штадт",
+            "tr": "Basel-Stadt"
           }
         },
         {
           "code": "CH-FR",
           "names": {
+            "en": "Fribourg",
             "de": "Freiburg",
             "fr": "Fribourg",
             "it": "Friburgo",
-            "en": "Fribourg"
+            "rm": "Friburg",
+            "es": "Friburgo",
+            "nl": "Fribourg",
+            "pl": "Fryburg",
+            "pt": "Friburgo",
+            "ru": "Фрибур",
+            "tr": "Fribourg"
           }
         },
         {
           "code": "CH-GE",
           "names": {
+            "en": "Geneva",
             "de": "Genf",
             "fr": "Genève",
             "it": "Ginevra",
-            "en": "Geneva"
+            "rm": "Genevra",
+            "es": "Ginebra",
+            "nl": "Genève",
+            "pl": "Genewa",
+            "pt": "Genebra",
+            "ru": "Женева",
+            "tr": "Cenevre"
           }
         },
         {
           "code": "CH-GL",
           "names": {
+            "en": "Glarus",
             "de": "Glarus",
             "fr": "Glaris",
             "it": "Glarona",
-            "en": "Glarus"
+            "rm": "Glaruna",
+            "es": "Glaris",
+            "nl": "Glarus",
+            "pl": "Glarus",
+            "pt": "Glarus",
+            "ru": "Гларус",
+            "tr": "Glarus"
           }
         },
         {
           "code": "CH-GR",
           "names": {
+            "en": "Graubünden",
             "de": "Graubünden",
             "fr": "Grisons",
             "it": "Grigioni",
-            "en": "Graubünden"
+            "rm": "Grischun",
+            "es": "Grisones",
+            "nl": "Graubünden",
+            "pl": "Gryzonia",
+            "pt": "Grisões",
+            "ru": "Граубюнден",
+            "tr": "Graubünden"
           }
         },
         {
           "code": "CH-JU",
           "names": {
+            "en": "Jura",
             "de": "Jura",
             "fr": "Jura",
             "it": "Giura",
-            "en": "Jura"
+            "rm": "Giura",
+            "es": "Jura",
+            "nl": "Jura",
+            "pl": "Jura",
+            "pt": "Jura",
+            "ru": "Юра",
+            "tr": "Jura"
           }
         },
         {
           "code": "CH-LU",
           "names": {
+            "en": "Lucerne",
             "de": "Luzern",
             "fr": "Lucerne",
             "it": "Lucerna",
-            "en": "Lucerne"
+            "rm": "Lucerna",
+            "es": "Lucerna",
+            "nl": "Luzern",
+            "pl": "Lucerna",
+            "pt": "Lucerna",
+            "ru": "Люцерн",
+            "tr": "Luzern"
           }
         },
         {
           "code": "CH-NE",
           "names": {
+            "en": "Neuchâtel",
             "de": "Neuenburg",
             "fr": "Neuchâtel",
             "it": "Neuchâtel",
-            "en": "Neuchâtel"
+            "rm": "Neuchâtel",
+            "es": "Neuchâtel",
+            "nl": "Neuchâtel",
+            "pl": "Neuchâtel",
+            "pt": "Neuchâtel",
+            "ru": "Невшатель",
+            "tr": "Neuchâtel"
           }
         },
         {
           "code": "CH-NW",
           "names": {
+            "en": "Nidwalden",
             "de": "Nidwalden",
             "fr": "Nidwald",
             "it": "Nidvaldo",
-            "en": "Nidwalden"
+            "rm": "Sutsilvania",
+            "es": "Nidwalden",
+            "nl": "Nidwalden",
+            "pl": "Nidwalden",
+            "pt": "Nidwald",
+            "ru": "Нидвальден",
+            "tr": "Nidwalden"
           }
         },
         {
           "code": "CH-OW",
           "names": {
+            "en": "Obwalden",
             "de": "Obwalden",
             "fr": "Obwald",
             "it": "Obvaldo",
-            "en": "Obwalden"
+            "rm": "Sursilvania",
+            "es": "Obwalden",
+            "nl": "Obwalden",
+            "pl": "Obwalden",
+            "pt": "Obwald",
+            "ru": "Обвальден",
+            "tr": "Obwalden"
           }
         },
         {
           "code": "CH-SG",
           "names": {
+            "en": "St. Gallen",
             "de": "St. Gallen",
             "fr": "Saint-Gall",
             "it": "San Gallo",
-            "en": "St. Gallen"
+            "rm": "Son Gagl",
+            "es": "San Galo",
+            "nl": "Sankt Gallen",
+            "pl": "St. Gallen",
+            "pt": "São Galo",
+            "ru": "Санкт-Галлен",
+            "tr": "St. Gallen"
           }
         },
         {
           "code": "CH-SH",
           "names": {
+            "en": "Schaffhausen",
             "de": "Schaffhausen",
             "fr": "Schaffhouse",
             "it": "Sciaffusa",
-            "en": "Schaffhausen"
+            "rm": "Schaffusa",
+            "es": "Schaffhausen",
+            "nl": "Schaffhausen",
+            "pl": "Szafuza",
+            "pt": "Schaffhausen",
+            "ru": "Шаффхаузен",
+            "tr": "Schaffhausen"
           }
         },
         {
           "code": "CH-SO",
           "names": {
+            "en": "Solothurn",
             "de": "Solothurn",
             "fr": "Soleure",
             "it": "Soletta",
-            "en": "Solothurn"
+            "rm": "Soloturn",
+            "es": "Soleura",
+            "nl": "Solothurn",
+            "pl": "Solura",
+            "pt": "Soleura",
+            "ru": "Золотурн",
+            "tr": "Solothurn"
           }
         },
         {
           "code": "CH-SZ",
           "names": {
+            "en": "Schwyz",
             "de": "Schwyz",
             "fr": "Schwytz",
             "it": "Svitto",
-            "en": "Schwyz"
+            "rm": "Sviz",
+            "es": "Schwyz",
+            "nl": "Schwyz",
+            "pl": "Schwyz",
+            "pt": "Schwyz",
+            "ru": "Швиц",
+            "tr": "Schwyz"
           }
         },
         {
           "code": "CH-TG",
           "names": {
+            "en": "Thurgau",
             "de": "Thurgau",
             "fr": "Thurgovie",
             "it": "Turgovia",
-            "en": "Thurgau"
+            "rm": "Turgovia",
+            "es": "Turgovia",
+            "nl": "Thurgau",
+            "pl": "Turgowia",
+            "pt": "Turgóvia",
+            "ru": "Тургау",
+            "tr": "Thurgau"
           }
         },
         {
           "code": "CH-TI",
           "names": {
+            "en": "Ticino",
             "de": "Tessin",
             "fr": "Tessin",
             "it": "Ticino",
-            "en": "Ticino"
+            "rm": "Tessin",
+            "es": "Tesino",
+            "nl": "Ticino",
+            "pl": "Ticino",
+            "pt": "Ticino",
+            "ru": "Тичино",
+            "tr": "Ticino"
           }
         },
         {
           "code": "CH-UR",
           "names": {
+            "en": "Uri",
             "de": "Uri",
             "fr": "Uri",
             "it": "Uri",
-            "en": "Uri"
+            "rm": "Uri",
+            "es": "Uri",
+            "nl": "Uri",
+            "pl": "Uri",
+            "pt": "Uri",
+            "ru": "Ури",
+            "tr": "Uri"
           }
         },
         {
           "code": "CH-VD",
           "names": {
+            "en": "Vaud",
             "de": "Waadt",
             "fr": "Vaud",
             "it": "Vaud",
-            "en": "Vaud"
+            "rm": "Vad",
+            "es": "Vaud",
+            "nl": "Vaud",
+            "pl": "Vaud",
+            "pt": "Vaud",
+            "ru": "Во",
+            "tr": "Vaud"
           }
         },
         {
           "code": "CH-VS",
           "names": {
+            "en": "Valais",
             "de": "Wallis",
             "fr": "Valais",
             "it": "Vallese",
-            "en": "Valais"
+            "rm": "Vallais",
+            "es": "Valais",
+            "nl": "Wallis",
+            "pl": "Valais",
+            "pt": "Valais",
+            "ru": "Вале",
+            "tr": "Valais"
           }
         },
         {
           "code": "CH-ZG",
           "names": {
+            "en": "Zug",
             "de": "Zug",
             "fr": "Zoug",
             "it": "Zugo",
-            "en": "Zug"
+            "rm": "Zug",
+            "es": "Zug",
+            "nl": "Zug",
+            "pl": "Zug",
+            "pt": "Zug",
+            "ru": "Цуг",
+            "tr": "Zug"
           }
         },
         {
           "code": "CH-ZH",
           "names": {
+            "en": "Zurich",
             "de": "Zürich",
             "fr": "Zurich",
             "it": "Zurigo",
-            "en": "Zurich"
+            "rm": "Turitg",
+            "es": "Zúrich",
+            "nl": "Zürich",
+            "pl": "Zurych",
+            "pt": "Zurique",
+            "ru": "Цюрих",
+            "tr": "Zürih"
           }
         }
       ]
@@ -437,8 +840,17 @@
     {
       "code": "DE",
       "names": {
+        "en": "Germany",
         "de": "Deutschland",
-        "en": "Germany"
+        "es": "Alemania",
+        "fr": "Allemagne",
+        "it": "Germania",
+        "nl": "Duitsland",
+        "pl": "Niemcy",
+        "pt": "Alemanha",
+        "rm": "Germania",
+        "ru": "Германия",
+        "tr": "Almanya"
       },
       "languages": [
         "de"
@@ -447,113 +859,257 @@
         {
           "code": "DE-BB",
           "names": {
+            "en": "Brandenburg",
             "de": "Brandenburg",
-            "en": "Brandenburg"
+            "es": "Brandeburgo",
+            "fr": "Brandebourg",
+            "it": "Brandeburgo",
+            "nl": "Brandenburg",
+            "pl": "Brandenburgia",
+            "pt": "Brandemburgo",
+            "rm": "Brandenburg",
+            "ru": "Бранденбург",
+            "tr": "Brandenburg"
           }
         },
         {
           "code": "DE-BE",
           "names": {
+            "en": "Berlin",
             "de": "Berlin",
-            "en": "Berlin"
+            "es": "Berlín",
+            "fr": "Berlin",
+            "it": "Berlino",
+            "nl": "Berlijn",
+            "pl": "Berlin",
+            "pt": "Berlim",
+            "rm": "Berlin",
+            "ru": "Берлин",
+            "tr": "Berlin"
           }
         },
         {
           "code": "DE-BW",
           "names": {
+            "en": "Baden-Württemberg",
             "de": "Baden-Württemberg",
-            "en": "Baden-Württemberg"
+            "es": "Baden-Wurtemberg",
+            "fr": "Bade-Wurtemberg",
+            "it": "Baden-Württemberg",
+            "nl": "Baden-Württemberg",
+            "pl": "Badenia-Wirtembergia",
+            "pt": "Baden-Württemberg",
+            "rm": "Baden-Württemberg",
+            "ru": "Баден-Вюртемберг",
+            "tr": "Baden-Württemberg"
           }
         },
         {
           "code": "DE-BY",
           "names": {
+            "en": "Bavaria",
             "de": "Bayern",
-            "en": "Bavaria"
+            "es": "Baviera",
+            "fr": "Bavière",
+            "it": "Baviera",
+            "nl": "Beieren",
+            "pl": "Bawaria",
+            "pt": "Baviera",
+            "rm": "Baviera",
+            "ru": "Бавария",
+            "tr": "Bavyera"
           }
         },
         {
           "code": "DE-HB",
           "names": {
+            "en": "Bremen",
             "de": "Bremen",
-            "en": "Bremen"
+            "es": "Bremen",
+            "fr": "Brême",
+            "it": "Brema",
+            "nl": "Bremen",
+            "pl": "Brema",
+            "pt": "Bremen",
+            "rm": "Bremen",
+            "ru": "Бремен",
+            "tr": "Bremen"
           }
         },
         {
           "code": "DE-HE",
           "names": {
+            "en": "Hesse",
             "de": "Hessen",
-            "en": "Hesse"
+            "es": "Hasse",
+            "fr": "Hesse",
+            "it": "Assia",
+            "nl": "Hessen",
+            "pl": "Hesja",
+            "pt": "Hesse",
+            "rm": "Hessen",
+            "ru": "Гессен",
+            "tr": "Hessen"
           }
         },
         {
           "code": "DE-HH",
           "names": {
+            "en": "Hamburg",
             "de": "Hamburg",
-            "en": "Hamburg"
+            "es": "Hamburgo",
+            "fr": "Hambourg",
+            "it": "Amburgo",
+            "nl": "Hamburg",
+            "pl": "Hamburg",
+            "pt": "Hamburgo",
+            "rm": "Hamburg",
+            "ru": "Гамбург",
+            "tr": "Hamburg"
           }
         },
         {
           "code": "DE-MV",
           "names": {
+            "en": "Mecklenburg-Western Pomerania",
             "de": "Mecklenburg-Vorpommern",
-            "en": "Mecklenburg-Western Pomerania"
+            "es": "Mecklemburgo-Pomerania Occidental",
+            "fr": "Mecklembourg-Poméranie-Occidentale",
+            "it": "Meclemburgo-Pomerania Anteriore",
+            "nl": "Mecklenburg-Voor-Pommeren",
+            "pl": "Meklemburgia-Pomorze Przednie",
+            "pt": "Mecklemburgo-Pomerânia Ocidental",
+            "rm": "Mecklenburg-Pomerania Anteriura",
+            "ru": "Мекленбург-Передняя Померания",
+            "tr": "Mecklenburg-Vorpommern"
           }
         },
         {
           "code": "DE-NI",
           "names": {
+            "en": "Lower Saxony",
             "de": "Niedersachsen",
-            "en": "Lower Saxony"
+            "es": "Baja Sajonia",
+            "fr": "Basse-Saxe",
+            "it": "Bassa Sassonia",
+            "nl": "Nedersaksen",
+            "pl": "Dolna Saksonia",
+            "pt": "Baixa Saxônia",
+            "rm": "Saxonia Inferiura",
+            "ru": "Нижняя Саксония",
+            "tr": "Aşağı Saksonya"
           }
         },
         {
           "code": "DE-NW",
           "names": {
+            "en": "North Rhine-Westphalia",
             "de": "Nordrhein-Westfalen",
-            "en": "North Rhine-Westphalia"
+            "es": "Renania del Norte-Westfalia",
+            "fr": "Rhénanie-du-Nord-Westphalie",
+            "it": "Renania Settentrionale-Vestfalia",
+            "nl": "Noordrijn-Westfalen",
+            "pl": "Nadrenia Północna-Westfalia",
+            "pt": "Renânia do Norte-Vestfália",
+            "rm": "Rain dal Nord-Vestfalia",
+            "ru": "Северный Рейн-Вестфалия",
+            "tr": "Kuzey Ren-Vestfalya"
           }
         },
         {
           "code": "DE-RP",
           "names": {
+            "en": "Rhineland-Palatinate",
             "de": "Rheinland-Pfalz",
-            "en": "Rhineland-Palatinate"
+            "es": "Renania-Palatinado",
+            "fr": "Rhénanie-Palatinat",
+            "it": "Renania-Palatinato",
+            "nl": "Rijnland-Palts",
+            "pl": "Nadrenia-Palatynat",
+            "pt": "Renânia-Palatinado",
+            "rm": "Renania-Palatinat",
+            "ru": "Рейнланд-Пфальц",
+            "tr": "Renanya-Palatina"
           }
         },
         {
           "code": "DE-SH",
           "names": {
+            "en": "Schleswig-Holstein",
             "de": "Schleswig-Holstein",
-            "en": "Schleswig-Holstein"
+            "es": "Schleswig-Holstein",
+            "fr": "Schleswig-Holstein",
+            "it": "Schleswig-Holstein",
+            "nl": "Sleeswijk-Holstein",
+            "pl": "Szlezwik-Holsztyn",
+            "pt": "Schleswig-Holstein",
+            "rm": "Schleswig-Holstein",
+            "ru": "Шлезвиг-Гольштейн",
+            "tr": "Schleswig-Holstein"
           }
         },
         {
           "code": "DE-SL",
           "names": {
+            "en": "Saarland",
             "de": "Saarland",
-            "en": "Saarland"
+            "es": "Sarre",
+            "fr": "Sarre",
+            "it": "Saarland",
+            "nl": "Saarland",
+            "pl": "Saara",
+            "pt": "Sarre",
+            "rm": "Saarland",
+            "ru": "Саар",
+            "tr": "Saarland"
           }
         },
         {
           "code": "DE-SN",
           "names": {
+            "en": "Saxony",
             "de": "Sachsen",
-            "en": "Saxony"
+            "es": "Sajonia",
+            "fr": "Saxe",
+            "it": "Sassonia",
+            "nl": "Saksen",
+            "pl": "Saksonia",
+            "pt": "Saxónia",
+            "rm": "Saxonia",
+            "ru": "Саксония",
+            "tr": "Saksonya"
           }
         },
         {
           "code": "DE-ST",
           "names": {
+            "en": "Saxony-Anhalt",
             "de": "Sachsen-Anhalt",
-            "en": "Saxony-Anhalt"
+            "es": "Sajonia-Anhalt",
+            "fr": "Saxe-Anhalt",
+            "it": "Sassonia-Anhalt",
+            "nl": "Saksen-Anhalt",
+            "pl": "Saksonia-Anhalt",
+            "pt": "Saxônia-Anhalt",
+            "rm": "Saxonia-Anhalt",
+            "ru": "Саксония-Анхальт",
+            "tr": "Saksonya-Anhalt"
           }
         },
         {
           "code": "DE-TH",
           "names": {
+            "en": "Thuringia",
             "de": "Thüringen",
-            "en": "Thuringia"
+            "es": "Turingia",
+            "fr": "Thuringe",
+            "it": "Turingia",
+            "nl": "Thüringen",
+            "pl": "Turyngia",
+            "pt": "Turíngia",
+            "rm": "Turinga",
+            "ru": "Тюрингия",
+            "tr": "Türingiya"
           }
         }
       ]
@@ -561,11 +1117,20 @@
     {
       "code": "ES",
       "names": {
-        "es": "España",
         "en": "Spain",
+        "es": "España",
         "ca": "Espanya",
         "eu": "Espainia",
-        "gl": "España"
+        "gl": "España",
+        "de": "Spanien",
+        "fr": "Espagne",
+        "it": "Spagna",
+        "nl": "Spanje",
+        "pl": "Hiszpania",
+        "pt": "Espanha",
+        "rm": "Spagna",
+        "ru": "Испания",
+        "tr": "İspanya"
       },
       "languages": [
         "es"
@@ -574,140 +1139,344 @@
         {
           "code": "ES-AN",
           "names": {
+            "en": "Andalusia",
             "es": "Andalucía",
-            "en": "Andalusia"
+            "ca": "Andalusia",
+            "eu": "Andaluzia",
+            "gl": "Andalucía",
+            "de": "Andalusien",
+            "fr": "Andalousie",
+            "it": "Andalusia",
+            "nl": "Andalusië",
+            "pl": "Andaluzja",
+            "pt": "Andaluzia",
+            "ru": "Андалусия",
+            "tr": "Endülüs"
           }
         },
         {
           "code": "ES-AR",
           "names": {
+            "en": "Aragon",
             "es": "Aragón",
-            "en": "Aragon"
+            "ca": "Aragó",
+            "eu": "Aragoi",
+            "gl": "Aragón",
+            "de": "Aragonien",
+            "fr": "Aragon",
+            "it": "Aragona",
+            "nl": "Aragón",
+            "pl": "Aragonia",
+            "pt": "Aragão",
+            "ru": "Арагон",
+            "tr": "Aragon"
           }
         },
         {
           "code": "ES-AS",
           "names": {
-            "es": "Principado de Asturias",
-            "en": "Asturias"
+            "en": "Asturias",
+            "es": "Asturias",
+            "ca": "Astúries",
+            "eu": "Asturiesko Printzerria",
+            "gl": "Principado de Asturias",
+            "de": "Asturien",
+            "fr": "Asturies",
+            "it": "Asturie",
+            "nl": "Asturië",
+            "pl": "Asturia",
+            "pt": "Astúrias",
+            "ru": "Астурия",
+            "tr": "Asturies"
           }
         },
         {
           "code": "ES-CB",
           "names": {
+            "en": "Cantabria",
             "es": "Cantabria",
-            "en": "Cantabria"
+            "ca": "Cantàbria",
+            "eu": "Kantabria",
+            "gl": "Cantabria",
+            "de": "Kantabrien",
+            "fr": "Cantabrie",
+            "it": "Cantabria",
+            "nl": "Cantabrië",
+            "pl": "Kantabria",
+            "pt": "Cantábria",
+            "ru": "Кантабрия",
+            "tr": "Kantabria"
           }
         },
         {
           "code": "ES-CE",
           "names": {
+            "en": "Ceuta",
             "es": "Ceuta",
-            "en": "Ceuta"
+            "ca": "Ceuta",
+            "eu": "Ceuta",
+            "gl": "Ceuta",
+            "de": "Ceuta",
+            "fr": "Ceuta",
+            "it": "Ceuta",
+            "nl": "Ceuta",
+            "pl": "Ceuta",
+            "pt": "Ceuta",
+            "ru": "Сеута",
+            "tr": "Ceuta"
           }
         },
         {
           "code": "ES-CL",
           "names": {
+            "en": "Castile and León",
             "es": "Castilla y León",
-            "en": "Castile and León"
+            "ca": "Castella i Lleó",
+            "eu": "Gaztela eta Leon",
+            "gl": "Castela e León",
+            "de": "Kastilien und León",
+            "fr": "Castille-et-León",
+            "it": "Castiglia e León",
+            "nl": "Castilië en León",
+            "pl": "Kastylia i León",
+            "pt": "Castela e Leão",
+            "ru": "Кастилия и Леон",
+            "tr": "Kastilya ve Leon"
           }
         },
         {
           "code": "ES-CM",
           "names": {
+            "en": "Castile-La Mancha",
             "es": "Castilla-La Mancha",
-            "en": "Castile-La Mancha"
+            "ca": "Castella - la Manxa",
+            "eu": "Gaztela-Mantxa",
+            "gl": "Castela-A Mancha",
+            "de": "Kastilien-La Mancha",
+            "fr": "Castille-La Manche",
+            "it": "Castiglia-La Mancia",
+            "nl": "Castilië-La Mancha",
+            "pl": "Kastylia-La Mancha",
+            "pt": "Castela-Mancha",
+            "ru": "Кастилия — Ла-Манча",
+            "tr": "Kastilya-La Mancha"
           }
         },
         {
           "code": "ES-CN",
           "names": {
+            "en": "Canary Islands",
             "es": "Canarias",
-            "en": "Canary Islands"
+            "ca": "illes Canàries",
+            "eu": "Kanariak",
+            "gl": "Illas Canarias",
+            "de": "Kanarische Inseln",
+            "fr": "Îles Canaries",
+            "it": "isole Canarie",
+            "nl": "Canarische Eilanden",
+            "pl": "Wyspy Kanaryjskie",
+            "pt": "Canárias",
+            "ru": "Канарские острова",
+            "tr": "Kanarya Adaları"
           }
         },
         {
           "code": "ES-CT",
           "names": {
-            "es": "Cataluña",
             "en": "Catalonia",
-            "ca": "Catalunya"
+            "es": "Cataluña",
+            "ca": "Catalunya",
+            "eu": "Katalunia",
+            "gl": "Cataluña",
+            "de": "Katalonien",
+            "fr": "Catalogne",
+            "it": "Catalogna",
+            "nl": "Catalonië",
+            "pl": "Katalonia",
+            "pt": "Catalunha",
+            "rm": "Catalugna",
+            "ru": "Каталония",
+            "tr": "Katalonya"
           }
         },
         {
           "code": "ES-EX",
           "names": {
+            "en": "Extremadura",
             "es": "Extremadura",
-            "en": "Extremadura"
+            "ca": "Extremadura",
+            "eu": "Extremadura",
+            "gl": "Estremadura - Extremadura",
+            "de": "Extremadura",
+            "fr": "Estrémadure",
+            "it": "Estremadura",
+            "nl": "Extremadura",
+            "pl": "Estremadura",
+            "pt": "Estremadura",
+            "ru": "Эстремадура",
+            "tr": "Ekstremadura"
           }
         },
         {
           "code": "ES-GA",
           "names": {
-            "es": "Galicia",
             "en": "Galicia",
-            "gl": "Galicia"
+            "es": "Galicia",
+            "ca": "Galícia",
+            "eu": "Galizia",
+            "gl": "Galicia",
+            "de": "Galicien",
+            "fr": "Galice",
+            "it": "Galizia",
+            "nl": "Galicië",
+            "pl": "Galicja",
+            "pt": "Galiza",
+            "ru": "Галисия",
+            "tr": "Galiçya"
           }
         },
         {
           "code": "ES-IB",
           "names": {
-            "es": "Illes Balears",
             "en": "Balearic Islands",
-            "ca": "Illes Balears"
+            "es": "Illes Balears",
+            "ca": "Illes Balears",
+            "eu": "Balear Uharteak",
+            "gl": "Illas Baleares - Illes Balears",
+            "de": "Balearische Inseln",
+            "fr": "Îles Baléares",
+            "it": "isole Baleari",
+            "nl": "Balearen",
+            "pl": "Baleary",
+            "pt": "Baleares",
+            "ru": "Балеарские острова",
+            "tr": "Balear Adaları"
           }
         },
         {
           "code": "ES-MC",
           "names": {
-            "es": "Región de Murcia",
-            "en": "Murcia"
+            "en": "Murcia",
+            "es": "Murcia",
+            "ca": "Múrcia",
+            "eu": "Murtziako Eskualdea",
+            "gl": "Murcia",
+            "de": "Murcia",
+            "fr": "Murcie",
+            "it": "Murcia",
+            "nl": "Murcia",
+            "pl": "Murcja",
+            "pt": "Múrcia",
+            "ru": "Мурсия",
+            "tr": "Murcia"
           }
         },
         {
           "code": "ES-MD",
           "names": {
-            "es": "Comunidad de Madrid",
-            "en": "Madrid"
+            "en": "Madrid",
+            "es": "Madrid",
+            "ca": "Comunitat de Madrid",
+            "eu": "Madrilgo Erkidegoa",
+            "gl": "Comunidade de Madrid",
+            "de": "Madrid",
+            "fr": "communauté de Madrid",
+            "it": "comunità di Madrid",
+            "nl": "Madrid",
+            "pl": "Madryt",
+            "pt": "Comunidade de Madrid",
+            "ru": "Мадрид",
+            "tr": "Madrid"
           }
         },
         {
           "code": "ES-ML",
           "names": {
+            "en": "Melilla",
             "es": "Melilla",
-            "en": "Melilla"
+            "ca": "Melilla",
+            "eu": "Melilla",
+            "gl": "Melilla",
+            "de": "Melilla",
+            "fr": "Melilla",
+            "it": "Melilla",
+            "nl": "Melilla",
+            "pl": "Melilla",
+            "pt": "Melilla",
+            "ru": "Мелилья",
+            "tr": "Melilla"
           }
         },
         {
           "code": "ES-NC",
           "names": {
-            "es": "Comunidad Foral de Navarra",
             "en": "Navarre",
-            "eu": "Nafarroako Foru Komunitatea"
+            "es": "Navarra",
+            "ca": "Navarra",
+            "eu": "Nafarroako Foru Komunitatea",
+            "gl": "Navarra",
+            "de": "Navarra",
+            "fr": "Navarre",
+            "it": "Navarra",
+            "nl": "Navarra",
+            "pl": "Nawarra",
+            "pt": "Navarra",
+            "ru": "Наварра",
+            "tr": "Navarra"
           }
         },
         {
           "code": "ES-PV",
           "names": {
-            "es": "País Vasco",
             "en": "Basque Country",
-            "eu": "Euskadi"
+            "es": "País Vasco",
+            "ca": "País Basc",
+            "eu": "Euskadi",
+            "gl": "País Vasco",
+            "de": "Baskenland",
+            "fr": "Pays basque",
+            "it": "Paesi Baschi",
+            "nl": "Baskenland",
+            "pl": "Basków",
+            "pt": "País Basco",
+            "ru": "Страна Басков",
+            "tr": "Bask"
           }
         },
         {
           "code": "ES-RI",
           "names": {
+            "en": "La Rioja",
             "es": "La Rioja",
-            "en": "La Rioja"
+            "ca": "La Rioja",
+            "eu": "Errioxako Autonomia Erkidegoa",
+            "gl": "A Rioxa",
+            "de": "La Rioja",
+            "fr": "La Rioja",
+            "it": "La Rioja",
+            "nl": "La Rioja",
+            "pl": "La Rioja",
+            "pt": "La Rioja",
+            "ru": "Риоха",
+            "tr": "La Rioja"
           }
         },
         {
           "code": "ES-VC",
           "names": {
-            "es": "Comunitat Valenciana",
             "en": "Valencian Community",
-            "ca": "Comunitat Valenciana"
+            "es": "Comunitat Valenciana",
+            "ca": "Comunitat Valenciana",
+            "eu": "Valentziako Erkidegoa",
+            "gl": "Comunidade Valenciana",
+            "de": "Valencianische Gemeinschaft",
+            "fr": "communauté valencienne",
+            "it": "comunità Valenzana",
+            "nl": "Valencia",
+            "pl": "Walencja",
+            "pt": "Comunidade Valenciana",
+            "ru": "Валенсия",
+            "tr": "Valensiya"
           }
         }
       ]
@@ -715,8 +1484,17 @@
     {
       "code": "FR",
       "names": {
+        "en": "France",
         "fr": "France",
-        "en": "France"
+        "de": "Frankreich",
+        "es": "Francia",
+        "it": "Francia",
+        "nl": "Frankrijk",
+        "pl": "Francja",
+        "pt": "França",
+        "rm": "Frantscha",
+        "ru": "Франция",
+        "tr": "Fransa"
       },
       "languages": [
         "fr"
@@ -725,71 +1503,136 @@
         {
           "code": "FR-57",
           "names": {
+            "en": "Moselle",
             "fr": "Moselle",
-            "en": "Moselle"
+            "de": "Moselle",
+            "es": "Mosela",
+            "it": "Mosella",
+            "nl": "Moselle",
+            "pl": "Mozela",
+            "pt": "Mosela",
+            "ru": "Мозель",
+            "tr": "Moselle"
           }
         },
         {
           "code": "FR-67",
           "names": {
+            "en": "Bas-Rhin",
             "fr": "Bas-Rhin",
-            "en": "Bas-Rhin"
+            "de": "Bas-Rhin",
+            "es": "Bajo Rin",
+            "it": "Basso Reno",
+            "nl": "Bas-Rhin",
+            "pl": "Dolny Ren",
+            "pt": "Baixo Reno",
+            "ru": "Нижний Рейн",
+            "tr": "Bas-Rhin"
           }
         },
         {
           "code": "FR-68",
           "names": {
+            "en": "Haut-Rhin",
             "fr": "Haut-Rhin",
-            "en": "Haut-Rhin"
+            "de": "Haut-Rhin",
+            "es": "Alto Rin",
+            "it": "Alto Reno",
+            "nl": "Haut-Rhin",
+            "pl": "Górny Ren",
+            "pt": "Alto Reno",
+            "ru": "Верхний Рейн",
+            "tr": "Haut-Rhin"
           }
         },
         {
           "code": "FR-971",
           "names": {
+            "en": "Guadeloupe",
             "fr": "Guadeloupe",
-            "en": "Guadeloupe"
+            "de": "Guadeloupe",
+            "es": "Guadalupe",
+            "it": "Guadalupa",
+            "nl": "Guadeloupe",
+            "pl": "Gwadelupa",
+            "pt": "Guadalupe",
+            "ru": "Гваделупа",
+            "tr": "Guadeloupe"
           }
         },
         {
           "code": "FR-972",
           "names": {
+            "en": "Martinique",
             "fr": "Martinique",
-            "en": "Martinique"
+            "de": "Martinique",
+            "es": "Martinica",
+            "it": "Martinica",
+            "nl": "Martinique",
+            "pl": "Martynika",
+            "pt": "Martinica",
+            "ru": "Мартиника",
+            "tr": "Martinique"
           }
         },
         {
           "code": "FR-973",
           "names": {
+            "en": "French Guiana",
             "fr": "Guyane",
-            "en": "French Guiana"
+            "de": "Französisch-Guayana",
+            "es": "Guayana Francesa",
+            "it": "Guyana francese",
+            "nl": "Frans-Guyana",
+            "pl": "Gujana Francuska",
+            "pt": "Guiana Francesa",
+            "ru": "Французская Гвиана",
+            "tr": "French Guiana"
           }
         },
         {
           "code": "FR-974",
           "names": {
+            "en": "Réunion",
             "fr": "La Réunion",
-            "en": "Réunion"
+            "de": "Réunion",
+            "es": "Reunión",
+            "it": "Riunione",
+            "nl": "Réunion",
+            "pl": "Reunion",
+            "pt": "Reunião",
+            "ru": "Реюньон",
+            "tr": "Réunion"
           }
         },
         {
           "code": "FR-976",
           "names": {
+            "en": "Mayotte",
             "fr": "Mayotte",
-            "en": "Mayotte"
+            "de": "Mayotte",
+            "es": "Mayotte",
+            "it": "Mayotte",
+            "nl": "Mayotte",
+            "pl": "Mayotte",
+            "pt": "Mayotte",
+            "rm": "Mayotte",
+            "ru": "Майотта",
+            "tr": "Mayotte"
           }
         },
         {
           "code": "FR-BL",
           "names": {
-            "fr": "Saint-Barthélemy",
-            "en": "Saint Barthélemy"
+            "en": "Saint Barthélemy",
+            "fr": "Saint-Barthélemy"
           }
         },
         {
           "code": "FR-MF",
           "names": {
-            "fr": "Saint-Martin",
-            "en": "Saint Martin"
+            "en": "Saint Martin",
+            "fr": "Saint-Martin"
           }
         }
       ]
@@ -797,7 +1640,20 @@
     {
       "code": "GB",
       "names": {
-        "en": "United Kingdom"
+        "en": "United Kingdom",
+        "cy": "Y Deyrnas Unedig",
+        "ga": "an Ríocht Aontaithe",
+        "gd": "An Rìoghachd Aonaichte",
+        "de": "Vereinigtes Königreich",
+        "es": "Reino Unido",
+        "fr": "Royaume-Uni",
+        "it": "Regno Unito",
+        "nl": "Verenigd Koninkrijk",
+        "pl": "Wielka Brytania",
+        "pt": "Reino Unido",
+        "rm": "Reginavel Unì",
+        "ru": "Великобритания",
+        "tr": "Birleşik Krallık"
       },
       "languages": [
         "en"
@@ -807,28 +1663,75 @@
           "code": "GB-ENG",
           "names": {
             "en": "England",
-            "cy": "Lloegr"
+            "cy": "Lloegr",
+            "ga": "Sasana",
+            "gd": "Sasainn",
+            "de": "England",
+            "es": "Inglaterra",
+            "fr": "Angleterre",
+            "it": "Inghilterra",
+            "nl": "Engeland",
+            "pl": "Anglia",
+            "pt": "Inglaterra",
+            "rm": "Engalterra",
+            "ru": "Англия",
+            "tr": "İngiltere"
           }
         },
         {
           "code": "GB-NIR",
           "names": {
             "en": "Northern Ireland",
-            "cy": "Gogledd Iwerddon"
+            "cy": "Gogledd Iwerddon",
+            "ga": "Tuaisceart Éireann",
+            "de": "Nordirland",
+            "es": "Irlanda del Norte",
+            "fr": "Irlande du Nord",
+            "it": "Irlanda del Nord",
+            "nl": "Noord-Ierland",
+            "pl": "Irlandia Północna",
+            "pt": "Irlanda do Norte",
+            "rm": "Irlanda dal Nord",
+            "ru": "Северная Ирландия",
+            "tr": "Kuzey İrlanda"
           }
         },
         {
           "code": "GB-SCT",
           "names": {
             "en": "Scotland",
-            "cy": "Yr Alban"
+            "cy": "Yr Alban",
+            "ga": "Albain",
+            "gd": "Alba",
+            "de": "Schottland",
+            "es": "Escocia",
+            "fr": "Écosse",
+            "it": "Scozia",
+            "nl": "Schotland",
+            "pl": "Szkocja",
+            "pt": "Escócia",
+            "rm": "Scozia",
+            "ru": "Шотландия",
+            "tr": "İskoçya"
           }
         },
         {
           "code": "GB-WLS",
           "names": {
             "en": "Wales",
-            "cy": "Cymru"
+            "cy": "Cymru",
+            "ga": "an Bhreatain Bheag",
+            "gd": "A’ Chuimrigh",
+            "de": "Wales",
+            "es": "Gales",
+            "fr": "Pays de Galles",
+            "it": "Galles",
+            "nl": "Wales",
+            "pl": "Walia",
+            "pt": "País de Gales",
+            "rm": "Valisa",
+            "ru": "Уэльс",
+            "tr": "Galler"
           }
         }
       ]
@@ -837,7 +1740,17 @@
       "code": "IE",
       "names": {
         "en": "Ireland",
-        "ga": "Éire"
+        "ga": "Éire",
+        "de": "Irland",
+        "es": "Irlanda",
+        "fr": "Irlande",
+        "it": "Irlanda",
+        "nl": "Ierland",
+        "pl": "Irlandia",
+        "pt": "Irlanda",
+        "rm": "Irlanda",
+        "ru": "Ирландия",
+        "tr": "İrlanda"
       },
       "languages": [
         "en",
@@ -848,8 +1761,17 @@
     {
       "code": "IT",
       "names": {
+        "en": "Italy",
         "it": "Italia",
-        "en": "Italy"
+        "fr": "Italie",
+        "de": "Italien",
+        "es": "Italia",
+        "nl": "Italië",
+        "pl": "Włochy",
+        "pt": "Itália",
+        "rm": "Italia",
+        "ru": "Италия",
+        "tr": "İtalya"
       },
       "languages": [
         "it"
@@ -858,148 +1780,321 @@
         {
           "code": "IT-21",
           "names": {
+            "en": "Piedmont",
             "it": "Piemonte",
-            "en": "Piedmont"
+            "fr": "Piémont",
+            "de": "Piemont",
+            "es": "Piamonte",
+            "nl": "Piemonte",
+            "pl": "Piemont",
+            "pt": "Piemonte",
+            "rm": "Piemont",
+            "ru": "Пьемонт",
+            "tr": "Piyemonte"
           }
         },
         {
           "code": "IT-23",
           "names": {
+            "en": "Aosta Valley",
             "it": "Valle d’Aosta",
-            "en": "Aosta Valley"
+            "fr": "Vallée d’Aoste",
+            "de": "Aostatal",
+            "es": "Valle de Aosta",
+            "nl": "Valle d’Aosta",
+            "pl": "Dolina Aosty",
+            "pt": "Vale de Aosta",
+            "tr": "Aosta Vadisi"
           }
         },
         {
           "code": "IT-25",
           "names": {
+            "en": "Lombardy",
             "it": "Lombardia",
-            "en": "Lombardy"
+            "fr": "Lombardie",
+            "de": "Lombardei",
+            "es": "Lombardía",
+            "nl": "Lombardije",
+            "pl": "Lombardia",
+            "pt": "Lombardia",
+            "rm": "Lumbardia",
+            "ru": "Ломбардия",
+            "tr": "Lombardiya"
           }
         },
         {
           "code": "IT-34",
           "names": {
+            "en": "Veneto",
             "it": "Veneto",
-            "en": "Veneto"
+            "fr": "Vénétie",
+            "de": "Venetien",
+            "es": "Véneto",
+            "nl": "Veneto",
+            "pl": "Wenecja Euganejska",
+            "pt": "Véneto",
+            "ru": "Венеция",
+            "tr": "Veneto"
           }
         },
         {
           "code": "IT-36",
           "names": {
+            "en": "Friuli Venezia Giulia",
             "it": "Friuli Venezia Giulia",
-            "en": "Friuli Venezia Giulia"
+            "fr": "Frioul-Vénétie julienne",
+            "de": "Friaul-Julisch Venetien",
+            "es": "Friuli-Venecia Julia",
+            "nl": "Friuli-Venezia Giulia",
+            "pl": "Friuli-Wenecja Julijska",
+            "pt": "Friul-Veneza Júlia",
+            "ru": "Фриули-Венеция-Джулия",
+            "tr": "Friuli-Venezia Giulia"
           }
         },
         {
           "code": "IT-42",
           "names": {
+            "en": "Liguria",
             "it": "Liguria",
-            "en": "Liguria"
+            "fr": "Ligurie",
+            "de": "Ligurien",
+            "es": "Liguria",
+            "nl": "Ligurië",
+            "pl": "Liguria",
+            "pt": "Ligúria",
+            "rm": "Liguria",
+            "ru": "Лигурия",
+            "tr": "Ligurya"
           }
         },
         {
           "code": "IT-45",
           "names": {
+            "en": "Emilia-Romagna",
             "it": "Emilia-Romagna",
-            "en": "Emilia-Romagna"
+            "fr": "Émilie-Romagne",
+            "de": "Emilia-Romagna",
+            "es": "Emilia-Romaña",
+            "nl": "Emilia-Romagna",
+            "pl": "Emilia-Romania",
+            "pt": "Emília-Romanha",
+            "ru": "Эмилия-Романья",
+            "tr": "Emilia-Romagna"
           }
         },
         {
           "code": "IT-52",
           "names": {
+            "en": "Tuscany",
             "it": "Toscana",
-            "en": "Tuscany"
+            "fr": "Toscane",
+            "de": "Toskana",
+            "es": "Toscana",
+            "nl": "Toscane",
+            "pl": "Toskania",
+            "pt": "Toscana",
+            "rm": "Toscana",
+            "ru": "Тоскана",
+            "tr": "Toskana"
           }
         },
         {
           "code": "IT-55",
           "names": {
+            "en": "Umbria",
             "it": "Umbria",
-            "en": "Umbria"
+            "fr": "Ombrie",
+            "de": "Umbrien",
+            "es": "Umbría",
+            "nl": "Umbrië",
+            "pl": "Umbria",
+            "pt": "Úmbria",
+            "ru": "Умбрия",
+            "tr": "Umbria"
           }
         },
         {
           "code": "IT-57",
           "names": {
+            "en": "Marche",
             "it": "Marche",
-            "en": "Marche"
+            "fr": "Marches",
+            "de": "Marken",
+            "es": "Marcas",
+            "nl": "Marche",
+            "pl": "Marche",
+            "pt": "Marcas",
+            "ru": "Марке",
+            "tr": "Marche"
           }
         },
         {
           "code": "IT-62",
           "names": {
+            "en": "Lazio",
             "it": "Lazio",
-            "en": "Lazio"
+            "fr": "Latium",
+            "de": "Latium",
+            "es": "Lacio",
+            "nl": "Lazio",
+            "pl": "Lacjum",
+            "pt": "Lácio",
+            "rm": "Lazio",
+            "ru": "Лацио",
+            "tr": "Lazio"
           }
         },
         {
           "code": "IT-65",
           "names": {
+            "en": "Abruzzo",
             "it": "Abruzzo",
-            "en": "Abruzzo"
+            "fr": "Abruzzes",
+            "de": "Abruzzen",
+            "es": "Abruzos",
+            "nl": "Abruzzen",
+            "pl": "Abruzja",
+            "pt": "Abruzos",
+            "ru": "Абруццо",
+            "tr": "Abruzzo"
           }
         },
         {
           "code": "IT-67",
           "names": {
+            "en": "Molise",
             "it": "Molise",
-            "en": "Molise"
+            "fr": "Molise",
+            "de": "Molise",
+            "es": "Molise",
+            "nl": "Molise",
+            "pl": "Molise",
+            "pt": "Molise",
+            "ru": "Молизе",
+            "tr": "Molise"
           }
         },
         {
           "code": "IT-72",
           "names": {
+            "en": "Campania",
             "it": "Campania",
-            "en": "Campania"
+            "fr": "Campanie",
+            "de": "Kampanien",
+            "es": "Campania",
+            "nl": "Campania",
+            "pl": "Kampania",
+            "pt": "Campânia",
+            "ru": "Кампания",
+            "tr": "Campania"
           }
         },
         {
           "code": "IT-75",
           "names": {
+            "en": "Apulia",
             "it": "Puglia",
-            "en": "Apulia"
+            "fr": "Pouilles",
+            "de": "Apulien",
+            "es": "Apulia",
+            "nl": "Apulië",
+            "pl": "Apulia",
+            "pt": "Apúlia",
+            "ru": "Апулия",
+            "tr": "Puglia"
           }
         },
         {
           "code": "IT-77",
           "names": {
+            "en": "Basilicata",
             "it": "Basilicata",
-            "en": "Basilicata"
+            "fr": "Basilicate",
+            "de": "Basilikata",
+            "es": "Basilicata",
+            "nl": "Basilicata",
+            "pl": "Basilicata",
+            "pt": "Basilicata",
+            "ru": "Базиликата",
+            "tr": "Basilicata"
           }
         },
         {
           "code": "IT-78",
           "names": {
+            "en": "Calabria",
             "it": "Calabria",
-            "en": "Calabria"
+            "fr": "Calabre",
+            "de": "Kalabrien",
+            "es": "Calabria",
+            "nl": "Calabrië",
+            "pl": "Kalabria",
+            "pt": "Calábria",
+            "ru": "Калабрия",
+            "tr": "Calabria"
           }
         },
         {
           "code": "IT-82",
           "names": {
+            "en": "Sicily",
             "it": "Sicilia",
-            "en": "Sicily"
+            "fr": "Sicile",
+            "de": "Sizilien",
+            "es": "Sicilia",
+            "nl": "Sicilië",
+            "pl": "Sycylia",
+            "pt": "Sicília",
+            "ru": "Сицилия",
+            "tr": "Sicilya"
           }
         },
         {
           "code": "IT-88",
           "names": {
+            "en": "Sardinia",
             "it": "Sardegna",
-            "en": "Sardinia"
+            "fr": "Sardaigne",
+            "de": "Sardinien",
+            "es": "Cerdeña",
+            "nl": "Sardinië",
+            "pl": "Sardynia",
+            "pt": "Sardenha",
+            "ru": "Сардиния",
+            "tr": "Sardinya"
           }
         },
         {
           "code": "IT-BZ",
           "names": {
-            "it": "Provincia autonoma di Bolzano – Alto Adige",
-            "en": "South Tyrol (Autonomous Province of Bolzano)"
+            "en": "South Tyrol",
+            "it": "Bolzano",
+            "fr": "Bolzano",
+            "de": "Südtirol",
+            "es": "Bolzano",
+            "nl": "Zuid-Tirol",
+            "pl": "Bolzano",
+            "pt": "Autónoma de Bolzano",
+            "rm": "Tirol dal Sid",
+            "ru": "Больцано",
+            "tr": "Güney Tirol"
           }
         },
         {
           "code": "IT-TN",
           "names": {
-            "it": "Provincia autonoma di Trento",
-            "en": "Trentino (Autonomous Province of Trento)"
+            "en": "Trentino",
+            "it": "Trento",
+            "fr": "Trente",
+            "de": "Trentino",
+            "es": "Trento",
+            "nl": "Trente",
+            "pl": "Trydent",
+            "pt": "Autónoma de Trento",
+            "ru": "Тренто",
+            "tr": "Trento"
           }
         }
       ]
@@ -1007,8 +2102,17 @@
     {
       "code": "LI",
       "names": {
+        "en": "Liechtenstein",
         "de": "Liechtenstein",
-        "en": "Liechtenstein"
+        "es": "Liechtenstein",
+        "fr": "Liechtenstein",
+        "it": "Liechtenstein",
+        "nl": "Liechtenstein",
+        "pl": "Liechtenstein",
+        "pt": "Liechtenstein",
+        "rm": "Liechtenstein",
+        "ru": "Лихтенштейн",
+        "tr": "Liechtenstein"
       },
       "languages": [
         "de"
@@ -1017,78 +2121,177 @@
         {
           "code": "LI-01",
           "names": {
+            "en": "Balzers",
             "de": "Balzers",
-            "en": "Balzers"
+            "es": "Balzers",
+            "fr": "Balzers",
+            "it": "Balzers",
+            "nl": "Balzers",
+            "pl": "Balzers",
+            "pt": "Balzers",
+            "rm": "Balzers",
+            "ru": "Бальцерс",
+            "tr": "Balzers"
           }
         },
         {
           "code": "LI-02",
           "names": {
+            "en": "Eschen",
             "de": "Eschen",
-            "en": "Eschen"
+            "es": "Eschen",
+            "fr": "Eschen",
+            "it": "Eschen",
+            "nl": "Eschen",
+            "pl": "Eschen",
+            "pt": "Eschen",
+            "rm": "Eschen",
+            "ru": "Эшен",
+            "tr": "Eschen"
           }
         },
         {
           "code": "LI-03",
           "names": {
+            "en": "Gamprin",
             "de": "Gamprin",
-            "en": "Gamprin"
+            "es": "Gamprin",
+            "fr": "Gamprin",
+            "it": "Gamprin",
+            "nl": "Gamprin",
+            "pl": "Gamprin",
+            "pt": "Gamprin",
+            "rm": "Gamprin",
+            "ru": "Гамприн",
+            "tr": "Gamprin"
           }
         },
         {
           "code": "LI-04",
           "names": {
+            "en": "Mauren",
             "de": "Mauren",
-            "en": "Mauren"
+            "es": "Mauren",
+            "fr": "Mauren",
+            "it": "Mauren",
+            "nl": "Mauren",
+            "pl": "Mauren",
+            "pt": "Mauren",
+            "rm": "Mauren",
+            "ru": "Маурен",
+            "tr": "Mauren"
           }
         },
         {
           "code": "LI-05",
           "names": {
+            "en": "Planken",
             "de": "Planken",
-            "en": "Planken"
+            "es": "Planken",
+            "fr": "Planken",
+            "it": "Planken",
+            "nl": "Planken",
+            "pl": "Planken",
+            "pt": "Planken",
+            "rm": "Planken",
+            "ru": "Планкен",
+            "tr": "Planken"
           }
         },
         {
           "code": "LI-06",
           "names": {
+            "en": "Ruggell",
             "de": "Ruggell",
-            "en": "Ruggell"
+            "es": "Ruggell",
+            "fr": "Ruggell",
+            "it": "Ruggell",
+            "nl": "Ruggell",
+            "pl": "Ruggell",
+            "pt": "Ruggell",
+            "rm": "Ruggell",
+            "ru": "Руггелль",
+            "tr": "Ruggell"
           }
         },
         {
           "code": "LI-07",
           "names": {
+            "en": "Schaan",
             "de": "Schaan",
-            "en": "Schaan"
+            "es": "Schaan",
+            "fr": "Schaan",
+            "it": "Schaan",
+            "nl": "Schaan",
+            "pl": "Schaan",
+            "pt": "Schaan",
+            "rm": "Schaan",
+            "ru": "Шан",
+            "tr": "Schaan"
           }
         },
         {
           "code": "LI-08",
           "names": {
+            "en": "Schellenberg",
             "de": "Schellenberg",
-            "en": "Schellenberg"
+            "es": "Schellenberg",
+            "fr": "Schellenberg",
+            "it": "Schellenberg",
+            "nl": "Schellenberg",
+            "pl": "Schellenberg",
+            "pt": "Schellenberg",
+            "rm": "Schellenberg",
+            "ru": "Шелленберг",
+            "tr": "Schellenberg"
           }
         },
         {
           "code": "LI-09",
           "names": {
+            "en": "Triesen",
             "de": "Triesen",
-            "en": "Triesen"
+            "es": "Triesen",
+            "fr": "Triesen",
+            "it": "Triesen",
+            "nl": "Triesen",
+            "pl": "Triesen",
+            "pt": "Triesen",
+            "rm": "Triesen",
+            "ru": "Тризен",
+            "tr": "Triesen"
           }
         },
         {
           "code": "LI-10",
           "names": {
+            "en": "Triesenberg",
             "de": "Triesenberg",
-            "en": "Triesenberg"
+            "es": "Triesenberg",
+            "fr": "Triesenberg",
+            "it": "Triesenberg",
+            "nl": "Triesenberg",
+            "pl": "Triesenberg",
+            "pt": "Triesenberg",
+            "rm": "Triesenberg",
+            "ru": "Тризенберг",
+            "tr": "Triesenberg"
           }
         },
         {
           "code": "LI-11",
           "names": {
+            "en": "Vaduz",
             "de": "Vaduz",
-            "en": "Vaduz"
+            "es": "Vaduz",
+            "fr": "Vaduz",
+            "it": "Vaduz",
+            "nl": "Vaduz",
+            "pl": "Vaduz",
+            "pt": "Vaduz",
+            "rm": "Vaduz",
+            "ru": "Вадуц",
+            "tr": "Vaduz"
           }
         }
       ]
@@ -1096,14 +2299,22 @@
     {
       "code": "LU",
       "names": {
-        "lb": "Lëtzebuerg",
+        "en": "Luxembourg",
         "fr": "Luxembourg",
+        "lb": "Lëtzebuerg",
         "de": "Luxemburg",
-        "en": "Luxembourg"
+        "es": "Luxemburgo",
+        "it": "Lussemburgo",
+        "nl": "Luxemburg",
+        "pl": "Luksemburg",
+        "pt": "Luxemburgo",
+        "rm": "Luxemburg",
+        "ru": "Люксембург",
+        "tr": "Lüksemburg"
       },
       "languages": [
-        "lb",
         "fr",
+        "lb",
         "de"
       ],
       "regions": []
@@ -1111,8 +2322,17 @@
     {
       "code": "MC",
       "names": {
+        "en": "Monaco",
         "fr": "Monaco",
-        "en": "Monaco"
+        "de": "Monaco",
+        "es": "Mónaco",
+        "it": "Monaco",
+        "nl": "Monaco",
+        "pl": "Monako",
+        "pt": "Mônaco",
+        "rm": "Monaco",
+        "ru": "Монако",
+        "tr": "Monako"
       },
       "languages": [
         "fr"
@@ -1122,8 +2342,18 @@
     {
       "code": "MT",
       "names": {
+        "en": "Malta",
         "mt": "Malta",
-        "en": "Malta"
+        "de": "Malta",
+        "es": "Malta",
+        "fr": "Malte",
+        "it": "Malta",
+        "nl": "Malta",
+        "pl": "Malta",
+        "pt": "Malta",
+        "rm": "Malta",
+        "ru": "Мальта",
+        "tr": "Malta"
       },
       "languages": [
         "mt",
@@ -1134,8 +2364,17 @@
     {
       "code": "NL",
       "names": {
+        "en": "Netherlands",
         "nl": "Nederland",
-        "en": "Netherlands"
+        "de": "Niederlande",
+        "es": "Países Bajos",
+        "fr": "Pays-Bas",
+        "it": "Paesi Bassi",
+        "pl": "Holandia",
+        "pt": "Países Baixos",
+        "rm": "Pajais Bass",
+        "ru": "Нидерланды",
+        "tr": "Hollanda"
       },
       "languages": [
         "nl"
@@ -1144,106 +2383,226 @@
         {
           "code": "NL-DR",
           "names": {
+            "en": "Drenthe",
             "nl": "Drenthe",
-            "en": "Drenthe"
+            "de": "Drente",
+            "es": "Drente",
+            "fr": "Drenthe",
+            "it": "Drenthe",
+            "pl": "Drenthe",
+            "pt": "Drente",
+            "ru": "Дренте",
+            "tr": "Drenthe"
           }
         },
         {
           "code": "NL-FL",
           "names": {
+            "en": "Flevoland",
             "nl": "Flevoland",
-            "en": "Flevoland"
+            "de": "Flevoland",
+            "es": "Flevoland",
+            "fr": "Flevoland",
+            "it": "Flevoland",
+            "pl": "Flevoland",
+            "pt": "Flevolândia",
+            "ru": "Флеволанд",
+            "tr": "Flevoland"
           }
         },
         {
           "code": "NL-FR",
           "names": {
+            "en": "Friesland",
             "nl": "Fryslân",
-            "en": "Friesland"
+            "de": "Friesland",
+            "es": "Frisia",
+            "fr": "Frise",
+            "it": "Frisia",
+            "pl": "Fryzja",
+            "pt": "Frísia",
+            "ru": "Фрисландия",
+            "tr": "Frizya"
           }
         },
         {
           "code": "NL-GE",
           "names": {
+            "en": "Gelderland",
             "nl": "Gelderland",
-            "en": "Gelderland"
+            "de": "Gelderland",
+            "es": "Güeldres",
+            "fr": "Gueldre",
+            "it": "Gheldria",
+            "pl": "Geldria",
+            "pt": "Guéldria",
+            "ru": "Гелдерланд",
+            "tr": "Gelderland"
           }
         },
         {
           "code": "NL-GR",
           "names": {
+            "en": "Groningen",
             "nl": "Groningen",
-            "en": "Groningen"
+            "de": "Groningen",
+            "es": "Groninga",
+            "fr": "Groningue",
+            "it": "Groninga",
+            "pl": "Groningen",
+            "pt": "Groninga",
+            "ru": "Гронинген",
+            "tr": "Groningen"
           }
         },
         {
           "code": "NL-LI",
           "names": {
+            "en": "Limburg",
             "nl": "Limburg",
-            "en": "Limburg"
+            "de": "Limburg",
+            "es": "Limburgo",
+            "fr": "Limbourg",
+            "it": "Limburgo",
+            "pl": "Limburgia",
+            "pt": "Limburgo",
+            "ru": "Лимбург",
+            "tr": "Limburg"
           }
         },
         {
           "code": "NL-NB",
           "names": {
+            "en": "North Brabant",
             "nl": "Noord-Brabant",
-            "en": "North Brabant"
+            "de": "Nordbrabant",
+            "es": "Brabante Septentrional",
+            "fr": "Brabant-Septentrional",
+            "it": "Brabante Settentrionale",
+            "pl": "Brabancja Północna",
+            "pt": "Brabante do Norte",
+            "ru": "Северный Брабант",
+            "tr": "Kuzey Brabant"
           }
         },
         {
           "code": "NL-NH",
           "names": {
+            "en": "North Holland",
             "nl": "Noord-Holland",
-            "en": "North Holland"
+            "de": "Nordholland",
+            "es": "Holanda Septentrional",
+            "fr": "Hollande-Septentrionale",
+            "it": "Olanda Settentrionale",
+            "pl": "Holandia Północna",
+            "pt": "Holanda do Norte",
+            "ru": "Северная Голландия",
+            "tr": "Kuzey Hollanda"
           }
         },
         {
           "code": "NL-OV",
           "names": {
+            "en": "Overijssel",
             "nl": "Overijssel",
-            "en": "Overijssel"
+            "de": "Overijssel",
+            "es": "Overijssel",
+            "fr": "Overijssel",
+            "it": "Overijssel",
+            "pl": "Overijssel",
+            "pt": "Overissel",
+            "ru": "Оверэйсел",
+            "tr": "Overijssel"
           }
         },
         {
           "code": "NL-UT",
           "names": {
+            "en": "Utrecht",
             "nl": "Utrecht",
-            "en": "Utrecht"
+            "de": "Utrecht",
+            "es": "Utrecht",
+            "fr": "Utrecht",
+            "it": "Utrecht",
+            "pl": "Utrecht",
+            "pt": "Utrecht",
+            "ru": "Утрехт",
+            "tr": "Utrecht"
           }
         },
         {
           "code": "NL-ZE",
           "names": {
+            "en": "Zeeland",
             "nl": "Zeeland",
-            "en": "Zeeland"
+            "de": "Zeeland",
+            "es": "Zelanda",
+            "fr": "Zélande",
+            "it": "Zelanda",
+            "pl": "Zelandia",
+            "pt": "Zelândia",
+            "ru": "Зеландия",
+            "tr": "Zelanda"
           }
         },
         {
           "code": "NL-ZH",
           "names": {
+            "en": "South Holland",
             "nl": "Zuid-Holland",
-            "en": "South Holland"
+            "de": "Südholland",
+            "es": "Holanda Meridional",
+            "fr": "Hollande-Méridionale",
+            "it": "Olanda Meridionale",
+            "pl": "Holandia Południowa",
+            "pt": "Holanda do Sul",
+            "ru": "Южная Голландия",
+            "tr": "Güney Hollanda"
           }
         },
         {
           "code": "NL-BQ1",
           "names": {
+            "en": "Bonaire",
             "nl": "Bonaire",
-            "en": "Bonaire"
+            "de": "Bonaire",
+            "es": "Bonaire",
+            "fr": "Bonaire",
+            "it": "Bonaire",
+            "pl": "Bonaire",
+            "pt": "Bonaire",
+            "ru": "Бонэйр",
+            "tr": "Bonaire"
           }
         },
         {
           "code": "NL-BQ2",
           "names": {
+            "en": "Saba",
             "nl": "Saba",
-            "en": "Saba"
+            "de": "Saba",
+            "es": "Saba",
+            "fr": "Saba",
+            "it": "Saba",
+            "pl": "Saba",
+            "pt": "Saba",
+            "ru": "Саба",
+            "tr": "Saba"
           }
         },
         {
           "code": "NL-BQ3",
           "names": {
+            "en": "Sint Eustatius",
             "nl": "Sint Eustatius",
-            "en": "Sint Eustatius"
+            "de": "Sint Eustatius",
+            "es": "San Eustaquio",
+            "fr": "Saint-Eustache",
+            "it": "Sint Eustatius",
+            "pl": "Sint Eustatius",
+            "pt": "Santo Eustáquio",
+            "ru": "Синт-Эстатиус",
+            "tr": "Sint Eustatius"
           }
         }
       ]
@@ -1251,8 +2610,17 @@
     {
       "code": "PT",
       "names": {
+        "en": "Portugal",
         "pt": "Portugal",
-        "en": "Portugal"
+        "de": "Portugal",
+        "es": "Portugal",
+        "fr": "Portugal",
+        "it": "Portogallo",
+        "nl": "Portugal",
+        "pl": "Portugalia",
+        "rm": "Portugal",
+        "ru": "Португалия",
+        "tr": "Portekiz"
       },
       "languages": [
         "pt"
@@ -1261,141 +2629,300 @@
         {
           "code": "PT-01",
           "names": {
+            "en": "Aveiro",
             "pt": "Aveiro",
-            "en": "Aveiro"
+            "de": "Aveiro",
+            "es": "Aveiro",
+            "fr": "Aveiro",
+            "it": "Aveiro",
+            "nl": "Aveiro",
+            "pl": "Aveiro",
+            "ru": "Авейру",
+            "tr": "Aveiro"
           }
         },
         {
           "code": "PT-02",
           "names": {
+            "en": "Beja",
             "pt": "Beja",
-            "en": "Beja"
+            "de": "Beja",
+            "es": "Beja",
+            "fr": "Beja",
+            "it": "Beja",
+            "nl": "Beja",
+            "pl": "Beja",
+            "ru": "Бежа",
+            "tr": "Beja"
           }
         },
         {
           "code": "PT-03",
           "names": {
+            "en": "Braga",
             "pt": "Braga",
-            "en": "Braga"
+            "de": "Braga",
+            "es": "Braga",
+            "fr": "Braga",
+            "it": "Braga",
+            "nl": "Braga",
+            "pl": "Braga",
+            "ru": "Брага",
+            "tr": "Braga"
           }
         },
         {
           "code": "PT-04",
           "names": {
+            "en": "Bragança",
             "pt": "Bragança",
-            "en": "Bragança"
+            "de": "Bragança",
+            "es": "Braganza",
+            "fr": "Bragance",
+            "it": "Braganza",
+            "nl": "Bragança",
+            "pl": "Bragança",
+            "ru": "Браганса",
+            "tr": "Bragança"
           }
         },
         {
           "code": "PT-05",
           "names": {
+            "en": "Castelo Branco",
             "pt": "Castelo Branco",
-            "en": "Castelo Branco"
+            "de": "Castelo Branco",
+            "es": "Castelo Branco",
+            "fr": "Castelo Branco",
+            "it": "Castelo Branco",
+            "nl": "Castelo Branco",
+            "pl": "Castelo Branco",
+            "ru": "Каштелу-Бранку",
+            "tr": "Castello Branco"
           }
         },
         {
           "code": "PT-06",
           "names": {
+            "en": "Coimbra",
             "pt": "Coimbra",
-            "en": "Coimbra"
+            "de": "Coimbra",
+            "es": "Coímbra",
+            "fr": "Coimbra",
+            "it": "Coimbra",
+            "nl": "Coimbra",
+            "pl": "Coimbra",
+            "ru": "Коимбра",
+            "tr": "Coimbra"
           }
         },
         {
           "code": "PT-07",
           "names": {
+            "en": "Évora",
             "pt": "Évora",
-            "en": "Évora"
+            "de": "Évora",
+            "es": "Évora",
+            "fr": "Évora",
+            "it": "Évora",
+            "nl": "Évora",
+            "pl": "Évora",
+            "ru": "Эвора",
+            "tr": "Évora"
           }
         },
         {
           "code": "PT-08",
           "names": {
+            "en": "Faro",
             "pt": "Faro",
-            "en": "Faro"
+            "de": "Faro",
+            "es": "Faro",
+            "fr": "Faro",
+            "it": "Faro",
+            "nl": "Faro",
+            "pl": "Faro",
+            "ru": "Фару",
+            "tr": "Faro"
           }
         },
         {
           "code": "PT-09",
           "names": {
+            "en": "Guarda",
             "pt": "Guarda",
-            "en": "Guarda"
+            "de": "Guarda",
+            "es": "Guarda",
+            "fr": "Guarda",
+            "it": "Guarda",
+            "nl": "Guarda",
+            "pl": "Guarda",
+            "ru": "Гуарда",
+            "tr": "Guarda"
           }
         },
         {
           "code": "PT-10",
           "names": {
+            "en": "Leiria",
             "pt": "Leiria",
-            "en": "Leiria"
+            "de": "Leiria",
+            "es": "Leiria",
+            "fr": "Leiria",
+            "it": "Leiria",
+            "nl": "Leiria",
+            "pl": "Leiria",
+            "ru": "Лейрия",
+            "tr": "Leiria"
           }
         },
         {
           "code": "PT-11",
           "names": {
+            "en": "Lisbon",
             "pt": "Lisboa",
-            "en": "Lisbon"
+            "de": "Lissabon",
+            "es": "Lisboa",
+            "fr": "Lisbonne",
+            "it": "Lisbona",
+            "nl": "Lissabon",
+            "pl": "Lizbona",
+            "ru": "Лиссабон",
+            "tr": "Lizbon"
           }
         },
         {
           "code": "PT-12",
           "names": {
+            "en": "Portalegre",
             "pt": "Portalegre",
-            "en": "Portalegre"
+            "de": "Portalegre",
+            "es": "Portalegre",
+            "fr": "Portalegre",
+            "it": "Portalegre",
+            "nl": "Portalegre",
+            "pl": "Portalegre",
+            "ru": "Порталегри",
+            "tr": "Portalegre"
           }
         },
         {
           "code": "PT-13",
           "names": {
+            "en": "Porto",
             "pt": "Porto",
-            "en": "Porto"
+            "de": "Porto",
+            "es": "Oporto",
+            "fr": "Porto",
+            "it": "Porto",
+            "nl": "Porto",
+            "ru": "Порту",
+            "tr": "Porto"
           }
         },
         {
           "code": "PT-14",
           "names": {
+            "en": "Santarém",
             "pt": "Santarém",
-            "en": "Santarém"
+            "de": "Santarém",
+            "es": "Santarém",
+            "fr": "Santarém",
+            "it": "Santarém",
+            "nl": "Santarém",
+            "pl": "Santarém",
+            "ru": "Сантарен",
+            "tr": "Santarém"
           }
         },
         {
           "code": "PT-15",
           "names": {
+            "en": "Setúbal",
             "pt": "Setúbal",
-            "en": "Setúbal"
+            "de": "Setúbal",
+            "es": "Setúbal",
+            "fr": "Setúbal",
+            "it": "Setúbal",
+            "nl": "Setúbal",
+            "pl": "Setúbal",
+            "ru": "Сетубал",
+            "tr": "Setubal"
           }
         },
         {
           "code": "PT-16",
           "names": {
+            "en": "Viana do Castelo",
             "pt": "Viana do Castelo",
-            "en": "Viana do Castelo"
+            "de": "Viana do Castelo",
+            "es": "Viana do Castelo",
+            "fr": "Viana do Castelo",
+            "it": "Viana do Castelo",
+            "nl": "Viana do Castelo",
+            "pl": "Viana do Castelo",
+            "ru": "Виана-ду-Каштелу",
+            "tr": "Viano do Castelo"
           }
         },
         {
           "code": "PT-17",
           "names": {
+            "en": "Vila Real",
             "pt": "Vila Real",
-            "en": "Vila Real"
+            "de": "Vila Real",
+            "es": "Vila Real",
+            "fr": "Vila Real",
+            "it": "Vila Real",
+            "nl": "Vila Real",
+            "pl": "Vila Real",
+            "ru": "Вила-Реал",
+            "tr": "Vila Real"
           }
         },
         {
           "code": "PT-18",
           "names": {
+            "en": "Viseu",
             "pt": "Viseu",
-            "en": "Viseu"
+            "de": "Viseu",
+            "es": "Viseu",
+            "fr": "Viseu",
+            "it": "Viseu",
+            "nl": "Viseu",
+            "pl": "Viseu",
+            "ru": "Визеу",
+            "tr": "Viseu"
           }
         },
         {
           "code": "PT-20",
           "names": {
-            "pt": "Região Autónoma dos Açores",
-            "en": "Azores"
+            "en": "Azores",
+            "pt": "Açores",
+            "de": "Azoren",
+            "es": "Azores",
+            "fr": "Açores",
+            "it": "Azzorre",
+            "nl": "Azoren",
+            "pl": "Azory",
+            "ru": "Азорские острова",
+            "tr": "Azorlar"
           }
         },
         {
           "code": "PT-30",
           "names": {
-            "pt": "Região Autónoma da Madeira",
-            "en": "Madeira"
+            "en": "Madeira",
+            "pt": "Madeira",
+            "de": "Madeira",
+            "es": "Madeira",
+            "fr": "Madère",
+            "it": "Madera",
+            "nl": "Madeira",
+            "pl": "Madera",
+            "ru": "Мадейра",
+            "tr": "Madeira Adaları"
           }
         }
       ]
@@ -1403,8 +2930,17 @@
     {
       "code": "SM",
       "names": {
+        "en": "San Marino",
         "it": "San Marino",
-        "en": "San Marino"
+        "de": "San Marino",
+        "es": "San Marino",
+        "fr": "Saint-Marin",
+        "nl": "San Marino",
+        "pl": "San Marino",
+        "pt": "San Marino",
+        "rm": "Son Marin",
+        "ru": "Сан-Марино",
+        "tr": "San Marino"
       },
       "languages": [
         "it"
@@ -1413,64 +2949,137 @@
         {
           "code": "SM-01",
           "names": {
+            "en": "Acquaviva",
             "it": "Acquaviva",
-            "en": "Acquaviva"
+            "de": "Acquaviva",
+            "es": "Acquaviva",
+            "fr": "Acquaviva",
+            "nl": "Acquaviva",
+            "pl": "Acquaviva",
+            "pt": "Acquaviva",
+            "ru": "Аккуавива",
+            "tr": "Acquaviva"
           }
         },
         {
           "code": "SM-02",
           "names": {
+            "en": "Chiesanuova",
             "it": "Chiesanuova",
-            "en": "Chiesanuova"
+            "de": "Chiesanuova",
+            "es": "Chiesanuova",
+            "fr": "Chiesanuova",
+            "nl": "Chiesanuova",
+            "pl": "Chiesanuova",
+            "pt": "Chiesanuova",
+            "ru": "Кьезануова",
+            "tr": "Chiesanuova"
           }
         },
         {
           "code": "SM-03",
           "names": {
+            "en": "Domagnano",
             "it": "Domagnano",
-            "en": "Domagnano"
+            "de": "Domagnano",
+            "es": "Domagnano",
+            "fr": "Domagnano",
+            "nl": "Domagnano",
+            "pl": "Domagnano",
+            "pt": "Domagnano",
+            "ru": "Доманьяно",
+            "tr": "Domagnano"
           }
         },
         {
           "code": "SM-04",
           "names": {
+            "en": "Faetano",
             "it": "Faetano",
-            "en": "Faetano"
+            "de": "Faetano",
+            "es": "Faetano",
+            "fr": "Faetano",
+            "nl": "Faetano",
+            "pl": "Faetano",
+            "pt": "Faetano",
+            "ru": "Фаэтано",
+            "tr": "Faetano"
           }
         },
         {
           "code": "SM-05",
           "names": {
+            "en": "Fiorentino",
             "it": "Fiorentino",
-            "en": "Fiorentino"
+            "de": "Fiorentino",
+            "es": "Fiorentino",
+            "fr": "Fiorentino",
+            "nl": "Fiorentino",
+            "pl": "Fiorentino",
+            "pt": "Fiorentino",
+            "ru": "Фьорентино",
+            "tr": "Fiorentino"
           }
         },
         {
           "code": "SM-06",
           "names": {
+            "en": "Borgo Maggiore",
             "it": "Borgo Maggiore",
-            "en": "Borgo Maggiore"
+            "de": "Borgo Maggiore",
+            "es": "Borgo Maggiore",
+            "fr": "Borgo Maggiore",
+            "nl": "Borgo Maggiore",
+            "pl": "Borgo Maggiore",
+            "pt": "Borgo Maggiore",
+            "ru": "Борго-Маджоре",
+            "tr": "Borgo Maggiore"
           }
         },
         {
           "code": "SM-07",
           "names": {
+            "en": "City of San Marino",
             "it": "Città di San Marino",
-            "en": "City of San Marino"
+            "de": "San Marino",
+            "es": "San Marino",
+            "fr": "Ville de Saint-Marin",
+            "nl": "San Marino",
+            "pl": "San Marino",
+            "pt": "San Marino",
+            "rm": "Citad da San Marino",
+            "ru": "Сан-Марино",
+            "tr": "San Marino şehri"
           }
         },
         {
           "code": "SM-08",
           "names": {
+            "en": "Montegiardino",
             "it": "Montegiardino",
-            "en": "Montegiardino"
+            "de": "Montegiardino",
+            "es": "Montegiardino",
+            "fr": "Montegiardino",
+            "nl": "Montegiardino",
+            "pl": "Montegiardino",
+            "pt": "Montegiardino",
+            "ru": "Монтеджардино",
+            "tr": "Montegiardino"
           }
         },
         {
           "code": "SM-09",
           "names": {
+            "en": "Serravalle",
             "it": "Serravalle",
-            "en": "Serravalle"
+            "de": "Serravalle",
+            "es": "Serravalle",
+            "fr": "Serravalle",
+            "nl": "Serravalle",
+            "pl": "Serravalle",
+            "pt": "Serravalle",
+            "ru": "Серравалле",
+            "tr": "Serravalle"
           }
         }
       ]
@@ -1478,8 +3087,17 @@
     {
       "code": "VA",
       "names": {
+        "en": "Vatican City",
         "it": "Città del Vaticano",
-        "en": "Vatican City"
+        "de": "Vatikanstadt",
+        "es": "Ciudad del Vaticano",
+        "fr": "État de la Cité du Vatican",
+        "nl": "Vaticaanstad",
+        "pl": "Watykan",
+        "pt": "Cidade do Vaticano",
+        "rm": "Citad dal Vatican",
+        "ru": "Ватикан",
+        "tr": "Vatikan"
       },
       "languages": [
         "it"

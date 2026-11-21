@@ -14,25 +14,23 @@
 # Easter Sunday and Whit Sunday (Feiertage in Brandenburg) are not listed
 # (decision D7).
 code: DE
-names: {de: Deutschland, en: Germany}
-languages: [de]
 regions:
-  - {code: DE-BB, names: {de: Brandenburg, en: Brandenburg}}
-  - {code: DE-BE, names: {de: Berlin, en: Berlin}}
-  - {code: DE-BW, names: {de: Baden-Württemberg, en: Baden-Württemberg}}
-  - {code: DE-BY, names: {de: Bayern, en: Bavaria}}
-  - {code: DE-HB, names: {de: Bremen, en: Bremen}}
-  - {code: DE-HE, names: {de: Hessen, en: Hesse}}
-  - {code: DE-HH, names: {de: Hamburg, en: Hamburg}}
-  - {code: DE-MV, names: {de: Mecklenburg-Vorpommern, en: Mecklenburg-Western Pomerania}}
-  - {code: DE-NI, names: {de: Niedersachsen, en: Lower Saxony}}
-  - {code: DE-NW, names: {de: Nordrhein-Westfalen, en: North Rhine-Westphalia}}
-  - {code: DE-RP, names: {de: Rheinland-Pfalz, en: Rhineland-Palatinate}}
-  - {code: DE-SH, names: {de: Schleswig-Holstein, en: Schleswig-Holstein}}
-  - {code: DE-SL, names: {de: Saarland, en: Saarland}}
-  - {code: DE-SN, names: {de: Sachsen, en: Saxony}}
-  - {code: DE-ST, names: {de: Sachsen-Anhalt, en: Saxony-Anhalt}}
-  - {code: DE-TH, names: {de: Thüringen, en: Thuringia}}
+  - DE-BB
+  - DE-BE
+  - DE-BW
+  - DE-BY
+  - DE-HB
+  - DE-HE
+  - DE-HH
+  - DE-MV
+  - DE-NI
+  - DE-NW
+  - DE-RP
+  - DE-SH
+  - DE-SL
+  - DE-SN
+  - DE-ST
+  - DE-TH
 sources:
   einigvtr:
     title: Vertrag zwischen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik über die Herstellung der Einheit Deutschlands (Einigungsvertrag)

@@ -1,0 +1,359 @@
+# rm: holiday names for countries where rm is not a local language. Written by
+# Claude and not yet reviewed (docs/coverage.md); edit by hand.
+language: rm
+countries:
+  AD:
+    holidays:
+      ad.new-year: Bumaun
+      ad.epiphany: Babania
+      ad.carnival: Tschaiver
+      ad.constitution-day: Di da la Constituziun
+      ad.good-friday: Venderdi sontg
+      ad.easter-monday: Glindesdi da Pasca
+      ad.labour-day: Di da la lavur
+      ad.whit-monday: Glindesdi da Tschuncaisma
+      ad.assumption: Assumziun da Maria
+      ad.meritxell: Nossadunna da Meritxell
+      ad.all-saints: Numnasontga
+      ad.immaculate-conception: Immaculata Concepziun
+      ad.christmas: Nadal
+      ad.saint-stephen: Son Steffan
+  AT:
+    holidays:
+      at.new-year: Bumaun
+      at.epiphany: Babania
+      at.saint-joseph: Son Josef
+      at.good-friday: Venderdi sontg
+      at.easter-monday: Glindesdi da Pasca
+      at.labour-day: Di da la lavur
+      at.saint-florian: Son Florian
+      at.ascension: Ascensiun
+      at.whit-monday: Glindesdi da Tschuncaisma
+      at.corpus-christi: Sontgilcrest
+      at.assumption: Assumziun da Maria
+      at.saint-rupert: Son Rupert
+      at.plebiscite-day: Di dal plebiscit da la Carinzia
+      at.national-day: Festa naziunala
+      at.all-saints: Numnasontga
+      at.saint-martin: Son Martin
+      at.saint-leopold: Son Leopold
+      at.immaculate-conception: Immaculata Concepziun
+      at.christmas-eve: Sontga Saira
+      at.christmas: Nadal
+      at.saint-stephen: Son Steffan
+      at.new-years-eve: Silvester
+  BE:
+    holidays:
+      be.new-year: Bumaun
+      be.easter-monday: Glindesdi da Pasca
+      be.labour-day: Di da la lavur
+      be.ascension: Ascensiun
+      be.whit-monday: Glindesdi da Tschuncaisma
+      be.flemish-community-day: Festa da la Communitad flama
+      be.national-day: Festa naziunala da la Belgia
+      be.assumption: Assumziun da Maria
+      be.french-community-day: Festa da la Communitad franzosa
+      be.all-saints: Numnasontga
+      be.all-souls: Di da las olmas
+      be.armistice: Armistizi
+      be.kings-feast: Festa dal retg
+      be.german-speaking-community-day: Festa da la Communitad da lingua tudestga
+      be.christmas: Nadal
+      be.saint-stephen: Segund di da Nadal
+  DE:
+    holidays:
+      de.new-year: Bumaun
+      de.epiphany: Babania
+      de.womens-day: Di internaziunal da la dunna
+      de.good-friday: Venderdi sontg
+      de.easter-monday: Glindesdi da Pasca
+      de.labour-day: Di da la lavur
+      de.liberation-day: Di da la liberaziun
+      de.ascension: Ascensiun
+      de.whit-monday: Glindesdi da Tschuncaisma
+      de.corpus-christi: Sontgilcrest
+      de.uprising-anniversary: 75avel anniversari da la revolta dals 17 da zercladur 1953
+      de.augsburg-peace-festival: Festa da la pasch d’Augsburg
+      de.assumption: Assumziun da Maria
+      de.world-childrens-day: Di mundial da l’uffant
+      de.national-day: Di da l’unitad tudestga
+      de.reformation-day: Di da la refurmaziun
+      de.all-saints: Numnasontga
+      de.repentance-day: Di da penitenza e d’oraziun
+      de.christmas-eve: Sontga Saira
+      de.christmas: Nadal
+      de.saint-stephen: Segund di da Nadal
+      de.new-years-eve: Silvester
+  ES:
+    holidays:
+      es.new-year: Bumaun
+      es.epiphany: Babania
+      es.ceuta-convivencia-day: Di da la convivenza
+      es.island-tenerife: 'Festa da l’insla: Tenerife'
+      es.shrove-tuesday: Mardi da tschaiver
+      es.andalusia-day: Di da l’Andalusia
+      es.balearic-islands-day: Di da las Inslas Baleares
+      es.melilla-statute-day: Di dal statut d’autonomia da Melilla
+      es.fallas-monday: Glindesdi da las Fallas
+      es.saint-joseph: Son Josef
+      es.maundy-thursday: Gievgia sontga
+      es.good-friday: Venderdi sontg
+      es.easter-monday: Glindesdi da Pasca
+      es.aragon-day: Son Gieri, Di da l’Aragon
+      es.castile-leon-day: Di da Castiglia e León
+      es.labour-day: Di da la lavur
+      es.madrid-day: Festa da la Communitad da Madrid
+      es.eid-al-fitr: Festa da la fin dal Ramadan
+      es.galician-literature-day: Di da la litteratura galiziana
+      es.whit-monday: Glindesdi da Tschuncaisma
+      es.canary-islands-day: Di da las Inslas Canarias
+      es.castile-la-mancha-day: Di da Castiglia-La Mancha
+      es.corpus-christi: Sontgilcrest
+      es.murcia-day: Di da la Regiun da Murcia
+      es.la-rioja-day: Di da La Rioja
+      es.aran-day: Festa d’Aran
+      es.saint-john: Son Gion
+      es.saint-james: Son Giachen
+      es.cantabria-institutions-day: Di da las instituziuns da la Cantabria
+      es.our-lady-of-africa: Nossadunna d’Africa
+      es.island-la-palma: 'Festa da l’insla: La Palma'
+      es.assumption: Assumziun da Maria
+      es.ceuta-day: Di da Ceuta
+      es.circumnavigation-500: 500avel anniversari dal emprim viadi enturn il mund
+      es.asturias-day: Di da las Asturias
+      es.extremadura-day: Di da l’Extremadura
+      es.island-gran-canaria: 'Festa da l’insla: Gran Canaria'
+      es.catalonia-national-day: Festa naziunala da la Catalogna
+      es.bien-aparecida: Nossadunna da Bien Aparecida
+      es.island-lanzarote: 'Festa da l’insla: Lanzarote'
+      es.island-fuerteventura: 'Festa da l’insla: Fuerteventura'
+      es.island-el-hierro: 'Festa da l’insla: El Hierro'
+      es.basque-government-anniversary: Anniversari da l’emprima regenza basca
+      es.valencian-community-day: Di da la Communitad valenziana
+      es.island-la-gomera: 'Festa da l’insla: La Gomera'
+      es.national-day: Festa naziunala da la Spagna
+      es.basque-country-day: Di dal Pajais Basc
+      es.all-saints: Numnasontga
+      es.eid-al-adha: Festa da l’unfrenda
+      es.constitution-day: Di da la Constituziun
+      es.immaculate-conception: Immaculata Concepziun
+      es.christmas: Nadal
+      es.saint-stephen: Son Steffan
+  FR:
+    holidays:
+      fr.new-year: Bumaun
+      fr.good-friday: Venderdi sontg
+      fr.easter-monday: Glindesdi da Pasca
+      fr.abolition-of-slavery: Commemoraziun da l’aboliziun da la sclavaria
+      fr.labour-day: Di da la lavur
+      fr.victory-day: Di da la victoria en l’Europa
+      fr.ascension: Ascensiun
+      fr.whit-monday: Glindesdi da Tschuncaisma
+      fr.national-day: Festa naziunala
+      fr.assumption: Assumziun da Maria
+      fr.all-saints: Numnasontga
+      fr.armistice-day: Armistizi 1918
+      fr.christmas: Nadal
+      fr.saint-stephen: Son Steffan
+  GB:
+    holidays:
+      gb.new-year: Bumaun
+      gb.second-january: 2 da schaner
+      gb.saint-patrick: Son Patrizi
+      gb.good-friday: Venderdi sontg
+      gb.easter-monday: Glindesdi da Pasca
+      gb.royal-wedding: Nozzas reginalas
+      gb.early-may: Di da festa al cumenzament da matg
+      gb.coronation: Di da festa per la curunaziun dal retg Charles III
+      gb.spring-bank: Di da festa da primavaira
+      gb.golden-jubilee: Giubileum d’aur
+      gb.diamond-jubilee: Giubileum da diamant da la regina
+      gb.platinum-jubilee: Di da festa dal giubileum da platin
+      gb.world-cup: Di da festa dal campiunadi mundial
+      gb.battle-of-the-boyne: Battaglia da la Boyne (Orangemen’s Day)
+      gb.summer-bank: Di da festa da stad
+      gb.state-funeral: Di da festa per il funeral da stadi da la regina Elisabeth II
+      gb.saint-andrew: Son Andreas
+      gb.christmas: Nadal
+      gb.boxing-day: Boxing Day
+  IE:
+    holidays:
+      ie.new-year: Bumaun
+      ie.saint-brigid: Sontga Brigida
+      ie.saint-patrick: Son Patrizi
+      ie.covid-commemoration: Di da festa supplementar
+      ie.easter-monday: Glindesdi da Pasca
+      ie.may-bank-holiday: Emprim glindesdi da matg
+      ie.june-bank-holiday: Emprim glindesdi da zercladur
+      ie.august-bank-holiday: Emprim glindesdi d’avust
+      ie.national-day-of-mourning: Di naziunal da cordoli
+      ie.october-bank-holiday: Ultim glindesdi d’october
+      ie.christmas: Nadal
+      ie.saint-stephen: Son Steffan
+  IT:
+    holidays:
+      it.new-year: Bumaun
+      it.epiphany: Babania
+      it.unification-150: 150avel anniversari da l’unificaziun da l’Italia
+      it.easter-monday: Glindesdi da Pasca
+      it.liberation-day: Di da la liberaziun
+      it.labour-day: Di da la lavur
+      it.whit-monday: Glindesdi da Tschuncaisma
+      it.national-day: Di da la republica
+      it.assumption: Assumziun da Maria
+      it.saint-francis: Festa da Son Francestg d’Assisi
+      it.all-saints: Numnasontga
+      it.immaculate-conception: Immaculata Concepziun
+      it.christmas: Nadal
+      it.saint-stephen: Son Steffan
+  LI:
+    holidays:
+      li.new-year: Bumaun
+      li.berchtold: Di da Berchtold
+      li.epiphany: Babania
+      li.candlemas: Purificaziun da Maria
+      li.shrove-tuesday: Mardi da tschaiver
+      li.saint-joseph: Son Josef
+      li.good-friday: Venderdi sontg
+      li.easter-monday: Glindesdi da Pasca
+      li.labour-day: Di da la lavur
+      li.ascension: Ascensiun
+      li.whit-monday: Glindesdi da Tschuncaisma
+      li.corpus-christi: Sontgilcrest
+      li.national-day: Festa naziunala (Assumziun da Maria)
+      li.nativity-of-mary: Naschientscha da Maria
+      li.all-saints: Numnasontga
+      li.immaculate-conception: Immaculata Concepziun
+      li.christmas-eve: Sontga Saira
+      li.christmas: Nadal
+      li.saint-stephen: Son Steffan
+      li.new-years-eve: Silvester
+  LU:
+    holidays:
+      lu.new-year: Bumaun
+      lu.good-friday: Venderdi sontg
+      lu.easter-monday: Glindesdi da Pasca
+      lu.labour-day: Di da la lavur
+      lu.europe-day: Di da l’Europa
+      lu.ascension: Ascensiun
+      lu.whit-monday: Glindesdi da Tschuncaisma
+      lu.national-day: Festa naziunala
+      lu.assumption: Assumziun da Maria
+      lu.all-saints: Numnasontga
+      lu.christmas-eve: Sontga Saira
+      lu.christmas: Nadal
+      lu.saint-stephen: Segund di da Nadal
+  MC:
+    holidays:
+      mc.new-year: Bumaun
+      mc.saint-devote: Sontga Devota
+      mc.easter-monday: Glindesdi da Pasca
+      mc.labour-day: Di da la lavur
+      mc.ascension: Ascensiun
+      mc.whit-monday: Glindesdi da Tschuncaisma
+      mc.corpus-christi: Sontgilcrest
+      mc.assumption: Assumziun da Maria
+      mc.all-saints: Numnasontga
+      mc.national-day: Festa naziunala (Di dal prinzi)
+      mc.immaculate-conception: Immaculata Concepziun
+      mc.christmas: Nadal
+  MT:
+    holidays:
+      mt.new-year: Bumaun
+      mt.saint-pauls-shipwreck: Festa dal naufragi da Son Paul
+      mt.saint-joseph: Son Josef
+      mt.freedom-day: Di da la libertad
+      mt.good-friday: Venderdi sontg
+      mt.labour-day: Di da la lavur
+      mt.sette-giugno: Sette Giugno
+      mt.saints-peter-and-paul: Son Pieder e Son Paul
+      mt.assumption: Assumziun da Maria
+      mt.victory-day: Di da la victoria
+      mt.independence-day: Di da l’independenza
+      mt.immaculate-conception: Immaculata Concepziun
+      mt.republic-day: Di da la republica
+      mt.christmas: Nadal
+  NL:
+    holidays:
+      nl.new-year: Bumaun
+      nl.good-friday: Venderdi sontg
+      nl.easter-monday: Glindesdi da Pasca
+      nl.queens-day: Di da la regina
+      nl.kings-day: Di dal retg
+      nl.dia-di-rincon: Di da Rincon
+      nl.labour-day: Di da la lavur
+      nl.liberation-day: Di da la liberaziun
+      nl.ascension: Ascensiun
+      nl.whit-monday: Glindesdi da Tschuncaisma
+      nl.emancipation-day: Di da l’emancipaziun
+      nl.flag-day-bonaire: Di da la bandiera e da l’imni da Bonaire
+      nl.statia-day: Di da Statia
+      nl.saba-day: Di da Saba
+      nl.christmas: Nadal
+      nl.saint-stephen: Segund di da Nadal
+  PT:
+    holidays:
+      pt.new-year: Bumaun
+      pt.shrove-tuesday: Tschaiver
+      pt.good-friday: Venderdi sontg
+      pt.madeira-autonomy-day: Di da l’autonomia
+      pt.freedom-day: Di da la libertad
+      pt.labour-day: Di da la lavur
+      pt.azores-day: Di da las Azoras
+      pt.corpus-christi: Sontgilcrest
+      pt.national-day: Di dal Portugal
+      pt.madeira-day: Di da Madeira
+      pt.assumption: Assumziun da Maria
+      pt.republic-day: Di da la republica
+      pt.all-saints: Numnasontga
+      pt.restoration-of-independence: Restauraziun da l’independenza
+      pt.immaculate-conception: Immaculata Concepziun
+      pt.christmas: Nadal
+      pt.saint-stephen: Emprim di da l’octava da Nadal
+  SM:
+    holidays:
+      sm.new-year: Solemnitad da Maria, mamma da Dieu
+      sm.epiphany: Babania
+      sm.saint-agatha: Sontga Agata
+      sm.arengo: Anniversari da l’Arengo
+      sm.captains-regent-april: Investitura dals Capitani Reggenti
+      sm.easter-monday: Glindesdi da Pasca
+      sm.labour-day: Di da la lavur
+      sm.corpus-christi: Sontgilcrest
+      sm.fall-of-fascism: Anniversari da la fin dal fascissem
+      sm.assumption: Assumziun da Maria
+      sm.national-day: Festa da Son Marino, fundatur da la Republica
+      sm.captains-regent-october: Investitura dals Capitani Reggenti
+      sm.all-saints: Numnasontga
+      sm.all-souls: Di da las olmas
+      sm.immaculate-conception: Immaculata Concepziun
+      sm.christmas: Nadal
+      sm.saint-stephen: Son Steffan
+  VA:
+    holidays:
+      va.new-year: Solemnitad da Maria, mamma da Dieu
+      va.epiphany: Babania
+      va.state-anniversary: Anniversari da la fundaziun dal Stadi da la Citad dal Vatican
+      va.saint-joseph: Son Josef
+      va.maundy-thursday: Gievgia sontga
+      va.good-friday: Venderdi sontg
+      va.holy-saturday: Sonda sontga
+      va.easter-monday: Glindesdi da Pasca
+      va.easter-tuesday: Mardi da Pasca
+      va.saint-joseph-the-worker: Son Josef lavurant
+      va.papal-election-anniversary: Anniversari da l’elecziun dal papa
+      va.ascension: Ascensiun
+      va.corpus-christi: Sontgilcrest
+      va.saints-peter-and-paul: Son Pieder e Son Paul
+      va.assumption-eve: Vigilia da l’Assumziun da Maria
+      va.assumption: Assumziun da Maria
+      va.day-after-assumption: Di suenter l’Assumziun da Maria
+      va.papal-name-day: Di dal num dal papa
+      va.all-saints: Numnasontga
+      va.all-souls: Di da las olmas
+      va.immaculate-conception: Immaculata Concepziun
+      va.christmas-eve: Sontga Saira
+      va.christmas: Nadal
+      va.saint-stephen: Son Steffan
+      va.saint-john: Son Gion apostel
+      va.new-years-eve: Silvester

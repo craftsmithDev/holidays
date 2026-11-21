@@ -46,7 +46,7 @@ final class ExpectationsTest extends TestCase
 
         match ($case['method']) {
             'holidays' => self::assertSame($case['expect'], array_map(Support::line(...), $result)),
-            'isHoliday' => self::assertSame($case['expect'], $result),
+            'isHoliday', 'name' => self::assertSame($case['expect'], $result),
             default => self::assertSame($case['expect'], $result === null ? null : Support::line($result)),
         };
     }

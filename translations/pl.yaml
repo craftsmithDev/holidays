@@ -1,0 +1,386 @@
+# pl: holiday names for countries where pl is not a local language. Written by
+# Claude and not yet reviewed (docs/coverage.md); edit by hand.
+language: pl
+countries:
+  AD:
+    holidays:
+      ad.new-year: Nowy Rok
+      ad.epiphany: Święto Trzech Króli
+      ad.carnival: Karnawał
+      ad.constitution-day: Dzień Konstytucji
+      ad.good-friday: Wielki Piątek
+      ad.easter-monday: Poniedziałek Wielkanocny
+      ad.labour-day: Święto Pracy
+      ad.whit-monday: Drugi dzień Zielonych Świątek
+      ad.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      ad.meritxell: Matka Boża z Meritxell
+      ad.all-saints: Wszystkich Świętych
+      ad.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      ad.christmas: Boże Narodzenie
+      ad.saint-stephen: Dzień Świętego Szczepana
+  AT:
+    holidays:
+      at.new-year: Nowy Rok
+      at.epiphany: Święto Trzech Króli
+      at.saint-joseph: Dzień Świętego Józefa
+      at.good-friday: Wielki Piątek
+      at.easter-monday: Poniedziałek Wielkanocny
+      at.labour-day: Święto Pracy
+      at.saint-florian: Dzień Świętego Floriana
+      at.ascension: Wniebowstąpienie Pańskie
+      at.whit-monday: Drugi dzień Zielonych Świątek
+      at.corpus-christi: Boże Ciało
+      at.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      at.saint-rupert: Dzień Świętego Ruperta
+      at.plebiscite-day: Dzień Plebiscytu Karynckiego
+      at.national-day: Święto Narodowe
+      at.all-saints: Wszystkich Świętych
+      at.saint-martin: Dzień Świętego Marcina
+      at.saint-leopold: Dzień Świętego Leopolda
+      at.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      at.christmas-eve: Wigilia Bożego Narodzenia
+      at.christmas: Boże Narodzenie
+      at.saint-stephen: Dzień Świętego Szczepana
+      at.new-years-eve: Sylwester
+  BE:
+    holidays:
+      be.new-year: Nowy Rok
+      be.easter-monday: Poniedziałek Wielkanocny
+      be.labour-day: Święto Pracy
+      be.ascension: Wniebowstąpienie Pańskie
+      be.whit-monday: Drugi dzień Zielonych Świątek
+      be.flemish-community-day: Święto Wspólnoty Flamandzkiej
+      be.national-day: Święto Narodowe Belgii
+      be.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      be.french-community-day: Święto Wspólnoty Francuskiej
+      be.all-saints: Wszystkich Świętych
+      be.all-souls: Dzień Zaduszny
+      be.armistice: Rocznica rozejmu
+      be.kings-feast: Święto Króla
+      be.german-speaking-community-day: Święto Wspólnoty Niemieckojęzycznej
+      be.christmas: Boże Narodzenie
+      be.saint-stephen: Drugi dzień Bożego Narodzenia
+  CH:
+    holidays:
+      ch.new-year: Nowy Rok
+      ch.berchtold: Dzień Berchtolda
+      ch.epiphany: Święto Trzech Króli
+      ch.republic-day: Święto Republiki
+      ch.saint-joseph: Dzień Świętego Józefa
+      ch.good-friday: Wielki Piątek
+      ch.easter-monday: Poniedziałek Wielkanocny
+      ch.naefelser-fahrt: Pielgrzymka do Näfels
+      ch.labour-day: Święto Pracy
+      ch.ascension: Wniebowstąpienie Pańskie
+      ch.whit-monday: Drugi dzień Zielonych Świątek
+      ch.corpus-christi: Boże Ciało
+      ch.jura-independence: Święto Niepodległości Jury
+      ch.peter-and-paul: Uroczystość Świętych Apostołów Piotra i Pawła
+      ch.national-day: Święto Narodowe Szwajcarii
+      ch.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      ch.jeune-genevois: Genewski Dzień Postu
+      ch.federal-fast-monday: Poniedziałek po Federalnym Dniu Postu
+      ch.saint-maurice: Dzień Świętego Maurycego
+      ch.bruder-klaus: Święty Mikołaj z Flüe
+      ch.all-saints: Wszystkich Świętych
+      ch.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      ch.christmas: Boże Narodzenie
+      ch.saint-stephen: Dzień Świętego Szczepana
+      ch.restoration: Przywrócenie Republiki
+  DE:
+    holidays:
+      de.new-year: Nowy Rok
+      de.epiphany: Święto Trzech Króli
+      de.womens-day: Międzynarodowy Dzień Kobiet
+      de.good-friday: Wielki Piątek
+      de.easter-monday: Poniedziałek Wielkanocny
+      de.labour-day: Święto Pracy
+      de.liberation-day: Dzień Wyzwolenia
+      de.ascension: Wniebowstąpienie Pańskie
+      de.whit-monday: Drugi dzień Zielonych Świątek
+      de.corpus-christi: Boże Ciało
+      de.uprising-anniversary: 75. rocznica powstania z 17 czerwca 1953 roku
+      de.augsburg-peace-festival: Augsburskie Święto Pokoju
+      de.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      de.world-childrens-day: Światowy Dzień Dziecka
+      de.national-day: Dzień Jedności Niemiec
+      de.reformation-day: Święto Reformacji
+      de.all-saints: Wszystkich Świętych
+      de.repentance-day: Dzień Pokuty i Modlitwy
+      de.christmas-eve: Wigilia Bożego Narodzenia
+      de.christmas: Boże Narodzenie
+      de.saint-stephen: Drugi dzień Bożego Narodzenia
+      de.new-years-eve: Sylwester
+  ES:
+    holidays:
+      es.new-year: Nowy Rok
+      es.epiphany: Święto Trzech Króli
+      es.ceuta-convivencia-day: Dzień Współistnienia
+      es.island-tenerife: 'Święto wyspy: Teneryfa'
+      es.shrove-tuesday: Ostatki
+      es.andalusia-day: Dzień Andaluzji
+      es.balearic-islands-day: Dzień Balearów
+      es.melilla-statute-day: Dzień Statutu Autonomii Melilli
+      es.fallas-monday: Poniedziałek Fallas
+      es.saint-joseph: Dzień Świętego Józefa
+      es.maundy-thursday: Wielki Czwartek
+      es.good-friday: Wielki Piątek
+      es.easter-monday: Poniedziałek Wielkanocny
+      es.aragon-day: Dzień Świętego Jerzego, Dzień Aragonii
+      es.castile-leon-day: Dzień Kastylii i Leónu
+      es.labour-day: Święto Pracy
+      es.madrid-day: Święto Wspólnoty Madrytu
+      es.eid-al-fitr: Święto Przerwania Postu
+      es.galician-literature-day: Dzień Literatury Galicyjskiej
+      es.whit-monday: Drugi dzień Zielonych Świątek
+      es.canary-islands-day: Dzień Wysp Kanaryjskich
+      es.castile-la-mancha-day: Dzień Kastylii-La Manchy
+      es.corpus-christi: Boże Ciało
+      es.murcia-day: Dzień Regionu Murcji
+      es.la-rioja-day: Dzień La Rioja
+      es.aran-day: Święto Aranu
+      es.saint-john: Dzień Świętego Jana
+      es.saint-james: Dzień Świętego Jakuba
+      es.cantabria-institutions-day: Dzień Instytucji Kantabrii
+      es.our-lady-of-africa: Matka Boża Afrykańska
+      es.island-la-palma: 'Święto wyspy: La Palma'
+      es.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      es.ceuta-day: Dzień Ceuty
+      es.circumnavigation-500: 500. rocznica pierwszego opłynięcia Ziemi
+      es.asturias-day: Dzień Asturii
+      es.extremadura-day: Dzień Estremadury
+      es.island-gran-canaria: 'Święto wyspy: Gran Canaria'
+      es.catalonia-national-day: Narodowe Święto Katalonii
+      es.bien-aparecida: Matka Boża z Bien Aparecida
+      es.island-lanzarote: 'Święto wyspy: Lanzarote'
+      es.island-fuerteventura: 'Święto wyspy: Fuerteventura'
+      es.island-el-hierro: 'Święto wyspy: El Hierro'
+      es.basque-government-anniversary: Rocznica pierwszego rządu baskijskiego
+      es.valencian-community-day: Dzień Wspólnoty Walenckiej
+      es.island-la-gomera: 'Święto wyspy: La Gomera'
+      es.national-day: Święto Narodowe Hiszpanii
+      es.basque-country-day: Dzień Kraju Basków
+      es.all-saints: Wszystkich Świętych
+      es.eid-al-adha: Święto Ofiar
+      es.constitution-day: Dzień Konstytucji
+      es.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      es.christmas: Boże Narodzenie
+      es.saint-stephen: Dzień Świętego Szczepana
+  FR:
+    holidays:
+      fr.new-year: Nowy Rok
+      fr.good-friday: Wielki Piątek
+      fr.easter-monday: Poniedziałek Wielkanocny
+      fr.abolition-of-slavery: Rocznica zniesienia niewolnictwa
+      fr.labour-day: Święto Pracy
+      fr.victory-day: Dzień Zwycięstwa w Europie
+      fr.ascension: Wniebowstąpienie Pańskie
+      fr.whit-monday: Drugi dzień Zielonych Świątek
+      fr.national-day: Święto Narodowe
+      fr.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      fr.all-saints: Wszystkich Świętych
+      fr.armistice-day: Rozejm z 1918 roku
+      fr.christmas: Boże Narodzenie
+      fr.saint-stephen: Dzień Świętego Szczepana
+  GB:
+    holidays:
+      gb.new-year: Nowy Rok
+      gb.second-january: 2 stycznia
+      gb.saint-patrick: Dzień Świętego Patryka
+      gb.good-friday: Wielki Piątek
+      gb.easter-monday: Poniedziałek Wielkanocny
+      gb.royal-wedding: Królewski ślub
+      gb.early-may: Majowy dzień wolny od pracy
+      gb.coronation: Dzień wolny z okazji koronacji króla Karola III
+      gb.spring-bank: Wiosenny dzień wolny od pracy
+      gb.golden-jubilee: Złoty Jubileusz
+      gb.diamond-jubilee: Diamentowy Jubileusz królowej
+      gb.platinum-jubilee: Dzień wolny z okazji Platynowego Jubileuszu
+      gb.world-cup: Dzień wolny z okazji mistrzostw świata
+      gb.battle-of-the-boyne: Bitwa nad Boyne (Orangemen’s Day)
+      gb.summer-bank: Letni dzień wolny od pracy
+      gb.state-funeral: Dzień wolny z okazji pogrzebu państwowego królowej Elżbiety II
+      gb.saint-andrew: Dzień Świętego Andrzeja
+      gb.christmas: Boże Narodzenie
+      gb.boxing-day: Boxing Day
+  IE:
+    holidays:
+      ie.new-year: Nowy Rok
+      ie.saint-brigid: Dzień Świętej Brygidy
+      ie.saint-patrick: Dzień Świętego Patryka
+      ie.covid-commemoration: Dodatkowy dzień wolny od pracy
+      ie.easter-monday: Poniedziałek Wielkanocny
+      ie.may-bank-holiday: Pierwszy poniedziałek maja
+      ie.june-bank-holiday: Pierwszy poniedziałek czerwca
+      ie.august-bank-holiday: Pierwszy poniedziałek sierpnia
+      ie.national-day-of-mourning: Narodowy Dzień Żałoby
+      ie.october-bank-holiday: Ostatni poniedziałek października
+      ie.christmas: Boże Narodzenie
+      ie.saint-stephen: Dzień Świętego Szczepana
+  IT:
+    holidays:
+      it.new-year: Nowy Rok
+      it.epiphany: Święto Trzech Króli
+      it.unification-150: 150. rocznica zjednoczenia Włoch
+      it.easter-monday: Poniedziałek Wielkanocny
+      it.liberation-day: Dzień Wyzwolenia
+      it.labour-day: Święto Pracy
+      it.whit-monday: Drugi dzień Zielonych Świątek
+      it.national-day: Święto Republiki
+      it.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      it.saint-francis: Święto Świętego Franciszka z Asyżu
+      it.all-saints: Wszystkich Świętych
+      it.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      it.christmas: Boże Narodzenie
+      it.saint-stephen: Dzień Świętego Szczepana
+  LI:
+    holidays:
+      li.new-year: Nowy Rok
+      li.berchtold: Dzień Berchtolda
+      li.epiphany: Święto Trzech Króli
+      li.candlemas: Matki Bożej Gromnicznej
+      li.shrove-tuesday: Ostatki
+      li.saint-joseph: Dzień Świętego Józefa
+      li.good-friday: Wielki Piątek
+      li.easter-monday: Poniedziałek Wielkanocny
+      li.labour-day: Święto Pracy
+      li.ascension: Wniebowstąpienie Pańskie
+      li.whit-monday: Drugi dzień Zielonych Świątek
+      li.corpus-christi: Boże Ciało
+      li.national-day: Święto Narodowe (Wniebowzięcie Najświętszej Maryi Panny)
+      li.nativity-of-mary: Narodzenie Najświętszej Maryi Panny
+      li.all-saints: Wszystkich Świętych
+      li.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      li.christmas-eve: Wigilia Bożego Narodzenia
+      li.christmas: Boże Narodzenie
+      li.saint-stephen: Dzień Świętego Szczepana
+      li.new-years-eve: Sylwester
+  LU:
+    holidays:
+      lu.new-year: Nowy Rok
+      lu.good-friday: Wielki Piątek
+      lu.easter-monday: Poniedziałek Wielkanocny
+      lu.labour-day: Święto Pracy
+      lu.europe-day: Dzień Europy
+      lu.ascension: Wniebowstąpienie Pańskie
+      lu.whit-monday: Drugi dzień Zielonych Świątek
+      lu.national-day: Święto Narodowe
+      lu.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      lu.all-saints: Wszystkich Świętych
+      lu.christmas-eve: Wigilia Bożego Narodzenia
+      lu.christmas: Boże Narodzenie
+      lu.saint-stephen: Drugi dzień Bożego Narodzenia
+  MC:
+    holidays:
+      mc.new-year: Nowy Rok
+      mc.saint-devote: Dzień Świętej Dewoty
+      mc.easter-monday: Poniedziałek Wielkanocny
+      mc.labour-day: Święto Pracy
+      mc.ascension: Wniebowstąpienie Pańskie
+      mc.whit-monday: Drugi dzień Zielonych Świątek
+      mc.corpus-christi: Boże Ciało
+      mc.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      mc.all-saints: Wszystkich Świętych
+      mc.national-day: Święto Narodowe (Dzień Księcia)
+      mc.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      mc.christmas: Boże Narodzenie
+  MT:
+    holidays:
+      mt.new-year: Nowy Rok
+      mt.saint-pauls-shipwreck: Święto Rozbicia Statku Świętego Pawła
+      mt.saint-joseph: Dzień Świętego Józefa
+      mt.freedom-day: Dzień Wolności
+      mt.good-friday: Wielki Piątek
+      mt.labour-day: Święto Pracy
+      mt.sette-giugno: Sette Giugno
+      mt.saints-peter-and-paul: Uroczystość Świętych Apostołów Piotra i Pawła
+      mt.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      mt.victory-day: Dzień Zwycięstwa
+      mt.independence-day: Dzień Niepodległości
+      mt.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      mt.republic-day: Święto Republiki
+      mt.christmas: Boże Narodzenie
+  NL:
+    holidays:
+      nl.new-year: Nowy Rok
+      nl.good-friday: Wielki Piątek
+      nl.easter-monday: Poniedziałek Wielkanocny
+      nl.queens-day: Dzień Królowej
+      nl.kings-day: Dzień Króla
+      nl.dia-di-rincon: Dzień Rincon
+      nl.labour-day: Święto Pracy
+      nl.liberation-day: Dzień Wyzwolenia
+      nl.ascension: Wniebowstąpienie Pańskie
+      nl.whit-monday: Drugi dzień Zielonych Świątek
+      nl.emancipation-day: Dzień Emancypacji
+      nl.flag-day-bonaire: Dzień Flagi i Hymnu Bonaire
+      nl.statia-day: Dzień Statii
+      nl.saba-day: Dzień Saby
+      nl.christmas: Boże Narodzenie
+      nl.saint-stephen: Drugi dzień Bożego Narodzenia
+  PT:
+    holidays:
+      pt.new-year: Nowy Rok
+      pt.shrove-tuesday: Karnawał
+      pt.good-friday: Wielki Piątek
+      pt.madeira-autonomy-day: Dzień Autonomii
+      pt.freedom-day: Dzień Wolności
+      pt.labour-day: Święto Pracy
+      pt.azores-day: Dzień Azorów
+      pt.corpus-christi: Boże Ciało
+      pt.national-day: Dzień Portugalii
+      pt.madeira-day: Dzień Madery
+      pt.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      pt.republic-day: Święto Republiki
+      pt.all-saints: Wszystkich Świętych
+      pt.restoration-of-independence: Przywrócenie Niepodległości
+      pt.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      pt.christmas: Boże Narodzenie
+      pt.saint-stephen: Pierwszy dzień oktawy Bożego Narodzenia
+  SM:
+    holidays:
+      sm.new-year: Uroczystość Świętej Bożej Rodzicielki Maryi
+      sm.epiphany: Święto Trzech Króli
+      sm.saint-agatha: Dzień Świętej Agaty
+      sm.arengo: Rocznica Arengo
+      sm.captains-regent-april: Inwestytura Kapitanów Regentów
+      sm.easter-monday: Poniedziałek Wielkanocny
+      sm.labour-day: Święto Pracy
+      sm.corpus-christi: Boże Ciało
+      sm.fall-of-fascism: Rocznica upadku faszyzmu
+      sm.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      sm.national-day: Święto Świętego Maryna, założyciela Republiki
+      sm.captains-regent-october: Inwestytura Kapitanów Regentów
+      sm.all-saints: Wszystkich Świętych
+      sm.all-souls: Dzień Zaduszny
+      sm.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      sm.christmas: Boże Narodzenie
+      sm.saint-stephen: Dzień Świętego Szczepana
+  VA:
+    holidays:
+      va.new-year: Uroczystość Świętej Bożej Rodzicielki Maryi
+      va.epiphany: Święto Trzech Króli
+      va.state-anniversary: Rocznica utworzenia Państwa Watykańskiego
+      va.saint-joseph: Dzień Świętego Józefa
+      va.maundy-thursday: Wielki Czwartek
+      va.good-friday: Wielki Piątek
+      va.holy-saturday: Wielka Sobota
+      va.easter-monday: Poniedziałek Wielkanocny
+      va.easter-tuesday: Wtorek Wielkanocny
+      va.saint-joseph-the-worker: Świętego Józefa Robotnika
+      va.papal-election-anniversary: Rocznica wyboru papieża
+      va.ascension: Wniebowstąpienie Pańskie
+      va.corpus-christi: Boże Ciało
+      va.saints-peter-and-paul: Uroczystość Świętych Apostołów Piotra i Pawła
+      va.assumption-eve: Wigilia Wniebowzięcia Najświętszej Maryi Panny
+      va.assumption: Wniebowzięcie Najświętszej Maryi Panny
+      va.day-after-assumption: Dzień po Wniebowzięciu Najświętszej Maryi Panny
+      va.papal-name-day: Imieniny papieża
+      va.all-saints: Wszystkich Świętych
+      va.all-souls: Dzień Zaduszny
+      va.immaculate-conception: Niepokalane Poczęcie Najświętszej Maryi Panny
+      va.christmas-eve: Wigilia Bożego Narodzenia
+      va.christmas: Boże Narodzenie
+      va.saint-stephen: Dzień Świętego Szczepana
+      va.saint-john: Świętego Jana Apostoła
+      va.new-years-eve: Sylwester

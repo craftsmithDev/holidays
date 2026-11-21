@@ -3,14 +3,22 @@ export default {
   "format": 1,
   "code": "LU",
   "names": {
-    "lb": "Lëtzebuerg",
+    "en": "Luxembourg",
     "fr": "Luxembourg",
+    "lb": "Lëtzebuerg",
     "de": "Luxemburg",
-    "en": "Luxembourg"
+    "es": "Luxemburgo",
+    "it": "Lussemburgo",
+    "nl": "Luxemburg",
+    "pl": "Luksemburg",
+    "pt": "Luxemburgo",
+    "rm": "Luxemburg",
+    "ru": "Люксембург",
+    "tr": "Lüksemburg"
   },
   "languages": [
-    "lb",
     "fr",
+    "lb",
     "de"
   ],
   "regions": [],
@@ -49,7 +57,15 @@ export default {
         "en": "New Year’s Day",
         "lb": "Neijoerschdag",
         "fr": "Nouvel An",
-        "de": "Neujahr"
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -74,7 +90,15 @@ export default {
         "en": "Good Friday",
         "lb": "Karfreideg",
         "fr": "Vendredi saint",
-        "de": "Karfreitag"
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -97,7 +121,15 @@ export default {
         "en": "Easter Monday",
         "lb": "Ouschterméindeg",
         "fr": "Lundi de Pâques",
-        "de": "Ostermontag"
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -121,7 +153,15 @@ export default {
         "en": "Labour Day",
         "lb": "Dag vun der Aarbecht",
         "fr": "Fête du travail",
-        "de": "Tag der Arbeit"
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -146,7 +186,15 @@ export default {
         "en": "Europe Day",
         "lb": "Europadag",
         "fr": "Journée de l’Europe",
-        "de": "Europatag"
+        "de": "Europatag",
+        "es": "Día de Europa",
+        "it": "Festa dell’Europa",
+        "nl": "Dag van Europa",
+        "pl": "Dzień Europy",
+        "pt": "Dia da Europa",
+        "rm": "Di da l’Europa",
+        "ru": "День Европы",
+        "tr": "Avrupa Günü"
       },
       "from": 2019,
       "date": {
@@ -172,7 +220,15 @@ export default {
         "en": "Ascension Day",
         "lb": "Christi Himmelfaart",
         "fr": "Ascension",
-        "de": "Christi Himmelfahrt"
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "it": "Ascensione",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -196,7 +252,15 @@ export default {
         "en": "Whit Monday",
         "lb": "Päischtméindeg",
         "fr": "Lundi de Pentecôte",
-        "de": "Pfingstmontag"
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -220,7 +284,15 @@ export default {
         "en": "National Day",
         "lb": "Nationalfeierdag",
         "fr": "Fête nationale",
-        "de": "Nationalfeiertag"
+        "de": "Nationalfeiertag",
+        "es": "Fiesta nacional",
+        "it": "Festa nazionale",
+        "nl": "Nationale feestdag",
+        "pl": "Święto Narodowe",
+        "pt": "Dia Nacional",
+        "rm": "Festa naziunala",
+        "ru": "Национальный праздник",
+        "tr": "Ulusal Bayram"
       },
       "date": {
         "type": "fixed",
@@ -247,7 +319,15 @@ export default {
         "en": "Assumption Day",
         "lb": "Léiffrawëschdag",
         "fr": "Assomption",
-        "de": "Mariä Himmelfahrt"
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -272,7 +352,15 @@ export default {
         "en": "All Saints’ Day",
         "lb": "Allerhellegen",
         "fr": "Toussaint",
-        "de": "Allerheiligen"
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -297,7 +385,15 @@ export default {
         "en": "Christmas Eve",
         "lb": "Hellegowend",
         "fr": "Veille de Noël",
-        "de": "Heiligabend"
+        "de": "Heiligabend",
+        "es": "Nochebuena",
+        "it": "Vigilia di Natale",
+        "nl": "Kerstavond",
+        "pl": "Wigilia Bożego Narodzenia",
+        "pt": "Véspera de Natal",
+        "rm": "Sontga Saira",
+        "ru": "Сочельник",
+        "tr": "Noel Arifesi"
       },
       "date": {
         "type": "fixed",
@@ -322,7 +418,15 @@ export default {
         "en": "Christmas Day",
         "lb": "Chrëschtdag",
         "fr": "1er jour de Noël",
-        "de": "1. Weihnachtsfeiertag"
+        "de": "1. Weihnachtsfeiertag",
+        "es": "Navidad",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -347,7 +451,15 @@ export default {
         "en": "Boxing Day",
         "lb": "Stiefesdag",
         "fr": "2e jour de Noël",
-        "de": "2. Weihnachtsfeiertag"
+        "de": "2. Weihnachtsfeiertag",
+        "es": "Segundo día de Navidad",
+        "it": "Secondo giorno di Natale",
+        "nl": "Tweede Kerstdag",
+        "pl": "Drugi dzień Bożego Narodzenia",
+        "pt": "Segundo dia de Natal",
+        "rm": "Segund di da Nadal",
+        "ru": "Второй день Рождества",
+        "tr": "Noel’in İkinci Günü"
       },
       "date": {
         "type": "fixed",

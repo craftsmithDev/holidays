@@ -1,6 +1,8 @@
 // Writes the year files and the index with the JS runtime, in the layout of
-// json/. scripts/dump.php does the same with the PHP runtime; the
-// cross-runtime test (tests/php/CrossRuntimeTest.php) compares both.
+// json/, and names.json: name() for every holiday in every language its data
+// has, plus de-CH, pt_BR and zz (the fallbacks), and an unknown id.
+// scripts/dump.php does the same with the PHP runtime; the cross-runtime test
+// (tests/php/CrossRuntimeTest.php) compares both.
 //   node scripts/dump.mjs <out-dir> [rules-dir] [from] [to]
 
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
@@ -34,4 +36,13 @@ writeFileSync(
   join(out, 'index.json'),
   encode({ format: FORMAT, years: { from: Number(from), to: Number(to) }, countries: holidays.countries() }),
 );
-console.log(`Wrote ${files} year files to ${out}`);
+const names = {};
+for (const country of holidays.countries()) {
+  for (const h of rules[country.code].holidays) {
+    const tags = [...new Set(['de-CH', 'pt_BR', 'zz', ...Object.keys(h.names)])].sort();
+    names[h.id] = Object.fromEntries(tags.map((tag) => [tag, holidays.name(h.id, tag)]));
+  }
+}
+names['zz.unknown'] = { en: holidays.name('zz.unknown', 'en') };
+writeFileSync(join(out, 'names.json'), encode(names));
+console.log(`Wrote ${files} year files and the names of ${Object.keys(names).length - 1} holidays to ${out}`);

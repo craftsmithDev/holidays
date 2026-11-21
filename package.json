@@ -1,6 +1,6 @@
 {
   "name": "@craftsmith/holidays",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Public holidays of 18 Western European countries, national and regional, with the legal source for every day: half days, substitute days, public, bank and observance types. Same data and results as the Composer package craftsmith/holidays.",
   "license": "MIT",
   "author": "craftsmith",
@@ -59,6 +59,7 @@
     "compare": "node scripts/compare.mjs"
   },
   "devDependencies": {
+    "@craftsmith/regions": "file:../regions",
     "ajv": "^8.20.0",
     "date-holidays": "^3.39.2",
     "js-yaml": "^4.3.2",

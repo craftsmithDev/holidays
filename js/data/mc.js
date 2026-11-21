@@ -3,8 +3,17 @@ export default {
   "format": 1,
   "code": "MC",
   "names": {
+    "en": "Monaco",
     "fr": "Monaco",
-    "en": "Monaco"
+    "de": "Monaco",
+    "es": "Mónaco",
+    "it": "Monaco",
+    "nl": "Monaco",
+    "pl": "Monako",
+    "pt": "Mônaco",
+    "rm": "Monaco",
+    "ru": "Монако",
+    "tr": "Monako"
   },
   "languages": [
     "fr"
@@ -67,7 +76,16 @@ export default {
       "id": "mc.new-year",
       "names": {
         "en": "New Year’s Day",
-        "fr": "Jour de l’An"
+        "fr": "Jour de l’An",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -98,7 +116,16 @@ export default {
       "id": "mc.saint-devote",
       "names": {
         "en": "Saint Devota’s Day",
-        "fr": "Sainte-Dévote"
+        "fr": "Sainte-Dévote",
+        "de": "Tag der heiligen Devota",
+        "es": "Santa Devota",
+        "it": "Santa Devota",
+        "nl": "Sint-Devota",
+        "pl": "Dzień Świętej Dewoty",
+        "pt": "Dia de Santa Devota",
+        "rm": "Sontga Devota",
+        "ru": "День святой Девоты",
+        "tr": "Azize Devota Günü"
       },
       "date": {
         "type": "fixed",
@@ -123,7 +150,16 @@ export default {
       "id": "mc.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "fr": "Lundi de Pâques"
+        "fr": "Lundi de Pâques",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -145,7 +181,16 @@ export default {
       "id": "mc.labour-day",
       "names": {
         "en": "Labour Day",
-        "fr": "Fête du Travail"
+        "fr": "Fête du Travail",
+        "de": "Tag der Arbeit",
+        "es": "Fiesta del Trabajo",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "date": {
         "type": "fixed",
@@ -176,7 +221,16 @@ export default {
       "id": "mc.ascension",
       "names": {
         "en": "Ascension Day",
-        "fr": "Ascension"
+        "fr": "Ascension",
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "it": "Ascensione",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -198,7 +252,16 @@ export default {
       "id": "mc.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "fr": "Lundi de Pentecôte"
+        "fr": "Lundi de Pentecôte",
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -220,7 +283,16 @@ export default {
       "id": "mc.corpus-christi",
       "names": {
         "en": "Corpus Christi",
-        "fr": "Fête-Dieu"
+        "fr": "Fête-Dieu",
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "it": "Corpus Domini",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "pt": "Corpo de Deus",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "date": {
         "type": "easter",
@@ -242,7 +314,16 @@ export default {
       "id": "mc.assumption",
       "names": {
         "en": "Assumption Day",
-        "fr": "Assomption"
+        "fr": "Assomption",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -274,7 +355,16 @@ export default {
       "id": "mc.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "fr": "Toussaint"
+        "fr": "Toussaint",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -306,7 +396,16 @@ export default {
       "id": "mc.national-day",
       "names": {
         "en": "National Day (Prince’s Day)",
-        "fr": "Fête du Prince"
+        "fr": "Fête du Prince",
+        "de": "Nationalfeiertag (Fürstentag)",
+        "es": "Fiesta nacional (Día del Príncipe)",
+        "it": "Festa nazionale (Festa del Principe)",
+        "nl": "Nationale feestdag (Dag van de Vorst)",
+        "pl": "Święto Narodowe (Dzień Księcia)",
+        "pt": "Dia Nacional (Dia do Príncipe)",
+        "rm": "Festa naziunala (Di dal prinzi)",
+        "ru": "Национальный праздник (День князя)",
+        "tr": "Ulusal Bayram (Prens Günü)"
       },
       "note": "Loi n° 798 names the feast day of the reigning Prince (\"la fête du Prince régnant\"), not a date. It has been 19 November under Rainier III and Albert II; a new reign could change it.",
       "date": {
@@ -341,7 +440,16 @@ export default {
       "id": "mc.immaculate-conception",
       "names": {
         "en": "Immaculate Conception",
-        "fr": "Immaculée Conception"
+        "fr": "Immaculée Conception",
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "date": {
         "type": "fixed",
@@ -379,7 +487,16 @@ export default {
       "id": "mc.christmas",
       "names": {
         "en": "Christmas Day",
-        "fr": "Noël"
+        "fr": "Noël",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",

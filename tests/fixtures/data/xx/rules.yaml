@@ -1,13 +1,9 @@
 # Test fixture: an invented country with two regions. It exercises every
 # rule type and the hard cases of docs/format.md. Not real data.
 code: XX
-names: {en: Testland, de: Testland}
-languages: [de]
 regions:
-  - code: XX-AA
-    names: {en: Alpha, de: Alpha}
-  - code: XX-BB
-    names: {en: Beta, de: Beta}
+  - XX-AA
+  - XX-BB
 sources:
   fixture:
     title: Test fixture

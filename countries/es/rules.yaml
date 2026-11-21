@@ -10,28 +10,26 @@
 #   island of the Canary Islands, the territory of Arán in Catalonia).
 # Local (municipal) holidays are not listed (out of scope).
 code: ES
-names: {es: España, en: Spain, ca: Espanya, eu: Espainia, gl: España}
-languages: [es]
 regions:
-  - {code: ES-AN, names: {es: "Andalucía", en: "Andalusia"}}
-  - {code: ES-AR, names: {es: "Aragón", en: "Aragon"}}
-  - {code: ES-AS, names: {es: "Principado de Asturias", en: "Asturias"}}
-  - {code: ES-CB, names: {es: "Cantabria", en: "Cantabria"}}
-  - {code: ES-CE, names: {es: "Ceuta", en: "Ceuta"}}
-  - {code: ES-CL, names: {es: "Castilla y León", en: "Castile and León"}}
-  - {code: ES-CM, names: {es: "Castilla-La Mancha", en: "Castile-La Mancha"}}
-  - {code: ES-CN, names: {es: "Canarias", en: "Canary Islands"}}
-  - {code: ES-CT, names: {es: "Cataluña", en: "Catalonia", ca: "Catalunya"}}
-  - {code: ES-EX, names: {es: "Extremadura", en: "Extremadura"}}
-  - {code: ES-GA, names: {es: "Galicia", en: "Galicia", gl: "Galicia"}}
-  - {code: ES-IB, names: {es: "Illes Balears", en: "Balearic Islands", ca: "Illes Balears"}}
-  - {code: ES-MC, names: {es: "Región de Murcia", en: "Murcia"}}
-  - {code: ES-MD, names: {es: "Comunidad de Madrid", en: "Madrid"}}
-  - {code: ES-ML, names: {es: "Melilla", en: "Melilla"}}
-  - {code: ES-NC, names: {es: "Comunidad Foral de Navarra", en: "Navarre", eu: "Nafarroako Foru Komunitatea"}}
-  - {code: ES-PV, names: {es: "País Vasco", en: "Basque Country", eu: "Euskadi"}}
-  - {code: ES-RI, names: {es: "La Rioja", en: "La Rioja"}}
-  - {code: ES-VC, names: {es: "Comunitat Valenciana", en: "Valencian Community", ca: "Comunitat Valenciana"}}
+  - ES-AN
+  - ES-AR
+  - ES-AS
+  - ES-CB
+  - ES-CE
+  - ES-CL
+  - ES-CM
+  - ES-CN
+  - ES-CT
+  - ES-EX
+  - ES-GA
+  - ES-IB
+  - ES-MC
+  - ES-MD
+  - ES-ML
+  - ES-NC
+  - ES-PV
+  - ES-RI
+  - ES-VC
 sources:
   boe-2000:
     title: "Resolución de 21 de octubre de 1999, de la Dirección General de Trabajo, por la que se aprueba la publicación de las fiestas laborales para el año 2000."

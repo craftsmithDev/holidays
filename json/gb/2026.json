@@ -8,7 +8,17 @@
       "id": "gb.new-year",
       "name": {
         "en": "New Year’s Day",
-        "cy": "Dydd Calan"
+        "cy": "Dydd Calan",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "type": "public",
       "startTime": null,
@@ -25,7 +35,17 @@
       "id": "gb.second-january",
       "name": {
         "en": "2nd January",
-        "cy": "2il o Ionawr"
+        "cy": "2il o Ionawr",
+        "de": "2. Januar",
+        "es": "2 de enero",
+        "fr": "2 janvier",
+        "it": "2 gennaio",
+        "nl": "2 januari",
+        "pl": "2 stycznia",
+        "pt": "2 de janeiro",
+        "rm": "2 da schaner",
+        "ru": "2 января",
+        "tr": "2 Ocak"
       },
       "type": "public",
       "startTime": null,
@@ -44,7 +64,17 @@
       "id": "gb.saint-patrick",
       "name": {
         "en": "St Patrick’s Day",
-        "cy": "Gŵyl Sant Padrig"
+        "cy": "Gŵyl Sant Padrig",
+        "de": "Sankt-Patricks-Tag",
+        "es": "Día de San Patricio",
+        "fr": "Saint-Patrick",
+        "it": "San Patrizio",
+        "nl": "Sint-Patricksdag",
+        "pl": "Dzień Świętego Patryka",
+        "pt": "Dia de São Patrício",
+        "rm": "Son Patrizi",
+        "ru": "День святого Патрика",
+        "tr": "Aziz Patrick Günü"
       },
       "type": "public",
       "startTime": null,
@@ -63,7 +93,17 @@
       "id": "gb.good-friday",
       "name": {
         "en": "Good Friday",
-        "cy": "Gwener y Groglith"
+        "cy": "Gwener y Groglith",
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "type": "public",
       "startTime": null,
@@ -80,7 +120,17 @@
       "id": "gb.easter-monday",
       "name": {
         "en": "Easter Monday",
-        "cy": "Llun y Pasg"
+        "cy": "Llun y Pasg",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "type": "public",
       "startTime": null,
@@ -101,7 +151,17 @@
       "id": "gb.early-may",
       "name": {
         "en": "Early May bank holiday",
-        "cy": "Gŵyl banc dechrau Mai"
+        "cy": "Gŵyl banc dechrau Mai",
+        "de": "Feiertag Anfang Mai",
+        "es": "Festivo de principios de mayo",
+        "fr": "Jour férié de début mai",
+        "it": "Festività di inizio maggio",
+        "nl": "Feestdag begin mei",
+        "pl": "Majowy dzień wolny od pracy",
+        "pt": "Feriado do início de maio",
+        "rm": "Di da festa al cumenzament da matg",
+        "ru": "Майский праздник (начало мая)",
+        "tr": "Mayıs başı resmî tatili"
       },
       "type": "public",
       "startTime": null,
@@ -118,7 +178,17 @@
       "id": "gb.spring-bank",
       "name": {
         "en": "Spring bank holiday",
-        "cy": "Gŵyl banc y gwanwyn"
+        "cy": "Gŵyl banc y gwanwyn",
+        "de": "Frühlingsfeiertag",
+        "es": "Festivo de primavera",
+        "fr": "Jour férié de printemps",
+        "it": "Festività di primavera",
+        "nl": "Lentefeestdag",
+        "pl": "Wiosenny dzień wolny od pracy",
+        "pt": "Feriado da primavera",
+        "rm": "Di da festa da primavaira",
+        "ru": "Весенний праздник (конец мая)",
+        "tr": "Bahar resmî tatili"
       },
       "type": "public",
       "startTime": null,
@@ -137,7 +207,17 @@
       "id": "gb.world-cup",
       "name": {
         "en": "World Cup bank holiday",
-        "cy": "Gŵyl y banc Cwpan y Byd"
+        "cy": "Gŵyl y banc Cwpan y Byd",
+        "de": "Feiertag zur Weltmeisterschaft",
+        "es": "Festivo de la Copa del Mundo",
+        "fr": "Jour férié de la Coupe du monde",
+        "it": "Festività per la Coppa del Mondo",
+        "nl": "Feestdag voor het wereldkampioenschap",
+        "pl": "Dzień wolny z okazji mistrzostw świata",
+        "pt": "Feriado do Campeonato do Mundo",
+        "rm": "Di da festa dal campiunadi mundial",
+        "ru": "Выходной день в честь чемпионата мира",
+        "tr": "Dünya Kupası tatili"
       },
       "type": "public",
       "startTime": null,
@@ -156,7 +236,17 @@
       "id": "gb.battle-of-the-boyne",
       "name": {
         "en": "Battle of the Boyne (Orangemen’s Day)",
-        "cy": "Brwydr y Boyne (Dydd yr Orenwyr)"
+        "cy": "Brwydr y Boyne (Dydd yr Orenwyr)",
+        "de": "Schlacht am Boyne (Orangemen’s Day)",
+        "es": "Batalla del Boyne (Orangemen’s Day)",
+        "fr": "Bataille de la Boyne (Orangemen’s Day)",
+        "it": "Battaglia del Boyne (Orangemen’s Day)",
+        "nl": "Slag aan de Boyne (Orangemen’s Day)",
+        "pl": "Bitwa nad Boyne (Orangemen’s Day)",
+        "pt": "Batalha do Boyne (Orangemen’s Day)",
+        "rm": "Battaglia da la Boyne (Orangemen’s Day)",
+        "ru": "Битва на реке Бойн (День оранжистов)",
+        "tr": "Boyne Muharebesi (Orangemen’s Day)"
       },
       "type": "public",
       "startTime": null,
@@ -175,7 +265,17 @@
       "id": "gb.battle-of-the-boyne",
       "name": {
         "en": "Battle of the Boyne (Orangemen’s Day)",
-        "cy": "Brwydr y Boyne (Dydd yr Orenwyr)"
+        "cy": "Brwydr y Boyne (Dydd yr Orenwyr)",
+        "de": "Schlacht am Boyne (Orangemen’s Day)",
+        "es": "Batalla del Boyne (Orangemen’s Day)",
+        "fr": "Bataille de la Boyne (Orangemen’s Day)",
+        "it": "Battaglia del Boyne (Orangemen’s Day)",
+        "nl": "Slag aan de Boyne (Orangemen’s Day)",
+        "pl": "Bitwa nad Boyne (Orangemen’s Day)",
+        "pt": "Batalha do Boyne (Orangemen’s Day)",
+        "rm": "Battaglia da la Boyne (Orangemen’s Day)",
+        "ru": "Битва на реке Бойн (День оранжистов)",
+        "tr": "Boyne Muharebesi (Orangemen’s Day)"
       },
       "type": "public",
       "startTime": null,
@@ -194,7 +294,17 @@
       "id": "gb.summer-bank",
       "name": {
         "en": "Summer bank holiday",
-        "cy": "Gŵyl banc yr haf"
+        "cy": "Gŵyl banc yr haf",
+        "de": "Sommerfeiertag",
+        "es": "Festivo de verano",
+        "fr": "Jour férié d’été",
+        "it": "Festività d’estate",
+        "nl": "Zomerfeestdag",
+        "pl": "Letni dzień wolny od pracy",
+        "pt": "Feriado de verão",
+        "rm": "Di da festa da stad",
+        "ru": "Летний праздник (август)",
+        "tr": "Yaz resmî tatili"
       },
       "type": "public",
       "startTime": null,
@@ -213,7 +323,17 @@
       "id": "gb.summer-bank",
       "name": {
         "en": "Summer bank holiday",
-        "cy": "Gŵyl banc yr haf"
+        "cy": "Gŵyl banc yr haf",
+        "de": "Sommerfeiertag",
+        "es": "Festivo de verano",
+        "fr": "Jour férié d’été",
+        "it": "Festività d’estate",
+        "nl": "Zomerfeestdag",
+        "pl": "Letni dzień wolny od pracy",
+        "pt": "Feriado de verão",
+        "rm": "Di da festa da stad",
+        "ru": "Летний праздник (август)",
+        "tr": "Yaz resmî tatili"
       },
       "type": "public",
       "startTime": null,
@@ -234,7 +354,17 @@
       "id": "gb.saint-andrew",
       "name": {
         "en": "St Andrew’s Day",
-        "cy": "Gŵyl Andreas"
+        "cy": "Gŵyl Andreas",
+        "de": "Andreastag",
+        "es": "San Andrés",
+        "fr": "Saint-André",
+        "it": "Sant’Andrea",
+        "nl": "Sint-Andreasdag",
+        "pl": "Dzień Świętego Andrzeja",
+        "pt": "Dia de Santo André",
+        "rm": "Son Andreas",
+        "ru": "День святого Андрея",
+        "tr": "Aziz Andreas Günü"
       },
       "type": "public",
       "startTime": null,
@@ -254,7 +384,17 @@
       "id": "gb.christmas",
       "name": {
         "en": "Christmas Day",
-        "cy": "Dydd Nadolig"
+        "cy": "Dydd Nadolig",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "type": "public",
       "startTime": null,
@@ -271,7 +411,17 @@
       "id": "gb.boxing-day",
       "name": {
         "en": "Boxing Day",
-        "cy": "Dydd San Steffan"
+        "cy": "Dydd San Steffan",
+        "de": "Boxing Day",
+        "es": "Boxing Day",
+        "fr": "Boxing Day",
+        "it": "Boxing Day",
+        "nl": "Boxing Day",
+        "pl": "Boxing Day",
+        "pt": "Boxing Day",
+        "rm": "Boxing Day",
+        "ru": "День подарков",
+        "tr": "Boxing Day"
       },
       "type": "public",
       "startTime": null,
@@ -288,7 +438,17 @@
       "id": "gb.boxing-day",
       "name": {
         "en": "Boxing Day",
-        "cy": "Dydd San Steffan"
+        "cy": "Dydd San Steffan",
+        "de": "Boxing Day",
+        "es": "Boxing Day",
+        "fr": "Boxing Day",
+        "it": "Boxing Day",
+        "nl": "Boxing Day",
+        "pl": "Boxing Day",
+        "pt": "Boxing Day",
+        "rm": "Boxing Day",
+        "ru": "День подарков",
+        "tr": "Boxing Day"
       },
       "type": "public",
       "startTime": null,

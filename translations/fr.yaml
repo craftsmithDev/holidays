@@ -1,0 +1,296 @@
+# fr: holiday names for countries where fr is not a local language. Written by
+# Claude and not yet reviewed (docs/coverage.md); edit by hand.
+language: fr
+countries:
+  AD:
+    holidays:
+      ad.new-year: Nouvel An
+      ad.epiphany: Épiphanie
+      ad.carnival: Carnaval
+      ad.constitution-day: Jour de la Constitution
+      ad.good-friday: Vendredi saint
+      ad.easter-monday: Lundi de Pâques
+      ad.labour-day: Fête du travail
+      ad.whit-monday: Lundi de Pentecôte
+      ad.assumption: Assomption
+      ad.meritxell: Notre-Dame de Meritxell
+      ad.all-saints: Toussaint
+      ad.immaculate-conception: Immaculée Conception
+      ad.christmas: Noël
+      ad.saint-stephen: Saint-Étienne
+  AT:
+    holidays:
+      at.new-year: Nouvel An
+      at.epiphany: Épiphanie
+      at.saint-joseph: Saint-Joseph
+      at.good-friday: Vendredi saint
+      at.easter-monday: Lundi de Pâques
+      at.labour-day: Fête du travail
+      at.saint-florian: Saint-Florian
+      at.ascension: Ascension
+      at.whit-monday: Lundi de Pentecôte
+      at.corpus-christi: Fête-Dieu
+      at.assumption: Assomption
+      at.saint-rupert: Saint-Rupert
+      at.plebiscite-day: Jour du plébiscite de Carinthie
+      at.national-day: Fête nationale
+      at.all-saints: Toussaint
+      at.saint-martin: Saint-Martin
+      at.saint-leopold: Saint-Léopold
+      at.immaculate-conception: Immaculée Conception
+      at.christmas-eve: Veille de Noël
+      at.christmas: Noël
+      at.saint-stephen: Saint-Étienne
+      at.new-years-eve: Saint-Sylvestre
+  DE:
+    holidays:
+      de.new-year: Nouvel An
+      de.epiphany: Épiphanie
+      de.womens-day: Journée internationale des droits des femmes
+      de.good-friday: Vendredi saint
+      de.easter-monday: Lundi de Pâques
+      de.labour-day: Fête du travail
+      de.liberation-day: Fête de la Libération
+      de.ascension: Ascension
+      de.whit-monday: Lundi de Pentecôte
+      de.corpus-christi: Fête-Dieu
+      de.uprising-anniversary: 75e anniversaire du soulèvement du 17 juin 1953
+      de.augsburg-peace-festival: Fête de la paix d’Augsbourg
+      de.assumption: Assomption
+      de.world-childrens-day: Journée mondiale de l’enfance
+      de.national-day: Jour de l’Unité allemande
+      de.reformation-day: Jour de la Réforme
+      de.all-saints: Toussaint
+      de.repentance-day: Jour de pénitence et de prière
+      de.christmas-eve: Veille de Noël
+      de.christmas: Noël
+      de.saint-stephen: Deuxième jour de Noël
+      de.new-years-eve: Saint-Sylvestre
+  ES:
+    holidays:
+      es.new-year: Nouvel An
+      es.epiphany: Épiphanie
+      es.ceuta-convivencia-day: Journée du vivre-ensemble
+      es.island-tenerife: 'Fête insulaire : Tenerife'
+      es.shrove-tuesday: Mardi gras
+      es.andalusia-day: Journée de l’Andalousie
+      es.balearic-islands-day: Journée des îles Baléares
+      es.melilla-statute-day: Journée du statut d’autonomie de Melilla
+      es.fallas-monday: Lundi des Fallas
+      es.saint-joseph: Saint-Joseph
+      es.maundy-thursday: Jeudi saint
+      es.good-friday: Vendredi saint
+      es.easter-monday: Lundi de Pâques
+      es.aragon-day: Saint-Georges, Journée de l’Aragon
+      es.castile-leon-day: Journée de Castille-et-León
+      es.labour-day: Fête du travail
+      es.madrid-day: Fête de la Communauté de Madrid
+      es.eid-al-fitr: Aïd el-Fitr
+      es.galician-literature-day: Journée des lettres galiciennes
+      es.whit-monday: Lundi de Pentecôte
+      es.canary-islands-day: Journée des Canaries
+      es.castile-la-mancha-day: Journée de Castille-La Manche
+      es.corpus-christi: Fête-Dieu
+      es.murcia-day: Journée de la Région de Murcie
+      es.la-rioja-day: Journée de La Rioja
+      es.aran-day: Fête d’Aran
+      es.saint-john: Saint-Jean
+      es.saint-james: Saint-Jacques
+      es.cantabria-institutions-day: Journée des institutions de Cantabrie
+      es.our-lady-of-africa: Notre-Dame d’Afrique
+      es.island-la-palma: 'Fête insulaire : La Palma'
+      es.assumption: Assomption
+      es.ceuta-day: Journée de Ceuta
+      es.circumnavigation-500: 500e anniversaire du premier tour du monde
+      es.asturias-day: Journée des Asturies
+      es.extremadura-day: Journée de l’Estrémadure
+      es.island-gran-canaria: 'Fête insulaire : Gran Canaria'
+      es.catalonia-national-day: Fête nationale de la Catalogne
+      es.bien-aparecida: Notre-Dame de la Bien Aparecida
+      es.island-lanzarote: 'Fête insulaire : Lanzarote'
+      es.island-fuerteventura: 'Fête insulaire : Fuerteventura'
+      es.island-el-hierro: 'Fête insulaire : El Hierro'
+      es.basque-government-anniversary: Anniversaire du premier gouvernement basque
+      es.valencian-community-day: Journée de la Communauté valencienne
+      es.island-la-gomera: 'Fête insulaire : La Gomera'
+      es.national-day: Fête nationale espagnole
+      es.basque-country-day: Journée du Pays basque
+      es.all-saints: Toussaint
+      es.eid-al-adha: Aïd el-Kebir
+      es.constitution-day: Jour de la Constitution
+      es.immaculate-conception: Immaculée Conception
+      es.christmas: Noël
+      es.saint-stephen: Saint-Étienne
+  GB:
+    holidays:
+      gb.new-year: Nouvel An
+      gb.second-january: 2 janvier
+      gb.saint-patrick: Saint-Patrick
+      gb.good-friday: Vendredi saint
+      gb.easter-monday: Lundi de Pâques
+      gb.royal-wedding: Mariage royal
+      gb.early-may: Jour férié de début mai
+      gb.coronation: Jour férié pour le couronnement du roi Charles III
+      gb.spring-bank: Jour férié de printemps
+      gb.golden-jubilee: Jubilé d’or
+      gb.diamond-jubilee: Jubilé de diamant de la reine
+      gb.platinum-jubilee: Jour férié du jubilé de platine
+      gb.world-cup: Jour férié de la Coupe du monde
+      gb.battle-of-the-boyne: Bataille de la Boyne (Orangemen’s Day)
+      gb.summer-bank: Jour férié d’été
+      gb.state-funeral: Jour férié pour les funérailles nationales de la reine Élisabeth II
+      gb.saint-andrew: Saint-André
+      gb.christmas: Noël
+      gb.boxing-day: Boxing Day
+  IE:
+    holidays:
+      ie.new-year: Nouvel An
+      ie.saint-brigid: Sainte-Brigitte
+      ie.saint-patrick: Saint-Patrick
+      ie.covid-commemoration: Jour férié supplémentaire
+      ie.easter-monday: Lundi de Pâques
+      ie.may-bank-holiday: Premier lundi de mai
+      ie.june-bank-holiday: Premier lundi de juin
+      ie.august-bank-holiday: Premier lundi d’août
+      ie.national-day-of-mourning: Journée nationale de deuil
+      ie.october-bank-holiday: Dernier lundi d’octobre
+      ie.christmas: Noël
+      ie.saint-stephen: Saint-Étienne
+  IT:
+    holidays:
+      it.new-year: Nouvel An
+      it.epiphany: Épiphanie
+      it.unification-150: 150e anniversaire de l’unité italienne
+      it.easter-monday: Lundi de Pâques
+      it.liberation-day: Fête de la Libération
+      it.labour-day: Fête du travail
+      it.whit-monday: Lundi de Pentecôte
+      it.national-day: Fête de la République
+      it.assumption: Assomption
+      it.saint-francis: Fête de saint François d’Assise
+      it.all-saints: Toussaint
+      it.immaculate-conception: Immaculée Conception
+      it.christmas: Noël
+      it.saint-stephen: Saint-Étienne
+  LI:
+    holidays:
+      li.new-year: Nouvel An
+      li.berchtold: Berchtoldstag
+      li.epiphany: Épiphanie
+      li.candlemas: Chandeleur
+      li.shrove-tuesday: Mardi gras
+      li.saint-joseph: Saint-Joseph
+      li.good-friday: Vendredi saint
+      li.easter-monday: Lundi de Pâques
+      li.labour-day: Fête du travail
+      li.ascension: Ascension
+      li.whit-monday: Lundi de Pentecôte
+      li.corpus-christi: Fête-Dieu
+      li.national-day: Fête nationale (Assomption)
+      li.nativity-of-mary: Nativité de Marie
+      li.all-saints: Toussaint
+      li.immaculate-conception: Immaculée Conception
+      li.christmas-eve: Veille de Noël
+      li.christmas: Noël
+      li.saint-stephen: Saint-Étienne
+      li.new-years-eve: Saint-Sylvestre
+  MT:
+    holidays:
+      mt.new-year: Nouvel An
+      mt.saint-pauls-shipwreck: Fête du naufrage de saint Paul
+      mt.saint-joseph: Saint-Joseph
+      mt.freedom-day: Jour de la Liberté
+      mt.good-friday: Vendredi saint
+      mt.labour-day: Fête du travail
+      mt.sette-giugno: Sette Giugno
+      mt.saints-peter-and-paul: Saint-Pierre et Saint-Paul
+      mt.assumption: Assomption
+      mt.victory-day: Jour de la Victoire
+      mt.independence-day: Fête de l’Indépendance
+      mt.immaculate-conception: Immaculée Conception
+      mt.republic-day: Fête de la République
+      mt.christmas: Noël
+  NL:
+    holidays:
+      nl.new-year: Nouvel An
+      nl.good-friday: Vendredi saint
+      nl.easter-monday: Lundi de Pâques
+      nl.queens-day: Jour de la Reine
+      nl.kings-day: Jour du Roi
+      nl.dia-di-rincon: Jour de Rincon
+      nl.labour-day: Fête du travail
+      nl.liberation-day: Fête de la Libération
+      nl.ascension: Ascension
+      nl.whit-monday: Lundi de Pentecôte
+      nl.emancipation-day: Jour de l’émancipation
+      nl.flag-day-bonaire: Jour du drapeau et de l’hymne de Bonaire
+      nl.statia-day: Jour de Statia
+      nl.saba-day: Jour de Saba
+      nl.christmas: Noël
+      nl.saint-stephen: Deuxième jour de Noël
+  PT:
+    holidays:
+      pt.new-year: Nouvel An
+      pt.shrove-tuesday: Carnaval
+      pt.good-friday: Vendredi saint
+      pt.madeira-autonomy-day: Jour de l’autonomie
+      pt.freedom-day: Jour de la Liberté
+      pt.labour-day: Fête du travail
+      pt.azores-day: Jour des Açores
+      pt.corpus-christi: Fête-Dieu
+      pt.national-day: Jour du Portugal
+      pt.madeira-day: Jour de Madère
+      pt.assumption: Assomption
+      pt.republic-day: Fête de la République
+      pt.all-saints: Toussaint
+      pt.restoration-of-independence: Restauration de l’indépendance
+      pt.immaculate-conception: Immaculée Conception
+      pt.christmas: Noël
+      pt.saint-stephen: Premier jour de l’octave de Noël
+  SM:
+    holidays:
+      sm.new-year: Sainte Marie, Mère de Dieu
+      sm.epiphany: Épiphanie
+      sm.saint-agatha: Sainte-Agathe
+      sm.arengo: Anniversaire de l’Arengo
+      sm.captains-regent-april: Investiture des capitaines-régents
+      sm.easter-monday: Lundi de Pâques
+      sm.labour-day: Fête du travail
+      sm.corpus-christi: Fête-Dieu
+      sm.fall-of-fascism: Anniversaire de la chute du fascisme
+      sm.assumption: Assomption
+      sm.national-day: Fête de saint Marin, fondateur de la République
+      sm.captains-regent-october: Investiture des capitaines-régents
+      sm.all-saints: Toussaint
+      sm.all-souls: Jour des morts
+      sm.immaculate-conception: Immaculée Conception
+      sm.christmas: Noël
+      sm.saint-stephen: Saint-Étienne
+  VA:
+    holidays:
+      va.new-year: Sainte Marie, Mère de Dieu
+      va.epiphany: Épiphanie
+      va.state-anniversary: Anniversaire de la fondation de l’État de la Cité du Vatican
+      va.saint-joseph: Saint-Joseph
+      va.maundy-thursday: Jeudi saint
+      va.good-friday: Vendredi saint
+      va.holy-saturday: Samedi saint
+      va.easter-monday: Lundi de Pâques
+      va.easter-tuesday: Mardi de Pâques
+      va.saint-joseph-the-worker: Saint Joseph travailleur
+      va.papal-election-anniversary: Anniversaire de l’élection du pape
+      va.ascension: Ascension
+      va.corpus-christi: Fête-Dieu
+      va.saints-peter-and-paul: Saint-Pierre et Saint-Paul
+      va.assumption-eve: Veille de l’Assomption
+      va.assumption: Assomption
+      va.day-after-assumption: Lendemain de l’Assomption
+      va.papal-name-day: Fête onomastique du pape
+      va.all-saints: Toussaint
+      va.all-souls: Jour des morts
+      va.immaculate-conception: Immaculée Conception
+      va.christmas-eve: Veille de Noël
+      va.christmas: Noël
+      va.saint-stephen: Saint-Étienne
+      va.saint-john: Saint Jean l’Apôtre
+      va.new-years-eve: Saint-Sylvestre

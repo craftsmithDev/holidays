@@ -9,18 +9,16 @@
 #   (calendario degli uffici 2026), and Art. 5 adapts the labour law to the
 #   whole list, so both are public.
 code: SM
-names: {it: San Marino, en: San Marino}
-languages: [it]
 regions:
-  - {code: SM-01, names: {it: Acquaviva, en: Acquaviva}}
-  - {code: SM-02, names: {it: Chiesanuova, en: Chiesanuova}}
-  - {code: SM-03, names: {it: Domagnano, en: Domagnano}}
-  - {code: SM-04, names: {it: Faetano, en: Faetano}}
-  - {code: SM-05, names: {it: Fiorentino, en: Fiorentino}}
-  - {code: SM-06, names: {it: Borgo Maggiore, en: Borgo Maggiore}}
-  - {code: SM-07, names: {it: Città di San Marino, en: City of San Marino}}
-  - {code: SM-08, names: {it: Montegiardino, en: Montegiardino}}
-  - {code: SM-09, names: {it: Serravalle, en: Serravalle}}
+  - SM-01
+  - SM-02
+  - SM-03
+  - SM-04
+  - SM-05
+  - SM-06
+  - SM-07
+  - SM-08
+  - SM-09
 sources:
   legge-152-1990:
     title: "Legge 18 dicembre 1990 n. 152: Calendario delle Festività"

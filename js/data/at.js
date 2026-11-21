@@ -3,8 +3,20 @@ export default {
   "format": 1,
   "code": "AT",
   "names": {
+    "en": "Austria",
     "de": "Österreich",
-    "en": "Austria"
+    "hr": "Austrija",
+    "hu": "Ausztria",
+    "sl": "Avstrija",
+    "es": "Austria",
+    "fr": "Autriche",
+    "it": "Austria",
+    "nl": "Oostenrijk",
+    "pl": "Austria",
+    "pt": "Áustria",
+    "rm": "Austria",
+    "ru": "Австрия",
+    "tr": "Avusturya"
   },
   "languages": [
     "de"
@@ -13,64 +25,165 @@ export default {
     {
       "code": "AT-1",
       "names": {
+        "en": "Burgenland",
         "de": "Burgenland",
-        "en": "Burgenland"
+        "hr": "Gradišće",
+        "hu": "Burgenland",
+        "sl": "Gradiščanska",
+        "es": "Burgenland",
+        "fr": "Burgenland",
+        "it": "Burgenland",
+        "nl": "Burgenland",
+        "pl": "Burgenland",
+        "pt": "Burgenland",
+        "ru": "Бургенланд",
+        "tr": "Burgenland"
       }
     },
     {
       "code": "AT-2",
       "names": {
+        "en": "Carinthia",
         "de": "Kärnten",
-        "en": "Carinthia"
+        "hr": "Koruška",
+        "hu": "Karintia",
+        "sl": "Koroška",
+        "es": "Carintia",
+        "fr": "Carinthie",
+        "it": "Carinzia",
+        "nl": "Karinthië",
+        "pl": "Karyntia",
+        "pt": "Caríntia",
+        "ru": "Каринтия",
+        "tr": "Karintiya"
       }
     },
     {
       "code": "AT-3",
       "names": {
+        "en": "Lower Austria",
         "de": "Niederösterreich",
-        "en": "Lower Austria"
+        "hr": "Donja Austrija",
+        "hu": "Alsó-Ausztria",
+        "sl": "Spodnja Avstrija",
+        "es": "Baja Austria",
+        "fr": "Basse-Autriche",
+        "it": "Bassa Austria",
+        "nl": "Neder-Oostenrijk",
+        "pl": "Dolna Austria",
+        "pt": "Baixa Áustria",
+        "ru": "Нижняя Австрия",
+        "tr": "Aşağı Avusturya"
       }
     },
     {
       "code": "AT-4",
       "names": {
+        "en": "Upper Austria",
         "de": "Oberösterreich",
-        "en": "Upper Austria"
+        "hr": "Gornja Austrija",
+        "hu": "Felső-Ausztria",
+        "sl": "Gornja Avstrija",
+        "es": "Alta Austria",
+        "fr": "Haute-Autriche",
+        "it": "Alta Austria",
+        "nl": "Opper-Oostenrijk",
+        "pl": "Górna Austria",
+        "pt": "Alta Áustria",
+        "ru": "Верхняя Австрия",
+        "tr": "Yukarı Avusturya"
       }
     },
     {
       "code": "AT-5",
       "names": {
+        "en": "Salzburg",
         "de": "Salzburg",
-        "en": "Salzburg"
+        "hr": "Salzburg",
+        "hu": "Salzburg",
+        "sl": "Salzburg",
+        "es": "Salzburgo",
+        "fr": "Salzbourg",
+        "it": "Salisburghese",
+        "nl": "Salzburg",
+        "pl": "Salzburg",
+        "pt": "Salzburgo",
+        "ru": "Зальцбург",
+        "tr": "Salzburg"
       }
     },
     {
       "code": "AT-6",
       "names": {
+        "en": "Styria",
         "de": "Steiermark",
-        "en": "Styria"
+        "hr": "Štajerska",
+        "hu": "Stájerország",
+        "sl": "Štajerska",
+        "es": "Estiria",
+        "fr": "Styrie",
+        "it": "Stiria",
+        "nl": "Stiermarken",
+        "pl": "Styria",
+        "pt": "Estíria",
+        "ru": "Штирия",
+        "tr": "Steiermark"
       }
     },
     {
       "code": "AT-7",
       "names": {
+        "en": "Tyrol",
         "de": "Tirol",
-        "en": "Tyrol"
+        "hr": "Tirol",
+        "hu": "Tirol",
+        "sl": "Tirolska",
+        "es": "Tirol",
+        "fr": "Tyrol",
+        "it": "Tirolo",
+        "nl": "Tirol",
+        "pl": "Tyrol",
+        "pt": "Tirol",
+        "rm": "Tirol",
+        "ru": "Тироль",
+        "tr": "Tirol"
       }
     },
     {
       "code": "AT-8",
       "names": {
+        "en": "Vorarlberg",
         "de": "Vorarlberg",
-        "en": "Vorarlberg"
+        "hr": "Vorarlberg",
+        "hu": "Vorarlberg",
+        "sl": "Predarlska",
+        "es": "Vorarlberg",
+        "fr": "Vorarlberg",
+        "it": "Vorarlberg",
+        "nl": "Vorarlberg",
+        "pl": "Vorarlberg",
+        "pt": "Vorarlberg",
+        "ru": "Форарльберг",
+        "tr": "Vorarlberg"
       }
     },
     {
       "code": "AT-9",
       "names": {
+        "en": "Vienna",
         "de": "Wien",
-        "en": "Vienna"
+        "hr": "Beč",
+        "hu": "Bécs",
+        "sl": "Dunaj",
+        "es": "Viena",
+        "fr": "Vienne",
+        "it": "Vienna",
+        "nl": "Wenen",
+        "pl": "Wiedeń",
+        "pt": "Viena",
+        "rm": "Vienna",
+        "ru": "Вена",
+        "tr": "Viyana"
       }
     }
   ],
@@ -193,7 +306,16 @@ export default {
       "id": "at.new-year",
       "names": {
         "en": "New Year’s Day",
-        "de": "Neujahr"
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -215,7 +337,16 @@ export default {
       "id": "at.epiphany",
       "names": {
         "en": "Epiphany",
-        "de": "Heilige Drei Könige"
+        "de": "Heilige Drei Könige",
+        "es": "Epifanía del Señor",
+        "fr": "Épiphanie",
+        "it": "Epifania",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "pt": "Epifania",
+        "rm": "Babania",
+        "ru": "Богоявление",
+        "tr": "Epifani"
       },
       "date": {
         "type": "fixed",
@@ -237,7 +368,16 @@ export default {
       "id": "at.saint-joseph",
       "names": {
         "en": "Saint Joseph’s Day",
-        "de": "Josefitag"
+        "de": "Josefitag",
+        "es": "San José",
+        "fr": "Saint-Joseph",
+        "it": "San Giuseppe",
+        "nl": "Sint-Jozef",
+        "pl": "Dzień Świętego Józefa",
+        "pt": "Dia de São José",
+        "rm": "Son Josef",
+        "ru": "День святого Иосифа",
+        "tr": "Aziz Yusuf Günü"
       },
       "date": {
         "type": "fixed",
@@ -295,7 +435,16 @@ export default {
       "id": "at.good-friday",
       "names": {
         "en": "Good Friday",
-        "de": "Karfreitag"
+        "de": "Karfreitag",
+        "es": "Viernes Santo",
+        "fr": "Vendredi saint",
+        "it": "Venerdì santo",
+        "nl": "Goede Vrijdag",
+        "pl": "Wielki Piątek",
+        "pt": "Sexta-feira Santa",
+        "rm": "Venderdi sontg",
+        "ru": "Страстная пятница",
+        "tr": "Kutsal Cuma"
       },
       "date": {
         "type": "easter",
@@ -327,7 +476,16 @@ export default {
       "id": "at.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "de": "Ostermontag"
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -348,7 +506,16 @@ export default {
       "id": "at.labour-day",
       "names": {
         "en": "Labour Day",
-        "de": "Staatsfeiertag"
+        "de": "Staatsfeiertag",
+        "es": "Fiesta del Trabajo",
+        "fr": "Fête du travail",
+        "it": "Festa del lavoro",
+        "nl": "Dag van de Arbeid",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador",
+        "rm": "Di da la lavur",
+        "ru": "День труда",
+        "tr": "Emek ve Dayanışma Günü"
       },
       "note": "ARG § 7 para. 2 names the day \"1. Mai (Staatsfeiertag)\".",
       "date": {
@@ -371,7 +538,16 @@ export default {
       "id": "at.saint-florian",
       "names": {
         "en": "Saint Florian’s Day",
-        "de": "Florian"
+        "de": "Florian",
+        "es": "San Florián",
+        "fr": "Saint-Florian",
+        "it": "San Floriano",
+        "nl": "Sint-Florianus",
+        "pl": "Dzień Świętego Floriana",
+        "pt": "Dia de São Floriano",
+        "rm": "Son Florian",
+        "ru": "День святого Флориана",
+        "tr": "Aziz Florian Günü"
       },
       "date": {
         "type": "fixed",
@@ -397,7 +573,16 @@ export default {
       "id": "at.ascension",
       "names": {
         "en": "Ascension Day",
-        "de": "Christi Himmelfahrt"
+        "de": "Christi Himmelfahrt",
+        "es": "Ascensión",
+        "fr": "Ascension",
+        "it": "Ascensione",
+        "nl": "Hemelvaartsdag",
+        "pl": "Wniebowstąpienie Pańskie",
+        "pt": "Dia da Ascensão",
+        "rm": "Ascensiun",
+        "ru": "Вознесение Господне",
+        "tr": "İsa’nın Göğe Yükselişi"
       },
       "date": {
         "type": "easter",
@@ -418,7 +603,16 @@ export default {
       "id": "at.whit-monday",
       "names": {
         "en": "Whit Monday",
-        "de": "Pfingstmontag"
+        "de": "Pfingstmontag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "it": "Lunedì di Pentecoste",
+        "nl": "Pinkstermaandag",
+        "pl": "Drugi dzień Zielonych Świątek",
+        "pt": "Segunda-feira de Pentecostes",
+        "rm": "Glindesdi da Tschuncaisma",
+        "ru": "Духов день",
+        "tr": "Pentekost Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -439,7 +633,16 @@ export default {
       "id": "at.corpus-christi",
       "names": {
         "en": "Corpus Christi",
-        "de": "Fronleichnam"
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "fr": "Fête-Dieu",
+        "it": "Corpus Domini",
+        "nl": "Sacramentsdag",
+        "pl": "Boże Ciało",
+        "pt": "Corpo de Deus",
+        "rm": "Sontgilcrest",
+        "ru": "Праздник Тела и Крови Христовых",
+        "tr": "Corpus Christi"
       },
       "date": {
         "type": "easter",
@@ -460,7 +663,16 @@ export default {
       "id": "at.assumption",
       "names": {
         "en": "Assumption Day",
-        "de": "Mariä Himmelfahrt"
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción de la Virgen",
+        "fr": "Assomption",
+        "it": "Assunzione",
+        "nl": "Maria-Tenhemelopneming",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção de Nossa Senhora",
+        "rm": "Assumziun da Maria",
+        "ru": "Успение Богородицы",
+        "tr": "Meryem’in Göğe Kabulü"
       },
       "date": {
         "type": "fixed",
@@ -482,7 +694,16 @@ export default {
       "id": "at.saint-rupert",
       "names": {
         "en": "Saint Rupert’s Day",
-        "de": "Rupertitag"
+        "de": "Rupertitag",
+        "es": "San Ruperto",
+        "fr": "Saint-Rupert",
+        "it": "San Ruperto",
+        "nl": "Sint-Rupert",
+        "pl": "Dzień Świętego Ruperta",
+        "pt": "Dia de São Ruperto",
+        "rm": "Son Rupert",
+        "ru": "День святого Руперта",
+        "tr": "Aziz Rupert Günü"
       },
       "date": {
         "type": "fixed",
@@ -507,7 +728,16 @@ export default {
       "id": "at.plebiscite-day",
       "names": {
         "en": "Carinthian Plebiscite Day",
-        "de": "Tag der Volksabstimmung"
+        "de": "Tag der Volksabstimmung",
+        "es": "Día del Plebiscito de Carintia",
+        "fr": "Jour du plébiscite de Carinthie",
+        "it": "Giorno del plebiscito della Carinzia",
+        "nl": "Dag van het Karinthische referendum",
+        "pl": "Dzień Plebiscytu Karynckiego",
+        "pt": "Dia do Plebiscito da Caríntia",
+        "rm": "Di dal plebiscit da la Carinzia",
+        "ru": "День Каринтийского плебисцита",
+        "tr": "Karintiya Plebisit Günü"
       },
       "note": "Anniversary of the Carinthian plebiscite of 10 October 1920.",
       "date": {
@@ -533,7 +763,16 @@ export default {
       "id": "at.national-day",
       "names": {
         "en": "National Day",
-        "de": "Nationalfeiertag"
+        "de": "Nationalfeiertag",
+        "es": "Fiesta nacional",
+        "fr": "Fête nationale",
+        "it": "Festa nazionale",
+        "nl": "Nationale feestdag",
+        "pl": "Święto Narodowe",
+        "pt": "Dia Nacional",
+        "rm": "Festa naziunala",
+        "ru": "Национальный праздник",
+        "tr": "Ulusal Bayram"
       },
       "date": {
         "type": "fixed",
@@ -555,7 +794,16 @@ export default {
       "id": "at.all-saints",
       "names": {
         "en": "All Saints’ Day",
-        "de": "Allerheiligen"
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fr": "Toussaint",
+        "it": "Ognissanti",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Dia de Todos-os-Santos",
+        "rm": "Numnasontga",
+        "ru": "День всех святых",
+        "tr": "Tüm Azizler Günü"
       },
       "date": {
         "type": "fixed",
@@ -577,7 +825,16 @@ export default {
       "id": "at.saint-martin",
       "names": {
         "en": "Saint Martin’s Day",
-        "de": "Martini"
+        "de": "Martini",
+        "es": "San Martín",
+        "fr": "Saint-Martin",
+        "it": "San Martino",
+        "nl": "Sint-Maarten",
+        "pl": "Dzień Świętego Marcina",
+        "pt": "Dia de São Martinho",
+        "rm": "Son Martin",
+        "ru": "День святого Мартина",
+        "tr": "Aziz Martin Günü"
       },
       "date": {
         "type": "fixed",
@@ -603,7 +860,16 @@ export default {
       "id": "at.saint-leopold",
       "names": {
         "en": "Saint Leopold’s Day",
-        "de": "Leopolditag"
+        "de": "Leopolditag",
+        "es": "San Leopoldo",
+        "fr": "Saint-Léopold",
+        "it": "San Leopoldo",
+        "nl": "Sint-Leopold",
+        "pl": "Dzień Świętego Leopolda",
+        "pt": "Dia de São Leopoldo",
+        "rm": "Son Leopold",
+        "ru": "День святого Леопольда",
+        "tr": "Aziz Leopold Günü"
       },
       "date": {
         "type": "fixed",
@@ -651,7 +917,16 @@ export default {
       "id": "at.immaculate-conception",
       "names": {
         "en": "Immaculate Conception",
-        "de": "Mariä Empfängnis"
+        "de": "Mariä Empfängnis",
+        "es": "Inmaculada Concepción",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "nl": "Onbevlekte Ontvangenis",
+        "pl": "Niepokalane Poczęcie Najświętszej Maryi Panny",
+        "pt": "Imaculada Conceição",
+        "rm": "Immaculata Concepziun",
+        "ru": "Непорочное зачатие Девы Марии",
+        "tr": "Meryem’in Lekesiz Gebeliği"
       },
       "note": "Shops may open on 8 December under ARG § 13a; for employees it stays a Feiertag.",
       "date": {
@@ -674,7 +949,16 @@ export default {
       "id": "at.christmas-eve",
       "names": {
         "en": "Christmas Eve",
-        "de": "Heiliger Abend"
+        "de": "Heiliger Abend",
+        "es": "Nochebuena",
+        "fr": "Veille de Noël",
+        "it": "Vigilia di Natale",
+        "nl": "Kerstavond",
+        "pl": "Wigilia Bożego Narodzenia",
+        "pt": "Véspera de Natal",
+        "rm": "Sontga Saira",
+        "ru": "Сочельник",
+        "tr": "Noel Arifesi"
       },
       "date": {
         "type": "fixed",
@@ -697,7 +981,16 @@ export default {
       "id": "at.christmas",
       "names": {
         "en": "Christmas Day",
-        "de": "Weihnachten"
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "note": "ARG § 7 para. 2 names the day \"25. Dezember (Weihnachten)\"; commonly called Christtag.",
       "date": {
@@ -720,7 +1013,16 @@ export default {
       "id": "at.saint-stephen",
       "names": {
         "en": "Saint Stephen’s Day",
-        "de": "Stephanstag"
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "date": {
         "type": "fixed",
@@ -742,7 +1044,16 @@ export default {
       "id": "at.new-years-eve",
       "names": {
         "en": "New Year’s Eve",
-        "de": "Silvester"
+        "de": "Silvester",
+        "es": "Nochevieja",
+        "fr": "Saint-Sylvestre",
+        "it": "San Silvestro",
+        "nl": "Oudejaarsdag",
+        "pl": "Sylwester",
+        "pt": "Véspera de Ano Novo",
+        "rm": "Silvester",
+        "ru": "Канун Нового года",
+        "tr": "Yılbaşı Gecesi"
       },
       "date": {
         "type": "fixed",

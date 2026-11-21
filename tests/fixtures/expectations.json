@@ -1,5 +1,5 @@
 {
-  "about": "Cases both runtimes must pass (tests/js/expectations.test.js, tests/php/ExpectationsTest.php). data: fixtures = tests/fixtures/rules, bundled = the shipped data. A holiday is written as 'date id[ for original][ from startTime] type'.",
+  "about": "Cases both runtimes must pass (tests/js/expectations.test.js, tests/php/ExpectationsTest.php). data: fixtures = tests/fixtures/rules, bundled = the shipped data. name: the expected string or null. A holiday is written as 'date id[ for original][ from startTime] type'.",
   "all": [
     "public",
     "bank",
@@ -1733,6 +1733,86 @@
         "2024-12-25 lu.christmas public",
         "2024-12-26 lu.saint-stephen public"
       ]
+    },
+    {
+      "name": "name: a local language from rules.yaml (Romansh in CH)",
+      "data": "bundled",
+      "method": "name",
+      "args": [
+        "ch.national-day",
+        "rm"
+      ],
+      "expect": "Festa naziunala"
+    },
+    {
+      "name": "name: a regional tag falls back to its base language",
+      "data": "bundled",
+      "method": "name",
+      "args": [
+        "ch.national-day",
+        "de-CH"
+      ],
+      "expect": "Bundesfeier"
+    },
+    {
+      "name": "name: a translation file",
+      "data": "bundled",
+      "method": "name",
+      "args": [
+        "ch.national-day",
+        "pl"
+      ],
+      "expect": "Święto Narodowe Szwajcarii"
+    },
+    {
+      "name": "name: underscore tag and upper-case id",
+      "data": "bundled",
+      "method": "name",
+      "args": [
+        "CH.NATIONAL-DAY",
+        "pt_BR"
+      ],
+      "expect": "Dia Nacional da Suíça"
+    },
+    {
+      "name": "name: a further language of rules.yaml (Catalan in ES)",
+      "data": "bundled",
+      "method": "name",
+      "args": [
+        "es.aran-day",
+        "ca"
+      ],
+      "expect": "Festa d'Aran"
+    },
+    {
+      "name": "name: an unknown language falls back to English",
+      "data": "bundled",
+      "method": "name",
+      "args": [
+        "ch.national-day",
+        "ja"
+      ],
+      "expect": "Swiss National Day"
+    },
+    {
+      "name": "name: an unknown id",
+      "data": "bundled",
+      "method": "name",
+      "args": [
+        "zz.unknown",
+        "en"
+      ],
+      "expect": null
+    },
+    {
+      "name": "name: fixtures have no translations",
+      "data": "fixtures",
+      "method": "name",
+      "args": [
+        "xx.christmas",
+        "fr"
+      ],
+      "expect": "Christmas Day"
     }
   ]
 }

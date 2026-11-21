@@ -14,8 +14,6 @@
 # entitlement to have the next working day off work" (WRC). See decision
 # D-ie-1.
 code: IE
-names: {en: Ireland, ga: Éire}
-languages: [en, ga]
 regions: []
 sources:
   owta-1997:

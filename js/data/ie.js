@@ -4,7 +4,17 @@ export default {
   "code": "IE",
   "names": {
     "en": "Ireland",
-    "ga": "Éire"
+    "ga": "Éire",
+    "de": "Irland",
+    "es": "Irlanda",
+    "fr": "Irlande",
+    "it": "Irlanda",
+    "nl": "Ierland",
+    "pl": "Irlandia",
+    "pt": "Irlanda",
+    "rm": "Irlanda",
+    "ru": "Ирландия",
+    "tr": "İrlanda"
   },
   "languages": [
     "en",
@@ -51,7 +61,17 @@ export default {
       "id": "ie.new-year",
       "names": {
         "en": "New Year’s Day",
-        "ga": "Lá Caille"
+        "ga": "Lá Caille",
+        "de": "Neujahr",
+        "es": "Año Nuevo",
+        "fr": "Nouvel An",
+        "it": "Capodanno",
+        "nl": "Nieuwjaarsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "rm": "Bumaun",
+        "ru": "Новый год",
+        "tr": "Yılbaşı"
       },
       "date": {
         "type": "fixed",
@@ -74,7 +94,17 @@ export default {
       "id": "ie.saint-brigid",
       "names": {
         "en": "Saint Brigid’s Day",
-        "ga": "Lá Fhéile Bríde"
+        "ga": "Lá Fhéile Bríde",
+        "de": "Tag der heiligen Brigida",
+        "es": "Santa Brígida",
+        "fr": "Sainte-Brigitte",
+        "it": "Santa Brigida",
+        "nl": "Sint-Brigida",
+        "pl": "Dzień Świętej Brygidy",
+        "pt": "Dia de Santa Brígida",
+        "rm": "Sontga Brigida",
+        "ru": "День святой Бригиды",
+        "tr": "Azize Brigid Günü"
       },
       "from": 2023,
       "date": {
@@ -111,7 +141,17 @@ export default {
       "id": "ie.saint-patrick",
       "names": {
         "en": "Saint Patrick’s Day",
-        "ga": "Lá Fhéile Pádraig"
+        "ga": "Lá Fhéile Pádraig",
+        "de": "Sankt-Patricks-Tag",
+        "es": "Día de San Patricio",
+        "fr": "Saint-Patrick",
+        "it": "San Patrizio",
+        "nl": "Sint-Patricksdag",
+        "pl": "Dzień Świętego Patryka",
+        "pt": "Dia de São Patrício",
+        "rm": "Son Patrizi",
+        "ru": "День святого Патрика",
+        "tr": "Aziz Patrick Günü"
       },
       "date": {
         "type": "fixed",
@@ -134,7 +174,17 @@ export default {
       "id": "ie.covid-commemoration",
       "names": {
         "en": "Extra public holiday",
-        "ga": "Lá saoire poiblí breise"
+        "ga": "Lá saoire poiblí breise",
+        "de": "Zusätzlicher Feiertag",
+        "es": "Festivo adicional",
+        "fr": "Jour férié supplémentaire",
+        "it": "Festività aggiuntiva",
+        "nl": "Extra feestdag",
+        "pl": "Dodatkowy dzień wolny od pracy",
+        "pt": "Feriado adicional",
+        "rm": "Di da festa supplementar",
+        "ru": "Дополнительный праздничный день",
+        "tr": "Ek resmî tatil"
       },
       "date": {
         "type": "list",
@@ -158,7 +208,17 @@ export default {
       "id": "ie.easter-monday",
       "names": {
         "en": "Easter Monday",
-        "ga": "Luan na Cásca"
+        "ga": "Luan na Cásca",
+        "de": "Ostermontag",
+        "es": "Lunes de Pascua",
+        "fr": "Lundi de Pâques",
+        "it": "Lunedì di Pasqua",
+        "nl": "Paasmaandag",
+        "pl": "Poniedziałek Wielkanocny",
+        "pt": "Segunda-feira de Páscoa",
+        "rm": "Glindesdi da Pasca",
+        "ru": "Пасхальный понедельник",
+        "tr": "Paskalya Pazartesisi"
       },
       "date": {
         "type": "easter",
@@ -180,7 +240,17 @@ export default {
       "id": "ie.may-bank-holiday",
       "names": {
         "en": "First Monday in May",
-        "ga": "An chéad Luan i mí na Bealtaine"
+        "ga": "An chéad Luan i mí na Bealtaine",
+        "de": "Erster Montag im Mai",
+        "es": "Primer lunes de mayo",
+        "fr": "Premier lundi de mai",
+        "it": "Primo lunedì di maggio",
+        "nl": "Eerste maandag van mei",
+        "pl": "Pierwszy poniedziałek maja",
+        "pt": "Primeira segunda-feira de maio",
+        "rm": "Emprim glindesdi da matg",
+        "ru": "Первый понедельник мая",
+        "tr": "Mayıs’ın ilk pazartesi günü"
       },
       "date": {
         "type": "nthWeekday",
@@ -204,7 +274,17 @@ export default {
       "id": "ie.june-bank-holiday",
       "names": {
         "en": "First Monday in June",
-        "ga": "An chéad Luan i mí an Mheithimh"
+        "ga": "An chéad Luan i mí an Mheithimh",
+        "de": "Erster Montag im Juni",
+        "es": "Primer lunes de junio",
+        "fr": "Premier lundi de juin",
+        "it": "Primo lunedì di giugno",
+        "nl": "Eerste maandag van juni",
+        "pl": "Pierwszy poniedziałek czerwca",
+        "pt": "Primeira segunda-feira de junho",
+        "rm": "Emprim glindesdi da zercladur",
+        "ru": "Первый понедельник июня",
+        "tr": "Haziran’ın ilk pazartesi günü"
       },
       "date": {
         "type": "nthWeekday",
@@ -228,7 +308,17 @@ export default {
       "id": "ie.august-bank-holiday",
       "names": {
         "en": "First Monday in August",
-        "ga": "An chéad Luan i mí Lúnasa"
+        "ga": "An chéad Luan i mí Lúnasa",
+        "de": "Erster Montag im August",
+        "es": "Primer lunes de agosto",
+        "fr": "Premier lundi d’août",
+        "it": "Primo lunedì di agosto",
+        "nl": "Eerste maandag van augustus",
+        "pl": "Pierwszy poniedziałek sierpnia",
+        "pt": "Primeira segunda-feira de agosto",
+        "rm": "Emprim glindesdi d’avust",
+        "ru": "Первый понедельник августа",
+        "tr": "Ağustos’un ilk pazartesi günü"
       },
       "date": {
         "type": "nthWeekday",
@@ -252,7 +342,17 @@ export default {
       "id": "ie.national-day-of-mourning",
       "names": {
         "en": "National Day of Mourning",
-        "ga": "Lá saoire poiblí breise"
+        "ga": "Lá saoire poiblí breise",
+        "de": "Nationaler Trauertag",
+        "es": "Día Nacional de Duelo",
+        "fr": "Journée nationale de deuil",
+        "it": "Giornata nazionale di lutto",
+        "nl": "Nationale dag van rouw",
+        "pl": "Narodowy Dzień Żałoby",
+        "pt": "Dia Nacional de Luto",
+        "rm": "Di naziunal da cordoli",
+        "ru": "День национального траура",
+        "tr": "Ulusal Yas Günü"
       },
       "date": {
         "type": "list",
@@ -275,7 +375,17 @@ export default {
       "id": "ie.october-bank-holiday",
       "names": {
         "en": "Last Monday in October",
-        "ga": "An Luan deireanach i mí Dheireadh Fómhair"
+        "ga": "An Luan deireanach i mí Dheireadh Fómhair",
+        "de": "Letzter Montag im Oktober",
+        "es": "Último lunes de octubre",
+        "fr": "Dernier lundi d’octobre",
+        "it": "Ultimo lunedì di ottobre",
+        "nl": "Laatste maandag van oktober",
+        "pl": "Ostatni poniedziałek października",
+        "pt": "Última segunda-feira de outubro",
+        "rm": "Ultim glindesdi d’october",
+        "ru": "Последний понедельник октября",
+        "tr": "Ekim’in son pazartesi günü"
       },
       "date": {
         "type": "nthWeekday",
@@ -299,7 +409,17 @@ export default {
       "id": "ie.christmas",
       "names": {
         "en": "Christmas Day",
-        "ga": "Lá Nollag"
+        "ga": "Lá Nollag",
+        "de": "Weihnachten",
+        "es": "Navidad",
+        "fr": "Noël",
+        "it": "Natale",
+        "nl": "Kerstmis",
+        "pl": "Boże Narodzenie",
+        "pt": "Natal",
+        "rm": "Nadal",
+        "ru": "Рождество Христово",
+        "tr": "Noel"
       },
       "date": {
         "type": "fixed",
@@ -322,7 +442,17 @@ export default {
       "id": "ie.saint-stephen",
       "names": {
         "en": "Saint Stephen’s Day",
-        "ga": "Lá Fhéile Stiofáin"
+        "ga": "Lá Fhéile Stiofáin",
+        "de": "Stephanstag",
+        "es": "San Esteban",
+        "fr": "Saint-Étienne",
+        "it": "Santo Stefano",
+        "nl": "Sint-Stefanus",
+        "pl": "Dzień Świętego Szczepana",
+        "pt": "Dia de Santo Estêvão",
+        "rm": "Son Steffan",
+        "ru": "День святого Стефана",
+        "tr": "Aziz Stefanos Günü"
       },
       "date": {
         "type": "fixed",

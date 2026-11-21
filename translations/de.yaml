@@ -1,0 +1,256 @@
+# de: holiday names for countries where de is not a local language. Written by
+# Claude and not yet reviewed (docs/coverage.md); edit by hand.
+language: de
+countries:
+  AD:
+    holidays:
+      ad.new-year: Neujahr
+      ad.epiphany: Heilige Drei Könige
+      ad.carnival: Karneval
+      ad.constitution-day: Tag der Verfassung
+      ad.good-friday: Karfreitag
+      ad.easter-monday: Ostermontag
+      ad.labour-day: Tag der Arbeit
+      ad.whit-monday: Pfingstmontag
+      ad.assumption: Mariä Himmelfahrt
+      ad.meritxell: Unsere Liebe Frau von Meritxell
+      ad.all-saints: Allerheiligen
+      ad.immaculate-conception: Mariä Empfängnis
+      ad.christmas: Weihnachten
+      ad.saint-stephen: Stephanstag
+  ES:
+    holidays:
+      es.new-year: Neujahr
+      es.epiphany: Heilige Drei Könige
+      es.ceuta-convivencia-day: Tag des Zusammenlebens
+      es.island-tenerife: 'Inselfeiertag: Teneriffa'
+      es.shrove-tuesday: Fasnachtsdienstag
+      es.andalusia-day: Tag Andalusiens
+      es.balearic-islands-day: Tag der Balearen
+      es.melilla-statute-day: Tag des Autonomiestatuts von Melilla
+      es.fallas-monday: Fallas-Montag
+      es.saint-joseph: Josefstag
+      es.maundy-thursday: Gründonnerstag
+      es.good-friday: Karfreitag
+      es.easter-monday: Ostermontag
+      es.aragon-day: Georgstag, Tag Aragoniens
+      es.castile-leon-day: Tag von Kastilien und León
+      es.labour-day: Tag der Arbeit
+      es.madrid-day: Tag der Autonomen Gemeinschaft Madrid
+      es.eid-al-fitr: Fest des Fastenbrechens
+      es.galician-literature-day: Tag der galicischen Literatur
+      es.whit-monday: Pfingstmontag
+      es.canary-islands-day: Tag der Kanarischen Inseln
+      es.castile-la-mancha-day: Tag von Kastilien-La Mancha
+      es.corpus-christi: Fronleichnam
+      es.murcia-day: Tag der Region Murcia
+      es.la-rioja-day: Tag von La Rioja
+      es.aran-day: Fest von Aran
+      es.saint-john: Johannistag
+      es.saint-james: Jakobstag
+      es.cantabria-institutions-day: Tag der Institutionen Kantabriens
+      es.our-lady-of-africa: Unsere Liebe Frau von Afrika
+      es.island-la-palma: 'Inselfeiertag: La Palma'
+      es.assumption: Mariä Himmelfahrt
+      es.ceuta-day: Tag von Ceuta
+      es.circumnavigation-500: 500. Jahrestag der ersten Weltumsegelung
+      es.asturias-day: Tag Asturiens
+      es.extremadura-day: Tag der Extremadura
+      es.island-gran-canaria: 'Inselfeiertag: Gran Canaria'
+      es.catalonia-national-day: Nationalfeiertag Kataloniens
+      es.bien-aparecida: Unsere Liebe Frau von Bien Aparecida
+      es.island-lanzarote: 'Inselfeiertag: Lanzarote'
+      es.island-fuerteventura: 'Inselfeiertag: Fuerteventura'
+      es.island-el-hierro: 'Inselfeiertag: El Hierro'
+      es.basque-government-anniversary: Jahrestag der ersten baskischen Regierung
+      es.valencian-community-day: Tag der Valencianischen Gemeinschaft
+      es.island-la-gomera: 'Inselfeiertag: La Gomera'
+      es.national-day: Spanischer Nationalfeiertag
+      es.basque-country-day: Tag des Baskenlandes
+      es.all-saints: Allerheiligen
+      es.eid-al-adha: Opferfest
+      es.constitution-day: Tag der Verfassung
+      es.immaculate-conception: Mariä Empfängnis
+      es.christmas: Weihnachten
+      es.saint-stephen: Stephanstag
+  FR:
+    holidays:
+      fr.new-year: Neujahr
+      fr.good-friday: Karfreitag
+      fr.easter-monday: Ostermontag
+      fr.abolition-of-slavery: Gedenktag der Abschaffung der Sklaverei
+      fr.labour-day: Tag der Arbeit
+      fr.victory-day: Tag des Sieges in Europa
+      fr.ascension: Christi Himmelfahrt
+      fr.whit-monday: Pfingstmontag
+      fr.national-day: Nationalfeiertag
+      fr.assumption: Mariä Himmelfahrt
+      fr.all-saints: Allerheiligen
+      fr.armistice-day: Waffenstillstand 1918
+      fr.christmas: Weihnachten
+      fr.saint-stephen: Stephanstag
+  GB:
+    holidays:
+      gb.new-year: Neujahr
+      gb.second-january: 2. Januar
+      gb.saint-patrick: Sankt-Patricks-Tag
+      gb.good-friday: Karfreitag
+      gb.easter-monday: Ostermontag
+      gb.royal-wedding: Königliche Hochzeit
+      gb.early-may: Feiertag Anfang Mai
+      gb.coronation: Feiertag zur Krönung von König Charles III.
+      gb.spring-bank: Frühlingsfeiertag
+      gb.golden-jubilee: Goldenes Thronjubiläum
+      gb.diamond-jubilee: Diamantenes Thronjubiläum der Königin
+      gb.platinum-jubilee: Feiertag zum Platinjubiläum
+      gb.world-cup: Feiertag zur Weltmeisterschaft
+      gb.battle-of-the-boyne: Schlacht am Boyne (Orangemen’s Day)
+      gb.summer-bank: Sommerfeiertag
+      gb.state-funeral: Feiertag zum Staatsbegräbnis von Königin Elisabeth II.
+      gb.saint-andrew: Andreastag
+      gb.christmas: Weihnachten
+      gb.boxing-day: Boxing Day
+  IE:
+    holidays:
+      ie.new-year: Neujahr
+      ie.saint-brigid: Tag der heiligen Brigida
+      ie.saint-patrick: Sankt-Patricks-Tag
+      ie.covid-commemoration: Zusätzlicher Feiertag
+      ie.easter-monday: Ostermontag
+      ie.may-bank-holiday: Erster Montag im Mai
+      ie.june-bank-holiday: Erster Montag im Juni
+      ie.august-bank-holiday: Erster Montag im August
+      ie.national-day-of-mourning: Nationaler Trauertag
+      ie.october-bank-holiday: Letzter Montag im Oktober
+      ie.christmas: Weihnachten
+      ie.saint-stephen: Stephanstag
+  IT:
+    holidays:
+      it.new-year: Neujahr
+      it.epiphany: Heilige Drei Könige
+      it.unification-150: 150. Jahrestag der Einigung Italiens
+      it.easter-monday: Ostermontag
+      it.liberation-day: Tag der Befreiung
+      it.labour-day: Tag der Arbeit
+      it.whit-monday: Pfingstmontag
+      it.national-day: Tag der Republik
+      it.assumption: Mariä Himmelfahrt
+      it.saint-francis: Fest des heiligen Franz von Assisi
+      it.all-saints: Allerheiligen
+      it.immaculate-conception: Mariä Empfängnis
+      it.christmas: Weihnachten
+      it.saint-stephen: Stephanstag
+  MC:
+    holidays:
+      mc.new-year: Neujahr
+      mc.saint-devote: Tag der heiligen Devota
+      mc.easter-monday: Ostermontag
+      mc.labour-day: Tag der Arbeit
+      mc.ascension: Christi Himmelfahrt
+      mc.whit-monday: Pfingstmontag
+      mc.corpus-christi: Fronleichnam
+      mc.assumption: Mariä Himmelfahrt
+      mc.all-saints: Allerheiligen
+      mc.national-day: Nationalfeiertag (Fürstentag)
+      mc.immaculate-conception: Mariä Empfängnis
+      mc.christmas: Weihnachten
+  MT:
+    holidays:
+      mt.new-year: Neujahr
+      mt.saint-pauls-shipwreck: Fest des Schiffbruchs des Apostels Paulus
+      mt.saint-joseph: Josefstag
+      mt.freedom-day: Tag der Freiheit
+      mt.good-friday: Karfreitag
+      mt.labour-day: Tag der Arbeit
+      mt.sette-giugno: Sette Giugno
+      mt.saints-peter-and-paul: Peter und Paul
+      mt.assumption: Mariä Himmelfahrt
+      mt.victory-day: Tag des Sieges
+      mt.independence-day: Unabhängigkeitstag
+      mt.immaculate-conception: Mariä Empfängnis
+      mt.republic-day: Tag der Republik
+      mt.christmas: Weihnachten
+  NL:
+    holidays:
+      nl.new-year: Neujahr
+      nl.good-friday: Karfreitag
+      nl.easter-monday: Ostermontag
+      nl.queens-day: Königinnentag
+      nl.kings-day: Königstag
+      nl.dia-di-rincon: Rincon-Tag
+      nl.labour-day: Tag der Arbeit
+      nl.liberation-day: Tag der Befreiung
+      nl.ascension: Christi Himmelfahrt
+      nl.whit-monday: Pfingstmontag
+      nl.emancipation-day: Tag der Emanzipation
+      nl.flag-day-bonaire: Tag der Flagge und Hymne von Bonaire
+      nl.statia-day: Statia-Tag
+      nl.saba-day: Saba-Tag
+      nl.christmas: Weihnachten
+      nl.saint-stephen: Zweiter Weihnachtstag
+  PT:
+    holidays:
+      pt.new-year: Neujahr
+      pt.shrove-tuesday: Karneval
+      pt.good-friday: Karfreitag
+      pt.madeira-autonomy-day: Tag der Autonomie
+      pt.freedom-day: Tag der Freiheit
+      pt.labour-day: Tag der Arbeit
+      pt.azores-day: Tag der Azoren
+      pt.corpus-christi: Fronleichnam
+      pt.national-day: Tag Portugals
+      pt.madeira-day: Tag Madeiras
+      pt.assumption: Mariä Himmelfahrt
+      pt.republic-day: Tag der Republik
+      pt.all-saints: Allerheiligen
+      pt.restoration-of-independence: Wiederherstellung der Unabhängigkeit
+      pt.immaculate-conception: Mariä Empfängnis
+      pt.christmas: Weihnachten
+      pt.saint-stephen: Erster Tag der Weihnachtsoktav
+  SM:
+    holidays:
+      sm.new-year: Hochfest der Gottesmutter Maria
+      sm.epiphany: Heilige Drei Könige
+      sm.saint-agatha: Tag der heiligen Agatha
+      sm.arengo: Jahrestag des Arengo
+      sm.captains-regent-april: Amtseinführung der Capitani Reggenti
+      sm.easter-monday: Ostermontag
+      sm.labour-day: Tag der Arbeit
+      sm.corpus-christi: Fronleichnam
+      sm.fall-of-fascism: Jahrestag des Sturzes des Faschismus
+      sm.assumption: Mariä Himmelfahrt
+      sm.national-day: Fest des heiligen Marinus, Gründer der Republik
+      sm.captains-regent-october: Amtseinführung der Capitani Reggenti
+      sm.all-saints: Allerheiligen
+      sm.all-souls: Allerseelen
+      sm.immaculate-conception: Mariä Empfängnis
+      sm.christmas: Weihnachten
+      sm.saint-stephen: Stephanstag
+  VA:
+    holidays:
+      va.new-year: Hochfest der Gottesmutter Maria
+      va.epiphany: Heilige Drei Könige
+      va.state-anniversary: Jahrestag der Gründung des Staates Vatikanstadt
+      va.saint-joseph: Josefstag
+      va.maundy-thursday: Gründonnerstag
+      va.good-friday: Karfreitag
+      va.holy-saturday: Karsamstag
+      va.easter-monday: Ostermontag
+      va.easter-tuesday: Osterdienstag
+      va.saint-joseph-the-worker: Josef der Arbeiter
+      va.papal-election-anniversary: Jahrestag der Papstwahl
+      va.ascension: Christi Himmelfahrt
+      va.corpus-christi: Fronleichnam
+      va.saints-peter-and-paul: Peter und Paul
+      va.assumption-eve: Vorabend von Mariä Himmelfahrt
+      va.assumption: Mariä Himmelfahrt
+      va.day-after-assumption: Tag nach Mariä Himmelfahrt
+      va.papal-name-day: Namenstag des Papstes
+      va.all-saints: Allerheiligen
+      va.all-souls: Allerseelen
+      va.immaculate-conception: Mariä Empfängnis
+      va.christmas-eve: Heiligabend
+      va.christmas: Weihnachten
+      va.saint-stephen: Stephanstag
+      va.saint-john: Apostel Johannes
+      va.new-years-eve: Silvester

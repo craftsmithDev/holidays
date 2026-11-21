@@ -15,12 +15,10 @@
 # German-speaking Community -> BE-WAL (only its nine municipalities in the
 # province of Liège, named in the note).
 code: BE
-names: {nl: België, fr: Belgique, de: Belgien, en: Belgium}
-languages: [nl, fr, de]
 regions:
-  - {code: BE-BRU, names: {nl: Brussels Hoofdstedelijk Gewest, fr: Région de Bruxelles-Capitale, de: Region Brüssel-Hauptstadt, en: Brussels-Capital Region}}
-  - {code: BE-VLG, names: {nl: Vlaams Gewest, fr: Région flamande, de: Flämische Region, en: Flemish Region}}
-  - {code: BE-WAL, names: {nl: Waals Gewest, fr: Région wallonne, de: Wallonische Region, en: Walloon Region}}
+  - BE-BRU
+  - BE-VLG
+  - BE-WAL
 sources:
   be-wet-feestdagen:
     title: 4 JANVIER 1974. - Loi relative aux jours fériés (Justel, version consolidée)
